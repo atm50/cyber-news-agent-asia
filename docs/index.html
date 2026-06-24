@@ -3,98 +3,200 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>APAC Cyber Attack News Monitor</title>
+<title>APAC Threat Board</title>
 <style>
   :root {
-    --bg: #0b0f14;
-    --card: #131922;
-    --border: #232b36;
-    --text: #e6edf3;
-    --muted: #8b98a5;
-    --accent: #ff5c5c;
+    --bg: #0a0d10;
+    --panel: #10151a;
+    --panel-border: #1f2a32;
+    --grid-line: #161d23;
+    --text: #d8e2e8;
+    --muted: #5f7480;
+    --signal: #38ffb0;
+    --alert: #ff5c5c;
+    --mono: "SF Mono", "Cascadia Code", Consolas, monospace;
+    --display: "Helvetica Neue", Arial, sans-serif;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
     background: var(--bg);
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 28px 28px;
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    padding: 24px 16px 60px;
+    font-family: var(--display);
+    padding: 28px 20px 60px;
+    min-height: 100vh;
   }
-  .wrap { max-width: 780px; margin: 0 auto; }
-  header { margin-bottom: 20px; }
-  h1 { font-size: 1.4rem; margin: 0 0 4px; }
-  .sub { color: var(--muted); font-size: 0.85rem; }
-  #status { font-size: 0.8rem; color: var(--muted); margin-top: 8px; }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 14px 16px;
-    margin-bottom: 10px;
-  }
-  .card a {
-    color: var(--text);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-  .card a:hover { color: var(--accent); text-decoration: underline; }
-  .meta {
+  .wrap { max-width: 1280px; margin: 0 auto; }
+
+  header {
     display: flex;
-    gap: 10px;
-    margin-top: 6px;
-    font-size: 0.75rem;
-    color: var(--muted);
+    justify-content: space-between;
+    align-items: flex-end;
     flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--panel-border);
   }
-  .tag {
-    background: #1c2531;
-    padding: 2px 8px;
+  .title-block h1 { font-size: 1.6rem; margin: 0; letter-spacing: 0.3px; }
+  .title-block .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--signal);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+  #status { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); text-align: right; }
+  #status .dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--signal);
+    margin-right: 6px;
+    box-shadow: 0 0 8px var(--signal);
+  }
+
+  /* Tabs */
+  .tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  .tab-btn {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    color: var(--muted);
+    padding: 10px 16px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--signal); border-bottom-color: var(--signal); }
+
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* Overview tab - simple list */
+  .overview-list .item {
+    display: block;
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .overview-list .item:hover { border-color: var(--signal); }
+  .overview-list .headline { font-size: 0.92rem; font-weight: 600; display: block; margin-bottom: 6px; }
+  .overview-list .meta { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); display: flex; gap: 10px; }
+  .overview-list .meta .src { color: var(--signal); }
+
+  /* By Country grid */
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 340px;
+  }
+  .panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--panel-border);
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  }
+  .panel-head .country { display: flex; align-items: center; gap: 8px; font-size: 1rem; font-weight: 600; }
+  .flag { font-size: 1.1rem; line-height: 1; }
+  .count {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--muted);
+    border: 1px solid var(--panel-border);
     border-radius: 100px;
+    padding: 2px 8px;
   }
-  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+  .feed { flex: 1; overflow-y: auto; padding: 4px 0; }
+  .feed .item {
+    display: block;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--grid-line);
+    text-decoration: none;
+    color: var(--text);
+  }
+  .feed .item:hover { background: rgba(255,255,255,0.03); }
+  .feed .item .headline { font-size: 0.84rem; line-height: 1.35; display: block; margin-bottom: 5px; }
+  .feed .item .meta { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); display: flex; gap: 8px; }
+  .feed .item .meta .src { color: var(--signal); }
+
+  .empty-feed, .empty {
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    padding: 30px 14px;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 28px;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--muted);
+    text-align: center;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>🛡️ APAC Cyber Attack News Monitor</h1>
-    <div class="sub">Auto-refreshed every hour from public news sources</div>
-    <div id="status">Loading...</div>
+    <div class="title-block">
+      <div class="eyebrow">Live monitoring &middot; updated hourly</div>
+      <h1>APAC Threat Board</h1>
+    </div>
+    <div id="status"><span class="dot"></span>Loading...</div>
   </header>
-  <div id="results"></div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="overview">Overview</button>
+    <button class="tab-btn" data-tab="by-country">By Country</button>
+  </div>
+
+  <div class="tab-panel active" id="tab-overview">
+    <div class="overview-list" id="overview-list"></div>
+  </div>
+
+  <div class="tab-panel" id="tab-by-country">
+    <div class="grid" id="country-grid"></div>
+  </div>
+
+  <footer>Sources: public news via Google News RSS &middot; refreshed automatically every hour</footer>
 </div>
 
 <script>
-async function loadNews() {
-  const statusEl = document.getElementById('status');
-  const resultsEl = document.getElementById('results');
-  try {
-    const res = await fetch('news.json?t=' + Date.now());
-    const data = await res.json();
-    const updated = new Date(data.last_updated_utc);
-    statusEl.textContent = `Last updated: ${updated.toLocaleString()} · ${data.count} articles`;
-
-    if (!data.items || data.items.length === 0) {
-      resultsEl.innerHTML = '<div class="empty">No articles found yet. Check back after the next hourly run.</div>';
-      return;
-    }
-
-    resultsEl.innerHTML = data.items.map(item => `
-      <div class="card">
-        <a href="${item.link}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
-        <div class="meta">
-          ${item.source ? `<span class="tag">${escapeHtml(item.source)}</span>` : ''}
-          ${item.published ? `<span>${escapeHtml(item.published)}</span>` : ''}
-        </div>
-      </div>
-    `).join('');
-  } catch (e) {
-    statusEl.textContent = 'Could not load news.json yet — it will appear after the first scheduled run.';
-  }
-}
+const COUNTRY_FLAGS = {
+  "India": "🇮🇳", "Australia": "🇦🇺", "Singapore": "🇸🇬",
+  "Malaysia": "🇲🇾", "Philippines": "🇵🇭", "Indonesia": "🇮🇩",
+};
+const COUNTRY_ORDER = ["India", "Australia", "Singapore", "Malaysia", "Philippines", "Indonesia"];
 
 function escapeHtml(str) {
   const div = document.createElement('div');
@@ -102,8 +204,85 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+// Tab switching
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+function renderOverviewItem(item) {
+  return `
+    <a class="item" href="${item.link}" target="_blank" rel="noopener">
+      <span class="headline">${escapeHtml(item.title)}</span>
+      <span class="meta">
+        ${item.source ? `<span class="src">${escapeHtml(item.source)}</span>` : ''}
+        ${item.published ? `<span>${escapeHtml(item.published)}</span>` : ''}
+      </span>
+    </a>
+  `;
+}
+
+function renderCountryPanel(country, items) {
+  const flag = COUNTRY_FLAGS[country] || "";
+  const feedHtml = (!items || items.length === 0)
+    ? `<div class="empty-feed">No recent articles found for ${escapeHtml(country)}.</div>`
+    : items.map(item => `
+        <a class="item" href="${item.link}" target="_blank" rel="noopener">
+          <span class="headline">${escapeHtml(item.title)}</span>
+          <span class="meta">
+            ${item.source ? `<span class="src">${escapeHtml(item.source)}</span>` : ''}
+            ${item.published ? `<span>${escapeHtml(item.published)}</span>` : ''}
+          </span>
+        </a>
+      `).join('');
+
+  return `
+    <div class="panel">
+      <div class="panel-head">
+        <div class="country"><span class="flag">${flag}</span>${escapeHtml(country)}</div>
+        <div class="count">${items ? items.length : 0} ITEMS</div>
+      </div>
+      <div class="feed">${feedHtml}</div>
+    </div>
+  `;
+}
+
+async function loadNews() {
+  const statusEl = document.getElementById('status');
+  const overviewEl = document.getElementById('overview-list');
+  const gridEl = document.getElementById('country-grid');
+  try {
+    const res = await fetch('news.json?t=' + Date.now());
+    const data = await res.json();
+
+    if (data.last_updated_utc) {
+      const updated = new Date(data.last_updated_utc);
+      statusEl.innerHTML = `<span class="dot"></span>Last updated: ${updated.toLocaleString()}`;
+    } else {
+      statusEl.innerHTML = `<span class="dot"></span>Waiting for first run...`;
+    }
+
+    // Overview tab
+    const items = data.items || [];
+    overviewEl.innerHTML = items.length
+      ? items.map(renderOverviewItem).join('')
+      : `<div class="empty">No articles found yet. Check back after the next hourly run.</div>`;
+
+    // By Country tab
+    const countries = data.countries || {};
+    gridEl.innerHTML = COUNTRY_ORDER.map(c => renderCountryPanel(c, countries[c])).join('');
+  } catch (e) {
+    statusEl.textContent = 'Could not load news.json yet — it will appear after the first scheduled run.';
+    gridEl.innerHTML = COUNTRY_ORDER.map(c => renderCountryPanel(c, [])).join('');
+  }
+}
+
 loadNews();
-setInterval(loadNews, 5 * 60 * 1000); // refresh the view every 5 min in case file updated
+setInterval(loadNews, 5 * 60 * 1000);
 </script>
 </body>
 </html>
