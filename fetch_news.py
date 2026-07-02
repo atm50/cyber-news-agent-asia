@@ -126,12 +126,8 @@ def fetch_hibp_breaches():
             "is_verified": b.get("IsVerified", False),
         }
 
-    # Most recently added
-    recent  = sorted(all_b, key=lambda x: x.get("AddedDate",""),  reverse=True)[:30]
-    # Largest ever
-    largest = sorted(all_b, key=lambda x: x.get("PwnCount", 0),   reverse=True)[:30]
-
-    return [fmt(b) for b in recent], [fmt(b) for b in largest]
+    recent = sorted(all_b, key=lambda x: x.get("AddedDate",""), reverse=True)[:30]
+    return [fmt(b) for b in recent]
 
 
 def dedupe(items):
@@ -192,9 +188,9 @@ def main():
     darkweb_items = dedupe(darkweb_items)
 
     # 3c. HIBP breach catalogue
-    hibp_recent, hibp_largest = [], []
+    hibp_recent = []
     try:
-        hibp_recent, hibp_largest = fetch_hibp_breaches()
+        hibp_recent = fetch_hibp_breaches()
     except Exception as e:
         errors.append(f"[hibp]: {e}")
 
@@ -210,7 +206,6 @@ def main():
             "blog_news":     blog_items,
             "darkweb_news":  darkweb_items,
             "hibp_recent":   hibp_recent,
-            "hibp_largest":  hibp_largest,
         },
         "errors": errors,
     }
@@ -222,7 +217,7 @@ def main():
     print(f"Overview: {len(general_items)} items")
     print(f"Country:  {sum(len(v) for v in countries_output.values())} items across {len(countries_output)} countries")
     print(f"Blogs:    {len(blog_items)} items | Dark web news: {len(darkweb_items)} items")
-    print(f"HIBP:     {len(hibp_recent)} most recent | {len(hibp_largest)} largest ever (global)")
+    print(f"HIBP:     {len(hibp_recent)} most recently added breaches")
     if errors:
         print("Errors:", errors)
 
