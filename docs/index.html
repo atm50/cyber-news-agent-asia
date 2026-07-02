@@ -120,7 +120,7 @@
   <div class="tabs">
     <button class="tab-btn active" data-tab="overview">Overview</button>
     <button class="tab-btn" data-tab="by-country">By Country</button>
-    <button class="tab-btn" data-tab="breach-intel">Breach &amp; Dark Web Intel</button>
+    <button class="tab-btn" data-tab="breach-intel">Global Breach &amp; Dark Web</button>
   </div>
 
   <!-- Tab 1: Overview -->
@@ -144,13 +144,13 @@
         <h2>🕸️ Dark Web &amp; Leak News</h2>
         <div class="card-list" id="darkweb-list"></div>
       </div>
-      <div class="intel-section full-width" id="section-hibp-apac">
-        <h2>🌏 APAC Breaches (Have I Been Pwned Database)</h2>
-        <div id="hibp-apac-list"></div>
-      </div>
       <div class="intel-section full-width" id="section-hibp-recent">
-        <h2>🌐 Most Recent Global Breaches (Have I Been Pwned Database)</h2>
+        <h2>🆕 Most Recently Added Breaches (Have I Been Pwned Database)</h2>
         <div id="hibp-recent-list"></div>
+      </div>
+      <div class="intel-section full-width" id="section-hibp-largest">
+        <h2>💥 Largest Breaches of All Time (Have I Been Pwned Database)</h2>
+        <div id="hibp-largest-list"></div>
       </div>
     </div>
   </div>
@@ -261,17 +261,17 @@ async function loadNews(){
       ? (bi.darkweb_news||[]).map(renderCard).join("")
       : `<div class="empty">No dark web news yet.</div>`;
 
-    const hibpApacEl = document.getElementById("hibp-apac-list");
-    const apacBreaches = bi.hibp_apac||[];
-    hibpApacEl.innerHTML = apacBreaches.length
-      ? apacBreaches.map(b=>renderBreachCard(b,true)).join("")
-      : `<div class="empty">No APAC-specific breaches found in HIBP database.</div>`;
-
     const hibpRecentEl = document.getElementById("hibp-recent-list");
     const recentBreaches = bi.hibp_recent||[];
     hibpRecentEl.innerHTML = recentBreaches.length
-      ? recentBreaches.map(b=>renderBreachCard(b,false)).join("")
+      ? recentBreaches.map(b=>renderBreachCard(b)).join("")
       : `<div class="empty">No recent breach data yet.</div>`;
+
+    const hibpLargestEl = document.getElementById("hibp-largest-list");
+    const largestBreaches = bi.hibp_largest||[];
+    hibpLargestEl.innerHTML = largestBreaches.length
+      ? largestBreaches.map(b=>renderBreachCard(b)).join("")
+      : `<div class="empty">No breach data yet.</div>`;
 
   } catch(e){
     statusEl.textContent = "Could not load news.json yet — it will appear after the first scheduled run.";
