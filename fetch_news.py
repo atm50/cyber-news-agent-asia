@@ -53,10 +53,11 @@ MAX_FEED_ITEMS = 8   # per feed
 
 # ── Tab 3 — Breach Intel: dark web / leaked data Google News queries ──────────
 DARKWEB_QUERIES = [
-    "dark web data leak Asia Pacific",
-    "leaked credentials Asia breach",
-    "ransomware darknet APAC",
-    "hacker forum stolen data India OR Singapore OR Australia",
+    "dark web data leak breach",
+    "leaked credentials hacker forum",
+    "ransomware darknet attack",
+    "stolen data dark web cybercriminal",
+    "data breach underground forum leaked",
 ]
 MAX_DARKWEB = 8
 
@@ -104,22 +105,13 @@ def fetch_rss_feed(feed_name, feed_url, max_items):
 
 
 def fetch_hibp_breaches():
-    """Fetch the full HIBP breach catalogue (no API key needed) and split into
-    recent global breaches and APAC-relevant breaches."""
-    data   = http_get("https://haveibeenpwned.com/api/v3/breaches")
-    all_b  = json.loads(data)
-
-    # Sort by AddedDate descending
-    all_b.sort(key=lambda x: x.get("AddedDate", ""), reverse=True)
-
-    def is_apac(b):
-        domain = b.get("Domain", "").lower()
-        title  = b.get("Title",  "").lower()
-        if any(domain.endswith(t) for t in APAC_TLDS):
-            return True
-        if any(kw in title for kw in APAC_KEYWORDS):
-            return True
-        return False
+    """Fetch the full HIBP breach catalogue (no API key needed).
+    Returns:
+      - recent:    30 most recently added breaches (global)
+      - largest:   30 largest breaches ever by victim count (global)
+    """
+    data  = http_get("https://haveibeenpwned.com/api/v3/breaches")
+    all_b = json.loads(data)
 
     def fmt(b):
         return {
@@ -134,10 +126,12 @@ def fetch_hibp_breaches():
             "is_verified": b.get("IsVerified", False),
         }
 
-    recent_global = [fmt(b) for b in all_b[:20]]
-    apac_breaches = [fmt(b) for b in all_b if is_apac(b)][:30]
+    # Most recently added
+    recent  = sorted(all_b, key=lambda x: x.get("AddedDate",""),  reverse=True)[:30]
+    # Largest ever
+    largest = sorted(all_b, key=lambda x: x.get("PwnCount", 0),   reverse=True)[:30]
 
-    return recent_global, apac_breaches
+    return [fmt(b) for b in recent], [fmt(b) for b in largest]
 
 
 def dedupe(items):
@@ -198,9 +192,9 @@ def main():
     darkweb_items = dedupe(darkweb_items)
 
     # 3c. HIBP breach catalogue
-    hibp_recent, hibp_apac = [], []
+    hibp_recent, hibp_largest = [], []
     try:
-        hibp_recent, hibp_apac = fetch_hibp_breaches()
+        hibp_recent, hibp_largest = fetch_hibp_breaches()
     except Exception as e:
         errors.append(f"[hibp]: {e}")
 
@@ -213,10 +207,10 @@ def main():
         "countries": countries_output,
         # Tab 3
         "breach_intel": {
-            "blog_news":    blog_items,
-            "darkweb_news": darkweb_items,
-            "hibp_recent":  hibp_recent,
-            "hibp_apac":    hibp_apac,
+            "blog_news":     blog_items,
+            "darkweb_news":  darkweb_items,
+            "hibp_recent":   hibp_recent,
+            "hibp_largest":  hibp_largest,
         },
         "errors": errors,
     }
@@ -228,7 +222,7 @@ def main():
     print(f"Overview: {len(general_items)} items")
     print(f"Country:  {sum(len(v) for v in countries_output.values())} items across {len(countries_output)} countries")
     print(f"Blogs:    {len(blog_items)} items | Dark web news: {len(darkweb_items)} items")
-    print(f"HIBP:     {len(hibp_recent)} recent global | {len(hibp_apac)} APAC breaches")
+    print(f"HIBP:     {len(hibp_recent)} most recent | {len(hibp_largest)} largest ever (global)")
     if errors:
         print("Errors:", errors)
 
