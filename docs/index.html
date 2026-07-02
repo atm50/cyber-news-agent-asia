@@ -137,6 +137,54 @@ h1{font-size:1.5rem;}
 .sp-art-meta{font-family:var(--mono);font-size:.6rem;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;}
 .sp-art-src{color:var(--green);}
 
+/* ── IOC Intelligence ── */
+.ioc-stats-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;}
+.ioc-stat-pill{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px 16px;display:flex;flex-direction:column;align-items:center;min-width:90px;}
+.ioc-stat-pill .sv{font-size:1.4rem;font-weight:700;color:var(--green);}
+.ioc-stat-pill .sl{font-family:var(--mono);font-size:.6rem;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+.kev-section{margin-bottom:22px;}
+.kev-title{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--red);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;}
+.kev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px;}
+.kev-card{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--red);border-radius:4px;padding:12px 14px;}
+.kev-card .kc-id{font-family:var(--mono);font-size:.75rem;color:var(--red);font-weight:700;margin-bottom:4px;}
+.kev-card .kc-name{font-size:.88rem;font-weight:600;margin-bottom:6px;line-height:1.3;}
+.kev-card .kc-meta{font-family:var(--mono);font-size:.62rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+.kev-card .kc-action{font-size:.76rem;color:var(--amber);margin-top:4px;}
+.kev-card .kc-ransomware{font-family:var(--mono);font-size:.6rem;padding:2px 7px;border-radius:100px;border:1px solid var(--red);color:var(--red);background:rgba(255,92,92,.1);}
+
+.ioc-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;padding:10px 14px;background:var(--panel);border:1px solid var(--border);border-radius:6px;}
+.ioc-filter-row{display:flex;align-items:center;gap:5px;flex-wrap:wrap;}
+.ioc-type-btn{font-family:var(--mono);font-size:.65rem;text-transform:uppercase;background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 10px;border-radius:100px;cursor:pointer;transition:all .15s;}
+.ioc-type-btn:hover{color:var(--text);border-color:var(--muted);}
+.ioc-type-btn.active{background:rgba(56,255,176,.1);border-color:var(--green);color:var(--green);}
+#ioc-search{font-family:var(--mono);font-size:.72rem;background:transparent;border:1px solid var(--border);color:var(--text);padding:5px 12px;border-radius:4px;width:260px;outline:none;margin-left:auto;}
+#ioc-search:focus{border-color:var(--green);}
+#ioc-search::placeholder{color:var(--muted);}
+
+.ioc-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+@media(max-width:900px){.ioc-grid{grid-template-columns:1fr;}}
+.ioc-col{}
+.ioc-section-title{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--amber);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--border);}
+
+.ioc-row{display:flex;align-items:flex-start;gap:10px;padding:8px 10px;border-bottom:1px solid var(--gl);background:var(--panel);border-radius:3px;margin-bottom:4px;transition:border-color .15s;}
+.ioc-row:hover{border-color:var(--green);}
+.ioc-type-badge{font-family:var(--mono);font-size:.58rem;text-transform:uppercase;padding:2px 6px;border-radius:3px;flex-shrink:0;margin-top:2px;font-weight:700;}
+.ioc-value{font-family:var(--mono);font-size:.78rem;color:var(--text);word-break:break-all;flex:1;cursor:text;}
+.ioc-value.redacted{filter:blur(4px);user-select:none;}
+.ioc-meta{font-family:var(--mono);font-size:.6rem;color:var(--muted);margin-top:3px;}
+.ioc-source{color:var(--green);}
+.ioc-threat{color:var(--amber);}
+.copy-btn{background:none;border:1px solid var(--border);color:var(--muted);font-size:.65rem;padding:2px 7px;border-radius:3px;cursor:pointer;flex-shrink:0;font-family:var(--mono);transition:all .15s;}
+.copy-btn:hover{color:var(--green);border-color:var(--green);}
+.copy-btn.copied{color:var(--green);border-color:var(--green);}
+
+.ext-article{background:var(--panel);border:1px solid var(--border);border-radius:4px;padding:12px 14px;margin-bottom:10px;}
+.ext-article-title{font-size:.85rem;font-weight:600;margin-bottom:3px;}
+.ext-article-meta{font-family:var(--mono);font-size:.62rem;color:var(--muted);margin-bottom:8px;}
+.ext-article-meta a{color:var(--green);text-decoration:none;}
+.ext-ioc-list{display:flex;flex-direction:column;gap:4px;}
+
 .empty{font-family:var(--mono);font-size:.72rem;color:var(--muted);padding:24px;text-align:center;}
 footer{margin-top:32px;font-family:var(--mono);font-size:.65rem;color:var(--muted);text-align:center;}
 </style>
@@ -167,6 +215,7 @@ footer{margin-top:32px;font-family:var(--mono);font-size:.65rem;color:var(--mute
     <button class="tab-btn" data-tab="breach-intel">Breach &amp; Dark Web</button>
     <button class="tab-btn" data-tab="analytics">Analytics</button>
     <button class="tab-btn" data-tab="threat-map">&#x1F5FA; Threat Map</button>
+    <button class="tab-btn" data-tab="ioc-intel">&#x1F9EC; IOC Intelligence</button>
   </div>
 
   <!-- Tab 1: Overview -->
@@ -245,7 +294,37 @@ footer{margin-top:32px;font-family:var(--mono);font-size:.65rem;color:var(--mute
     </div>
   </div>
 
-  <footer>Sources: Google News RSS &middot; BleepingComputer &middot; The Hacker News &middot; Krebs on Security &middot; The Record &middot; SecurityWeek &middot; Have I Been Pwned &middot; Updated hourly</footer>
+  <!-- Tab 6: IOC Intelligence -->
+  <div class="tab-panel" id="tab-ioc-intel">
+    <div id="ioc-stats-bar"></div>
+    <div id="cisa-kev-section"></div>
+    <div class="ioc-controls">
+      <div class="ioc-filter-row">
+        <span class="filter-label">Type:</span>
+        <button class="ioc-type-btn active" data-type="all">All</button>
+        <button class="ioc-type-btn" data-type="ip">IP</button>
+        <button class="ioc-type-btn" data-type="domain">Domain</button>
+        <button class="ioc-type-btn" data-type="url">URL</button>
+        <button class="ioc-type-btn" data-type="sha256">SHA-256</button>
+        <button class="ioc-type-btn" data-type="sha1">SHA-1</button>
+        <button class="ioc-type-btn" data-type="md5">MD5</button>
+        <button class="ioc-type-btn" data-type="cve">CVE</button>
+      </div>
+      <input id="ioc-search" type="text" placeholder="Search IOC value, threat, source..." spellcheck="false">
+    </div>
+    <div class="ioc-grid">
+      <div class="ioc-col">
+        <div class="ioc-section-title">&#x1F4E1; Structured Feeds</div>
+        <div id="structured-ioc-list"></div>
+      </div>
+      <div class="ioc-col">
+        <div class="ioc-section-title">&#x1F50D; Extracted from Research Blogs</div>
+        <div id="extracted-ioc-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>Sources: Google News RSS &middot; BleepingComputer &middot; The Hacker News &middot; Krebs on Security &middot; The Record &middot; SecurityWeek &middot; Have I Been Pwned &middot; Abuse.ch &middot; CISA KEV &middot; Unit 42 &middot; Cisco Talos &middot; Kaspersky Securelist &middot; MSTIC &middot; Updated hourly</footer>
 </div>
 
 <!-- Side panel -->
@@ -784,6 +863,200 @@ async function load(){
 }
 load();
 setInterval(load,5*60*1000);
+
+// ═══════════════════════════════════════════════
+// IOC INTELLIGENCE
+// ═══════════════════════════════════════════════
+let IOC_DATA = null;
+let IOC_TYPE_FILTER = "all";
+let IOC_SEARCH = "";
+
+const IOC_TYPE_COLORS = {
+  ip:"#3b9eff", domain:"#38ffb0", url:"#f0a500",
+  sha256:"#c084fc", sha1:"#e879f9", md5:"#fb923c",
+  cve:"#ff5c5c", "url_type_ip":"#3b9eff",
+};
+
+function iocColor(type){
+  const t = type.toLowerCase().replace(/[_ ]/g,"-");
+  return IOC_TYPE_COLORS[t] || "#5f7480";
+}
+
+function copyIOC(value, btn){
+  navigator.clipboard.writeText(value).then(()=>{
+    btn.textContent="✓ copied";
+    btn.classList.add("copied");
+    setTimeout(()=>{ btn.textContent="copy"; btn.classList.remove("copied"); }, 1500);
+  }).catch(()=>{ btn.textContent="!"; });
+}
+
+function renderIOCRow(ioc, isExtracted){
+  const type  = (ioc.type||"unknown").toLowerCase();
+  const color = iocColor(type);
+  const value = esc(ioc.value||"");
+  const threat = esc(ioc.threat||ioc.tags?.join(", ")||"");
+  const source = esc(ioc.source||ioc.source_name||"");
+  const date   = esc((ioc.first_seen||ioc.article_date||"").slice(0,10));
+  const id = `ioc-${Math.random().toString(36).slice(2)}`;
+  return `<div class="ioc-row">
+    <span class="ioc-type-badge" style="color:${color};background:${color}20;border:1px solid ${color}44">${esc(type)}</span>
+    <div style="flex:1;min-width:0">
+      <div class="ioc-value" id="${id}">${value}</div>
+      <div class="ioc-meta">
+        ${source?`<span class="ioc-source">${source}</span>`:""}
+        ${threat?`<span class="ioc-threat"> · ${threat}</span>`:""}
+        ${date?`<span> · ${date}</span>`:""}
+        ${isExtracted&&ioc.article_url?`<span> · <a href="${esc(ioc.article_url)}" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:underline">article ↗</a></span>`:""}
+      </div>
+    </div>
+    <button class="copy-btn" onclick="copyIOC('${value.replace(/'/g,"\\'")}',this)">copy</button>
+  </div>`;
+}
+
+function filterIOCs(iocs){
+  return iocs.filter(ioc=>{
+    const type = (ioc.type||"").toLowerCase();
+    const matchType = IOC_TYPE_FILTER==="all" || type===IOC_TYPE_FILTER ||
+      (IOC_TYPE_FILTER==="sha256" && type==="sha256") ||
+      (IOC_TYPE_FILTER==="sha1"   && type==="sha1");
+    if(!matchType) return false;
+    if(!IOC_SEARCH) return true;
+    const q = IOC_SEARCH.toLowerCase();
+    return (ioc.value||"").toLowerCase().includes(q) ||
+           (ioc.threat||"").toLowerCase().includes(q) ||
+           (ioc.source||ioc.source_name||"").toLowerCase().includes(q) ||
+           ((ioc.tags||[]).join(" ")).toLowerCase().includes(q);
+  });
+}
+
+function renderIOCStats(stats){
+  if(!stats) return;
+  const el = document.getElementById("ioc-stats-bar");
+  const types = stats.by_type||{};
+  el.className = "ioc-stats-bar";
+  el.innerHTML = `
+    <div class="ioc-stat-pill"><span class="sv">${(stats.total||0).toLocaleString()}</span><span class="sl">Total IOCs</span></div>
+    <div class="ioc-stat-pill"><span class="sv">${(stats.total_structured||0).toLocaleString()}</span><span class="sl">From Feeds</span></div>
+    <div class="ioc-stat-pill"><span class="sv">${(stats.total_extracted||0).toLocaleString()}</span><span class="sl">Extracted</span></div>
+    ${Object.entries(types).map(([t,n])=>`
+      <div class="ioc-stat-pill">
+        <span class="sv" style="color:${iocColor(t)}">${n.toLocaleString()}</span>
+        <span class="sl">${esc(t)}</span>
+      </div>`).join("")}
+  `;
+}
+
+function renderCISAKEV(kev){
+  const el = document.getElementById("cisa-kev-section");
+  if(!kev||!kev.length){ el.innerHTML=""; return; }
+  el.innerHTML = `<div class="kev-section">
+    <div class="kev-title">&#x26A0; CISA Known Exploited Vulnerabilities — Actively Exploited Right Now (${kev.length} entries)</div>
+    <div class="kev-grid">
+      ${kev.map(v=>`<div class="kev-card">
+        <div class="kc-id">${esc(v.cve_id)}</div>
+        <div class="kc-name">${esc(v.name)}</div>
+        <div class="kc-meta">
+          <span>${esc(v.vendor)}</span>
+          <span>${esc(v.product)}</span>
+          ${v.date_added?`<span>Added: ${esc(v.date_added)}</span>`:""}
+          ${v.due_date?`<span>Due: ${esc(v.due_date)}</span>`:""}
+          ${v.known_ransomware&&v.known_ransomware!=="Unknown"?`<span class="kc-ransomware">Ransomware: ${esc(v.known_ransomware)}</span>`:""}
+        </div>
+        ${v.description?`<div style="font-size:.78rem;color:var(--muted);line-height:1.4">${esc(v.description)}</div>`:""}
+        ${v.required_action?`<div class="kc-action">&#x2192; ${esc(v.required_action)}</div>`:""}
+      </div>`).join("")}
+    </div>
+  </div>`;
+}
+
+function renderStructuredIOCs(iocs){
+  const filtered = filterIOCs(iocs);
+  const el = document.getElementById("structured-ioc-list");
+  if(!filtered.length){
+    el.innerHTML=`<div class="empty">No IOCs match current filter.</div>`; return;
+  }
+  el.innerHTML = filtered.slice(0,300).map(i=>renderIOCRow(i,false)).join("");
+}
+
+function renderExtractedIOCs(iocs){
+  const filtered = filterIOCs(iocs);
+  const el = document.getElementById("extracted-ioc-list");
+  if(!filtered.length){
+    el.innerHTML=`<div class="empty">No extracted IOCs match current filter.</div>`; return;
+  }
+  // Group by article
+  const byArticle = {};
+  filtered.forEach(ioc=>{
+    const key = ioc.article_url||ioc.source_name||"unknown";
+    if(!byArticle[key]) byArticle[key]={
+      title: ioc.article_title||"Unknown article",
+      url:   ioc.article_url||"",
+      source:ioc.source_name||"",
+      date:  (ioc.article_date||"").slice(0,10),
+      iocs:  []
+    };
+    byArticle[key].iocs.push(ioc);
+  });
+  el.innerHTML = Object.values(byArticle).slice(0,50).map(art=>`
+    <div class="ext-article">
+      <div class="ext-article-title">${esc(art.title)}</div>
+      <div class="ext-article-meta">
+        <span class="ioc-source">${esc(art.source)}</span>
+        ${art.date?` · ${esc(art.date)}`:""}
+        ${art.url?` · <a href="${esc(art.url)}" target="_blank" rel="noopener">source ↗</a>`:""}
+        · ${art.iocs.length} IOCs
+      </div>
+      <div class="ext-ioc-list">
+        ${art.iocs.slice(0,20).map(i=>renderIOCRow(i,true)).join("")}
+      </div>
+    </div>`).join("");
+}
+
+function renderIOCTab(){
+  if(!IOC_DATA) return;
+  renderIOCStats(IOC_DATA.stats);
+  renderCISAKEV(IOC_DATA.cisa_kev||[]);
+  renderStructuredIOCs(IOC_DATA.structured_iocs||[]);
+  renderExtractedIOCs(IOC_DATA.extracted_iocs||[]);
+}
+
+// Type filter buttons
+document.querySelectorAll(".ioc-type-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".ioc-type-btn").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    IOC_TYPE_FILTER = btn.dataset.type;
+    renderIOCTab();
+  });
+});
+
+// Search
+const iocSearchEl = document.getElementById("ioc-search");
+if(iocSearchEl){
+  iocSearchEl.addEventListener("input", e=>{
+    IOC_SEARCH = e.target.value.trim();
+    renderIOCTab();
+  });
+}
+
+// Load IOC data when tab is clicked
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+  if(btn.dataset.tab==="ioc-intel"){
+    btn.addEventListener("click", async ()=>{
+      if(!IOC_DATA){
+        document.getElementById("ioc-stats-bar").innerHTML=`<div class="empty">Loading IOC intelligence...</div>`;
+        try{
+          const r = await fetch("ioc_intel.json?t="+Date.now());
+          IOC_DATA = await r.json();
+          renderIOCTab();
+        } catch(e){
+          document.getElementById("ioc-stats-bar").innerHTML=
+            `<div class="empty">ioc_intel.json not found yet — run the workflow first.</div>`;
+        }
+      }
+    });
+  }
+});
 </script>
 </body>
 </html>
