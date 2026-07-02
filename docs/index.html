@@ -13,163 +13,105 @@
     --text: #d8e2e8;
     --muted: #5f7480;
     --signal: #38ffb0;
+    --warn: #f0a500;
     --alert: #ff5c5c;
-    --mono: "SF Mono", "Cascadia Code", Consolas, monospace;
-    --display: "Helvetica Neue", Arial, sans-serif;
+    --mono: "SF Mono","Cascadia Code",Consolas,monospace;
+    --sans: "Helvetica Neue",Arial,sans-serif;
   }
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    margin: 0;
     background: var(--bg);
     background-image:
       linear-gradient(var(--grid-line) 1px, transparent 1px),
       linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
     background-size: 28px 28px;
     color: var(--text);
-    font-family: var(--display);
+    font-family: var(--sans);
     padding: 28px 20px 60px;
     min-height: 100vh;
   }
   .wrap { max-width: 1280px; margin: 0 auto; }
 
+  /* ── Header ── */
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 18px;
-    padding-bottom: 16px;
+    display: flex; justify-content: space-between; align-items: flex-end;
+    flex-wrap: wrap; gap: 12px;
+    margin-bottom: 18px; padding-bottom: 16px;
     border-bottom: 1px solid var(--panel-border);
   }
-  .title-block h1 { font-size: 1.6rem; margin: 0; letter-spacing: 0.3px; }
-  .title-block .eyebrow {
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    color: var(--signal);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 4px;
-  }
-  #status { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); text-align: right; }
-  #status .dot {
-    display: inline-block;
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: var(--signal);
-    margin-right: 6px;
-    box-shadow: 0 0 8px var(--signal);
-  }
+  .eyebrow { font-family: var(--mono); font-size: .7rem; color: var(--signal); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 4px; }
+  h1 { font-size: 1.6rem; letter-spacing: .3px; }
+  #status { font-family: var(--mono); font-size: .72rem; color: var(--muted); text-align: right; }
+  .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--signal); margin-right: 6px; box-shadow: 0 0 8px var(--signal); }
 
-  /* Tabs */
-  .tabs {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 18px;
-    border-bottom: 1px solid var(--panel-border);
-  }
+  /* ── Tabs ── */
+  .tabs { display: flex; gap: 2px; margin-bottom: 20px; border-bottom: 1px solid var(--panel-border); }
   .tab-btn {
-    font-family: var(--mono);
-    font-size: 0.78rem;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    background: none;
-    border: none;
-    color: var(--muted);
-    padding: 10px 16px;
-    cursor: pointer;
-    border-bottom: 2px solid transparent;
-    transition: color 0.15s, border-color 0.15s;
+    font-family: var(--mono); font-size: .78rem; letter-spacing: .5px; text-transform: uppercase;
+    background: none; border: none; color: var(--muted);
+    padding: 10px 18px; cursor: pointer;
+    border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
   }
   .tab-btn:hover { color: var(--text); }
   .tab-btn.active { color: var(--signal); border-bottom-color: var(--signal); }
-
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
 
-  /* Overview tab - simple list */
-  .overview-list .item {
-    display: block;
-    background: var(--panel);
-    border: 1px solid var(--panel-border);
-    border-radius: 4px;
-    padding: 12px 16px;
-    margin-bottom: 8px;
-    text-decoration: none;
-    color: var(--text);
+  /* ── Generic card (Overview / blog / darkweb) ── */
+  .card-list .card {
+    display: block; background: var(--panel); border: 1px solid var(--panel-border);
+    border-radius: 4px; padding: 12px 16px; margin-bottom: 8px;
+    text-decoration: none; color: var(--text);
   }
-  .overview-list .item:hover { border-color: var(--signal); }
-  .overview-list .headline { font-size: 0.92rem; font-weight: 600; display: block; margin-bottom: 6px; }
-  .overview-list .meta { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); display: flex; gap: 10px; }
-  .overview-list .meta .src { color: var(--signal); }
+  .card-list .card:hover { border-color: var(--signal); }
+  .card .headline { font-size: .92rem; font-weight: 600; display: block; margin-bottom: 6px; }
+  .card .meta { font-family: var(--mono); font-size: .68rem; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; }
+  .card .meta .src { color: var(--signal); }
 
-  /* By Country grid */
+  /* ── Country grid ── */
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-  @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 900px) { .grid { grid-template-columns: repeat(2,1fr); } }
   @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
-
-  .panel {
-    background: var(--panel);
-    border: 1px solid var(--panel-border);
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 340px;
-  }
-  .panel-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 14px;
-    border-bottom: 1px solid var(--panel-border);
-    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
-  }
-  .panel-head .country { display: flex; align-items: center; gap: 8px; font-size: 1rem; font-weight: 600; }
-  .flag { font-size: 1.1rem; line-height: 1; }
-  .count {
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    color: var(--muted);
-    border: 1px solid var(--panel-border);
-    border-radius: 100px;
-    padding: 2px 8px;
-  }
+  .panel { background: var(--panel); border: 1px solid var(--panel-border); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; min-height: 340px; }
+  .panel-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid var(--panel-border); background: linear-gradient(180deg,rgba(255,255,255,.02),transparent); }
+  .country-name { display: flex; align-items: center; gap: 8px; font-size: 1rem; font-weight: 600; }
+  .count { font-family: var(--mono); font-size: .68rem; color: var(--muted); border: 1px solid var(--panel-border); border-radius: 100px; padding: 2px 8px; }
   .feed { flex: 1; overflow-y: auto; padding: 4px 0; }
-  .feed .item {
-    display: block;
-    padding: 10px 14px;
-    border-bottom: 1px solid var(--grid-line);
-    text-decoration: none;
-    color: var(--text);
-  }
-  .feed .item:hover { background: rgba(255,255,255,0.03); }
-  .feed .item .headline { font-size: 0.84rem; line-height: 1.35; display: block; margin-bottom: 5px; }
-  .feed .item .meta { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); display: flex; gap: 8px; }
-  .feed .item .meta .src { color: var(--signal); }
+  .feed .item { display: block; padding: 10px 14px; border-bottom: 1px solid var(--grid-line); text-decoration: none; color: var(--text); }
+  .feed .item:hover { background: rgba(255,255,255,.03); }
+  .feed .item .headline { font-size: .84rem; line-height: 1.35; display: block; margin-bottom: 5px; }
+  .feed .item .meta { font-family: var(--mono); font-size: .65rem; color: var(--muted); display: flex; gap: 8px; }
+  .feed .item .src { color: var(--signal); }
 
-  .empty-feed, .empty {
-    color: var(--muted);
-    font-family: var(--mono);
-    font-size: 0.75rem;
-    padding: 30px 14px;
-    text-align: center;
-  }
+  /* ── Breach Intel tab ── */
+  .intel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  @media (max-width: 780px) { .intel-grid { grid-template-columns: 1fr; } }
+  .intel-section h2 { font-family: var(--mono); font-size: .72rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--warn); margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid var(--panel-border); }
+  .intel-section.full-width { grid-column: 1 / -1; }
 
-  footer {
-    margin-top: 28px;
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    color: var(--muted);
-    text-align: center;
+  /* HIBP breach cards */
+  .breach-card {
+    background: var(--panel); border: 1px solid var(--panel-border); border-radius: 4px;
+    padding: 12px 14px; margin-bottom: 8px;
   }
+  .breach-card .btitle { font-weight: 600; font-size: .9rem; margin-bottom: 4px; }
+  .breach-card .bmeta { font-family: var(--mono); font-size: .66rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
+  .breach-card .bcount { color: var(--alert); }
+  .breach-card .bapac { color: var(--warn); }
+  .breach-card .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .breach-card .tag { font-family: var(--mono); font-size: .6rem; background: #1a2230; border: 1px solid var(--panel-border); border-radius: 100px; padding: 2px 7px; color: var(--muted); }
+  .breach-card .desc { font-size: .78rem; color: var(--muted); margin-top: 6px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+  .empty { color: var(--muted); font-family: var(--mono); font-size: .75rem; padding: 24px; text-align: center; }
+
+  footer { margin-top: 32px; font-family: var(--mono); font-size: .68rem; color: var(--muted); text-align: center; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="title-block">
-      <div class="eyebrow">Live monitoring &middot; updated hourly</div>
+    <div>
+      <div class="eyebrow">Live monitoring · updated hourly</div>
       <h1>APAC Threat Board</h1>
     </div>
     <div id="status"><span class="dot"></span>Loading...</div>
@@ -178,111 +120,166 @@
   <div class="tabs">
     <button class="tab-btn active" data-tab="overview">Overview</button>
     <button class="tab-btn" data-tab="by-country">By Country</button>
+    <button class="tab-btn" data-tab="breach-intel">Breach &amp; Dark Web Intel</button>
   </div>
 
+  <!-- Tab 1: Overview -->
   <div class="tab-panel active" id="tab-overview">
-    <div class="overview-list" id="overview-list"></div>
+    <div class="card-list" id="overview-list"></div>
   </div>
 
+  <!-- Tab 2: By Country -->
   <div class="tab-panel" id="tab-by-country">
     <div class="grid" id="country-grid"></div>
   </div>
 
-  <footer>Sources: public news via Google News RSS &middot; refreshed automatically every hour</footer>
+  <!-- Tab 3: Breach & Dark Web Intel -->
+  <div class="tab-panel" id="tab-breach-intel">
+    <div class="intel-grid">
+      <div class="intel-section" id="section-blogs">
+        <h2>🔍 Threat Intelligence Blogs</h2>
+        <div class="card-list" id="blog-list"></div>
+      </div>
+      <div class="intel-section" id="section-darkweb">
+        <h2>🕸️ Dark Web &amp; Leak News</h2>
+        <div class="card-list" id="darkweb-list"></div>
+      </div>
+      <div class="intel-section full-width" id="section-hibp-apac">
+        <h2>🌏 APAC Breaches (Have I Been Pwned Database)</h2>
+        <div id="hibp-apac-list"></div>
+      </div>
+      <div class="intel-section full-width" id="section-hibp-recent">
+        <h2>🌐 Most Recent Global Breaches (Have I Been Pwned Database)</h2>
+        <div id="hibp-recent-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>Sources: Google News RSS · BleepingComputer · The Hacker News · Krebs on Security · The Record · SecurityWeek · Have I Been Pwned · Updated hourly</footer>
 </div>
 
 <script>
-const COUNTRY_FLAGS = {
-  "India": "🇮🇳", "Australia": "🇦🇺", "Singapore": "🇸🇬",
-  "Malaysia": "🇲🇾", "Philippines": "🇵🇭", "Indonesia": "🇮🇩",
-};
-const COUNTRY_ORDER = ["India", "Australia", "Singapore", "Malaysia", "Philippines", "Indonesia"];
+const FLAGS = { India:"🇮🇳", Australia:"🇦🇺", Singapore:"🇸🇬", Malaysia:"🇲🇾", Philippines:"🇵🇭", Indonesia:"🇮🇩" };
+const COUNTRIES = ["India","Australia","Singapore","Malaysia","Philippines","Indonesia"];
 
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
+function esc(s){ const d=document.createElement("div"); d.textContent=s||""; return d.innerHTML; }
+function fmt_num(n){ return n ? Number(n).toLocaleString() : ""; }
 
-// Tab switching
-document.querySelectorAll('.tab-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+// ── Tabs ────────────────────────────────────────────────────────────────────
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("tab-"+btn.dataset.tab).classList.add("active");
   });
 });
 
-function renderOverviewItem(item) {
-  return `
-    <a class="item" href="${item.link}" target="_blank" rel="noopener">
-      <span class="headline">${escapeHtml(item.title)}</span>
-      <span class="meta">
-        ${item.source ? `<span class="src">${escapeHtml(item.source)}</span>` : ''}
-        ${item.published ? `<span>${escapeHtml(item.published)}</span>` : ''}
-      </span>
-    </a>
-  `;
+// ── Renderers ───────────────────────────────────────────────────────────────
+function renderCard(item){
+  return `<a class="card" href="${esc(item.link)}" target="_blank" rel="noopener">
+    <span class="headline">${esc(item.title)}</span>
+    <span class="meta">
+      ${item.source?`<span class="src">${esc(item.source)}</span>`:""}
+      ${item.published?`<span>${esc(item.published)}</span>`:""}
+    </span>
+  </a>`;
 }
 
-function renderCountryPanel(country, items) {
-  const flag = COUNTRY_FLAGS[country] || "";
-  const feedHtml = (!items || items.length === 0)
-    ? `<div class="empty-feed">No recent articles found for ${escapeHtml(country)}.</div>`
-    : items.map(item => `
-        <a class="item" href="${item.link}" target="_blank" rel="noopener">
-          <span class="headline">${escapeHtml(item.title)}</span>
+function renderCountryPanel(country, items){
+  const flag = FLAGS[country]||"";
+  const feed = (!items||items.length===0)
+    ? `<div class="empty">No recent articles found.</div>`
+    : items.map(it=>`
+        <a class="item" href="${esc(it.link)}" target="_blank" rel="noopener">
+          <span class="headline">${esc(it.title)}</span>
           <span class="meta">
-            ${item.source ? `<span class="src">${escapeHtml(item.source)}</span>` : ''}
-            ${item.published ? `<span>${escapeHtml(item.published)}</span>` : ''}
+            ${it.source?`<span class="src">${esc(it.source)}</span>`:""}
+            ${it.published?`<span>${esc(it.published)}</span>`:""}
           </span>
-        </a>
-      `).join('');
-
-  return `
-    <div class="panel">
-      <div class="panel-head">
-        <div class="country"><span class="flag">${flag}</span>${escapeHtml(country)}</div>
-        <div class="count">${items ? items.length : 0} ITEMS</div>
-      </div>
-      <div class="feed">${feedHtml}</div>
+        </a>`).join("");
+  return `<div class="panel">
+    <div class="panel-head">
+      <div class="country-name"><span>${flag}</span>${esc(country)}</div>
+      <div class="count">${items?items.length:0} ITEMS</div>
     </div>
-  `;
+    <div class="feed">${feed}</div>
+  </div>`;
 }
 
-async function loadNews() {
-  const statusEl = document.getElementById('status');
-  const overviewEl = document.getElementById('overview-list');
-  const gridEl = document.getElementById('country-grid');
+function renderBreachCard(b, isApac=false){
+  const classes = (b.data_classes||[]).slice(0,6).map(c=>`<span class="tag">${esc(c)}</span>`).join("");
+  const count   = b.pwn_count ? `<span class="bcount">⚠ ${fmt_num(b.pwn_count)} accounts</span>` : "";
+  const apacTag = isApac ? `<span class="bapac">🌏 APAC</span>` : "";
+  const desc    = b.description ? b.description.replace(/<[^>]+>/g,"") : "";
+  return `<div class="breach-card">
+    <div class="btitle">${esc(b.title||b.name)}</div>
+    <div class="bmeta">
+      ${b.domain?`<span>${esc(b.domain)}</span>`:""}
+      ${b.breach_date?`<span>Breach: ${esc(b.breach_date)}</span>`:""}
+      ${b.added_date?`<span>Added: ${esc(b.added_date.slice(0,10))}</span>`:""}
+      ${count}${apacTag}
+    </div>
+    ${classes?`<div class="tags">${classes}</div>`:""}
+    ${desc?`<div class="desc">${esc(desc)}</div>`:""}
+  </div>`;
+}
+
+// ── Load & render ────────────────────────────────────────────────────────────
+async function loadNews(){
+  const statusEl = document.getElementById("status");
   try {
-    const res = await fetch('news.json?t=' + Date.now());
+    const res  = await fetch("news.json?t="+Date.now());
     const data = await res.json();
 
-    if (data.last_updated_utc) {
-      const updated = new Date(data.last_updated_utc);
-      statusEl.innerHTML = `<span class="dot"></span>Last updated: ${updated.toLocaleString()}`;
-    } else {
-      statusEl.innerHTML = `<span class="dot"></span>Waiting for first run...`;
+    if(data.last_updated_utc){
+      statusEl.innerHTML = `<span class="dot"></span>Last updated: ${new Date(data.last_updated_utc).toLocaleString()}`;
     }
 
-    // Overview tab
-    const items = data.items || [];
+    // Tab 1 — Overview
+    const overviewEl = document.getElementById("overview-list");
+    const items = data.items||[];
     overviewEl.innerHTML = items.length
-      ? items.map(renderOverviewItem).join('')
-      : `<div class="empty">No articles found yet. Check back after the next hourly run.</div>`;
+      ? items.map(renderCard).join("")
+      : `<div class="empty">No articles yet — check back after the first scheduled run.</div>`;
 
-    // By Country tab
-    const countries = data.countries || {};
-    gridEl.innerHTML = COUNTRY_ORDER.map(c => renderCountryPanel(c, countries[c])).join('');
-  } catch (e) {
-    statusEl.textContent = 'Could not load news.json yet — it will appear after the first scheduled run.';
-    gridEl.innerHTML = COUNTRY_ORDER.map(c => renderCountryPanel(c, [])).join('');
+    // Tab 2 — By Country
+    const gridEl = document.getElementById("country-grid");
+    const countries = data.countries||{};
+    gridEl.innerHTML = COUNTRIES.map(c=>renderCountryPanel(c, countries[c]||[])).join("");
+
+    // Tab 3 — Breach Intel
+    const bi = data.breach_intel||{};
+
+    const blogEl = document.getElementById("blog-list");
+    blogEl.innerHTML = (bi.blog_news||[]).length
+      ? (bi.blog_news||[]).map(renderCard).join("")
+      : `<div class="empty">No blog data yet.</div>`;
+
+    const dwEl = document.getElementById("darkweb-list");
+    dwEl.innerHTML = (bi.darkweb_news||[]).length
+      ? (bi.darkweb_news||[]).map(renderCard).join("")
+      : `<div class="empty">No dark web news yet.</div>`;
+
+    const hibpApacEl = document.getElementById("hibp-apac-list");
+    const apacBreaches = bi.hibp_apac||[];
+    hibpApacEl.innerHTML = apacBreaches.length
+      ? apacBreaches.map(b=>renderBreachCard(b,true)).join("")
+      : `<div class="empty">No APAC-specific breaches found in HIBP database.</div>`;
+
+    const hibpRecentEl = document.getElementById("hibp-recent-list");
+    const recentBreaches = bi.hibp_recent||[];
+    hibpRecentEl.innerHTML = recentBreaches.length
+      ? recentBreaches.map(b=>renderBreachCard(b,false)).join("")
+      : `<div class="empty">No recent breach data yet.</div>`;
+
+  } catch(e){
+    statusEl.textContent = "Could not load news.json yet — it will appear after the first scheduled run.";
   }
 }
 
 loadNews();
-setInterval(loadNews, 5 * 60 * 1000);
+setInterval(loadNews, 5*60*1000);
 </script>
 </body>
 </html>
