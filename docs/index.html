@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APAC Threat Board</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
@@ -17,298 +19,193 @@
   --amber: #f0a500;
   --red: #ff5c5c;
   --blue: #3b9eff;
+  --purple: #c084fc;
+  --orange: #fb923c;
   --mono: "SF Mono","Cascadia Code",Consolas,monospace;
   --sans: "Helvetica Neue",Arial,sans-serif;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 body {
   background: var(--bg);
-  background-image:
-    linear-gradient(var(--gridline) 1px, transparent 1px),
-    linear-gradient(90deg, var(--gridline) 1px, transparent 1px);
+  background-image: linear-gradient(var(--gridline) 1px,transparent 1px),linear-gradient(90deg,var(--gridline) 1px,transparent 1px);
   background-size: 28px 28px;
-  color: var(--text);
-  font-family: var(--sans);
-  padding: 28px 20px 60px;
-  min-height: 100vh;
+  color: var(--text); font-family: var(--sans);
+  padding: 28px 20px 60px; min-height: 100vh;
 }
 .wrap { max-width: 1280px; margin: 0 auto; }
 
-/* ── HEADER ── */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 16px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--border);
-}
-.eyebrow {
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  color: var(--green);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 4px;
-}
-h1 { font-size: 1.5rem; }
-#status { font-family: var(--mono); font-size: 0.7rem; color: var(--muted); text-align: right; }
-.dot {
-  display: inline-block;
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: var(--green);
-  margin-right: 6px;
-  box-shadow: 0 0 8px var(--green);
-}
+/* ── Header ── */
+header { display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:12px; margin-bottom:16px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+.eyebrow { font-family:var(--mono); font-size:.68rem; color:var(--green); text-transform:uppercase; letter-spacing:2px; margin-bottom:4px; }
+h1 { font-size:1.5rem; }
+#status { font-family:var(--mono); font-size:.7rem; color:var(--muted); text-align:right; }
+.dot { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--green); margin-right:6px; box-shadow:0 0 8px var(--green); }
 
-/* ── TIME FILTER BAR ── */
-.filter-bar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-bottom: 14px;
-  padding: 10px 14px;
-  background: var(--panel);
+/* ── Filter bar ── */
+.filter-bar { display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:14px; padding:10px 14px; background:var(--panel); border:1px solid var(--border); border-radius:6px; }
+.filter-label { font-family:var(--mono); font-size:.65rem; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-right:6px; }
+.filter-btn { font-family:var(--mono); font-size:.7rem; text-transform:uppercase; letter-spacing:.5px; background:transparent; border:1px solid var(--border); color:var(--muted); padding:4px 14px; border-radius:100px; cursor:pointer; transition:all .15s; }
+.filter-btn:hover { color:var(--text); border-color:var(--muted); }
+.filter-btn.active { background:rgba(56,255,176,.1); border-color:var(--green); color:var(--green); }
+#filter-count { font-family:var(--mono); font-size:.65rem; color:var(--muted); margin-left:auto; }
+
+/* ── Tabs ── */
+.tabs { display:flex; gap:0; margin-bottom:20px; border-bottom:1px solid var(--border); flex-wrap:wrap; }
+.tab-btn { font-family:var(--mono); font-size:.75rem; letter-spacing:.5px; text-transform:uppercase; background:none; border:none; border-bottom:2px solid transparent; color:var(--muted); padding:10px 20px; cursor:pointer; transition:color .15s,border-color .15s; }
+.tab-btn:hover { color:var(--text); }
+.tab-btn.active { color:var(--green); border-bottom-color:var(--green); }
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+
+/* ── News cards ── */
+.card-list .card { display:block; background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:12px 16px; margin-bottom:8px; text-decoration:none; color:var(--text); transition:border-color .15s; }
+.card-list .card:hover { border-color:var(--green); }
+.card .headline { font-size:.9rem; font-weight:600; display:block; margin-bottom:6px; line-height:1.4; }
+.card .meta { font-family:var(--mono); font-size:.65rem; color:var(--muted); display:flex; gap:10px; flex-wrap:wrap; }
+.card .src { color:var(--green); }
+.card .atype { padding:1px 7px; border-radius:100px; font-size:.6rem; font-family:var(--mono); }
+
+/* ── Country grid ── */
+.country-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+@media(max-width:900px){.country-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:580px){.country-grid{grid-template-columns:1fr;}}
+.country-panel { background:var(--panel); border:1px solid var(--border); border-radius:4px; overflow:hidden; display:flex; flex-direction:column; min-height:340px; }
+.country-head { display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border-bottom:1px solid var(--border); background:linear-gradient(180deg,rgba(255,255,255,.02),transparent); }
+.country-name { display:flex; align-items:center; gap:8px; font-size:.95rem; font-weight:600; }
+.item-count { font-family:var(--mono); font-size:.65rem; color:var(--muted); border:1px solid var(--border); border-radius:100px; padding:2px 8px; }
+.country-feed { flex:1; overflow-y:auto; }
+.feed-item { display:block; padding:10px 14px; border-bottom:1px solid var(--gridline); text-decoration:none; color:var(--text); transition:background .1s; }
+.feed-item:hover { background:rgba(255,255,255,.03); }
+.feed-item .headline { font-size:.82rem; line-height:1.35; display:block; margin-bottom:4px; }
+.feed-item .meta { font-family:var(--mono); font-size:.62rem; color:var(--muted); display:flex; gap:8px; }
+.feed-item .src { color:var(--green); }
+
+/* ── Breach Intel ── */
+.intel-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+@media(max-width:780px){.intel-grid{grid-template-columns:1fr;}}
+.intel-col h2 { font-family:var(--mono); font-size:.68rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--amber); margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+.intel-full { grid-column:1/-1; }
+.breach-card { background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:12px 14px; margin-bottom:8px; }
+.breach-title { font-weight:600; font-size:.88rem; margin-bottom:4px; }
+.breach-meta { font-family:var(--mono); font-size:.63rem; color:var(--muted); display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px; }
+.breach-count { color:var(--red); }
+.breach-tags { display:flex; flex-wrap:wrap; gap:4px; }
+.breach-tag { font-family:var(--mono); font-size:.58rem; background:#1a2230; border:1px solid var(--border); border-radius:100px; padding:2px 7px; color:var(--muted); }
+.breach-desc { font-size:.76rem; color:var(--muted); margin-top:6px; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+
+/* ── Analytics ── */
+.analytics-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+@media(max-width:780px){.analytics-grid{grid-template-columns:1fr;}}
+.chart-card { background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:18px 20px; }
+.chart-title { font-family:var(--mono); font-size:.68rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--green); margin-bottom:3px; }
+.chart-sub { font-family:var(--mono); font-size:.62rem; color:var(--muted); margin-bottom:16px; }
+.chart-wrap { position:relative; }
+
+/* ── Threat Map ── */
+#map-container {
+  position: relative;
+  background: #060a0e;
   border: 1px solid var(--border);
   border-radius: 6px;
-}
-.filter-label {
-  font-family: var(--mono);
-  font-size: 0.65rem;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-right: 6px;
-}
-.filter-btn {
-  font-family: var(--mono);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--muted);
-  padding: 4px 14px;
-  border-radius: 100px;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-.filter-btn:hover { color: var(--text); border-color: var(--muted); }
-.filter-btn.active {
-  background: rgba(56,255,176,0.1);
-  border-color: var(--green);
-  color: var(--green);
-}
-#filter-count {
-  font-family: var(--mono);
-  font-size: 0.65rem;
-  color: var(--muted);
-  margin-left: auto;
-}
-
-/* ── TABS ── */
-.tabs {
-  display: flex;
-  gap: 0;
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--border);
-}
-.tab-btn {
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  background: none;
-  border: none;
-  border-bottom: 2px solid transparent;
-  color: var(--muted);
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: color 0.15s, border-color 0.15s;
-}
-.tab-btn:hover { color: var(--text); }
-.tab-btn.active { color: var(--green); border-bottom-color: var(--green); }
-.tab-panel { display: none; }
-.tab-panel.active { display: block; }
-
-/* ── NEWS CARDS (overview / blogs / darkweb) ── */
-.card-list .card {
-  display: block;
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 12px 16px;
-  margin-bottom: 8px;
-  text-decoration: none;
-  color: var(--text);
-  transition: border-color 0.15s;
-}
-.card-list .card:hover { border-color: var(--green); }
-.card .headline { font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 6px; line-height: 1.4; }
-.card .meta { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; }
-.card .src { color: var(--green); }
-
-/* ── COUNTRY GRID ── */
-.country-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-}
-@media (max-width: 900px) { .country-grid { grid-template-columns: repeat(2,1fr); } }
-@media (max-width: 580px)  { .country-grid { grid-template-columns: 1fr; } }
-
-.country-panel {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 4px;
   overflow: hidden;
+  height: 560px;
+}
+#world-svg { width:100%; height:100%; }
+.country-path { fill:#0d1922; stroke:#1a2a38; stroke-width:.5; cursor:pointer; transition:fill .2s; }
+.country-path:hover { fill:#152030; }
+.country-path.has-data { fill:#0f1f2e; stroke:#1e3a52; }
+.country-path.monitored { fill:#0a2240; stroke:#1a4a7a; }
+
+.bubble { cursor:pointer; }
+.bubble circle { fill:rgba(56,255,176,.15); stroke:var(--green); stroke-width:1.5; transition:all .2s; }
+.bubble:hover circle { fill:rgba(56,255,176,.3); stroke-width:2; }
+.bubble text { fill:var(--green); font-family:var(--mono); font-size:9px; text-anchor:middle; pointer-events:none; }
+
+.map-legend {
+  position:absolute; bottom:16px; left:16px;
+  background:rgba(10,13,16,.85);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:12px 14px;
+  font-family:var(--mono);
+  font-size:.62rem;
+}
+.map-legend h3 { color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; font-size:.6rem; }
+.legend-row { display:flex; align-items:center; gap:8px; margin-bottom:5px; color:var(--text); }
+.legend-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+
+.map-stats {
+  position:absolute; top:16px; right:16px;
+  background:rgba(10,13,16,.85);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:12px 16px;
+  font-family:var(--mono);
+  font-size:.68rem;
+  color:var(--muted);
+  min-width:160px;
+}
+.map-stats .stat-val { color:var(--text); font-size:1.2rem; font-weight:700; display:block; }
+.map-stats .stat-row { margin-bottom:8px; }
+
+.map-hint {
+  position:absolute; bottom:16px; right:16px;
+  font-family:var(--mono); font-size:.6rem; color:var(--muted);
+  background:rgba(10,13,16,.7); padding:6px 10px; border-radius:4px;
+}
+
+/* ── Side Panel ── */
+#side-panel {
+  position: fixed;
+  top: 0; right: -480px;
+  width: 460px;
+  height: 100vh;
+  background: #0d1318;
+  border-left: 1px solid var(--border);
+  z-index: 9999;
+  transition: right .3s cubic-bezier(.4,0,.2,1);
   display: flex;
   flex-direction: column;
-  min-height: 340px;
-}
-.country-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 14px;
-  border-bottom: 1px solid var(--border);
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
-}
-.country-name { display: flex; align-items: center; gap: 8px; font-size: 0.95rem; font-weight: 600; }
-.item-count {
-  font-family: var(--mono);
-  font-size: 0.65rem;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: 100px;
-  padding: 2px 8px;
-}
-.country-feed { flex: 1; overflow-y: auto; }
-.feed-item {
-  display: block;
-  padding: 10px 14px;
-  border-bottom: 1px solid var(--gridline);
-  text-decoration: none;
-  color: var(--text);
-  transition: background 0.1s;
-}
-.feed-item:hover { background: rgba(255,255,255,0.03); }
-.feed-item .headline { font-size: 0.82rem; line-height: 1.35; display: block; margin-bottom: 4px; }
-.feed-item .meta { font-family: var(--mono); font-size: 0.62rem; color: var(--muted); display: flex; gap: 8px; }
-.feed-item .src { color: var(--green); }
-
-/* ── BREACH INTEL GRID ── */
-.intel-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-@media (max-width: 780px) { .intel-grid { grid-template-columns: 1fr; } }
-.intel-col h2 {
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--amber);
-  margin-bottom: 10px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid var(--border);
-}
-.intel-full { grid-column: 1 / -1; }
-
-.breach-card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 12px 14px;
-  margin-bottom: 8px;
-}
-.breach-title { font-weight: 600; font-size: 0.88rem; margin-bottom: 4px; }
-.breach-meta {
-  font-family: var(--mono);
-  font-size: 0.63rem;
-  color: var(--muted);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 6px;
-}
-.breach-count { color: var(--red); }
-.breach-tags { display: flex; flex-wrap: wrap; gap: 4px; }
-.breach-tag {
-  font-family: var(--mono);
-  font-size: 0.58rem;
-  background: #1a2230;
-  border: 1px solid var(--border);
-  border-radius: 100px;
-  padding: 2px 7px;
-  color: var(--muted);
-}
-.breach-desc {
-  font-size: 0.76rem;
-  color: var(--muted);
-  margin-top: 6px;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   overflow: hidden;
 }
+#side-panel.open { right: 0; }
+#panel-header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:18px 20px;
+  border-bottom:1px solid var(--border);
+  background:#0a0f14;
+  flex-shrink:0;
+}
+#panel-country-name { font-size:1.2rem; font-weight:700; display:flex; align-items:center; gap:10px; }
+#panel-close {
+  background:none; border:1px solid var(--border); color:var(--muted);
+  width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:1rem;
+  display:flex; align-items:center; justify-content:center; transition:all .15s;
+}
+#panel-close:hover { color:var(--text); border-color:var(--text); }
+#panel-body { flex:1; overflow-y:auto; padding:16px 20px; }
+.panel-section { margin-bottom:20px; }
+.panel-section-title { font-family:var(--mono); font-size:.65rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--muted); margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+.panel-stat-row { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:14px; }
+.panel-stat { background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:10px 14px; flex:1; min-width:80px; }
+.panel-stat .val { font-size:1.4rem; font-weight:700; color:var(--green); display:block; }
+.panel-stat .lbl { font-family:var(--mono); font-size:.6rem; color:var(--muted); text-transform:uppercase; }
+.attack-pills { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:4px; }
+.attack-pill { font-family:var(--mono); font-size:.63rem; padding:3px 10px; border-radius:100px; border:1px solid; }
+.panel-article { display:block; padding:10px 0; border-bottom:1px solid var(--gridline); text-decoration:none; color:var(--text); }
+.panel-article:hover .art-title { color:var(--green); }
+.art-title { font-size:.85rem; line-height:1.4; display:block; margin-bottom:4px; }
+.art-meta { font-family:var(--mono); font-size:.62rem; color:var(--muted); display:flex; gap:8px; flex-wrap:wrap; }
+.art-src { color:var(--green); }
+#panel-overlay { position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:9998; display:none; }
+#panel-overlay.open { display:block; }
 
-/* ── ANALYTICS GRID ── */
-.analytics-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-@media (max-width: 780px) { .analytics-grid { grid-template-columns: 1fr; } }
-.chart-card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 18px 20px;
-}
-.chart-title {
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--green);
-  margin-bottom: 3px;
-}
-.chart-sub {
-  font-family: var(--mono);
-  font-size: 0.62rem;
-  color: var(--muted);
-  margin-bottom: 16px;
-}
-.chart-wrap { position: relative; }
-
-/* ── MISC ── */
-.empty {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  color: var(--muted);
-  padding: 28px;
-  text-align: center;
-}
-footer {
-  margin-top: 32px;
-  font-family: var(--mono);
-  font-size: 0.65rem;
-  color: var(--muted);
-  text-align: center;
-}
+.empty { font-family:var(--mono); font-size:.72rem; color:var(--muted); padding:24px; text-align:center; }
+footer { margin-top:32px; font-family:var(--mono); font-size:.65rem; color:var(--muted); text-align:center; }
 </style>
 </head>
 <body>
 <div class="wrap">
-
   <header>
     <div>
       <div class="eyebrow">Live monitoring &middot; updated hourly</div>
@@ -317,7 +214,6 @@ footer {
     <div id="status"><span class="dot"></span>Loading...</div>
   </header>
 
-  <!-- TIME FILTER BAR -->
   <div class="filter-bar">
     <span class="filter-label">Time window:</span>
     <button class="filter-btn active" data-days="1">24 Hours</button>
@@ -328,25 +224,25 @@ footer {
     <span id="filter-count"></span>
   </div>
 
-  <!-- TABS -->
   <div class="tabs">
     <button class="tab-btn active" data-tab="overview">Overview</button>
     <button class="tab-btn" data-tab="by-country">By Country</button>
     <button class="tab-btn" data-tab="breach-intel">Global Breach &amp; Dark Web</button>
     <button class="tab-btn" data-tab="analytics">Analytics</button>
+    <button class="tab-btn" data-tab="threat-map">&#x1F5FA; Threat Map</button>
   </div>
 
-  <!-- TAB 1: OVERVIEW -->
+  <!-- Tab 1 -->
   <div class="tab-panel active" id="tab-overview">
     <div class="card-list" id="overview-list"></div>
   </div>
 
-  <!-- TAB 2: BY COUNTRY -->
+  <!-- Tab 2 -->
   <div class="tab-panel" id="tab-by-country">
     <div class="country-grid" id="country-grid"></div>
   </div>
 
-  <!-- TAB 3: BREACH & DARK WEB -->
+  <!-- Tab 3 -->
   <div class="tab-panel" id="tab-breach-intel">
     <div class="intel-grid">
       <div class="intel-col">
@@ -358,394 +254,572 @@ footer {
         <div class="card-list" id="darkweb-list"></div>
       </div>
       <div class="intel-col intel-full">
-        <h2>&#x1F195; Most Recently Added Breaches — Have I Been Pwned</h2>
+        <h2>&#x1F195; Most Recently Added Breaches &mdash; Have I Been Pwned</h2>
         <div id="hibp-list"></div>
       </div>
     </div>
   </div>
 
-  <!-- TAB 4: ANALYTICS -->
+  <!-- Tab 4 -->
   <div class="tab-panel" id="tab-analytics">
     <div class="analytics-grid">
       <div class="chart-card">
         <div class="chart-title">Articles by Country</div>
-        <div class="chart-sub">Number of news articles per monitored country in selected time window</div>
+        <div class="chart-sub">Volume of news articles per monitored country in selected window</div>
         <div class="chart-wrap"><canvas id="chart-country"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-title">Breach Data Types Exposed</div>
-        <div class="chart-sub">Most common data categories found across recent HIBP breach records</div>
+        <div class="chart-sub">Most common data categories across recent HIBP breach records</div>
         <div class="chart-wrap"><canvas id="chart-datatypes"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-title">Top News Sources</div>
-        <div class="chart-sub">Outlets contributing the most articles across all feeds in selected window</div>
+        <div class="chart-sub">Outlets contributing the most articles across all feeds</div>
         <div class="chart-wrap"><canvas id="chart-sources"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-title">Breaches Added per Month</div>
-        <div class="chart-sub">When breaches were added to the HIBP database over the last 12 months</div>
+        <div class="chart-sub">When breaches were added to HIBP over the last 12 months</div>
         <div class="chart-wrap"><canvas id="chart-timeline"></canvas></div>
       </div>
     </div>
   </div>
 
-  <footer>
-    Sources: Google News RSS &middot; BleepingComputer &middot; The Hacker News &middot; Krebs on Security &middot; The Record &middot; SecurityWeek &middot; Have I Been Pwned &middot; Updated hourly
-  </footer>
+  <!-- Tab 5 — Threat Map -->
+  <div class="tab-panel" id="tab-threat-map">
+    <div id="map-container">
+      <svg id="world-svg"></svg>
+      <div class="map-stats">
+        <div class="stat-row"><span class="stat-val" id="map-stat-events">—</span><span>threat events</span></div>
+        <div class="stat-row"><span class="stat-val" id="map-stat-countries">—</span><span>countries involved</span></div>
+      </div>
+      <div class="map-legend">
+        <h3>Attack Type</h3>
+        <div class="legend-row"><div class="legend-dot" style="background:#ff5c5c"></div>Ransomware</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#f0a500"></div>Data Breach</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#c084fc"></div>Phishing</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#3b9eff"></div>DDoS</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#fb923c"></div>Malware</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#e879f9"></div>APT</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#38ffb0"></div>Other</div>
+      </div>
+      <div class="map-hint">Click any country to drill down</div>
+    </div>
+  </div>
 
-</div><!-- /wrap -->
+  <footer>Sources: Google News RSS &middot; BleepingComputer &middot; The Hacker News &middot; Krebs on Security &middot; The Record &middot; SecurityWeek &middot; Have I Been Pwned &middot; Updated hourly</footer>
+</div>
+
+<!-- Side Panel -->
+<div id="panel-overlay"></div>
+<div id="side-panel">
+  <div id="panel-header">
+    <div id="panel-country-name">—</div>
+    <button id="panel-close">&#x2715;</button>
+  </div>
+  <div id="panel-body"></div>
+</div>
+
 <script>
-// ─────────────────────────────────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════════
 // CONFIG
-// ─────────────────────────────────────────────────────────────────────────────
-const COUNTRIES = ["India","Australia","Singapore","Malaysia","Philippines","Indonesia"];
-const FLAGS     = { India:"🇮🇳", Australia:"🇦🇺", Singapore:"🇸🇬", Malaysia:"🇲🇾", Philippines:"🇵🇭", Indonesia:"🇮🇩" };
-const PALETTE   = ["#38ffb0","#3b9eff","#f0a500","#ff5c5c","#c084fc","#fb923c","#34d399","#60a5fa","#f472b6","#a3e635","#fbbf24","#e879f9"];
+// ═══════════════════════════════════════════════════════════════════
+const COUNTRIES  = ["India","Australia","Singapore","Malaysia","Philippines","Indonesia"];
+const FLAGS      = {India:"🇮🇳",Australia:"🇦🇺",Singapore:"🇸🇬",Malaysia:"🇲🇾",Philippines:"🇵🇭",Indonesia:"🇮🇩"};
+const ATK_COLORS = {ransomware:"#ff5c5c",breach:"#f0a500",phishing:"#c084fc",ddos:"#3b9eff",malware:"#fb923c",apt:"#e879f9",other:"#38ffb0"};
+const PALETTE    = ["#38ffb0","#3b9eff","#f0a500","#ff5c5c","#c084fc","#fb923c","#34d399","#60a5fa","#f472b6","#a3e635"];
 
-Chart.defaults.color          = "#5f7480";
-Chart.defaults.font.family    = "'SF Mono','Cascadia Code',Consolas,monospace";
-Chart.defaults.font.size      = 11;
+// ISO numeric → country name (subset)
+const ISO_NAMES = {
+  4:"Afghanistan",36:"Australia",50:"Bangladesh",76:"Brazil",104:"Myanmar",
+  116:"Cambodia",124:"Canada",156:"China",250:"France",276:"Germany",
+  356:"India",360:"Indonesia",364:"Iran",376:"Israel",392:"Japan",
+  410:"South Korea",408:"North Korea",458:"Malaysia",528:"Netherlands",
+  524:"Nepal",586:"Pakistan",608:"Philippines",616:"Poland",
+  682:"Saudi Arabia",702:"Singapore",724:"Spain",144:"Sri Lanka",
+  752:"Sweden",764:"Thailand",792:"Turkey",804:"Ukraine",
+  784:"United Arab Emirates",826:"United Kingdom",840:"United States",
+  704:"Vietnam"
+};
 
-// ─────────────────────────────────────────────────────────────────────────────
+// Country centroids [lat, lon]
+const CENTROIDS = {
+  Afghanistan:[33.93,67.71],Australia:[-25.27,133.78],Bangladesh:[23.68,90.36],
+  Brazil:[-14.24,-51.93],Myanmar:[21.92,95.96],Cambodia:[12.57,104.99],
+  Canada:[56.13,-106.35],China:[35.86,104.20],France:[46.23,2.21],
+  Germany:[51.17,10.45],India:[20.59,78.96],Indonesia:[-0.79,113.92],
+  Iran:[32.43,53.69],Israel:[31.05,34.85],Japan:[36.20,138.25],
+  "South Korea":[35.91,127.77],"North Korea":[40.34,127.51],
+  Malaysia:[4.21,101.98],Netherlands:[52.13,5.29],Nepal:[28.39,84.12],
+  Pakistan:[30.38,69.35],Philippines:[12.88,121.77],Poland:[51.92,19.15],
+  "Saudi Arabia":[23.89,45.08],Singapore:[1.35,103.82],Spain:[40.46,-3.75],
+  "Sri Lanka":[7.87,80.77],Sweden:[60.13,18.64],Thailand:[15.87,100.99],
+  Turkey:[38.96,35.24],Ukraine:[48.38,31.17],"United Arab Emirates":[23.42,53.85],
+  "United Kingdom":[55.38,-3.44],"United States":[37.09,-95.71],Vietnam:[14.06,108.28]
+};
+
+Chart.defaults.color       = "#5f7480";
+Chart.defaults.font.family = "'SF Mono','Cascadia Code',Consolas,monospace";
+Chart.defaults.font.size   = 11;
+
+// ═══════════════════════════════════════════════════════════════════
 // STATE
-// ─────────────────────────────────────────────────────────────────────────────
-let RAW_DATA    = null;
-let ACTIVE_DAYS = 1;
-const CHART_INSTANCES = {};
+// ═══════════════════════════════════════════════════════════════════
+let RAW_DATA       = null;
+let ACTIVE_DAYS    = 1;
+let MAP_BUILT      = false;
+let ARC_TIMER      = null;
+let ALL_EVENTS     = [];
+const CHART_INST   = {};
 
-// ─────────────────────────────────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════════
 // UTILS
-// ─────────────────────────────────────────────────────────────────────────────
-function esc(s) {
-  const d = document.createElement("div");
-  d.textContent = s || "";
-  return d.innerHTML;
-}
+// ═══════════════════════════════════════════════════════════════════
+function esc(s){ const d=document.createElement("div"); d.textContent=s||""; return d.innerHTML; }
+function fmtNum(n){ return n?Number(n).toLocaleString():""; }
+function parseDate(s){ if(!s)return null; const d=new Date(s); return isNaN(d)?null:d; }
+function getCutoff(){ if(ACTIVE_DAYS===0)return null; const d=new Date(); d.setDate(d.getDate()-ACTIVE_DAYS); return d; }
+function filterByDate(arr,field){ const c=getCutoff(); if(!c)return arr; return arr.filter(it=>{const d=parseDate(it[field]);return d&&d>=c;}); }
+function atypeColor(t){ return ATK_COLORS[t]||ATK_COLORS.other; }
 
-function fmtNum(n) { return n ? Number(n).toLocaleString() : ""; }
-
-function parseDate(str) {
-  if (!str) return null;
-  const d = new Date(str);
-  return isNaN(d) ? null : d;
-}
-
-function getCutoff() {
-  if (ACTIVE_DAYS === 0) return null;
-  const d = new Date();
-  d.setDate(d.getDate() - ACTIVE_DAYS);
-  return d;
-}
-
-function filterByDate(items, field) {
-  const c = getCutoff();
-  if (!c) return items;
-  return items.filter(it => { const d = parseDate(it[field]); return d && d >= c; });
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// TAB SWITCHING
-// ─────────────────────────────────────────────────────────────────────────────
-document.querySelectorAll(".tab-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-    document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+// ═══════════════════════════════════════════════════════════════════
+// TABS
+// ═══════════════════════════════════════════════════════════════════
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("active"));
     btn.classList.add("active");
-    document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+    document.getElementById("tab-"+btn.dataset.tab).classList.add("active");
+    if(btn.dataset.tab==="threat-map" && RAW_DATA && !MAP_BUILT) buildMap(RAW_DATA);
   });
 });
 
-// ─────────────────────────────────────────────────────────────────────────────
-// FILTER BUTTONS
-// ─────────────────────────────────────────────────────────────────────────────
-document.querySelectorAll(".filter-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+// ═══════════════════════════════════════════════════════════════════
+// FILTERS
+// ═══════════════════════════════════════════════════════════════════
+document.querySelectorAll(".filter-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".filter-btn").forEach(b=>b.classList.remove("active"));
     btn.classList.add("active");
-    ACTIVE_DAYS = Number(btn.dataset.days);
-    if (RAW_DATA) renderAll(RAW_DATA);
+    ACTIVE_DAYS=Number(btn.dataset.days);
+    if(RAW_DATA) renderAll(RAW_DATA);
   });
 });
 
-// ─────────────────────────────────────────────────────────────────────────────
-// RENDERERS
-// ─────────────────────────────────────────────────────────────────────────────
-function renderNewsCard(item) {
+// ═══════════════════════════════════════════════════════════════════
+// NEWS RENDERERS
+// ═══════════════════════════════════════════════════════════════════
+function atypePill(t){
+  const c=atypeColor(t);
+  return t?`<span class="atype" style="color:${c};border-color:${c}22;background:${c}15">${esc(t)}</span>`:"";
+}
+
+function renderNewsCard(item){
   return `<a class="card" href="${esc(item.link)}" target="_blank" rel="noopener">
     <span class="headline">${esc(item.title)}</span>
     <span class="meta">
-      ${item.source ? `<span class="src">${esc(item.source)}</span>` : ""}
-      ${item.published ? `<span>${esc(item.published)}</span>` : ""}
+      ${item.source?`<span class="src">${esc(item.source)}</span>`:""}
+      ${item.published?`<span>${esc(item.published)}</span>`:""}
+      ${atypePill(item.attack_type)}
     </span>
   </a>`;
 }
 
-function renderCountryPanel(country, allItems) {
-  const items = filterByDate(allItems, "published");
-  const rows  = items.length === 0
-    ? `<div class="empty">No articles in this time window.</div>`
-    : items.map(it => `<a class="feed-item" href="${esc(it.link)}" target="_blank" rel="noopener">
+function renderCountryPanel(country, allItems){
+  const items=filterByDate(allItems,"published");
+  const rows=items.length===0
+    ?`<div class="empty">No articles in this time window.</div>`
+    :items.map(it=>`<a class="feed-item" href="${esc(it.link)}" target="_blank" rel="noopener">
         <span class="headline">${esc(it.title)}</span>
         <span class="meta">
-          ${it.source ? `<span class="src">${esc(it.source)}</span>` : ""}
-          ${it.published ? `<span>${esc(it.published)}</span>` : ""}
+          ${it.source?`<span class="src">${esc(it.source)}</span>`:""}
+          ${atypePill(it.attack_type)}
         </span>
       </a>`).join("");
   return `<div class="country-panel">
     <div class="country-head">
-      <div class="country-name">${FLAGS[country] || ""} ${esc(country)}</div>
+      <div class="country-name">${FLAGS[country]||""} ${esc(country)}</div>
       <div class="item-count">${items.length} ITEMS</div>
     </div>
     <div class="country-feed">${rows}</div>
   </div>`;
 }
 
-function renderBreachCard(b) {
-  const tags  = (b.data_classes || []).slice(0, 6).map(c => `<span class="breach-tag">${esc(c)}</span>`).join("");
-  const count = b.pwn_count ? `<span class="breach-count">&#9888; ${fmtNum(b.pwn_count)} accounts</span>` : "";
-  const desc  = b.description ? b.description.replace(/<[^>]+>/g, "") : "";
+function renderBreachCard(b){
+  const tags=(b.data_classes||[]).slice(0,6).map(c=>`<span class="breach-tag">${esc(c)}</span>`).join("");
+  const count=b.pwn_count?`<span class="breach-count">⚠ ${fmtNum(b.pwn_count)} accounts</span>`:"";
+  const desc=b.description?b.description.replace(/<[^>]+>/g,""):"";
   return `<div class="breach-card">
-    <div class="breach-title">${esc(b.title || b.name)}</div>
+    <div class="breach-title">${esc(b.title||b.name)}</div>
     <div class="breach-meta">
-      ${b.domain    ? `<span>${esc(b.domain)}</span>` : ""}
-      ${b.breach_date ? `<span>Breach: ${esc(b.breach_date)}</span>` : ""}
-      ${b.added_date  ? `<span>Added: ${esc(b.added_date.slice(0,10))}</span>` : ""}
+      ${b.domain?`<span>${esc(b.domain)}</span>`:""}
+      ${b.breach_date?`<span>Breach: ${esc(b.breach_date)}</span>`:""}
+      ${b.added_date?`<span>Added: ${esc(b.added_date.slice(0,10))}</span>`:""}
       ${count}
     </div>
-    ${tags ? `<div class="breach-tags">${tags}</div>` : ""}
-    ${desc ? `<div class="breach-desc">${esc(desc)}</div>` : ""}
+    ${tags?`<div class="breach-tags">${tags}</div>`:""}
+    ${desc?`<div class="breach-desc">${esc(desc)}</div>`:""}
   </div>`;
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════════
 // CHARTS
-// ─────────────────────────────────────────────────────────────────────────────
-const GRID_COLOR = "rgba(31,42,50,0.9)";
+// ═══════════════════════════════════════════════════════════════════
+const GC="#1a2532";
+function drawChart(id,cfg){ if(CHART_INST[id])CHART_INST[id].destroy(); const c=document.getElementById(id); if(c)CHART_INST[id]=new Chart(c,cfg); }
 
-function drawChart(id, config) {
-  if (CHART_INSTANCES[id]) CHART_INSTANCES[id].destroy();
-  const ctx = document.getElementById(id);
-  if (ctx) CHART_INSTANCES[id] = new Chart(ctx, config);
-}
-
-function buildCountryChart(countries) {
-  const values = COUNTRIES.map(c => filterByDate(countries[c] || [], "published").length);
-  const labels = COUNTRIES.map(c => `${FLAGS[c]} ${c}`);
-  drawChart("chart-country", {
-    type: "bar",
-    data: {
-      labels,
-      datasets: [{
-        label: "Articles",
-        data: values,
-        backgroundColor: PALETTE.slice(0,6).map(c => c + "88"),
-        borderColor: PALETTE.slice(0,6),
-        borderWidth: 1,
-        borderRadius: 3,
-      }]
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.x} articles` } }
-      },
-      scales: {
-        x: { grid: { color: GRID_COLOR }, ticks: { color: "#5f7480" }, beginAtZero: true },
-        y: { grid: { display: false }, ticks: { color: "#d8e2e8", font: { size: 12 } } }
-      }
-    }
-  });
-}
-
-function buildDataTypesChart(hibpItems) {
-  const freq = {};
-  hibpItems.forEach(b => (b.data_classes || []).forEach(c => { freq[c] = (freq[c] || 0) + 1; }));
-  const sorted = Object.entries(freq).sort((a,b) => b[1]-a[1]).slice(0, 10);
-  drawChart("chart-datatypes", {
-    type: "doughnut",
-    data: {
-      labels: sorted.map(e => e[0]),
-      datasets: [{
-        data: sorted.map(e => e[1]),
-        backgroundColor: PALETTE.map(c => c + "cc"),
-        borderColor: "#10151a",
-        borderWidth: 2,
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: {
-          position: "right",
-          labels: { color: "#d8e2e8", boxWidth: 12, padding: 10, font: { size: 10 } }
-        },
-        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.parsed} breaches` } }
-      }
-    }
-  });
-}
-
-function buildSourcesChart(allItems) {
-  const freq = {};
-  allItems.forEach(it => { if (it.source) freq[it.source] = (freq[it.source] || 0) + 1; });
-  const sorted = Object.entries(freq).sort((a,b) => b[1]-a[1]).slice(0, 10);
-  drawChart("chart-sources", {
-    type: "bar",
-    data: {
-      labels: sorted.map(e => e[0]),
-      datasets: [{
-        label: "Articles",
-        data: sorted.map(e => e[1]),
-        backgroundColor: "#3b9eff55",
-        borderColor: "#3b9eff",
-        borderWidth: 1,
-        borderRadius: 3,
-      }]
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.x} articles` } }
-      },
-      scales: {
-        x: { grid: { color: GRID_COLOR }, ticks: { color: "#5f7480" }, beginAtZero: true },
-        y: { grid: { display: false }, ticks: { color: "#d8e2e8", font: { size: 10 } } }
-      }
-    }
-  });
-}
-
-function buildTimelineChart(hibpItems) {
-  const now    = new Date();
-  const months = [];
-  for (let i = 11; i >= 0; i--) {
-    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
-    months.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}`);
-  }
-  const freq = {};
-  months.forEach(m => { freq[m] = 0; });
-  hibpItems.forEach(b => {
-    if (!b.added_date) return;
-    const key = b.added_date.slice(0, 7);
-    if (freq[key] !== undefined) freq[key]++;
-  });
-  const labels = months.map(m => {
-    const [y, mo] = m.split("-");
-    return new Date(y, mo - 1).toLocaleString("default", { month: "short", year: "2-digit" });
-  });
-  drawChart("chart-timeline", {
-    type: "bar",
-    data: {
-      labels,
-      datasets: [{
-        label: "Breaches added",
-        data: months.map(m => freq[m]),
-        backgroundColor: "#f0a50066",
-        borderColor: "#f0a500",
-        borderWidth: 1,
-        borderRadius: 3,
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y} breaches` } }
-      },
-      scales: {
-        x: { grid: { color: GRID_COLOR }, ticks: { color: "#5f7480" } },
-        y: { grid: { color: GRID_COLOR }, ticks: { color: "#5f7480" }, beginAtZero: true }
-      }
-    }
-  });
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// MASTER RENDER
-// ─────────────────────────────────────────────────────────────────────────────
-function renderAll(data) {
-  let total = 0;
-  const bi       = data.breach_intel || {};
-  const countries = data.countries   || {};
-
-  // Tab 1 — Overview
-  const overviewItems = filterByDate(data.items || [], "published");
-  total += overviewItems.length;
-  document.getElementById("overview-list").innerHTML = overviewItems.length
-    ? overviewItems.map(renderNewsCard).join("")
-    : `<div class="empty">No articles in this time window.</div>`;
-
-  // Tab 2 — By Country
-  document.getElementById("country-grid").innerHTML =
-    COUNTRIES.map(c => renderCountryPanel(c, countries[c] || [])).join("");
-  COUNTRIES.forEach(c => { total += filterByDate(countries[c] || [], "published").length; });
-
-  // Tab 3 — Breach Intel
-  const blogItems = filterByDate(bi.blog_news || [], "published");
-  total += blogItems.length;
-  document.getElementById("blog-list").innerHTML = blogItems.length
-    ? blogItems.map(renderNewsCard).join("")
-    : `<div class="empty">No blog articles in this time window.</div>`;
-
-  const dwItems = filterByDate(bi.darkweb_news || [], "published");
-  total += dwItems.length;
-  document.getElementById("darkweb-list").innerHTML = dwItems.length
-    ? dwItems.map(renderNewsCard).join("")
-    : `<div class="empty">No dark web news in this time window.</div>`;
-
-  const hibpFiltered = filterByDate(bi.hibp_recent || [], "added_date");
-  total += hibpFiltered.length;
-  document.getElementById("hibp-list").innerHTML = hibpFiltered.length
-    ? hibpFiltered.map(renderBreachCard).join("")
-    : `<div class="empty">No breaches added in this time window.</div>`;
-
-  // Tab 4 — Analytics
-  const allNewsItems = [
-    ...overviewItems,
-    ...COUNTRIES.flatMap(c => filterByDate(countries[c] || [], "published")),
-    ...blogItems,
-    ...dwItems,
+function buildCharts(data){
+  const bi=data.breach_intel||{}, countries=data.countries||{};
+  const allNews=[
+    ...filterByDate(data.items||[],"published"),
+    ...COUNTRIES.flatMap(c=>filterByDate(countries[c]||[],"published")),
+    ...filterByDate(bi.blog_news||[],"published"),
+    ...filterByDate(bi.darkweb_news||[],"published"),
   ];
-  buildCountryChart(countries);
-  buildDataTypesChart(bi.hibp_recent || []);  // all HIBP for data-type diversity
-  buildSourcesChart(allNewsItems);
-  buildTimelineChart(bi.hibp_recent || []);   // last-12-months buckets
 
-  // Filter count label
-  const windowLabel = ACTIVE_DAYS === 0 ? "all time"
-    : ACTIVE_DAYS === 1 ? "last 24 hours"
-    : `last ${ACTIVE_DAYS} days`;
-  document.getElementById("filter-count").textContent =
-    `${total.toLocaleString()} items visible · ${windowLabel}`;
+  // Country bar
+  drawChart("chart-country",{type:"bar",data:{
+    labels:COUNTRIES.map(c=>`${FLAGS[c]} ${c}`),
+    datasets:[{label:"Articles",data:COUNTRIES.map(c=>filterByDate(countries[c]||[],"published").length),
+      backgroundColor:PALETTE.slice(0,6).map(c=>c+"88"),borderColor:PALETTE.slice(0,6),borderWidth:1,borderRadius:3}]
+  },options:{indexAxis:"y",responsive:true,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GC},ticks:{color:"#5f7480"},beginAtZero:true},y:{grid:{display:false},ticks:{color:"#d8e2e8",font:{size:12}}}}}});
+
+  // Data types doughnut
+  const freq={};
+  (bi.hibp_recent||[]).forEach(b=>(b.data_classes||[]).forEach(c=>{freq[c]=(freq[c]||0)+1;}));
+  const sorted=Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  drawChart("chart-datatypes",{type:"doughnut",data:{
+    labels:sorted.map(e=>e[0]),
+    datasets:[{data:sorted.map(e=>e[1]),backgroundColor:PALETTE.map(c=>c+"cc"),borderColor:"#10151a",borderWidth:2}]
+  },options:{responsive:true,plugins:{legend:{position:"right",labels:{color:"#d8e2e8",boxWidth:12,padding:10,font:{size:10}}}}}});
+
+  // Top sources bar
+  const sf={};
+  allNews.forEach(it=>{if(it.source)sf[it.source]=(sf[it.source]||0)+1;});
+  const ss=Object.entries(sf).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  drawChart("chart-sources",{type:"bar",data:{
+    labels:ss.map(e=>e[0]),
+    datasets:[{label:"Articles",data:ss.map(e=>e[1]),backgroundColor:"#3b9eff55",borderColor:"#3b9eff",borderWidth:1,borderRadius:3}]
+  },options:{indexAxis:"y",responsive:true,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GC},ticks:{color:"#5f7480"},beginAtZero:true},y:{grid:{display:false},ticks:{color:"#d8e2e8",font:{size:10}}}}}});
+
+  // Timeline bar
+  const now=new Date(), months=[];
+  for(let i=11;i>=0;i--){const d=new Date(now.getFullYear(),now.getMonth()-i,1);months.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}`);}
+  const mf={};months.forEach(m=>{mf[m]=0;});
+  (bi.hibp_recent||[]).forEach(b=>{if(!b.added_date)return;const k=b.added_date.slice(0,7);if(mf[k]!==undefined)mf[k]++;});
+  drawChart("chart-timeline",{type:"bar",data:{
+    labels:months.map(m=>{const[y,mo]=m.split("-");return new Date(y,mo-1).toLocaleString("default",{month:"short",year:"2-digit"});}),
+    datasets:[{label:"Breaches",data:months.map(m=>mf[m]),backgroundColor:"#f0a50066",borderColor:"#f0a500",borderWidth:1,borderRadius:3}]
+  },options:{responsive:true,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GC},ticks:{color:"#5f7480"}},y:{grid:{color:GC},ticks:{color:"#5f7480"},beginAtZero:true}}}});
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// LOAD
-// ─────────────────────────────────────────────────────────────────────────────
-async function loadNews() {
-  const statusEl = document.getElementById("status");
+// ═══════════════════════════════════════════════════════════════════
+// THREAT MAP
+// ═══════════════════════════════════════════════════════════════════
+async function buildMap(data){
+  MAP_BUILT = true;
+  const svg    = d3.select("#world-svg");
+  const el     = document.getElementById("map-container");
+  const W      = el.clientWidth  || 1000;
+  const H      = el.clientHeight || 560;
+  svg.attr("viewBox",`0 0 ${W} ${H}`);
+
+  const projection = d3.geoNaturalEarth1()
+    .scale(W/6.2)
+    .translate([W/2, H/2]);
+  const path = d3.geoPath().projection(projection);
+
+  // Load world topojson
+  let world;
   try {
-    const res  = await fetch("news.json?t=" + Date.now());
-    const data = await res.json();
-    RAW_DATA   = data;
-    if (data.last_updated_utc) {
-      statusEl.innerHTML = `<span class="dot"></span>Last updated: ${new Date(data.last_updated_utc).toLocaleString()}`;
+    world = await d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json");
+  } catch(e) {
+    svg.append("text").attr("x",W/2).attr("y",H/2).attr("text-anchor","middle")
+       .attr("fill","#5f7480").attr("font-family","monospace").text("Map failed to load — check internet connection");
+    return;
+  }
+
+  const countries_data = data.countries || {};
+  const events         = data.threat_events || [];
+  ALL_EVENTS           = events;
+
+  // Countries with data
+  const hasData  = new Set(Object.keys(countries_data));
+  // Countries mentioned in events
+  const inEvents = new Set(events.flatMap(e=>[e.source_country,e.target_country]));
+
+  // Draw base map
+  const g = svg.append("g");
+  g.selectAll(".country-path")
+    .data(topojson.feature(world, world.objects.countries).features)
+    .enter().append("path")
+    .attr("class", d=>{
+      const name = ISO_NAMES[+d.id] || "";
+      let cls = "country-path";
+      if(hasData.has(name))  cls += " monitored";
+      else if(inEvents.has(name)) cls += " has-data";
+      return cls;
+    })
+    .attr("d", path)
+    .on("click", function(event, d){
+      const name = ISO_NAMES[+d.id];
+      if(name) openPanel(name, data);
+    })
+    .append("title").text(d => ISO_NAMES[+d.id] || "");
+
+  // Draw bubbles for our 6 monitored countries
+  COUNTRIES.forEach(country=>{
+    const coords = CENTROIDS[country];
+    if(!coords) return;
+    const [px, py] = projection([coords[1], coords[0]]);
+    const count = (countries_data[country]||[]).length;
+    const r = Math.max(8, Math.min(24, 6 + count * 1.5));
+
+    const grp = g.append("g")
+      .attr("class","bubble")
+      .attr("transform",`translate(${px},${py})`)
+      .style("cursor","pointer")
+      .on("click", ()=>openPanel(country, data));
+
+    grp.append("circle").attr("r",r).attr("opacity",.85);
+    grp.append("text").attr("dy","0.35em").text(`${FLAGS[country]||country} ${count}`);
+  });
+
+  // Stats
+  const involvedCountries = new Set(events.flatMap(e=>[e.source_country,e.target_country]));
+  document.getElementById("map-stat-events").textContent    = events.length;
+  document.getElementById("map-stat-countries").textContent = involvedCountries.size;
+
+  // Start arc animation
+  startArcs(svg, projection, events, W, H);
+}
+
+let arcQueue = [], arcIndex = 0;
+function startArcs(svg, projection, events, W, H){
+  if(ARC_TIMER) clearInterval(ARC_TIMER);
+  const arcLayer = svg.append("g").attr("id","arc-layer");
+  arcQueue = [...events];
+  arcIndex = 0;
+
+  function fireArc(){
+    if(arcQueue.length === 0) return;
+    const ev = arcQueue[arcIndex % arcQueue.length];
+    arcIndex++;
+
+    const src = CENTROIDS[ev.source_country];
+    const tgt = CENTROIDS[ev.target_country];
+    if(!src || !tgt) return;
+
+    const [x1,y1] = projection([src[1],src[0]]);
+    const [x2,y2] = projection([tgt[1],tgt[0]]);
+    if(!x1||!y1||!x2||!y2) return;
+
+    const color = atypeColor(ev.attack_type);
+
+    // Control point for curve (pull up toward top)
+    const mx = (x1+x2)/2, my = (y1+y2)/2 - Math.abs(x2-x1)*0.35;
+
+    const arcPath = arcLayer.append("path")
+      .attr("d",`M${x1},${y1} Q${mx},${my} ${x2},${y2}`)
+      .attr("fill","none")
+      .attr("stroke",color)
+      .attr("stroke-width",1.5)
+      .attr("opacity",0.85);
+
+    const totalLen = arcPath.node().getTotalLength();
+    arcPath
+      .attr("stroke-dasharray",`${totalLen} ${totalLen}`)
+      .attr("stroke-dashoffset", totalLen);
+
+    // Animate draw-in
+    arcPath.transition().duration(1200).ease(d3.easeLinear)
+      .attr("stroke-dashoffset", 0)
+      .on("end", ()=>{
+        // Trailing dot
+        const dot = arcLayer.append("circle")
+          .attr("r",4).attr("fill",color).attr("opacity",1);
+        const endPt = arcPath.node().getPointAtLength(totalLen);
+        dot.attr("cx",endPt.x).attr("cy",endPt.y);
+        // Pulse then fade
+        dot.transition().duration(400).attr("r",8).attr("opacity",.6)
+           .transition().duration(400).attr("r",3).attr("opacity",0)
+           .on("end",()=>dot.remove());
+        // Fade arc
+        arcPath.transition().delay(800).duration(600).attr("opacity",0)
+          .on("end",()=>arcPath.remove());
+      });
+  }
+
+  fireArc();
+  ARC_TIMER = setInterval(fireArc, 1800);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// SIDE PANEL
+// ═══════════════════════════════════════════════════════════════════
+function openPanel(countryName, data){
+  const panel   = document.getElementById("side-panel");
+  const overlay = document.getElementById("panel-overlay");
+  const body    = document.getElementById("panel-body");
+  const header  = document.getElementById("panel-country-name");
+
+  const flag    = FLAGS[countryName] || "";
+  header.textContent = `${flag} ${countryName}`;
+
+  const countryArticles = filterByDate((data.countries||{})[countryName]||[], "published");
+  const attacksFrom     = ALL_EVENTS.filter(e=>e.source_country===countryName);
+  const attacksOn       = ALL_EVENTS.filter(e=>e.target_country===countryName);
+
+  // HIBP breaches for this country's TLD
+  const tldMap = {India:".in",Australia:".au",Singapore:".sg",Malaysia:".my",Philippines:".ph",Indonesia:".id",Japan:".jp","South Korea":".kr"};
+  const tld    = tldMap[countryName];
+  const hibpForCountry = ((data.breach_intel||{}).hibp_recent||[]).filter(b=>tld&&b.domain&&b.domain.endsWith(tld));
+
+  // Attack type breakdown from events
+  const atypeCount = {};
+  [...attacksFrom,...attacksOn].forEach(e=>{ atypeCount[e.attack_type]=(atypeCount[e.attack_type]||0)+1; });
+
+  body.innerHTML = `
+    <div class="panel-section">
+      <div class="panel-stat-row">
+        <div class="panel-stat"><span class="val">${countryArticles.length}</span><span class="lbl">News Articles</span></div>
+        <div class="panel-stat"><span class="val">${attacksOn.length}</span><span class="lbl">Attacks Detected</span></div>
+        <div class="panel-stat"><span class="val">${attacksFrom.length}</span><span class="lbl">Attacks Launched</span></div>
+        ${hibpForCountry.length?`<div class="panel-stat"><span class="val">${hibpForCountry.length}</span><span class="lbl">HIBP Breaches</span></div>`:""}
+      </div>
+    </div>
+
+    ${Object.keys(atypeCount).length?`
+    <div class="panel-section">
+      <div class="panel-section-title">Attack Types Observed</div>
+      <div class="attack-pills">
+        ${Object.entries(atypeCount).sort((a,b)=>b[1]-a[1]).map(([t,n])=>{
+          const c=atypeColor(t);
+          return `<span class="attack-pill" style="color:${c};border-color:${c};background:${c}18">${esc(t)} (${n})</span>`;
+        }).join("")}
+      </div>
+    </div>`:""}
+
+    ${attacksOn.length?`
+    <div class="panel-section">
+      <div class="panel-section-title">&#x1F3AF; Attacks Targeting ${esc(countryName)}</div>
+      ${attacksOn.slice(0,10).map(e=>{
+        const c=atypeColor(e.attack_type);
+        return `<a class="panel-article" href="${esc(e.link)}" target="_blank" rel="noopener">
+          <span class="art-title">${esc(e.title)}</span>
+          <span class="art-meta">
+            <span style="color:${c};font-family:monospace;font-size:.6rem">${esc(e.attack_type)}</span>
+            <span>from ${esc(e.source_country)}</span>
+            ${e.published?`<span>${esc(e.published.slice(0,16))}</span>`:""}
+          </span>
+        </a>`;
+      }).join("")}
+    </div>`:""}
+
+    ${countryArticles.length?`
+    <div class="panel-section">
+      <div class="panel-section-title">&#x1F4F0; Latest News</div>
+      ${countryArticles.slice(0,10).map(it=>`
+        <a class="panel-article" href="${esc(it.link)}" target="_blank" rel="noopener">
+          <span class="art-title">${esc(it.title)}</span>
+          <span class="art-meta">
+            ${it.source?`<span class="art-src">${esc(it.source)}</span>`:""}
+            ${it.published?`<span>${esc(it.published.slice(0,16))}</span>`:""}
+          </span>
+        </a>`).join("")}
+    </div>`:`<div class="empty">No news articles in current time window for ${esc(countryName)}.</div>`}
+
+    ${hibpForCountry.length?`
+    <div class="panel-section">
+      <div class="panel-section-title">&#x1F512; HIBP Breaches (${esc(tld||"")} domains)</div>
+      ${hibpForCountry.map(b=>`<div class="breach-card">
+        <div class="breach-title">${esc(b.title||b.name)}</div>
+        <div class="breach-meta">
+          ${b.domain?`<span>${esc(b.domain)}</span>`:""}
+          ${b.added_date?`<span>Added: ${esc(b.added_date.slice(0,10))}</span>`:""}
+          ${b.pwn_count?`<span class="breach-count">⚠ ${fmtNum(b.pwn_count)} accounts</span>`:""}
+        </div>
+        <div class="breach-tags">${(b.data_classes||[]).slice(0,5).map(c=>`<span class="breach-tag">${esc(c)}</span>`).join("")}</div>
+      </div>`).join("")}
+    </div>`:""}
+  `;
+
+  panel.classList.add("open");
+  overlay.classList.add("open");
+}
+
+function closePanel(){
+  document.getElementById("side-panel").classList.remove("open");
+  document.getElementById("panel-overlay").classList.remove("open");
+}
+document.getElementById("panel-close").addEventListener("click", closePanel);
+document.getElementById("panel-overlay").addEventListener("click", closePanel);
+
+// ═══════════════════════════════════════════════════════════════════
+// MASTER RENDER
+// ═══════════════════════════════════════════════════════════════════
+function renderAll(data){
+  let total=0;
+  const bi=data.breach_intel||{}, countries=data.countries||{};
+
+  // Tab 1
+  const ov=filterByDate(data.items||[],"published"); total+=ov.length;
+  document.getElementById("overview-list").innerHTML=ov.length?ov.map(renderNewsCard).join(""):`<div class="empty">No articles in this time window.</div>`;
+
+  // Tab 2
+  document.getElementById("country-grid").innerHTML=COUNTRIES.map(c=>renderCountryPanel(c,countries[c]||[])).join("");
+  COUNTRIES.forEach(c=>{total+=filterByDate(countries[c]||[],"published").length;});
+
+  // Tab 3
+  const bl=filterByDate(bi.blog_news||[],"published"); total+=bl.length;
+  document.getElementById("blog-list").innerHTML=bl.length?bl.map(renderNewsCard).join(""):`<div class="empty">No blog articles in this time window.</div>`;
+  const dw=filterByDate(bi.darkweb_news||[],"published"); total+=dw.length;
+  document.getElementById("darkweb-list").innerHTML=dw.length?dw.map(renderNewsCard).join(""):`<div class="empty">No dark web news in this time window.</div>`;
+  const hf=filterByDate(bi.hibp_recent||[],"added_date"); total+=hf.length;
+  document.getElementById("hibp-list").innerHTML=hf.length?hf.map(renderBreachCard).join(""):`<div class="empty">No breaches in this time window.</div>`;
+
+  // Tab 4
+  buildCharts(data);
+
+  // Tab 5 — only rebuild if already open
+  if(document.getElementById("tab-threat-map").classList.contains("active")){
+    d3.select("#world-svg").selectAll("*").remove();
+    MAP_BUILT=false;
+    buildMap(data);
+  }
+
+  // Counter
+  const lbl=ACTIVE_DAYS===0?"all time":ACTIVE_DAYS===1?"last 24 hours":`last ${ACTIVE_DAYS} days`;
+  document.getElementById("filter-count").textContent=`${total.toLocaleString()} items visible · ${lbl}`;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// LOAD
+// ═══════════════════════════════════════════════════════════════════
+async function loadNews(){
+  const statusEl=document.getElementById("status");
+  try {
+    const res=await fetch("news.json?t="+Date.now());
+    const data=await res.json();
+    RAW_DATA=data;
+    if(data.last_updated_utc){
+      statusEl.innerHTML=`<span class="dot"></span>Last updated: ${new Date(data.last_updated_utc).toLocaleString()}`;
     } else {
-      statusEl.innerHTML = `<span class="dot"></span>Awaiting first run...`;
+      statusEl.innerHTML=`<span class="dot"></span>Awaiting first run...`;
     }
     renderAll(data);
-  } catch (e) {
-    statusEl.textContent = "Could not load news.json — check back after the first scheduled run.";
+  } catch(e){
+    statusEl.textContent="Could not load news.json — check back after the first scheduled run.";
   }
 }
 
 loadNews();
-setInterval(loadNews, 5 * 60 * 1000);
+setInterval(loadNews, 5*60*1000);
 </script>
 </body>
 </html>
