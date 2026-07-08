@@ -185,6 +185,32 @@ h1{font-size:1.5rem;}
 .ext-article-meta a{color:var(--green);text-decoration:none;}
 .ext-ioc-list{display:flex;flex-direction:column;gap:4px;}
 
+/* ── Ransomware Tracker ── */
+.ransom-stats-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;}
+.ransom-stat-pill{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:10px 16px;display:flex;flex-direction:column;align-items:center;min-width:100px;}
+.ransom-stat-pill .sv{font-size:1.4rem;font-weight:700;color:var(--red);}
+.ransom-stat-pill .sl{font-family:var(--mono);font-size:.6rem;color:var(--muted);text-transform:uppercase;margin-top:2px;text-align:center;}
+.ransom-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px;padding:10px 14px;background:var(--panel);border:1px solid var(--border);border-radius:6px;}
+.ransom-filter-row{display:flex;align-items:center;gap:5px;flex-wrap:wrap;}
+.ransom-region-btn{font-family:var(--mono);font-size:.65rem;text-transform:uppercase;background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 12px;border-radius:100px;cursor:pointer;transition:all .15s;}
+.ransom-region-btn:hover{color:var(--text);border-color:var(--muted);}
+.ransom-region-btn.active{background:rgba(255,92,92,.1);border-color:var(--red);color:var(--red);}
+#ransom-search{font-family:var(--mono);font-size:.72rem;background:transparent;border:1px solid var(--border);color:var(--text);padding:5px 12px;border-radius:4px;width:280px;outline:none;margin-left:auto;}
+#ransom-search:focus{border-color:var(--red);}
+#ransom-search::placeholder{color:var(--muted);}
+.ransom-charts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px;}
+@media(max-width:900px){.ransom-charts{grid-template-columns:1fr;}}
+.ransom-section-title{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--red);margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border);}
+.rv-card{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--red);border-radius:4px;padding:12px 14px;margin-bottom:8px;}
+.rv-card.monitored{border-left-color:var(--amber);}
+.rv-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:5px;}
+.rv-victim{font-size:.92rem;font-weight:700;}
+.rv-group{font-family:var(--mono);font-size:.68rem;color:var(--red);background:rgba(255,92,92,.1);border:1px solid var(--red);border-radius:100px;padding:2px 10px;flex-shrink:0;}
+.rv-meta{font-family:var(--mono);font-size:.64rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:10px;}
+.rv-meta .rv-country{color:var(--amber);}
+.rv-meta .rv-monitored-tag{color:var(--amber);border:1px solid var(--amber);border-radius:100px;padding:1px 7px;}
+.rv-desc{font-size:.78rem;color:var(--muted);margin-top:6px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+
 .empty{font-family:var(--mono);font-size:.72rem;color:var(--muted);padding:24px;text-align:center;}
 footer{margin-top:32px;font-family:var(--mono);font-size:.65rem;color:var(--muted);text-align:center;}
 </style>
@@ -216,6 +242,7 @@ footer{margin-top:32px;font-family:var(--mono);font-size:.65rem;color:var(--mute
     <button class="tab-btn" data-tab="analytics">Analytics</button>
     <button class="tab-btn" data-tab="threat-map">&#x1F5FA; Threat Map</button>
     <button class="tab-btn" data-tab="ioc-intel">&#x1F9EC; IOC Intelligence</button>
+    <button class="tab-btn" data-tab="ransomware">&#x1F480; Ransomware Tracker</button>
   </div>
 
   <!-- Tab 1: Overview -->
@@ -324,7 +351,39 @@ footer{margin-top:32px;font-family:var(--mono);font-size:.65rem;color:var(--mute
     </div>
   </div>
 
-  <footer>Sources: Google News RSS &middot; BleepingComputer &middot; The Hacker News &middot; Krebs on Security &middot; The Record &middot; SecurityWeek &middot; Have I Been Pwned &middot; Abuse.ch &middot; CISA KEV &middot; Unit 42 &middot; Cisco Talos &middot; Kaspersky Securelist &middot; MSTIC &middot; Updated hourly</footer>
+  <!-- Tab 7: Ransomware Tracker -->
+  <div class="tab-panel" id="tab-ransomware">
+    <div id="ransom-stats-bar"></div>
+    <div class="ransom-controls">
+      <div class="ransom-filter-row">
+        <span class="filter-label">Region:</span>
+        <button class="ransom-region-btn active" data-region="all">Worldwide</button>
+        <button class="ransom-region-btn" data-region="monitored">My Regions (23 countries)</button>
+      </div>
+      <input id="ransom-search" type="text" placeholder="Search victim, group, country, sector..." spellcheck="false">
+    </div>
+    <div class="ransom-charts">
+      <div class="chart-card">
+        <div class="chart-title">Victims by Country</div>
+        <div class="chart-sub">Top 12 countries by disclosed ransomware victims</div>
+        <canvas id="chart-ransom-country"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Top Ransomware Groups</div>
+        <div class="chart-sub">Most active gangs by victim count</div>
+        <canvas id="chart-ransom-group"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Victims by Sector</div>
+        <div class="chart-sub">Industries most targeted</div>
+        <canvas id="chart-ransom-sector"></canvas>
+      </div>
+    </div>
+    <div class="ransom-section-title">&#x1F480; Recent Ransomware Victims</div>
+    <div id="ransom-victim-list"></div>
+  </div>
+
+  <footer>Sources: Google News RSS &middot; BleepingComputer &middot; The Hacker News &middot; Krebs on Security &middot; The Record &middot; SecurityWeek &middot; Have I Been Pwned &middot; Abuse.ch &middot; CISA KEV &middot; Unit 42 &middot; Cisco Talos &middot; Kaspersky Securelist &middot; MSTIC &middot; ransomware.live &middot; Updated hourly</footer>
 </div>
 
 <!-- Side panel -->
@@ -1052,6 +1111,140 @@ document.querySelectorAll(".tab-btn").forEach(btn=>{
         } catch(e){
           document.getElementById("ioc-stats-bar").innerHTML=
             `<div class="empty">ioc_intel.json not found yet — run the workflow first.</div>`;
+        }
+      }
+    });
+  }
+});
+
+// ═══════════════════════════════════════════════
+// RANSOMWARE TRACKER
+// ═══════════════════════════════════════════════
+let RANSOM_DATA = null;
+let RANSOM_REGION = "all";
+let RANSOM_SEARCH = "";
+
+function getFilteredVictims(){
+  if(!RANSOM_DATA) return [];
+  let v = RANSOM_DATA.victims||[];
+  if(RANSOM_REGION==="monitored") v = v.filter(x=>x.monitored);
+  if(RANSOM_SEARCH){
+    const q = RANSOM_SEARCH.toLowerCase();
+    v = v.filter(x=>
+      (x.victim||"").toLowerCase().includes(q) ||
+      (x.group||"").toLowerCase().includes(q) ||
+      (x.country||"").toLowerCase().includes(q) ||
+      (x.sector||"").toLowerCase().includes(q));
+  }
+  return v;
+}
+
+function computeStats(victims){
+  const byCountry={}, byGroup={}, bySector={};
+  let monitored=0;
+  victims.forEach(v=>{
+    const c=v.country||"Unknown", g=v.group||"Unknown", s=v.sector||"";
+    byCountry[c]=(byCountry[c]||0)+1;
+    byGroup[g]=(byGroup[g]||0)+1;
+    if(s) bySector[s]=(bySector[s]||0)+1;
+    if(v.monitored) monitored++;
+  });
+  return {byCountry,byGroup,bySector,monitored,total:victims.length,
+    groups:Object.keys(byGroup).length,countries:Object.keys(byCountry).length};
+}
+
+function renderRansomStats(victims){
+  const s=computeStats(victims);
+  const el=document.getElementById("ransom-stats-bar");
+  el.className="ransom-stats-bar";
+  el.innerHTML=`
+    <div class="ransom-stat-pill"><span class="sv">${s.total.toLocaleString()}</span><span class="sl">Victims Shown</span></div>
+    <div class="ransom-stat-pill"><span class="sv">${s.groups}</span><span class="sl">Active Groups</span></div>
+    <div class="ransom-stat-pill"><span class="sv">${s.countries}</span><span class="sl">Countries Hit</span></div>
+    <div class="ransom-stat-pill"><span class="sv" style="color:var(--amber)">${s.monitored}</span><span class="sl">In My Regions</span></div>`;
+}
+
+function renderRansomCharts(victims){
+  const s=computeStats(victims);
+  const top=(obj,n)=>Object.entries(obj).sort((a,b)=>b[1]-a[1]).slice(0,n);
+
+  const ct=top(s.byCountry,12);
+  dc("chart-ransom-country",{type:"bar",data:{
+    labels:ct.map(e=>e[0]),
+    datasets:[{data:ct.map(e=>e[1]),backgroundColor:"#ff5c5c88",borderColor:"#ff5c5c",borderWidth:1,borderRadius:3}]
+  },options:{indexAxis:"y",responsive:true,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GC},ticks:{color:"#5f7480"},beginAtZero:true},y:{grid:{display:false},ticks:{color:"#d8e2e8",font:{size:10}}}}}});
+
+  const gp=top(s.byGroup,12);
+  dc("chart-ransom-group",{type:"bar",data:{
+    labels:gp.map(e=>e[0]),
+    datasets:[{data:gp.map(e=>e[1]),backgroundColor:"#c084fc88",borderColor:"#c084fc",borderWidth:1,borderRadius:3}]
+  },options:{indexAxis:"y",responsive:true,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GC},ticks:{color:"#5f7480"},beginAtZero:true},y:{grid:{display:false},ticks:{color:"#d8e2e8",font:{size:10}}}}}});
+
+  const sc=top(s.bySector,10);
+  dc("chart-ransom-sector",{type:"doughnut",data:{
+    labels:sc.map(e=>e[0]),
+    datasets:[{data:sc.map(e=>e[1]),backgroundColor:PALETTE.map(c=>c+"cc"),borderColor:"#10151a",borderWidth:2}]
+  },options:{responsive:true,plugins:{legend:{position:"right",labels:{color:"#d8e2e8",boxWidth:10,padding:6,font:{size:9}}}}}});
+}
+
+function renderRansomVictims(victims){
+  const el=document.getElementById("ransom-victim-list");
+  if(!victims.length){ el.innerHTML=`<div class="empty">No victims match current filter.</div>`; return; }
+  el.innerHTML=victims.slice(0,150).map(v=>`
+    <div class="rv-card ${v.monitored?'monitored':''}">
+      <div class="rv-top">
+        <span class="rv-victim">${esc(v.victim||"Unknown victim")}</span>
+        ${v.group?`<span class="rv-group">${esc(v.group)}</span>`:""}
+      </div>
+      <div class="rv-meta">
+        ${v.country?`<span class="rv-country">${esc(v.country)}</span>`:""}
+        ${v.sector?`<span>${esc(v.sector)}</span>`:""}
+        ${v.discovered?`<span>Disclosed: ${esc((v.discovered||"").slice(0,10))}</span>`:""}
+        ${v.monitored?`<span class="rv-monitored-tag">MY REGION</span>`:""}
+      </div>
+      ${v.description?`<div class="rv-desc">${esc(v.description)}</div>`:""}
+    </div>`).join("");
+}
+
+function renderRansomTab(){
+  if(!RANSOM_DATA) return;
+  const v=getFilteredVictims();
+  renderRansomStats(v);
+  renderRansomCharts(v);
+  renderRansomVictims(v);
+}
+
+document.querySelectorAll(".ransom-region-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".ransom-region-btn").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    RANSOM_REGION=btn.dataset.region;
+    renderRansomTab();
+  });
+});
+
+const ransomSearchEl=document.getElementById("ransom-search");
+if(ransomSearchEl){
+  ransomSearchEl.addEventListener("input",e=>{
+    RANSOM_SEARCH=e.target.value.trim();
+    renderRansomTab();
+  });
+}
+
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+  if(btn.dataset.tab==="ransomware"){
+    btn.addEventListener("click",async()=>{
+      if(!RANSOM_DATA){
+        document.getElementById("ransom-stats-bar").innerHTML=`<div class="empty">Loading ransomware intelligence...</div>`;
+        try{
+          const r=await fetch("ransomware.json?t="+Date.now());
+          RANSOM_DATA=await r.json();
+          renderRansomTab();
+        }catch(e){
+          document.getElementById("ransom-stats-bar").innerHTML=
+            `<div class="empty">ransomware.json not found yet — run the workflow first.</div>`;
         }
       }
     });
