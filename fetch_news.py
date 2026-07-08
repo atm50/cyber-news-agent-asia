@@ -11,6 +11,28 @@ import xml.etree.ElementTree as ET
 
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "docs", "news.json")
 IOC_FILE    = os.path.join(os.path.dirname(__file__), "docs", "ioc_intel.json")
+RANSOM_FILE = os.path.join(os.path.dirname(__file__), "docs", "ransomware.json")
+
+# ISO country code → full name (for ransomware.live country codes)
+RANSOM_COUNTRY_NAMES = {
+    "US":"United States","GB":"United Kingdom","UK":"United Kingdom","CA":"Canada",
+    "AU":"Australia","IN":"India","SG":"Singapore","MY":"Malaysia","PH":"Philippines",
+    "ID":"Indonesia","JP":"Japan","KR":"South Korea","PK":"Pakistan","BD":"Bangladesh",
+    "KH":"Cambodia","BR":"Brazil","DE":"Germany","FR":"France","UA":"Ukraine",
+    "IL":"Israel","SA":"Saudi Arabia","ZA":"South Africa","RU":"Russia","CN":"China",
+    "IT":"Italy","ES":"Spain","NL":"Netherlands","SE":"Sweden","CH":"Switzerland",
+    "TW":"Taiwan","TH":"Thailand","VN":"Vietnam","MX":"Mexico","AE":"United Arab Emirates",
+    "TR":"Turkey","PL":"Poland","BE":"Belgium","AT":"Austria","NO":"Norway",
+    "DK":"Denmark","FI":"Finland","NZ":"New Zealand","IE":"Ireland","PT":"Portugal",
+}
+
+# Our 23 monitored countries (for the "my regions" filter)
+MONITORED_COUNTRIES = {
+    "India","Australia","Singapore","Malaysia","Philippines","Indonesia","Japan",
+    "South Korea","Pakistan","Bangladesh","Cambodia","United States","Brazil",
+    "Canada","United Kingdom","Germany","France","Ukraine","Israel","Saudi Arabia",
+    "South Africa","Russia","China",
+}
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # NEWS CONFIG
@@ -624,6 +646,90 @@ def ioc_stats(structured, extracted):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
+# RANSOMWARE TRACKER (ransomware.live v2 API — free, no auth)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+RANSOM_API = "https://api.ransomware.live/v2"
+
+def normalize_country(code_or_name):
+    """Turn a country code or raw name into a consistent full country name."""
+    if not code_or_name:
+        return ""
+    val = code_or_name.strip()
+    if len(val) <= 3 and val.upper() in RANSOM_COUNTRY_NAMES:
+        return RANSOM_COUNTRY_NAMES[val.upper()]
+    return val
+
+def fetch_ransomware_victims(errors):
+    """Recent ransomware victims from ransomware.live."""
+    try:
+        raw = http_get(f"{RANSOM_API}/recentvictims", timeout=25)
+        data = json.loads(raw)
+        victims = []
+        for v in data:
+            country = normalize_country(v.get("country",""))
+            victims.append({
+                "victim":     v.get("victim") or v.get("post_title") or "",
+                "group":      v.get("group_name") or v.get("group") or "",
+                "country":    country,
+                "sector":     v.get("activity") or v.get("sector") or "",
+                "discovered": v.get("discovered") or v.get("published") or "",
+                "attack_date":v.get("attackdate") or v.get("date") or "",
+                "website":    v.get("website") or "",
+                "description":(v.get("description") or "")[:300],
+                "claim_url":  v.get("claim_url") or v.get("url") or "",
+                "monitored":  country in MONITORED_COUNTRIES,
+            })
+        return victims
+    except Exception as e:
+        errors.append(f"[ransom_victims]: {e}")
+        return []
+
+def fetch_ransomware_groups(errors):
+    """All tracked ransomware groups."""
+    try:
+        raw = http_get(f"{RANSOM_API}/groups", timeout=25)
+        data = json.loads(raw)
+        groups = []
+        for g in data:
+            groups.append({
+                "name":        g.get("name",""),
+                "description": (g.get("description") or "")[:400],
+                "locations":   len(g.get("locations") or []),
+                "meta":        g.get("meta",""),
+            })
+        return groups
+    except Exception as e:
+        errors.append(f"[ransom_groups]: {e}")
+        return []
+
+def build_ransomware_stats(victims):
+    """Aggregate victim data into stats for charts."""
+    by_country, by_group, by_sector = {}, {}, {}
+    monitored_count = 0
+    for v in victims:
+        c = v.get("country") or "Unknown"
+        g = v.get("group") or "Unknown"
+        s = v.get("sector") or "Unknown"
+        by_country[c] = by_country.get(c, 0) + 1
+        by_group[g]   = by_group.get(g, 0) + 1
+        if s and s != "Unknown":
+            by_sector[s] = by_sector.get(s, 0) + 1
+        if v.get("monitored"):
+            monitored_count += 1
+    srt = lambda d: dict(sorted(d.items(), key=lambda x: -x[1]))
+    return {
+        "total_victims":     len(victims),
+        "monitored_victims": monitored_count,
+        "unique_groups":     len(by_group),
+        "unique_countries":  len(by_country),
+        "by_country":        srt(by_country),
+        "by_group":          srt(by_group),
+        "by_sector":         srt(by_sector),
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # MAIN
 # ═══════════════════════════════════════════════════════════════════════════════
 
@@ -736,6 +842,28 @@ def main():
     print(f"  IOC Intel saved: {stats['total']} total IOCs | {len(cisa_kev)} KEV entries")
     if ioc_errors:
         print("  IOC errors:", ioc_errors[:5])
+
+    # ── Ransomware Tracker ────────────────────────────────────────
+    print("── Fetching Ransomware Tracker ──")
+    ransom_errors = []
+    victims = fetch_ransomware_victims(ransom_errors)
+    print(f"  {len(victims)} recent victims")
+    groups = fetch_ransomware_groups(ransom_errors)
+    print(f"  {len(groups)} ransomware groups")
+    ransom_stats = build_ransomware_stats(victims)
+
+    with open(RANSOM_FILE, "w", encoding="utf-8") as f:
+        json.dump({
+            "last_updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "victims":          victims,
+            "groups":           groups,
+            "stats":            ransom_stats,
+            "errors":           ransom_errors,
+        }, f, indent=2, ensure_ascii=False)
+    print(f"  Ransomware saved: {ransom_stats['total_victims']} victims | {ransom_stats['unique_groups']} groups | {ransom_stats['monitored_victims']} in monitored regions")
+    if ransom_errors:
+        print("  Ransomware errors:", ransom_errors[:5])
+
     if errors:
         print("News errors:", errors[:5])
 
