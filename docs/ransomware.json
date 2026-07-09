@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-09T18:14:45.085614+00:00",
+  "last_updated_utc": "2026-07-09T23:47:28.042307+00:00",
   "victims": [
+    {
+      "victim": "Finance Yorkshire",
+      "group": "cmdorganization",
+      "country": "United Kingdom",
+      "sector": "Financial Services",
+      "discovered": "2026-07-09T19:20:22.583117+00:00",
+      "attack_date": "2026-07-09T19:20:20.891259+00:00",
+      "website": "",
+      "description": "Finance Yorkshire provides funding solutions for small and medium-sized enterprises (SMEs) located in or planning to relocate to Yorkshire. Their offerings include business loans ranging from £25,000 to £250,000, equity-linked investments, and seedcorn startup finance, with a focus on supporting gro",
+      "claim_url": "https://www.ransomware.live/id/RmluYW5jZSBZb3Jrc2hpcmVAY21kb3JnYW5pemF0aW9u",
+      "monitored": true
+    },
     {
       "victim": "Envision Unlimited",
       "group": "moneymessage",
@@ -1188,18 +1200,6 @@
       "description": "https://www.***.org/ https://www.zoominfo.com/c/medic-rescue/47367866 Medic Rescue Services has been providing trusted emergency medical services to Beaver County since 1978. They offer a range of services including on-site emergency care, non-emergency transports, stretcher van trips, and wheelchai",
       "claim_url": "https://www.ransomware.live/id/TWVkaWMgUmVzY3VlQHRoZWdlbnRsZW1lbg==",
       "monitored": false
-    },
-    {
-      "victim": "Locati Architects",
-      "group": "play",
-      "country": "Australia",
-      "sector": "Construction",
-      "discovered": "2026-07-04T07:56:28.947685+00:00",
-      "attack_date": "2026-07-04T07:56:13.178585+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=8fJN1qE5MO0ev0",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3350,12 +3350,12 @@
     "total_victims": 100,
     "monitored_victims": 66,
     "unique_groups": 26,
-    "unique_countries": 30,
+    "unique_countries": 29,
     "by_country": {
       "United States": 35,
       "Germany": 12,
       "Unknown": 10,
-      "United Kingdom": 4,
+      "United Kingdom": 5,
       "Mexico": 3,
       "Canada": 3,
       "Italy": 3,
@@ -3380,8 +3380,7 @@
       "EG": 1,
       "OM": 1,
       "Malaysia": 1,
-      "EC": 1,
-      "Australia": 1
+      "EC": 1
     },
     "by_group": {
       "qilin": 19,
@@ -3390,19 +3389,19 @@
       "CRPxO": 6,
       "akira": 5,
       "chaos": 4,
-      "play": 4,
       "apt73": 4,
       "Wallstreet": 4,
       "payload": 3,
       "AiLock": 3,
       "krybit": 3,
+      "play": 3,
       "incransom": 3,
+      "cmdorganization": 2,
       "BrainCipher": 2,
       "Booba Project": 2,
       "dragonforce": 2,
       "moneymessage": 1,
       "interlock": 1,
-      "cmdorganization": 1,
       "bravox": 1,
       "medusalocker": 1,
       "morpheus": 1,
@@ -3418,11 +3417,11 @@
       "Manufacturing": 8,
       "Consumer Services": 8,
       "Technology": 7,
-      "Construction": 6,
+      "Financial Services": 6,
       "Energy": 5,
       "Public Sector": 5,
       "Transportation/Logistics": 5,
-      "Financial Services": 5,
+      "Construction": 5,
       "Education": 3,
       "Agriculture and Food Production": 2
     }
