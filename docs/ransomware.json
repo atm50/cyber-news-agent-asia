@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-10T18:10:12.509831+00:00",
+  "last_updated_utc": "2026-07-10T22:38:00.376154+00:00",
   "victims": [
+    {
+      "victim": "The Schuett Companies",
+      "group": "dragonforce",
+      "country": "United States",
+      "sector": "Construction",
+      "discovered": "2026-07-10T21:57:26.296097+00:00",
+      "attack_date": "2026-07-10T21:26:03.370903+00:00",
+      "website": "",
+      "description": "The Schuett Companies, Inc. is a family-owned business with over 50 years of experience specializing in affordable housing for seniors, individuals with disabilities, and families. They manage approximately 1,600 housing units across Minnesota, North Dakota, and South Dakota. Since 1968, they have a",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=d08d0ea2-3184-4606-8198-38fd270460a4",
+      "monitored": true
+    },
     {
       "victim": "Eurodefi",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "Pinturas PRISA is a Mexican company from the state of Jalisco with nearly 80 years of history, specializing in the production of high-quality paints and coatings for industrial sectors (automotive, woodworking, manufacturing) and retail customers.",
       "claim_url": "https://www.ransomware.live/id/UGludHVyYXMgUHJpc2FAQWlMb2Nr",
       "monitored": false
-    },
-    {
-      "victim": "S.J. Louis",
-      "group": "qilin",
-      "country": "Brazil",
-      "sector": "Not Found",
-      "discovered": "2026-07-08T15:26:34.181642+00:00",
-      "attack_date": "2026-07-08T15:26:08.962642+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=0894a7b6-f612-4096-bc99-8ecafeaa427e",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3349,10 +3349,10 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 36,
-    "unique_groups": 14,
+    "unique_groups": 15,
     "unique_countries": 37,
     "by_country": {
-      "United States": 16,
+      "United States": 17,
       "Unknown": 8,
       "Spain": 8,
       "Italy": 7,
@@ -3360,7 +3360,7 @@
       "Mexico": 5,
       "AR": 4,
       "Germany": 4,
-      "Brazil": 4,
+      "Brazil": 3,
       "CZ": 3,
       "Singapore": 3,
       "United Kingdom": 3,
@@ -3392,10 +3392,11 @@
     },
     "by_group": {
       "Deadlock": 65,
-      "qilin": 16,
+      "qilin": 15,
       "CRPxO": 6,
       "payload": 2,
       "BrainCipher": 2,
+      "dragonforce": 1,
       "interlock": 1,
       "blackwater": 1,
       "Doommageddon": 1,
@@ -3407,16 +3408,16 @@
       "AiLock": 1
     },
     "by_sector": {
-      "Not Found": 23,
+      "Not Found": 22,
       "Business Services": 20,
       "Manufacturing": 14,
       "Healthcare": 9,
       "Technology": 5,
+      "Construction": 4,
       "Financial Services": 4,
       "Agriculture and Food Production": 4,
       "Public Sector": 4,
       "Consumer Services": 4,
-      "Construction": 3,
       "Transportation/Logistics": 3,
       "Hospitality and Tourism": 3,
       "Energy": 3,
