@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-11T15:34:41.001118+00:00",
+  "last_updated_utc": "2026-07-11T18:40:22.056353+00:00",
   "victims": [
     {
       "victim": "Century Equities",
@@ -95,6 +95,18 @@
       "website": "",
       "description": "Borger Independent School District serves approximately 2,500 students on six campuses in Hutchinson County, Texas. The district fails to foster a collaborative environment for students, parents, and the community. They are not responsible or committed to ensuring the security of your data. This is ",
       "claim_url": "http://t26owzk2773mecpebt4l2eztx6lvn5642fn7annaynq7vwvb6wonkrid.onion/index.php?p=",
+      "monitored": true
+    },
+    {
+      "victim": "Access Equipment Hire",
+      "group": "dragonforce",
+      "country": "Australia",
+      "sector": "Construction",
+      "discovered": "2026-07-11T15:25:06.066641+00:00",
+      "attack_date": "2026-07-10T15:06:02.067570+00:00",
+      "website": "",
+      "description": "Access Group International is a leading privately owned provider of access, material handling, power generation, and construction equipment. The company is dedicated to safety, performance, and reliability, serving Australia's demanding industries with dependable equipment and expertise. Their integ",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=71752b28-6410-4be5-b260-ffa493fdc9d3",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "***.com zoominfo.com/c/martin-cava-sa/366183664 Martin Cava S.A. is a prominent Argentine supplier of equipment, specialty papers, and consumables for the graphic and printing industry, boasting nearly 90 years of market experience.Based in Buenos Aires, they distribute a wide array of products incl",
       "claim_url": "https://www.ransomware.live/id/TWFydGluIENhdmFAdGhlZ2VudGxlbWVu",
-      "monitored": false
-    },
-    {
-      "victim": "Fortray",
-      "group": "thegentlemen",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-07-11T07:23:07.721475+00:00",
-      "attack_date": "2026-07-10T03:14:28+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/fortray-global-services-ltd/446823730 Fortray Global Services Limited is a UK-based IT company founded in 2011 that operates across tech education, managed IT services, and global recruitment.They offer specialized Tech and AI bootcamps with 1:1 mentorship to help individuals ",
-      "claim_url": "https://www.ransomware.live/id/Rm9ydHJheUB0aGVnZW50bGVtZW4=",
       "monitored": false
     }
   ],
@@ -3348,14 +3348,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 31,
+    "monitored_victims": 32,
     "unique_groups": 10,
-    "unique_countries": 40,
+    "unique_countries": 41,
     "by_country": {
       "United States": 13,
       "Italy": 9,
       "Spain": 9,
-      "Unknown": 7,
+      "Unknown": 6,
       "Poland": 6,
       "Mexico": 5,
       "Germany": 5,
@@ -3369,6 +3369,7 @@
       "NH": 1,
       "GH": 1,
       "MA": 1,
+      "Australia": 1,
       "CO": 1,
       "United Arab Emirates": 1,
       "UY": 1,
@@ -3395,10 +3396,10 @@
     },
     "by_group": {
       "Deadlock": 64,
-      "thegentlemen": 17,
+      "thegentlemen": 16,
       "qilin": 12,
+      "dragonforce": 2,
       "cmdorganization": 1,
-      "dragonforce": 1,
       "interlock": 1,
       "payload": 1,
       "blackwater": 1,
@@ -3407,10 +3408,10 @@
     },
     "by_sector": {
       "Business Services": 23,
-      "Not Found": 23,
+      "Not Found": 22,
       "Manufacturing": 12,
+      "Construction": 7,
       "Agriculture and Food Production": 6,
-      "Construction": 6,
       "Healthcare": 6,
       "Financial Services": 4,
       "Energy": 4,
