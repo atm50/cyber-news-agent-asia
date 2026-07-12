@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-12T07:36:15.084537+00:00",
+  "last_updated_utc": "2026-07-12T11:46:06.981921+00:00",
   "victims": [
+    {
+      "victim": "Cooperate service CZ s.r.o.",
+      "group": "titan",
+      "country": "CZ",
+      "sector": "Business Services",
+      "discovered": "2026-07-12T09:22:29.394967+00:00",
+      "attack_date": "2026-07-12T09:22:11.331671+00:00",
+      "website": "",
+      "description": "[AI generated] N/A",
+      "claim_url": "http://x4bccxlsmjsxlnnf3ocvndlshgfkagzytpqmsjnlfykceumnw6i4hkqd.onion/awaiting/post/and-other-company-heads-ixu0o85yt7",
+      "monitored": false
+    },
+    {
+      "victim": "Eureka Construction INC",
+      "group": "titan",
+      "country": "United States",
+      "sector": "Construction",
+      "discovered": "2026-07-12T09:22:00.220767+00:00",
+      "attack_date": "2026-07-12T09:21:41.023111+00:00",
+      "website": "",
+      "description": "[AI generated] N/A",
+      "claim_url": "http://x4bccxlsmjsxlnnf3ocvndlshgfkagzytpqmsjnlfykceumnw6i4hkqd.onion/awaiting/post/eureka-construction-inc-6mdwho3d0m",
+      "monitored": true
+    },
     {
       "victim": "Century Equities",
       "group": "qilin",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "***.com zoominfo.com/c/triquesta-pte-ltd/346670373 Triquesta is a Singapore-based fintech company specializing in collateral, compliance, and risk management software for structured commodity finance.Founded by seasoned banking professionals, the firm provides cutting-edge technology that helps glob",
       "claim_url": "https://www.ransomware.live/id/VHJpcXVlc3RhQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "Aveiro Constructors Limited",
-      "group": "thegentlemen",
-      "country": "Portugal",
-      "sector": "Construction",
-      "discovered": "2026-07-11T07:22:26.835965+00:00",
-      "attack_date": "2026-07-10T03:17:35+00:00",
-      "website": "",
-      "description": "***.com Aveiro Constructors Limited is a Canadian general contractor established in 1976 and headquartered in Southwestern Ontario. The company specializes in the Industrial, Commercial, and Institutional (ICI) sectors, delivering design-build, new construction, and renovation projects both locally ",
-      "claim_url": "https://www.ransomware.live/id/QXZlaXJvIENvbnN0cnVjdG9ycyBMaW1pdGVkQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "Martin Cava",
-      "group": "thegentlemen",
-      "country": "Spain",
-      "sector": "Consumer Services",
-      "discovered": "2026-07-11T07:22:47.393408+00:00",
-      "attack_date": "2026-07-10T03:15:45+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/martin-cava-sa/366183664 Martin Cava S.A. is a prominent Argentine supplier of equipment, specialty papers, and consumables for the graphic and printing industry, boasting nearly 90 years of market experience.Based in Buenos Aires, they distribute a wide array of products incl",
-      "claim_url": "https://www.ransomware.live/id/TWFydGluIENhdmFAdGhlZ2VudGxlbWVu",
       "monitored": false
     }
   ],
@@ -3168,7 +3168,7 @@
     {
       "name": "titan",
       "description": "Founded 4 April 2026",
-      "locations": 2,
+      "locations": 3,
       "meta": ""
     },
     {
@@ -3348,24 +3348,23 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 32,
-    "unique_groups": 10,
+    "monitored_victims": 33,
+    "unique_groups": 11,
     "unique_countries": 41,
     "by_country": {
-      "United States": 13,
+      "United States": 14,
       "Italy": 9,
-      "Spain": 9,
+      "Spain": 8,
       "Unknown": 6,
       "Poland": 6,
+      "CZ": 5,
       "Mexico": 5,
       "Germany": 5,
       "AR": 4,
-      "CZ": 4,
       "Brazil": 3,
       "Singapore": 3,
       "HU": 2,
       "Turkey": 2,
-      "Portugal": 2,
       "NH": 1,
       "GH": 1,
       "MA": 1,
@@ -3375,6 +3374,7 @@
       "UY": 1,
       "India": 1,
       "Canada": 1,
+      "Portugal": 1,
       "Netherlands": 1,
       "HR": 1,
       "LT": 1,
@@ -3396,8 +3396,9 @@
     },
     "by_group": {
       "Deadlock": 64,
-      "thegentlemen": 16,
+      "thegentlemen": 14,
       "qilin": 12,
+      "titan": 2,
       "dragonforce": 2,
       "cmdorganization": 1,
       "interlock": 1,
@@ -3407,7 +3408,7 @@
       "gunra": 1
     },
     "by_sector": {
-      "Business Services": 23,
+      "Business Services": 24,
       "Not Found": 22,
       "Manufacturing": 12,
       "Construction": 7,
@@ -3417,9 +3418,9 @@
       "Energy": 4,
       "Technology": 4,
       "Hospitality and Tourism": 3,
-      "Consumer Services": 3,
       "Public Sector": 2,
       "Transportation/Logistics": 2,
+      "Consumer Services": 2,
       "Telecommunication": 1,
       "Education": 1
     }
