@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-07-12T20:00:55.588101+00:00",
+  "last_updated_utc": "2026-07-12T22:35:14.405369+00:00",
   "victims": [
+    {
+      "victim": "Casper Orthopedics",
+      "group": "anubis",
+      "country": "",
+      "sector": "Healthcare",
+      "discovered": "2026-07-12T22:22:52.789531+00:00",
+      "attack_date": "2026-07-12T22:22:50.450271+00:00",
+      "website": "",
+      "description": "Orthopedic clinic patients' data and medical records exposed.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/ydEfQm1BMSZSgr32xb3SQldY95kAENrabpvZWAB6C+3+LuVguGp5ux8ZvmSXzbRKaban7I5r07hjF11p3Xt90V1NGp4ZHdV",
+      "monitored": false
+    },
+    {
+      "victim": "Surtifamiliar",
+      "group": "anubis",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-07-12T22:22:32.308778+00:00",
+      "attack_date": "2026-07-12T22:22:30.125624+00:00",
+      "website": "",
+      "description": "Passports of supermarket chain employees.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/Dr7VhVFOMK1k2+qnI9jF0gDOJlR0NJq8kdZ4KX5xPANO9NEajFOqWDiv0uo0ZIzxEU+X8zkXyy6Sus+P5IxfUQ5Ym5uY3kw",
+      "monitored": false
+    },
+    {
+      "victim": "Community Advocates",
+      "group": "anubis",
+      "country": "",
+      "sector": "Business Services",
+      "discovered": "2026-07-12T22:22:11.775114+00:00",
+      "attack_date": "2026-07-12T22:22:09.302963+00:00",
+      "website": "",
+      "description": "Law firm clients' personal data exposed.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/fy1PXgixthOWCOyIB32fCD4KDmveBj2e697E1+YNBsiXeOOnVvYwMohSmHuq+DnGIZDsOM5rEKOumoiGxqRbWQzd0JPQlRa",
+      "monitored": false
+    },
     {
       "victim": "Aldaco Avance 2022 S.L.",
       "group": "Deadlock",
@@ -1164,42 +1200,6 @@
       "description": "***.com zoominfo.com/c/vigilantes-asociados-al-servicio-de-banca-y-empresas-vasbe-sl/458305259 VASBE Vigilantes Asociados Al Servicio De Banca Y Empresas Vasbe is a well-established Spanish private security and surveillance company with over 30 years of industry experience. Based primarily in the Sa",
       "claim_url": "https://www.ransomware.live/id/VkFTQkVAdGhlZ2VudGxlbWVu",
       "monitored": true
-    },
-    {
-      "victim": "Welders Supply Equipment Rentals",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Construction",
-      "discovered": "2026-07-11T07:19:39.312347+00:00",
-      "attack_date": "2026-07-10T03:41:39+00:00",
-      "website": "",
-      "description": "***.com  zoominfo.com/c/welders-supply--equipment-rentals/355927450 WSE Rentals (Welders Supply & Equipment Rentals) is a specialized equipment rental company headquartered in Port Allen, Louisiana. They focus on providing a comprehensive range of high-quality, reliable welding tools and machinery f",
-      "claim_url": "https://www.ransomware.live/id/V2VsZGVycyBTdXBwbHkgRXF1aXBtZW50IFJlbnRhbHNAdGhlZ2VudGxlbWVu",
-      "monitored": true
-    },
-    {
-      "victim": "Pharma Wholesale",
-      "group": "thegentlemen",
-      "country": "",
-      "sector": "Healthcare",
-      "discovered": "2026-07-11T07:19:59.502985+00:00",
-      "attack_date": "2026-07-10T03:40:06+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/pharma-wholesale/353577758 Pharma Wholesale Corp. is a licensed pharmaceutical wholesaler and distributor headquartered in Florida, USA, with over 24 years of industry experience. The company specializes in the global distribution of prescription and OTC medications, vitamins,",
-      "claim_url": "https://www.ransomware.live/id/UGhhcm1hIFdob2xlc2FsZUB0aGVnZW50bGVtZW4=",
-      "monitored": false
-    },
-    {
-      "victim": "Crossroads Medical Management",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-07-11T07:20:20.812520+00:00",
-      "attack_date": "2026-07-10T03:37:03+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/crossroads-medical-management-llc/354034077 Crossroads Medical Management is a healthcare management company headquartered in Perry, Georgia, specializing in full-service financial, clinical, and operations management for the senior community. As a legacy organization with thr",
-      "claim_url": "https://www.ransomware.live/id/Q3Jvc3Nyb2FkcyBNZWRpY2FsIE1hbmFnZW1lbnRAdGhlZ2VudGxlbWVu",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1290,6 +1290,12 @@
     {
       "name": "ContFR",
       "description": "RAAS - Ransomware intégré à un fichier PDF, à faire ouvrir à vos victimes ou à insérer vous-même, Windows et Mac, ne fonctionne pas sur Linux. Tableau de vitcimes et récupération de données possible depuis votre espace abonné. Configuration de votre ransomware à votre première connexion, puis modification possible selon votre formule.",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "D1R",
+      "description": "",
       "locations": 1,
       "meta": ""
     },
@@ -3348,14 +3354,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 35,
-    "unique_groups": 11,
+    "monitored_victims": 33,
+    "unique_groups": 12,
     "unique_countries": 43,
     "by_country": {
-      "United States": 16,
+      "United States": 14,
+      "Unknown": 8,
       "Spain": 8,
       "Italy": 8,
-      "Unknown": 6,
       "Poland": 6,
       "CZ": 4,
       "Mexico": 4,
@@ -3399,8 +3405,9 @@
     "by_group": {
       "Deadlock": 65,
       "qilin": 12,
-      "thegentlemen": 9,
+      "thegentlemen": 6,
       "dragonforce": 4,
+      "anubis": 3,
       "m3rx": 3,
       "titan": 2,
       "cmdorganization": 1,
@@ -3410,11 +3417,11 @@
       "Doommageddon": 1
     },
     "by_sector": {
-      "Business Services": 26,
-      "Not Found": 22,
+      "Business Services": 27,
+      "Not Found": 23,
       "Manufacturing": 12,
-      "Construction": 7,
-      "Healthcare": 6,
+      "Construction": 6,
+      "Healthcare": 5,
       "Agriculture and Food Production": 5,
       "Energy": 4,
       "Financial Services": 4,
