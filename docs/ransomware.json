@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-07-12T15:40:57.485475+00:00",
+  "last_updated_utc": "2026-07-12T20:00:55.588101+00:00",
   "victims": [
+    {
+      "victim": "Aldaco Avance 2022 S.L.",
+      "group": "Deadlock",
+      "country": "Spain",
+      "sector": "Business Services",
+      "discovered": "2026-07-12T19:20:26.738726+00:00",
+      "attack_date": "2026-07-12T19:20:25.203066+00:00",
+      "website": "",
+      "description": "Aldaco is a Spanish company specializing in industrial engineering, construction materials, civil engineering, mining and labor security, with seats in Asturias, Galicia and Madrid. The company distributes machines and technical tools, offers specialized asesoramients and support for professional pr",
+      "claim_url": "https://www.ransomware.live/id/QWxkYWNvIEF2YW5jZSAyMDIyIFMuTC5ARGVhZGxvY2s=",
+      "monitored": false
+    },
+    {
+      "victim": "STEP Oiltools",
+      "group": "dragonforce",
+      "country": "RO",
+      "sector": "Energy",
+      "discovered": "2026-07-12T17:55:01.344752+00:00",
+      "attack_date": "2026-07-12T17:00:35.413649+00:00",
+      "website": "",
+      "description": "STEP Oiltools is a leading global provider of solids control and drilling waste management services, primarily serving the oil and gas and civil engineering industries. The company offers a range of products including mini separation systems, modular recyclers, and dewatering systems, aimed at enhan",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=2aedf0cd-9031-4333-aa3b-3b775041d7d3",
+      "monitored": false
+    },
+    {
+      "victim": "Al - Saidi Factory",
+      "group": "dragonforce",
+      "country": "Saudi Arabia",
+      "sector": "Manufacturing",
+      "discovered": "2026-07-12T17:55:26.704310+00:00",
+      "attack_date": "2026-07-12T16:59:17.464674+00:00",
+      "website": "",
+      "description": "Al Saidi Al Saidi Trading and Industry is a prominent group of companies providing tailored chemical and logistics solutions primarily for clients in the Middle East. They offer a comprehensive range of global logistics services, including supply chain management and freight forwarding, designed to ",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=7dc6bb41-0cc2-4c0a-8b60-dffc1a57317a",
+      "monitored": true
+    },
     {
       "victim": "eclective.ie",
       "group": "m3rx",
@@ -1164,42 +1200,6 @@
       "description": "***.com zoominfo.com/c/crossroads-medical-management-llc/354034077 Crossroads Medical Management is a healthcare management company headquartered in Perry, Georgia, specializing in full-service financial, clinical, and operations management for the senior community. As a legacy organization with thr",
       "claim_url": "https://www.ransomware.live/id/Q3Jvc3Nyb2FkcyBNZWRpY2FsIE1hbmFnZW1lbnRAdGhlZ2VudGxlbWVu",
       "monitored": true
-    },
-    {
-      "victim": "INTERNET AG",
-      "group": "thegentlemen",
-      "country": "Germany",
-      "sector": "Technology",
-      "discovered": "2026-07-11T07:20:41.761238+00:00",
-      "attack_date": "2026-07-10T03:32:48+00:00",
-      "website": "",
-      "description": "***.de zoominfo.com/c/inet/429716454 INTERNET AG is a professional German IT service provider specializing in reliable, sustainable, and flexible hosting and server solutions. The company delivers customized IT infrastructures, managed services, and global network connectivity tailored to complex bu",
-      "claim_url": "https://www.ransomware.live/id/SU5URVJORVQgQUdAdGhlZ2VudGxlbWVu",
-      "monitored": true
-    },
-    {
-      "victim": "Open Options",
-      "group": "thegentlemen",
-      "country": "Ireland",
-      "sector": "Business Services",
-      "discovered": "2026-07-11T07:21:02.433644+00:00",
-      "attack_date": "2026-07-10T03:27:23+00:00",
-      "website": "",
-      "description": "***.com Open Options was a prominent Texas-based software company specializing in open-architecture access control solutions, best known for its flagship enterprise platform, DNA Fusion. The company focused on delivering scalable physical security and identity management software tailored to complex",
-      "claim_url": "https://www.ransomware.live/id/T3BlbiBPcHRpb25zQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "New Tiles S.L.",
-      "group": "gunra",
-      "country": "Spain",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-10T03:24:28.917422+00:00",
-      "attack_date": "2026-07-10T03:24:27.052375+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "https://www.ransomware.live/id/TmV3IFRpbGVzIFMuTC5AZ3VucmE=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3349,23 +3349,25 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 35,
-    "unique_groups": 12,
-    "unique_countries": 41,
+    "unique_groups": 11,
+    "unique_countries": 43,
     "by_country": {
       "United States": 16,
-      "Italy": 8,
       "Spain": 8,
+      "Italy": 8,
       "Unknown": 6,
       "Poland": 6,
-      "Germany": 5,
       "CZ": 4,
       "Mexico": 4,
       "AR": 4,
+      "Germany": 4,
       "Brazil": 3,
       "Singapore": 3,
-      "Ireland": 2,
       "HU": 2,
       "Turkey": 2,
+      "RO": 1,
+      "Saudi Arabia": 1,
+      "Ireland": 1,
       "NH": 1,
       "GH": 1,
       "MA": 1,
@@ -3395,18 +3397,17 @@
       "Russia": 1
     },
     "by_group": {
-      "Deadlock": 64,
+      "Deadlock": 65,
       "qilin": 12,
-      "thegentlemen": 11,
+      "thegentlemen": 9,
+      "dragonforce": 4,
       "m3rx": 3,
       "titan": 2,
-      "dragonforce": 2,
       "cmdorganization": 1,
       "interlock": 1,
       "payload": 1,
       "blackwater": 1,
-      "Doommageddon": 1,
-      "gunra": 1
+      "Doommageddon": 1
     },
     "by_sector": {
       "Business Services": 26,
@@ -3415,9 +3416,9 @@
       "Construction": 7,
       "Healthcare": 6,
       "Agriculture and Food Production": 5,
+      "Energy": 4,
       "Financial Services": 4,
-      "Technology": 4,
-      "Energy": 3,
+      "Technology": 3,
       "Hospitality and Tourism": 3,
       "Public Sector": 2,
       "Transportation/Logistics": 2,
