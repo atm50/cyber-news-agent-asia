@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-07-12T22:35:14.405369+00:00",
+  "last_updated_utc": "2026-07-13T10:43:59.542631+00:00",
   "victims": [
+    {
+      "victim": "www.twtci.com Trans World Trading",
+      "group": "dragonforce",
+      "country": "",
+      "sector": "Business Services",
+      "discovered": "2026-07-13T09:23:46.364855+00:00",
+      "attack_date": "2026-07-13T09:13:33.226181+00:00",
+      "website": "",
+      "description": "Trans World Trading Company, Inc. is a leading business conglomerate in the Philippines, recognized for its trust and reliability since 1946. The company specializes in providing sustainable material solutions through its divisions in plastics, chemicals, industrial products, and agrochemicals. With",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=45c18967-51db-4181-97c5-6a0d59ab1122",
+      "monitored": false
+    },
+    {
+      "victim": "degeremcia.com",
+      "group": "dragonforce",
+      "country": "Turkey",
+      "sector": "Not Found",
+      "discovered": "2026-07-13T09:24:09.043553+00:00",
+      "attack_date": "2026-07-13T09:06:29.814698+00:00",
+      "website": "",
+      "description": "DEGEREMCIA is a food operator that is dedicated to the production, distribution and sale of prepared food. It operates mainly through its own chain of fast-food stores; its main brands include Naturissimo and Soldia.",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=f23e19db-7e99-4185-9673-3ef7cf7a8c17",
+      "monitored": false
+    },
+    {
+      "victim": "Els for Autism",
+      "group": "cmdorganization",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-07-12T23:50:22.758258+00:00",
+      "attack_date": "2026-07-12T23:50:21.320068+00:00",
+      "website": "",
+      "description": "Els for Autism Foundation, founded by Liezl and Ernie Els, offers programs and resources for adults and children with autism spectrum disorder (ASD). The Els Center of Excellence campus is a world-class site hosting leading-edge programs and services for individuals with autism. Based in Jupiter, Fl",
+      "claim_url": "https://www.ransomware.live/id/RWxzIGZvciBBdXRpc21AY21kb3JnYW5pemF0aW9u",
+      "monitored": true
+    },
     {
       "victim": "Casper Orthopedics",
       "group": "anubis",
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "***.com zoominfo.com/c/carita/358348689 Carita is a prestigious French luxury skincare brand founded in 1945, renowned for its professional-grade beauty treatments and high-end cosmetics. Now part of L'Oréal's Luxury Division following its acquisition from Shiseido in 2022, the brand operates global",
       "claim_url": "https://www.ransomware.live/id/Q2FyaXRhQHRoZWdlbnRsZW1lbg==",
-      "monitored": true
-    },
-    {
-      "victim": "Lopes Law",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Business Services",
-      "discovered": "2026-07-11T07:18:32.539868+00:00",
-      "attack_date": "2026-07-10T03:50:11+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/lopes-law-llc/449811320 Lopes Law LLC is a Philadelphia-based law firm founded by Anthony Lopes that specializes in franchise law, representing both franchisees and franchisors nationwide. The firm provides comprehensive legal services including Franchise Disclosure Document (",
-      "claim_url": "https://www.ransomware.live/id/TG9wZXMgTGF3QHRoZWdlbnRsZW1lbg==",
-      "monitored": true
-    },
-    {
-      "victim": "Gene Codes Forensics",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-07-11T07:18:53.887333+00:00",
-      "attack_date": "2026-07-10T03:47:57+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/gene-codes-forensics-inc/1208843964 Gene Codes Forensics is a Michigan-based technology company and a global leader in disaster victim identification and human DNA matching. They provide specialized forensic software, such as Sequencher and M-FISys, which are utilized by numer",
-      "claim_url": "https://www.ransomware.live/id/R2VuZSBDb2RlcyBGb3JlbnNpY3NAdGhlZ2VudGxlbWVu",
-      "monitored": true
-    },
-    {
-      "victim": "VASBE",
-      "group": "thegentlemen",
-      "country": "Russia",
-      "sector": "Business Services",
-      "discovered": "2026-07-11T07:19:14.392790+00:00",
-      "attack_date": "2026-07-10T03:44:17+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/vigilantes-asociados-al-servicio-de-banca-y-empresas-vasbe-sl/458305259 VASBE Vigilantes Asociados Al Servicio De Banca Y Empresas Vasbe is a well-established Spanish private security and surveillance company with over 30 years of industry experience. Based primarily in the Sa",
-      "claim_url": "https://www.ransomware.live/id/VkFTQkVAdGhlZ2VudGxlbWVu",
       "monitored": true
     }
   ],
@@ -3354,12 +3354,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 33,
+    "monitored_victims": 31,
     "unique_groups": 12,
-    "unique_countries": 43,
+    "unique_countries": 42,
     "by_country": {
-      "United States": 14,
-      "Unknown": 8,
+      "United States": 13,
+      "Unknown": 9,
       "Spain": 8,
       "Italy": 8,
       "Poland": 6,
@@ -3367,10 +3367,10 @@
       "Mexico": 4,
       "AR": 4,
       "Germany": 4,
+      "Turkey": 3,
       "Brazil": 3,
       "Singapore": 3,
       "HU": 2,
-      "Turkey": 2,
       "RO": 1,
       "Saudi Arabia": 1,
       "Ireland": 1,
@@ -3399,26 +3399,25 @@
       "Philippines": 1,
       "China": 1,
       "GR": 1,
-      "France": 1,
-      "Russia": 1
+      "France": 1
     },
     "by_group": {
       "Deadlock": 65,
       "qilin": 12,
-      "thegentlemen": 6,
-      "dragonforce": 4,
+      "dragonforce": 6,
       "anubis": 3,
       "m3rx": 3,
+      "thegentlemen": 3,
+      "cmdorganization": 2,
       "titan": 2,
-      "cmdorganization": 1,
       "interlock": 1,
       "payload": 1,
       "blackwater": 1,
       "Doommageddon": 1
     },
     "by_sector": {
-      "Business Services": 27,
-      "Not Found": 23,
+      "Business Services": 26,
+      "Not Found": 24,
       "Manufacturing": 12,
       "Construction": 6,
       "Healthcare": 5,
