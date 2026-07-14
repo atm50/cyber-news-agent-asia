@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-13T22:15:39.791827+00:00",
+  "last_updated_utc": "2026-07-14T06:39:20.152828+00:00",
   "victims": [
+    {
+      "victim": "Sedemi",
+      "group": "qilin",
+      "country": "Mexico",
+      "sector": "Not Found",
+      "discovered": "2026-07-14T03:57:06.724334+00:00",
+      "attack_date": "2026-07-14T03:57:04.210390+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=44c613b3-9f46-4e31-a76b-0af290178914",
+      "monitored": false
+    },
+    {
+      "victim": "momenta.cn",
+      "group": "dragonforce",
+      "country": "China",
+      "sector": "Technology",
+      "discovered": "2026-07-14T00:24:00.121028+00:00",
+      "attack_date": "2026-07-14T00:04:24.878950+00:00",
+      "website": "",
+      "description": "Momenta is an AI and autonomous-driving company.\nAll source code, financial documents, configuration files, employee database, and more were stolen.\nServers and workstations were encrypted.\nMomenta is trying to hide everything from Chinese regulators, the HKEX commission, and investors while reporti",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=3880d2b3-a7c4-473b-9407-bc9147cd9b63",
+      "monitored": true
+    },
     {
       "victim": "Counts & Dobyns",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "IFC Europa is a Spanish-based distributor specializing in car audio, automotive lighting, and electronics.",
       "claim_url": "http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOmlmY2V1cm9wYS5jb218ZXUtY2VudHJhbC0xfEIyT1RJUFdNRlpUVlJDR0IyTTAxfFZxMmxYRnZXV1NOd2lTMlZpYWJUdVh6c1ZXWGpMSEJCWjZWQkxwcXE%3D",
       "monitored": true
-    },
-    {
-      "victim": "Noega and Esnova",
-      "group": "Deadlock",
-      "country": "Spain",
-      "sector": "Not Found",
-      "discovered": "2026-07-10T12:55:29.274977+00:00",
-      "attack_date": "2026-07-10T12:55:27.182958+00:00",
-      "website": "",
-      "description": "Esnova (Esnova Racks S.A.) is a leading Spanish manufacturer specializing in industrial shelving and warehouse storage systems. Based in Gijón, Asturias, the company designs, manufactures, and installs solutions for logistics and warehouse management across more than 35 countries. Noega Systems is a",
-      "claim_url": "http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOmVzbm92YS5jb218ZXUtY2VudHJhbC0xfEIyT1RJUFdNRlpUVlJDR0IyTTAxfFZxMmxYRnZXV1NOd2lTMlZpYWJUdVh6c1ZXWGpMSEJCWjZWQkxwcXE%3D",
-      "monitored": false
-    },
-    {
-      "victim": "iASK",
-      "group": "Deadlock",
-      "country": "HU",
-      "sector": "Not Found",
-      "discovered": "2026-07-10T12:55:07.197359+00:00",
-      "attack_date": "2026-07-10T12:55:05.706363+00:00",
-      "website": "",
-      "description": "The Institute of Advanced Studies Kőszeg is a Hungarian research center focusing on interdisciplinary studies, regional transformation in Central/Southeastern Europe, and sustainability. It operates as a hub for research, hosting an annual International Summer University and maintaining specialized ",
-      "claim_url": "http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOmlhc2suaHV8ZXUtY2VudHJhbC0xfEFaSDRZQjM1OTE0TEJESkVLS0pCfEV6TDR6Y1BtRkt1dTdhcjd3NWZaZTN6cEUwdmU4TkRPUm5wekJhUEE%3D",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3354,25 +3354,25 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 35,
+    "monitored_victims": 36,
     "unique_groups": 11,
-    "unique_countries": 38,
+    "unique_countries": 39,
     "by_country": {
       "United States": 19,
-      "Spain": 9,
+      "Spain": 8,
       "CZ": 7,
       "Italy": 6,
       "Poland": 6,
+      "Mexico": 5,
       "Germany": 5,
       "AR": 4,
-      "Mexico": 4,
       "CO": 3,
       "Turkey": 3,
       "Unknown": 3,
       "Portugal": 2,
       "United Kingdom": 2,
-      "HU": 2,
       "Brazil": 2,
+      "China": 1,
       "France": 1,
       "Philippines": 1,
       "RO": 1,
@@ -3383,6 +3383,7 @@
       "MA": 1,
       "Australia": 1,
       "United Arab Emirates": 1,
+      "HU": 1,
       "UY": 1,
       "India": 1,
       "Canada": 1,
@@ -3398,9 +3399,9 @@
       "AO": 1
     },
     "by_group": {
-      "Deadlock": 57,
-      "qilin": 16,
-      "dragonforce": 8,
+      "Deadlock": 55,
+      "qilin": 17,
+      "dragonforce": 9,
       "titan": 5,
       "D1R": 3,
       "anubis": 3,
@@ -3412,10 +3413,10 @@
     },
     "by_sector": {
       "Business Services": 26,
-      "Not Found": 23,
+      "Not Found": 22,
       "Manufacturing": 12,
+      "Technology": 7,
       "Agriculture and Food Production": 6,
-      "Technology": 6,
       "Healthcare": 5,
       "Construction": 4,
       "Financial Services": 4,
