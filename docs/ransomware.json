@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-14T20:44:40.404494+00:00",
+  "last_updated_utc": "2026-07-14T23:39:43.849404+00:00",
   "victims": [
     {
       "victim": "spectrumchemical.com",
@@ -191,6 +191,18 @@
       "website": "",
       "description": "Momenta is an AI and autonomous-driving company.\nAll source code, financial documents, configuration files, employee database, and more were stolen.\nServers and workstations were encrypted.\nMomenta is trying to hide everything from Chinese regulators, the HKEX commission, and investors while reporti",
       "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=3880d2b3-a7c4-473b-9407-bc9147cd9b63",
+      "monitored": true
+    },
+    {
+      "victim": "Axiom GlobalNEW",
+      "group": "coinbasecartel",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-07-14T20:53:23.015790+00:00",
+      "attack_date": "2026-07-14T00:00:00+00:00",
+      "website": "",
+      "description": "[AI generated] N/A",
+      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/axiom",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "ONE Contact is a Swedish-managed contact center located in Barcelona, Spain, offering customer service, telemarketing, and retention strategies targeted at the Scandinavian market. Services include 1st/2nd line support and digital customer service solutions, with a physical office located on Calle P",
       "claim_url": "https://www.swisstransfer.com/d/2657865f-0bd7-4bcc-ab5a-537cdd53e63d",
-      "monitored": false
-    },
-    {
-      "victim": "Consulting Valladolid",
-      "group": "Deadlock",
-      "country": "Spain",
-      "sector": "Business Services",
-      "discovered": "2026-07-10T13:04:15.409916+00:00",
-      "attack_date": "2026-07-10T13:04:10.405517+00:00",
-      "website": "",
-      "description": "Consulting Valladolid S.A. is a professional firm with over 40 years of experience providing comprehensive legal, tax, labor, and accounting services in Valladolid, Spain. The firm utilizes advanced technology to deliver tailored advisory solutions for both companies and individuals",
-      "claim_url": "https://www.swisstransfer.com/d/8560fbfc-ef7d-4bb7-a2be-6ac8282ee321",
       "monitored": false
     }
   ],
@@ -3354,16 +3354,16 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 44,
-    "unique_groups": 17,
+    "monitored_victims": 45,
+    "unique_groups": 18,
     "unique_countries": 38,
     "by_country": {
-      "United States": 25,
+      "United States": 26,
       "Mexico": 6,
       "CZ": 6,
       "Italy": 5,
-      "Spain": 5,
       "Unknown": 4,
+      "Spain": 4,
       "AR": 4,
       "China": 3,
       "Portugal": 3,
@@ -3398,7 +3398,7 @@
       "Sweden": 1
     },
     "by_group": {
-      "Deadlock": 32,
+      "Deadlock": 31,
       "qilin": 18,
       "dragonforce": 17,
       "arcusmedia": 6,
@@ -3411,14 +3411,15 @@
       "incransom": 2,
       "AiLock": 1,
       "blacknevas": 1,
+      "coinbasecartel": 1,
       "safepay": 1,
       "nightspire": 1,
       "akira": 1,
       "interlock": 1
     },
     "by_sector": {
-      "Business Services": 23,
-      "Not Found": 19,
+      "Business Services": 22,
+      "Not Found": 20,
       "Manufacturing": 10,
       "Technology": 9,
       "Healthcare": 6,
