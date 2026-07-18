@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-18T06:31:44.359954+00:00",
+  "last_updated_utc": "2026-07-18T10:51:32.818992+00:00",
   "victims": [
+    {
+      "victim": "AK Preparedness",
+      "group": "qilin",
+      "country": "",
+      "sector": "Business Services",
+      "discovered": "2026-07-18T10:38:39.534206+00:00",
+      "attack_date": "2026-07-18T10:38:13.165493+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=ce1a0a64-9560-4bbf-8489-b0af28ec8fad",
+      "monitored": false
+    },
+    {
+      "victim": "tws-tac.net",
+      "group": "threeam",
+      "country": "Germany",
+      "sector": "Not Found",
+      "discovered": "2026-07-18T09:58:50.939289+00:00",
+      "attack_date": "2026-07-18T09:58:35.688782+00:00",
+      "website": "",
+      "description": "While ownership has changed over the years, the company has remained locally owned for over 65 years and family-owned for almost 40 years. The company is proud of the company's history and look forward to the future as the company continue to serv",
+      "claim_url": "http://threeam7fj33rv5twe5ll7gcrp3kkyyt6ez5stssixnuwh4v3csxdwqd.onion/recovery/detail/tyhx6vacqjoyy1c3rdh7eo4ido46sy",
+      "monitored": true
+    },
     {
       "victim": "V&P Nurseries",
       "group": "incransom",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=739597b2-88ff-44af-aa22-97024c934e43",
-      "monitored": false
-    },
-    {
-      "victim": "DataOstrov s.r.o.",
-      "group": "titan",
-      "country": "CZ",
-      "sector": "Technology",
-      "discovered": "2026-07-13T20:34:28.345773+00:00",
-      "attack_date": "2026-07-13T20:34:23.199421+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://x4bccxlsmjsxlnnf3ocvndlshgfkagzytpqmsjnlfykceumnw6i4hkqd.onion/awaiting/post/dataostrov-s-r-o-ix0hs6pn4s",
-      "monitored": false
-    },
-    {
-      "victim": "Ozmit s.r.o.",
-      "group": "titan",
-      "country": "CZ",
-      "sector": "Not Found",
-      "discovered": "2026-07-13T20:34:00.806245+00:00",
-      "attack_date": "2026-07-13T20:33:56.482231+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://x4bccxlsmjsxlnnf3ocvndlshgfkagzytpqmsjnlfykceumnw6i4hkqd.onion/awaiting/post/ozmit-s-r-o-ixx3ihniik",
       "monitored": false
     }
   ],
@@ -3348,17 +3348,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 58,
+    "monitored_victims": 59,
     "unique_groups": 21,
     "unique_countries": 32,
     "by_country": {
       "United States": 29,
       "United Kingdom": 6,
+      "Unknown": 5,
       "Taiwan": 5,
       "Japan": 5,
       "Mexico": 4,
-      "CZ": 4,
-      "Unknown": 4,
+      "Germany": 3,
       "South Africa": 3,
       "AR": 3,
       "Sweden": 3,
@@ -3366,8 +3366,8 @@
       "China": 3,
       "Vietnam": 2,
       "Canada": 2,
+      "CZ": 2,
       "Italy": 2,
-      "Germany": 2,
       "Portugal": 2,
       "Finland": 2,
       "CO": 2,
@@ -3388,7 +3388,7 @@
     "by_group": {
       "thegentlemen": 21,
       "dragonforce": 19,
-      "qilin": 12,
+      "qilin": 13,
       "incransom": 9,
       "play": 5,
       "krybit": 4,
@@ -3400,7 +3400,7 @@
       "m3rx": 2,
       "cmdorganization": 2,
       "coinbasecartel": 2,
-      "titan": 2,
+      "threeam": 1,
       "gunra": 1,
       "Booba Project": 1,
       "Black X": 1,
@@ -3409,11 +3409,11 @@
       "blacknevas": 1
     },
     "by_sector": {
+      "Business Services": 17,
       "Not Found": 17,
       "Manufacturing": 16,
-      "Business Services": 16,
       "Agriculture and Food Production": 7,
-      "Technology": 7,
+      "Technology": 6,
       "Consumer Services": 6,
       "Healthcare": 5,
       "Transportation/Logistics": 5,
