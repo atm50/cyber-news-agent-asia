@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-19T20:00:41.206494+00:00",
+  "last_updated_utc": "2026-07-19T22:38:19.087638+00:00",
   "victims": [
+    {
+      "victim": "Reni Farmácias Associadas",
+      "group": "Doommageddon",
+      "country": "Brazil",
+      "sector": "Healthcare",
+      "discovered": "2026-07-19T22:20:57.074650+00:00",
+      "attack_date": "2026-07-19T22:20:39.732842+00:00",
+      "website": "",
+      "description": "Status: upcoming | Data size: N/A | Files: 0 files | Deadline: 2026-07-30T00:00:00Z",
+      "claim_url": "http://iacjvmxjb2ivqkxxzmde4w6g53gn6ym7c3g6mfifvejyhqtp4wrkypyd.onion/victim/reni-farmácias-associadas",
+      "monitored": true
+    },
+    {
+      "victim": "CCR Solutions",
+      "group": "unsafe",
+      "country": "Brazil",
+      "sector": "Business Services",
+      "discovered": "2026-07-19T20:12:31.579889+00:00",
+      "attack_date": "2026-07-19T20:11:28.741143+00:00",
+      "website": "",
+      "description": "Revenue: 41 million",
+      "claim_url": "http://unsafeipw6wbkzzmj7yqp7bz6j7ivzynggmwxsm6u2wwfmfqrxqrrhyd.onion/reel/6a5d25c28b37a93648b56e2a?page=1",
+      "monitored": true
+    },
     {
       "victim": "PP+K",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "You wouldn't want us to describe what was exfiltrated from you publicly. This is a final warning to reach out by 18 July 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 15 July 2026 | Warning: F",
       "claim_url": "https://www.ransomware.live/id/QWJib3R0IG93bmVkIEV4YWN0IFNjaWVuY2VzIENvcnBvcmF0aW9uQHNoaW55aHVudGVycw==",
       "monitored": true
-    },
-    {
-      "victim": "International Delights",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-07-15T19:52:20.310973+00:00",
-      "attack_date": "2026-07-15T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2a85afa5-7c66-4fe2-a552-df3f6954cb9c",
-      "monitored": true
-    },
-    {
-      "victim": "Pioneer Construction",
-      "group": "akira",
-      "country": "",
-      "sector": "Construction",
-      "discovered": "2026-07-15T13:21:00.584831+00:00",
-      "attack_date": "2026-07-15T00:00:00+00:00",
-      "website": "",
-      "description": "Established in 1933, Pioneer Construction is headquartered in Grand Rapids, Michigan. They prov\nide construction solutions throughout the United States including general contracting, crane se\nrvices, program management, and more.\n\nWe will upload 168gb of corporate data soon. Scanned employee persona",
-      "claim_url": "https://www.ransomware.live/id/UGlvbmVlciBDb25zdHJ1Y3Rpb25AYWtpcmE=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3360,17 +3360,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
-    "unique_groups": 21,
+    "monitored_victims": 62,
+    "unique_groups": 23,
     "unique_countries": 33,
     "by_country": {
-      "United States": 33,
+      "United States": 32,
       "Japan": 6,
+      "Brazil": 5,
       "AR": 4,
-      "Unknown": 4,
       "United Kingdom": 4,
       "Taiwan": 4,
-      "Brazil": 3,
+      "Unknown": 3,
       "Germany": 3,
       "France": 3,
       "Sweden": 3,
@@ -3399,18 +3399,20 @@
       "YE": 1
     },
     "by_group": {
-      "qilin": 21,
+      "qilin": 20,
       "thegentlemen": 20,
       "dragonforce": 10,
       "incransom": 9,
       "nova": 7,
       "krybit": 5,
       "play": 5,
-      "akira": 4,
       "blackout": 3,
       "interlock": 3,
+      "akira": 3,
       "m3rx": 2,
       "AiLock": 2,
+      "Doommageddon": 1,
+      "unsafe": 1,
       "payload": 1,
       "threeam": 1,
       "gunra": 1,
@@ -3423,19 +3425,19 @@
     },
     "by_sector": {
       "Not Found": 20,
-      "Business Services": 16,
+      "Business Services": 17,
       "Manufacturing": 13,
-      "Agriculture and Food Production": 9,
       "Technology": 8,
+      "Agriculture and Food Production": 8,
       "Consumer Services": 7,
-      "Healthcare": 5,
+      "Healthcare": 6,
       "Financial Services": 5,
       "Telecommunication": 3,
       "Transportation/Logistics": 3,
       "Public Sector": 3,
-      "Construction": 3,
       "Hospitality and Tourism": 2,
       "Education": 2,
+      "Construction": 2,
       "Energy": 1
     }
   },
