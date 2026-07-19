@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-07-19T11:42:22.426780+00:00",
+  "last_updated_utc": "2026-07-19T15:34:37.214550+00:00",
   "victims": [
+    {
+      "victim": "yano.tokyo",
+      "group": "blackout",
+      "country": "Japan",
+      "sector": "Technology",
+      "discovered": "2026-07-19T12:22:39.950334+00:00",
+      "attack_date": "2026-07-19T12:22:24.584929+00:00",
+      "website": "",
+      "description": "Yano Electronics Ltd. is a company in the field of microelectronics, we p...",
+      "claim_url": "http://black3gnkizshuynieigw6ejgpblb53mpasftzd6pydqpmq2vn2xf6yd.onion/post/214ce441-99b8-4a8c-a869-8bd335b5a19a/",
+      "monitored": true
+    },
+    {
+      "victim": "www.miatech.net",
+      "group": "blackout",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-07-19T12:22:05.640546+00:00",
+      "attack_date": "2026-07-19T12:21:50.228144+00:00",
+      "website": "",
+      "description": "Miatech is a US-based company that provides passenger travel services for...",
+      "claim_url": "http://black3gnkizshuynieigw6ejgpblb53mpasftzd6pydqpmq2vn2xf6yd.onion/post/92b28f50-d094-4f69-9324-4a82612cb36d/",
+      "monitored": true
+    },
+    {
+      "victim": "bluebellgroup.com",
+      "group": "blackout",
+      "country": "United Kingdom",
+      "sector": "Not Found",
+      "discovered": "2026-07-19T12:21:30.932515+00:00",
+      "attack_date": "2026-07-19T12:21:11.786556+00:00",
+      "website": "",
+      "description": "Bluebell Group is a Hong Kong-based, family-owned omnichannel brand curat... Leak deadline: 2026-08-08 23:18:26 UTC",
+      "claim_url": "http://black3gnkizshuynieigw6ejgpblb53mpasftzd6pydqpmq2vn2xf6yd.onion/post/354bae31-fd05-48e1-843f-56bfc524b438/",
+      "monitored": true
+    },
     {
       "victim": "Famesa",
       "group": "qilin",
@@ -1164,42 +1200,6 @@
       "description": "马路科技 specializes in advanced 3D scanning and measurement solutions, offering a range of products including GOM ATOS 3D scanners, industrial CT systems, and 3D printers. They serve various industries such as automotive, aerospace, and medical devices, providing high-precision measurement and reverse ",
       "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=59b86793-648f-4822-8c06-61485a57ac1a",
       "monitored": true
-    },
-    {
-      "victim": "WBF Construction",
-      "group": "AiLock",
-      "country": "",
-      "sector": "Construction",
-      "discovered": "2026-07-14T12:20:12.567010+00:00",
-      "attack_date": "2026-07-14T12:20:05.697154+00:00",
-      "website": "",
-      "description": "WBF Construction LLC is a company that operates in the Commercial & Residential Construction industry. It employs 1to4 people and has under500K of revenue. The company is headquartered in New Haven, Connecticut.",
-      "claim_url": "https://www.ransomware.live/id/V0JGIENvbnN0cnVjdGlvbkBBaUxvY2s=",
-      "monitored": false
-    },
-    {
-      "victim": "Midal Cables",
-      "group": "dragonforce",
-      "country": "United Arab Emirates",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-14T12:53:59.567923+00:00",
-      "attack_date": "2026-07-14T11:51:58.308378+00:00",
-      "website": "",
-      "description": "Founded in 1977, Midal Cables manufactures alluminum rods and wires, overhead line conductors, aluminum clad steel and extruded products. Midal Cables has offices located in Bahrain, London, Toronto, Kuala Lampur and Nairobi.",
-      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=1cca878f-d73a-45df-bc04-d0413369432a",
-      "monitored": false
-    },
-    {
-      "victim": "Atcom",
-      "group": "dragonforce",
-      "country": "China",
-      "sector": "Telecommunication",
-      "discovered": "2026-07-14T12:54:51.124346+00:00",
-      "attack_date": "2026-07-14T11:44:16.749770+00:00",
-      "website": "",
-      "description": "ATCOM Technology Co., LTD. specializes in manufacturing VoIP products, including various types of IP phones and IP PBX systems. They offer a range of solutions such as self-built VoIP, cloud VoIP, call center VoIP, and Wi-Fi VoIP solutions tailored for enterprises. Their focus is on creating value f",
-      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=e14ea058-9e63-4d6e-b0c2-2b6baf9065c2",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1402,6 +1402,12 @@
       "meta": ""
     },
     {
+      "name": "The Green Blood Group",
+      "description": "",
+      "locations": 2,
+      "meta": ""
+    },
+    {
       "name": "TiMc",
       "description": "TiMc is a ransomware group that emerged in early 2026, claiming high-impact attacks against Spanish IT services leader Seidor (1 TB+ data) and oncology organization Oncologica (100 GB+), targeting Business Services, Healthcare, and IT sectors with a focus on Spanish-speaking and European targets.",
       "locations": 1,
@@ -1409,6 +1415,12 @@
     },
     {
       "name": "Triple X",
+      "description": "",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "ULose",
       "description": "",
       "locations": 1,
       "meta": ""
@@ -3348,19 +3360,19 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 59,
-    "unique_groups": 20,
-    "unique_countries": 35,
+    "monitored_victims": 61,
+    "unique_groups": 21,
+    "unique_countries": 34,
     "by_country": {
-      "United States": 33,
-      "Unknown": 5,
-      "Japan": 5,
+      "United States": 34,
+      "Japan": 6,
+      "United Kingdom": 4,
+      "Unknown": 4,
       "Taiwan": 4,
       "Italy": 3,
       "Germany": 3,
       "AR": 3,
       "France": 3,
-      "United Kingdom": 3,
       "Sweden": 3,
       "South Africa": 2,
       "Vietnam": 2,
@@ -3371,7 +3383,6 @@
       "Netherlands": 2,
       "Finland": 2,
       "Spain": 2,
-      "China": 2,
       "PE": 1,
       "BG": 1,
       "Brazil": 1,
@@ -3386,21 +3397,22 @@
       "YE": 1,
       "Bangladesh": 1,
       "HK": 1,
-      "United Arab Emirates": 1
+      "China": 1
     },
     "by_group": {
       "thegentlemen": 21,
       "qilin": 17,
-      "dragonforce": 16,
+      "dragonforce": 14,
       "incransom": 9,
       "krybit": 5,
       "play": 5,
       "nova": 4,
       "akira": 4,
+      "blackout": 3,
       "interlock": 3,
       "chaos": 3,
-      "AiLock": 3,
       "m3rx": 2,
+      "AiLock": 2,
       "threeam": 1,
       "gunra": 1,
       "cmdorganization": 1,
@@ -3412,17 +3424,17 @@
     },
     "by_sector": {
       "Business Services": 17,
-      "Manufacturing": 16,
-      "Not Found": 15,
+      "Not Found": 16,
+      "Manufacturing": 15,
       "Agriculture and Food Production": 9,
+      "Technology": 8,
       "Healthcare": 6,
-      "Technology": 6,
       "Consumer Services": 6,
       "Financial Services": 5,
-      "Telecommunication": 5,
-      "Construction": 4,
+      "Telecommunication": 4,
       "Transportation/Logistics": 3,
       "Public Sector": 3,
+      "Construction": 3,
       "Education": 2,
       "Energy": 2,
       "Hospitality and Tourism": 1
