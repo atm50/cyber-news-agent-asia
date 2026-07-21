@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-21T00:16:01.255468+00:00",
+  "last_updated_utc": "2026-07-21T10:08:42.332694+00:00",
   "items": [
     {
       "title": "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied its defense - Fortune",
@@ -37,16 +37,6 @@
       "published": "Mon, 20 Jul 2026 05:27:00 GMT",
       "source": "The Hacker News",
       "description": " World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent    The Hacker News ",
-      "attack_type": "other",
-      "source_country": null,
-      "target_country": null
-    },
-    {
-      "title": "Coca-Cola pauses production of certain drinks after cyber attack - The Independent",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVWc2b3VVU2pwR2Qta0lFOXFSTFp4NDhJaEg1RmlBdTdZV21sSHdkYlVMWm1NNlBBNTZmVlZyWTRKQkRiWXA3ZUVBS1oxVHY2STB6UXNYR0R0UHVvd19BaGNaMWhUQy1XRC1NNlA5TC1BWEp1eHV4a0RsSlJvZjIteGt2MWJyR0FmMzhQLWpfdjI4eFhrdDllemFkZnRRdG1MUGFIVnVoXzQ?oc=5",
-      "published": "Fri, 17 Jul 2026 14:54:00 GMT",
-      "source": "The Independent",
-      "description": " Coca-Cola pauses production of certain drinks after cyber attack    The Independent ",
       "attack_type": "other",
       "source_country": null,
       "target_country": null
@@ -98,6 +88,16 @@
       "source": "BBC",
       "description": " How 100 Romanian hospitals switched to pen and paper to defeat a national cyber-attack    BBC ",
       "attack_type": "other",
+      "source_country": null,
+      "target_country": null
+    },
+    {
+      "title": "Resilience report finds manufacturing leads global cyberattack targets, with ransomware dominating losses - Industrial Cyber",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORUpveGQ1QWRyNzFSMUxrd01ORjZld1E3Z1ZmN1p4Tk5uS3R1Z1Nxc1lRS2pOejNaSWZYZ0d6a0ZTbVludVJCODJsbzBsT0lHSG5YT2V1eUVlS2hxazdKNGJhMzZ4cFNRZXRlRi1SaGhmMkdjUGdsZHg1TjdnRzZyN0s5TFU5SUdzd2dxUFN1eDhqZ2ltZ0tWQjNvWVNSQ0pwclRhdW9SUlpJNGd6ZlFvaFFoU2NTUEg4aXlnaGFUWkN3UEdXb3UtZ0dIbDc3cEtneGtIczZ5WVVIbFhIY3hB?oc=5",
+      "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+      "source": "Industrial Cyber",
+      "description": " Resilience report finds manufacturing leads global cyberattack targets, with ransomware dominating losses    Industrial Cyber ",
+      "attack_type": "ransomware",
       "source_country": null,
       "target_country": null
     },
@@ -196,7 +196,7 @@
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMjJBTVVreWtFYTR1N3k4TEE0NG5XTTNQMFVzcTh6QnVvN0RodUU4N0VYdkhFS2FQdG13RTFrSUxRdkZEZGcwblRjNUxodVdKZWRwQ2xieGJIWDRnUktSeGRlcmJZRmE1NUdpSTZyNE9ndGt1RERpaVNzdFlXcmdQbFpPNy1rdnhNUkpjWFE2NzMyV293TWpTbVdSM1ZtUUdpbUFtTWd4QTRFb2JjVXVPdW5FV1J3ZktJQUxYWVczZVhNc0xjeV84X3d5WkFNckJOVUs4dTJaUWtPdw?oc=5",
       "published": "Fri, 17 Jul 2026 07:00:00 GMT",
       "source": "Industrial Cyber",
-      "description": "   Coca-Cola discloses ransomware attack on fairlife production systems, temporarily halts US operations    Industrial Cyber    Coca-Cola suspended production at its Fairlife dairy after a ransomware attack    TechCrunch    Hackers Just Pulled Off Every Food Manufacturer's Worst Nightmare. Now Coca-Cola's $4 Billion Dairy Brand Is Shut Down    inc.com    Fairlife stops US milk production after ransomware attack    WBTV    Coca-Cola Company’s fairlife targeted in ransomware attack    Michigan Farm News    Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack    SecurityWeek    Coca-Cola halts Fairlife operations after network breach, ransomware attack    LiveNOW from FOX    Ransomware attack forces Coca-Cola to suspend US production at dairy unit    Cybersecurity Dive    Coca-Cola's Dairy Company Fairlife Hit With A Ransomware Attack    Engadget   ",
+      "description": "   Coca-Cola discloses ransomware attack on fairlife production systems, temporarily halts US operations    Industrial Cyber    Coca-Cola suspended production at its Fairlife dairy after a ransomware attack    TechCrunch    Fairlife stops US milk production after ransomware attack    WBTV    Hackers Just Pulled Off Every Food Manufacturer's Worst Nightmare. Now Coca-Cola's $4 Billion Dairy Brand Is Shut Down    inc.com    Coca-Cola Company’s fairlife targeted in ransomware attack    Michigan Farm News    Ransomware Attack Halts Fairlife Operations    Newser    Coca-Cola halts Fairlife operations after network breach, ransomware attack    LiveNOW from FOX    Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack    SecurityWeek    Ransomware attack forces Coca-Cola to suspend US production at dairy unit    Cybersecurity Dive   ",
       "attack_type": "ransomware",
       "source_country": null,
       "target_country": null
@@ -212,31 +212,41 @@
       "target_country": null
     },
     {
-      "title": "Ransomware attack forces Coca-Cola to suspend US production at dairy unit - Supply Chain Dive",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPand5eHY1Q1RhZUZxMmhncW55eVJCZHdNUTZld1FlckdDZ3JIMTBOc2ZZdEVnY0VqNjJ5VUlWb1AzckpXU2FWc2VKNzRWVDI3TmFzOWRLaVY0RWh6S2tDMW5fMTRZY1F1S1N1MnAxSmc5NzVaZW0zekF2b3hkRlBqVnh3VExkaDJQMjl6QjdGcjFFYV9uUk5xcW5WbzhHclNfbVZTN0tzSHM0eUl0SnJWM2VmQWhobm9IRVE?oc=5",
-      "published": "Mon, 20 Jul 2026 19:26:34 GMT",
-      "source": "Supply Chain Dive",
-      "description": " Ransomware attack forces Coca-Cola to suspend US production at dairy unit    Supply Chain Dive ",
+      "title": "A Ransomware Attack Just Halted Coca-Cola's Fairlife Production and Knocked the Stock Down 4%. Should Dividend Investors Care? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTl9DcURWYVlRWTJsSmpDQ1lPMDdSMnlyUy1IMlZRR21Yb3BBcU5DN3R6dk9BU3pNYnl6VkM1VXFsemNJLWJqWGRNeXp1ZWlTanRmN2xLT05Ub2JLdk5PdUdiZjZaeWhJQVNZMUdtQ0lVR1FTdVhuazN2c1ZWZGNLNlQ4VFdTYllyYkxVeERrSDhOWTdubmIwN3MwYlpoNDkw?oc=5",
+      "published": "Tue, 21 Jul 2026 01:52:00 GMT",
+      "source": "Yahoo Finance",
+      "description": " A Ransomware Attack Just Halted Coca-Cola's Fairlife Production and Knocked the Stock Down 4%. Should Dividend Investors Care?    Yahoo Finance ",
       "attack_type": "ransomware",
       "source_country": null,
       "target_country": null
     },
     {
-      "title": "Fairlife stops US milk production after ransomware attack - KKTV",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUURqOTROMm1Hc2VBZk1tUW0waWREWHFNRlYxcUpBb0lMZHFqN0lUb3dKS09Nek5IUjFkSThhY0xFUl8wTnB6RkJnaUZlcTZRblFacEl4WTBXVEpFRHpCOHJYUDZOeUttX2xpcHhNVnlieU1pWlJSaVFxbTdIOVFiQ05hejktUW5UMi12MkJEM1o2M1VR0gGoAUFVX3lxTE90N0F0NUJueHhheVppRzMwaEdaZ1hxVDhQZjJjQlRoU3pta2tJQVdNQ0VMdDc5X1RJZmVPTEt6NjRTTUZuaVlqSzN1YkVON0Z0amkzbE9KSERnM3NaRnVKZEFoSFpiRXU1LWg2NU15VDZkUkRqSmt6bFNzc01CbmZWRjFKamZ1cG5Jd21LYmcxOXNYTFIxZ2NpUExoSjlXM1JmZExPSU56bQ?oc=5",
+      "title": "A Ransomware Attack Just Halted Coca-Cola's Fairlife Production and Knocked the Stock Down 4%. Should Dividend Investors Care? - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSUdRaktSV0pZZnlDc1NFSTg3THU1QXVDVEJGZWlBMlZjQ05UMnkxRlBDcnVFOUhoWlhRcVlBUExyVDlpUXVJTnlHZFVFQTRhMTRLTFpyMVZISzhzVmxpamxLQVdmS0ZIeHQwcEh2RFBTU1RfUkxJcWhGRXFYQlcweDM3bWZMZzhhZFlIY0tXYk5ybFN6RG91SA?oc=5",
+      "published": "Tue, 21 Jul 2026 02:32:00 GMT",
+      "source": "The Motley Fool",
+      "description": " A Ransomware Attack Just Halted Coca-Cola's Fairlife Production and Knocked the Stock Down 4%. Should Dividend Investors Care?    The Motley Fool ",
+      "attack_type": "ransomware",
+      "source_country": null,
+      "target_country": null
+    },
+    {
+      "title": "Fairlife stops US milk production after ransomware attack - KKCO 11 News",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWjJEZDJBZnI2dDh3MjdVUmJPMHU2WDByUVlRT1ZYTVpHQ3dBUzdXMmhDVXJHb19QbElsVjgwWGxrVkNsaGgxcUhfVEdBNzY5REZXSnNuaHdORWlVempEZTJDT0dXYjBmcVVJY0w4Q3UtdS03ZDY0VXpGSUMwX2swMmdxa3RpRjVWblNRRUNTSjk4SlIwOGFrZXdQRljSAbABQVVfeXFMUDhRYzBqVHM3bHZiSmY2N0EyMTh3aC1oVVZxZE9BbjJ4ekxST0hlY04ycXpoN1dQSzhPbDBJM3c4TzFQZkoyTUtZYkliU185Qkl3RU81RXc5SGZ4OFg3b0VqOGFELS0yb28wNFJhalZjdk1FcGFRVS1QWkN3UDRsazQ4QkVYSEc2WUROQnEyVkhMY2tzbzhNazBPVFJXanhkU1QydzRuYzRPVUF0WFlzNEc?oc=5",
       "published": "Mon, 20 Jul 2026 15:04:00 GMT",
-      "source": "KKTV",
-      "description": " Fairlife stops US milk production after ransomware attack    KKTV ",
+      "source": "KKCO 11 News",
+      "description": " Fairlife stops US milk production after ransomware attack    KKCO 11 News ",
       "attack_type": "ransomware",
       "source_country": null,
       "target_country": null
     },
     {
-      "title": "Coca-Cola’s Fairlife halts U.S. production after ransomware attack - AGDAILY",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0pBOXhfMmpNRnFyR3lYUVNlaDBVNW9wb2VBTnhQYVVDZTE2WW1pMFg1dERaTWZHMVc0X1ZTcTR1WjZBNGZSZnJoUFZJV1EtNzJONW02M28tYnZUY2Q0TldnOHdiZzk3UHFJemtWc2tPalpHM21aNUZpcV9BTGtMX242MWRmXzlKODZ4aXc3NkRZU3pSeGt5ZHpR?oc=5",
-      "published": "Mon, 20 Jul 2026 16:08:02 GMT",
-      "source": "AGDAILY",
-      "description": " Coca-Cola’s Fairlife halts U.S. production after ransomware attack    AGDAILY ",
+      "title": "Ransomware attack halts Coca-Cola’s Fairlife US milk production - Help Net Security",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPckw2Zk9ROERocTdtV2pkeEhjTTgydkRaX3U1TkViYUZvbTFhNy03LXMxOExhUUZ3ZGZoSTdLR09tQjdwZ2NrTW9JdG9Kd0xSa3ZLMUdrWmxKY21STk1Va2N1ZENtRmZTR0lLZGI4Y2RxcVBrOEdZMFZYZGN5d3J3aVhKMzdER0k?oc=5",
+      "published": "Fri, 17 Jul 2026 08:04:22 GMT",
+      "source": "Help Net Security",
+      "description": " Ransomware attack halts Coca-Cola’s Fairlife US milk production    Help Net Security ",
       "attack_type": "ransomware",
       "source_country": null,
       "target_country": null
@@ -252,41 +262,31 @@
       "target_country": null
     },
     {
-      "title": "Ransomware attack halts Coca-Cola’s Fairlife US milk production - Help Net Security",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPckw2Zk9ROERocTdtV2pkeEhjTTgydkRaX3U1TkViYUZvbTFhNy03LXMxOExhUUZ3ZGZoSTdLR09tQjdwZ2NrTW9JdG9Kd0xSa3ZLMUdrWmxKY21STk1Va2N1ZENtRmZTR0lLZGI4Y2RxcVBrOEdZMFZYZGN5d3J3aVhKMzdER0k?oc=5",
-      "published": "Fri, 17 Jul 2026 08:04:22 GMT",
-      "source": "Help Net Security",
-      "description": " Ransomware attack halts Coca-Cola’s Fairlife US milk production    Help Net Security ",
-      "attack_type": "ransomware",
-      "source_country": null,
-      "target_country": null
-    },
-    {
-      "title": "How ransomware tactics against law firms are changing - Massachusetts Lawyers Weekly",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbTY0Ti1ZRFVZOHVrd1VSVW0zQzZteERvYjNXbmYxemdJQi05WUVfbWNoU1FjdXFuWjJWakJFV3Zwc25rZFZxZHhZQlVvZFJZLVhHU1Vsd3lnTXluNHlHVGJJZlhMSDFGV0phRzlkSjlMMHNWT01UZTlBVGRVbGg3RFc1cTRwNnNIM2daUlVaS2pibWc0dUJGbDJHUQ?oc=5",
-      "published": "Mon, 20 Jul 2026 12:07:26 GMT",
-      "source": "Massachusetts Lawyers Weekly",
-      "description": " How ransomware tactics against law firms are changing    Massachusetts Lawyers Weekly ",
-      "attack_type": "ransomware",
-      "source_country": null,
-      "target_country": null
-    },
-    {
-      "title": "Coca-Cola’s milk brand halts US production after ‘unauthorized access’ breach - New York Post",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGRDZDlBemNaQy01X0NNeEI4Tk54cU80WWtmYkREZE5IUGdhb1ZIelp4WGRMU2hNVGEza1dqUHZ6TklmY0hsNDk5WG9sUjk5a0xnQUs0RWFEemdsZGlQNHFrNTlKVEdsSDF6WWNnbTljczJ6MGw3ODROa1lXQW9LY0pEUWV6S3BEelpVM2xoTG9yVnVKRGRuMFpPX0NsM3Iyc1A2U0hGN3IwYmh3WmtNLXlHYw?oc=5",
-      "published": "Mon, 20 Jul 2026 19:57:00 GMT",
-      "source": "New York Post",
-      "description": " Coca-Cola’s milk brand halts US production after ‘unauthorized access’ breach    New York Post ",
+      "title": "The Coca-Cola Company Announces Technology Disruption Involving fairlife Operations - Refresh the World. Make a Difference",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd1NJc3JGX2N6bUpSUFJGcE51bnA5b2UwWEdHUkIyMmZZMXBkVU51R2NkZ1NXcTBDTk9hdW9mS0IyM1JRY0p4dy1heGJOUnl4WDZRbzVoY0Q3d3N3ODZwZmx4c2RGeEdiN19mZ1BzME1saktleGxCSVdxUVFqb1BZU00zRnl1RzN0WTQ4YU1ydDVlVTVnZGVOVW55M0VFOVl4UUlmQzEwSUs3SjZaMFdnVWw1S29wYjZORXdsR3VST0FHQ2ZBTjNBR0UwYWgyUXpicmJTVWpjSEl3bDhIOG96SmhKTXNZU0xGaWpRVHRhLTVxOTA?oc=5",
+      "published": "Thu, 16 Jul 2026 20:16:09 GMT",
+      "source": "Refresh the World. Make a Difference",
+      "description": " The Coca-Cola Company Announces Technology Disruption Involving fairlife Operations    Refresh the World. Make a Difference ",
       "attack_type": "other",
       "source_country": null,
       "target_country": null
     },
     {
-      "title": "Ransomware Attack Halts Milk Production at Coca-Cola's Fairlife Brand - PCMag",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaVdEREI1a2lxVkVsZF9QT0pSbTduRmNTczUxLVlILW03d0kxT281czhmVl90aHhjZXFZMzFIRkE2OFgzeWEwUWprY1gzMnBXUWlIQkhPWUVQSHNheGlIenM4djhoQi1vRzBQdTlnREFhMDBGU0tXVTkyazlTb28walZWYkdINFpVcHRHSDBlSTBRaXUtUlVVOXpMaw?oc=5",
-      "published": "Thu, 16 Jul 2026 21:56:50 GMT",
-      "source": "PCMag",
-      "description": " Ransomware Attack Halts Milk Production at Coca-Cola's Fairlife Brand    PCMag ",
+      "title": "Coca-Cola’s Fairlife halts U.S. production after ransomware attack - AGDAILY",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0pBOXhfMmpNRnFyR3lYUVNlaDBVNW9wb2VBTnhQYVVDZTE2WW1pMFg1dERaTWZHMVc0X1ZTcTR1WjZBNGZSZnJoUFZJV1EtNzJONW02M28tYnZUY2Q0TldnOHdiZzk3UHFJemtWc2tPalpHM21aNUZpcV9BTGtMX242MWRmXzlKODZ4aXc3NkRZU3pSeGt5ZHpR?oc=5",
+      "published": "Mon, 20 Jul 2026 16:08:02 GMT",
+      "source": "AGDAILY",
+      "description": " Coca-Cola’s Fairlife halts U.S. production after ransomware attack    AGDAILY ",
+      "attack_type": "ransomware",
+      "source_country": null,
+      "target_country": null
+    },
+    {
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack - The Hacker News",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PalVWZmlwd0tSbjl4QTNUZGVZWXFuV29UdWowNTkwdmZzallySUpjckJyOHcxR2M2eXUzOEUtaGxGbTBETWtsN3FmMEUzMVZTTkR3bVl1UFBabHItZmttWlFkZ3h3enlVOWJxeHQ3NzlHUnBzZzJmSjlFa2FrQQ?oc=5",
+      "published": "Tue, 21 Jul 2026 07:34:00 GMT",
+      "source": "The Hacker News",
+      "description": " New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack    The Hacker News ",
       "attack_type": "ransomware",
       "source_country": null,
       "target_country": null
@@ -382,14 +382,14 @@
       "target_country": null
     },
     {
-      "title": "Hack Reveals Suno AI Music Generator Scraped YouTube, Deezer, and Genius - 404 Media",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbFdyOUxJRnF5MUtvd1VrX29iWkh5ck5vNkhzc0RpdGlzTXAyWkU0N3I2bVJkb193Nnp4MFJzUUZPbnNWdTNKd0ZRRmFraW1lWXI1TG8xN3ZobThmNnAxa2xUUmxvQW9aaEhQWTRXMWszSjN4TGVqekc0enlOVEdmN1RCMkhNU2tneGhJbThGMTJVaUg3SUUtWmhiNA?oc=5",
-      "published": "Wed, 15 Jul 2026 19:51:46 GMT",
-      "source": "404 Media",
-      "description": " Hack Reveals Suno AI Music Generator Scraped YouTube, Deezer, and Genius    404 Media ",
+      "title": "Hacker Breaches South Korean Database of Nearly All Diplomats - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNE92SFhMZXBLalpOZnNwWXg5RDJwNlFuLXFyQ3IwVnRYVlkzckJDbnFJdnZwOUVSWGFRNWtQVHJfcmFCZmg2NS1CejNOMUVWZy1zWlYtTzVEbFNQdXhBNEZlWjVBUS14eXhwZVlaUjlZN2lfVnNuOU5BTGdXS0cybUhMblhIRTREZDlSZGNUZXlOVUZVT2RNbFlmRWdkRElwYm5FSk9Xd2U1YVIyWjlGVVV3?oc=5",
+      "published": "Tue, 21 Jul 2026 08:13:35 GMT",
+      "source": "Bloomberg.com",
+      "description": " Hacker Breaches South Korean Database of Nearly All Diplomats    Bloomberg.com ",
       "attack_type": "other",
       "source_country": null,
-      "target_country": null
+      "target_country": "South Korea"
     },
     {
       "title": "Claude Code and DeepSeek Powered Chinese Cyber Espionage Campaign - Security Affairs",
@@ -472,22 +472,22 @@
       "target_country": "Ukraine"
     },
     {
-      "title": "Chinese Cyber Contractors Use Malware, Botnets, and Stolen Data to Enable State Operations - cyberpress.org",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uaTFRLVJQMVQ2STFmYng1UGhlcURGRXJkWDhPWEdSczJNdFhRd01MYTNIZktYRExyekI5blNQUXFiOGlvUmU0eUZjZnJWU285Zjl5dzJjRDR1V3B2aDhtUUN5TkRsOXdv?oc=5",
-      "published": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "source": "cyberpress.org",
-      "description": " Chinese Cyber Contractors Use Malware, Botnets, and Stolen Data to Enable State Operations    cyberpress.org ",
-      "attack_type": "breach",
-      "source_country": "China",
-      "target_country": null
-    },
-    {
       "title": "Google Disrupts Chinese Hackers Targeting Telecoms, Governments - SecurityWeek",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ1ZXaklLM0paempfUmhKa3dQOWZDSkdnU2NVMHg4V2RDOUxMXzctTng2UFVNWjM3c2I3aHFDeW0xbkJNdkMzdWpHT1BObmRqSXdfTzM5UEl6MUowYzFNcjAzUlBfUlJnNFVJNzFSTU1PcXI0Z3JRYzJTcVBKdFVjRFg1S0tNU2NzQ251aFJVVXdEODZNLXgtbzFEUXo2Yk1HUjczYU5jLUFQU0hz0gGyAUFVX3lxTFBPR0hrT0dzbTROMXVGUWpJWE01cldJcFFEVXc4SGNEQmk0blRPWGJlTEY4UGtzeXR3Zk9HSklFaDdSbWhCOW93TjJla01CUFMxLTc1VTNqMHR1dDd3MG9TZzRDbHFkQjl6UFVHMHJxTTVxNFZTMUxac2ItNnE5a1Z4TE5tX3FWSGVETVltR0xzaU5uSmx6UWpweHhqOHJxZFdPSm01UzlqTDdySW53TlFFZWc?oc=5",
       "published": "Wed, 25 Feb 2026 08:00:00 GMT",
       "source": "SecurityWeek",
       "description": " Google Disrupts Chinese Hackers Targeting Telecoms, Governments    SecurityWeek ",
       "attack_type": "other",
+      "source_country": "China",
+      "target_country": null
+    },
+    {
+      "title": "Chinese Cyber Contractors Use Malware, Botnets, and Stolen Data to Enable State Operations - cyberpress.org",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uaTFRLVJQMVQ2STFmYng1UGhlcURGRXJkWDhPWEdSczJNdFhRd01MYTNIZktYRExyekI5blNQUXFiOGlvUmU0eUZjZnJWU285Zjl5dzJjRDR1V3B2aDhtUUN5TkRsOXdv0gFoQVVfeXFMT25pMVEtUlAxVDZJMWZieDVQaGVxREZFcmRYOE9YR1JzMk10WFF3TUxhM0hmS1hETHJ6QjluU1BRcWI4aW9SZTR5RmNmclZTbzlmOXl3MmNENHVXcHZoOG1RQ3lORGw5d28?oc=5",
+      "published": "Mon, 22 Jun 2026 07:00:00 GMT",
+      "source": "cyberpress.org",
+      "description": " Chinese Cyber Contractors Use Malware, Botnets, and Stolen Data to Enable State Operations    cyberpress.org ",
+      "attack_type": "breach",
       "source_country": "China",
       "target_country": null
     }
@@ -500,6 +500,16 @@
         "published": "Fri, 17 Jul 2026 11:25:44 GMT",
         "source": "Industrial Cyber",
         "description": " Nichirei cyberattack disrupts food and cold chain operations as Kudankulam data leak flags rising infrastructure threats    Industrial Cyber ",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": "India"
+      },
+      {
+        "title": "Hugging Face confirms data breach by AI agent: Why it has sparked a debate on cyber guardrails - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeWJzZjJiNHd3bFExQlo3a2loOWpNVVhCMkdnb2wtc1NfX19PcC1TQTRueGltN2xjUzd1WEtkMUoxZnBCOGg2dExDdFA5eVJfVGNzZnZ4RllpRUdIMnVfVldmMjdyeTduclpxQXEtMVgxRUhwMzIzTnJmYWowbVFONlVNNlluUTM2WlN5dDg2YllqenRQSVh2aUkyUmxWX0VoamNuZWxQVTV1TjJxbURuSGNrcTBkeGx5UTZIVU1WczBiT0k1Wlh5ZFV6YXJoRFBmRVHSAdgBQVVfeXFMUGlwWExjSlNHMEQ5eUhLRmNmTDNucHhVdDRCcDd1bURIMGFJbkxCV29nai1wVFJaUUpmUW9JdElvVE9yT2lsZWhxNUxKMjlUWGpwT082a2dWbEtQSHVsT2Fjb3BfRTVNelpxUEVaQ3VNVXJ5Y3J2RUhGVFVQTFQybTNNTFlobnhJeldKU1VrZ1Z3UmxoZHJvZEN1cG05X3ZhT2o1U2x3TnlxZU1PVkNIS2tmRWZVNkZDUHlzV1lDeTUtem9KNjBEVnpyRzZOaXg4di1iMzMxdEsy?oc=5",
+        "published": "Tue, 21 Jul 2026 09:03:55 GMT",
+        "source": "The Indian Express",
+        "description": " Hugging Face confirms data breach by AI agent: Why it has sparked a debate on cyber guardrails    The Indian Express ",
         "attack_type": "breach",
         "source_country": null,
         "target_country": "India"
@@ -531,16 +541,6 @@
         "source": "Reuters",
         "description": " India's Tata Electronics hit by cyber breach claiming to expose Apple, Tesla trade secrets    Reuters ",
         "attack_type": "other",
-        "source_country": null,
-        "target_country": "India"
-      },
-      {
-        "title": "NPCIL cyber attack explained: What was leaked in the Kudankulam data breach? - The News Minute",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdDNibGV5bHFkb3Nud3I2NXlERDlfYmdpWVJWOUp3S1N0ODA4TE83dnpYRWlkQ01UWVJuRzVSTmRzX3NzaEFRZ2p6bk03dk1ZR3NsNDFGZ3RLaEtlZFh0OXByQlBuOTNaSzZ4a0RMWkFLZElFX1RMaG80T3lKODVRT0kxSnZZSlZQNE14QlN6WkNMSzVpLThCS1JVN3U0TVUtU3RSTVdMandrNUVuUzlhZFkxSTRCQdIBwwFBVV95cUxQM3FaWTA3Nm95UkZkMmo5cE1GRWotN0pJT1VNVEJTcmJqalNmamNrUGZLQkJ2MDRKSlBUQUd6MEFOeC1ZQzdRQlV5dXRjUGRPVzduSG5RdDdFdS05eXZldWVhT29iblRIX241WExjdk5uc2RWU2FUVUJfQmpuMWFEcXVUR1hoV1Y4a2NFbDBxLWZRU1diQ3UyZ2pOakZMUnZOdWRpTV9aYUJFMFViTW9vdjU3YjdtSVNMdkhNVlc0cXYtOU0?oc=5",
-        "published": "Thu, 16 Jul 2026 09:36:35 GMT",
-        "source": "The News Minute",
-        "description": " NPCIL cyber attack explained: What was leaked in the Kudankulam data breach?    The News Minute ",
-        "attack_type": "breach",
         "source_country": null,
         "target_country": "India"
       },
@@ -587,19 +587,19 @@
         "target_country": "Australia"
       },
       {
-        "title": "Delay in revealing theft of medical data labelled 'unacceptable' - ABC News & Headlines – Australian Broadcasting Corporation",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNnZBakRESVhoQ1ZKU2tqQ3k1NzI4OUJWazBVZFlxYnZSdWl6VGNuMlBpNm5lVHdpTzdiYWdYN1FHNmtVSldoMUxRVDdlRFpnTjR6bGRjS01HdnpLRHVZa0ZTRU10R09kQkcyYUwzajJzNjl5ZFdjZUlUWHJ3VTduTw?oc=5",
-        "published": "Thu, 16 Jul 2026 08:00:14 GMT",
+        "title": "Medical clinic waited months to tell patients of data breach - ABC News & Headlines – Australian Broadcasting Corporation",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVHNnaUVDd0lOUzRlTE5vTFRHUmNoQm5KZldkeEQ2TmNRdWVIc1BrNnRYNXQ4b0tfazRQSUoxOVJOaTNfenVXREMxbjNpN0FtaGw2WHU1RFRnWWtrSlpHVmlaWFJJZTl0NTRTbDF3dkZMc25OT0VzLVBqMGV5SEJ5eG9BUVh6V0VsTWRfRVJwMVJEUjdGREZDZDNaNXlFRTRa?oc=5",
+        "published": "Tue, 21 Jul 2026 03:46:08 GMT",
         "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-        "description": " Delay in revealing theft of medical data labelled 'unacceptable'    ABC News & Headlines – Australian Broadcasting Corporation ",
-        "attack_type": "other",
+        "description": " Medical clinic waited months to tell patients of data breach    ABC News & Headlines – Australian Broadcasting Corporation ",
+        "attack_type": "breach",
         "source_country": null,
         "target_country": "Australia"
       },
       {
         "title": "Grim warning about your personal info - News.com.au",
         "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOZllPNzF4LVdqY2cxRUZJTU84bEpraDNTRGtDVFhMWlhpWUN2WVQ1WkFtZ3R2Qk5sR0xWTEluTTQ3dFBKNHJYUmM4OFVQeHJKdktDcUtTR3AzYlFYMGdCUldFaFpja1owNkt6alNrTkpjcHNXS0dEVHBnaXVLclR3TkdlOGVSZnRlYkFlUkZVNkNuTm5Pa2xtQVhqVGZaWlpKVkNXZzRNUFN0c1owTmhGSlYtR3RJNHNFZ0tmRUlCYUYwN1M3cUNPeEpTSDM1Y181bGF0MUFSSjVYM094U1R0cHluZThaek5rRnRwTkVvbkVBQUd5LTB4TGJxNHBYT1huY3JjSVRJQzdGVHMwRU1mQkR6QjhxVWtLaExpcVdNelBoSFY1b2FSVNIBrgJBVV95cUxQU2VJbXh6MFJpLTdMRE92V3ByU0daRW5lbFpxRjN1dllndk94Wm5lY0tjZEpnUnpvV3VRbXhENUdTX0tZS1NJOFZKNnlrYjJlc1Y2cFF5RlJISWd3N0E1eFE1ZnR6QmU2SThkZWtBQ2pvWUtRR3dQSEtOVUZScVhjU2tvVmx6UkFvRHlzcUFfWTIxV0RPMjhISGtObHU0c0stS3RGeEdPTzNmTTFRU2hwM2tPU3YzMFVLdnlkaGhDR2tkNUFuSGRISjA3NWlEWEQxWno0eEFmUlNRUXlzVkRmYV9ad3pjXzhReFdwRlo4SlhENHRQOWpEYVYzendWVUxSRW9BUi0zWG1OWlpzNVZMNVFvZXdNYmhfTWZEaFdfZjhPMUhReUVGcmF5R3NDQQ?oc=5",
-        "published": "Mon, 20 Jul 2026 21:48:04 GMT",
+        "published": "Tue, 21 Jul 2026 03:47:53 GMT",
         "source": "News.com.au",
         "description": " Grim warning about your personal info    News.com.au ",
         "attack_type": "other",
@@ -627,16 +627,6 @@
         "target_country": "Australia"
       },
       {
-        "title": "Hackers data breach patient records from One of Australia’s Largest Healthcare Providers - Cybersecurity Insiders",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWVY5QVhWd3Q3OGc3RzFEYkF6X2NUYnVsRU9fbFk3MW4tbUxJOHI2bXd2ZS1Kb0pTUE9LOHpCYVdnT19ncTA2dVNPZnJ0U19CQTU4V3pHenpESEExamphMDU1RnZJeHh5TWFGLWJlV25XNUlORjh4OGw0LXZ3NVNKaDRBaFpkVmFQYkhVNTlRNHVVcmNNczZOTzhTZ2tKQ1FUbXlUWk5acHdVbTVDRFZoUlRwc3R4VVhmdXZpbXVxaWx5Q0RuS2c?oc=5",
-        "published": "Wed, 15 Jul 2026 15:27:06 GMT",
-        "source": "Cybersecurity Insiders",
-        "description": " Hackers data breach patient records from One of Australia’s Largest Healthcare Providers    Cybersecurity Insiders ",
-        "attack_type": "breach",
-        "source_country": null,
-        "target_country": "Australia"
-      },
-      {
         "title": "Partnered Health data breach: Patient details exposed in cyberattack on Australian healthcare provider - SMH.com.au",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeWxXMTNPcmFVLUlJSmhJYTNWWVFXb0xxRHRJUUpLNlBrMWQwanZGWlBLTW9UYWlDeTcwU1piQktheHBwbU9HWjdXVktiQ3pOUEV3RDQtQ2FreTg4NG12aldCaGU2UzZjb2V5alQzbjZIbUFpdE4yLURVajFPeDdoSGt4T3ZXN3lUQlVCWEg4VTdUOC1VeUVnT3M5bmQtOEg2SXFvcmd0VzlTaTZZTXBOSmlrVFFVSERkZG5WYXoteVBWWGpvdFFGbQ?oc=5",
         "published": "Wed, 15 Jul 2026 08:29:59 GMT",
@@ -655,35 +645,25 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": "Australia"
+      },
+      {
+        "title": "Delay in cyber attack notification ‘not acceptable’, says expert - Medical Republic",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd2ZXSkFKNmVnM3RFS2FZczBPdWthUU43MlNjUHEtbzNaOXRVa0Zqc0ZxdzRfRjhWOFlWdW56NS05eklGakxhOV9meER0eWkyVnBOek1VM1N0OWl4ckpkNlc5SFdOT0pMaGJfQjFuUVlWRVhZYk9KaVRhM2l0cVpTTEVGRDU2YU1GY25qRGFFNVRBUUk2cVJjUzdaYVMzVG1oeVoxM29R?oc=5",
+        "published": "Thu, 16 Jul 2026 05:48:19 GMT",
+        "source": "Medical Republic",
+        "description": " Delay in cyber attack notification ‘not acceptable’, says expert    Medical Republic ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Australia"
       }
     ],
     "Singapore": [
       {
-        "title": "APT groups and ransomware gangs are turning Singapore into prime cyber target, Cyfirma report finds - Industrial Cyber",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU0VnbWhyQ1dsb2VrM3UyNlQ0MzBLMC1DM1N0OElJOTExbi1uLVNLX25BeEpBTGFLQlQ0Nl9pUy1XLUd2dVJTRW1yTXVFbUlKdXFRd0lob2o2X1JSV2pFVHc0WGZ1bFkwMjZaNUowQzZGcVNLeGVHcHUyeHF1Q0FNbWpidmdtTVNzcl9WbjdIdnFPNzQzd1Nna0Qtakd2eDh2MGpBUE1rZjdMeGRnZmFkZWVrVE1LbGY4ZHpxT0cyMWV2aFA4VkdaYUI3ZXJJcVkxTHB2a2g3dVZTRlJZMXRiMEkxaVI?oc=5",
-        "published": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "title": "Singapore confirms UNC3886 espionage campaign against telecom sector, prompts major cyber response - Industrial Cyber",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaVV2QmdaaXRWUkRiSFB6LXZvRGhXclJkTEtUeWc4c2lPelZGTmh5S2VCLXpZYjNPcXZiRGFDQkc0R0JIWGlabzluZzlZYzlfYzg2Qm1pVGJEeG15M0hrb0NJRVIzQUduZ0syam1BMTR2eHpzUTlpYzZGZHNlUnR0czB0LTdwWjZ2SVRHdFR4NUI1eG1RbjctVURBTlJYUjE0aEtQZlNUTkZyU1htZmZjaTVNeVo1WjZkUWpGQkg5WlYzWGZLbVJqeldRSkpTNGJBNkE?oc=5",
+        "published": "Tue, 10 Feb 2026 08:00:00 GMT",
         "source": "Industrial Cyber",
-        "description": " APT groups and ransomware gangs are turning Singapore into prime cyber target, Cyfirma report finds    Industrial Cyber ",
-        "attack_type": "ransomware",
-        "source_country": null,
-        "target_country": "Singapore"
-      },
-      {
-        "title": "CSA’s Initiatives to Strengthen Singapore's Cyber Defences Amid an AI-Driven Threat Landscape - Cyber Security Agency of Singapore",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRFMzLWF5TERZLUc4endPdWJUZ3Q5RmRRQ0szYWxGOWJYdEw0SEFGNGJ2eUhqTUhUZklyU3ctZnlWeXg2SUxBckZPY2FOcjdmUzU0QkpQeWh5OFFJSEFhSW5xVVpyVFdJeWRIaU1DaVRiSDNKOG42dXhNQ2dfdzVEX2JZQnVvUjhJQUg3Q0FqYTVZbHNOQXBzNnV2S0UxYnZ4QjFJZkNKUl9rSUlEVTFKbi1TZWZ0VkpNZEdEbFBQV3BJS2hZU2poX0swdWVXVllVVV9UN29rZVdzYmJB?oc=5",
-        "published": "Wed, 01 Jul 2026 02:01:42 GMT",
-        "source": "Cyber Security Agency of Singapore",
-        "description": " CSA’s Initiatives to Strengthen Singapore's Cyber Defences Amid an AI-Driven Threat Landscape    Cyber Security Agency of Singapore ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Singapore"
-      },
-      {
-        "title": "Data of 70,000 people compromised in cybersecurity incident involving SLA’s vendor IBM - CNA",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV3FDNHBWMkRLWnV3VTU0anBwSzFOcmpuajFEUFRyRFJiUmRuVUNjcmhOdFJRNHpiam5FRzREODlzMmFWcGRWQUZac1R3YkZsbjhmZjczNnRSN19NaTI4Zld3Mk5SRWFvM0k5THJ1bEFZTHVBUWJDSkZZVHlsV0V1dWhxVm5NQ3J1cnA4czRwNFhoQlkyRGxEc2xNU3I?oc=5",
-        "published": "Fri, 03 Jul 2026 07:00:00 GMT",
-        "source": "CNA",
-        "description": " Data of 70,000 people compromised in cybersecurity incident involving SLA’s vendor IBM    CNA ",
+        "description": " Singapore confirms UNC3886 espionage campaign against telecom sector, prompts major cyber response    Industrial Cyber ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Singapore"
@@ -696,26 +676,6 @@
         "description": " Singapore & Its 4 Major Telcos Fend Off Chinese Hackers    Dark Reading ",
         "attack_type": "other",
         "source_country": "China",
-        "target_country": "Singapore"
-      },
-      {
-        "title": "Singapore Issues Governance and Security Guidance for Agentic AI - Inside Privacy",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTVVBdTlZWTZpNFAxVXZSbHBMSWpwQ0xTNnB0WlhBRDVnaWRHclo0Wk1XNW1WWldBV3NqTTFTcVBISktXU0dmUTV5V0hMSEV6d0lTOHg0b2RDWHNUMmVDYnZBcWZ1NlpWSW1ITWdMLVdzQl9LcFk4YkZhWFM5Q1hQNTFFUUNGYnkyeWZISHpYRkFrYlRKRXVjVGlaWTBubHdoOWpXSERFTXlqSm02VlE?oc=5",
-        "published": "Thu, 23 Apr 2026 07:00:00 GMT",
-        "source": "Inside Privacy",
-        "description": " Singapore Issues Governance and Security Guidance for Agentic AI    Inside Privacy ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Singapore"
-      },
-      {
-        "title": "Hackers breach Singapore networks for 2.5 weeks before detection - Singapore Business Review",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTjVmTjY2R0Y1LWgzVTV5UTRfRHlQRDU3aGl6ZW8zOUswVTJ2QmpoTVAtVy11dkxreV81UG1Oc2xlYVpPV2gzNzh3WUxJcUxjTmZkOEJLbURHdV9QV0xsb05VV2Q3cm5WM2RyNkJwbWo4TXItLU85NnAtelQzYU93S053bVFWdU9qNmNUMVlhYUlFdXNoRjhoT0NTU2JkcEFBNm4tSDFn?oc=5",
-        "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-        "source": "Singapore Business Review",
-        "description": " Hackers breach Singapore networks for 2.5 weeks before detection    Singapore Business Review ",
-        "attack_type": "other",
-        "source_country": null,
         "target_country": "Singapore"
       },
       {
@@ -735,6 +695,46 @@
         "source": "Infosecurity Magazine",
         "description": " Singapore Takes Down Chinese Hackers Targeting Telco Networks    Infosecurity Magazine ",
         "attack_type": "other",
+        "source_country": "China",
+        "target_country": "Singapore"
+      },
+      {
+        "title": "Singapore says China-linked hackers targeted telecom providers in major spying campaign - The Record from Recorded Future News",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sTkVyQXdPc1RfN0JGRDdKTzhDdFpBWnRBbzRaR3A2Unlua1pDWllZakRUc0taTDAxWm1YRUp6NzdkNEUwd0lDNnBtR09EWGMzdFNFdTR2U01fNi03RUNSSXUzS3RaRDRSSzV6ZkxjSkVoa2dncFE?oc=5",
+        "published": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "source": "The Record from Recorded Future News",
+        "description": " Singapore says China-linked hackers targeted telecom providers in major spying campaign    The Record from Recorded Future News ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "Singapore"
+      },
+      {
+        "title": "CSA’s Initiatives to Strengthen Singapore's Cyber Defences Amid an AI-Driven Threat Landscape - Cyber Security Agency of Singapore",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRFMzLWF5TERZLUc4endPdWJUZ3Q5RmRRQ0szYWxGOWJYdEw0SEFGNGJ2eUhqTUhUZklyU3ctZnlWeXg2SUxBckZPY2FOcjdmUzU0QkpQeWh5OFFJSEFhSW5xVVpyVFdJeWRIaU1DaVRiSDNKOG42dXhNQ2dfdzVEX2JZQnVvUjhJQUg3Q0FqYTVZbHNOQXBzNnV2S0UxYnZ4QjFJZkNKUl9rSUlEVTFKbi1TZWZ0VkpNZEdEbFBQV3BJS2hZU2poX0swdWVXVllVVV9UN29rZVdzYmJB?oc=5",
+        "published": "Wed, 01 Jul 2026 02:01:42 GMT",
+        "source": "Cyber Security Agency of Singapore",
+        "description": " CSA’s Initiatives to Strengthen Singapore's Cyber Defences Amid an AI-Driven Threat Landscape    Cyber Security Agency of Singapore ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Singapore"
+      },
+      {
+        "title": "Singapore Issues Governance and Security Guidance for Agentic AI - Inside Privacy",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTVVBdTlZWTZpNFAxVXZSbHBMSWpwQ0xTNnB0WlhBRDVnaWRHclo0Wk1XNW1WWldBV3NqTTFTcVBISktXU0dmUTV5V0hMSEV6d0lTOHg0b2RDWHNUMmVDYnZBcWZ1NlpWSW1ITWdMLVdzQl9LcFk4YkZhWFM5Q1hQNTFFUUNGYnkyeWZISHpYRkFrYlRKRXVjVGlaWTBubHdoOWpXSERFTXlqSm02VlE?oc=5",
+        "published": "Thu, 23 Apr 2026 07:00:00 GMT",
+        "source": "Inside Privacy",
+        "description": " Singapore Issues Governance and Security Guidance for Agentic AI    Inside Privacy ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Singapore"
+      },
+      {
+        "title": "Singapore telcos breached in China-linked cyber espionage campaign - Help Net Security",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0c3eDk5WkZvMThrM3YwdlJXOTZ6Q0NhbkFLTnhyWkN1S083TTloYjI4eHVJaFhMdW1CRFhLTm51TXlQZC12MUNVV3R6X0h3TEc4MEd6eFI2d0xDaWFvRm5iUldlalMwVWhDT0hua0FCTm9UbExSMVhjUEVQb1dMQzRNX1Z6ekpkLXctR0NtMEFnVURNcVBaNUJoSlg?oc=5",
+        "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+        "source": "Help Net Security",
+        "description": " Singapore telcos breached in China-linked cyber espionage campaign    Help Net Security ",
+        "attack_type": "apt",
         "source_country": "China",
         "target_country": "Singapore"
       }
@@ -761,21 +761,41 @@
         "target_country": "Malaysia"
       },
       {
-        "title": "AI-driven cyber threats expose Malaysia’s readiness gap - The Malaysian Reserve",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY3pIZmZoazYzOTNyMUhydEFSWVozaTdDMkNlUVNzZUlxTVhaTHZKNWlkMEYzYnJKcmpSMWtwc2kwVWg0UmxZUWxmeXNwd3djWjYwR25lSy1kbzhUTThwQlY5VUJKYjZtazFlZU1LeHphZFZVbzhZbE0xMVdOLVNTWURrcnZyY0twbjZzVVY5T0xHXzMxRllkV211bXl3MVk?oc=5",
-        "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-        "source": "The Malaysian Reserve",
-        "description": " AI-driven cyber threats expose Malaysia’s readiness gap    The Malaysian Reserve ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Malaysia"
-      },
-      {
         "title": "Nottingham Uni says student records raided after ShinyHunters claims cyberattack - The Register",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMmFsVXFheklQUm53M0tYRlcwcG10NV9WSzFJVFdKQ1BnaWEyNHhjcUNmZW9VUFRHTXlld3VEVUVTQ29JbXlDdlVERWdtbW5LVTg1dTJVZDJ2SWNIZDIxcmFJWWxsdlpsT3NwZzkwX0tYaGI2RmhwblljWVh2aVh4TmswSEg5MnNFUmtsY3c0MGlfMF94RnF4dDJBVy0xX1g5X2stZVMtV2x1cnJ4V2RYOGZjWV9kZEk?oc=5",
         "published": "Thu, 11 Jun 2026 07:00:00 GMT",
         "source": "The Register",
         "description": " Nottingham Uni says student records raided after ShinyHunters claims cyberattack    The Register ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Malaysia"
+      },
+      {
+        "title": "Malaysia Airlines claimed by Qilin ransomware – no details, but big questions - Cybernews",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcTA0WEtwOG1WUUlrWXR5OVdDazZvZG9uRUZ5bVo2ZnFmZ2ZoblJKNU1fTEdjdERSV2ctR0l3S1hfMDdRclVBdlBLa3hGbV9iN2NLSDFQV0NZWG1HWXdGM2ZxLUdiN1Z6bFA1QUR4eTJ2Q3VMVlR5M3l5OFBXYXFjVkVn?oc=5",
+        "published": "Fri, 27 Feb 2026 08:00:00 GMT",
+        "source": "Cybernews",
+        "description": " Malaysia Airlines claimed by Qilin ransomware – no details, but big questions    Cybernews ",
+        "attack_type": "ransomware",
+        "source_country": null,
+        "target_country": "Malaysia"
+      },
+      {
+        "title": "Australia: Landmark Penalty for Cyber Security Failures - Global Compliance News",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVlNUNUhWLVdRb1Q0ajExX3VCUGV1NG5OYlhQSmVTcDdsUFp1dUJlSkN0V3dacm9aRW8tZ3lnd1QzRDlkMjlXNmF3V0dkUVNtYjRnQmdmSzFncElFMU9KY0wwVzhqbTRLQVhhd0I4RThRVVdNek9BYTBIWnRlWjBVei1ScmlXQlNGVENIYk01Zm1FYmxkbk5SZXVvSEo3NnR2b0wwc3ZFTy00QjZjVTlKQ2p5WUs2eXR6WjlxbDM2UHVTYUhjM2V1RmNEeDlRc0Y1bXJqbWg3RWNDWDg4R1hjY0lObVBUSzV3aTA4Y3JHU0tMMU1OR0JNcGdfUGN4bUt0dnc?oc=5",
+        "published": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "Global Compliance News",
+        "description": " Australia: Landmark Penalty for Cyber Security Failures    Global Compliance News ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Australia"
+      },
+      {
+        "title": "Malaysia Airlines allegedly breached by Qilin - SC Media",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV0wtekVYNFVnMXN2Y1hTMUxYakpnWEVQTmw3dzdUOVlvb21FWGxHbFVkbVpZbXJ2cE1XSktWcGp5dXhpOTFJTDVIVlQzZGxPSDRtNnJMcjFtNTVLVkctZHZDc2pfaERiZTdsNmJCWklNVm9GTUh5S1N0VDFlazVoVA?oc=5",
+        "published": "Fri, 27 Feb 2026 08:00:00 GMT",
+        "source": "SC Media",
+        "description": " Malaysia Airlines allegedly breached by Qilin    SC Media ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Malaysia"
@@ -791,63 +811,33 @@
         "target_country": "Malaysia"
       },
       {
-        "title": "Reveal findings of probe into parking app data breach, Selangor govt told - Free Malaysia Today",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcVZVR2xDUFNWeldjN2hCdzhCRTNjNWE2NXpKVlZaTDU2Z185WF9RR3VXUXN1NlFNWm1pa0t6bkVwczFaTUZ1VU0wSW5BcFdHRmQyZVFMelVfOU5ZeFJRbzNxQ1JaV2ZkMVFpT0tTSHhuMTBRbGtsRjQ4QlA2ZG5HWmFrbHpfa1RJZDVrblNpZlRsc0MtdFJoVHJhYlUzUXh5T3FOSkcyR2h1WHBKQkZhbm84OWpNN1p0ZjJaU2FLNkQ5WTFMQUVtQlBxOUJGUQ?oc=5",
-        "published": "Fri, 03 Jul 2026 07:00:00 GMT",
-        "source": "Free Malaysia Today",
-        "description": " Reveal findings of probe into parking app data breach, Selangor govt told    Free Malaysia Today ",
-        "attack_type": "breach",
-        "source_country": null,
-        "target_country": "Malaysia"
-      },
-      {
-        "title": "Local councils in Selangor to hold off on summonses after cyberattack on parking app - The Straits Times",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUDJ1ZHp2MEYxS0k1Y0ZGUDcxVTRQYUxhdHdQMDlEYUZPOWlPVG1NODRnWUFIZUdlR3ptU0EwVHRySjhCWU9xSktsWWc5bVJOU01NMkNnN0NseE5sZ3dSVlVkelZ4UV9JbE9QMlBSOWlmVzJSem80NUN1Q1hWSk51ZEtLN04wSEtrV0p2OGMtTHdtREhQVjc1NkVaODlrQzdlS2VaTE1qTG15UUQ2RXJ0MlJsNUJUWkhiRlAyM1ppS0FlY3Bq?oc=5",
-        "published": "Wed, 01 Jul 2026 07:00:00 GMT",
-        "source": "The Straits Times",
-        "description": " Local councils in Selangor to hold off on summonses after cyberattack on parking app    The Straits Times ",
+        "title": "Leonardo's new Regional Cyber Center inaugurated in Malaysia - Leonardo S.p.A.",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVVIyYlh3ZWFJSkZ6WU9MNkdNd1dTMW9XVjQyMzNCNnhVSUFsV25OOE14VzRHX3BhcFVDcTU0bDJDNTAxZUgxRnF6X0dxRjk1UGppTVFEenNhUUpndG9OZDY5bjl3bHd5ekFvdW1aZjhPdzRLMEZSUlF1ekcxekFvTkpYZDJJb0c2cFZiTWk0SkgxYXhWaUFqYkpJQjYxX0lNSzJKNnpES1JGMm8yYjhN?oc=5",
+        "published": "Wed, 03 Dec 2025 10:57:37 GMT",
+        "source": "Leonardo S.p.A.",
+        "description": " Leonardo's new Regional Cyber Center inaugurated in Malaysia    Leonardo S.p.A. ",
         "attack_type": "other",
-        "source_country": null,
-        "target_country": "Malaysia"
-      },
-      {
-        "title": "Malaysia Airlines claimed by Qilin ransomware – no details, but big questions - Cybernews",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcTA0WEtwOG1WUUlrWXR5OVdDazZvZG9uRUZ5bVo2ZnFmZ2ZoblJKNU1fTEdjdERSV2ctR0l3S1hfMDdRclVBdlBLa3hGbV9iN2NLSDFQV0NZWG1HWXdGM2ZxLUdiN1Z6bFA1QUR4eTJ2Q3VMVlR5M3l5OFBXYXFjVkVn?oc=5",
-        "published": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "Cybernews",
-        "description": " Malaysia Airlines claimed by Qilin ransomware – no details, but big questions    Cybernews ",
-        "attack_type": "ransomware",
         "source_country": null,
         "target_country": "Malaysia"
       }
     ],
     "Philippines": [
       {
-        "title": "The Cybersecurity Council Of The Philippines Is Launched - Cybercrime Magazine",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNkw3cF9MWmVPeUJrQXhFeTMxQVc5X0hiR0lJb29xWFdObzdGUFEteE9oSERRc3R1Z0NEY3pPemJsQ051bER1LUF3SHRFc0lObmVCYVhZWmRpMTJXWUlmNkMxalFJNXVxS0hRTGUyaUFadVZBcHo1VjE4YzhwaFcwMzVTd3ZRVDhQN0o1Q2NSckQ4bWI1T3c?oc=5",
-        "published": "Thu, 18 Jun 2026 07:00:00 GMT",
-        "source": "Cybercrime Magazine",
-        "description": " The Cybersecurity Council Of The Philippines Is Launched    Cybercrime Magazine ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Philippines"
-      },
-      {
-        "title": "Wave of Philippine government website hacks raises alarm over weak cybersecurity - South China Morning Post",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON29wMEFSMWVTOHQxTGZwZHZGem5HYlF0TFY5UjFLdWZ3azNfMEJPdUp4LUloZ3MzRU5xcjRqTnVNQmltRFNraXU1NUxFV3d1dlpkdjZNZFdlQzZKVW92Vmo1RjFaYTVBZFZrLUFfbnhOVkNlbWpEbDh1TzZhdmd0c0dyMEhwMm9kOFYyNVpiODJfUnhicmlVY0Jqck9ReXpMTVdOSjQxUGFPd3lUQXlUd05ua212WU8tMUNwN0JVNXdtLWhjTVhSd2N5WUFpckdFTkd4dlNn0gHWAUFVX3lxTE0xWE9Db2xTSi1uckpZMGZuZEE0MEJndkRCeGx5WnpUTjFRbUMzRGlIVS1vdUtuMHZnTHdNVU16cGE3NXFxMzNSSjA0bkpHNTdMcTJpUHh1bjhUeXpHdFpFX1ZZa2E5OUZOUzJBZ1gzRWZDS2I2Q0ozMmluTk9SNkl3a19TbFphSGczRFZ6a0dVNnhjMEtjb3ZwLWV0aU1keXgxeDU1RGJOajlwcjJocFlYX2JpSFM5WHdiOGlHTktlVzZINzM5LTNYYjE3b2xSTUxpcFpaWGc?oc=5",
-        "published": "Mon, 15 Jun 2026 07:00:00 GMT",
-        "source": "South China Morning Post",
-        "description": " Wave of Philippine government website hacks raises alarm over weak cybersecurity    South China Morning Post ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "China"
-      },
-      {
         "title": "Philippines Evolving Cyber Threat Landscape 2025-2026 - Cyfirma",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcDFOSXAxVW9Ud2p2SUVnZ3ItZUNDZld4QU5KcU1CNmVmUDBKUW5qejhlY2xsNmpMVG52VUNhc2IzTmdLZkZzN1lhanZRTm9jekVDQmoyUzF0Z2d5Vm9CZzR4aFV2bnBKdXFSUWU2ZkxuakhwUjBmRThROTh4ZDFnV1Y2U3NMcmhlWnljTUJEeU8?oc=5",
         "published": "Mon, 02 Mar 2026 08:00:00 GMT",
         "source": "Cyfirma",
         "description": " Philippines Evolving Cyber Threat Landscape 2025-2026    Cyfirma ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Philippines"
+      },
+      {
+        "title": "The Cybersecurity Council Of The Philippines Is Launched - Cybercrime Magazine",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNkw3cF9MWmVPeUJrQXhFeTMxQVc5X0hiR0lJb29xWFdObzdGUFEteE9oSERRc3R1Z0NEY3pPemJsQ051bER1LUF3SHRFc0lObmVCYVhZWmRpMTJXWUlmNkMxalFJNXVxS0hRTGUyaUFadVZBcHo1VjE4YzhwaFcwMzVTd3ZRVDhQN0o1Q2NSckQ4bWI1T3c?oc=5",
+        "published": "Thu, 18 Jun 2026 07:00:00 GMT",
+        "source": "Cybercrime Magazine",
+        "description": " The Cybersecurity Council Of The Philippines Is Launched    Cybercrime Magazine ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Philippines"
@@ -863,6 +853,16 @@
         "target_country": "Philippines"
       },
       {
+        "title": "Wave of Philippine government website hacks raises alarm over weak cybersecurity - South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON29wMEFSMWVTOHQxTGZwZHZGem5HYlF0TFY5UjFLdWZ3azNfMEJPdUp4LUloZ3MzRU5xcjRqTnVNQmltRFNraXU1NUxFV3d1dlpkdjZNZFdlQzZKVW92Vmo1RjFaYTVBZFZrLUFfbnhOVkNlbWpEbDh1TzZhdmd0c0dyMEhwMm9kOFYyNVpiODJfUnhicmlVY0Jqck9ReXpMTVdOSjQxUGFPd3lUQXlUd05ua212WU8tMUNwN0JVNXdtLWhjTVhSd2N5WUFpckdFTkd4dlNn0gHWAUFVX3lxTE0xWE9Db2xTSi1uckpZMGZuZEE0MEJndkRCeGx5WnpUTjFRbUMzRGlIVS1vdUtuMHZnTHdNVU16cGE3NXFxMzNSSjA0bkpHNTdMcTJpUHh1bjhUeXpHdFpFX1ZZa2E5OUZOUzJBZ1gzRWZDS2I2Q0ozMmluTk9SNkl3a19TbFphSGczRFZ6a0dVNnhjMEtjb3ZwLWV0aU1keXgxeDU1RGJOajlwcjJocFlYX2JpSFM5WHdiOGlHTktlVzZINzM5LTNYYjE3b2xSTUxpcFpaWGc?oc=5",
+        "published": "Mon, 15 Jun 2026 07:00:00 GMT",
+        "source": "South China Morning Post",
+        "description": " Wave of Philippine government website hacks raises alarm over weak cybersecurity    South China Morning Post ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "China"
+      },
+      {
         "title": "The Rise of Cyber Threats and AI in the Philippines: A New Era Beyond Legacy Security - KnowBe4 Blog",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQjJPQXAwczVtZFBMb2JkVEJRRFNfbVhwZG40NTRUSjFLOEhPSmdZTUxqWHgxYk9OUFBzb2JFa0hzMTZtTFdRVE5sbWhtTEVueVJhSlJDZ21IZzlGNmRWb2V1aWhfVEN6YTVySXNlVUZkd0tmc0w3WUlpaVFaVWVxZA?oc=5",
         "published": "Wed, 13 May 2026 07:00:00 GMT",
@@ -873,37 +873,47 @@
         "target_country": "Philippines"
       },
       {
-        "title": "Hacktivist group claims responsibility for defacing Philippine Senate website Hacktivist group Nullsec Philippines claims responsibility for defacing the website of the Philippine Senate. Full story: https://www.rappler.com/technology/nullsec-philippines-claims-r - facebook.com",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYUNxUFc0RWJwZnpFMndIVDlKZzhNSENnUG1HVHlqVDFHb3pVTC1kb3hRMkFXOURMT3ZvOUExY2lHdlBpNlprOS04UVRZdmNrSzZkRU90WGl2QlBud0JXY2JSdHpvblhsQXlNWG1hUUNscGotZ0kzb0NNRm5nOWU5cThkVkl2YXYyNk5EcE4xOGNubWR4dE5vNVZRbWZMZXdSRUQ2TEZoUVN0R25jcmVmSTdJaGtCbGl3SXdUUGFNYUY5REFQNkZ5bmNza0FVdVBNemNGc0JTcTVzWkk?oc=5",
-        "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "source": "facebook.com",
-        "description": " Hacktivist group claims responsibility for defacing Philippine Senate website Hacktivist group Nullsec Philippines claims responsibility for defacing the website of the Philippine Senate. Full story: https://www.rappler.com/technology/nullsec-philippines-claims-r    facebook.com ",
+        "title": "Philippines faces growing exposure to cyber data breaches - Insurance Business",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmw2YXFZZFctdkV5ak9XVGdCVlVNUjdpR3B0X0FzQ0pUR2YzSFZlUzNuSktVVHZfaldlMVpUdkhfbDhtTzVlZTQ0dC15bmEzTVVkOUNZc2R2cWdFQ0ZFeDkzU3FuRDlXbzZGaEtmOUFzMFJNTElPVlVkODBBR21lMWplODA4MjkzOUhhMW5NODhURVIxWGpSa2xKVnNIcGQwYTQ1MzRGQVQ0bVJkSjZBTW13X2J0MHdYNTZQT2ZrZw?oc=5",
+        "published": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "Insurance Business",
+        "description": " Philippines faces growing exposure to cyber data breaches    Insurance Business ",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": "Philippines"
+      },
+      {
+        "title": "America’s Cyber Retreat Is Undermining Indo-Pacific Security - Just Security",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ia0dkUE1xLTFjZDNLN2N1TkdCZlNzVnpTLXhGaU05czhQeV9sb0JFal9VSDFiMWQ5WkpPbnIwOVFicV9laEw5N1ltSjRqZm5SdzMtZVpuMGoyZm9qcjMzVjhlQVlUMk5hQVQ4ckh5cEs5bXRHeEtBeTl3VQ?oc=5",
+        "published": "Mon, 22 Dec 2025 08:00:00 GMT",
+        "source": "Just Security",
+        "description": " America’s Cyber Retreat Is Undermining Indo-Pacific Security    Just Security ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Philippines"
       },
       {
-        "title": "Under Siege: The Cyberattacks Hitting the Philippines Amid WPS Tensions - esquiremag.ph",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbF9EdHhVaHBrRGVvWnF2ekVaeURvODJ5VVJxdXppd0YxN3dkR0lCMjZON2tHdzJjeVY0OFNuYlFNQ2Jvd3hLOWY4TkVTTWdhRUozTkhISVNxMEN1YnN1SnBodXc1NFdYV0Q3RjhnZ0xRYlo0eTNxVlpld082M2V5NXhHbVhZZGlkYXhOblNrMXdqYTRBanRCVXREaEFTNjA0c1ZNbE5LMVVCekVRSjRYVXNUX2M1MkdWREtaTjlGN25nbzlSWGNsTFZObGRFVmFS?oc=5",
-        "published": "Sat, 20 Jun 2026 07:00:00 GMT",
-        "source": "esquiremag.ph",
-        "description": " Under Siege: The Cyberattacks Hitting the Philippines Amid WPS Tensions    esquiremag.ph ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Philippines"
-      },
-      {
-        "title": "Senate website defaced by group demanding public accountability - Inquirer.net",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaFg5SWFza1M5VDZNNU5mb3hkdGphdFNzTnpDbmRiamVrb0tWLXFqOHUwemRRWlZfV193ajZMdWFGakZBVGwwWkhIdklSOElvVGlKMkk3a3NfV0FnaERoRHJTRmt6LWVZcHZGanpWZVBzQzMxUTJHSHNMZlBuWlBEVHlWZVM5SURTcU1sMEc5dGVsX0Nvc2UtRkpEZW5COE1FTThJ0gGoAUFVX3lxTE1kOWZNNl9Ka1J0eVNYOEZ4UlNybE90OGpxazMtN09Hc1hWSHJ0YThjNWRBTXcwVF9DRXp5M3JHb1RIUEk2aHlxUFZXallpVDVOT1psYllqOEtzRGhEMkh5bUwtUXducl8yUWpXUFFoYXpwMjRzV3hXckVFUmpqMUwtejRrZloxaENPcElfMGt4eU9UdkNtYkgySzZ2VnJlVFJWZG9pVmFTRg?oc=5",
-        "published": "Fri, 12 Jun 2026 07:00:00 GMT",
-        "source": "Inquirer.net",
-        "description": " Senate website defaced by group demanding public accountability    Inquirer.net ",
-        "attack_type": "other",
+        "title": "3 accounts hacked every minute: Philippines confronts relentless tide of data breaches - The Straits Times",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQWJTMWpSVnFhb1pyUFpLTXVvakR1c185dURRWXBpQ3FFanpzeS0wajVNX1R6clVQbGRlNVJrQlpmQW5HTWpqSmFrSW5xTXdnUDlMbDl2bjFXRE01c1Vlem5feW4tY1JJZUh2Nms1MmhkNm8tQVc4QjFGbkRnYnlrbHdGMlNCdUw3X19ia0FxWG1IUVlZRGlEbGVqODdYT0xkUHFfZHIyRmdkTDdhdWxDZmtDbUQtVWl2WFRvOEJycGQ4UDdSbFE?oc=5",
+        "published": "Fri, 13 Feb 2026 08:00:00 GMT",
+        "source": "The Straits Times",
+        "description": " 3 accounts hacked every minute: Philippines confronts relentless tide of data breaches    The Straits Times ",
+        "attack_type": "breach",
         "source_country": null,
         "target_country": "Philippines"
       }
     ],
     "Indonesia": [
+      {
+        "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks - The Hacker News",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSDAxbnlLRkhkU095ZUExN1BxNXZqalhvN1E5bThYZjVnMWoyeFR4NUsxeEFackpCcUhUNmdwVTROWmJOY0tudFgzQVBJX3cxVC1XYzJLTC1EVWU0SV95eUFnRUMzOXFVTjF1YUlETTNpR3E3NFV4Vm9PUTBHWVhKQWVQYw?oc=5",
+        "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+        "source": "The Hacker News",
+        "description": " New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks    The Hacker News ",
+        "attack_type": "malware",
+        "source_country": null,
+        "target_country": "Indonesia"
+      },
       {
         "title": "Microsoft Releases 2025 Digital Defense Report: Highlighting the Changing Cyber Threat Landscape and the Importance of Security in the AI Era - Microsoft Source",
         "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOM3AxRUNkNXNtTVRXMzkzMUdwOVdTOVNSXzNrdnJ5bXBJdDNiR0dncGdqcFp4S1UwQVl0WmpLWGFZcWk2LTh6MmZ2NW5CMzdqUlM5b0pONndOWUIwZUZCNzVCdDFJQ1prQVRqSmdpUkg3Wm5jSUYzMlVFSWRiUWJkMFIyX3FUSVpubXU0THE5SEVRdUVLUndfNE0tcjJ4UEdHMGFTdUtWMXIxOWRBYkZ6d3dsZFhtVTdNU011T1dJV01MaEpEQjFDbHhLU1R3YlZKZVNhNENTejJ0NmJnbTdyOVhOWmlIMzRpQktiZTVPV0s2UVFVNnk2ZXZ6YU9Qb21ZYlNPMGFxUTZXNGlKdGFBUlJQSmM2aVZSTVlr?oc=5",
@@ -940,16 +950,6 @@
         "published": "Mon, 08 Jun 2026 07:00:00 GMT",
         "source": "The Cyber Express",
         "description": " Cyberattacks on Tempo Reach 24.9M Requests in Indonesia    The Cyber Express ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Indonesia"
-      },
-      {
-        "title": "Nova claims to have hacked KPMG, which denies being compromised (update) - Techzine Global",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXZHN29Lai1aNnpqRGpTeEw3cUkxcHpRNDRpU1p0VHVLQ1ZYb3JmbXdubVh0VnJ0Tl80MmZXTHN3bkN6NG5ubnFtVDBkUzB6cXpWaU9HX3d6d3M0TW02TjRWUER1STNUbFFTbzRqZ0RldGttZExrXzUxSnFTdGZCZEFtMEtncW5kWGtROGFzOWphaVRQUk1acWtVbkJJUjFJNW1qTTJSNEVLUQ?oc=5",
-        "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-        "source": "Techzine Global",
-        "description": " Nova claims to have hacked KPMG, which denies being compromised (update)    Techzine Global ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Indonesia"
@@ -1037,16 +1037,6 @@
         "target_country": "Japan"
       },
       {
-        "title": "Japan's largest taxi operator shuts systems after cyberattack - BleepingComputer",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVEkta0dDOTlNanBQMkhEbUhQQkE1SkkzaXh5M1pKcEM1Q2l1NXc1eloyUWh1LXZ3NUpMOUtjbGY2M09RWHdtTjdJd2JsaGFFUEFOTXR4ZEV0VlAtVGRkWU4zQzZaRlRRaVMtS0lOZWM2OVNYMUpXd1JBNDZmX0oySGtwRlgzLVpSQ3FCQ0x5ZmR6UmdkeE1nckVseVBIVDJUby1yZVdJSDV1RkpF0gGyAUFVX3lxTE9vOWFGanl2T1RrenRYX25FblRTWENxLW9pSFZ0NTdfcWVIMzBCLWlEU2ZXTzVsVXA2eUZXVWtPcXYxUDJuYnF6YWNOY3kxdU96VWNIS2xMVW9xYVljbUI3YkppQzVUdGRDRWRzeVVMOW9EazlxRlBWbjlsUElBcUI3MXM1ekVDbmdFcWszUGV3TVN0MUxGSlYxcVlmOTBSWE5MQ1BCSnE0YUVFc2VhTWFQSWc?oc=5",
-        "published": "Mon, 13 Jul 2026 20:18:59 GMT",
-        "source": "BleepingComputer",
-        "description": " Japan's largest taxi operator shuts systems after cyberattack    BleepingComputer ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Japan"
-      },
-      {
         "title": "Data Breach at Aflac Japan Impacts 4.38 Million Customers and Sales Agents - CPO Magazine",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWFR0eFBLZldDY3pYOVJzQnR0QlNzZkszeUZQNldzbS1zVGFMZzl0WjJ0N1Eyc3BjdElrUGJKdjZYNkxiZmlPR29pNHB5UjAzWDJYaDF3TzhRQ0k4ajNtQjh0WlA5UTB6RmluRmh3SDF0SDFJRmpPM3ZJZkxlNGxWTi1EaXE1SnY2U0Fsc1U5UVpCc0k5TUJIN3A5MlplSVFZWDRJQ0xzY1c2TkM5VlByUVo4VW80YmprbUE?oc=5",
         "published": "Mon, 13 Jul 2026 22:00:00 GMT",
@@ -1065,9 +1055,59 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": "Japan"
+      },
+      {
+        "title": "Japan's largest taxi operator shuts systems after cyberattack - BleepingComputer",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVEkta0dDOTlNanBQMkhEbUhQQkE1SkkzaXh5M1pKcEM1Q2l1NXc1eloyUWh1LXZ3NUpMOUtjbGY2M09RWHdtTjdJd2JsaGFFUEFOTXR4ZEV0VlAtVGRkWU4zQzZaRlRRaVMtS0lOZWM2OVNYMUpXd1JBNDZmX0oySGtwRlgzLVpSQ3FCQ0x5ZmR6UmdkeE1nckVseVBIVDJUby1yZVdJSDV1RkpF0gGyAUFVX3lxTE9vOWFGanl2T1RrenRYX25FblRTWENxLW9pSFZ0NTdfcWVIMzBCLWlEU2ZXTzVsVXA2eUZXVWtPcXYxUDJuYnF6YWNOY3kxdU96VWNIS2xMVW9xYVljbUI3YkppQzVUdGRDRWRzeVVMOW9EazlxRlBWbjlsUElBcUI3MXM1ekVDbmdFcWszUGV3TVN0MUxGSlYxcVlmOTBSWE5MQ1BCSnE0YUVFc2VhTWFQSWc?oc=5",
+        "published": "Mon, 13 Jul 2026 20:18:59 GMT",
+        "source": "BleepingComputer",
+        "description": " Japan's largest taxi operator shuts systems after cyberattack    BleepingComputer ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Japan"
       }
     ],
     "South Korea": [
+      {
+        "title": "Korea fines e-commerce giant $400m over data breach affecting millions - BBC",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YalZLWVNfbnhTZmowSU1xTHRiN0tCRFpFWFdwRk9WTGIwTFJsRWFiYmZUdElBNk9DR3RQUFNpcjVQeDF4QllCa21nNkZMNERydm1FeW5MU0pIQQ?oc=5",
+        "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+        "source": "BBC",
+        "description": " Korea fines e-commerce giant $400m over data breach affecting millions    BBC ",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": "South Korea"
+      },
+      {
+        "title": "South Korea blames Coupang data breach on management failure, not sophisticated attack - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYnBkYUY4LUU2WlVnWmE2VGZHZTgzMW1DSnNTNzVBZVdVTmE0SHpRMGF6NG1tOXlRZzZvcnd5ZUJqdHlvakJyOGVDN1B3RmlfRG9hWXltMDJOYWhFeDY1YXZnVmc3ckdLS2RXYjM0Ni1tam4wc2lnTnY3SUt1MzRlallYaFhFd0tuenBXSUdzWFNnMnAxb0ItcmE0LTB3dHNqWmZvLVhfaE5pNUdXdndUNHRoeks2TDVzMDdLS2gzUndIdV9rSDRCYWRBdFlGRmFCOWgwMVhNTnFjem43YkJkVHg5YU4?oc=5",
+        "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+        "source": "Reuters",
+        "description": " South Korea blames Coupang data breach on management failure, not sophisticated attack    Reuters ",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": "South Korea"
+      },
+      {
+        "title": "Why South Korea is racing to build a sovereign AI model for cybersecurity - South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUhhbndVeVJCam1DSEVaWGtKbGxWbDktWlN6cmRoZk5ZMWR3ZG12dVhNTnh5STJ5THdMU0EtT0xfb2RCaHc1SUdldG5tMnNoRng5OHhZd0h6NjZfN3BDSnRsRDhvVU5hbTdlWk16b1Z4dXRZM1czcjZFSUkxOGNzcWtuN2llUmp4WFNCUUJVbDJKUWZMVjVNWVlQUXgtVlNjelhNaENaVnU4bmJRZzJXRnBFQjlZNDBY?oc=5",
+        "published": "Fri, 17 Jul 2026 05:58:33 GMT",
+        "source": "South China Morning Post",
+        "description": " Why South Korea is racing to build a sovereign AI model for cybersecurity    South China Morning Post ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "South Korea"
+      },
+      {
+        "title": "Toward Strategic Agility: A Case for South Korea's Evolving and Adaptive Approach to Cybersecurity - Stimson Center",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVJpdE5TbDJiWTFMdVN3c0NJcEFrN0IyWU42UHB3NVJtaGc2VGpvTDhoTHN3cFg5Q01LTGl1azZLRWZ4LWpnZUpXOG42UTNVLV9MbGRiakxGeFpLTGJZVlVhV1d3cGdIdllCNzVvVTZIMGxXM2xYUkNReDJsU09XNUE2V0staWdFNVRYbWFGZnNZazZmQkdWSTZoamtxNDVTa2dteEVyNVN4ZzBGVjdxTV9NbWozRnFxd2NIMkJ5Y2dqaHF6?oc=5",
+        "published": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "source": "Stimson Center",
+        "description": " Toward Strategic Agility: A Case for South Korea's Evolving and Adaptive Approach to Cybersecurity    Stimson Center ",
+        "attack_type": "apt",
+        "source_country": null,
+        "target_country": "South Korea"
+      },
       {
         "title": "Foreign ministry-affiliated diplomatic academy suffers cyber breach - The Korea Times",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcGJPbnl3UDM0cGtleThpam5JcUR3Z2hseTRBU3huQW5RM1p3N0NlSDdzMk1VaGFkSlBjYW1laVZGMWQ2NFY5NWY3dU92RkJNQk9YY3pJQ3A3VnlpNFhsSFZBdFU1WlE1aFB1b1pJbmlfT2RsM2xZd0ZwS2pUV1g0ZGRWNy1ZUVJic3AxeGJKNGNWOGtSeFprbjg1WXlobjRFV1pyM3pkMHplOVd0dzMzVzBpc1o2dVh3TDNoU282RHhuZGhyRkk3WDRR0gHKAUFVX3lxTE5wYk9ueXdQMzRwa2V5OGlqbklxRHdnaGx5NEFTeG5BblEzWnc3Q2VIN3MyTVVoYWRKUGNhbWVpVkYxZDY0Vjk1Zjd1T3ZGQk1CT1hjeklDcDdWeWk0WGxIVkF0VTVaUTVoUHVvWkluaV9PZGwzbFl3RnBLalRXWDRkZFY3LVlRUmJzcDF4Yko0Y1Y4a1J4WmtuODVZeWhuNEVXWnIzemQwemU5V3R3MzNXMGlzWjZ1WHdMM2hTbzZEeG5kaHJGSTdYNFE?oc=5",
@@ -1079,32 +1119,12 @@
         "target_country": "South Korea"
       },
       {
-        "title": "Why South Korea is racing to build a sovereign AI model for cybersecurity - South China Morning Post",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUhhbndVeVJCam1DSEVaWGtKbGxWbDktWlN6cmRoZk5ZMWR3ZG12dVhNTnh5STJ5THdMU0EtT0xfb2RCaHc1SUdldG5tMnNoRng5OHhZd0h6NjZfN3BDSnRsRDhvVU5hbTdlWk16b1Z4dXRZM1czcjZFSUkxOGNzcWtuN2llUmp4WFNCUUJVbDJKUWZMVjVNWVlQUXgtVlNjelhNaENaVnU4bmJRZzJXRnBFQjlZNDBY0gG4AUFVX3lxTE94TDhoUS1RSDhDN3ZxNUN3bzB6YVpjekdzSGxLSy1fRlZWYnBqdDFRQmFCSk9lbFE3VEU5TEM1Y1RxS1JmODdTb0lwcUtEZ1YzWVBlS19WNzVONUVibUFWYVItSl9fdFl1VnY2ZDhQeUV5QVRhcE1haUEzRUp5TXRlWm5DOWVISlBqTWljM2NiR29lcVl1NWo5b2lyZG1SMGdHZEFLdkZBdnN1SG5YaFhPTnJzbjljeGo?oc=5",
-        "published": "Fri, 17 Jul 2026 05:58:33 GMT",
-        "source": "South China Morning Post",
-        "description": " Why South Korea is racing to build a sovereign AI model for cybersecurity    South China Morning Post ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "South Korea"
-      },
-      {
         "title": "Healthcare sector faces persistent supply-chain security, identity management challenges - Cybersecurity Dive",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUZCNU45aGdWUlBXbzFVZXVnajEyNHhUSXFmTzhjYkxCLU5XR1dTODNSTmFqSXVpX3ZuQjAtMk4zaHp0OVVtc1pUQTZWWENGWW5xemNIcTZGbXZwalVhcHpDNU8yckNEZENVYjFLdHg3VzBpclhVZW9jbmtZeXdNdXgyWFhfcFhQRVd0d01LRjVGS09ncDJqU2VITzdJdWxwbWF4dFl0Mjl4QQ?oc=5",
         "published": "Tue, 14 Jul 2026 15:50:39 GMT",
         "source": "Cybersecurity Dive",
         "description": " Healthcare sector faces persistent supply-chain security, identity management challenges    Cybersecurity Dive ",
         "attack_type": "other",
-        "source_country": null,
-        "target_country": "South Korea"
-      },
-      {
-        "title": "Korea fines e-commerce giant $400m over data breach affecting millions - BBC",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YalZLWVNfbnhTZmowSU1xTHRiN0tCRFpFWFdwRk9WTGIwTFJsRWFiYmZUdElBNk9DR3RQUFNpcjVQeDF4QllCa21nNkZMNERydm1FeW5MU0pIQQ?oc=5",
-        "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "source": "BBC",
-        "description": " Korea fines e-commerce giant $400m over data breach affecting millions    BBC ",
-        "attack_type": "breach",
         "source_country": null,
         "target_country": "South Korea"
       },
@@ -1119,33 +1139,13 @@
         "target_country": "South Korea"
       },
       {
-        "title": "South Korea Prepares Sovereign AI for Cyber Security, GPUs Still Short - VOI.id",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYa0JaOUk0VHNQOXNwby1xVjJxVzVBYlA1dWU0Y3NXbzMtZEZxWXBwUzJhdk1QeFJNWnpEWi16aURINkc1MlIzcXF0MNIBQkFVX3lxTE52SEZBaXpmRzB6U09TUXY4QUpTQ19QcjQyNUFvZm1jazZNbTcyZmtpWDg0UW9hYUUzUnA1OVNOT2RnZw?oc=5",
-        "published": "Thu, 16 Jul 2026 12:33:42 GMT",
-        "source": "VOI.id",
-        "description": " South Korea Prepares Sovereign AI for Cyber Security, GPUs Still Short    VOI.id ",
+        "title": "2025 Year in Review: U.S.-South Korea Alliance Faces Record North Korean Cybercrime - Korea Economic Institute of America -",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYXU5QjRPQzl5Q0NjeFM0aGZLUnJnQWhNc3l5c3hQbko1OEZib2sybVp2STBSbU45dk5CbWVYaFRYcmxMajAwbE9IdHNYbl9QZWlEcFFFeWRSZzlfS0NRRXNfTUlyRmpXak5kaVE1cGJlWF9fN2trQ1ZaM29BdHNJWndxSUxPTlg0MXI5SlZZeF8zeS1YOXVndUMyaEdLZGZwLWpNSURsdTZlZmZm?oc=5",
+        "published": "Mon, 05 Jan 2026 08:00:00 GMT",
+        "source": "Korea Economic Institute of America -",
+        "description": " 2025 Year in Review: U.S.-South Korea Alliance Faces Record North Korean Cybercrime    Korea Economic Institute of America - ",
         "attack_type": "other",
-        "source_country": null,
-        "target_country": "South Korea"
-      },
-      {
-        "title": "Allies or Adversaries? Troubling Signals From South Korea - Yahoo",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdTZBNC01eW16N0k0aVhBbHFJakI0RXJWTnViOGRQcHJyNDMxUC1na0dDQlVJMzdRQlBoSi1mcXBtb2IwcFhLYUNXRXBMc3MxS282OHFDSEd4bndGV0ZSZEZVUllDN1FLTE1XUVlfZGJOd3JMbXVFaEFrRXhJNjdQSV9kNUg4Qlk1SHh5RzE4VjZGeEFxQk5SLVJjWk5oWTFpS0pMdg?oc=5",
-        "published": "Thu, 02 Jul 2026 07:00:00 GMT",
-        "source": "Yahoo",
-        "description": " Allies or Adversaries? Troubling Signals From South Korea    Yahoo ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "South Korea"
-      },
-      {
-        "title": "South Korea blames Coupang data breach on management failure, not sophisticated attack - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYnBkYUY4LUU2WlVnWmE2VGZHZTgzMW1DSnNTNzVBZVdVTmE0SHpRMGF6NG1tOXlRZzZvcnd5ZUJqdHlvakJyOGVDN1B3RmlfRG9hWXltMDJOYWhFeDY1YXZnVmc3ckdLS2RXYjM0Ni1tam4wc2lnTnY3SUt1MzRlallYaFhFd0tuenBXSUdzWFNnMnAxb0ItcmE0LTB3dHNqWmZvLVhfaE5pNUdXdndUNHRoeks2TDVzMDdLS2gzUndIdV9rSDRCYWRBdFlGRmFCOWgwMVhNTnFjem43YkJkVHg5YU4?oc=5",
-        "published": "Tue, 10 Feb 2026 08:00:00 GMT",
-        "source": "Reuters",
-        "description": " South Korea blames Coupang data breach on management failure, not sophisticated attack    Reuters ",
-        "attack_type": "breach",
-        "source_country": null,
+        "source_country": "North Korea",
         "target_country": "South Korea"
       }
     ],
@@ -1201,6 +1201,16 @@
         "target_country": "Pakistan"
       },
       {
+        "title": "Cyber on the Geopolitical, Battlefield: Beyond the, “Big Fourˮ - Recorded Future",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05dDNpd1ozdjlDbWl1MmVyT3ZPYWExRVRvWmdEdHBvbGt4VTV0dU16elY1bkpUQUlRYlhVMTJiMzhUdzJBaUxlbjFUNktjbUw1ZUVHRE9ac3VWOHRPNnRBVklsUmJTeDhhMV9uN2NWb2FSSThDVXVsaHdR?oc=5",
+        "published": "Thu, 19 Feb 2026 09:05:04 GMT",
+        "source": "Recorded Future",
+        "description": " Cyber on the Geopolitical, Battlefield: Beyond the, “Big Fourˮ    Recorded Future ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Pakistan"
+      },
+      {
         "title": "Hackers target Capital Development Authority's billing system, demand ransom in Bitcoin - Dawn",
         "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xYmRhcUpLVXU4WkdZdXRKVzlCb1poeU5QaE9Fcl8wZ3FpMjBTdXNqbWFCTjQzWHp1UTZKVEQyZXhnNnRYN1puSg?oc=5",
         "published": "Fri, 19 Jun 2026 07:00:00 GMT",
@@ -1219,16 +1229,6 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": "Pakistan"
-      },
-      {
-        "title": "Cyber Deterrence in the Indian Context: Constraints, Credibility and Escalation Risks - NatStrat",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc0NGcWhKTlBmUTdGbnV5dGc3eU1WNm54UkRLbFhRbjd3em9UWXlWVW94VVZsclFIYUpnUjJfNklrUkYya2F2djB3Zi1meDlxanZQVXlTRGxER0gzdmJPUnh2cDRLWUVNQkhmMjR2bjFyeXI3X195NWtWcGFUVjk0cHAzZ1E4RFRna3RMMjlMbENSYllpMWJxWFNFdV9YZUl3WVh5VHhfUEVraS1OVVdoRllkM0hyc0ZjMzhlM1lEeHhIdnItUVdhQlMtMzhRSjdzTW15OE5CVC1MXzY2?oc=5",
-        "published": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "NatStrat",
-        "description": " Cyber Deterrence in the Indian Context: Constraints, Credibility and Escalation Risks    NatStrat ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "India"
       }
     ],
     "Bangladesh": [
@@ -1283,6 +1283,16 @@
         "target_country": "Bangladesh"
       },
       {
+        "title": "Bangladesh Bank's 2026 Cybersecurity Framework and road to resilience - The Financial Express",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXVfdWNGZ3N3T2xFSjBoZFVBNmJxR2dna3RPdTdZOElQRW9vRVU0dmd3dkJva0owSWNmQ3RmUzBQT3lLUzZ1RUNVVXhJUzRzR1EyZHZTckVDVDVJU09ISGJyaWdNYWpKRkVUa0FPbnNJTmZGMkFrQzN5QjhxaFV2QTlOOXFmMXo4OVRNZjZxZzMzLUppM2pxd0daM1VEcVFja0x2TTFOX05JNjZ2VU5kS1d3?oc=5",
+        "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+        "source": "The Financial Express",
+        "description": " Bangladesh Bank's 2026 Cybersecurity Framework and road to resilience    The Financial Express ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Bangladesh"
+      },
+      {
         "title": "Cabinet committee formed to finalise Cyber Security Act amendment draft - The Daily Star",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbDhCQjFzZlpuRTNWbmtvY2xFQWx3U1NpMUdJZGowWUUxc0I1amRKemhqUnl4aENYNXhyTXA1bDVmQWk1OHFpNUs3OGo0VkwwMWhfYUFvZTVNT2F6cFdBTDd5VFNBVFg5dGVSY2xwU0xOVVkwQU9HR3pBdFBtdDVFMzQyOFllVWVZU0pmeFoyN042M2NqbnliOHFsaDBHdkU4QXNCOE9MZU5kVHNUSFRJMjNvRlVyUGdncTdzcHg0aC1TbXBP?oc=5",
         "published": "Thu, 02 Jul 2026 06:25:26 GMT",
@@ -1298,16 +1308,6 @@
         "published": "Thu, 09 Apr 2026 07:00:00 GMT",
         "source": "nucamp.co",
         "description": " Who's Hiring Cybersecurity Professionals in Bangladesh in 2026?    nucamp.co ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Bangladesh"
-      },
-      {
-        "title": "The FE - Bangladesh Bank's 2026 Cybersecurity Framework and road to resilience - The Financial Express",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXVfdWNGZ3N3T2xFSjBoZFVBNmJxR2dna3RPdTdZOElQRW9vRVU0dmd3dkJva0owSWNmQ3RmUzBQT3lLUzZ1RUNVVXhJUzRzR1EyZHZTckVDVDVJU09ISGJyaWdNYWpKRkVUa0FPbnNJTmZGMkFrQzN5QjhxaFV2QTlOOXFmMXo4OVRNZjZxZzMzLUppM2pxd0daM1VEcVFja0x2TTFOX05JNjZ2VU5kS1d3?oc=5",
-        "published": "Mon, 06 Apr 2026 07:00:00 GMT",
-        "source": "The Financial Express",
-        "description": " The FE - Bangladesh Bank's 2026 Cybersecurity Framework and road to resilience    The Financial Express ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Bangladesh"
@@ -1341,6 +1341,16 @@
         "source": "DeXpose",
         "description": " SafePay Targets IT Leader First Cambodia Co., Ltd. in Ransomware Attack    DeXpose ",
         "attack_type": "ransomware",
+        "source_country": null,
+        "target_country": "Cambodia"
+      },
+      {
+        "title": "Hacktivist at War: The Cambodia-Thailand Cyber Escalation July-August 2025 - Group-IB",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNmtoaDVYOTI3emtrbmFLQkxWOFdFRVdiQXM4MEFCWVpISFBodUNDWHJSMUxYU3lZUHhFRm16N285cXgwOGI4YXZYdHh5V1ZfVm05VHlfVTd6cXJ1QUhhY2RCbjRXYnFSSTY0dUd1NkxCdURSY0V1b3dPT0xLLUpjOEpSYkFtWi0wY2Fn?oc=5",
+        "published": "Thu, 07 Aug 2025 07:00:00 GMT",
+        "source": "Group-IB",
+        "description": " Hacktivist at War: The Cambodia-Thailand Cyber Escalation July-August 2025    Group-IB ",
+        "attack_type": "other",
         "source_country": null,
         "target_country": "Cambodia"
       },
@@ -1383,16 +1393,6 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": "Cambodia"
-      },
-      {
-        "title": "Telangana cyber security arrests 5 linked to Chinese fraud syndicate in Cambodia - Deccan Herald",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWGR5QVE5Z2JhcjNMbE1ZYU9GWGlNRW9JX3U5ODNTcW8zSXd3VU0wVlZRZjdnOGRzRVJpMjVjanFOQ0EzaldjM0hTNnRMMHJnWU1aTldQdW1UeEZrLThUUEViaUlVTVpLTWFGc3lDdV9WcF85aVdnb2ZwREc0elFlZnVvbUJkeTRNRE1nYmJESzhTcXR3UjZ6QXkyT2duZjJlcTQzMkJhczJZSGNzMFpySXRyWndmUE41cnhMUlVJMXpkR1ZEMXVPcDFPWlZHdw?oc=5",
-        "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-        "source": "Deccan Herald",
-        "description": " Telangana cyber security arrests 5 linked to Chinese fraud syndicate in Cambodia    Deccan Herald ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "Cambodia"
       }
     ],
     "United States": [
@@ -1417,22 +1417,12 @@
         "target_country": "United States"
       },
       {
-        "title": "Fairlife pauses US production after cyberattack breached milk brand's systems - ABC News - Breaking News, Latest News and Videos",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd21MSmh2UEdKcThfOGtlcGdjU0ZPTnRfZVZFeXFJNm1NRmIzaDhaek90M01xZzB1aUxDUHVNZWZtazd4cDlia29ZYThSaTdzeUdxdUtIa1NaYlBHSmVoYTJuR2RMRk5RUW9aWE9XMy03NFJVSDR2dkZhTC0zcGo4OWZUMldqR1Y0UVVWUjJyTlZTR3ZFR1B0TW1rNUQ1MEwxb0VZWHVWdGE3VmR5VERn0gG0AUFVX3lxTE14X1NIUFhmVjdENXM3Mk9aOVk3X2J5V3k3NVBjNTl2ZFZQMFNkTE1sZDVHQVhQV1hJbHNsVzI2RHZVaFB6NmVqV3lidkVwU1lUTnFPOWpLZG9rbzYwQTRzc0o2NDZUS2pwQmhESnc4bVdvZkJHQVFvcnE5ellVTHZvVDdBTjhvVFpyREtfbmRTd3BZSHF1d0hTOUJTQldlWXdEVE5wNXpWUEpmTGd6dl9fLU55bg?oc=5",
-        "published": "Fri, 17 Jul 2026 16:49:29 GMT",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "description": " Fairlife pauses US production after cyberattack breached milk brand's systems    ABC News - Breaking News, Latest News and Videos ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "United States"
-      },
-      {
-        "title": "Coca-Cola halts U.S. Fairlife milk production after cyberattack hits systems, company says - CBS News",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tY1RLN1RhdTVaMHB1LU5IRlYyRk9sZV9PYm9hU2pyT0Fnb3gxMEZFa2tWUHdkZVlfOUZNS1p0ZWJOLUhwWTdDNnY1Tk52S2JWdU5WUkxoWG92dWFtd2VtY3BoaUFRMDVhLVB3YkdKeHRNUVk?oc=5",
-        "published": "Fri, 17 Jul 2026 14:37:43 GMT",
-        "source": "CBS News",
-        "description": " Coca-Cola halts U.S. Fairlife milk production after cyberattack hits systems, company says    CBS News ",
-        "attack_type": "other",
+        "title": "Fairlife news: Chicago-based company owned by Coca-Cola pauses production after ransomware cyberattack breaches milk brand systems - ABC7 Chicago",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2U2R19halBmOEJPTWo0T0VTVm5lVkdqNDAzNGpqZWRWeVNNa3JROHRSRzZFc3drYmZGV3BVS1RmNUxxVHVWSmFacldCZFJJN1B2VW44UUVDS3FkdzJqcTZTaWRSTlJXV3psN2gtUGp6X1RNUElqaWRmYVptTU0zeGltM19fX00tM19VTklaakRxa2NZMWhqQkhUVXpoSUVUc3lHdWw5dVNtZjk4RjNaUkMwU1hONlRYVEl1TDloam5iVERsM2taaTZRbE9FTkg4SHkyVmMxc25CNnhZbWJiTWJ3V2pHcUg2OXlDcmRNWjjSAfYBQVVfeXFMTnhBSHZSR01KcDdCRlcxa0YzRzlzWDUxYnljdjFuQUNZWTRlczNNRHphQjNUQ05faU5FWmYweVFzbmMtRzhUaXV1UFptTnRYSnNZb0VUajJhTUd3WWQtQ0hVWVY4YmtjVlIwdFV4NVF1LXVIR1U3WEVVeEd5ejJoXzR5T2V4RnZzNU5Ed2tnckphaGV0TmFLeHJVLUQxNENJNzd1WVJNbFNOX01wRGYyVVdNMkc5Y01DYzFDVzV1NEtSSEtLZzFwbEk1QklZbTQyakpDaTZOYVZKTW9JTFZIVnBDaFdlbEgxYzM1WWl2WlY0N1FhVDJn?oc=5",
+        "published": "Fri, 17 Jul 2026 17:55:10 GMT",
+        "source": "ABC7 Chicago",
+        "description": " Fairlife news: Chicago-based company owned by Coca-Cola pauses production after ransomware cyberattack breaches milk brand systems    ABC7 Chicago ",
+        "attack_type": "ransomware",
         "source_country": null,
         "target_country": "United States"
       },
@@ -1472,6 +1462,16 @@
         "published": "Wed, 08 Apr 2026 07:00:00 GMT",
         "source": "Industrial Cyber",
         "description": " Ongoing cyberattacks targeting internet-connected PLCs disrupt US critical infrastructure, agencies warn    Industrial Cyber ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "United States"
+      },
+      {
+        "title": "AI speeds cybercrime by exposing flaws, and other cybersecurity news - The World Economic Forum",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOGIxdzVqV1F5MXFqMjBvbmJGQkwyb2VsOGtkSU1Uc1p2UGhnS3RXU1NJa3VGZWxkLTZMSGVhd2JQMEh2eHF1RUpCQUpjT3A4aS1qdjkycHdRRnI0eEZBbkgzb1ZFOFY3LTdKbl93dE1JUnNhTW5PMDU3TUNtd2ZueFFCWUJLeWF2MHZCTy1nNEZENk0?oc=5",
+        "published": "Mon, 15 Jun 2026 07:00:00 GMT",
+        "source": "The World Economic Forum",
+        "description": " AI speeds cybercrime by exposing flaws, and other cybersecurity news    The World Economic Forum ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "United States"
@@ -1561,6 +1561,16 @@
     ],
     "Canada": [
       {
+        "title": "‘Frustrated and stressed’: Thousands impacted by cyber attack at Calgary university - CTV News",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMVpYZTZfa3Z1Mkg5QV80NmhmOE9xa01nTzlEZ1paeWoxbmVxaXpSdUtOMk1WbmZNNmlaX3FkWHQ5R3VxNnFkUUNVQzB1a0pMMGF5UGFvemFDT2xSMmF4bHd3eFJwSFFXYjlab1ZnUUdtQWlKYzBaQmVVUVhFZ2FGQzFiZHFLWTNCbGtjWDJueGhpZndlaVlKQ0pZOGhtRUlQajBDMGNKaGhPdDlIeVFtSTZoVkZWUkJYbjZwSQ?oc=5",
+        "published": "Tue, 21 Jul 2026 01:24:00 GMT",
+        "source": "CTV News",
+        "description": " ‘Frustrated and stressed’: Thousands impacted by cyber attack at Calgary university    CTV News ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Canada"
+      },
+      {
         "title": "Canada’s Electronic Spy Agency Used Cyber Operations to Disrupt Online Fentanyl Supply Networks, Report Says - Homeland Security Today",
         "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMmRBSWJvMExTbjlRLWN6eUljOVFYV05HUFN5VzRqXzBjNFM1SjdfSDRXaDBYV0JZVldGZjJnSWFiRDV3Y0I2ODhENkxvdldQWEMwNDBhOFBTVU1Nb2FGd2UyeE5qdk5wcTF5SzV1UWxfRVNSM1Y1OExVSkFSS2RqSDlTTVRDU1Fja0prR181LXM1RFdoVzRNcWxiM1BzQnNMbGlzdHpEeFJBWVEzeDQzNVM2UlRrV2tZYnVUQWZoOGxubnMtUnFnYmFGamNtTUd3Znpndkh3WmxybndYc0tpNDVVdzVKZVF3VElERVJTNm9aSDBhZGN3aw?oc=5",
         "published": "Wed, 01 Jul 2026 07:00:00 GMT",
@@ -1629,16 +1639,6 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": "Canada"
-      },
-      {
-        "title": "Canada Life breach exposes data of up to 70,000 people – mostly customers - Canadian HR Reporter",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTUdVYWlOQ2Z6NlUyb0FPNGRlRnNmR3NXSWFDMnBSWHpTRjJKMHFZTlJDamdJWjdPcVJoeE5WV0lRVFZxRldVaHp5SVlwazJIakU5Nzk2ajBGeDBNaXdhOTJwR1V3ODRqY29ZRHlGbGxoREsyYU9nYVo5YXM2RU1DcjR0OXN0QmdTM3AzY05kOERBRGV4aEhsZk1mdkRqVWtpbG5rRWZ0azZaLUNaY0ROeVJnMHV5YkZxekl0ZDdTUXdZRUh4d1B4R2lkZHdnei1fN1Zfcl9IdUdWQQ?oc=5",
-        "published": "Tue, 21 Apr 2026 07:00:00 GMT",
-        "source": "Canadian HR Reporter",
-        "description": " Canada Life breach exposes data of up to 70,000 people – mostly customers    Canadian HR Reporter ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Canada"
       }
     ],
     "United Kingdom": [
@@ -1661,16 +1661,6 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": "United Kingdom"
-      },
-      {
-        "title": "Nigeria, UK deepen security partnership, target terrorism, cyber threats - Punch Newspapers",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWmZzZVZ3YXpaMHdBdnYwcG1KbzFPdzlLWjQtRHlOWVZPMXdCaF9za3BDanJleFpiZnlHdkJuQXI5a3g1ZUxjNlgtZlVCTzdrVUtac0tjcVMyb21INGlZbEIwSmNtb2xZMGEzVkJrVjIzS25aX1J0Uk1fd1pUbk1pMTVobE4xdXJMM0FsaDZxSWtOMm1q?oc=5",
-        "published": "Mon, 20 Jul 2026 14:22:59 GMT",
-        "source": "Punch Newspapers",
-        "description": " Nigeria, UK deepen security partnership, target terrorism, cyber threats    Punch Newspapers ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Nigeria"
       },
       {
         "title": "Inside the $2.5 Billion Cyberattack That Shut Down Jaguar Land Rover - inc.com",
@@ -1711,6 +1701,16 @@
         "attack_type": "apt",
         "source_country": null,
         "target_country": "United Kingdom"
+      },
+      {
+        "title": "Nigeria, UK deepen security partnership, target terrorism, cyber threats - Punch Newspapers",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWmZzZVZ3YXpaMHdBdnYwcG1KbzFPdzlLWjQtRHlOWVZPMXdCaF9za3BDanJleFpiZnlHdkJuQXI5a3g1ZUxjNlgtZlVCTzdrVUtac0tjcVMyb21INGlZbEIwSmNtb2xZMGEzVkJrVjIzS25aX1J0Uk1fd1pUbk1pMTVobE4xdXJMM0FsaDZxSWtOMm1q?oc=5",
+        "published": "Mon, 20 Jul 2026 14:22:59 GMT",
+        "source": "Punch Newspapers",
+        "description": " Nigeria, UK deepen security partnership, target terrorism, cyber threats    Punch Newspapers ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Nigeria"
       },
       {
         "title": "Technology, Threats and the Future of UK National Security - BAE Systems",
@@ -1775,23 +1775,13 @@
         "target_country": "Germany"
       },
       {
-        "title": "Germany suspects Russia of Signal phishing attacks on politicians - Euronews",
+        "title": "Germany suspects Russia of Signal phishing attacks on politicians - Euronews.com",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSXI0SlphVFdmQWQ5MEFLRV9lOGFSaVNiSWlMY25UMVlJMjFlaE94aFFtVGZKWTFiSzkzamZvTVJDN203czI2N0wzZmUzLVJ2WUVvbHhEczVVZVdSbTZ0TUx0ek5mMHJlSF9xdUxPQ3dqRTFON21xVVpHM0RGdkVnV2c3RG5BSTZ3dl8tQzU5S2tmVUl4QnRyUmNtTXBBa0VXQ014QVhHcVNsaHZFNF9LMEc4d1cyWWp3MFE?oc=5",
         "published": "Sun, 26 Apr 2026 07:00:00 GMT",
-        "source": "Euronews",
-        "description": " Germany suspects Russia of Signal phishing attacks on politicians    Euronews ",
+        "source": "Euronews.com",
+        "description": " Germany suspects Russia of Signal phishing attacks on politicians    Euronews.com ",
         "attack_type": "phishing",
         "source_country": "Russia",
-        "target_country": "Germany"
-      },
-      {
-        "title": "Cyberattack on Politicians: Security Is More Than Encryption - Threema",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJdkFVbHR6aXl5SGdFT0hzRGVlcmdjTHFHZE9ORzllXzVDc3lXZVlFOUozOG10OUp6VTJiMjRtWDZSLUx2bkhPZFV1ZndxMWxoVHcwUVhkdDhfME5DWklIWk9SUTh4OG5EYmxQM1JDbm5xemtkVlE?oc=5",
-        "published": "Thu, 30 Apr 2026 07:00:00 GMT",
-        "source": "Threema",
-        "description": " Cyberattack on Politicians: Security Is More Than Encryption    Threema ",
-        "attack_type": "other",
-        "source_country": null,
         "target_country": "Germany"
       },
       {
@@ -1801,6 +1791,16 @@
         "source": "teiss",
         "description": " News - Multiple German hospitals impacted in billing provider data breach    teiss ",
         "attack_type": "breach",
+        "source_country": null,
+        "target_country": "Germany"
+      },
+      {
+        "title": "Cyberattack on Politicians: Security Is More Than Encryption - Threema",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJdkFVbHR6aXl5SGdFT0hzRGVlcmdjTHFHZE9ORzllXzVDc3lXZVlFOUozOG10OUp6VTJiMjRtWDZSLUx2bkhPZFV1ZndxMWxoVHcwUVhkdDhfME5DWklIWk9SUTh4OG5EYmxQM1JDbm5xemtkVlE?oc=5",
+        "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+        "source": "Threema",
+        "description": " Cyberattack on Politicians: Security Is More Than Encryption    Threema ",
+        "attack_type": "other",
         "source_country": null,
         "target_country": "Germany"
       }
@@ -1867,16 +1867,6 @@
         "target_country": "France"
       },
       {
-        "title": "France's statistics department reports cyberattack on staff data - CNA",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa0lwSHVCWVFwMF9rMTBqRklia1l0aDkyR0VQb3NmX2JET1ZtRlY3OU9zUHVNTXMwdXB3VXZhZGJSRDZEOEh3Tm1XOVR1VFE2VGpIYTNZN2RzdzViZDRab1pfMzhCNGVpQUtOTnZCOV9KUktVTFYtVU81OUR5SW5aRXNkdVdtQThiWkVlOTVPZ2tYLUllUDQ1Wnk2TXBtbVc4V2kzLXRGMjhvbUZPWHc?oc=5",
-        "published": "Fri, 26 Jun 2026 07:00:00 GMT",
-        "source": "CNA",
-        "description": " France's statistics department reports cyberattack on staff data    CNA ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "France"
-      },
-      {
         "title": "France ANTS cyberattack: Millions at risk as data breach exposes personal details and sparks phishing fear - The Economic Times",
         "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPX3owNk16SVRrYWNwZzRIOEpyZm10Q1A3THlQOGw3SUV4Q3RFZE1QTXlsRjd1OUlCSDJ3Y21aS3k5eE81QW1wOG5MRjREREJNcTUwWURMT2dJbjFxR3U2TnVkSUFHWFdaMENmSms3U0U4VkxZaEdTczNlc2dvaGoteWt1SVV2R180VHoyZVFiS2RLOWJldjlBdkNIRTh5aVhTNVJrSklxUHgwcUp5c1VyaEZBLU5LeHB4QU1rQjFVYjRuaU5CVExuVFZmSVZLZkZETHVFcmxENXVjdGVBbi0tVDVwZUhEOHoxTEtESXVUd1p0b190QTZYR0g4SHdGQWsxTnptcjJHd25pWGFkXzlpd3JkejJBc2VSZ1d4bkpvc0U2WllVc0d4MTd4RERLRmxaU3FXTNIBugJBVV95cUxNOFVta29MbE9VVUI3YS1keC16d2J2SmUtcXBrMklZeE5yb0JpTV91d2NTMUxwZHlzNDk3d1hjWjlTNy1fel9ZQ3hxNTVoUEcwcU5EN3JtdXg3VFRMSTIxOEVLS1ZfaGZFOW5vYU0wWXBSNDB2UDkwUWNKVlR0QXluM09ZZ09OZ0I1c01QQWJFYWMzOEk4SUktSnpzNzhlbTB1YkU1SXdaR3FlM3NWTWttNHdPSjRJeGgyZ0JUVGc1bUlOdnc0LUFkNjJTamp1SUFKTFJjSy1QdS1ySlhFNGp4ZFB2c3ZaaTlmcjFGQkx5QVlObTgxWVNGVFN6clRYcjlDLWFxdEl6bFZRNTVpX1E4UkV6dmVzV1E3SmktOVNDTHUyclV4YVlHdXc0R1Zlc2J0dy1XRldydDJsUQ?oc=5",
         "published": "Tue, 21 Apr 2026 07:00:00 GMT",
@@ -1885,9 +1875,29 @@
         "attack_type": "phishing",
         "source_country": null,
         "target_country": "France"
+      },
+      {
+        "title": "France's statistics department reports cyberattack on staff data - CNA",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa0lwSHVCWVFwMF9rMTBqRklia1l0aDkyR0VQb3NmX2JET1ZtRlY3OU9zUHVNTXMwdXB3VXZhZGJSRDZEOEh3Tm1XOVR1VFE2VGpIYTNZN2RzdzViZDRab1pfMzhCNGVpQUtOTnZCOV9KUktVTFYtVU81OUR5SW5aRXNkdVdtQThiWkVlOTVPZ2tYLUllUDQ1Wnk2TXBtbVc4V2kzLXRGMjhvbUZPWHc?oc=5",
+        "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+        "source": "CNA",
+        "description": " France's statistics department reports cyberattack on staff data    CNA ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "France"
       }
     ],
     "Ukraine": [
+      {
+        "title": "Ukraine warns fake CAPTCHAs are being used to make you hack yourself - Bitdefender",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbks3NnlxM09sdVpPb2RwX1dZSFZhdE80LWliTWtxdno0UE41UGxlQ2Fzc2g2cDZiMTBaLVhadnRIZFBlaVdaa0t2Y3FXUXhxaVlkMHk0ZDB1U3RldzJEM0g2SmJnRmtlMXlyV0FQQ0ZjeVdVQ25ncXV5blFIT0VsazItLXRlbGNTcnkxdURMdlZOREE?oc=5",
+        "published": "Tue, 21 Jul 2026 06:33:07 GMT",
+        "source": "Bitdefender",
+        "description": " Ukraine warns fake CAPTCHAs are being used to make you hack yourself    Bitdefender ",
+        "attack_type": "apt",
+        "source_country": null,
+        "target_country": "Ukraine"
+      },
       {
         "title": "Ukraine's state postal operator reports app disruption after cyberattack - The Record from Recorded Future News",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBvekJmUnkyQUZrZFptdGRtcFpVdF9tVkRPVWExalNMNDlzQnZBbThGWlFiSklueEMxLWVRRU54RS1XRVZMWmRwRHMwbVJDbVpoWE9aMUZ6WnpRRTI2LW9RbUduQTdVN3pGelhwcS1zNFE5TlBPLUlfZnYyd2Y?oc=5",
@@ -1954,16 +1964,6 @@
         "published": "Thu, 04 Jun 2026 07:00:00 GMT",
         "source": "Infosecurity Magazine",
         "description": " Infosecurity Europe: Ukraine’s Experience Highlights the Need for Preparation and Resilience in Cybersecurity    Infosecurity Magazine ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "Ukraine"
-      },
-      {
-        "title": "Data Is Now the Front Line of Warfare - CSIS | Center for Strategic and International Studies",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iWXl2aXB4dmlXd0tPM2FUbW1veTJndG9Vc18zRkFmZzVRRHJ1LTVoUXJ3ZUJITERaQjUyWERRZDVKV1NkUXNhZndFVDl1ZGJqLU5jdi1oRVpPc0swWTVfeVFYQWtSQ0N0?oc=5",
-        "published": "Thu, 19 Mar 2026 07:00:00 GMT",
-        "source": "CSIS | Center for Strategic and International Studies",
-        "description": " Data Is Now the Front Line of Warfare    CSIS | Center for Strategic and International Studies ",
         "attack_type": "other",
         "source_country": null,
         "target_country": "Ukraine"
@@ -2053,6 +2053,16 @@
     ],
     "Saudi Arabia": [
       {
+        "title": "Saudi-Arabia Security Solutions Market Size, Share,Trends, Growth Analysis Report, 2030 - MarketsandMarkets",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ1Axd3RUM2RheEctRUZyWlViUjF6YTVCLUVDZEdac2dEWkVwTW1xUl8tTko3TjJhRVNEcERkaGtwRXBrelE2a09Fdm5Ka3dlWjkzRDU4ZXpSZzlhVklfdFJlYkRoMmh1bDhHeWpid0ZiMWxhaU9GRHNlRlVWc1NIYXZERC1LbkhzTVJJNlB5RVdBTFJBcHFVWl9CMXRCem9EYXQzbw?oc=5",
+        "published": "Mon, 20 Jul 2026 18:56:25 GMT",
+        "source": "MarketsandMarkets",
+        "description": " Saudi-Arabia Security Solutions Market Size, Share,Trends, Growth Analysis Report, 2030    MarketsandMarkets ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": "Saudi Arabia"
+      },
+      {
         "title": "Saudi Arabia’s Cybersecurity Startups Guard the Region’s Digital Shift - Cybercrime Magazine",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPazg1dVhSR04zT1U4TTR2UjVfV2xpR3lncndpYzg3ckt2N2x6Rlp4UUw4VjZNRmVua3JFT3BIVVF4OHkyNUtGMkNldXNxcTRhVnJ6UFZwc2NZdzdZUVVRXzAyVmg5RXh3T1VZdEV5QmU4REhXbWVlcEdsYlVUNlpTalpGZU9uaWx2NVozcTRQdE5RY0M2YTg3ZVBWaktnWWRxYWxBQTJR?oc=5",
         "published": "Wed, 22 Apr 2026 07:00:00 GMT",
@@ -2121,16 +2131,6 @@
         "attack_type": "other",
         "source_country": "Iran",
         "target_country": "Saudi Arabia"
-      },
-      {
-        "title": "Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17) - Unit 42",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFNjI0dmhtNUpLSGtNcS1hbjFyVUtHS29XR1pRRVVtRDZ5X05UclV1U013enhUaHJ6bFpCOTZSclZqb3BaVWlpd01wTFFtTXFzSzFlNG9fTUtRUDZZREI5bUZ4TmtYNTlXWXhzWDE4MA?oc=5",
-        "published": "Fri, 17 Apr 2026 07:00:00 GMT",
-        "source": "Unit 42",
-        "description": " Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17)    Unit 42 ",
-        "attack_type": "other",
-        "source_country": "Iran",
-        "target_country": "Saudi Arabia"
       }
     ],
     "South Africa": [
@@ -2155,16 +2155,6 @@
         "target_country": "South Africa"
       },
       {
-        "title": "One of South Africa’s largest technology distributors suffers crippling network outage allegedly due to cyberattack - MyBroadband",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWWNNalhpS3BZWS1rSkVfTE0yX0k4QUJuWG93ekxuamRVN3E1UGlta1N5b0ltc2pOVktvUmd3WkFTdnhERzJpM2RJeElLRUNKSXhGbXpzYzEyREV0dEFfSmlkVkdjb3FOZ0x5TUhpOVF4LTZHdUR1T3FVd2h5WkJDMmVldDNCcVVjVWprV2o3OGUzSjVUNVBjWnRjT1VURzI2OEpGR2M0LWVDRFc2dFFCQmEzaDhTYlBIbHA5cnZ3VzdPRmlUcGptMHVsckdZNEVaY1ExcVZoSDIwU0Q5Q096QTBTMXJSd2Q1cWlvSWljRkdOSWZfSGhqOGlB?oc=5",
-        "published": "Sun, 19 Jul 2026 11:01:45 GMT",
-        "source": "MyBroadband",
-        "description": " One of South Africa’s largest technology distributors suffers crippling network outage allegedly due to cyberattack    MyBroadband ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "South Africa"
-      },
-      {
         "title": "Hacker group claims to have stolen 1.2 terabytes of Standard Bank data - TheBanker.com",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qOFZWZHFxYWNBdGJvUEFGX3YwamFsTkdINzhKdHhfdWdHNG1lQnRYc09xTFNPZzlrZG1DZmF2SlFGMVM1eEloa3dzVWtXT0k1RDl2MFlLN21Wb2tKV3FsdDhsY1NESS1HeGU0SlhGQktzaGVaSTJyQ0Jn?oc=5",
         "published": "Fri, 17 Apr 2026 07:00:00 GMT",
@@ -2177,7 +2167,7 @@
       {
         "title": "South African firms urged to rethink cyber security as AI accelerates attacks - businessreport.co.za",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWo4Q0JEQUwwRDhMRWtpcHl6RjlpYXJPRVIweEtxR3BJS3JEVHFaTGtjbVpKaFFFRmFCMEFtN3kweVlaVVBxLXBfWndUSDFrc05POHlsZWt0V3ZnWmh6OEs2WDVVZTF2Y0ZrRjZ0dm4tQmZTem5GMjhudlYtVTFHR0NnQzh5NXI3N1k5OE1XakJQZVBrTGVGalV5ZEZMT2xXNmtPTGRrZmRoaWY3cGxBV01VbEtPNlFRcTRERkJrWGh5ZHdw?oc=5",
-        "published": "Wed, 15 Jul 2026 21:40:04 GMT",
+        "published": "Tue, 14 Jul 2026 06:49:16 GMT",
         "source": "businessreport.co.za",
         "description": " South African firms urged to rethink cyber security as AI accelerates attacks    businessreport.co.za ",
         "attack_type": "other",
@@ -2185,33 +2175,43 @@
         "target_country": "South Africa"
       },
       {
-        "title": "Top cyber threats in South Africa - Cybercrime Magazine",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iMjM3aWxldllhcC1XRlFaLUpteW56UW9DcjBaMThseVdienY3OEJrTjdfWV82UjlHTTNDa3pzQ2Q5RnhOMXY1Q1l1RFEzMk1kUTUxX1RTbWRfSWh1UF93bHRieUxOLVRDQV9waVBCZzlkWXV5Y2JV?oc=5",
-        "published": "Tue, 28 Oct 2025 07:00:00 GMT",
-        "source": "Cybercrime Magazine",
-        "description": " Top cyber threats in South Africa    Cybercrime Magazine ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "South Africa"
-      },
-      {
-        "title": "Africa’s Mobile Money Boom Leaves Users Vulnerable to Cyber Crime - Africa Defense Forum",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVi1WeWtDeS1ZbjkyTmloSDlMS2xtSkFPa1ZtTHdVTkNySmp2WENaa1o5cmFfc1NIWjNlY1RUR1I1VWExdEg5bDhNMHB4aGpvaUNvTWtiekM1N0UzcGFqZlZhYkJKdmdzOFY2bGFYR3BXYzNISHZDZkNlc19oRFpiUWthY3RzSzBxVnYxdlVJOEpWTnhicEJXRmt2cmg1cHM?oc=5",
-        "published": "Tue, 24 Feb 2026 08:00:00 GMT",
-        "source": "Africa Defense Forum",
-        "description": " Africa’s Mobile Money Boom Leaves Users Vulnerable to Cyber Crime    Africa Defense Forum ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": "South Africa"
-      },
-      {
         "title": "South Africa's financial sector struggles to keep pace with escalating cyber threats - independentonsaturday.co.za",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vV0hkYVFGbTNyRnBvUEJEdXRhTkhfYU9QelNpaW1rLTZ3TF9rOHVIak9tckNabmZOd3hwcHh2bU1JU3NBenBzRWxYbWVFYXdoZGVqNVFlZUV0X2p6Rk5QUjVNUDVsWkVqbDgwWkprUQ?oc=5",
-        "published": "Mon, 20 Jul 2026 09:24:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTHc1alJqMFZOMmNBZnVoV21FekdGWlFkamNQREZDVlFmdUNBcWlGR0VqUlJPZXRWUEQ5VnF6M0Jkb0pmTGJZbVBtUHZuS0Q3VmJuSnVyaXlLZk1jaS1uT2pqdE1jTnFSU1dmd3JrMnZLZDFCbGY0TVFONHlNbGdQM19OMDJld0dQVldidEc3MXl3Nk81bHp5NXZhSnZoeFRjSThJTzBOODVxckpLQWVKT09pbDhWUS04czVHdC1UWmxfMFo3NWZDcV9qeW5xYm1UUlE?oc=5",
+        "published": "Mon, 20 Jul 2026 10:25:04 GMT",
         "source": "independentonsaturday.co.za",
         "description": " South Africa's financial sector struggles to keep pace with escalating cyber threats    independentonsaturday.co.za ",
         "attack_type": "other",
         "source_country": "United States",
+        "target_country": "South Africa"
+      },
+      {
+        "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa - The Hacker News",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVERNUmpxSk5uVVRfM0ZHMWJ4NFB6MVlnY2FLS3h2X1Bkb0UwNWphTnU3MDJvbV9UcGttOEg1b05neFJYRm9xNlJCWDltYnBlMTZmZWtlemxDamotdVdrWFFESDJsLTZNdG9Da0thR3V6TXdvQnRKdXlReTZ6NU9yMw?oc=5",
+        "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+        "source": "The Hacker News",
+        "description": " China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa    The Hacker News ",
+        "attack_type": "phishing",
+        "source_country": "China",
+        "target_country": "South Africa"
+      },
+      {
+        "title": "SARS refutes ‘false’ claims of data breach - ITWeb",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS1I5U04xS3J0UmdUb09YalVYQ0JEa3dSVi16d3JkbFAwRVBkSmt1SVlkZG1heUxJbW9saDN2MHZfbTlFbndKRUdIUmIzLWdlV2IzVHk2NU9ZS05XOW1ud3U3WmRpVUVjQTctYkVNajNoWjJvN3BDd1FGS1JzMmZlblJVeVJSS3hvWUd2OHdiSjQ5UHc?oc=5",
+        "published": "Mon, 25 May 2026 07:00:00 GMT",
+        "source": "ITWeb",
+        "description": " SARS refutes ‘false’ claims of data breach    ITWeb ",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": "South Africa"
+      },
+      {
+        "title": "Pick n Pay breach puts South Africa’s retail cybersecurity under scrutiny - TechCabal",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12ZTQwaWlQMDYtN2hkVnBRYzJZVTU1dlpTY3I1eWxwTGEteGtVXzRISHFMUHVCcEw5eldqdFFfUFhtN1hCejY2YmZDTnEyWS1ZSzFTT2xQNk05Q19vbjRxZVM0RTVaMms?oc=5",
+        "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+        "source": "TechCabal",
+        "description": " Pick n Pay breach puts South Africa’s retail cybersecurity under scrutiny    TechCabal ",
+        "attack_type": "other",
+        "source_country": null,
         "target_country": "South Africa"
       }
     ],
@@ -2299,51 +2299,11 @@
     ],
     "China": [
       {
-        "title": "IT sector faces growing threats from IP-hungry China, AI-enabled cybercriminals - Cybersecurity Dive",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLWJTQkNZZlVkUjZScktBTzRmdTdQdUtSUDljcmRybDVEcW9aRk5NSjhobGc4MGxmTHNxQ3lOaWtjNnZFSHY0Z3RwLXQ1NmRBVVV3UzNSWjdVV092cG9RTnVxdWJGOWFjWDdnV0xkaHZLNzJNb1RRbk5OdThMRkdZRlpYYTBfUE5IbXI4bW11VkJQRi05RlVuT3pn?oc=5",
-        "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-        "source": "Cybersecurity Dive",
-        "description": " IT sector faces growing threats from IP-hungry China, AI-enabled cybercriminals    Cybersecurity Dive ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "China"
-      },
-      {
-        "title": "Spies, Sanctions, Cyberattacks: China and the U.S. Clash Behind the Scenes - The New York Times",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdHB3YU1ZM0pxbTBzYU5KM2VvTnJYcThXUVFnNXdCYjBOWUtlNFhPUjYxQVUweFp3SVlyRGNNMW9vUTlsR3BtLVk1TXhNNnRsZnhCYXZnNWhTQXJkZHRIZnJscHlpdG11UnFyblFlNWtSVzZlbmg3Nk9peWx0WmpKT0c4aEpUUjM0WlpmbEZ2TUg?oc=5",
-        "published": "Fri, 15 May 2026 07:00:00 GMT",
-        "source": "The New York Times",
-        "description": " Spies, Sanctions, Cyberattacks: China and the U.S. Clash Behind the Scenes    The New York Times ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "China"
-      },
-      {
-        "title": "ODNI report: US critical infrastructure faces escalating cyber risks from China, Russia, Iran, and North Korea - Industrial Cyber",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUkdhSmxUVVhKcGtNdUllOWNMOG1QbWEwLWlobXhlOE1scGJkSU8tWndLci1reEU5N2J1c2lndENIMXNiNVZJNjNJLUE3MWFiZDV5RUc0NmhXV3JxRm1iSHdKME5XeUtoM0hnUnp6Z3ZDMlNkMzRFS1BCR0l1VEp0ajJYS3U1Z1M4a0J0ZzlreW4zbTVWSmlxQXBiSFRsLURrZll5NmpsX1FKdUt0N1ZaNGVvZjlhTGhhT01jWkM2X0xEdFNoS216dUlqeEgxNnlxaF9KN3d0YkZrQQ?oc=5",
-        "published": "Mon, 23 Mar 2026 07:00:00 GMT",
-        "source": "Industrial Cyber",
-        "description": " ODNI report: US critical infrastructure faces escalating cyber risks from China, Russia, Iran, and North Korea    Industrial Cyber ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "Russia"
-      },
-      {
         "title": "The People's Bank of China Data and Cyber Security Measures: Practical Compliance Guide For Financial Institutions - Clifford Chance",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcXFTX1lUM211Q0JBX0tsMURCM2lETGVydEFWTFowdXZTSXlGNHZxTC13R3k1X2huVkdJUGJuWXVvek1HaVpzQjJmM212UVdsLWRHdmxWa1hFYTNsSEVFaGhmNEl0ZGhObDZGWXFzREhVa2VOVXduX3dzS1RDOGNjOXNELUROMFhVV0RxWFdEbnNSN0ZMdHBEdkpNSDZReVhXWWQzLXZrVXB6UGlkZzNZQkpZMjlpTmtnY2c?oc=5",
         "published": "Mon, 13 Jul 2026 09:19:04 GMT",
         "source": "Clifford Chance",
         "description": " The People's Bank of China Data and Cyber Security Measures: Practical Compliance Guide For Financial Institutions    Clifford Chance ",
-        "attack_type": "other",
-        "source_country": "China",
-        "target_country": "China"
-      },
-      {
-        "title": "NSA and Others Release Joint Guidance Addressing Multiple China-Nexus Threat Actors Using - National Security Agency (.gov)",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZEhWT2V0dHhHZXBLQzI4blB3SThTM1VnLVVGSU5PSWdyeWVhSmVPQ1BPSDhUdmR3NERwZnVLX0M0dWZ6VFRzN2NXRkljM0ZTS29XcUNyaXJTTnlGdVVmYVN4MmlMb3VtMUVOUTBsY1dfaHpOQjJWbGdQdEhKNzNRWmtrZ0ppOUNDT3M1VTY3WWUtOUR4T1IzOWZYc1hFTlFURG52MDEtMjZEanZwRFVkc1VxMV9LaWxoek9NcGlGbklDU1luRDJfNWllRlRQWWp0RWxoSlFEOWNjbmctUjZDTm42ckZYLVNkLXhMdXdfc3RrWlZKNEFZZzZ1TjR6SEpkemc?oc=5",
-        "published": "Thu, 23 Apr 2026 15:06:01 GMT",
-        "source": "National Security Agency (.gov)",
-        "description": " NSA and Others Release Joint Guidance Addressing Multiple China-Nexus Threat Actors Using    National Security Agency (.gov) ",
         "attack_type": "other",
         "source_country": "China",
         "target_country": "China"
@@ -2359,21 +2319,61 @@
         "target_country": "China"
       },
       {
-        "title": "China-linked cyber intrusion targets Italy’s public infrastructure - Decode39",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHF6c1prZU51V1ZFczB6NnFvOG5GWl95bVBBWHRMTzRvbmFEa0dya3RabDB2a3pVTmI0WVpDTUFZWHV0TWtkWThrZDNOZW9yYUJaYUF2cWlzdTNUbW16VkQtazFZbTlOOUd1UzBnRWRjQjhJWnZLNlJqamIzeWZfc2ZoRy1MZDFiVjVqQ3B0ZHctbWZQSlJTVg?oc=5",
-        "published": "Mon, 04 May 2026 07:00:00 GMT",
-        "source": "Decode39",
-        "description": " China-linked cyber intrusion targets Italy’s public infrastructure    Decode39 ",
+        "title": "Cyberattack on Hong Kong’s Shun Hing Group affects data of 1 million people - South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRF9manpmcHotSGczTHhQVl9XLWlpRzc3UlF6RVR4LVVSYU9ZZENNSzVnMDZJMzM1dWtCRVhPTmdVbjdQTGlha0pMb3UzeXcwUV9GbzVVclF2VHYtSmhJT0l6ZGNPcU5jcUZmcTdnNnRvOUZqSGF0anRkanFSdGlwNDBTcHFvMVdMbWZ0MmRNcEZwUXY3ZjFvbDV5X2Q2UTY2NTJ5b3BGZnA1aklXS0RqX0hvelMwbWpudmQ1MU0yd1NpelU2YlpmUllDcWNqV2PSAc8BQVVfeXFMTktpbXVVYVlNbUdQaUtnTGQ0clBjQnNVeE4tUW9HX0lXcHVLdE5pay03eDdVRjNmY2g1V2IwTVdoaW12YWZHanFzSi1QdWMwZkRIY2FMTWI1OXhBYTAyY1QxQWxVLTNraEswV1c4N3BiWkd0QnBDZGlpWDVQdGlSdDQyVE5ONXZvbU9jMGItUVZCLTVaMEJtYi1MSG5aOUN4aXdFRlgzQVB5YlR4ZU9GSms1VExvcGhfMnRwSU8zS3loNWNpdE4zTUNDZzVPbFc4?oc=5",
+        "published": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "source": "South China Morning Post",
+        "description": " Cyberattack on Hong Kong’s Shun Hing Group affects data of 1 million people    South China Morning Post ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "Hong Kong"
+      },
+      {
+        "title": "IT sector faces growing threats from IP-hungry China, AI-enabled cybercriminals - Cybersecurity Dive",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLWJTQkNZZlVkUjZScktBTzRmdTdQdUtSUDljcmRybDVEcW9aRk5NSjhobGc4MGxmTHNxQ3lOaWtjNnZFSHY0Z3RwLXQ1NmRBVVV3UzNSWjdVV092cG9RTnVxdWJGOWFjWDdnV0xkaHZLNzJNb1RRbk5OdThMRkdZRlpYYTBfUE5IbXI4bW11VkJQRi05RlVuT3pn?oc=5",
+        "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+        "source": "Cybersecurity Dive",
+        "description": " IT sector faces growing threats from IP-hungry China, AI-enabled cybercriminals    Cybersecurity Dive ",
         "attack_type": "other",
         "source_country": "China",
         "target_country": "China"
       },
       {
-        "title": "US fears cyber security breach in China - CNN",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMzVEdWxmV0NvWkF5cUJ0aVpQY09RTjVVTzF2aGJNbDdDdUNuLXVPUkRyQmluZnk1NEdicTR3U2szeVFrNXlOc3hMalVKUklsUG5nYkFBZXk2SlAwVVB0Ynl3ZDZ4TzR1YmNhLXhLaVZ3NFhVTk5xWno5aVpXb2RROExZU3NSM0d4aGJLMkM3cGV4VWd0VUdtcWtB?oc=5",
-        "published": "Thu, 14 May 2026 07:00:00 GMT",
-        "source": "CNN",
-        "description": " US fears cyber security breach in China    CNN ",
+        "title": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVFScDFiaWE0dmRBMlFJZzZacVZhT0ZLQXBkcHA1UExXT1FjRHk3LXN4YnREVHdleDR0cHl0eUxiTGdka1gxUERmYnQyd1ZiOUZEaUM5bkozSXp6RVlEWjJ6OXBZbnA5TEpPaDExd0dQUWxmbFFDSDJ3ekJTNWpCOUdlZ2U?oc=5",
+        "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+        "source": "WSJ",
+        "description": " China Has Matched Anthropic in Cybersecurity, Resetting AI Race    WSJ ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "China"
+      },
+      {
+        "title": "Spies, Sanctions, Cyberattacks: China and the U.S. Clash Behind the Scenes - The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdHB3YU1ZM0pxbTBzYU5KM2VvTnJYcThXUVFnNXdCYjBOWUtlNFhPUjYxQVUweFp3SVlyRGNNMW9vUTlsR3BtLVk1TXhNNnRsZnhCYXZnNWhTQXJkZHRIZnJscHlpdG11UnFyblFlNWtSVzZlbmg3Nk9peWx0WmpKT0c4aEpUUjM0WlpmbEZ2TUg?oc=5",
+        "published": "Fri, 15 May 2026 07:00:00 GMT",
+        "source": "The New York Times",
+        "description": " Spies, Sanctions, Cyberattacks: China and the U.S. Clash Behind the Scenes    The New York Times ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "China"
+      },
+      {
+        "title": "China’s 360 says it has developed tools to match Anthropic’s Mythos - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObE8wMHB6SWxmTTd2bEthNFR1bGRRcGIwQl9VcDR3SndzanFWUGhVTU5aSVpSWFVoeUxYSkRCYnlIbGFhZDN2MUF5amdsbnl4LUxRdDZCSDh4V01SdFpwOTZfZENzdEVBLVVMU0JuVWpjT2YzUWh1UVIyOHVZTWwtSWk4N1NJYzJlbzFMdUUtOW9RZEgzLVo3SEtiLWNJUTJHV1U4X0wwVG5zMURGOEI5Q0pUT2lvQQ?oc=5",
+        "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+        "source": "Reuters",
+        "description": " China’s 360 says it has developed tools to match Anthropic’s Mythos    Reuters ",
+        "attack_type": "other",
+        "source_country": "China",
+        "target_country": "China"
+      },
+      {
+        "title": "NSA and Others Release Joint Guidance Addressing Multiple China-Nexus Threat Actors Using - National Security Agency (.gov)",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZEhWT2V0dHhHZXBLQzI4blB3SThTM1VnLVVGSU5PSWdyeWVhSmVPQ1BPSDhUdmR3NERwZnVLX0M0dWZ6VFRzN2NXRkljM0ZTS29XcUNyaXJTTnlGdVVmYVN4MmlMb3VtMUVOUTBsY1dfaHpOQjJWbGdQdEhKNzNRWmtrZ0ppOUNDT3M1VTY3WWUtOUR4T1IzOWZYc1hFTlFURG52MDEtMjZEanZwRFVkc1VxMV9LaWxoek9NcGlGbklDU1luRDJfNWllRlRQWWp0RWxoSlFEOWNjbmctUjZDTm42ckZYLVNkLXhMdXdfc3RrWlZKNEFZZzZ1TjR6SEpkemc?oc=5",
+        "published": "Thu, 23 Apr 2026 15:06:01 GMT",
+        "source": "National Security Agency (.gov)",
+        "description": " NSA and Others Release Joint Guidance Addressing Multiple China-Nexus Threat Actors Using    National Security Agency (.gov) ",
         "attack_type": "other",
         "source_country": "China",
         "target_country": "China"
@@ -2382,6 +2382,26 @@
   },
   "breach_intel": {
     "blog_news": [
+      {
+        "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
+        "published": "Tue, 21 Jul 2026 05:05:50 -0400",
+        "source": "BleepingComputer",
+        "description": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...]",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": null
+      },
+      {
+        "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
+        "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
+        "published": "Tue, 21 Jul 2026 04:06:26 -0400",
+        "source": "BleepingComputer",
+        "description": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": null
+      },
       {
         "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
         "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
@@ -2443,21 +2463,31 @@
         "target_country": null
       },
       {
-        "title": "An AI SOC Evaluation Guide for Security Leaders",
-        "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
-        "published": "Mon, 20 Jul 2026 10:01:11 -0400",
-        "source": "BleepingComputer",
-        "description": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy, operating models, long-term reliability, and production readiness. [...]",
+        "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+        "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+        "published": "Tue, 21 Jul 2026 14:29:30 +0530",
+        "source": "The Hacker News",
+        "description": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites.\n\nThe two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell.\n\n\"By the early hours of Saturday morning (UTC), successful exploitation was already well",
         "attack_type": "other",
         "source_country": null,
         "target_country": null
       },
       {
-        "title": "Hugging Face warns an autonomous AI agent hacked its network",
-        "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-        "published": "Mon, 20 Jul 2026 07:56:28 -0400",
-        "source": "BleepingComputer",
-        "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
+        "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+        "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+        "published": "Tue, 21 Jul 2026 13:04:32 +0530",
+        "source": "The Hacker News",
+        "description": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.\n\nThe same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.\n\nThe entry",
+        "attack_type": "ransomware",
+        "source_country": null,
+        "target_country": null
+      },
+      {
+        "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+        "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+        "published": "Tue, 21 Jul 2026 11:59:26 +0530",
+        "source": "The Hacker News",
+        "description": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.\n\nPatches for the flaw were",
         "attack_type": "other",
         "source_country": null,
         "target_country": null
@@ -2511,36 +2541,6 @@
         "attack_type": "other",
         "source_country": "Russia",
         "target_country": "Ukraine"
-      },
-      {
-        "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-        "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-        "published": "Mon, 20 Jul 2026 17:00:00 +0530",
-        "source": "The Hacker News",
-        "description": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at scale? Those questions were and remain valid. Yet they all stop short of",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": null
-      },
-      {
-        "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-        "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-        "published": "Mon, 20 Jul 2026 14:40:56 +0530",
-        "source": "The Hacker News",
-        "description": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02.\n\nThe overflow lets an attacker \"execute code in the context of the current process,\" per the",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": null
-      },
-      {
-        "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-        "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-        "published": "Mon, 20 Jul 2026 14:37:11 +0530",
-        "source": "The Hacker News",
-        "description": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.\n\nThe findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential",
-        "attack_type": "ddos",
-        "source_country": "Russia",
-        "target_country": "Russia"
       },
       {
         "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -2673,6 +2673,36 @@
         "target_country": null
       },
       {
+        "title": "Clover Health Investments Discloses Data Breach",
+        "link": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/",
+        "published": "Tue, 21 Jul 2026 09:36:51 +0000",
+        "source": "Security Week",
+        "description": " Using social engineering, hackers compromised employee accounts with access to personal and health information. \n The post  Clover Health Investments Discloses Data Breach  appeared first on  SecurityWeek . \n",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": null
+      },
+      {
+        "title": "Exploitation of ServiceNow Vulnerability Seen Days After Disclosure",
+        "link": "https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/",
+        "published": "Tue, 21 Jul 2026 08:41:53 +0000",
+        "source": "Security Week",
+        "description": " The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploited for remote code execution. \n The post  Exploitation of ServiceNow Vulnerability Seen Days After Disclosure  appeared first on  SecurityWeek . \n",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": null
+      },
+      {
+        "title": "Zimbra Update Patches Critical Vulnerabilities",
+        "link": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/",
+        "published": "Tue, 21 Jul 2026 08:20:08 +0000",
+        "source": "Security Week",
+        "description": " The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. \n The post  Zimbra Update Patches Critical Vulnerabilities  appeared first on  SecurityWeek . \n",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": null
+      },
+      {
         "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
         "link": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
         "published": "Mon, 20 Jul 2026 14:54:03 +0000",
@@ -2721,36 +2751,6 @@
         "attack_type": "breach",
         "source_country": null,
         "target_country": null
-      },
-      {
-        "title": "Watch on Demand: Cloud & Data Security Summit",
-        "link": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
-        "published": "Mon, 20 Jul 2026 10:31:25 +0000",
-        "source": "Security Week",
-        "description": " Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. \n The post  Watch on Demand: Cloud & Data Security Summit  appeared first on  SecurityWeek . \n",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": null
-      },
-      {
-        "title": "Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool",
-        "link": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
-        "published": "Mon, 20 Jul 2026 10:25:07 +0000",
-        "source": "Security Week",
-        "description": " The agentic security tool identifies potentially exploitable code flaws, traces attack paths, and recommends targeted remediations. \n The post  Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool  appeared first on  SecurityWeek . \n",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": null
-      },
-      {
-        "title": "Hugging Face Hacked in Autonomous AI Attack",
-        "link": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/",
-        "published": "Mon, 20 Jul 2026 09:36:15 +0000",
-        "source": "Security Week",
-        "description": " Targeting production infrastructure, the attack compromised internal datasets and service credentials. \n The post  Hugging Face Hacked in Autonomous AI Attack  appeared first on  SecurityWeek . \n",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": null
       }
     ],
     "darkweb_news": [
@@ -2775,6 +2775,16 @@
         "target_country": "Australia"
       },
       {
+        "title": "Files relating to India’s largest nuclear power plant exposed in data breach - The Japan Times",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZmxSbTNmS2I5SG1QckZRZ1RUSUJLRW53TGhEaDBpb3JiaWk3eUdPX2E3ekJ6V1pyMVFuekVhY0Jmb3lZYkNrNVp3UHpoeWZhVndKWFNnVGZrSTRVUUlYQUZ2cFFwb1p2Yy1GY3NzUzNybmgzMk1ubURxZWJFN3JjaTVIVlhjdG1DaHM0UWYwQ3prUjBKUHBqdmFoWHFPOUhVYzJndQ?oc=5",
+        "published": "Thu, 16 Jul 2026 09:16:00 GMT",
+        "source": "The Japan Times",
+        "description": " Files relating to India’s largest nuclear power plant exposed in data breach    The Japan Times ",
+        "attack_type": "breach",
+        "source_country": null,
+        "target_country": "India"
+      },
+      {
         "title": "UnitedHealthcare Data Breach: What Happened and What to Do - Security.org",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DWmlJQ2tkVjRrZFRueHhNMHNzV1pQWXZlY3ljVWgyZFhicktWS1BPdWVoTVpFd09xbVVnSElHR1IzTUxBTXRIM0h6T25hUnZqeXV3YkZpU0lSN3h3WUtEdXJnTHpMc1JIWHBLdzY0QVoydw?oc=5",
         "published": "Wed, 08 Jul 2026 07:00:00 GMT",
@@ -2793,16 +2803,6 @@
         "attack_type": "other",
         "source_country": null,
         "target_country": null
-      },
-      {
-        "title": "Files relating to India’s largest nuclear power plant exposed in data breach - The Japan Times",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZmxSbTNmS2I5SG1QckZRZ1RUSUJLRW53TGhEaDBpb3JiaWk3eUdPX2E3ekJ6V1pyMVFuekVhY0Jmb3lZYkNrNVp3UHpoeWZhVndKWFNnVGZrSTRVUUlYQUZ2cFFwb1p2Yy1GY3NzUzNybmgzMk1ubURxZWJFN3JjaTVIVlhjdG1DaHM0UWYwQ3prUjBKUHBqdmFoWHFPOUhVYzJndQ?oc=5",
-        "published": "Thu, 16 Jul 2026 09:16:00 GMT",
-        "source": "The Japan Times",
-        "description": " Files relating to India’s largest nuclear power plant exposed in data breach    The Japan Times ",
-        "attack_type": "breach",
-        "source_country": null,
-        "target_country": "India"
       },
       {
         "title": "3.1TB of NAIC data dumped on to the dark web - Insurance Business",
@@ -2995,6 +2995,16 @@
         "target_country": null
       },
       {
+        "title": "Inside the dark web: Stolen identities for 95¢, malware, and scams-for-hire - Security Boulevard",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYlBJOUFhdExsTi14QjVPYUVVdmxwWnZHRmh2aXRreVF6YUtQWkZDcEJ5UEk0c2ZtQXdHSHJUZy1HYnd2VVpNcFB5M3ZfaFdWZWZ6SXZPM3ItWlZVZHlwMC1lYTdvRmdVV1hBcnozUUd5OHdackN4WG5JNE9EMFlTVkZRUjFNaFFmdzFzSU1XcTFkRFhHWmU1M0lWeU5zTVltdUc1M1BtVVd5X1lKR19hWmt5aW02ak0?oc=5",
+        "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+        "source": "Security Boulevard",
+        "description": " Inside the dark web: Stolen identities for 95¢, malware, and scams-for-hire    Security Boulevard ",
+        "attack_type": "malware",
+        "source_country": null,
+        "target_country": null
+      },
+      {
         "title": "FBI links First VPN Service to ransomware gangs, botnets, criminal dark web activity; calls for layered defensive controls - Industrial Cyber",
         "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWUktdnFmMHVhVzJKdTJOeHRjbldpUVNIWlEzWW5PcjhLS3R5LUVya0RpUUhsdFBnakIwV1AxTENLTFpvT1hpdEl1S2VIVHlFVUJhV3BDS2NiaF9hSzBsWUZKNWZjSkJPVnV2cExFbXFwNXhGVTdPVnh3emFIYmFFcjhBYUU2aGlsdFpiTFJqSUY2ZmthaFR1SkVOSXB0LXlhUjQtcl9RUE1sTEdBVExRcDltSEtPcDRhbGQ1RzdfQkk0azJvZEpXWW91S0habjJfX0pPdmlKcmxVYmp4dGVvN3Zscm51clRxNEdxU1k3WQ?oc=5",
         "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -3025,41 +3035,31 @@
         "target_country": null
       },
       {
-        "title": "Inside the dark web: Stolen identities for 95¢, malware, and scams-for-hire - Security Boulevard",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYlBJOUFhdExsTi14QjVPYUVVdmxwWnZHRmh2aXRreVF6YUtQWkZDcEJ5UEk0c2ZtQXdHSHJUZy1HYnd2VVpNcFB5M3ZfaFdWZWZ6SXZPM3ItWlZVZHlwMC1lYTdvRmdVV1hBcnozUUd5OHdackN4WG5JNE9EMFlTVkZRUjFNaFFmdzFzSU1XcTFkRFhHWmU1M0lWeU5zTVltdUc1M1BtVVd5X1lKR19hWmt5aW02ak0?oc=5",
-        "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-        "source": "Security Boulevard",
-        "description": " Inside the dark web: Stolen identities for 95¢, malware, and scams-for-hire    Security Boulevard ",
-        "attack_type": "malware",
-        "source_country": null,
-        "target_country": null
-      },
-      {
-        "title": "Dating-app giants investigate incidents after cybercriminals claim to steal data - The Record from Recorded Future News",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xLWFuTXFuZ1UwWXNkWXAtZk9wMnBLSlVQUGprMzJmY0dIaXBRVWZLNmVfZ3NhSC1QYzFqTk9pSmpYZmE1RXp5M1NTVVQ0SFdhdVpOMXVBaGhTeS13Y0NYeXFVRE5nRWVtUlR3UkhvUQ?oc=5",
-        "published": "Fri, 30 Jan 2026 08:00:00 GMT",
-        "source": "The Record from Recorded Future News",
-        "description": " Dating-app giants investigate incidents after cybercriminals claim to steal data    The Record from Recorded Future News ",
-        "attack_type": "other",
-        "source_country": null,
-        "target_country": null
-      },
-      {
-        "title": "To Track Down Stolen Data, Dark Web Threat Intelligence Is Key - PaymentsJournal",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSG0wLXZqd3hkWFdTMHhnNVVnaVhjNWFpS1BxQ0dKRmRiYUJUU3QtNFQwMkNPN3lCTWkzOEdIOUVGdUJOM3Zabk9QUlVWbWFrQlk5aGhQU0xaaXlZQVV5bUpnUW1KQ2JDQnZiVThFS01hNGx4YmdPVEQtS0NrVWR2MVA5eDRNUkF3RFdpYWVMQ254VW1lV3hUR1d30gGfAUFVX3lxTE9CM3FGRTRqY05fdTA0Z2Vfc3JQRlZ2czgwYkRteFgwQ2RJeUhnckVSOTdSOUh3TUpORFByZS1wOU14QXlRQl9hSWxwYkFFNjhjN201dml3Z01PeHdSUUJXWkxfYjVXNnVMeDU2SGZac1cxcDg5cXYtaVBfNHZzelI0a2FlN2JsblRlaVdpZ0tZQzlIN1Flb28xNnF4anZ3bw?oc=5",
-        "published": "Tue, 30 Dec 2025 08:00:00 GMT",
-        "source": "PaymentsJournal",
-        "description": " To Track Down Stolen Data, Dark Web Threat Intelligence Is Key    PaymentsJournal ",
-        "attack_type": "breach",
-        "source_country": null,
-        "target_country": null
-      },
-      {
         "title": "Cybercrime group Lapsus$ claims the hack of pharma giant AstraZeneca - Security Affairs",
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXdvbmZRLWk0YkRjRWMwMXFYSUlDdHpmVlVWb043NmxhZE1oSVA5UUQ0d0VlejZPZjVFMy1BdjFmY2Q0RkpnQ3paQ2FiM0xUb3FkczlwRVE0eXQxdEluSjdMcmJvNkgwbmctZmZScnVVaUh0QnlEWk5yTk9EdlNyb2p3R3NXbXhRejJoemR3RWpXc3hKQ2FjdzRNTTV0SGdRaEpJbENQVFdZUDhhNGNaZE44dzR3RndQRWk4?oc=5",
         "published": "Wed, 25 Mar 2026 07:00:00 GMT",
         "source": "Security Affairs",
         "description": " Cybercrime group Lapsus$ claims the hack of pharma giant AstraZeneca    Security Affairs ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": null
+      },
+      {
+        "title": "Massive cyber strike: 373,000 dark web domains shut down in global raid - Escudo Digital",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNE4zUDNUUHV5M3pHQmhQa2tIbE5ZUUNnTTVHNUtwUE93WnFqRnJobWJHSEx4dUNaZGxxZXNsY243dHBQX3ZzZFdDY01wV3RPc3pONms5cm1HQlNfMnJnZy10WEo3X2ZDbkVhTmdMNjZyUDRwMFktMmZlYU1jNG1Yby1lMDg5dTFsSHJfUk1tcjUzWUtaZDJGdkpuV081cTlEeWV3emVSbUFSejVONWtnZDRtdV9fWlVZVnZQVktn?oc=5",
+        "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+        "source": "Escudo Digital",
+        "description": " Massive cyber strike: 373,000 dark web domains shut down in global raid    Escudo Digital ",
+        "attack_type": "other",
+        "source_country": null,
+        "target_country": null
+      },
+      {
+        "title": "Top 10 Dark Web Markets in 2026: List & Threat Analysis - SOCRadar® Cyber Intelligence Inc.",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PbHB1VjN6aGltak8zZ1pmaHVMYmhnZV9ZSnRzMkhjX2wyTGRiOWZJTWxnRnpyOWg2WnRKZnJOVThYb1dXal9yNEpmcnNvRkpUWGF6OHdvcUVkZW9VcFE?oc=5",
+        "published": "Mon, 22 Jun 2026 07:00:00 GMT",
+        "source": "SOCRadar® Cyber Intelligence Inc.",
+        "description": " Top 10 Dark Web Markets in 2026: List & Threat Analysis    SOCRadar® Cyber Intelligence Inc. ",
         "attack_type": "other",
         "source_country": null,
         "target_country": null
@@ -3614,11 +3614,19 @@
     },
     {
       "source_country": "China",
-      "target_country": "Philippines",
+      "target_country": "Singapore",
       "attack_type": "other",
-      "title": "Wave of Philippine government website hacks raises alarm over weak cybersecurity - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON29wMEFSMWVTOHQxTGZwZHZGem5HYlF0TFY5UjFLdWZ3azNfMEJPdUp4LUloZ3MzRU5xcjRqTnVNQmltRFNraXU1NUxFV3d1dlpkdjZNZFdlQzZKVW92Vmo1RjFaYTVBZFZrLUFfbnhOVkNlbWpEbDh1TzZhdmd0c0dyMEhwMm9kOFYyNVpiODJfUnhicmlVY0Jqck9ReXpMTVdOSjQxUGFPd3lUQXlUd05ua212WU8tMUNwN0JVNXdtLWhjTVhSd2N5WUFpckdFTkd4dlNn0gHWAUFVX3lxTE0xWE9Db2xTSi1uckpZMGZuZEE0MEJndkRCeGx5WnpUTjFRbUMzRGlIVS1vdUtuMHZnTHdNVU16cGE3NXFxMzNSSjA0bkpHNTdMcTJpUHh1bjhUeXpHdFpFX1ZZa2E5OUZOUzJBZ1gzRWZDS2I2Q0ozMmluTk9SNkl3a19TbFphSGczRFZ6a0dVNnhjMEtjb3ZwLWV0aU1keXgxeDU1RGJOajlwcjJocFlYX2JpSFM5WHdiOGlHTktlVzZINzM5LTNYYjE3b2xSTUxpcFpaWGc?oc=5",
-      "published": "Mon, 15 Jun 2026 07:00:00 GMT"
+      "title": "Singapore says China-linked hackers targeted telecom providers in major spying campaign - The Record from Recorded Future News",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sTkVyQXdPc1RfN0JGRDdKTzhDdFpBWnRBbzRaR3A2Unlua1pDWllZakRUc0taTDAxWm1YRUp6NzdkNEUwd0lDNnBtR09EWGMzdFNFdTR2U01fNi03RUNSSXUzS3RaRDRSSzV6ZkxjSkVoa2dncFE?oc=5",
+      "published": "Mon, 09 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "source_country": "China",
+      "target_country": "Singapore",
+      "attack_type": "apt",
+      "title": "Singapore telcos breached in China-linked cyber espionage campaign - Help Net Security",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0c3eDk5WkZvMThrM3YwdlJXOTZ6Q0NhbkFLTnhyWkN1S083TTloYjI4eHVJaFhMdW1CRFhLTm51TXlQZC12MUNVV3R6X0h3TEc4MEd6eFI2d0xDaWFvRm5iUldlalMwVWhDT0hua0FCTm9UbExSMVhjUEVQb1dMQzRNX1Z6ekpkLXctR0NtMEFnVURNcVBaNUJoSlg?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT"
     },
     {
       "source_country": "China",
@@ -3630,11 +3638,27 @@
     },
     {
       "source_country": "China",
+      "target_country": "Philippines",
+      "attack_type": "other",
+      "title": "Wave of Philippine government website hacks raises alarm over weak cybersecurity - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON29wMEFSMWVTOHQxTGZwZHZGem5HYlF0TFY5UjFLdWZ3azNfMEJPdUp4LUloZ3MzRU5xcjRqTnVNQmltRFNraXU1NUxFV3d1dlpkdjZNZFdlQzZKVW92Vmo1RjFaYTVBZFZrLUFfbnhOVkNlbWpEbDh1TzZhdmd0c0dyMEhwMm9kOFYyNVpiODJfUnhicmlVY0Jqck9ReXpMTVdOSjQxUGFPd3lUQXlUd05ua212WU8tMUNwN0JVNXdtLWhjTVhSd2N5WUFpckdFTkd4dlNn0gHWAUFVX3lxTE0xWE9Db2xTSi1uckpZMGZuZEE0MEJndkRCeGx5WnpUTjFRbUMzRGlIVS1vdUtuMHZnTHdNVU16cGE3NXFxMzNSSjA0bkpHNTdMcTJpUHh1bjhUeXpHdFpFX1ZZa2E5OUZOUzJBZ1gzRWZDS2I2Q0ozMmluTk9SNkl3a19TbFphSGczRFZ6a0dVNnhjMEtjb3ZwLWV0aU1keXgxeDU1RGJOajlwcjJocFlYX2JpSFM5WHdiOGlHTktlVzZINzM5LTNYYjE3b2xSTUxpcFpaWGc?oc=5",
+      "published": "Mon, 15 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "source_country": "China",
       "target_country": "South Korea",
       "attack_type": "other",
       "title": "Why South Korea is racing to build a sovereign AI model for cybersecurity - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUhhbndVeVJCam1DSEVaWGtKbGxWbDktWlN6cmRoZk5ZMWR3ZG12dVhNTnh5STJ5THdMU0EtT0xfb2RCaHc1SUdldG5tMnNoRng5OHhZd0h6NjZfN3BDSnRsRDhvVU5hbTdlWk16b1Z4dXRZM1czcjZFSUkxOGNzcWtuN2llUmp4WFNCUUJVbDJKUWZMVjVNWVlQUXgtVlNjelhNaENaVnU4bmJRZzJXRnBFQjlZNDBY0gG4AUFVX3lxTE94TDhoUS1RSDhDN3ZxNUN3bzB6YVpjekdzSGxLSy1fRlZWYnBqdDFRQmFCSk9lbFE3VEU5TEM1Y1RxS1JmODdTb0lwcUtEZ1YzWVBlS19WNzVONUVibUFWYVItSl9fdFl1VnY2ZDhQeUV5QVRhcE1haUEzRUp5TXRlWm5DOWVISlBqTWljM2NiR29lcVl1NWo5b2lyZG1SMGdHZEFLdkZBdnN1SG5YaFhPTnJzbjljeGo?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUhhbndVeVJCam1DSEVaWGtKbGxWbDktWlN6cmRoZk5ZMWR3ZG12dVhNTnh5STJ5THdMU0EtT0xfb2RCaHc1SUdldG5tMnNoRng5OHhZd0h6NjZfN3BDSnRsRDhvVU5hbTdlWk16b1Z4dXRZM1czcjZFSUkxOGNzcWtuN2llUmp4WFNCUUJVbDJKUWZMVjVNWVlQUXgtVlNjelhNaENaVnU4bmJRZzJXRnBFQjlZNDBY?oc=5",
       "published": "Fri, 17 Jul 2026 05:58:33 GMT"
+    },
+    {
+      "source_country": "North Korea",
+      "target_country": "South Korea",
+      "attack_type": "other",
+      "title": "2025 Year in Review: U.S.-South Korea Alliance Faces Record North Korean Cybercrime - Korea Economic Institute of America -",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYXU5QjRPQzl5Q0NjeFM0aGZLUnJnQWhNc3l5c3hQbko1OEZib2sybVp2STBSbU45dk5CbWVYaFRYcmxMajAwbE9IdHNYbl9QZWlEcFFFeWRSZzlfS0NRRXNfTUlyRmpXak5kaVE1cGJlWF9fN2trQ1ZaM29BdHNJWndxSUxPTlg0MXI5SlZZeF8zeS1YOXVndUMyaEdLZGZwLWpNSURsdTZlZmZm?oc=5",
+      "published": "Mon, 05 Jan 2026 08:00:00 GMT"
     },
     {
       "source_country": "China",
@@ -3643,14 +3667,6 @@
       "title": "India and China carried out Cyber attack on Pakistan’s Balochistan Police - Resonant News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcVJ5YTJLU3o4ZDNYdXF1OUpZa2VwLXFQTVNla0xwc1RmbE1xVEt1WUF1RnlJWDlfNV9jYnh2YWtBaTQ5LXE4VC14ZVk2dUk0VVpJLWlmcVBmRnBPeDVieFgxcUw4U29VdHpUeDgzNDNZbG9fMi1kWWFBdlFSM01KVG51VDhtNm95ZWJGVTljWjVVVzhkQXRNY20xN3YyTHNwOVdySXZPdUxFZUpKN0HSAa4BQVVfeXFMT3FSeWEyS1N6OGQzWHVxdTlKWWtlcC1xUE1TZWtMcHNUZmxNcVRLdVlBdUZ5SVg5XzVfY2J4dmFrQWk0OS1xOFQteGVZNnVJNFVaSS1pZnFQZkZwT3g1YnhYMXFMOFNvVXR6VHg4MzQzWWxvXzItZFlhQXZRUjNNSlRudVQ4bTZveWViRlU5Y1o1VVc4ZEF0TWNtMTd2MkxzcDlXckl2T3VMRWVKSjdB?oc=5",
       "published": "Sat, 11 Jul 2026 10:55:44 GMT"
-    },
-    {
-      "source_country": "China",
-      "target_country": "Cambodia",
-      "attack_type": "other",
-      "title": "Telangana cyber security arrests 5 linked to Chinese fraud syndicate in Cambodia - Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWGR5QVE5Z2JhcjNMbE1ZYU9GWGlNRW9JX3U5ODNTcW8zSXd3VU0wVlZRZjdnOGRzRVJpMjVjanFOQ0EzaldjM0hTNnRMMHJnWU1aTldQdW1UeEZrLThUUEViaUlVTVpLTWFGc3lDdV9WcF85aVdnb2ZwREc0elFlZnVvbUJkeTRNRE1nYmJESzhTcXR3UjZ6QXkyT2duZjJlcTQzMkJhczJZSGNzMFpySXRyWndmUE41cnhMUlVJMXpkR1ZEMXVPcDFPWlZHdw?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT"
     },
     {
       "source_country": "Russia",
@@ -3672,7 +3688,7 @@
       "source_country": "Russia",
       "target_country": "Germany",
       "attack_type": "phishing",
-      "title": "Germany suspects Russia of Signal phishing attacks on politicians - Euronews",
+      "title": "Germany suspects Russia of Signal phishing attacks on politicians - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSXI0SlphVFdmQWQ5MEFLRV9lOGFSaVNiSWlMY25UMVlJMjFlaE94aFFtVGZKWTFiSzkzamZvTVJDN203czI2N0wzZmUzLVJ2WUVvbHhEczVVZVdSbTZ0TUx0ek5mMHJlSF9xdUxPQ3dqRTFON21xVVpHM0RGdkVnV2c3RG5BSTZ3dl8tQzU5S2tmVUl4QnRyUmNtTXBBa0VXQ014QVhHcVNsaHZFNF9LMEc4d1cyWWp3MFE?oc=5",
       "published": "Sun, 26 Apr 2026 07:00:00 GMT"
     },
@@ -3773,20 +3789,20 @@
       "published": "Thu, 12 Mar 2026 07:00:00 GMT"
     },
     {
-      "source_country": "Iran",
-      "target_country": "Saudi Arabia",
-      "attack_type": "other",
-      "title": "Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17) - Unit 42",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFNjI0dmhtNUpLSGtNcS1hbjFyVUtHS29XR1pRRVVtRDZ5X05UclV1U013enhUaHJ6bFpCOTZSclZqb3BaVWlpd01wTFFtTXFzSzFlNG9fTUtRUDZZREI5bUZ4TmtYNTlXWXhzWDE4MA?oc=5",
-      "published": "Fri, 17 Apr 2026 07:00:00 GMT"
-    },
-    {
       "source_country": "United States",
       "target_country": "South Africa",
       "attack_type": "other",
       "title": "South Africa's financial sector struggles to keep pace with escalating cyber threats - independentonsaturday.co.za",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vV0hkYVFGbTNyRnBvUEJEdXRhTkhfYU9QelNpaW1rLTZ3TF9rOHVIak9tckNabmZOd3hwcHh2bU1JU3NBenBzRWxYbWVFYXdoZGVqNVFlZUV0X2p6Rk5QUjVNUDVsWkVqbDgwWkprUQ?oc=5",
-      "published": "Mon, 20 Jul 2026 09:24:39 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTHc1alJqMFZOMmNBZnVoV21FekdGWlFkamNQREZDVlFmdUNBcWlGR0VqUlJPZXRWUEQ5VnF6M0Jkb0pmTGJZbVBtUHZuS0Q3VmJuSnVyaXlLZk1jaS1uT2pqdE1jTnFSU1dmd3JrMnZLZDFCbGY0TVFONHlNbGdQM19OMDJld0dQVldidEc3MXl3Nk81bHp5NXZhSnZoeFRjSThJTzBOODVxckpLQWVKT09pbDhWUS04czVHdC1UWmxfMFo3NWZDcV9qeW5xYm1UUlE?oc=5",
+      "published": "Mon, 20 Jul 2026 10:25:04 GMT"
+    },
+    {
+      "source_country": "China",
+      "target_country": "South Africa",
+      "attack_type": "phishing",
+      "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa - The Hacker News",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVERNUmpxSk5uVVRfM0ZHMWJ4NFB6MVlnY2FLS3h2X1Bkb0UwNWphTnU3MDJvbV9UcGttOEg1b05neFJYRm9xNlJCWDltYnBlMTZmZWtlemxDamotdVdrWFFESDJsLTZNdG9Da0thR3V6TXdvQnRKdXlReTZ6NU9yMw?oc=5",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT"
     },
     {
       "source_country": "China",
