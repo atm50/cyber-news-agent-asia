@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-24T19:26:26.923663+00:00",
+  "last_updated_utc": "2026-07-24T21:04:49.806999+00:00",
   "victims": [
+    {
+      "victim": "ausproof.com.au",
+      "group": "m3rx",
+      "country": "Australia",
+      "sector": "Professional Services",
+      "discovered": "2026-07-24T19:28:48.567761+00:00",
+      "attack_date": "2026-07-24T19:28:16.093284+00:00",
+      "website": "",
+      "description": "+61 749784000 , AusProof is a leader in the design and manufacture of low and high voltage electrical cable couplers specifically for the mining and tunneling industries. Established in 1974, the company is committed to innovation and quality in its product offerings. AusProof serves clients globall",
+      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#ausproof.com.au",
+      "monitored": true
+    },
     {
       "victim": "Kean University",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Founded in 1950 and headquartered in Frankfurt am Main, the organization serves as the central voice of German manufacturers of …",
       "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/wdkde/",
-      "monitored": true
-    },
-    {
-      "victim": "jaecklin-industrial.de",
-      "group": "safepay",
-      "country": "Germany",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-20T19:06:29.969540+00:00",
-      "attack_date": "2026-07-20T19:06:16.000585+00:00",
-      "website": "",
-      "description": "Founded in 1935 by Julius Jäcklin, the company has developed from a regional machine repair workshop into a globally recognized …",
-      "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/jaecklin-industrialde/",
       "monitored": true
     }
   ],
@@ -3395,12 +3395,12 @@
     "unique_countries": 37,
     "by_country": {
       "United States": 30,
+      "Australia": 7,
       "Canada": 6,
       "India": 6,
-      "Australia": 6,
       "Unknown": 5,
-      "Germany": 4,
       "France": 4,
+      "Germany": 3,
       "AR": 3,
       "Indonesia": 2,
       "Switzerland": 2,
@@ -3443,25 +3443,25 @@
       "killsec": 3,
       "chaos": 3,
       "spacebears": 3,
+      "m3rx": 2,
       "incransom": 2,
       "Booba Project": 2,
       "worldleaks": 2,
-      "safepay": 2,
       "apt73": 1,
       "cmdorganization": 1,
       "moneymessage": 1,
       "blacknevas": 1,
       "BrainCipher": 1,
       "kairos": 1,
-      "m3rx": 1,
       "morpheus": 1,
-      "titan": 1
+      "titan": 1,
+      "safepay": 1
     },
     "by_sector": {
       "Technology": 17,
-      "Manufacturing": 14,
+      "Professional Services": 13,
+      "Manufacturing": 13,
       "Healthcare": 12,
-      "Professional Services": 12,
       "Financial Services": 9,
       "Other": 8,
       "Retail & E-Commerce": 7,
