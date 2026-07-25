@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-24T23:03:06.750132+00:00",
+  "last_updated_utc": "2026-07-25T02:39:18.670256+00:00",
   "victims": [
+    {
+      "victim": "GOP",
+      "group": "qilin",
+      "country": "United Kingdom",
+      "sector": "Other",
+      "discovered": "2026-07-24T22:59:12.543596+00:00",
+      "attack_date": "2026-07-24T22:58:39.955446+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=bb832c6c-99a5-48b5-a604-526591d752bd",
+      "monitored": true
+    },
+    {
+      "victim": "Center Of Information Technologies In Finance Public Institution",
+      "group": "nova",
+      "country": "",
+      "sector": "Financial Services",
+      "discovered": "2026-07-24T22:57:47.407993+00:00",
+      "attack_date": "2026-07-24T22:56:57.864195+00:00",
+      "website": "",
+      "description": "Centrul de Tehnologii Informaționale în Finanțe (CTIF) offers a wide range of services and products aimed at legal entities such as public authorities, budget institutions, and economic agents, as well as individuals interested in financial information technology. Their services primarily focus on t",
+      "claim_url": "http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/center-of-information-technologies-in-finance-public-institution",
+      "monitored": false
+    },
     {
       "victim": "Jiva Health",
       "group": "unsafe",
@@ -1176,30 +1200,6 @@
       "description": "[AI generated] St. Francis Xavier Catholic School System is a private religious educational organization operating in the United States. It provides Catholic-based primary and secondary education, integrating faith formation with academic instruction. Operating under the Roman Catholic Church's educ",
       "claim_url": "https://worldleaksartrjm3c6vasllvgacbi5u3mgzkluehrzhk2jz4taufuid.onion/companies/3493364906",
       "monitored": true
-    },
-    {
-      "victim": "PinnPACK",
-      "group": "worldleaks",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-21T09:10:17.598039+00:00",
-      "attack_date": "2026-07-21T08:18:05+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "https://worldleaksartrjm3c6vasllvgacbi5u3mgzkluehrzhk2jz4taufuid.onion/companies/6502015756",
-      "monitored": true
-    },
-    {
-      "victim": "Postres Reina",
-      "group": "qilin",
-      "country": "Spain",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-07-21T07:04:30.473467+00:00",
-      "attack_date": "2026-07-21T07:04:01.634362+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=48655caf-4585-42fd-9ab0-386475bc0c00",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3394,24 +3394,24 @@
     "unique_groups": 24,
     "unique_countries": 37,
     "by_country": {
-      "United States": 31,
+      "United States": 30,
       "India": 7,
       "Australia": 7,
+      "Unknown": 6,
       "Canada": 6,
-      "Unknown": 5,
       "France": 4,
       "AR": 3,
+      "United Kingdom": 2,
       "Indonesia": 2,
       "Germany": 2,
       "Switzerland": 2,
-      "Spain": 2,
       "Poland": 2,
       "PE": 2,
       "Portugal": 2,
+      "Spain": 1,
       "EG": 1,
       "LA": 1,
       "Austria": 1,
-      "United Kingdom": 1,
       "HU": 1,
       "CZ": 1,
       "Turkey": 1,
@@ -3435,7 +3435,7 @@
     "by_group": {
       "thegentlemen": 29,
       "qilin": 22,
-      "nova": 7,
+      "nova": 8,
       "krybit": 5,
       "dragonforce": 3,
       "akira": 3,
@@ -3447,7 +3447,6 @@
       "m3rx": 2,
       "incransom": 2,
       "Booba Project": 2,
-      "worldleaks": 2,
       "unsafe": 1,
       "apt73": 1,
       "cmdorganization": 1,
@@ -3456,21 +3455,22 @@
       "BrainCipher": 1,
       "kairos": 1,
       "morpheus": 1,
-      "titan": 1
+      "titan": 1,
+      "worldleaks": 1
     },
     "by_sector": {
       "Technology": 17,
       "Healthcare": 14,
       "Professional Services": 13,
-      "Manufacturing": 13,
-      "Financial Services": 9,
-      "Other": 7,
+      "Manufacturing": 12,
+      "Financial Services": 10,
+      "Other": 8,
       "Education": 5,
       "Retail & E-Commerce": 5,
       "Not Found": 5,
       "Hospitality": 3,
-      "Agriculture and Food Production": 3,
       "Transportation": 3,
+      "Agriculture and Food Production": 2,
       "Energy & Utilities": 2,
       "Government & Defense": 1
     }
