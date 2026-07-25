@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-25T08:07:12.223343+00:00",
+  "last_updated_utc": "2026-07-25T10:28:01.472828+00:00",
   "victims": [
+    {
+      "victim": "SistNet",
+      "group": "nova",
+      "country": "Italy",
+      "sector": "Not Found",
+      "discovered": "2026-07-25T09:27:23.806996+00:00",
+      "attack_date": "2026-07-25T09:26:25.279079+00:00",
+      "website": "",
+      "description": "Sistnet, a division of Sistemi Tre s.r.l., offers comprehensive solutions in Information and Communication Technology, focusing on transforming products into services. Their offerings include advanced security solutions like EDR-X antivirus, networking, unified communication, and internet services s",
+      "claim_url": "http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/sistnet",
+      "monitored": false
+    },
     {
       "victim": "Advantage Sintered Metals",
       "group": "securotrop",
@@ -28,7 +40,7 @@
     {
       "victim": "Center Of Information Technologies In Finance Public Institution",
       "group": "nova",
-      "country": "",
+      "country": "MD",
       "sector": "Financial Services",
       "discovered": "2026-07-24T22:57:47.407993+00:00",
       "attack_date": "2026-07-24T22:56:57.864195+00:00",
@@ -758,6 +770,18 @@
       "monitored": true
     },
     {
+      "victim": "T****r",
+      "group": "payoutsking",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-07-25T09:19:36.604310+00:00",
+      "attack_date": "2026-07-23T00:00:00+00:00",
+      "website": "",
+      "description": "",
+      "claim_url": "https://www.ransomware.live/id/VCoqKipyQHBheW91dHNraW5n",
+      "monitored": true
+    },
+    {
       "victim": "cabincreekhealth.com",
       "group": "incransom",
       "country": "United States",
@@ -1176,30 +1200,6 @@
       "description": "The Company is leading the construction IT industry with the best technology and various experiences, and striving to grow with a various customers in pursuit of technology platform change and innovation through persistent research and development in introduction of Web Services, H/W Services, BIM S",
       "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/61/doalltech",
       "monitored": true
-    },
-    {
-      "victim": "Anpra SAS",
-      "group": "spacebears",
-      "country": "CO",
-      "sector": "Professional Services",
-      "discovered": "2026-07-21T09:08:32.255024+00:00",
-      "attack_date": "2026-07-21T09:08:11.860851+00:00",
-      "website": "",
-      "description": "With over a decade of experience in the auto parts sector, Anpra SAS has established a solid reputation for importing and distributing quality products. We are dedicated to supporting the growth and efficiency of wholesale businesses in Colombia, focusing on mechanical components for European and Ja",
-      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/62/anpra-sas",
-      "monitored": false
-    },
-    {
-      "victim": "BiesSse Group",
-      "group": "spacebears",
-      "country": "Italy",
-      "sector": "Professional Services",
-      "discovered": "2026-07-21T09:07:52.717883+00:00",
-      "attack_date": "2026-07-21T09:07:32.806798+00:00",
-      "website": "",
-      "description": "The BiesSse group, which has been operating on the global market for over 40 years, specializes in the production and conversion of highly performing technical adhesive tapes. The BiesSse Tape production plant covers a surface area of over 11,000 sq.mt. and is equipped with modern and advanced insta",
-      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/63/biessse-group",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3390,15 +3390,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
-    "unique_groups": 24,
+    "monitored_victims": 68,
+    "unique_groups": 25,
     "unique_countries": 37,
     "by_country": {
-      "United States": 30,
+      "United States": 31,
       "India": 7,
       "Australia": 7,
-      "Unknown": 6,
       "Canada": 6,
+      "Unknown": 5,
       "France": 4,
       "AR": 3,
       "United Kingdom": 2,
@@ -3408,6 +3408,8 @@
       "Poland": 2,
       "PE": 2,
       "Portugal": 2,
+      "Italy": 1,
+      "MD": 1,
       "Spain": 1,
       "EG": 1,
       "LA": 1,
@@ -3428,21 +3430,18 @@
       "New Zealand": 1,
       "Russia": 1,
       "Singapore": 1,
-      "South Korea": 1,
-      "CO": 1,
-      "Italy": 1
+      "South Korea": 1
     },
     "by_group": {
       "thegentlemen": 29,
       "qilin": 22,
-      "nova": 8,
+      "nova": 9,
       "krybit": 5,
       "dragonforce": 3,
       "akira": 3,
       "play": 3,
       "killsec": 3,
       "chaos": 3,
-      "spacebears": 3,
       "safepay": 2,
       "m3rx": 2,
       "incransom": 2,
@@ -3452,21 +3451,23 @@
       "apt73": 1,
       "cmdorganization": 1,
       "moneymessage": 1,
+      "payoutsking": 1,
       "blacknevas": 1,
       "BrainCipher": 1,
       "kairos": 1,
       "morpheus": 1,
-      "titan": 1
+      "titan": 1,
+      "spacebears": 1
     },
     "by_sector": {
-      "Technology": 17,
+      "Technology": 18,
       "Healthcare": 14,
       "Manufacturing": 13,
-      "Professional Services": 13,
+      "Professional Services": 11,
       "Financial Services": 10,
       "Other": 8,
+      "Not Found": 6,
       "Retail & E-Commerce": 5,
-      "Not Found": 5,
       "Education": 4,
       "Hospitality": 3,
       "Transportation": 3,
