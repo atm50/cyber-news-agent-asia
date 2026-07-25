@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-25T02:39:18.670256+00:00",
+  "last_updated_utc": "2026-07-25T05:44:26.711076+00:00",
   "victims": [
+    {
+      "victim": "Advantage Sintered Metals",
+      "group": "securotrop",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-07-25T03:57:54.474799+00:00",
+      "attack_date": "2026-07-25T00:00:00+00:00",
+      "website": "",
+      "description": "Status: AWAITING\nSize: 503 GB",
+      "claim_url": "http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion",
+      "monitored": true
+    },
     {
       "victim": "GOP",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "The BiesSse group, which has been operating on the global market for over 40 years, specializes in the production and conversion of highly performing technical adhesive tapes. The BiesSse Tape production plant covers a surface area of over 11,000 sq.mt. and is equipped with modern and advanced insta",
       "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/63/biessse-group",
       "monitored": false
-    },
-    {
-      "victim": "St. Francis Xavier Catholic School System",
-      "group": "worldleaks",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-07-21T09:11:00.349884+00:00",
-      "attack_date": "2026-07-21T08:18:17+00:00",
-      "website": "",
-      "description": "[AI generated] St. Francis Xavier Catholic School System is a private religious educational organization operating in the United States. It provides Catholic-based primary and secondary education, integrating faith formation with academic instruction. Operating under the Roman Catholic Church's educ",
-      "claim_url": "https://worldleaksartrjm3c6vasllvgacbi5u3mgzkluehrzhk2jz4taufuid.onion/companies/3493364906",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3447,6 +3447,7 @@
       "m3rx": 2,
       "incransom": 2,
       "Booba Project": 2,
+      "securotrop": 1,
       "unsafe": 1,
       "apt73": 1,
       "cmdorganization": 1,
@@ -3455,19 +3456,18 @@
       "BrainCipher": 1,
       "kairos": 1,
       "morpheus": 1,
-      "titan": 1,
-      "worldleaks": 1
+      "titan": 1
     },
     "by_sector": {
       "Technology": 17,
       "Healthcare": 14,
+      "Manufacturing": 13,
       "Professional Services": 13,
-      "Manufacturing": 12,
       "Financial Services": 10,
       "Other": 8,
-      "Education": 5,
       "Retail & E-Commerce": 5,
       "Not Found": 5,
+      "Education": 4,
       "Hospitality": 3,
       "Transportation": 3,
       "Agriculture and Food Production": 2,
