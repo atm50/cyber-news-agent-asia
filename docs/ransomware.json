@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-26T00:03:51.853231+00:00",
+  "last_updated_utc": "2026-07-26T04:27:35.113244+00:00",
   "victims": [
     {
       "victim": "Vinilon",
@@ -110,6 +110,18 @@
       "monitored": false
     },
     {
+      "victim": "healthlawadvocates.org",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-07-26T01:56:45.280835+00:00",
+      "attack_date": "2026-07-25T00:01:00+00:00",
+      "website": "",
+      "description": "Health Law Advocates (HLA), an American non-profit, public interest law firm based in Boston, Massachusetts. Founded in 1996, HLA provides free (pro bono) legal representation to low-income residents and vulnerable populations who face barriers to accessing or paying for healthcare.",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a655dd45ae71db30cdbf8e4",
+      "monitored": true
+    },
+    {
       "victim": "Schaad, Balass, Menzl and Partner AG",
       "group": "Deadlock",
       "country": "Switzerland",
@@ -119,18 +131,6 @@
       "website": "",
       "description": "SBMP (Schaad Balass Menzl & Partner AG) is a specialized Swiss IP boutique with offices in Zurich and Winterthur, offering comprehensive services in patent law, trademark law, and design protection. With over 50 years of experience and a team of lawyers and technical experts, the firm supports compa",
       "claim_url": "http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOmRhdGEtc2JtcC5jaHxldS1jZW50cmFsLTF8MVRLRlpTNzE0V01PQzRXM0dVQUd8TFRlb1doTGV6aEVjRzZqZU0zRklidXZTa0VDS0FYV0lJTXVKaERnMQ%3D%3D",
-      "monitored": false
-    },
-    {
-      "victim": "HİDROMEK",
-      "group": "Deadlock",
-      "country": "Turkey",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-25T17:56:19.682846+00:00",
-      "attack_date": "2026-07-25T00:00:00+00:00",
-      "website": "",
-      "description": "HİDROMEK is a leading Turkish manufacturer of heavy construction machinery recognized globally for its high-performance award-winning heavy equipment. Founded in Ankara in 1978 by mechanical engineer Hasan Basri Bozkurt the company operates six state-of-the-art production facilities across Turkey an",
-      "claim_url": "http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOmRhdGEtaGlkcm9tZWsuY29tLnRyfGV1LWNlbnRyYWwtMXw5VEJFNVcyWEZUNDlJUENLR1c1RXxOYUpkS0hRQ3U1SXdCT2FFcFRNc0QxRlJodGpST0hCNVhVdFdQd01s",
       "monitored": false
     },
     {
@@ -3396,11 +3396,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
+    "monitored_victims": 62,
     "unique_groups": 25,
     "unique_countries": 38,
     "by_country": {
-      "United States": 30,
+      "United States": 31,
       "India": 7,
       "Australia": 6,
       "Canada": 5,
@@ -3411,7 +3411,6 @@
       "France": 3,
       "Brazil": 2,
       "Italy": 2,
-      "Turkey": 2,
       "Germany": 2,
       "United Kingdom": 2,
       "Mexico": 2,
@@ -3429,6 +3428,7 @@
       "HU": 1,
       "CZ": 1,
       "CI": 1,
+      "Turkey": 1,
       "PE": 1,
       "Philippines": 1,
       "Portugal": 1,
@@ -3442,13 +3442,13 @@
     "by_group": {
       "thegentlemen": 30,
       "qilin": 25,
-      "Deadlock": 10,
+      "Deadlock": 9,
       "krybit": 5,
       "nova": 3,
+      "incransom": 3,
       "killsec": 3,
       "moneymessage": 2,
       "safepay": 2,
-      "incransom": 2,
       "Booba Project": 2,
       "play": 2,
       "bravox": 1,
@@ -3467,11 +3467,11 @@
       "chaos": 1
     },
     "by_sector": {
-      "Manufacturing": 19,
+      "Manufacturing": 18,
       "Healthcare": 14,
+      "Professional Services": 11,
       "Technology": 11,
       "Other": 10,
-      "Professional Services": 10,
       "Financial Services": 8,
       "Not Found": 6,
       "Retail & E-Commerce": 5,
