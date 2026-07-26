@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-26T13:22:59.054825+00:00",
+  "last_updated_utc": "2026-07-26T15:06:23.558733+00:00",
   "victims": [
+    {
+      "victim": "Universitatea de Vest „Vasile Goldiș” din Arad",
+      "group": "qilin",
+      "country": "RO",
+      "sector": "Education",
+      "discovered": "2026-07-26T14:29:53.747725+00:00",
+      "attack_date": "2026-07-26T14:29:30.902340+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1f231bbf-689b-4a64-be81-ee0b50e736ba",
+      "monitored": false
+    },
     {
       "victim": "hydraulic-components.net",
       "group": "m3rx",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "***.pt zoominfo.com/c/guerreiros-seguros/483718773 GUERREIROS Seguros is a professional insurance mediation company based in Faro, Portugal, operating since 1990 and officially licensed as a mediator since 1994. They specialize in a wide range of insurance solutions, including auto, health, and life",
       "claim_url": "https://www.ransomware.live/id/R1VFUlJFSVJPUyBzZWd1cm9zQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "MK Jewelry",
-      "group": "thegentlemen",
-      "country": "MK",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-07-23T15:14:51.750936+00:00",
-      "attack_date": "2026-07-23T08:26:45+00:00",
-      "website": "",
-      "description": "***.com zoominfo.com/c/mk-jewelry-inc/346982894 MK Jewelry, Inc. is a fine jewelry manufacturing and distribution company based in Midtown Manhattan, established in 1986. They specialize in producing and supplying a wide range of jewelry, including bridal and bridge collections. The company serves b",
-      "claim_url": "https://www.ransomware.live/id/TUsgSmV3ZWxyeUB0aGVnZW50bGVtZW4=",
       "monitored": false
     }
   ],
@@ -3423,6 +3423,7 @@
       "Brazil": 2,
       "Italy": 2,
       "Mexico": 2,
+      "RO": 1,
       "MA": 1,
       "CL": 1,
       "KE": 1,
@@ -3438,12 +3439,11 @@
       "CI": 1,
       "Turkey": 1,
       "PE": 1,
-      "Philippines": 1,
-      "MK": 1
+      "Philippines": 1
     },
     "by_group": {
-      "thegentlemen": 28,
-      "qilin": 17,
+      "thegentlemen": 27,
+      "qilin": 18,
       "ExfilSquad": 14,
       "Deadlock": 9,
       "m3rx": 4,
@@ -3473,10 +3473,10 @@
       "Healthcare": 11,
       "Other": 9,
       "Financial Services": 8,
+      "Education": 6,
       "Government & Defense": 6,
-      "Education": 5,
-      "Retail & E-Commerce": 5,
       "Not Found": 5,
+      "Retail & E-Commerce": 4,
       "Transportation": 3,
       "Energy & Utilities": 3,
       "Agriculture and Food Production": 2,
