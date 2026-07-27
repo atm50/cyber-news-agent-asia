@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-27T20:23:39.856876+00:00",
+  "last_updated_utc": "2026-07-27T22:08:47.199623+00:00",
   "victims": [
+    {
+      "victim": "Coca-Cola / Fairlife",
+      "group": "anubis",
+      "country": "United States",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-07-27T21:52:45.296706+00:00",
+      "attack_date": "2026-07-27T21:51:44.396745+00:00",
+      "website": "",
+      "description": "Major data breach at company owned by Coca Cola.",
+      "claim_url": "http://anubisyfkh5rixydjpoo3jqucauajz2juybrbtuglcppjj2y3eg3y6ad.onion/r/x7DNhT0kG8Z2ElnASoBnUa6rQFDRfZY+9fQnDAj5hl81pP0y31BKlZ59ZhogDQmjybVZnkYgmubSZs2FNfuTd6TTVRZmtB",
+      "monitored": true
+    },
     {
       "victim": "zinorm.de",
       "group": "safepay",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "A provider of IT services",
       "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/326fec030728fd03a27f/",
-      "monitored": true
-    },
-    {
-      "victim": "Infinity Pipeline,Inc.",
-      "group": "genesis",
-      "country": "United States",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-07-26T23:23:58.660369+00:00",
-      "attack_date": "2026-07-26T00:00:00+00:00",
-      "website": "",
-      "description": "A family owned, local construction company.",
-      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/30e4ada54a4c7c042993/",
       "monitored": true
     }
   ],
@@ -3462,15 +3462,15 @@
       "CRPxO": 20,
       "ExfilSquad": 15,
       "safepay": 9,
-      "genesis": 6,
       "Deadlock": 5,
+      "genesis": 5,
       "qilin": 4,
       "m3rx": 3,
+      "anubis": 2,
       "shinyhunters": 2,
       "dragonforce": 2,
       "chaos": 1,
       "incransom": 1,
-      "anubis": 1,
       "Section9": 1,
       "nightspire": 1
     },
@@ -3482,11 +3482,12 @@
       "Healthcare": 8,
       "Financial Services": 8,
       "Education": 6,
-      "Energy & Utilities": 6,
       "Not Found": 5,
+      "Energy & Utilities": 5,
       "Hospitality": 4,
       "Government & Defense": 4,
       "Transportation": 3,
+      "Agriculture and Food Production": 1,
       "Other": 1
     }
   },
