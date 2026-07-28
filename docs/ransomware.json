@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-28T07:39:27.097981+00:00",
+  "last_updated_utc": "2026-07-28T10:36:13.336200+00:00",
   "victims": [
+    {
+      "victim": "Gran valle negocios",
+      "group": "qilin",
+      "country": "AR",
+      "sector": "Other",
+      "discovered": "2026-07-28T10:01:53.210835+00:00",
+      "attack_date": "2026-07-28T10:01:23.219279+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=a830d214-9f13-4708-8f06-bf1c3021c973",
+      "monitored": false
+    },
     {
       "victim": "Affinia Healthcare",
       "group": "termite",
@@ -215,18 +227,6 @@
       "website": "",
       "description": "Over XX of data was compromised. This is a final warning to reach out by 30 July 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 27 July 2026 | Warning: FINAL WARNING PAY OR LEAK",
       "claim_url": "https://www.ransomware.live/id/UmluZ0NlbnRyYWwsIEluYy5Ac2hpbnlodW50ZXJz",
-      "monitored": true
-    },
-    {
-      "victim": "Ernst & Young",
-      "group": "shinyhunters",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-07-27T12:58:56.004876+00:00",
-      "attack_date": "2026-07-27T11:10:00+00:00",
-      "website": "",
-      "description": "Yes it was us. Now come talk to us. We have been trying to reach you. If you do not come talk to us within the given deadline, we fully and completely intend to release all the data and files. This is a final warning to reach out by 31 July 2026 before we leak along with several annoying (digital) p",
-      "claim_url": "https://www.ransomware.live/id/RXJuc3QgJiBZb3VuZ0BzaGlueWh1bnRlcnM=",
       "monitored": true
     },
     {
@@ -3426,13 +3426,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 83,
+    "monitored_victims": 82,
     "unique_groups": 15,
     "unique_countries": 27,
     "by_country": {
-      "United States": 55,
+      "United States": 54,
       "Germany": 9,
       "United Kingdom": 6,
+      "AR": 2,
       "Mexico": 2,
       "France": 2,
       "China": 2,
@@ -3449,7 +3450,6 @@
       "Finland": 1,
       "United Arab Emirates": 1,
       "South Korea": 1,
-      "AR": 1,
       "CY": 1,
       "Spain": 1,
       "IQ": 1,
@@ -3463,21 +3463,21 @@
       "CRPxO": 20,
       "ExfilSquad": 15,
       "safepay": 9,
+      "qilin": 5,
       "Deadlock": 5,
       "incransom": 4,
-      "qilin": 4,
       "m3rx": 3,
       "termite": 2,
       "anubis": 2,
-      "shinyhunters": 2,
       "dragonforce": 2,
       "chaos": 1,
+      "shinyhunters": 1,
       "Section9": 1,
       "nightspire": 1
     },
     "by_sector": {
       "Technology": 19,
-      "Professional Services": 14,
+      "Professional Services": 13,
       "Retail & E-Commerce": 11,
       "Healthcare": 9,
       "Manufacturing": 9,
@@ -3487,8 +3487,8 @@
       "Energy & Utilities": 5,
       "Hospitality": 4,
       "Government & Defense": 4,
-      "Transportation": 3,
-      "Other": 2
+      "Other": 3,
+      "Transportation": 3
     }
   },
   "errors": []
