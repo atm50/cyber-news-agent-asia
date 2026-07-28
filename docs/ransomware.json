@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-28T15:22:32.604869+00:00",
+  "last_updated_utc": "2026-07-28T17:29:43.518376+00:00",
   "victims": [
+    {
+      "victim": "thecranewaregroup.com",
+      "group": "chaos",
+      "country": "United Kingdom",
+      "sector": "Technology",
+      "discovered": "2026-07-28T16:53:00.355142+00:00",
+      "attack_date": "2026-07-28T16:52:44.674490+00:00",
+      "website": "",
+      "description": "Craneware’s Public Deception: The Reality Behind the 'Non-Sensitive' Data Breach\n\nRecent public statements and regulatory filings by UK health-tech firm Craneware claim that the massive cyber-attack they suffered only exposed \"non-sensitive or already public regulatory data.\" They would have the s…",
+      "claim_url": "http://hptqq2o2qjva7lcaaq67w36jihzivkaitkexorauw7b2yul2z6zozpqd.onion/post/Lnaz3mOuC1dFtiWC5q9mSzZLNPTEVysa",
+      "monitored": true
+    },
+    {
+      "victim": "B-K Tool & Design",
+      "group": "cmdorganization",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-07-28T16:50:17.845451+00:00",
+      "attack_date": "2026-07-28T16:50:16.048210+00:00",
+      "website": "",
+      "description": "Founded in 1981, B-K Tool & Design has transformed from a small machine shop into a turn-key automation solutions provider, operating from an 80,000 square foot facility in Kalida, Ohio. The company specializes in designing and building cost-effective equipment to replace inefficient processes, offe",
+      "claim_url": "https://www.ransomware.live/id/Qi1LIFRvb2wgJiBEZXNpZ25AY21kb3JnYW5pemF0aW9u",
+      "monitored": true
+    },
     {
       "victim": "DIATER",
       "group": "Deadlock",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Revenue: $1B\n\nDATA SUMMARY:\n430K~ records containing: customer and partner contact information, significant PII, and enterprise account identifiers.",
       "claim_url": "https://www.ransomware.live/id/VmlhdmkgU29sdXRpb25zQEV4ZmlsU3F1YWQ=",
-      "monitored": true
-    },
-    {
-      "victim": "Newcastle University",
-      "group": "ExfilSquad",
-      "country": "United Kingdom",
-      "sector": "Education",
-      "discovered": "2026-07-26T10:24:47.510324+00:00",
-      "attack_date": "2026-07-26T10:24:46.923388+00:00",
-      "website": "",
-      "description": "DATA SUMMARY:\n440K~ records containing: applicant and student contact information, significant PII, and admissions data.",
-      "claim_url": "https://www.ransomware.live/id/TmV3Y2FzdGxlIFVuaXZlcnNpdHlARXhmaWxTcXVhZA==",
-      "monitored": true
-    },
-    {
-      "victim": "District of Columbia Public Schools",
-      "group": "ExfilSquad",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-07-26T10:24:27.530153+00:00",
-      "attack_date": "2026-07-26T10:24:23.355370+00:00",
-      "website": "",
-      "description": "[AI generated] District of Columbia Public Schools (DCPS) is a public school district serving Washington, D.C., USA. It operates as the primary government-run K-12 educational system for the nation's capital, overseeing dozens of schools, thousands of students, and a large workforce of educators and",
-      "claim_url": "https://www.ransomware.live/id/RGlzdHJpY3Qgb2YgQ29sdW1iaWEgUHVibGljIFNjaG9vbHNARXhmaWxTcXVhZA==",
       "monitored": true
     }
   ],
@@ -3427,7 +3427,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 78,
-    "unique_groups": 16,
+    "unique_groups": 17,
     "unique_countries": 29,
     "by_country": {
       "United States": 52,
@@ -3465,30 +3465,31 @@
       "CRPxO": 20,
       "safepay": 9,
       "Deadlock": 8,
-      "ExfilSquad": 8,
       "incransom": 6,
+      "ExfilSquad": 6,
       "qilin": 5,
       "m3rx": 3,
+      "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
       "anubis": 2,
       "dragonforce": 2,
+      "cmdorganization": 1,
       "akira": 1,
-      "chaos": 1,
       "shinyhunters": 1,
       "Section9": 1
     },
     "by_sector": {
-      "Technology": 20,
+      "Technology": 21,
+      "Manufacturing": 12,
       "Professional Services": 12,
-      "Manufacturing": 11,
       "Healthcare": 11,
       "Retail & E-Commerce": 10,
       "Financial Services": 7,
-      "Education": 6,
       "Other": 5,
       "Not Found": 5,
       "Energy & Utilities": 5,
+      "Education": 4,
       "Hospitality": 4,
       "Transportation": 2,
       "Government & Defense": 2
