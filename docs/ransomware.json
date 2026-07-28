@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-28T04:10:26.124837+00:00",
+  "last_updated_utc": "2026-07-28T07:39:27.097981+00:00",
   "victims": [
     {
       "victim": "Affinia Healthcare",
@@ -71,18 +71,6 @@
       "website": "",
       "description": "JD Young helps financial institutions simplify workflow processes, automate the flow of information, adhere to compliance and determine suitable document hardware for multiple locations. The company&#x27;s document solutions include electronic document management, lock box, hardware fleet management",
       "claim_url": "http://termiteuslbumdge2zmfmfcsrvmvsfe4gvyudc5j6cdnisnhtftvokid.onion/post/6a67df16fbf635b18142d544",
-      "monitored": true
-    },
-    {
-      "victim": "Coca-Cola / Fairlife",
-      "group": "anubis",
-      "country": "United States",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-07-27T21:52:45.296706+00:00",
-      "attack_date": "2026-07-27T21:51:44.396745+00:00",
-      "website": "",
-      "description": "Major data breach at company owned by Coca Cola.",
-      "claim_url": "http://anubisyfkh5rixydjpoo3jqucauajz2juybrbtuglcppjj2y3eg3y6ad.onion/r/x7DNhT0kG8Z2ElnASoBnUa6rQFDRfZY+9fQnDAj5hl81pP0y31BKlZ59ZhogDQmjybVZnkYgmubSZs2FNfuTd6TTVRZmtB",
       "monitored": true
     },
     {
@@ -1199,6 +1187,18 @@
       "website": "",
       "description": "DATA SUMMARY:\nHelp Portal (~600K records) – Parent and staff contact records containing full names, email addresses, phone numbers, and job titles. \n\nTuring Portal (~7K records) – Contact records containing full names, email addresses, phone numbers, and job titles.",
       "claim_url": "https://www.ransomware.live/id/VUsgRGVwYXJ0bWVudCBmb3IgRWR1Y2F0aW9uQEV4ZmlsU3F1YWQ=",
+      "monitored": true
+    },
+    {
+      "victim": "Kates Nussman Ellis Earle & Landolfi LLP",
+      "group": "nightspire",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-07-27T18:56:30.393881+00:00",
+      "attack_date": "2026-07-26T00:00:00+00:00",
+      "website": "",
+      "description": "Data is not available now.",
+      "claim_url": "https://www.ransomware.live/id/S2F0ZXMgTnVzc21hbiBFbGxpcyBFYXJsZSAmIExhbmRvbGZpIExMUEBuaWdodHNwaXJl",
       "monitored": true
     }
   ],
@@ -3427,7 +3427,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 83,
-    "unique_groups": 14,
+    "unique_groups": 15,
     "unique_countries": 27,
     "by_country": {
       "United States": 55,
@@ -3466,17 +3466,18 @@
       "Deadlock": 5,
       "incransom": 4,
       "qilin": 4,
-      "anubis": 3,
       "m3rx": 3,
       "termite": 2,
+      "anubis": 2,
       "shinyhunters": 2,
       "dragonforce": 2,
       "chaos": 1,
-      "Section9": 1
+      "Section9": 1,
+      "nightspire": 1
     },
     "by_sector": {
       "Technology": 19,
-      "Professional Services": 13,
+      "Professional Services": 14,
       "Retail & E-Commerce": 11,
       "Healthcare": 9,
       "Manufacturing": 9,
@@ -3487,8 +3488,7 @@
       "Hospitality": 4,
       "Government & Defense": 4,
       "Transportation": 3,
-      "Other": 2,
-      "Agriculture and Food Production": 1
+      "Other": 2
     }
   },
   "errors": []
