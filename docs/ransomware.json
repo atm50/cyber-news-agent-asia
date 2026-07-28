@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-28T21:08:54.443765+00:00",
+  "last_updated_utc": "2026-07-28T22:59:55.529424+00:00",
   "victims": [
+    {
+      "victim": "Hoc",
+      "group": "qilin",
+      "country": "United Kingdom",
+      "sector": "Not Found",
+      "discovered": "2026-07-28T21:58:46.614836+00:00",
+      "attack_date": "2026-07-28T21:58:22.142559+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=7c2d8a4e-d317-43bb-9d60-257266a55f49",
+      "monitored": true
+    },
     {
       "victim": "Speed Group",
       "group": "blacknevas",
@@ -1188,18 +1200,6 @@
       "description": "Revenue: $12.7B\n\nDATA SUMMARY:\n570K~ records containing: customer PII and addresses.",
       "claim_url": "https://www.ransomware.live/id/QW5hbG9nIERldmljZXNARXhmaWxTcXVhZA==",
       "monitored": true
-    },
-    {
-      "victim": "Bonava",
-      "group": "ExfilSquad",
-      "country": "Sweden",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-26T10:26:05.509472+00:00",
-      "attack_date": "2026-07-26T10:26:04.810582+00:00",
-      "website": "",
-      "description": "Revenue: SEK 8B\n\nDATA SUMMARY:\n842K~ records containing: significant PII, property ownership/interests, warranty and repair cases, contractor information, marketing preferences, and customer service history.",
-      "claim_url": "https://www.ransomware.live/id/Qm9uYXZhQEV4ZmlsU3F1YWQ=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3426,13 +3426,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 78,
+    "monitored_victims": 79,
     "unique_groups": 20,
-    "unique_countries": 29,
+    "unique_countries": 28,
     "by_country": {
       "United States": 51,
       "Germany": 9,
-      "United Kingdom": 5,
+      "United Kingdom": 6,
       "Spain": 2,
       "Italy": 2,
       "AR": 2,
@@ -3457,23 +3457,22 @@
       "CY": 1,
       "IQ": 1,
       "RO": 1,
-      "Portugal": 1,
-      "Sweden": 1
+      "Portugal": 1
     },
     "by_group": {
       "Global Secret Group": 29,
       "CRPxO": 20,
       "safepay": 9,
       "Deadlock": 8,
+      "qilin": 6,
       "incransom": 6,
-      "qilin": 5,
-      "ExfilSquad": 3,
       "m3rx": 3,
       "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
       "anubis": 2,
       "dragonforce": 2,
+      "ExfilSquad": 2,
       "blacknevas": 1,
       "thegentlemen": 1,
       "cmdorganization": 1,
@@ -3484,13 +3483,13 @@
     },
     "by_sector": {
       "Technology": 20,
-      "Manufacturing": 13,
+      "Manufacturing": 12,
       "Professional Services": 12,
       "Healthcare": 11,
       "Retail & E-Commerce": 10,
       "Financial Services": 8,
+      "Not Found": 6,
       "Other": 5,
-      "Not Found": 5,
       "Energy & Utilities": 5,
       "Education": 4,
       "Hospitality": 4,
