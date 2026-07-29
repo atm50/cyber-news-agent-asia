@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-29T04:13:18.043185+00:00",
+  "last_updated_utc": "2026-07-29T07:45:58.114722+00:00",
   "victims": [
+    {
+      "victim": "Weilhotel",
+      "group": "gunra",
+      "country": "Malaysia",
+      "sector": "Hospitality",
+      "discovered": "2026-07-29T04:24:37.577820+00:00",
+      "attack_date": "2026-07-29T04:24:35.957169+00:00",
+      "website": "",
+      "description": "Sector: Hotel | Revenue: US$ 5,000,000",
+      "claim_url": "https://www.ransomware.live/id/V2VpbGhvdGVsQGd1bnJh",
+      "monitored": true
+    },
+    {
+      "victim": "Bretford Manufacturing",
+      "group": "aurora",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-07-29T06:51:40.642786+00:00",
+      "attack_date": "2026-07-29T00:00:00+00:00",
+      "website": "",
+      "description": "Bretford Manufacturing, Inc. is a privately held manufacturer of charging solutions for mobile devices, founded in 1948 and headquartered in Franklin Park, Illinois. With ~60 employees and ~$10M annual revenue, it serves education, healthcare, retail, and government sectors.\n\nThe exposed material in",
+      "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/bretford-manufacturing-b4537780",
+      "monitored": true
+    },
     {
       "victim": "AHENK lab",
       "group": "Deadlock",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "+44 1142764430 , VHS Hydraulics is a prominent supplier of hydraulic components and power packs, featuring products from renowned brands like Rexroth, Walvoil, and Casappa. With over 25 years of experience, they specialize in engineering bespoke power packs for demanding applications. Based in Sheff",
       "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#hydraulic-components.net",
-      "monitored": true
-    },
-    {
-      "victim": "createinfor.pt",
-      "group": "m3rx",
-      "country": "Portugal",
-      "sector": "Professional Services",
-      "discovered": "2026-07-26T11:27:51.221318+00:00",
-      "attack_date": "2026-07-26T11:27:22.278181+00:00",
-      "website": "",
-      "description": "+351 262187684 , CreateInfor is a company that operates in the Repair Services industry. It employs 10to19 people and has 500Kto1M of revenue. The company is headquartered in Caldas da Rainha, Leiria, Portugal. Stolen: --",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#createinfor.pt",
-      "monitored": false
-    },
-    {
-      "victim": "servicebypremier.com",
-      "group": "m3rx",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-07-26T11:27:00.921115+00:00",
-      "attack_date": "2026-07-26T11:26:31.749822+00:00",
-      "website": "",
-      "description": "+1(954) 646-0016 , This local HVAC and Refrigeration company, established in 2007, provides services across South Florida, from Florida City to Port St. Lucie. They specialize in commercial HVAC and refrigeration repairs, including maintenance for A/C and refrigeration equipment. The company prides ",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#servicebypremier.com",
       "monitored": true
     }
   ],
@@ -3426,8 +3426,8 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 78,
-    "unique_groups": 20,
+    "monitored_victims": 79,
+    "unique_groups": 22,
     "unique_countries": 29,
     "by_country": {
       "United States": 50,
@@ -3442,6 +3442,7 @@
       "India": 2,
       "Canada": 2,
       "Brazil": 2,
+      "Malaysia": 1,
       "Turkey": 1,
       "Unknown": 1,
       "Switzerland": 1,
@@ -3457,8 +3458,7 @@
       "South Korea": 1,
       "CY": 1,
       "IQ": 1,
-      "RO": 1,
-      "Portugal": 1
+      "RO": 1
     },
     "by_group": {
       "Global Secret Group": 29,
@@ -3467,12 +3467,13 @@
       "safepay": 9,
       "qilin": 6,
       "incransom": 6,
-      "m3rx": 3,
       "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
       "anubis": 2,
       "dragonforce": 2,
+      "gunra": 1,
+      "aurora": 1,
       "blacknevas": 1,
       "thegentlemen": 1,
       "cmdorganization": 1,
@@ -3480,20 +3481,21 @@
       "akira": 1,
       "shinyhunters": 1,
       "ExfilSquad": 1,
-      "Section9": 1
+      "Section9": 1,
+      "m3rx": 1
     },
     "by_sector": {
       "Technology": 20,
-      "Manufacturing": 12,
-      "Professional Services": 12,
+      "Manufacturing": 13,
       "Healthcare": 11,
       "Retail & E-Commerce": 10,
+      "Professional Services": 10,
       "Financial Services": 8,
       "Not Found": 6,
+      "Hospitality": 5,
       "Other": 5,
       "Energy & Utilities": 5,
       "Education": 4,
-      "Hospitality": 4,
       "Transportation": 3
     }
   },
