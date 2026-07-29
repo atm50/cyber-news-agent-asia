@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-29T10:39:55.007617+00:00",
+  "last_updated_utc": "2026-07-29T13:01:53.447559+00:00",
   "victims": [
+    {
+      "victim": "StellarRAD Systems",
+      "group": "spacebears",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-07-29T11:03:26.457397+00:00",
+      "attack_date": "2026-07-29T11:03:03.994681+00:00",
+      "website": "",
+      "description": "Since 1981, StellarRAD Systems exists to solve the critical issues facing our clients, both large and small. We provide a broad range of services and solutions to help telecommunications providers around the world facilitate change and achieve their vision while optimizing performance and productivi",
+      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/64/stellarrad-systems",
+      "monitored": true
+    },
     {
       "victim": "Weilhotel",
       "group": "gunra",
@@ -1188,18 +1200,6 @@
       "description": "+44 1142764430 , VHS Hydraulics is a prominent supplier of hydraulic components and power packs, featuring products from renowned brands like Rexroth, Walvoil, and Casappa. With over 25 years of experience, they specialize in engineering bespoke power packs for demanding applications. Based in Sheff",
       "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#hydraulic-components.net",
       "monitored": true
-    },
-    {
-      "victim": "createinfor.pt",
-      "group": "m3rx",
-      "country": "Portugal",
-      "sector": "Professional Services",
-      "discovered": "2026-07-26T11:27:51.221318+00:00",
-      "attack_date": "2026-07-26T11:27:22.278181+00:00",
-      "website": "",
-      "description": "+351 262187684 , CreateInfor is a company that operates in the Repair Services industry. It employs 10to19 people and has 500Kto1M of revenue. The company is headquartered in Caldas da Rainha, Leiria, Portugal. Stolen: --",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#createinfor.pt",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3426,11 +3426,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 79,
-    "unique_groups": 22,
-    "unique_countries": 29,
+    "monitored_victims": 80,
+    "unique_groups": 23,
+    "unique_countries": 28,
     "by_country": {
-      "United States": 50,
+      "United States": 51,
       "Germany": 9,
       "United Kingdom": 6,
       "Spain": 2,
@@ -3457,8 +3457,7 @@
       "United Arab Emirates": 1,
       "South Korea": 1,
       "CY": 1,
-      "IQ": 1,
-      "Portugal": 1
+      "IQ": 1
     },
     "by_group": {
       "Global Secret Group": 29,
@@ -3472,7 +3471,7 @@
       "termite": 2,
       "anubis": 2,
       "dragonforce": 2,
-      "m3rx": 2,
+      "spacebears": 1,
       "gunra": 1,
       "aurora": 1,
       "blacknevas": 1,
@@ -3482,14 +3481,15 @@
       "akira": 1,
       "shinyhunters": 1,
       "ExfilSquad": 1,
-      "Section9": 1
+      "Section9": 1,
+      "m3rx": 1
     },
     "by_sector": {
-      "Technology": 20,
+      "Technology": 21,
       "Manufacturing": 13,
       "Healthcare": 11,
-      "Professional Services": 11,
       "Retail & E-Commerce": 10,
+      "Professional Services": 10,
       "Financial Services": 8,
       "Not Found": 6,
       "Hospitality": 5,
