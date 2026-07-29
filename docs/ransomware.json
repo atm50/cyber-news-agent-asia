@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-29T15:50:13.069303+00:00",
+  "last_updated_utc": "2026-07-29T17:15:51.133798+00:00",
   "victims": [
     {
       "victim": "****.com.pa",
@@ -24,6 +24,18 @@
       "description": "Since 1981, StellarRAD Systems exists to solve the critical issues facing our clients, both large and small. We provide a broad range of services and solutions to help telecommunications providers around the world facilitate change and achieve their vision while optimizing performance and productivi",
       "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/64/stellarrad-systems",
       "monitored": true
+    },
+    {
+      "victim": "harwal.net",
+      "group": "incransom",
+      "country": "United Arab Emirates",
+      "sector": "Not Found",
+      "discovered": "2026-07-29T16:26:22.220887+00:00",
+      "attack_date": "2026-07-29T09:00:00+00:00",
+      "website": "",
+      "description": "Harwal.net\r \r Harwal Group is the largest plastics recycler in the Middle East, founded in 1938, with an annual processing capacity of over 200,000 tons of plastics and metals.\r Manufacturing includes construction materials, pre-engineered building systems, industrial packaging, consumer goods, and ",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6a24085ae71db30c60bd45",
+      "monitored": false
     },
     {
       "victim": "Weilhotel",
@@ -1188,18 +1200,6 @@
       "description": "Country: Texas, United States |\nWebsite: novumenergy.com |\nRevenue: $966 Million |\nIndustry: Convenience Stores, Gas Stations & Liquor Stores |\nEmployees: 51-200 |\nProperties: 842 GB (971,325 Files, 117,085 Folders)",
       "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/14/",
       "monitored": true
-    },
-    {
-      "victim": "Deluxe Medical Supply",
-      "group": "dragonforce",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-07-26T17:22:30.292234+00:00",
-      "attack_date": "2026-07-26T17:14:21.204913+00:00",
-      "website": "",
-      "description": "Deluxe Medical Supply is a distributor of healthcare supplies that focuses on delivering quality home healthcare products and services. They provide a wide range of medical equipment, including mobility aids, incontinence supplies, and compression therapy garments, aimed at restoring independence an",
-      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=23ed9672-4fc8-4c75-ba59-f6e5d34941e2",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1242,6 +1242,12 @@
     {
       "name": "AiLock",
       "description": "AiLock is a ransomware operation that emerged in early 2025, marketing itself as AI-assisted ransomware using a hybrid ChaCha20/NTRUEncrypt encryption scheme and double-extortion tactics, actively recruiting affiliates and threatening regulatory reporting if ransoms are unpaid.",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "Aptlock",
+      "description": "",
       "locations": 1,
       "meta": ""
     },
@@ -3432,13 +3438,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 79,
+    "monitored_victims": 78,
     "unique_groups": 22,
     "unique_countries": 29,
     "by_country": {
-      "United States": 51,
+      "United States": 50,
       "Germany": 8,
       "United Kingdom": 6,
+      "United Arab Emirates": 2,
       "Unknown": 2,
       "Spain": 2,
       "Italy": 2,
@@ -3461,7 +3468,6 @@
       "Australia": 1,
       "AZ": 1,
       "Finland": 1,
-      "United Arab Emirates": 1,
       "South Korea": 1,
       "CY": 1,
       "IQ": 1
@@ -3471,7 +3477,7 @@
       "CRPxO": 20,
       "Deadlock": 9,
       "safepay": 9,
-      "incransom": 6,
+      "incransom": 7,
       "qilin": 4,
       "Section9": 2,
       "akira": 2,
@@ -3479,7 +3485,6 @@
       "Booba Project": 2,
       "termite": 2,
       "anubis": 2,
-      "dragonforce": 2,
       "spacebears": 1,
       "gunra": 1,
       "aurora": 1,
@@ -3488,16 +3493,17 @@
       "cmdorganization": 1,
       "coinbasecartel": 1,
       "shinyhunters": 1,
+      "dragonforce": 1,
       "ExfilSquad": 1
     },
     "by_sector": {
       "Technology": 21,
       "Manufacturing": 12,
-      "Healthcare": 11,
+      "Healthcare": 10,
       "Retail & E-Commerce": 10,
       "Professional Services": 9,
+      "Not Found": 8,
       "Financial Services": 8,
-      "Not Found": 7,
       "Hospitality": 6,
       "Other": 5,
       "Energy & Utilities": 5,
