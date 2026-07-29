@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-28T22:59:53.911409+00:00",
+  "last_updated_utc": "2026-07-29T00:05:44.984111+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -70,6 +70,78 @@
       "first_seen": "2026-03-04 14:28:39",
       "last_seen": "",
       "country": "JP"
+    },
+    {
+      "value": "http://42.237.34.50:37654/bin.sh",
+      "type": "url",
+      "threat": "2026-07-28 23:58:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3893194/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-28 23:58:27",
+      "status": "online"
+    },
+    {
+      "value": "http://36.70.229.45:50390/i",
+      "type": "url",
+      "threat": "2026-07-28 23:50:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3893193/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-28 23:50:25",
+      "status": "online"
+    },
+    {
+      "value": "http://110.36.80.170:45483/bin.sh",
+      "type": "url",
+      "threat": "2026-07-28 23:50:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3893192/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-28 23:50:24",
+      "status": "online"
+    },
+    {
+      "value": "http://61.53.133.47:33333/i",
+      "type": "url",
+      "threat": "2026-07-28 23:43:21",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3893191/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-28 23:43:21",
+      "status": "online"
+    },
+    {
+      "value": "http://59.103.121.32:38872/i",
+      "type": "url",
+      "threat": "2026-07-28 23:33:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3893190/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-28 23:33:15",
+      "status": "online"
+    },
+    {
+      "value": "http://36.70.229.45:50390/bin.sh",
+      "type": "url",
+      "threat": "2026-07-28 23:25:35",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3893189/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-07-28 23:25:35",
+      "status": "online"
     },
     {
       "value": "http://115.56.168.117:44708/i",
@@ -1800,78 +1872,6 @@
       "status": "offline"
     },
     {
-      "value": "https://pstbn.dev/01KYCR02EJ7DTA93SWY6H8PAAW",
-      "type": "url",
-      "threat": "2026-07-28 15:03:08",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3893044/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-07-28 15:03:08",
-      "status": "offline"
-    },
-    {
-      "value": "https://pstbn.dev/01KYHHJYFHH685H8TXNXRQG20A",
-      "type": "url",
-      "threat": "2026-07-28 15:03:07",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3893042/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-07-28 15:03:07",
-      "status": "offline"
-    },
-    {
-      "value": "https://pstbn.dev/01KYHVWWTV8Z93Y6G3A7QWKQ1S",
-      "type": "url",
-      "threat": "2026-07-28 15:03:07",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3893043/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-07-28 15:03:07",
-      "status": "offline"
-    },
-    {
-      "value": "https://pstbn.dev/01KYHN9KV0VHPQG19FK26F7WF1",
-      "type": "url",
-      "threat": "2026-07-28 15:03:06",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3893040/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-07-28 15:03:06",
-      "status": "offline"
-    },
-    {
-      "value": "https://pstbn.dev/01KYCN26DZSM0SAQ83JKV6V9BS",
-      "type": "url",
-      "threat": "2026-07-28 15:03:06",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3893041/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-07-28 15:03:06",
-      "status": "offline"
-    },
-    {
-      "value": "https://raw.githubusercontent.com/developmentteamx/developmenxxx/main/ChromeElevator.exe",
-      "type": "url",
-      "threat": "2026-07-28 20:08:51",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3893039/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-07-28 15:02:09",
-      "status": "online"
-    },
-    {
       "value": "100.23.213.128",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -3038,6 +3038,17 @@
       "first_seen": ""
     },
     {
+      "value": "2.58.46.146",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "2.63.211.145",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3159,6 +3170,17 @@
       "first_seen": ""
     },
     {
+      "value": "5.226.140.9",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.226.140.11",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3171,6 +3193,17 @@
     },
     {
       "value": "5.226.140.20",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.22",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -3214,6 +3247,17 @@
       "first_seen": ""
     },
     {
+      "value": "5.226.140.39",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.226.140.50",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3236,7 +3280,29 @@
       "first_seen": ""
     },
     {
+      "value": "5.226.140.58",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.226.140.61",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.238.111.68",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -3280,6 +3346,17 @@
       "first_seen": ""
     },
     {
+      "value": "8.221.139.48",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "12.133.64.178",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3302,7 +3379,40 @@
       "first_seen": ""
     },
     {
+      "value": "13.89.124.221",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "13.219.1.233",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "13.220.107.9",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "14.155.108.255",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -3412,6 +3522,17 @@
       "first_seen": ""
     },
     {
+      "value": "20.15.162.180",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "20.15.162.215",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3434,7 +3555,40 @@
       "first_seen": ""
     },
     {
+      "value": "20.40.250.17",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.46.228.199",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "20.46.231.161",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.51.234.214",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -3512,6 +3666,28 @@
     },
     {
       "value": "20.65.154.117",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.65.193.127",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.65.193.252",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -3621,6 +3797,39 @@
       "first_seen": ""
     },
     {
+      "value": "20.118.208.65",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.121.67.158",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.163.5.58",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "20.163.6.104",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3676,7 +3885,40 @@
       "first_seen": ""
     },
     {
+      "value": "20.168.6.88",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "20.168.121.239",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.168.122.3",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "20.169.49.156",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -3764,6 +4006,17 @@
       "first_seen": ""
     },
     {
+      "value": "31.14.254.20",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "31.14.254.24",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -3809,259 +4062,6 @@
     },
     {
       "value": "31.14.254.34",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "31.14.254.60",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "31.28.9.212",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "31.58.236.100",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "31.58.236.217",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "31.187.74.54",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "31.223.56.131",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.14.23.4",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.22.135.105",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.22.137.187",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.38.47.118",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.52.247.135",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.53.148.161",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.53.244.63",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.62.8.61",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.62.124.214",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.62.178.60",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.73.219.181",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.76.52.147",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.76.175.49",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.76.214.95",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.77.46.134",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.77.217.12",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "34.78.120.132",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -4511,7 +4511,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-23- New-Rhadamant-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-23-%20New-Rhadamant-Campaign.txt",
-      "article_date": "2026-07-28T22:59:52.292461+00:00",
+      "article_date": "2026-07-29T00:05:43.312645+00:00",
       "context": "refd.net\r\n- rlngcentrel.com\r\n\r\nSHA256 hashes\r\n- krita.dll - 9b0e4e6aa169eb51ffc127edd62afb405bffa8ac74172f0df256ffffa028"
     },
     {
@@ -4520,7 +4520,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
-      "article_date": "2026-07-28T22:59:53.409724+00:00",
+      "article_date": "2026-07-29T00:05:44.482455+00:00",
       "context": "hese domains are co-hosted on two distinct hosting servers: 95.163.244.138 and 212.192.14.75. \r\n     - This indicates so"
     },
     {
@@ -4529,7 +4529,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
-      "article_date": "2026-07-28T22:59:53.409724+00:00",
+      "article_date": "2026-07-29T00:05:44.482455+00:00",
       "context": "-hosted on two distinct hosting servers: 95.163.244.138 and 212.192.14.75. \r\n     - This indicates some level of automat"
     },
     {
@@ -4538,7 +4538,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
-      "article_date": "2026-07-28T22:59:53.409724+00:00",
+      "article_date": "2026-07-29T00:05:44.482455+00:00",
       "context": " gusenvpn.online     \r\n- spidervpn.online\r\n\r\nServer IPs:\r\n- 103.35.189.225\r\n- 5.180.30.122\r\n- 185.252.215.98\r\n- 103.35.1"
     },
     {
@@ -4547,7 +4547,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
-      "article_date": "2026-07-28T22:59:53.409724+00:00",
+      "article_date": "2026-07-29T00:05:44.482455+00:00",
       "context": "   \r\n- spidervpn.online\r\n\r\nServer IPs:\r\n- 103.35.189.225\r\n- 5.180.30.122\r\n- 185.252.215.98\r\n- 103.35.191.173\r\n- 178.130."
     },
     {
@@ -4556,7 +4556,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
-      "article_date": "2026-07-28T22:59:53.409724+00:00",
+      "article_date": "2026-07-29T00:05:44.482455+00:00",
       "context": ".online\r\n\r\nServer IPs:\r\n- 103.35.189.225\r\n- 5.180.30.122\r\n- 185.252.215.98\r\n- 103.35.191.173\r\n- 178.130.47.129\r\n- 45.89."
     },
     {
@@ -4565,7 +4565,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-21-Proliferation-of-AI-Generated-Fake-VPN-Extensions.txt",
-      "article_date": "2026-07-28T22:59:53.409724+00:00",
+      "article_date": "2026-07-29T00:05:44.482455+00:00",
       "context": "IPs:\r\n- 103.35.189.225\r\n- 5.180.30.122\r\n- 185.252.215.98\r\n- 103.35.191.173\r\n- 178.130.47.129\r\n- 45.89.110.227\r\n- 80.92.2"
     }
   ],

@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-28T22:59:55.529424+00:00",
+  "last_updated_utc": "2026-07-29T00:05:46.567991+00:00",
   "victims": [
+    {
+      "victim": "AHENK lab",
+      "group": "Deadlock",
+      "country": "Turkey",
+      "sector": "Technology",
+      "discovered": "2026-07-28T23:50:22.347267+00:00",
+      "attack_date": "2026-07-28T23:50:20.215480+00:00",
+      "website": "",
+      "description": "Ahenk Laboratuvarı is an ISO 15189-accredited medical laboratory in Turkey, founded in 1998 and located in Istanbul-Şişli. The company offers services in clinical biochemistry, microbiology, pathology, and genetics, and collaborates with Limbach Laboratories in Germany.",
+      "claim_url": "https://www.ransomware.live/id/QUhFTksgbGFiQERlYWRsb2Nr",
+      "monitored": false
+    },
     {
       "victim": "Hoc",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "+1(954) 646-0016 , This local HVAC and Refrigeration company, established in 2007, provides services across South Florida, from Florida City to Port St. Lucie. They specialize in commercial HVAC and refrigeration repairs, including maintenance for A/C and refrigeration equipment. The company prides ",
       "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#servicebypremier.com",
-      "monitored": true
-    },
-    {
-      "victim": "Analog Devices",
-      "group": "ExfilSquad",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-07-26T10:26:24.968894+00:00",
-      "attack_date": "2026-07-26T10:26:23.803003+00:00",
-      "website": "",
-      "description": "Revenue: $12.7B\n\nDATA SUMMARY:\n570K~ records containing: customer PII and addresses.",
-      "claim_url": "https://www.ransomware.live/id/QW5hbG9nIERldmljZXNARXhmaWxTcXVhZA==",
       "monitored": true
     }
   ],
@@ -3426,11 +3426,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 79,
+    "monitored_victims": 78,
     "unique_groups": 20,
-    "unique_countries": 28,
+    "unique_countries": 29,
     "by_country": {
-      "United States": 51,
+      "United States": 50,
       "Germany": 9,
       "United Kingdom": 6,
       "Spain": 2,
@@ -3442,6 +3442,7 @@
       "India": 2,
       "Canada": 2,
       "Brazil": 2,
+      "Turkey": 1,
       "Unknown": 1,
       "Switzerland": 1,
       "CO": 1,
@@ -3462,8 +3463,8 @@
     "by_group": {
       "Global Secret Group": 29,
       "CRPxO": 20,
+      "Deadlock": 9,
       "safepay": 9,
-      "Deadlock": 8,
       "qilin": 6,
       "incransom": 6,
       "m3rx": 3,
@@ -3472,13 +3473,13 @@
       "termite": 2,
       "anubis": 2,
       "dragonforce": 2,
-      "ExfilSquad": 2,
       "blacknevas": 1,
       "thegentlemen": 1,
       "cmdorganization": 1,
       "coinbasecartel": 1,
       "akira": 1,
       "shinyhunters": 1,
+      "ExfilSquad": 1,
       "Section9": 1
     },
     "by_sector": {
