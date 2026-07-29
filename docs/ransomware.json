@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-29T13:01:53.447559+00:00",
+  "last_updated_utc": "2026-07-29T15:50:13.069303+00:00",
   "victims": [
+    {
+      "victim": "****.com.pa",
+      "group": "Section9",
+      "country": "PA",
+      "sector": "Not Found",
+      "discovered": "2026-07-29T13:20:57.472696+00:00",
+      "attack_date": "2026-07-29T13:20:40.229480+00:00",
+      "website": "",
+      "description": "TRAVEL",
+      "claim_url": "http://v76bdil3v7hczufr7kwk75eq6oks27d3qwj6v5ajj6v6rubbvwhcq2qd.onion/post/898fa9b128c4eeb7",
+      "monitored": false
+    },
     {
       "victim": "StellarRAD Systems",
       "group": "spacebears",
@@ -24,6 +36,18 @@
       "description": "Sector: Hotel | Revenue: US$ 5,000,000",
       "claim_url": "https://www.ransomware.live/id/V2VpbGhvdGVsQGd1bnJh",
       "monitored": true
+    },
+    {
+      "victim": "Northwood Country Club",
+      "group": "akira",
+      "country": "",
+      "sector": "Hospitality",
+      "discovered": "2026-07-29T13:50:57.407088+00:00",
+      "attack_date": "2026-07-29T00:00:00+00:00",
+      "website": "",
+      "description": "Northwood Country Club is a private club located in Meridian, Mississippi, known for its beauti\nful facilities and convenient city location. The club offers a range of amenities including cha\nmpionship golf, clubhouse dining, swimming pool, tennis, and fitness services.\n\nWe will upload corporate dat",
+      "claim_url": "https://www.ransomware.live/id/Tm9ydGh3b29kIENvdW50cnkgQ2x1YkBha2lyYQ==",
+      "monitored": false
     },
     {
       "victim": "Bretford Manufacturing",
@@ -1176,30 +1200,6 @@
       "description": "Deluxe Medical Supply is a distributor of healthcare supplies that focuses on delivering quality home healthcare products and services. They provide a wide range of medical equipment, including mobility aids, incontinence supplies, and compression therapy garments, aimed at restoring independence an",
       "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=23ed9672-4fc8-4c75-ba59-f6e5d34941e2",
       "monitored": true
-    },
-    {
-      "victim": "Contacto Garantido",
-      "group": "qilin",
-      "country": "Mexico",
-      "sector": "Professional Services",
-      "discovered": "2026-07-26T14:58:27.528259+00:00",
-      "attack_date": "2026-07-26T14:58:02.318080+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=c80be6d9-9f48-4983-8d7d-a66e4387bdac",
-      "monitored": false
-    },
-    {
-      "victim": "hydraulic-components.net",
-      "group": "m3rx",
-      "country": "Germany",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-26T11:28:39.760589+00:00",
-      "attack_date": "2026-07-26T11:28:10.440235+00:00",
-      "website": "",
-      "description": "+44 1142764430 , VHS Hydraulics is a prominent supplier of hydraulic components and power packs, featuring products from renowned brands like Rexroth, Walvoil, and Casappa. With over 25 years of experience, they specialize in engineering bespoke power packs for demanding applications. Based in Sheff",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#hydraulic-components.net",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1375,6 +1375,12 @@
       "name": "Loki",
       "description": "",
       "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "NotPetya",
+      "description": "",
+      "locations": 0,
       "meta": ""
     },
     {
@@ -3426,26 +3432,27 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 80,
-    "unique_groups": 23,
-    "unique_countries": 28,
+    "monitored_victims": 79,
+    "unique_groups": 22,
+    "unique_countries": 29,
     "by_country": {
       "United States": 51,
-      "Germany": 9,
+      "Germany": 8,
       "United Kingdom": 6,
+      "Unknown": 2,
       "Spain": 2,
       "Italy": 2,
       "AR": 2,
-      "Mexico": 2,
       "France": 2,
       "China": 2,
       "India": 2,
       "Canada": 2,
       "Brazil": 2,
+      "PA": 1,
       "Malaysia": 1,
       "Turkey": 1,
-      "Unknown": 1,
       "Switzerland": 1,
+      "Mexico": 1,
       "CO": 1,
       "Russia": 1,
       "Thailand": 1,
@@ -3465,7 +3472,9 @@
       "Deadlock": 9,
       "safepay": 9,
       "incransom": 6,
-      "qilin": 5,
+      "qilin": 4,
+      "Section9": 2,
+      "akira": 2,
       "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
@@ -3478,21 +3487,18 @@
       "thegentlemen": 1,
       "cmdorganization": 1,
       "coinbasecartel": 1,
-      "akira": 1,
       "shinyhunters": 1,
-      "ExfilSquad": 1,
-      "Section9": 1,
-      "m3rx": 1
+      "ExfilSquad": 1
     },
     "by_sector": {
       "Technology": 21,
-      "Manufacturing": 13,
+      "Manufacturing": 12,
       "Healthcare": 11,
       "Retail & E-Commerce": 10,
-      "Professional Services": 10,
+      "Professional Services": 9,
       "Financial Services": 8,
-      "Not Found": 6,
-      "Hospitality": 5,
+      "Not Found": 7,
+      "Hospitality": 6,
       "Other": 5,
       "Energy & Utilities": 5,
       "Transportation": 3,
