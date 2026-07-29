@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-29T07:45:58.114722+00:00",
+  "last_updated_utc": "2026-07-29T10:39:55.007617+00:00",
   "victims": [
     {
       "victim": "Weilhotel",
@@ -1178,18 +1178,6 @@
       "monitored": false
     },
     {
-      "victim": "Universitatea de Vest „Vasile Goldiș” din Arad",
-      "group": "qilin",
-      "country": "RO",
-      "sector": "Education",
-      "discovered": "2026-07-26T14:29:53.747725+00:00",
-      "attack_date": "2026-07-26T14:29:30.902340+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1f231bbf-689b-4a64-be81-ee0b50e736ba",
-      "monitored": false
-    },
-    {
       "victim": "hydraulic-components.net",
       "group": "m3rx",
       "country": "Germany",
@@ -1200,6 +1188,18 @@
       "description": "+44 1142764430 , VHS Hydraulics is a prominent supplier of hydraulic components and power packs, featuring products from renowned brands like Rexroth, Walvoil, and Casappa. With over 25 years of experience, they specialize in engineering bespoke power packs for demanding applications. Based in Sheff",
       "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#hydraulic-components.net",
       "monitored": true
+    },
+    {
+      "victim": "createinfor.pt",
+      "group": "m3rx",
+      "country": "Portugal",
+      "sector": "Professional Services",
+      "discovered": "2026-07-26T11:27:51.221318+00:00",
+      "attack_date": "2026-07-26T11:27:22.278181+00:00",
+      "website": "",
+      "description": "+351 262187684 , CreateInfor is a company that operates in the Repair Services industry. It employs 10to19 people and has 500Kto1M of revenue. The company is headquartered in Caldas da Rainha, Leiria, Portugal. Stolen: --",
+      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#createinfor.pt",
+      "monitored": false
     }
   ],
   "groups": [
@@ -1284,7 +1284,7 @@
     {
       "name": "CRPxO",
       "description": "CRPxO is actively recruiting affiliates, offering:\n🔹 70% revenue share\n🔹 XMR/BTC payouts\n🔹 Claimed payouts within 24 hours\n🔹 $333 one-time affiliate access",
-      "locations": 2,
+      "locations": 4,
       "meta": ""
     },
     {
@@ -3458,20 +3458,21 @@
       "South Korea": 1,
       "CY": 1,
       "IQ": 1,
-      "RO": 1
+      "Portugal": 1
     },
     "by_group": {
       "Global Secret Group": 29,
       "CRPxO": 20,
       "Deadlock": 9,
       "safepay": 9,
-      "qilin": 6,
       "incransom": 6,
+      "qilin": 5,
       "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
       "anubis": 2,
       "dragonforce": 2,
+      "m3rx": 2,
       "gunra": 1,
       "aurora": 1,
       "blacknevas": 1,
@@ -3481,22 +3482,21 @@
       "akira": 1,
       "shinyhunters": 1,
       "ExfilSquad": 1,
-      "Section9": 1,
-      "m3rx": 1
+      "Section9": 1
     },
     "by_sector": {
       "Technology": 20,
       "Manufacturing": 13,
       "Healthcare": 11,
+      "Professional Services": 11,
       "Retail & E-Commerce": 10,
-      "Professional Services": 10,
       "Financial Services": 8,
       "Not Found": 6,
       "Hospitality": 5,
       "Other": 5,
       "Energy & Utilities": 5,
-      "Education": 4,
-      "Transportation": 3
+      "Transportation": 3,
+      "Education": 3
     }
   },
   "errors": []
