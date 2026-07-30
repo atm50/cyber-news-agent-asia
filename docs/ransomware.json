@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-30T11:52:48.369734+00:00",
+  "last_updated_utc": "2026-07-30T14:02:03.426923+00:00",
   "victims": [
     {
       "victim": "Collge Mont Notre-Dame de Sherbrooke",
@@ -144,6 +144,18 @@
       "description": "**Website**: yueki.com.tw\n\n**Revenue**: $21 Million\n\nYue Ki Industrial is a manufacturing company that creates high-quality industrial products for businesses. They work with metal, plastic, and other",
       "claim_url": "https://www.ransomware.live/id/WXVlIEtpIEluZHVzdHJpYWxAbW9ycGhldXM=",
       "monitored": false
+    },
+    {
+      "victim": "sslf.local",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-07-30T12:57:51.104865+00:00",
+      "attack_date": "2026-07-30T05:28:00+00:00",
+      "website": "",
+      "description": "Samuels & Thornton is a law firm based in New Orleans, specializing in medical malpractice and personal injury cases. They provide personalized legal guidance to individuals, families, and businesses facing legal challenges, ensuring that each client receives dedicated attention from experienced att",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b426a5ae71db30c84c336",
+      "monitored": true
     },
     {
       "victim": "TenSparrows",
@@ -1188,18 +1200,6 @@
       "description": "West African Resources Limited (ASX: WAF) isan Australia-based, mid-tier gold mining and exploration companywith its primary operations located in Burkina Faso, West Africa . Founded in 2006, the company is headquartered in Subiaco, Western Australia, and focuses on the acquisition, development, and",
       "claim_url": "https://www.ransomware.live/id/V2VzdCBBZnJpY2FuIFJlc291cmNlcyBsdGRARGVhZGxvY2s=",
       "monitored": true
-    },
-    {
-      "victim": "Caspian One",
-      "group": "Deadlock",
-      "country": "AZ",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-07-26T19:20:59.978436+00:00",
-      "attack_date": "2026-07-26T19:20:58.520856+00:00",
-      "website": "",
-      "description": "Caspian One is an international provider of IT services and specialist talent for industries such as FinTech investment banking and broadcasting. Based in England the company offers professional recruitment and managed technology solutions and operates in Europe and North America.",
-      "claim_url": "https://www.ransomware.live/id/Q2FzcGlhbiBPbmVARGVhZGxvY2s=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3438,11 +3438,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 73,
+    "monitored_victims": 74,
     "unique_groups": 24,
-    "unique_countries": 30,
+    "unique_countries": 29,
     "by_country": {
-      "United States": 45,
+      "United States": 46,
       "Germany": 8,
       "United Kingdom": 6,
       "India": 5,
@@ -3470,16 +3470,15 @@
       "China": 1,
       "Russia": 1,
       "Ireland": 1,
-      "Australia": 1,
-      "AZ": 1
+      "Australia": 1
     },
     "by_group": {
       "CRPxO": 20,
       "qilin": 14,
       "thegentlemen": 10,
-      "Deadlock": 9,
       "safepay": 9,
-      "incransom": 7,
+      "incransom": 8,
+      "Deadlock": 8,
       "aurora": 4,
       "cmdorganization": 3,
       "Global Secret Group": 3,
@@ -3502,7 +3501,7 @@
     "by_sector": {
       "Technology": 18,
       "Manufacturing": 17,
-      "Not Found": 9,
+      "Not Found": 10,
       "Healthcare": 9,
       "Professional Services": 8,
       "Financial Services": 6,
@@ -3511,7 +3510,7 @@
       "Retail & E-Commerce": 6,
       "Transportation": 5,
       "Education": 4,
-      "Energy & Utilities": 3,
+      "Energy & Utilities": 2,
       "Government & Defense": 2,
       "Agriculture and Food Production": 1
     }
