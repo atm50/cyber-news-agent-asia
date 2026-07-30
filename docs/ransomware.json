@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-30T14:02:03.426923+00:00",
+  "last_updated_utc": "2026-07-30T16:27:35.291115+00:00",
   "victims": [
+    {
+      "victim": "Contact Group",
+      "group": "cmdorganization",
+      "country": "Australia",
+      "sector": "Professional Services",
+      "discovered": "2026-07-30T14:20:18.565100+00:00",
+      "attack_date": "2026-07-30T14:20:16.545269+00:00",
+      "website": "",
+      "description": "Contact Group is a proudly Tasmanian company specializing in building services and multi-technology solutions. They offer award-winning services across various divisions, including electrical and communications, HVAC-R, infrastructure, fire, technology, security, plumbing, and facilities maintenance",
+      "claim_url": "https://www.ransomware.live/id/Q29udGFjdCBHcm91cEBjbWRvcmdhbml6YXRpb24=",
+      "monitored": true
+    },
     {
       "victim": "Collge Mont Notre-Dame de Sherbrooke",
       "group": "cmdorganization",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Country: Canada |\nWebsite: spergel.ca |\nRevenue: $28.2 Million |\nIndustry: Business Services,Project Management |\nEmployees: 51-200 |\nProperties: 5.4 TB (7,830,792 Files, 902,844 Folders)",
       "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/29/",
-      "monitored": true
-    },
-    {
-      "victim": "West African Resources ltd",
-      "group": "Deadlock",
-      "country": "Australia",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-07-26T19:21:20.232704+00:00",
-      "attack_date": "2026-07-26T19:21:18.991314+00:00",
-      "website": "",
-      "description": "West African Resources Limited (ASX: WAF) isan Australia-based, mid-tier gold mining and exploration companywith its primary operations located in Burkina Faso, West Africa . Founded in 2006, the company is headquartered in Subiaco, Western Australia, and focuses on the acquisition, development, and",
-      "claim_url": "https://www.ransomware.live/id/V2VzdCBBZnJpY2FuIFJlc291cmNlcyBsdGRARGVhZGxvY2s=",
       "monitored": true
     }
   ],
@@ -3456,6 +3456,7 @@
       "Malaysia": 2,
       "Italy": 2,
       "France": 2,
+      "Australia": 1,
       "EC": 1,
       "Taiwan": 1,
       "New Zealand": 1,
@@ -3469,8 +3470,7 @@
       "CO": 1,
       "China": 1,
       "Russia": 1,
-      "Ireland": 1,
-      "Australia": 1
+      "Ireland": 1
     },
     "by_group": {
       "CRPxO": 20,
@@ -3478,9 +3478,9 @@
       "thegentlemen": 10,
       "safepay": 9,
       "incransom": 8,
-      "Deadlock": 8,
+      "Deadlock": 7,
+      "cmdorganization": 4,
       "aurora": 4,
-      "cmdorganization": 3,
       "Global Secret Group": 3,
       "gunra": 2,
       "akira": 2,
@@ -3502,17 +3502,17 @@
       "Technology": 18,
       "Manufacturing": 17,
       "Not Found": 10,
+      "Professional Services": 9,
       "Healthcare": 9,
-      "Professional Services": 8,
       "Financial Services": 6,
       "Other": 6,
       "Hospitality": 6,
       "Retail & E-Commerce": 6,
       "Transportation": 5,
       "Education": 4,
-      "Energy & Utilities": 2,
       "Government & Defense": 2,
-      "Agriculture and Food Production": 1
+      "Agriculture and Food Production": 1,
+      "Energy & Utilities": 1
     }
   },
   "errors": []
