@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-07-30T09:31:55.338266+00:00",
+  "last_updated_utc": "2026-07-30T11:52:48.369734+00:00",
   "victims": [
+    {
+      "victim": "Collge Mont Notre-Dame de Sherbrooke",
+      "group": "cmdorganization",
+      "country": "Canada",
+      "sector": "Education",
+      "discovered": "2026-07-30T10:20:18.511242+00:00",
+      "attack_date": "2026-07-30T10:20:16.953383+00:00",
+      "website": "",
+      "description": "Le Mont Notre-Dame is a private secondary school for girls located in Sherbrooke, specializing in international education. With over 160 years of experience, it offers a unique pedagogy that emphasizes female success and empowerment. The school provides a wide range of programs, including arts, lang",
+      "claim_url": "https://www.ransomware.live/id/Q29sbGdlIE1vbnQgTm90cmUtRGFtZSBkZSBTaGVyYnJvb2tlQGNtZG9yZ2FuaXphdGlvbg==",
+      "monitored": true
+    },
+    {
+      "victim": "Db Tarimsal Enerji",
+      "group": "qilin",
+      "country": "Turkey",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-07-30T09:58:56.421900+00:00",
+      "attack_date": "2026-07-30T09:58:33.274630+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=307ffce1-021d-4e41-88d8-2e860203c0d0",
+      "monitored": false
+    },
     {
       "victim": "Rondout Electric",
       "group": "cmdorganization",
@@ -120,6 +144,18 @@
       "description": "**Website**: yueki.com.tw\n\n**Revenue**: $21 Million\n\nYue Ki Industrial is a manufacturing company that creates high-quality industrial products for businesses. They work with metal, plastic, and other",
       "claim_url": "https://www.ransomware.live/id/WXVlIEtpIEluZHVzdHJpYWxAbW9ycGhldXM=",
       "monitored": false
+    },
+    {
+      "victim": "TenSparrows",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-07-30T10:59:55.758950+00:00",
+      "attack_date": "2026-07-30T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=208dc842-462f-4698-8012-4c775d4230af",
+      "monitored": true
     },
     {
       "victim": "Warwick Fabrics",
@@ -1164,42 +1200,6 @@
       "description": "Caspian One is an international provider of IT services and specialist talent for industries such as FinTech investment banking and broadcasting. Based in England the company offers professional recruitment and managed technology solutions and operates in Europe and North America.",
       "claim_url": "https://www.ransomware.live/id/Q2FzcGlhbiBPbmVARGVhZGxvY2s=",
       "monitored": false
-    },
-    {
-      "victim": "********.com.br",
-      "group": "Section9",
-      "country": "Brazil",
-      "sector": "Not Found",
-      "discovered": "2026-07-26T18:47:26.697113+00:00",
-      "attack_date": "2026-07-26T18:47:24.892603+00:00",
-      "website": "",
-      "description": "MINING",
-      "claim_url": "/post/a0d8e6d2971e253e",
-      "monitored": true
-    },
-    {
-      "victim": "Prism Telecom",
-      "group": "Global Secret Group",
-      "country": "Finland",
-      "sector": "Technology",
-      "discovered": "2026-07-26T18:14:42.968027+00:00",
-      "attack_date": "2026-07-26T18:14:37.599023+00:00",
-      "website": "",
-      "description": "Backbone network traffic analysis and SS7 protocol vulnerability assessment across 3 continents.",
-      "claim_url": "https://www.ransomware.live/id/UHJpc20gVGVsZWNvbUBHbG9iYWwgU2VjcmV0IEdyb3Vw",
-      "monitored": false
-    },
-    {
-      "victim": "Cipher Dynamics",
-      "group": "Global Secret Group",
-      "country": "India",
-      "sector": "Technology",
-      "discovered": "2026-07-26T18:14:19.490300+00:00",
-      "attack_date": "2026-07-26T18:14:17.688821+00:00",
-      "website": "",
-      "description": "Zero-trust architecture review and cryptographic key management assessment.",
-      "claim_url": "https://www.ransomware.live/id/Q2lwaGVyIER5bmFtaWNzQEdsb2JhbCBTZWNyZXQgR3JvdXA=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3440,12 +3440,14 @@
     "total_victims": 100,
     "monitored_victims": 73,
     "unique_groups": 24,
-    "unique_countries": 32,
+    "unique_countries": 30,
     "by_country": {
-      "United States": 44,
+      "United States": 45,
       "Germany": 8,
       "United Kingdom": 6,
-      "India": 6,
+      "India": 5,
+      "Canada": 2,
+      "Turkey": 2,
       "Mexico": 2,
       "Thailand": 2,
       "CL": 2,
@@ -3460,7 +3462,6 @@
       "PE": 1,
       "PA": 1,
       "United Arab Emirates": 1,
-      "Turkey": 1,
       "Unknown": 1,
       "Spain": 1,
       "Switzerland": 1,
@@ -3469,24 +3470,20 @@
       "China": 1,
       "Russia": 1,
       "Ireland": 1,
-      "Canada": 1,
       "Australia": 1,
-      "AZ": 1,
-      "Brazil": 1,
-      "Finland": 1
+      "AZ": 1
     },
     "by_group": {
       "CRPxO": 20,
-      "qilin": 12,
+      "qilin": 14,
       "thegentlemen": 10,
       "Deadlock": 9,
       "safepay": 9,
       "incransom": 7,
-      "Global Secret Group": 5,
       "aurora": 4,
-      "cmdorganization": 2,
+      "cmdorganization": 3,
+      "Global Secret Group": 3,
       "gunra": 2,
-      "Section9": 2,
       "akira": 2,
       "chaos": 2,
       "Booba Project": 2,
@@ -3494,6 +3491,7 @@
       "anubis": 2,
       "morpheus": 1,
       "kairos": 1,
+      "Section9": 1,
       "spacebears": 1,
       "blacknevas": 1,
       "coinbasecartel": 1,
@@ -3502,7 +3500,7 @@
       "ExfilSquad": 1
     },
     "by_sector": {
-      "Technology": 20,
+      "Technology": 18,
       "Manufacturing": 17,
       "Not Found": 9,
       "Healthcare": 9,
@@ -3512,9 +3510,10 @@
       "Hospitality": 6,
       "Retail & E-Commerce": 6,
       "Transportation": 5,
+      "Education": 4,
       "Energy & Utilities": 3,
-      "Education": 3,
-      "Government & Defense": 2
+      "Government & Defense": 2,
+      "Agriculture and Food Production": 1
     }
   },
   "errors": []
