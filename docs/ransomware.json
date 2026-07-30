@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-30T20:15:16.216038+00:00",
+  "last_updated_utc": "2026-07-30T22:09:33.529323+00:00",
   "victims": [
+    {
+      "victim": "Audio Precision, Inc",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-07-30T20:29:19.558231+00:00",
+      "attack_date": "2026-07-30T20:29:01.467875+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=f37de6ed-24ab-4da1-b31f-9d1ea5fd2727",
+      "monitored": true
+    },
     {
       "victim": "AguAseo",
       "group": "Gammax",
@@ -191,6 +203,30 @@
       "website": "",
       "description": "PARTNERED HEALTH GROUP — Australia\r ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\r \r Industry:       Healthcare — Primary Care, Occupational Health, \r                 Psychology, Telehealth\r Headquarters:   Australia (NSW, QLD, VIC, WA, ACT)\r Owner:          Quadrant Private Equity\r Clinics:    ",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b75a95ae71db30c8b0b19",
+      "monitored": true
+    },
+    {
+      "victim": "Boyum IT Solutions (HOT!)",
+      "group": "genesis",
+      "country": "Denmark",
+      "sector": "Technology",
+      "discovered": "2026-07-30T21:26:26.885557+00:00",
+      "attack_date": "2026-07-30T00:00:00+00:00",
+      "website": "",
+      "description": "A provider of IT services",
+      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/79f095d5b182ce93bae4/",
+      "monitored": false
+    },
+    {
+      "victim": "C.A. Walker Construction",
+      "group": "genesis",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-07-30T21:25:51.301616+00:00",
+      "attack_date": "2026-07-30T00:00:00+00:00",
+      "website": "",
+      "description": "A construction management company",
+      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/55f3f0d90d424055e955/",
       "monitored": true
     },
     {
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=6435c147-970c-4b24-9f6b-3e04ac9dddad",
-      "monitored": true
-    },
-    {
-      "victim": "Wesco International",
-      "group": "ExfilSquad",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-26T23:50:39.165392+00:00",
-      "attack_date": "2026-07-26T23:50:38.308645+00:00",
-      "website": "",
-      "description": "Revenue: $24B\n\nDATA SUMMARY:\n2.6M~ records containing: customer and employee PII, account and contact data, CRM user profiles, credit and business identifiers, authentication metadata, and access information.",
-      "claim_url": "https://www.ransomware.live/id/V2VzY28gSW50ZXJuYXRpb25hbEBFeGZpbFNxdWFk",
-      "monitored": true
-    },
-    {
-      "victim": "Hinduja Tech | BMW Group & Škoda Auto",
-      "group": "Global Secret Group",
-      "country": "India",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-26T22:51:57.881062+00:00",
-      "attack_date": "2026-07-26T22:50:56.604143+00:00",
-      "website": "",
-      "description": "Country: India |\nWebsite: hindujatech.com |\nRevenue: $381 Million |\nIndustry: Engineering Services, Architecture, Engineering & Design, Product Engineering Solutions |\nEmployees: 2000-5000 |\nProperties: 515 GB (212,785 Files, 83,982 Folders)",
-      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/31/",
-      "monitored": true
-    },
-    {
-      "victim": "Pro-Tuff | Decals",
-      "group": "Global Secret Group",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-07-26T19:51:22.588009+00:00",
-      "attack_date": "2026-07-26T19:50:55.267968+00:00",
-      "website": "",
-      "description": "Country: Crystal Lake, US |\nWebsite: protuffdecals.com |\nRevenue: $9.6 million |\nIndustry: Business Services General, Business Services |\nEmployees: 10-20 |\nProperties: 412 GB (589,623 Files, 40,081 Folders)",
-      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/30/",
       "monitored": true
     }
   ],
@@ -3444,14 +3444,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 73,
-    "unique_groups": 26,
-    "unique_countries": 29,
+    "monitored_victims": 72,
+    "unique_groups": 25,
+    "unique_countries": 30,
     "by_country": {
       "United States": 45,
       "Germany": 8,
       "United Kingdom": 6,
-      "India": 5,
+      "India": 4,
       "CO": 2,
       "Australia": 2,
       "Turkey": 2,
@@ -3466,6 +3466,7 @@
       "Canada": 1,
       "EC": 1,
       "Taiwan": 1,
+      "Denmark": 1,
       "New Zealand": 1,
       "PE": 1,
       "PA": 1,
@@ -3480,7 +3481,7 @@
     },
     "by_group": {
       "CRPxO": 20,
-      "qilin": 14,
+      "qilin": 15,
       "thegentlemen": 10,
       "incransom": 9,
       "safepay": 9,
@@ -3488,11 +3489,11 @@
       "cmdorganization": 4,
       "aurora": 4,
       "gunra": 2,
+      "genesis": 2,
       "akira": 2,
       "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
-      "Global Secret Group": 2,
       "Gammax": 1,
       "morpheus": 1,
       "securotrop": 1,
@@ -3503,19 +3504,18 @@
       "anubis": 1,
       "coinbasecartel": 1,
       "shinyhunters": 1,
-      "dragonforce": 1,
-      "ExfilSquad": 1
+      "dragonforce": 1
     },
     "by_sector": {
-      "Technology": 18,
-      "Manufacturing": 18,
+      "Technology": 20,
+      "Manufacturing": 17,
       "Not Found": 10,
       "Healthcare": 10,
       "Professional Services": 8,
       "Financial Services": 6,
       "Other": 6,
-      "Retail & E-Commerce": 6,
       "Hospitality": 5,
+      "Retail & E-Commerce": 5,
       "Education": 4,
       "Transportation": 4,
       "Energy & Utilities": 2,
