@@ -1,16 +1,16 @@
 {
-  "last_updated_utc": "2026-07-30T18:16:39.536355+00:00",
+  "last_updated_utc": "2026-07-30T20:15:16.216038+00:00",
   "victims": [
     {
-      "victim": "And where does the newborn go from here? The net is vast and infinite.",
-      "group": "Section9",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-07-30T16:50:49.534959+00:00",
-      "attack_date": "2026-07-30T16:50:34.745094+00:00",
+      "victim": "AguAseo",
+      "group": "Gammax",
+      "country": "CO",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-07-30T20:10:17.968658+00:00",
+      "attack_date": "2026-07-30T14:28:59+00:00",
       "website": "",
-      "description": "SECTION9",
-      "claim_url": "http://v76bdil3v7hczufr7kwk75eq6oks27d3qwj6v5ajj6v6rubbvwhcq2qd.onion/post/170f41edbfce501b",
+      "description": "AguAseo is a Panamanian organization dedicated to maintaining cleanliness in the province of Colón. It provides solid waste collection and cleaning of...",
+      "claim_url": "http://gammax6w3dkfdjfrjthtmqzsioue52vzy6lz54qy6jcvmogfpubutjyd.onion/post/B48A6eknv0j8w2yJQLVCr3C4GH8DJF6x",
       "monitored": false
     },
     {
@@ -191,6 +191,18 @@
       "website": "",
       "description": "PARTNERED HEALTH GROUP — Australia\r ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\r \r Industry:       Healthcare — Primary Care, Occupational Health, \r                 Psychology, Telehealth\r Headquarters:   Australia (NSW, QLD, VIC, WA, ACT)\r Owner:          Quadrant Private Equity\r Clinics:    ",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b75a95ae71db30c8b0b19",
+      "monitored": true
+    },
+    {
+      "victim": "MAG USA Inc",
+      "group": "securotrop",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-07-30T18:58:23.518792+00:00",
+      "attack_date": "2026-07-30T00:00:00+00:00",
+      "website": "",
+      "description": "Status: AWAITING\nSize: 1871 GB",
+      "claim_url": "http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "Country: Crystal Lake, US |\nWebsite: protuffdecals.com |\nRevenue: $9.6 million |\nIndustry: Business Services General, Business Services |\nEmployees: 10-20 |\nProperties: 412 GB (589,623 Files, 40,081 Folders)",
       "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/30/",
       "monitored": true
-    },
-    {
-      "victim": "High Class Car Limo",
-      "group": "Deadlock",
-      "country": "United States",
-      "sector": "Transportation",
-      "discovered": "2026-07-26T19:50:23.006749+00:00",
-      "attack_date": "2026-07-26T19:50:21.273898+00:00",
-      "website": "",
-      "description": "High Class Limousine & Car Service Corp. is a licensed private passenger transportation service in New York City, founded in 1995, specializing in non-emergency medical transportation . The company provides rides to medical appointments, dialysis sessions, and rehabilitation facilities, and has loca",
-      "claim_url": "https://www.ransomware.live/id/SGlnaCBDbGFzcyBDYXIgTGltb0BEZWFkbG9jaw==",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1338,6 +1338,12 @@
     {
       "name": "GDLockerSec",
       "description": "Our team members are from different countries and we are not interested in anything else, we are only interested in dollars. We do not allow CIS, Cuba, North Korea and China to be targeted. Re-attacks are not allowed for target companies that have already made payments. We do not allow non-profit hospitals and some non-profit organizations be targeted.",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "Gammax",
+      "description": "",
       "locations": 1,
       "meta": ""
     },
@@ -3439,14 +3445,14 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 73,
-    "unique_groups": 24,
+    "unique_groups": 26,
     "unique_countries": 29,
     "by_country": {
       "United States": 45,
       "Germany": 8,
       "United Kingdom": 6,
       "India": 5,
-      "Unknown": 2,
+      "CO": 2,
       "Australia": 2,
       "Turkey": 2,
       "Mexico": 2,
@@ -3464,10 +3470,10 @@
       "PE": 1,
       "PA": 1,
       "United Arab Emirates": 1,
+      "Unknown": 1,
       "Spain": 1,
       "Switzerland": 1,
       "AR": 1,
-      "CO": 1,
       "China": 1,
       "Russia": 1,
       "Ireland": 1
@@ -3478,18 +3484,20 @@
       "thegentlemen": 10,
       "incransom": 9,
       "safepay": 9,
-      "Deadlock": 7,
+      "Deadlock": 6,
       "cmdorganization": 4,
       "aurora": 4,
-      "Section9": 2,
       "gunra": 2,
       "akira": 2,
       "chaos": 2,
       "Booba Project": 2,
       "termite": 2,
       "Global Secret Group": 2,
+      "Gammax": 1,
       "morpheus": 1,
+      "securotrop": 1,
       "kairos": 1,
+      "Section9": 1,
       "spacebears": 1,
       "blacknevas": 1,
       "anubis": 1,
@@ -3500,19 +3508,19 @@
     },
     "by_sector": {
       "Technology": 18,
-      "Manufacturing": 17,
-      "Not Found": 11,
+      "Manufacturing": 18,
+      "Not Found": 10,
       "Healthcare": 10,
       "Professional Services": 8,
       "Financial Services": 6,
       "Other": 6,
       "Retail & E-Commerce": 6,
-      "Transportation": 5,
       "Hospitality": 5,
       "Education": 4,
+      "Transportation": 4,
+      "Energy & Utilities": 2,
       "Government & Defense": 2,
-      "Agriculture and Food Production": 1,
-      "Energy & Utilities": 1
+      "Agriculture and Food Production": 1
     }
   },
   "errors": []
