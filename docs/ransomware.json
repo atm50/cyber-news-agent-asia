@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-31T15:21:05.800420+00:00",
+  "last_updated_utc": "2026-07-31T17:30:22.631182+00:00",
   "victims": [
+    {
+      "victim": "Lamont Pridmore",
+      "group": "dragonforce",
+      "country": "United Kingdom",
+      "sector": "Not Found",
+      "discovered": "2026-07-31T15:54:04.124458+00:00",
+      "attack_date": "2026-07-31T15:36:13.171267+00:00",
+      "website": "",
+      "description": "Lamont Pridmore is a leading independent chartered accountancy practice based in Carlisle, Cumbria, and Lancashire, offering a comprehensive range of accountancy, tax, and business advisory services. Their expertise spans various sectors including agriculture, tourism, and family businesses, caterin",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=b6be8d66-388e-4cc3-8e6d-f18008ed955a",
+      "monitored": true
+    },
     {
       "victim": "Gardiner Family Chiropractic",
       "group": "interlock",
@@ -287,6 +299,18 @@
       "website": "",
       "description": "PARTNERED HEALTH GROUP — Australia\r ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\r \r Industry:       Healthcare — Primary Care, Occupational Health, \r                 Psychology, Telehealth\r Headquarters:   Australia (NSW, QLD, VIC, WA, ACT)\r Owner:          Quadrant Private Equity\r Clinics:    ",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b75a95ae71db30c8b0b19",
+      "monitored": true
+    },
+    {
+      "victim": "****",
+      "group": "genesis",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-07-31T15:26:05.432118+00:00",
+      "attack_date": "2026-07-30T00:00:00+00:00",
+      "website": "",
+      "description": "A healthcare organization",
+      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/8134b54f8d2622fd7303/",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "Sector: Motorsport / Data Acquisition | Data leaked: 12.8 GB",
       "claim_url": "http://tlxoddx4odmc2qvsmtsbgwwsv5j45osb5sox7mz6izxliuju5mkulzad.onion/victim.php?slug=performance-data-solutions",
       "monitored": true
-    },
-    {
-      "victim": "Host & Protect (RedBlink)",
-      "group": "CRPxO",
-      "country": "Ireland",
-      "sector": "Technology",
-      "discovered": "2026-07-27T01:54:57.651461+00:00",
-      "attack_date": "2026-07-27T01:54:36.183876+00:00",
-      "website": "",
-      "description": "Sector: Web Hosting / Security | Data leaked: 156.2 GB",
-      "claim_url": "http://tlxoddx4odmc2qvsmtsbgwwsv5j45osb5sox7mz6izxliuju5mkulzad.onion/victim.php?slug=host-and-protect",
-      "monitored": false
-    },
-    {
-      "victim": "RnnR Cloud",
-      "group": "CRPxO",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-07-27T01:54:18.053785+00:00",
-      "attack_date": "2026-07-27T01:53:56.422672+00:00",
-      "website": "",
-      "description": "Sector: Technology / Cloud Services | Data leaked: 68.9 GB",
-      "claim_url": "http://tlxoddx4odmc2qvsmtsbgwwsv5j45osb5sox7mz6izxliuju5mkulzad.onion/victim.php?slug=rnnr-cloud",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1272,7 +1272,7 @@
     {
       "name": "Booba Project",
       "description": "Booba",
-      "locations": 2,
+      "locations": 3,
       "meta": ""
     },
     {
@@ -3450,13 +3450,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 72,
+    "monitored_victims": 73,
     "unique_groups": 26,
-    "unique_countries": 29,
+    "unique_countries": 28,
     "by_country": {
       "United States": 45,
       "Germany": 8,
-      "United Kingdom": 6,
+      "United Kingdom": 7,
       "India": 4,
       "Spain": 2,
       "Canada": 2,
@@ -3481,22 +3481,21 @@
       "AR": 1,
       "France": 1,
       "China": 1,
-      "Russia": 1,
-      "Ireland": 1
+      "Russia": 1
     },
     "by_group": {
       "qilin": 16,
-      "CRPxO": 15,
+      "CRPxO": 13,
       "thegentlemen": 10,
       "safepay": 9,
       "incransom": 8,
       "Deadlock": 6,
       "cmdorganization": 5,
+      "dragonforce": 4,
       "aurora": 4,
       "Booba Project": 3,
-      "dragonforce": 3,
+      "genesis": 3,
       "gunra": 2,
-      "genesis": 2,
       "akira": 2,
       "chaos": 2,
       "termite": 2,
@@ -3513,10 +3512,10 @@
       "shinyhunters": 1
     },
     "by_sector": {
-      "Technology": 19,
       "Manufacturing": 18,
+      "Technology": 17,
+      "Not Found": 12,
       "Healthcare": 12,
-      "Not Found": 10,
       "Professional Services": 8,
       "Other": 6,
       "Retail & E-Commerce": 5,
