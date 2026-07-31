@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-07-31T10:40:37.664304+00:00",
+  "last_updated_utc": "2026-07-31T12:57:08.849356+00:00",
   "victims": [
+    {
+      "victim": "The Dcoop",
+      "group": "qilin",
+      "country": "Spain",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-07-31T12:33:46.118491+00:00",
+      "attack_date": "2026-07-31T12:33:26.372739+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2288dc0c-2790-4376-a244-14ca03334646",
+      "monitored": false
+    },
     {
       "victim": "Stewart Belland & Associates Inc.",
       "group": "cmdorganization",
@@ -1188,18 +1200,6 @@
       "description": "Sector: Aerospace / Defense | Data leaked: 87.3 GB",
       "claim_url": "http://tlxoddx4odmc2qvsmtsbgwwsv5j45osb5sox7mz6izxliuju5mkulzad.onion/victim.php?slug=mro-aerospace",
       "monitored": true
-    },
-    {
-      "victim": "takethehop.com",
-      "group": "incransom",
-      "country": "United States",
-      "sector": "Hospitality",
-      "discovered": "2026-07-27T00:25:17.945973+00:00",
-      "attack_date": "2026-07-27T00:01:00+00:00",
-      "website": "",
-      "description": "The HOP, an American regional public transit system operated by the Hill Country Transit District (HCTD). Founded in the 1960s in the state of Texas (USA) as a voluntary transportation service, the organization has grown over the decades into a major public public-transport network.",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6277ab5ae71db30c86ca0a",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1426,6 +1426,12 @@
       "meta": ""
     },
     {
+      "name": "Section9",
+      "description": "🚨 This is a fake group with fake victims.",
+      "locations": 1,
+      "meta": ""
+    },
+    {
       "name": "SenSayQ",
       "description": "SenSayQ is an emerging ransomware actor that appeared in mid-2024 using a leaked LockBit 3.0 builder for double-extortion attacks; Group-IB links it operationally to the Brain Cipher group and its siblings EstateRansomware and \"Noname,\" suggesting a shared operator.",
       "locations": 3,
@@ -1465,6 +1471,12 @@
       "name": "The Green Blood Group",
       "description": "",
       "locations": 2,
+      "meta": ""
+    },
+    {
+      "name": "The Syndicate",
+      "description": "Data Broker",
+      "locations": 1,
       "meta": ""
     },
     {
@@ -3438,14 +3450,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 73,
+    "monitored_victims": 72,
     "unique_groups": 24,
     "unique_countries": 29,
     "by_country": {
-      "United States": 46,
+      "United States": 45,
       "Germany": 8,
       "United Kingdom": 6,
       "India": 4,
+      "Spain": 2,
       "Canada": 2,
       "CO": 2,
       "Australia": 2,
@@ -3464,7 +3477,6 @@
       "PE": 1,
       "United Arab Emirates": 1,
       "Unknown": 1,
-      "Spain": 1,
       "Switzerland": 1,
       "AR": 1,
       "France": 1,
@@ -3474,10 +3486,10 @@
     },
     "by_group": {
       "CRPxO": 20,
-      "qilin": 15,
+      "qilin": 16,
       "thegentlemen": 10,
-      "incransom": 9,
       "safepay": 9,
+      "incransom": 8,
       "Deadlock": 6,
       "cmdorganization": 5,
       "aurora": 4,
@@ -3506,13 +3518,13 @@
       "Professional Services": 8,
       "Financial Services": 6,
       "Other": 6,
-      "Hospitality": 5,
       "Retail & E-Commerce": 5,
       "Education": 4,
       "Transportation": 4,
+      "Hospitality": 4,
+      "Agriculture and Food Production": 2,
       "Energy & Utilities": 2,
-      "Government & Defense": 2,
-      "Agriculture and Food Production": 1
+      "Government & Defense": 2
     }
   },
   "errors": []
