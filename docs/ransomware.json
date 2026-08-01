@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-01T15:02:05.406691+00:00",
+  "last_updated_utc": "2026-08-01T17:00:17.587438+00:00",
   "victims": [
+    {
+      "victim": "quantinuum.com",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-01T16:29:42.551668+00:00",
+      "attack_date": "2026-08-01T16:00:00+00:00",
+      "website": "",
+      "description": "Quantinuum is a quantum computing company that develops advanced quantum computers, software, and cybersecurity solutions to solve complex scientific and industrial challenges. The company provides full-stack quantum technologies for areas such as materials science, drug discovery, encryption, artif",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b9a1d5ae71db30c8ffea9",
+      "monitored": true
+    },
+    {
+      "victim": "Vernon & Waldrep",
+      "group": "Global Secret Group",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-01T15:53:51.872786+00:00",
+      "attack_date": "2026-08-01T15:50:56.534610+00:00",
+      "website": "",
+      "description": "Country: Texas, United States |\nWebsite: vernonwaldrep.com |\nRevenue: $5 Million |\nIndustry: Physicians, Mental Health Specialists |\nEmployees: 21–50 |\nProperties: 274 GB (56,006 Files, 3,421 Folders)",
+      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/34/",
+      "monitored": true
+    },
     {
       "victim": "The Saturday Evening Post",
       "group": "qilin",
@@ -568,14 +592,14 @@
     {
       "victim": "OHK Energy",
       "group": "thegentlemen",
-      "country": "Singapore",
+      "country": "Ireland",
       "sector": "Energy & Utilities",
       "discovered": "2026-07-31T18:28:17.413847+00:00",
       "attack_date": "2026-07-31T11:59:42+00:00",
       "website": "",
       "description": "ohkenergy.com rocketreach.co/ohk-energy-profile_b6d2700bc7449e3f OHK Energy is Ireland’s largest and most trusted renewable energy provider and retrofit specialist, registered with the Sustainable Energy Authority of Ireland (SEAI). The company specializes in designing and installing solar PV, heat ",
       "claim_url": "https://www.ransomware.live/id/T0hLIEVuZXJneUB0aGVnZW50bGVtZW4=",
-      "monitored": true
+      "monitored": false
     },
     {
       "victim": "CFS",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "delkartindustries.com zoominfo.com/c/delkart-industries-pvt-ltd/471455561 Delkart Industries is an Indian manufacturing company established in 2017, specializing in custom felts, automobile carpets, and noise and thermal insulation parts. The company serves the automotive, home appliance, robotics, ",
       "claim_url": "https://www.ransomware.live/id/RGVsa2FydCBJbmR1c3RyaWVzIFB2dEB0aGVnZW50bGVtZW4=",
-      "monitored": true
-    },
-    {
-      "victim": "Malaysian Nuclear Agency",
-      "group": "thegentlemen",
-      "country": "Malaysia",
-      "sector": "Government & Defense",
-      "discovered": "2026-07-30T06:50:16.669381+00:00",
-      "attack_date": "2026-07-29T19:24:29+00:00",
-      "website": "",
-      "description": "nuclearmalaysia.gov.my zoominfo.com/c/malaysian-nuclear-agency/459120141 The Malaysian Nuclear Agency (Nuklear Malaysia) is the leading government research and development organization in nuclear science and technology. It focuses on the peaceful application of nuclear innovations to support nationa",
-      "claim_url": "https://www.ransomware.live/id/TWFsYXlzaWFuIE51Y2xlYXIgQWdlbmN5QHRoZWdlbnRsZW1lbg==",
-      "monitored": true
-    },
-    {
-      "victim": "Promatrix",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-07-30T06:50:38.182857+00:00",
-      "attack_date": "2026-07-29T19:22:05+00:00",
-      "website": "",
-      "description": "promatrixcorp.com zoominfo.com/c/promatrix-corp/347777611 Promatrix Corp is a rapidly growing IT consulting and outsourcing company based in New Jersey, USA. They deliver comprehensive global technology solutions, including web application development, managed IT services, and staff augmentation. Th",
-      "claim_url": "https://www.ransomware.live/id/UHJvbWF0cml4QHRoZWdlbnRsZW1lbg==",
       "monitored": true
     }
   ],
@@ -3450,11 +3450,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
-    "unique_groups": 17,
-    "unique_countries": 33,
+    "monitored_victims": 62,
+    "unique_groups": 18,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 35,
+      "United States": 36,
       "Turkey": 9,
       "United Kingdom": 6,
       "Unknown": 4,
@@ -3474,7 +3474,7 @@
       "South Korea": 1,
       "Spain": 1,
       "IS": 1,
-      "Singapore": 1,
+      "Ireland": 1,
       "Sweden": 1,
       "TZ": 1,
       "Indonesia": 1,
@@ -3485,20 +3485,20 @@
       "EC": 1,
       "Taiwan": 1,
       "Denmark": 1,
-      "New Zealand": 1,
-      "Malaysia": 1
+      "New Zealand": 1
     },
     "by_group": {
-      "thegentlemen": 42,
+      "thegentlemen": 40,
       "qilin": 20,
       "CRPxO": 10,
       "coinbasecartel": 4,
       "cmdorganization": 4,
+      "incransom": 3,
       "dragonforce": 3,
       "genesis": 3,
       "aurora": 3,
       "Gammax": 2,
-      "incransom": 2,
+      "Global Secret Group": 1,
       "interlock": 1,
       "clop": 1,
       "Booba Project": 1,
@@ -3512,12 +3512,12 @@
       "Technology": 11,
       "Other": 10,
       "Not Found": 9,
+      "Professional Services": 8,
       "Healthcare": 7,
-      "Professional Services": 7,
       "Financial Services": 7,
-      "Government & Defense": 6,
       "Energy & Utilities": 6,
       "Transportation": 5,
+      "Government & Defense": 5,
       "Retail & E-Commerce": 3,
       "Agriculture and Food Production": 3,
       "Education": 2,
