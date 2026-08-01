@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-01T20:10:39.420979+00:00",
+  "last_updated_utc": "2026-08-01T21:57:27.311995+00:00",
   "victims": [
     {
       "victim": "The Butcher Brothers",
@@ -119,6 +119,18 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=24a692b3-a6f9-4abe-9e03-c357aabb3bfe",
+      "monitored": true
+    },
+    {
+      "victim": "Philippine Savings Bank",
+      "group": "thegentlemen",
+      "country": "Philippines",
+      "sector": "Financial Services",
+      "discovered": "2026-08-01T21:31:52.458978+00:00",
+      "attack_date": "2026-08-01T13:09:53+00:00",
+      "website": "",
+      "description": "psbank.com.ph zoominfo.com/c/philippine-savings-bank/83461899 SBank is widely recognized across the Philippines for its highly accessible Auto and Home Loan programs that make vehicle and property ownership easier for everyday consumers.\nOne of its most unique financial products is the Flexi Persona",
+      "claim_url": "https://www.ransomware.live/id/UGhpbGlwcGluZSBTYXZpbmdzIEJhbmtAdGhlZ2VudGxlbWVu",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "indusprotech.com zoominfo.com/c/indus-protech-solutions-ltd/1323287130 Indus Protech Solutions is a Chennai-based company specializing in comprehensive bulk MRO (Maintenance, Repair, and Operations) and supply chain services for global trade. Acting as a one-stop sourcing partner, they provide acces",
       "claim_url": "https://www.ransomware.live/id/SW5kdXMgUHJvdGVjaCBTb2x1dGlvbnNAdGhlZ2VudGxlbWVu",
       "monitored": true
-    },
-    {
-      "victim": "Upanal CNC Solutions",
-      "group": "thegentlemen",
-      "country": "PE",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-30T06:48:54.760138+00:00",
-      "attack_date": "2026-07-29T19:34:58+00:00",
-      "website": "",
-      "description": "upanalcnc.com zoominfo.com/c/upanal-cnc-solutions/370526030 Upanal CNC Solutions is an Indian company specializing in advanced metal cutting and metal forming technologies, particularly CNC machinery. Beyond supplying equipment, they provide comprehensive services including machine modernization, 24",
-      "claim_url": "https://www.ransomware.live/id/VXBhbmFsIENOQyBTb2x1dGlvbnNAdGhlZ2VudGxlbWVu",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3450,9 +3450,9 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
+    "monitored_victims": 63,
     "unique_groups": 19,
-    "unique_countries": 32,
+    "unique_countries": 33,
     "by_country": {
       "United States": 39,
       "Turkey": 9,
@@ -3462,15 +3462,16 @@
       "Canada": 3,
       "Belgium": 3,
       "Saudi Arabia": 2,
-      "PE": 2,
       "Poland": 2,
       "Israel": 2,
       "Brazil": 2,
       "Australia": 2,
       "CL": 2,
       "Netherlands": 2,
+      "Philippines": 1,
       "Austria": 1,
       "South Korea": 1,
+      "PE": 1,
       "Spain": 1,
       "IS": 1,
       "Ireland": 1,
@@ -3509,13 +3510,13 @@
       "kairos": 1
     },
     "by_sector": {
-      "Manufacturing": 23,
+      "Manufacturing": 22,
       "Technology": 10,
       "Professional Services": 9,
       "Other": 9,
       "Not Found": 9,
+      "Financial Services": 8,
       "Healthcare": 7,
-      "Financial Services": 7,
       "Energy & Utilities": 6,
       "Transportation": 5,
       "Government & Defense": 5,
