@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-08-01T18:06:45.345618+00:00",
+  "last_updated_utc": "2026-08-01T20:10:39.420979+00:00",
   "victims": [
+    {
+      "victim": "The Butcher Brothers",
+      "group": "play",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-01T19:04:44.690218+00:00",
+      "attack_date": "2026-08-01T19:04:28.690890+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=UTCN61lDez9A3",
+      "monitored": true
+    },
+    {
+      "victim": "Sigma Plastics Group",
+      "group": "play",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-01T19:04:10.399543+00:00",
+      "attack_date": "2026-08-01T19:03:53.538371+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=1HEHCI7eOmQZS",
+      "monitored": true
+    },
+    {
+      "victim": "Cambridge Management",
+      "group": "play",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-01T19:03:35.310375+00:00",
+      "attack_date": "2026-08-01T19:03:17.433238+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=mmWo7mrab7Mwqp",
+      "monitored": true
+    },
     {
       "victim": "quantinuum.com",
       "group": "incransom",
@@ -1164,42 +1200,6 @@
       "description": "upanalcnc.com zoominfo.com/c/upanal-cnc-solutions/370526030 Upanal CNC Solutions is an Indian company specializing in advanced metal cutting and metal forming technologies, particularly CNC machinery. Beyond supplying equipment, they provide comprehensive services including machine modernization, 24",
       "claim_url": "https://www.ransomware.live/id/VXBhbmFsIENOQyBTb2x1dGlvbnNAdGhlZ2VudGxlbWVu",
       "monitored": false
-    },
-    {
-      "victim": "Kontact Consortium India Pvt",
-      "group": "thegentlemen",
-      "country": "India",
-      "sector": "Other",
-      "discovered": "2026-07-30T06:49:15.159119+00:00",
-      "attack_date": "2026-07-29T19:33:28+00:00",
-      "website": "",
-      "description": "kontact.in zoominfo.com/c/kontact-consortium-india-pvt-ltd/437934184 Kontact is an Indian engineering company with over 50 years of experience, specializing in electrical and mechanical solutions for the railway, infrastructure, and industrial sectors. They provide end-to-end services, including rai",
-      "claim_url": "https://www.ransomware.live/id/S29udGFjdCBDb25zb3J0aXVtIEluZGlhIFB2dEB0aGVnZW50bGVtZW4=",
-      "monitored": true
-    },
-    {
-      "victim": "ETA Technology Pvt",
-      "group": "thegentlemen",
-      "country": "India",
-      "sector": "Technology",
-      "discovered": "2026-07-30T06:49:35.612221+00:00",
-      "attack_date": "2026-07-29T19:28:51+00:00",
-      "website": "",
-      "description": "etatechnology.in zoominfo.com/c/eta-technology-pvt-ltd/432054929 ETA Technology is a Bangalore-based manufacturing company founded in 1991, specializing in the design and production of advanced welding and forging equipment. They build rotary friction welders, friction stir welding systems, electric",
-      "claim_url": "https://www.ransomware.live/id/RVRBIFRlY2hub2xvZ3kgUHZ0QHRoZWdlbnRsZW1lbg==",
-      "monitored": true
-    },
-    {
-      "victim": "Delkart Industries Pvt",
-      "group": "thegentlemen",
-      "country": "India",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-30T06:49:56.236239+00:00",
-      "attack_date": "2026-07-29T19:25:44+00:00",
-      "website": "",
-      "description": "delkartindustries.com zoominfo.com/c/delkart-industries-pvt-ltd/471455561 Delkart Industries is an Indian manufacturing company established in 2017, specializing in custom felts, automobile carpets, and noise and thermal insulation parts. The company serves the automotive, home appliance, robotics, ",
-      "claim_url": "https://www.ransomware.live/id/RGVsa2FydCBJbmR1c3RyaWVzIFB2dEB0aGVnZW50bGVtZW4=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3451,14 +3451,13 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 62,
-    "unique_groups": 18,
+    "unique_groups": 19,
     "unique_countries": 32,
     "by_country": {
-      "United States": 36,
+      "United States": 39,
       "Turkey": 9,
       "United Kingdom": 6,
       "Unknown": 4,
-      "India": 4,
       "Germany": 3,
       "Canada": 3,
       "Belgium": 3,
@@ -3485,14 +3484,16 @@
       "EC": 1,
       "Taiwan": 1,
       "Denmark": 1,
-      "New Zealand": 1
+      "New Zealand": 1,
+      "India": 1
     },
     "by_group": {
-      "thegentlemen": 40,
+      "thegentlemen": 37,
       "qilin": 20,
       "CRPxO": 10,
       "coinbasecartel": 4,
       "cmdorganization": 4,
+      "play": 3,
       "incransom": 3,
       "dragonforce": 3,
       "genesis": 3,
@@ -3509,16 +3510,16 @@
     },
     "by_sector": {
       "Manufacturing": 23,
-      "Technology": 11,
-      "Other": 10,
+      "Technology": 10,
+      "Professional Services": 9,
+      "Other": 9,
       "Not Found": 9,
-      "Professional Services": 8,
       "Healthcare": 7,
       "Financial Services": 7,
       "Energy & Utilities": 6,
       "Transportation": 5,
       "Government & Defense": 5,
-      "Retail & E-Commerce": 3,
+      "Retail & E-Commerce": 4,
       "Agriculture and Food Production": 3,
       "Education": 2,
       "Hospitality": 1
