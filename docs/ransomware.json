@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-02T21:57:31.165728+00:00",
+  "last_updated_utc": "2026-08-02T22:58:55.378062+00:00",
   "victims": [
+    {
+      "victim": "www.prohealth.sg",
+      "group": "krybit",
+      "country": "Singapore",
+      "sector": "Healthcare",
+      "discovered": "2026-08-02T21:59:14.801003+00:00",
+      "attack_date": "2026-08-02T21:58:56.524335+00:00",
+      "website": "",
+      "description": "ProHealth Medical Group Pte Ltd is a Singaporean private primary healthcare group founded in the 1990s, headquartered at...",
+      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/b26f712ae9a60d8aee7b5ca340e91954282701f31c9a817d379b67204c1d0700/",
+      "monitored": true
+    },
     {
       "victim": "Asset Flooring Group Australia",
       "group": "qilin",
@@ -314,18 +326,6 @@
       "monitored": false
     },
     {
-      "victim": "Lumenis Ltd.",
-      "group": "shinyhunters",
-      "country": "Israel",
-      "sector": "Technology",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
-      "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
-      "monitored": true
-    },
-    {
       "victim": "Questel SAS",
       "group": "shinyhunters",
       "country": "France",
@@ -348,6 +348,18 @@
       "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
       "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
       "monitored": false
+    },
+    {
+      "victim": "Lumenis Ltd.",
+      "group": "shinyhunters",
+      "country": "Israel",
+      "sector": "Technology",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
+      "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
+      "monitored": true
     },
     {
       "victim": "Schreiner Trockenbau GmbH",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Samuels & Thornton is a law firm based in New Orleans, specializing in medical malpractice and personal injury cases. They provide personalized legal guidance to individuals, families, and businesses facing legal challenges, ensuring that each client receives dedicated attention from experienced att",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b426a5ae71db30c84c336",
-      "monitored": true
-    },
-    {
-      "victim": "PARTNERED HEALTH GROUP",
-      "group": "incransom",
-      "country": "Australia",
-      "sector": "Healthcare",
-      "discovered": "2026-07-30T16:30:13.670561+00:00",
-      "attack_date": "2026-07-30T01:00:00+00:00",
-      "website": "",
-      "description": "PARTNERED HEALTH GROUP — Australia\r ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\r \r Industry:       Healthcare — Primary Care, Occupational Health, \r                 Psychology, Telehealth\r Headquarters:   Australia (NSW, QLD, VIC, WA, ACT)\r Owner:          Quadrant Private Equity\r Clinics:    ",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b75a95ae71db30c8b0b19",
       "monitored": true
     }
   ],
@@ -3452,13 +3452,13 @@
     "total_victims": 100,
     "monitored_victims": 65,
     "unique_groups": 18,
-    "unique_countries": 33,
+    "unique_countries": 34,
     "by_country": {
       "United States": 37,
       "Turkey": 9,
       "United Kingdom": 5,
-      "Australia": 4,
       "Unknown": 4,
+      "Australia": 3,
       "Canada": 3,
       "Israel": 3,
       "South Africa": 2,
@@ -3470,6 +3470,7 @@
       "Poland": 2,
       "Brazil": 2,
       "CL": 2,
+      "Singapore": 1,
       "NG": 1,
       "Philippines": 1,
       "Switzerland": 1,
@@ -3492,10 +3493,10 @@
       "thegentlemen": 34,
       "qilin": 21,
       "CRPxO": 11,
-      "krybit": 5,
-      "incransom": 4,
+      "krybit": 6,
       "coinbasecartel": 4,
       "cmdorganization": 4,
+      "incransom": 3,
       "play": 3,
       "shinyhunters": 3,
       "Gammax": 2,
@@ -3513,8 +3514,8 @@
       "Professional Services": 14,
       "Other": 10,
       "Financial Services": 9,
-      "Technology": 8,
       "Healthcare": 8,
+      "Technology": 8,
       "Not Found": 7,
       "Retail & E-Commerce": 6,
       "Energy & Utilities": 6,
