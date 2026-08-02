@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-02T11:17:39.970980+00:00",
+  "last_updated_utc": "2026-08-02T13:21:21.387427+00:00",
   "victims": [
+    {
+      "victim": "Wire Products",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-02T12:30:44.305380+00:00",
+      "attack_date": "2026-08-02T12:30:09.985263+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=e529c84d-7dce-4795-b526-693855deb497",
+      "monitored": true
+    },
     {
       "victim": "Encore Enterprises, Inc.",
       "group": "CRPxO",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "garcosheriff.com The Garfield County Sheriff's Office is the primary law enforcement agency serving Garfield County, Colorado. Its mission is to deliver exceptional service and problem-solving solutions to the community through professional, ethical, and compassionate conduct. The office provides co",
       "claim_url": "https://www.ransomware.live/id/VGhlIEdhcmZpZWxkIENvdW50eSBTaGVyaWZmIE9mZmljZUB0aGVnZW50bGVtZW4=",
-      "monitored": true
-    },
-    {
-      "victim": "Angel Hotel",
-      "group": "thegentlemen",
-      "country": "United Kingdom",
-      "sector": "Hospitality",
-      "discovered": "2026-07-30T06:48:13.090816+00:00",
-      "attack_date": "2026-07-29T19:40:32+00:00",
-      "website": "",
-      "description": "angelpershore.co.uk zoominfo.com/c/angel-hotel/1153643926 The Angel, Pershore is a historic Tudor-origin hotel and restaurant located in the heart of the market town of Pershore, Worcestershire, near the River Avon. It serves as a premier venue offering farm-to-table dining with locally sourced prod",
-      "claim_url": "https://www.ransomware.live/id/QW5nZWwgSG90ZWxAdGhlZ2VudGxlbWVu",
       "monitored": true
     }
   ],
@@ -3454,9 +3454,9 @@
     "unique_groups": 19,
     "unique_countries": 32,
     "by_country": {
-      "United States": 40,
+      "United States": 41,
       "Turkey": 9,
-      "United Kingdom": 6,
+      "United Kingdom": 5,
       "Unknown": 4,
       "Germany": 3,
       "Canada": 3,
@@ -3488,8 +3488,8 @@
       "New Zealand": 1
     },
     "by_group": {
-      "thegentlemen": 36,
-      "qilin": 20,
+      "thegentlemen": 35,
+      "qilin": 21,
       "CRPxO": 11,
       "coinbasecartel": 4,
       "cmdorganization": 4,
@@ -3509,7 +3509,7 @@
       "kairos": 1
     },
     "by_sector": {
-      "Manufacturing": 22,
+      "Manufacturing": 23,
       "Other": 10,
       "Professional Services": 9,
       "Technology": 9,
@@ -3521,8 +3521,7 @@
       "Government & Defense": 5,
       "Retail & E-Commerce": 4,
       "Agriculture and Food Production": 3,
-      "Education": 2,
-      "Hospitality": 1
+      "Education": 2
     }
   },
   "errors": []
