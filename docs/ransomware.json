@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-03T04:30:58.957081+00:00",
+  "last_updated_utc": "2026-08-03T08:29:39.387884+00:00",
   "victims": [
+    {
+      "victim": "TUI China",
+      "group": "dragonforce",
+      "country": "China",
+      "sector": "Hospitality",
+      "discovered": "2026-08-03T06:52:53.230294+00:00",
+      "attack_date": "2026-08-03T06:45:27.037448+00:00",
+      "website": "",
+      "description": "An affiliate of TUI Group, the world's number one leisure tourism business, TUI China was established in late 2003 as the first joint venture with foreign majority share in the Chinese tourism industry.\nPassports, visas, internal documentation, legal and financial documents, etc.",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=eac9b985-c649-480d-815d-805c0c980241",
+      "monitored": true
+    },
+    {
+      "victim": "Hans & Jos. Kronenberg GmbH",
+      "group": "payload",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-03T04:54:58.103753+00:00",
+      "attack_date": "2026-08-03T04:54:18.615437+00:00",
+      "website": "",
+      "description": "Hans & Jos. Kronenberg GmbH is a German company founded in 1932 and based in Bergisch Gladbach. It specializes in the development and manufacturing of high-quality components for the elevator industry and mechanical engineering, including door locks, switches, control panels, and LED lighting.",
+      "claim_url": "http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/ba238823-d8b5-4d91-bd34-c03591a95a1c",
+      "monitored": true
+    },
     {
       "victim": "Freedom Claims Management",
       "group": "qilin",
@@ -350,18 +374,6 @@
       "monitored": true
     },
     {
-      "victim": "Alcon Inc.",
-      "group": "shinyhunters",
-      "country": "Switzerland",
-      "sector": "Healthcare",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
-      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
-      "monitored": false
-    },
-    {
       "victim": "Lumenis Ltd.",
       "group": "shinyhunters",
       "country": "Israel",
@@ -372,6 +384,18 @@
       "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
       "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
       "monitored": true
+    },
+    {
+      "victim": "Alcon Inc.",
+      "group": "shinyhunters",
+      "country": "Switzerland",
+      "sector": "Healthcare",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
+      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
+      "monitored": false
     },
     {
       "victim": "Schreiner Trockenbau GmbH",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=7447e2a7-f4db-466f-9f95-5b57cd5ae6d0",
-      "monitored": false
-    },
-    {
-      "victim": "Indian Motos Inmot",
-      "group": "qilin",
-      "country": "EC",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-30T07:57:52.197057+00:00",
-      "attack_date": "2026-07-30T07:57:34.094733+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1c576d86-ae95-48bb-8449-5bb196395dfd",
-      "monitored": false
-    },
-    {
-      "victim": "Yue Ki Industrial",
-      "group": "morpheus",
-      "country": "Taiwan",
-      "sector": "Manufacturing",
-      "discovered": "2026-07-30T06:28:05.951425+00:00",
-      "attack_date": "2026-07-30T06:02:45.633000+00:00",
-      "website": "",
-      "description": "**Website**: yueki.com.tw\n\n**Revenue**: $21 Million\n\nYue Ki Industrial is a manufacturing company that creates high-quality industrial products for businesses. They work with metal, plastic, and other",
-      "claim_url": "https://www.ransomware.live/id/WXVlIEtpIEluZHVzdHJpYWxAbW9ycGhldXM=",
       "monitored": false
     }
   ],
@@ -3450,26 +3450,27 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 65,
+    "monitored_victims": 67,
     "unique_groups": 18,
-    "unique_countries": 34,
+    "unique_countries": 33,
     "by_country": {
       "United States": 37,
       "Turkey": 9,
       "United Kingdom": 5,
       "Unknown": 4,
+      "Germany": 3,
       "Australia": 3,
       "Canada": 3,
       "Israel": 3,
       "South Africa": 2,
       "France": 2,
       "Mexico": 2,
-      "Germany": 2,
       "Belgium": 2,
       "Saudi Arabia": 2,
       "Poland": 2,
       "Brazil": 2,
       "CL": 2,
+      "China": 1,
       "Singapore": 1,
       "NG": 1,
       "Philippines": 1,
@@ -3485,32 +3486,30 @@
       "Indonesia": 1,
       "AR": 1,
       "CO": 1,
-      "Thailand": 1,
-      "EC": 1,
-      "Taiwan": 1
+      "Thailand": 1
     },
     "by_group": {
       "thegentlemen": 34,
-      "qilin": 22,
+      "qilin": 21,
       "CRPxO": 11,
       "krybit": 6,
       "coinbasecartel": 4,
       "cmdorganization": 4,
+      "dragonforce": 3,
       "play": 3,
       "shinyhunters": 3,
       "incransom": 2,
       "Gammax": 2,
-      "dragonforce": 2,
+      "payload": 1,
       "SilentRansomGroup": 1,
       "Global Secret Group": 1,
       "interlock": 1,
       "clop": 1,
       "Booba Project": 1,
-      "gunra": 1,
-      "morpheus": 1
+      "gunra": 1
     },
     "by_sector": {
-      "Manufacturing": 18,
+      "Manufacturing": 17,
       "Professional Services": 14,
       "Financial Services": 10,
       "Other": 10,
@@ -3522,7 +3521,8 @@
       "Government & Defense": 5,
       "Transportation": 3,
       "Agriculture and Food Production": 3,
-      "Education": 2
+      "Education": 2,
+      "Hospitality": 1
     }
   },
   "errors": []
