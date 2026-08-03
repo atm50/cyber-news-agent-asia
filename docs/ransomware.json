@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-03T00:04:09.978091+00:00",
+  "last_updated_utc": "2026-08-03T04:30:58.957081+00:00",
   "victims": [
+    {
+      "victim": "Freedom Claims Management",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-08-03T03:56:32.895408+00:00",
+      "attack_date": "2026-08-03T03:56:07.321136+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1715db25-1d32-4f22-913e-fbe4456fd271",
+      "monitored": true
+    },
     {
       "victim": "www.prohealth.sg",
       "group": "krybit",
@@ -338,18 +350,6 @@
       "monitored": true
     },
     {
-      "victim": "Lumenis Ltd.",
-      "group": "shinyhunters",
-      "country": "Israel",
-      "sector": "Technology",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
-      "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
-      "monitored": true
-    },
-    {
       "victim": "Alcon Inc.",
       "group": "shinyhunters",
       "country": "Switzerland",
@@ -360,6 +360,18 @@
       "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
       "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
       "monitored": false
+    },
+    {
+      "victim": "Lumenis Ltd.",
+      "group": "shinyhunters",
+      "country": "Israel",
+      "sector": "Technology",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
+      "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
+      "monitored": true
     },
     {
       "victim": "Schreiner Trockenbau GmbH",
@@ -1188,18 +1200,6 @@
       "description": "**Website**: yueki.com.tw\n\n**Revenue**: $21 Million\n\nYue Ki Industrial is a manufacturing company that creates high-quality industrial products for businesses. They work with metal, plastic, and other",
       "claim_url": "https://www.ransomware.live/id/WXVlIEtpIEluZHVzdHJpYWxAbW9ycGhldXM=",
       "monitored": false
-    },
-    {
-      "victim": "sslf.local",
-      "group": "incransom",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-07-30T12:57:51.104865+00:00",
-      "attack_date": "2026-07-30T05:28:00+00:00",
-      "website": "",
-      "description": "Samuels & Thornton is a law firm based in New Orleans, specializing in medical malpractice and personal injury cases. They provide personalized legal guidance to individuals, families, and businesses facing legal challenges, ensuring that each client receives dedicated attention from experienced att",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a6b426a5ae71db30c84c336",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3491,14 +3491,14 @@
     },
     "by_group": {
       "thegentlemen": 34,
-      "qilin": 21,
+      "qilin": 22,
       "CRPxO": 11,
       "krybit": 6,
       "coinbasecartel": 4,
       "cmdorganization": 4,
-      "incransom": 3,
       "play": 3,
       "shinyhunters": 3,
+      "incransom": 2,
       "Gammax": 2,
       "dragonforce": 2,
       "SilentRansomGroup": 1,
@@ -3512,12 +3512,12 @@
     "by_sector": {
       "Manufacturing": 18,
       "Professional Services": 14,
+      "Financial Services": 10,
       "Other": 10,
-      "Financial Services": 9,
       "Healthcare": 8,
       "Technology": 8,
-      "Not Found": 7,
       "Retail & E-Commerce": 6,
+      "Not Found": 6,
       "Energy & Utilities": 6,
       "Government & Defense": 5,
       "Transportation": 3,
