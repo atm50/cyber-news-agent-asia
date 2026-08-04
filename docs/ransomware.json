@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-04T13:04:00.430396+00:00",
+  "last_updated_utc": "2026-08-04T16:13:25.817798+00:00",
   "victims": [
+    {
+      "victim": "healthcarehighways.com",
+      "group": "chaos",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-08-04T15:57:20.837403+00:00",
+      "attack_date": "2026-08-04T15:57:07.228433+00:00",
+      "website": "",
+      "description": "WARNING / DATA LEAK NOTICE\n\n    Target: Healthcare Highways (healthcarehighways.com)\n    Countdown: 24 Hours\n\n    If corporate representatives do not establish contact via chat within the next 24 hours, a massive internal data cache comprising 235 GB of sensitive company and client records will be p",
+      "claim_url": "http://hptqq2o2qjva7lcaaq67w36jihzivkaitkexorauw7b2yul2z6zozpqd.onion/post/NBZQmQoAPXmW7Qw5eSuW98OqyQAmLjgv",
+      "monitored": true
+    },
+    {
+      "victim": "worldtube",
+      "group": "gunra",
+      "country": "South Korea",
+      "sector": "Technology",
+      "discovered": "2026-08-04T13:23:14.895318+00:00",
+      "attack_date": "2026-08-04T13:23:13.902909+00:00",
+      "website": "",
+      "description": "Sector: Manufacturer of new automotive parts | Revenue: US$ 20,000,000",
+      "claim_url": "https://www.ransomware.live/id/d29ybGR0dWJlQGd1bnJh",
+      "monitored": true
+    },
     {
       "victim": "WD Masonry & Concrete",
       "group": "qilin",
@@ -698,6 +722,18 @@
       "monitored": false
     },
     {
+      "victim": "Alcon Inc.",
+      "group": "shinyhunters",
+      "country": "Switzerland",
+      "sector": "Healthcare",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
+      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
+      "monitored": false
+    },
+    {
       "victim": "Lumenis Ltd.",
       "group": "shinyhunters",
       "country": "Israel",
@@ -720,18 +756,6 @@
       "description": "Over 21 million Salesforce records containing some PII and 147GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headl",
       "claim_url": "https://www.ransomware.live/id/UXVlc3RlbCBTQVNAc2hpbnlodW50ZXJz",
       "monitored": true
-    },
-    {
-      "victim": "Alcon Inc.",
-      "group": "shinyhunters",
-      "country": "Switzerland",
-      "sector": "Healthcare",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
-      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
-      "monitored": false
     },
     {
       "victim": "Schreiner Trockenbau GmbH",
@@ -1176,30 +1200,6 @@
       "description": "crbgroup.com zoominfo.com/c/crb-group-gmbh/23317692 CRB is a leading global provider of sustainable engineering, architecture, construction, and consulting solutions, primarily serving the life sciences and food & beverage industries. Headquartered in Kansas City, Missouri, the company specializes i",
       "claim_url": "https://www.ransomware.live/id/Q1JCIGdyb3VwQHRoZWdlbnRsZW1lbg==",
       "monitored": true
-    },
-    {
-      "victim": "Hutch Paving",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Transportation",
-      "discovered": "2026-07-31T18:27:57.128293+00:00",
-      "attack_date": "2026-07-31T12:01:29+00:00",
-      "website": "",
-      "description": "hutchpaving.com zoominfo.com/c/hutch-paving-inc/38258180 Hutch Paving is a highly respected asphalt and concrete paving contractor based in Southeast Michigan, serving the region since 1993. The company specializes in comprehensive pavement solutions, including resurfacing, maintenance, sealcoating,",
-      "claim_url": "https://www.ransomware.live/id/SHV0Y2ggUGF2aW5nQHRoZWdlbnRsZW1lbg==",
-      "monitored": true
-    },
-    {
-      "victim": "OHK Energy",
-      "group": "thegentlemen",
-      "country": "Ireland",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-07-31T18:28:17.413847+00:00",
-      "attack_date": "2026-07-31T11:59:42+00:00",
-      "website": "",
-      "description": "ohkenergy.com rocketreach.co/ohk-energy-profile_b6d2700bc7449e3f OHK Energy is Ireland’s largest and most trusted renewable energy provider and retrofit specialist, registered with the Sustainable Energy Authority of Ireland (SEAI). The company specializes in designing and installing solar PV, heat ",
-      "claim_url": "https://www.ransomware.live/id/T0hLIEVuZXJneUB0aGVnZW50bGVtZW4=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3450,9 +3450,9 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 73,
-    "unique_groups": 21,
-    "unique_countries": 31,
+    "monitored_victims": 74,
+    "unique_groups": 23,
+    "unique_countries": 30,
     "by_country": {
       "United States": 42,
       "Turkey": 8,
@@ -3460,6 +3460,7 @@
       "United Kingdom": 5,
       "Israel": 4,
       "Unknown": 3,
+      "South Korea": 2,
       "Philippines": 2,
       "Spain": 2,
       "HK": 2,
@@ -3481,13 +3482,11 @@
       "Switzerland": 1,
       "Austria": 1,
       "Saudi Arabia": 1,
-      "South Korea": 1,
       "PE": 1,
-      "IS": 1,
-      "Ireland": 1
+      "IS": 1
     },
     "by_group": {
-      "thegentlemen": 22,
+      "thegentlemen": 20,
       "qilin": 14,
       "CRPxO": 11,
       "safepay": 9,
@@ -3501,6 +3500,8 @@
       "shinyhunters": 3,
       "aurora": 2,
       "dragonforce": 2,
+      "chaos": 1,
+      "gunra": 1,
       "payload": 1,
       "SilentRansomGroup": 1,
       "Global Secret Group": 1,
@@ -3513,15 +3514,15 @@
       "Manufacturing": 24,
       "Professional Services": 13,
       "Other": 12,
-      "Healthcare": 9,
+      "Healthcare": 10,
       "Financial Services": 9,
       "Retail & E-Commerce": 8,
-      "Technology": 6,
-      "Energy & Utilities": 4,
+      "Technology": 7,
       "Government & Defense": 4,
-      "Transportation": 3,
+      "Energy & Utilities": 3,
       "Not Found": 3,
       "Agriculture and Food Production": 2,
+      "Transportation": 2,
       "Hospitality": 1,
       "Education": 1
     }
