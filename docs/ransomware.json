@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-05T07:39:46.570958+00:00",
+  "last_updated_utc": "2026-08-05T10:39:30.213336+00:00",
   "victims": [
+    {
+      "victim": "PontoBR Sistemas",
+      "group": "spacebears",
+      "country": "Brazil",
+      "sector": "Technology",
+      "discovered": "2026-08-05T08:00:07.498173+00:00",
+      "attack_date": "2026-08-05T07:59:44.189944+00:00",
+      "website": "",
+      "description": "Founded in 2008 in Brazil, PontoBR Sistemas is an IT firm specializing in advanced call center technologies, including its proprietary Discador Tabulare, as well as public examination management systems. The company provides tailored software solutions and IT infrastructure services, having received",
+      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/65/pontobr-sistemas",
+      "monitored": true
+    },
     {
       "victim": "PT All Cosmos Biotek",
       "group": "gunra",
@@ -854,18 +866,6 @@
       "monitored": false
     },
     {
-      "victim": "Alcon Inc.",
-      "group": "shinyhunters",
-      "country": "Switzerland",
-      "sector": "Healthcare",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
-      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
-      "monitored": false
-    },
-    {
       "victim": "Lumenis Ltd.",
       "group": "shinyhunters",
       "country": "Israel",
@@ -876,6 +876,18 @@
       "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
       "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
       "monitored": true
+    },
+    {
+      "victim": "Alcon Inc.",
+      "group": "shinyhunters",
+      "country": "Switzerland",
+      "sector": "Healthcare",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
+      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
+      "monitored": false
     },
     {
       "victim": "Questel SAS",
@@ -1188,18 +1200,6 @@
       "description": "paulafish.pl zoominfo.com/c/paula-fish/448451882 Paula Fish is a market leader in fish processing in Central Europe, headquartered in Słupsk, Poland. Founded in 1998, the company specializes in the catching, production, freezing, and storage of Baltic fish and Atlantic salmon. With a workforce of ov",
       "claim_url": "https://www.ransomware.live/id/UGF1bGEgRmlzaEB0aGVnZW50bGVtZW4=",
       "monitored": false
-    },
-    {
-      "victim": "Amicell",
-      "group": "thegentlemen",
-      "country": "Israel",
-      "sector": "Healthcare",
-      "discovered": "2026-07-31T18:24:10.174711+00:00",
-      "attack_date": "2026-07-31T12:26:35+00:00",
-      "website": "",
-      "description": "amicell.co.il zoominfo.com/c/amicell/426539109 Amicell (Amit Industries Ltd.) is a leading Israeli manufacturer founded in 1989, specializing in custom-designed battery packs, chargers, and Battery Management Systems (BMS). Headquartered in Ashdod, the company provides advanced energy solutions for ",
-      "claim_url": "https://www.ransomware.live/id/QW1pY2VsbEB0aGVnZW50bGVtZW4=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -2136,7 +2136,7 @@
     {
       "name": "everest",
       "description": "Everest ransom group collects and analyzes information about their victims. They specialize in customer privacy data, financial information, databases, credit card information, and more. The Everest ransom group leaks the victim's data to the darknet and they announced that any victim that will not contact them will suffer from a data leak and they will not delete hist files for future usage.",
-      "locations": 1,
+      "locations": 2,
       "meta": ""
     },
     {
@@ -3451,26 +3451,26 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 74,
-    "unique_groups": 22,
+    "unique_groups": 23,
     "unique_countries": 32,
     "by_country": {
       "United States": 43,
       "Turkey": 8,
       "Germany": 6,
-      "Israel": 3,
       "United Kingdom": 3,
+      "Brazil": 2,
       "Indonesia": 2,
       "Canada": 2,
       "South Korea": 2,
       "Unknown": 2,
       "Philippines": 2,
       "Spain": 2,
+      "Israel": 2,
       "HK": 2,
       "Australia": 2,
       "South Africa": 2,
       "France": 2,
       "Ireland": 1,
-      "Brazil": 1,
       "Taiwan": 1,
       "Vietnam": 1,
       "Italy": 1,
@@ -3489,7 +3489,7 @@
     },
     "by_group": {
       "qilin": 16,
-      "thegentlemen": 12,
+      "thegentlemen": 11,
       "CRPxO": 11,
       "incransom": 9,
       "safepay": 9,
@@ -3503,6 +3503,7 @@
       "akira": 2,
       "aurora": 2,
       "dragonforce": 2,
+      "spacebears": 1,
       "chaos": 1,
       "payload": 1,
       "SilentRansomGroup": 1,
@@ -3514,9 +3515,9 @@
     "by_sector": {
       "Manufacturing": 24,
       "Professional Services": 12,
-      "Healthcare": 11,
+      "Technology": 11,
       "Other": 11,
-      "Technology": 10,
+      "Healthcare": 10,
       "Financial Services": 10,
       "Retail & E-Commerce": 7,
       "Government & Defense": 3,
