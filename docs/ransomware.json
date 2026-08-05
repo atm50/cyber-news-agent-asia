@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-05T15:14:48.450965+00:00",
+  "last_updated_utc": "2026-08-05T17:38:00.814891+00:00",
   "victims": [
+    {
+      "victim": "STADLER Sensorik CNC-Technik",
+      "group": "qilin",
+      "country": "Austria",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-05T16:32:34.871042+00:00",
+      "attack_date": "2026-08-05T16:31:57.200371+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=5b9da671-b54b-4836-970a-d34ef5c6e054",
+      "monitored": false
+    },
+    {
+      "victim": "tomorrowsoffice.com",
+      "group": "chaos",
+      "country": "United Kingdom",
+      "sector": "Professional Services",
+      "discovered": "2026-08-05T16:23:51.684617+00:00",
+      "attack_date": "2026-08-05T16:23:36.774901+00:00",
+      "website": "",
+      "description": "URGENT DATA LEAK NOTICE: TOMORROW'S OFFICE\n\nTarget: Tomorrow’s Office (tomorrowsoffice.com)\n\nStatus: Ongoing Data Publication Countdown\n\nSecurity researchers have successfully exfiltrated 125 GB of critical and confidential data from the internal infrastructure of Tomorrow’s Office (tomorrowsoff…",
+      "claim_url": "http://hptqq2o2qjva7lcaaq67w36jihzivkaitkexorauw7b2yul2z6zozpqd.onion/post/SeL9gpPcxoqiuI6wlYlReBciNb1Mmk0v",
+      "monitored": true
+    },
     {
       "victim": "Stade Francais",
       "group": "qilin",
@@ -95,6 +119,18 @@
       "website": "",
       "description": "About TSC Logistics TSC Logistics specializes in providing advanced transportation solutions that prioritize speed and cost-effectiveness for their clients. A cyberattack has resulted in the exfiltration of nearly 600 gigabytes of highly sensitive data, exposing a vast trove of internal records. The",
       "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=tsc-logistics",
+      "monitored": true
+    },
+    {
+      "victim": "Long-Lewis Automotive Group",
+      "group": "Dark Project",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-08-05T16:21:16.206364+00:00",
+      "attack_date": "2026-08-04T21:51:49.072759+00:00",
+      "website": "",
+      "description": "About Long-Lewis Automotive Group The Long-Lewis Auto Group is Alabama’s largest automotive retailer, with origins tracing back to a hardware store founded in Bessemer, Alabama, in 1887. It became one of the nation's very first Ford dealerships in 1915 and operates multiple dealerships across the st",
+      "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=long-lewis-automotive-group",
       "monitored": true
     },
     {
@@ -950,6 +986,18 @@
       "monitored": false
     },
     {
+      "victim": "Lumenis Ltd.",
+      "group": "shinyhunters",
+      "country": "Israel",
+      "sector": "Technology",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
+      "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
+      "monitored": true
+    },
+    {
       "victim": "Alcon Inc.",
       "group": "shinyhunters",
       "country": "Switzerland",
@@ -971,18 +1019,6 @@
       "website": "",
       "description": "Over 21 million Salesforce records containing some PII and 147GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headl",
       "claim_url": "https://www.ransomware.live/id/UXVlc3RlbCBTQVNAc2hpbnlodW50ZXJz",
-      "monitored": true
-    },
-    {
-      "victim": "Lumenis Ltd.",
-      "group": "shinyhunters",
-      "country": "Israel",
-      "sector": "Technology",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
-      "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
       "monitored": true
     },
     {
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "About Mayco International At least 2Tb of sensitive data were exfiltrated from the company’s control following a cyberattack. The compromised dataset leaked from Mayco internatioins company infrastructure includes internal organizational documents, proprietary technical schemas, employee personally ",
       "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=mayco-international",
-      "monitored": true
-    },
-    {
-      "victim": "Lamont Pridmore",
-      "group": "dragonforce",
-      "country": "United Kingdom",
-      "sector": "Not Found",
-      "discovered": "2026-07-31T15:54:04.124458+00:00",
-      "attack_date": "2026-07-31T15:36:13.171267+00:00",
-      "website": "",
-      "description": "Lamont Pridmore is a leading independent chartered accountancy practice based in Carlisle, Cumbria, and Lancashire, offering a comprehensive range of accountancy, tax, and business advisory services. Their expertise spans various sectors including agriculture, tourism, and family businesses, caterin",
-      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=b6be8d66-388e-4cc3-8e6d-f18008ed955a",
-      "monitored": true
-    },
-    {
-      "victim": "Gardiner Family Chiropractic",
-      "group": "interlock",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-07-31T14:56:09.554461+00:00",
-      "attack_date": "2026-07-31T14:55:45.005441+00:00",
-      "website": "",
-      "description": "Gardiner Family Chiropractic has been providing medical services to residents of Gardiner and the surrounding area since 1989. However, it is not responsible for its patients and makes no attempt to ensure the security of its stored information. Therefore, patient data, client records, medical histo",
-      "claim_url": "http://5igtvs225ikh2svqvf7zkanyica5jz5p5db44fg2rwj7ifyjipvyimid.onion/index.php?p=",
-      "monitored": true
-    },
-    {
-      "victim": "BLUEVISTALLC.COM",
-      "group": "clop",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-07-31T13:00:07.348181+00:00",
-      "attack_date": "2026-07-31T12:59:49.227747+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bluevistallc-com",
       "monitored": true
     }
   ],
@@ -3456,16 +3456,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 78,
-    "unique_groups": 27,
+    "monitored_victims": 77,
+    "unique_groups": 25,
     "unique_countries": 29,
     "by_country": {
-      "United States": 46,
+      "United States": 45,
       "Turkey": 8,
       "Germany": 5,
       "United Kingdom": 4,
       "France": 3,
       "Philippines": 3,
+      "Austria": 2,
       "Brazil": 2,
       "Indonesia": 2,
       "South Korea": 2,
@@ -3487,50 +3488,47 @@
       "Canada": 1,
       "Belgium": 1,
       "Switzerland": 1,
-      "Austria": 1,
       "Saudi Arabia": 1
     },
     "by_group": {
-      "qilin": 16,
+      "qilin": 17,
       "CRPxO": 11,
       "safepay": 9,
       "incransom": 8,
+      "Dark Project": 7,
       "krybit": 7,
       "Orova": 6,
-      "Dark Project": 6,
       "play": 5,
       "coinbasecartel": 4,
       "thegentlemen": 3,
       "anubis": 3,
       "shinyhunters": 3,
+      "chaos": 2,
       "gunra": 2,
       "akira": 2,
       "aurora": 2,
-      "dragonforce": 2,
       "spacebears": 1,
       "everest": 1,
-      "chaos": 1,
       "Triple X": 1,
+      "dragonforce": 1,
       "payload": 1,
       "payoutsking": 1,
       "SilentRansomGroup": 1,
       "Global Secret Group": 1,
-      "Gammax": 1,
-      "interlock": 1,
-      "clop": 1
+      "Gammax": 1
     },
     "by_sector": {
-      "Manufacturing": 24,
-      "Professional Services": 14,
+      "Manufacturing": 25,
+      "Professional Services": 15,
       "Technology": 11,
-      "Healthcare": 10,
       "Financial Services": 10,
       "Other": 10,
+      "Healthcare": 9,
       "Retail & E-Commerce": 7,
-      "Not Found": 3,
       "Hospitality": 2,
       "Energy & Utilities": 2,
       "Transportation": 2,
+      "Not Found": 2,
       "Government & Defense": 2,
       "Education": 1,
       "Agriculture and Food Production": 1
