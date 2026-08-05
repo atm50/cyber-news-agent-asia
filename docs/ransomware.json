@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-04T22:13:22.478547+00:00",
+  "last_updated_utc": "2026-08-05T00:04:10.377619+00:00",
   "victims": [
+    {
+      "victim": "Loyalist College",
+      "group": "incransom",
+      "country": "Canada",
+      "sector": "Education",
+      "discovered": "2026-08-04T23:54:25.508491+00:00",
+      "attack_date": "2026-08-04T23:11:00+00:00",
+      "website": "",
+      "description": "The management of this institution was repeatedly warned about the disclosure of hundreds of personal data. Each of you who is faced with the consequences of the leak can be absolutely sure that the management of Loyalist College absolutely does not care about its students, employees and partners.\r ",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a70f8179cd108bf2610d332",
+      "monitored": true
+    },
     {
       "victim": "Galvin Brothers",
       "group": "qilin",
@@ -818,18 +830,6 @@
       "monitored": false
     },
     {
-      "victim": "Alcon Inc.",
-      "group": "shinyhunters",
-      "country": "Switzerland",
-      "sector": "Healthcare",
-      "discovered": "2026-08-02T00:00:00+00:00",
-      "attack_date": "2026-08-01T00:00:00+00:00",
-      "website": "",
-      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
-      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
-      "monitored": false
-    },
-    {
       "victim": "Lumenis Ltd.",
       "group": "shinyhunters",
       "country": "Israel",
@@ -840,6 +840,18 @@
       "description": "Over 1.1 million records containing some Pil of customers/employees and 176GB+ of internal corporate data was compromised.\r\n\r\nThis is a final warning to reach out by 4\r\nAugust 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be ",
       "claim_url": "https://www.ransomware.live/id/THVtZW5pcyBMdGQuQHNoaW55aHVudGVycw==",
       "monitored": true
+    },
+    {
+      "victim": "Alcon Inc.",
+      "group": "shinyhunters",
+      "country": "Switzerland",
+      "sector": "Healthcare",
+      "discovered": "2026-08-02T00:00:00+00:00",
+      "attack_date": "2026-08-01T00:00:00+00:00",
+      "website": "",
+      "description": "Over 25 million Salesforce records containing some PII was compromised.\r\n\r\nThis is a final warning to reach out by 4 August 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline.",
+      "claim_url": "https://www.ransomware.live/id/QWxjb24gSW5jLkBzaGlueWh1bnRlcnM=",
+      "monitored": false
     },
     {
       "victim": "Questel SAS",
@@ -1188,18 +1200,6 @@
       "description": "camaraserra.es.gov.br The Municipal Chamber of Serra (Câmara Municipal da Serra) is the legislative body of the city of Serra, located in the state of Espírito Santo, Brazil. As the largest legislative house in the state, it is composed of elected councilors responsible for creating local laws, over",
       "claim_url": "https://www.ransomware.live/id/VGhlIE11bmljaXBhbCBDaGFtYmVyIG9mIFNlcnJhQHRoZWdlbnRsZW1lbg==",
       "monitored": true
-    },
-    {
-      "victim": "Orsima",
-      "group": "thegentlemen",
-      "country": "",
-      "sector": "Technology",
-      "discovered": "2026-07-31T18:25:13.291097+00:00",
-      "attack_date": "2026-07-31T12:14:19+00:00",
-      "website": "",
-      "description": "orsima.com zoominfo.com/c/orsima/347930414 ORSIMA is a leading Algerian IT services company with over 30 years of expertise in digital transformation, data center modernization, and cybersecurity. As a strategic partner of major technology providers like Dell Technologies and Microsoft, it offers co",
-      "claim_url": "https://www.ransomware.live/id/T3JzaW1hQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3450,7 +3450,7 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 73,
+    "monitored_victims": 74,
     "unique_groups": 22,
     "unique_countries": 32,
     "by_country": {
@@ -3458,10 +3458,11 @@
       "Turkey": 8,
       "Germany": 6,
       "Israel": 4,
-      "Unknown": 3,
       "United Kingdom": 3,
+      "Canada": 2,
       "Brazil": 2,
       "South Korea": 2,
+      "Unknown": 2,
       "Philippines": 2,
       "Spain": 2,
       "HK": 2,
@@ -3478,7 +3479,6 @@
       "Singapore": 1,
       "NG": 1,
       "Mexico": 1,
-      "Canada": 1,
       "Belgium": 1,
       "Switzerland": 1,
       "Austria": 1,
@@ -3489,11 +3489,11 @@
     },
     "by_group": {
       "qilin": 16,
-      "thegentlemen": 15,
+      "thegentlemen": 14,
       "CRPxO": 11,
       "safepay": 9,
+      "incransom": 8,
       "krybit": 7,
-      "incransom": 7,
       "play": 5,
       "Orova": 5,
       "coinbasecartel": 4,
@@ -3517,11 +3517,11 @@
       "Other": 11,
       "Financial Services": 10,
       "Healthcare": 10,
-      "Technology": 9,
+      "Technology": 8,
       "Retail & E-Commerce": 7,
       "Government & Defense": 4,
+      "Education": 3,
       "Energy & Utilities": 3,
-      "Education": 2,
       "Agriculture and Food Production": 2,
       "Transportation": 2,
       "Not Found": 2,
