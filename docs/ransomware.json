@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-07T15:56:48.580659+00:00",
+  "last_updated_utc": "2026-08-07T16:55:40.692344+00:00",
   "victims": [
+    {
+      "victim": "Hitech Distribuzione Informatica S.r.l. (HTDI)",
+      "group": "spacebears",
+      "country": "Italy",
+      "sector": "Technology",
+      "discovered": "2026-08-07T16:30:41.713619+00:00",
+      "attack_date": "2026-08-07T16:30:16.815383+00:00",
+      "website": "",
+      "description": "HTDI is a leading Italian provider of comprehensive IT solutions based in Rome (Via Tempio del Cielo). It positions itself as a single technological partner that accompanies clients through every stage of the IT infrastructure lifecycle — from design and equipment selection to delivery, installation",
+      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/66/hitech-distribuzione-informatica-srl-htdi",
+      "monitored": false
+    },
     {
       "victim": "Astro Electroplating",
       "group": "qilin",
@@ -1184,18 +1196,6 @@
       "sector": "Not Found",
       "discovered": "2026-08-05T20:50:11.638754+00:00",
       "attack_date": "2026-08-05T20:49:57.662131+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project - files",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "clo*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:49:39.582332+00:00",
-      "attack_date": "2026-08-05T20:49:26.511067+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project - files",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
@@ -3487,18 +3487,18 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 55,
-    "unique_groups": 17,
+    "unique_groups": 18,
     "unique_countries": 24,
     "by_country": {
       "United States": 38,
-      "Unknown": 29,
+      "Unknown": 28,
       "France": 4,
+      "Italy": 3,
       "Germany": 3,
       "United Kingdom": 2,
       "China": 2,
       "Canada": 2,
       "Sweden": 2,
-      "Italy": 2,
       "Switzerland": 2,
       "India": 1,
       "South Africa": 1,
@@ -3516,8 +3516,8 @@
       "Vietnam": 1
     },
     "by_group": {
-      "clop": 24,
       "thegentlemen": 24,
+      "clop": 23,
       "qilin": 12,
       "Orova": 10,
       "Helix": 5,
@@ -3528,6 +3528,7 @@
       "lynx": 2,
       "Barracuda": 2,
       "akira": 2,
+      "spacebears": 1,
       "SilentRansomGroup": 1,
       "Gammax": 1,
       "bravox": 1,
@@ -3535,12 +3536,12 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 29,
+      "Not Found": 28,
       "Other": 16,
       "Professional Services": 12,
       "Manufacturing": 10,
+      "Technology": 8,
       "Healthcare": 8,
-      "Technology": 7,
       "Financial Services": 5,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
