@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-08T11:29:14.690329+00:00",
+  "last_updated_utc": "2026-08-08T12:48:37.375778+00:00",
   "victims": [
+    {
+      "victim": "Clausing",
+      "group": "qilin",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-08T12:30:30.169180+00:00",
+      "attack_date": "2026-08-08T12:29:26.591613+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=6a51158d-1290-4eb0-884a-597a8ffd28a0",
+      "monitored": true
+    },
+    {
+      "victim": "CLLS Co Ltd",
+      "group": "qilin",
+      "country": "Singapore",
+      "sector": "Not Found",
+      "discovered": "2026-08-08T12:29:06.719361+00:00",
+      "attack_date": "2026-08-08T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=519326ff-4372-4dd4-82d5-a11cc4270a2f",
+      "monitored": true
+    },
     {
       "victim": "MEDICOS",
       "group": "bravox",
@@ -1174,30 +1198,6 @@
       "attack_date": "2026-08-05T20:52:38.958706+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Soft installers",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "wat*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:52:19.834774+00:00",
-      "attack_date": "2026-08-05T20:52:05.252206+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Project Backups, SQL Database Backup",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "9al*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:51:47.183592+00:00",
-      "attack_date": "2026-08-05T20:51:35.004753+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Project Backups, SQL Database Backup",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3486,20 +3486,21 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 58,
+    "monitored_victims": 60,
     "unique_groups": 18,
-    "unique_countries": 24,
+    "unique_countries": 25,
     "by_country": {
       "United States": 40,
-      "Unknown": 25,
+      "Unknown": 23,
       "France": 5,
+      "Germany": 4,
       "Italy": 3,
-      "Germany": 3,
       "United Kingdom": 2,
       "China": 2,
       "Canada": 2,
       "Sweden": 2,
       "Switzerland": 2,
+      "Singapore": 1,
       "India": 1,
       "South Africa": 1,
       "PE": 1,
@@ -3517,8 +3518,8 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "clop": 20,
-      "qilin": 12,
+      "clop": 18,
+      "qilin": 14,
       "Orova": 10,
       "Storm": 6,
       "Helix": 5,
@@ -3536,10 +3537,10 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 26,
+      "Not Found": 25,
       "Other": 17,
       "Professional Services": 12,
-      "Manufacturing": 10,
+      "Manufacturing": 11,
       "Healthcare": 9,
       "Technology": 7,
       "Financial Services": 6,
