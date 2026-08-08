@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-08T16:34:08.767800+00:00",
+  "last_updated_utc": "2026-08-08T17:31:08.617854+00:00",
   "victims": [
+    {
+      "victim": "Impact Centre Chrétien",
+      "group": "qilin",
+      "country": "HT",
+      "sector": "Other",
+      "discovered": "2026-08-08T16:28:01.710957+00:00",
+      "attack_date": "2026-08-08T16:27:19.655406+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=beeeda5d-f120-4c05-8e03-78c2d8785c59",
+      "monitored": false
+    },
     {
       "victim": "Louisville Bar Association",
       "group": "incransom",
@@ -1186,18 +1198,6 @@
       "attack_date": "2026-08-05T20:53:40.976038+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Backups",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "nuo*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:53:22.977897+00:00",
-      "attack_date": "2026-08-05T20:53:09.446608+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Soft installers",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3488,10 +3488,10 @@
     "total_victims": 100,
     "monitored_victims": 61,
     "unique_groups": 18,
-    "unique_countries": 25,
+    "unique_countries": 26,
     "by_country": {
       "United States": 41,
-      "Unknown": 22,
+      "Unknown": 21,
       "France": 5,
       "Germany": 4,
       "Italy": 3,
@@ -3500,6 +3500,7 @@
       "Canada": 2,
       "Sweden": 2,
       "Switzerland": 2,
+      "HT": 1,
       "Singapore": 1,
       "India": 1,
       "South Africa": 1,
@@ -3518,8 +3519,8 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "clop": 17,
-      "qilin": 14,
+      "clop": 16,
+      "qilin": 15,
       "Orova": 10,
       "Storm": 6,
       "Helix": 5,
@@ -3537,8 +3538,8 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 24,
-      "Other": 17,
+      "Not Found": 23,
+      "Other": 18,
       "Professional Services": 13,
       "Manufacturing": 11,
       "Healthcare": 9,
