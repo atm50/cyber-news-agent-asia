@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-08T08:41:46.346415+00:00",
+  "last_updated_utc": "2026-08-08T09:38:24.809664+00:00",
   "victims": [
     {
       "victim": "MEDICOS",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "European manufacturer of packaging for beauty and food. Expertise in plastic injection molding and drawn glass production.",
       "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/7c38473b-91cb-4ca1-a5a2-6f3b6d9b750b",
+      "monitored": true
+    },
+    {
+      "victim": "United Group of Companies",
+      "group": "Storm",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-08-08T09:21:21.811786+00:00",
+      "attack_date": "2026-08-07T20:36:41+00:00",
+      "website": "",
+      "description": "Since 1972, The United Group of Companies, Inc. has specialized in all phases of real estate: development, financing, construction, and management. Their specialties include independent senior living, student apartment communities, multi-family (including affordable) housing, commercial properties, ",
+      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7641d97a5bd158e10b4e50",
+      "monitored": true
+    },
+    {
+      "victim": "Sawyer Savings Bank",
+      "group": "Storm",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-08-08T09:20:49.934425+00:00",
+      "attack_date": "2026-08-07T20:32:19+00:00",
+      "website": "",
+      "description": "Sawyer Savings Bank is a community-focused financial institution with over 150 years of experience, offering a range of personal and business banking services. Their products include personal checking, savings accounts, business loans, and digital banking solutions designed to enhance customer conve",
+      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7640d37a5bd158e10b4e4f",
       "monitored": true
     },
     {
@@ -1174,30 +1198,6 @@
       "attack_date": "2026-08-05T20:51:35.004753+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Project Backups, SQL Database Backup",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "int*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Technology",
-      "discovered": "2026-08-05T20:51:16.886130+00:00",
-      "attack_date": "2026-08-05T20:51:03.586993+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project, PDF, XLSX, XLS, DOCX - files",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "hon*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:50:45.458566+00:00",
-      "attack_date": "2026-08-05T20:50:29.637476+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project - files",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3486,12 +3486,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 56,
+    "monitored_victims": 58,
     "unique_groups": 18,
     "unique_countries": 24,
     "by_country": {
-      "United States": 38,
-      "Unknown": 27,
+      "United States": 40,
+      "Unknown": 25,
       "France": 5,
       "Italy": 3,
       "Germany": 3,
@@ -3517,12 +3517,12 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "clop": 22,
+      "clop": 20,
       "qilin": 12,
       "Orova": 10,
+      "Storm": 6,
       "Helix": 5,
       "krybit": 5,
-      "Storm": 4,
       "play": 3,
       "bravox": 2,
       "incransom": 2,
@@ -3536,13 +3536,13 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 27,
-      "Other": 16,
+      "Not Found": 26,
+      "Other": 17,
       "Professional Services": 12,
       "Manufacturing": 10,
       "Healthcare": 9,
-      "Technology": 8,
-      "Financial Services": 5,
+      "Technology": 7,
+      "Financial Services": 6,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
       "Retail & E-Commerce": 2,
