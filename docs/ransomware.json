@@ -1,16 +1,16 @@
 {
-  "last_updated_utc": "2026-08-08T18:37:52.779049+00:00",
+  "last_updated_utc": "2026-08-08T19:31:04.417781+00:00",
   "victims": [
     {
-      "victim": "Impact Centre Chrétien",
-      "group": "qilin",
-      "country": "HT",
+      "victim": "Daily Trust",
+      "group": "Panzer",
+      "country": "NG",
       "sector": "Other",
-      "discovered": "2026-08-08T16:28:01.710957+00:00",
-      "attack_date": "2026-08-08T16:27:19.655406+00:00",
+      "discovered": "2026-08-08T19:21:01.537371+00:00",
+      "attack_date": "2026-08-08T19:04:15+00:00",
       "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=beeeda5d-f120-4c05-8e03-78c2d8785c59",
+      "description": "Daily Trust is a Nigerian news organization that provides breaking news, investigative stories, and various features across multiple sectors including business, politics, sports, and entertainment. The company offers content through print, online platforms, and media outlets like Trust TV and Trust ",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/daily-trust",
       "monitored": false
     },
     {
@@ -35,6 +35,18 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=6a51158d-1290-4eb0-884a-597a8ffd28a0",
+      "monitored": true
+    },
+    {
+      "victim": "Impact Centre Chrétien",
+      "group": "qilin",
+      "country": "France",
+      "sector": "Other",
+      "discovered": "2026-08-08T16:28:01.710957+00:00",
+      "attack_date": "2026-08-08T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=beeeda5d-f120-4c05-8e03-78c2d8785c59",
       "monitored": true
     },
     {
@@ -1186,18 +1198,6 @@
       "attack_date": "2026-08-05T20:54:11.052244+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "iva*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:53:53.076193+00:00",
-      "attack_date": "2026-08-05T20:53:40.976038+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Backups",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3486,13 +3486,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
-    "unique_groups": 18,
+    "monitored_victims": 62,
+    "unique_groups": 19,
     "unique_countries": 26,
     "by_country": {
       "United States": 41,
-      "Unknown": 21,
-      "France": 5,
+      "Unknown": 20,
+      "France": 6,
       "Germany": 4,
       "Italy": 3,
       "United Kingdom": 2,
@@ -3500,7 +3500,7 @@
       "Canada": 2,
       "Sweden": 2,
       "Switzerland": 2,
-      "HT": 1,
+      "NG": 1,
       "Singapore": 1,
       "India": 1,
       "South Africa": 1,
@@ -3519,8 +3519,8 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "clop": 16,
       "qilin": 15,
+      "clop": 15,
       "Orova": 10,
       "Storm": 6,
       "Helix": 5,
@@ -3531,6 +3531,7 @@
       "lynx": 2,
       "Barracuda": 2,
       "akira": 2,
+      "Panzer": 1,
       "spacebears": 1,
       "SilentRansomGroup": 1,
       "Gammax": 1,
@@ -3538,8 +3539,8 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 23,
-      "Other": 18,
+      "Not Found": 22,
+      "Other": 19,
       "Professional Services": 13,
       "Manufacturing": 11,
       "Healthcare": 9,
