@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-08T13:46:09.731642+00:00",
+  "last_updated_utc": "2026-08-08T14:33:14.781002+00:00",
   "victims": [
+    {
+      "victim": "Louisville Bar Association",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-08T14:25:56.891591+00:00",
+      "attack_date": "2026-08-08T13:00:00+00:00",
+      "website": "",
+      "description": "The Louisville Bar Association (LBA) provides a range of services including membership benefits, legal job placement, continuing legal education (CLE), and public service initiatives. It aims to support legal professionals at all stages of their careers while promoting diversity and community engage",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a623df35ae71db30c7eabbf",
+      "monitored": true
+    },
     {
       "victim": "Clausing",
       "group": "qilin",
@@ -1184,18 +1196,6 @@
       "sector": "Not Found",
       "discovered": "2026-08-05T20:53:22.977897+00:00",
       "attack_date": "2026-08-05T20:53:09.446608+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Soft installers",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "the*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:52:51.427419+00:00",
-      "attack_date": "2026-08-05T20:52:38.958706+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Soft installers",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
@@ -3486,12 +3486,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
+    "monitored_victims": 61,
     "unique_groups": 18,
     "unique_countries": 25,
     "by_country": {
-      "United States": 40,
-      "Unknown": 23,
+      "United States": 41,
+      "Unknown": 22,
       "France": 5,
       "Germany": 4,
       "Italy": 3,
@@ -3518,15 +3518,15 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "clop": 18,
+      "clop": 17,
       "qilin": 14,
       "Orova": 10,
       "Storm": 6,
       "Helix": 5,
       "krybit": 5,
+      "incransom": 3,
       "play": 3,
       "bravox": 2,
-      "incransom": 2,
       "lynx": 2,
       "Barracuda": 2,
       "akira": 2,
@@ -3537,9 +3537,9 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 25,
+      "Not Found": 24,
       "Other": 17,
-      "Professional Services": 12,
+      "Professional Services": 13,
       "Manufacturing": 11,
       "Healthcare": 9,
       "Technology": 7,
