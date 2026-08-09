@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-09T07:55:56.178278+00:00",
+  "last_updated_utc": "2026-08-09T08:43:01.423258+00:00",
   "victims": [
+    {
+      "victim": "Service d'usinage 9002",
+      "group": "qilin",
+      "country": "Canada",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-09T08:28:24.677986+00:00",
+      "attack_date": "2026-08-09T08:28:03.476060+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=7c0be3ef-a162-4795-8fb1-9d4375a743bd",
+      "monitored": true
+    },
     {
       "victim": "studiotibaldi.it",
       "group": "krybit",
@@ -1186,18 +1198,6 @@
       "attack_date": "2026-08-05T20:55:45.355458+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "omn*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:55:27.272302+00:00",
-      "attack_date": "2026-08-05T20:55:13.265638+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, SQL Backups, Soft installers, Jpeg, Png, PDF - files",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3486,18 +3486,18 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
+    "monitored_victims": 63,
     "unique_groups": 19,
     "unique_countries": 27,
     "by_country": {
       "United States": 41,
-      "Unknown": 18,
+      "Unknown": 17,
       "France": 6,
       "Italy": 4,
       "Germany": 4,
+      "Canada": 3,
       "United Kingdom": 2,
       "China": 2,
-      "Canada": 2,
       "Sweden": 2,
       "Switzerland": 2,
       "Thailand": 1,
@@ -3520,8 +3520,8 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "qilin": 15,
-      "clop": 13,
+      "qilin": 16,
+      "clop": 12,
       "Orova": 10,
       "krybit": 6,
       "Storm": 6,
@@ -3540,10 +3540,10 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 20,
       "Other": 19,
+      "Not Found": 19,
       "Professional Services": 14,
-      "Manufacturing": 11,
+      "Manufacturing": 12,
       "Healthcare": 9,
       "Technology": 7,
       "Financial Services": 6,
