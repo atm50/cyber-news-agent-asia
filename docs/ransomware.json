@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-09T12:50:37.093088+00:00",
+  "last_updated_utc": "2026-08-09T13:50:47.157195+00:00",
   "victims": [
+    {
+      "victim": "Price Shoes",
+      "group": "qilin",
+      "country": "Mexico",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-09T13:31:33.331482+00:00",
+      "attack_date": "2026-08-09T13:31:15.441038+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=7628b972-0301-4538-b81f-b05da191a574",
+      "monitored": false
+    },
+    {
+      "victim": "Naval Interior Team",
+      "group": "qilin",
+      "country": "Finland",
+      "sector": "Government & Defense",
+      "discovered": "2026-08-09T13:31:01.511636+00:00",
+      "attack_date": "2026-08-09T13:30:31.446553+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=ab374723-8098-489f-b410-22f166d857f1",
+      "monitored": false
+    },
     {
       "victim": "Phithan Phanich",
       "group": "qilin",
@@ -1174,30 +1198,6 @@
       "attack_date": "2026-08-05T20:58:59.815603+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "qc*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:58:41.728809+00:00",
-      "attack_date": "2026-08-05T20:58:26.572436+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "flu*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:58:08.460370+00:00",
-      "attack_date": "2026-08-05T20:57:55.703845+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project,Cad-files",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3494,10 +3494,10 @@
     "total_victims": 100,
     "monitored_victims": 64,
     "unique_groups": 20,
-    "unique_countries": 27,
+    "unique_countries": 29,
     "by_country": {
       "United States": 42,
-      "Unknown": 13,
+      "Unknown": 11,
       "France": 6,
       "Italy": 4,
       "Germany": 4,
@@ -3509,6 +3509,8 @@
       "China": 2,
       "Sweden": 2,
       "Switzerland": 2,
+      "Mexico": 1,
+      "Finland": 1,
       "NG": 1,
       "Singapore": 1,
       "India": 1,
@@ -3526,11 +3528,11 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "qilin": 19,
+      "qilin": 21,
       "Orova": 10,
-      "clop": 8,
       "krybit": 6,
       "Storm": 6,
+      "clop": 6,
       "Helix": 5,
       "incransom": 3,
       "play": 3,
@@ -3548,18 +3550,18 @@
     },
     "by_sector": {
       "Other": 19,
-      "Not Found": 16,
       "Manufacturing": 14,
       "Professional Services": 14,
+      "Not Found": 14,
       "Healthcare": 9,
       "Technology": 7,
       "Financial Services": 6,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
+      "Retail & E-Commerce": 3,
+      "Government & Defense": 2,
       "Energy & Utilities": 2,
-      "Retail & E-Commerce": 2,
       "Education": 1,
-      "Government & Defense": 1,
       "Hospitality": 1
     }
   },
