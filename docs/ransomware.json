@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-09T08:43:01.423258+00:00",
+  "last_updated_utc": "2026-08-09T09:40:21.507520+00:00",
   "victims": [
     {
       "victim": "Service d'usinage 9002",
@@ -72,6 +72,18 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=6a51158d-1290-4eb0-884a-597a8ffd28a0",
       "monitored": true
+    },
+    {
+      "victim": "Ali** **********",
+      "group": "shinyhunters",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-08-09T09:29:48.912411+00:00",
+      "attack_date": "2026-08-08T00:00:00+00:00",
+      "website": "",
+      "description": "August 7, 2026 3:00 PM ET: Over 11.5 million records across Salesforce, ServiceNow, and Entra containing some PII of customers and employees and 3.1TB+ of internal corporate data was compromised. This is a final warning to reach out by 10 August 2026 before we leak along with several annoying (digit",
+      "claim_url": "https://shnyhntww34phqoa6dcgnvps2yu7dlwzmy5lkvejwjdo6z7bmgshzayd.onion/#AlienTechnology",
+      "monitored": false
     },
     {
       "victim": "Impact Centre Chrétien",
@@ -1188,18 +1200,6 @@
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
-    },
-    {
-      "victim": "arc*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Technology",
-      "discovered": "2026-08-05T20:55:58.667909+00:00",
-      "attack_date": "2026-08-05T20:55:45.355458+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
     }
   ],
   "groups": [
@@ -1494,6 +1494,12 @@
     {
       "name": "SilentRansomGroup",
       "description": "a former Conti team",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "Sovcali",
+      "description": "",
       "locations": 1,
       "meta": ""
     },
@@ -3487,7 +3493,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 63,
-    "unique_groups": 19,
+    "unique_groups": 20,
     "unique_countries": 27,
     "by_country": {
       "United States": 41,
@@ -3521,7 +3527,7 @@
     "by_group": {
       "thegentlemen": 24,
       "qilin": 16,
-      "clop": 12,
+      "clop": 11,
       "Orova": 10,
       "krybit": 6,
       "Storm": 6,
@@ -3533,6 +3539,7 @@
       "lynx": 2,
       "Barracuda": 2,
       "akira": 2,
+      "shinyhunters": 1,
       "spacebears": 1,
       "SilentRansomGroup": 1,
       "Gammax": 1,
