@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-09T14:35:10.420792+00:00",
+  "last_updated_utc": "2026-08-09T15:32:51.611167+00:00",
   "victims": [
+    {
+      "victim": "Constellation HomeBuilder Systems",
+      "group": "unsafe",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-09T14:41:20.660513+00:00",
+      "attack_date": "2026-08-09T14:41:00.607485+00:00",
+      "website": "",
+      "description": "Revenue: $138.1M",
+      "claim_url": "http://unsafeipw6wbkzzmj7yqp7bz6j7ivzynggmwxsm6u2wwfmfqrxqrrhyd.onion/reel/6a788dc78b907544821fb857?page=1",
+      "monitored": true
+    },
     {
       "victim": "Price Shoes",
       "group": "qilin",
@@ -98,6 +110,30 @@
       "monitored": false
     },
     {
+      "victim": "pm-energy Die Solarexperten",
+      "group": "qilin",
+      "country": "Germany",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-08-09T14:57:55.232579+00:00",
+      "attack_date": "2026-08-09T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=bc867830-0246-450d-bbae-f93b24ef345d",
+      "monitored": true
+    },
+    {
+      "victim": "Harplast SRL",
+      "group": "qilin",
+      "country": "RO",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-09T14:32:05.337617+00:00",
+      "attack_date": "2026-08-09T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=9b358bc3-8762-4521-8745-6f84463cf078",
+      "monitored": false
+    },
+    {
       "victim": "Daily Trust",
       "group": "Panzer",
       "country": "NG",
@@ -191,18 +227,6 @@
       "website": "",
       "description": "Since 1972, The United Group of Companies, Inc. has specialized in all phases of real estate: development, financing, construction, and management. Their specialties include independent senior living, student apartment communities, multi-family (including affordable) housing, commercial properties, ",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7641d97a5bd158e10b4e50",
-      "monitored": true
-    },
-    {
-      "victim": "Sawyer Savings Bank",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-08T09:20:49.934425+00:00",
-      "attack_date": "2026-08-07T20:32:19+00:00",
-      "website": "",
-      "description": "Sawyer Savings Bank is a community-focused financial institution with over 150 years of experience, offering a range of personal and business banking services. Their products include personal checking, savings accounts, business loans, and digital banking solutions designed to enhance customer conve",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7640d37a5bd158e10b4e4f",
       "monitored": true
     },
     {
@@ -1174,30 +1198,6 @@
       "attack_date": "2026-08-05T21:00:07.153582+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: PDF files, Cad-files, Soft",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "ecc*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:59:48.465995+00:00",
-      "attack_date": "2026-08-05T20:59:32.663290+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: DBF files, Cad-files, Project, Soft, Backups",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "st*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:59:14.466837+00:00",
-      "attack_date": "2026-08-05T20:58:59.815603+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Project",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3492,15 +3492,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
-    "unique_groups": 20,
-    "unique_countries": 29,
+    "monitored_victims": 65,
+    "unique_groups": 21,
+    "unique_countries": 30,
     "by_country": {
       "United States": 42,
-      "Unknown": 11,
+      "Unknown": 9,
       "France": 6,
+      "Germany": 5,
       "Italy": 4,
-      "Germany": 4,
       "Canada": 3,
       "Thailand": 2,
       "PE": 2,
@@ -3511,6 +3511,7 @@
       "Switzerland": 2,
       "Mexico": 1,
       "Finland": 1,
+      "RO": 1,
       "NG": 1,
       "Singapore": 1,
       "India": 1,
@@ -3528,12 +3529,12 @@
     },
     "by_group": {
       "thegentlemen": 24,
-      "qilin": 21,
+      "qilin": 23,
       "Orova": 10,
       "krybit": 6,
-      "Storm": 6,
-      "clop": 6,
+      "Storm": 5,
       "Helix": 5,
+      "clop": 4,
       "incransom": 3,
       "play": 3,
       "Panzer": 2,
@@ -3541,6 +3542,7 @@
       "lynx": 2,
       "Barracuda": 2,
       "akira": 2,
+      "unsafe": 1,
       "shinyhunters": 1,
       "spacebears": 1,
       "SilentRansomGroup": 1,
@@ -3550,17 +3552,17 @@
     },
     "by_sector": {
       "Other": 19,
-      "Manufacturing": 14,
+      "Manufacturing": 16,
       "Professional Services": 14,
-      "Not Found": 14,
+      "Not Found": 12,
       "Healthcare": 9,
       "Technology": 7,
-      "Financial Services": 6,
+      "Financial Services": 5,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
       "Retail & E-Commerce": 3,
+      "Energy & Utilities": 3,
       "Government & Defense": 2,
-      "Energy & Utilities": 2,
       "Education": 1,
       "Hospitality": 1
     }
