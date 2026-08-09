@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-09T09:40:21.507520+00:00",
+  "last_updated_utc": "2026-08-09T10:35:25.710580+00:00",
   "victims": [
     {
       "victim": "Service d'usinage 9002",
@@ -494,18 +494,6 @@
       "monitored": true
     },
     {
-      "victim": "YY Business Solutions",
-      "group": "thegentlemen",
-      "country": "",
-      "sector": "Other",
-      "discovered": "2026-08-07T08:01:53.100038+00:00",
-      "attack_date": "2026-08-06T16:50:13+00:00",
-      "website": "",
-      "description": "Y&Y Business Solutions (YYB Business Solutions Inc.) is a Bronx-based company located at 169 Lincoln Avenue, Suite 208, Bronx, NY 10454, reachable at (347) 270-1283. Founded and led by Valerie and Yerlin, the firm specializes in income taxes, immigration services, business license & registration, DM",
-      "claim_url": "https://www.ransomware.live/id/WVkgQnVzaW5lc3MgU29sdXRpb25zQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
       "victim": "Halliday Watkins Mann",
       "group": "thegentlemen",
       "country": "United States",
@@ -888,6 +876,18 @@
       "description": "bpce-vietnam.com zoominfo.com/c/groupe-bpce/457963650 BPCE International (formerly Natixis), the Ho Chi Minh City branch of France’s second-largest banking group, Groupe BPCE. Operating in Vietnam since 1988, it is one of the country's longest-established foreign bank branches, holding a full bankin",
       "claim_url": "http://tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion/#Groupe_BPCE",
       "monitored": false
+    },
+    {
+      "victim": "YY Business Solutions",
+      "group": "thegentlemen",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-08-07T08:01:53.100038+00:00",
+      "attack_date": "2026-08-06T00:00:00+00:00",
+      "website": "",
+      "description": "Y&Y Business Solutions (YYB Business Solutions Inc.) is a Bronx-based company located at 169 Lincoln Avenue, Suite 208, Bronx, NY 10454, reachable at (347) 270-1283. Founded and led by Valerie and Yerlin, the firm specializes in income taxes, immigration services, business license & registration, DM",
+      "claim_url": "http://tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion/#YY",
+      "monitored": true
     },
     {
       "victim": "ALIZE (alize-sud.fr)",
@@ -3492,12 +3492,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
+    "monitored_victims": 64,
     "unique_groups": 20,
     "unique_countries": 27,
     "by_country": {
-      "United States": 41,
-      "Unknown": 17,
+      "United States": 42,
+      "Unknown": 16,
       "France": 6,
       "Italy": 4,
       "Germany": 4,
