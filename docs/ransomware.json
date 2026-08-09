@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-09T01:44:23.552356+00:00",
+  "last_updated_utc": "2026-08-09T03:43:36.638749+00:00",
   "victims": [
+    {
+      "victim": "studiotibaldi.it",
+      "group": "krybit",
+      "country": "Italy",
+      "sector": "Professional Services",
+      "discovered": "2026-08-09T02:26:12.288076+00:00",
+      "attack_date": "2026-08-09T02:25:55.107385+00:00",
+      "website": "",
+      "description": "Studio Associato Tibaldi is an Italian professional firm based in Rome, founded over 40 years ago, specializing in condo...",
+      "claim_url": "http://krybitx3fh5krdnhegyp2ob3lhizsaiadturtio3ginf7it5gsdgu2yd.onion/blog/39b1b6646b2110e79ac532e169720824c3d842d02ce0c61e95658835ac24d084/",
+      "monitored": false
+    },
     {
       "victim": "Siam Oil Product",
       "group": "Panzer",
@@ -1186,18 +1198,6 @@
       "attack_date": "2026-08-05T20:55:13.265638+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, SQL Backups, Soft installers, Jpeg, Png, PDF - files",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "lif*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:54:55.196134+00:00",
-      "attack_date": "2026-08-05T20:54:41.658447+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Backups, Logs, Soft installers, PDF, TXT, XML - files",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3491,10 +3491,10 @@
     "unique_countries": 27,
     "by_country": {
       "United States": 41,
-      "Unknown": 19,
+      "Unknown": 18,
       "France": 6,
+      "Italy": 4,
       "Germany": 4,
-      "Italy": 3,
       "United Kingdom": 2,
       "China": 2,
       "Canada": 2,
@@ -3521,11 +3521,11 @@
     "by_group": {
       "thegentlemen": 24,
       "qilin": 15,
-      "clop": 14,
+      "clop": 13,
       "Orova": 10,
+      "krybit": 6,
       "Storm": 6,
       "Helix": 5,
-      "krybit": 5,
       "incransom": 3,
       "play": 3,
       "Panzer": 2,
@@ -3540,9 +3540,9 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 21,
+      "Not Found": 20,
       "Other": 19,
-      "Professional Services": 13,
+      "Professional Services": 14,
       "Manufacturing": 11,
       "Healthcare": 9,
       "Technology": 7,
