@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-08T23:29:11.556912+00:00",
+  "last_updated_utc": "2026-08-09T01:44:23.552356+00:00",
   "victims": [
+    {
+      "victim": "Siam Oil Product",
+      "group": "Panzer",
+      "country": "Thailand",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-08-09T00:52:46.569177+00:00",
+      "attack_date": "2026-08-09T00:20:41+00:00",
+      "website": "",
+      "description": "Siam Oil Product Co., Ltd. is a Thailand-based petroleum and industrial-products distributor, operating for 20+ years with registered capital of THB 200 million and 700+ employees; it supplies fuel oil, diesel, asphalt, base oils, automotive/industrial lubricants, petrochemicals such as HDPE/LDPE/LL",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/siam-oil-product",
+      "monitored": false
+    },
     {
       "victim": "Daily Trust",
       "group": "Panzer",
@@ -1186,18 +1198,6 @@
       "attack_date": "2026-08-05T20:54:41.658447+00:00",
       "website": "",
       "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects, Backups, Logs, Soft installers, PDF, TXT, XML - files",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
-      "monitored": false
-    },
-    {
-      "victim": "sp*******",
-      "group": "clop",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-05T20:54:23.648618+00:00",
-      "attack_date": "2026-08-05T20:54:11.052244+00:00",
-      "website": "",
-      "description": "[CVE‑2026‑12569] Data exfiltrated included the following: Database, Projects",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/",
       "monitored": false
     }
@@ -3488,10 +3488,10 @@
     "total_victims": 100,
     "monitored_victims": 62,
     "unique_groups": 19,
-    "unique_countries": 26,
+    "unique_countries": 27,
     "by_country": {
       "United States": 41,
-      "Unknown": 20,
+      "Unknown": 19,
       "France": 6,
       "Germany": 4,
       "Italy": 3,
@@ -3500,6 +3500,7 @@
       "Canada": 2,
       "Sweden": 2,
       "Switzerland": 2,
+      "Thailand": 1,
       "NG": 1,
       "Singapore": 1,
       "India": 1,
@@ -3520,18 +3521,18 @@
     "by_group": {
       "thegentlemen": 24,
       "qilin": 15,
-      "clop": 15,
+      "clop": 14,
       "Orova": 10,
       "Storm": 6,
       "Helix": 5,
       "krybit": 5,
       "incransom": 3,
       "play": 3,
+      "Panzer": 2,
       "bravox": 2,
       "lynx": 2,
       "Barracuda": 2,
       "akira": 2,
-      "Panzer": 1,
       "spacebears": 1,
       "SilentRansomGroup": 1,
       "Gammax": 1,
@@ -3539,7 +3540,7 @@
       "cry0": 1
     },
     "by_sector": {
-      "Not Found": 22,
+      "Not Found": 21,
       "Other": 19,
       "Professional Services": 13,
       "Manufacturing": 11,
@@ -3548,9 +3549,9 @@
       "Financial Services": 6,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
+      "Energy & Utilities": 2,
       "Retail & E-Commerce": 2,
       "Government & Defense": 1,
-      "Energy & Utilities": 1,
       "Hospitality": 1
     }
   },
