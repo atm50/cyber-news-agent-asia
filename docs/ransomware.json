@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-08-10T09:21:54.778200+00:00",
+  "last_updated_utc": "2026-08-10T11:09:27.384862+00:00",
   "victims": [
+    {
+      "victim": "Black Hills Bentonite",
+      "group": "Wallstreet",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-10T10:51:44.561819+00:00",
+      "attack_date": "2026-08-10T10:43:38+00:00",
+      "website": "",
+      "description": "Black Hills Bentonite LLC (bhbentonite.com) is a Wyoming-based producer of high-quality sodium bentonite, along with lignite-related products, supplying global industrial and commercial uses such as drilling fluids, environmental/civil engineering sealing, absorbents (including cat litter), and meta",
+      "claim_url": "https://www.ransomware.live/id/QmxhY2sgSGlsbHMgQmVudG9uaXRlQFdhbGxzdHJlZXQ=",
+      "monitored": true
+    },
+    {
+      "victim": "T.RAD North America",
+      "group": "Wallstreet",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-10T10:52:03.868783+00:00",
+      "attack_date": "2026-08-10T10:41:25+00:00",
+      "website": "",
+      "description": "T.RAD North America (tradna.com) is a Hopkinsville, Kentucky-based manufacturer focused on heat exchangers for thermal-management applications such as vehicle powertrains, HVAC/architectural systems, and emerging technologies like battery and fuel-cell cooling.",
+      "claim_url": "https://www.ransomware.live/id/VC5SQUQgTm9ydGggQW1lcmljYUBXYWxsc3RyZWV0",
+      "monitored": true
+    },
+    {
+      "victim": "Elixi International SA",
+      "group": "spacebears",
+      "country": "Switzerland",
+      "sector": "Healthcare",
+      "discovered": "2026-08-10T10:37:28.115620+00:00",
+      "attack_date": "2026-08-10T10:37:05.312934+00:00",
+      "website": "",
+      "description": "Elixi International SA is a Swiss pharmaceutical distributor (headquartered in Chiasso, founded in 2016) specializing in the global supply of both licensed and unlicensed medicinal products, including expanded access programs for patients.The company operates on a B2B model, serving hospitals, clini",
+      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/67/elixi-international-sa",
+      "monitored": false
+    },
     {
       "victim": "DECK APP TECHNOLOGIES PTE. LTD",
       "group": "unsafe",
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "Pioneer Bank is a leading financial institution in New York's Capital Region, recognized as one of the 'Best Places to Work' by the Albany Business Review. The bank is committed to providing a world-class working environment and continually evolves to meet customer needs by offering new products, se",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a74574247a334030324d8d2",
-      "monitored": true
-    },
-    {
-      "victim": "Southern Indiana Radiological Associates",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-07T07:46:56.933866+00:00",
-      "attack_date": "2026-08-06T09:39:40+00:00",
-      "website": "",
-      "description": "Southern Indiana Radiological Associates provides a comprehensive range of diagnostic imaging services including CT, MRI, PET scans, and various breast imaging procedures. Established in 1964, SIRA focuses on delivering high-quality medical imaging to diagnosis disease or injury while ensuring patie",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a74565c47a334030324d8d1",
-      "monitored": true
-    },
-    {
-      "victim": "RS Automation Co., Ltd.",
-      "group": "Barracuda",
-      "country": "China",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-06T08:31:28.231171+00:00",
-      "attack_date": "2026-08-06T08:31:10.928466+00:00",
-      "website": "",
-      "description": "Full dump of all files from the servers and developers personal files and NAS. Legal documents, letters, drawings, assembly, C, and C++ source codes. Official manufacturer website: rsautomation.co.kr | Status: upcoming | Size: 637 GB | Starts at $50000.00",
-      "claim_url": "http://uvm6hk4wwstfddja5z5htgtlehmfyflffijz6iozsuqyacyibzxefkqd.onion",
-      "monitored": true
-    },
-    {
-      "victim": "clubonecasino.com",
-      "group": "threeam",
-      "country": "United States",
-      "sector": "Hospitality",
-      "discovered": "2026-08-06T08:22:00.228022+00:00",
-      "attack_date": "2026-08-06T08:21:42.300833+00:00",
-      "website": "",
-      "description": "Club One Casino is the premier poker room in Central California, featuring 51 table games, a 24-hour restaurant, and extensive non-gaming entertainment options such as sporting events and e-Sports. Catering to both seasoned players and newcomers,",
-      "claim_url": "http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/detail/8xgddoy34759ibwfcklxm7qehjil1l",
       "monitored": true
     }
   ],
@@ -3492,8 +3492,8 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
-    "unique_groups": 18,
+    "monitored_victims": 62,
+    "unique_groups": 17,
     "unique_countries": 32,
     "by_country": {
       "United States": 31,
@@ -3504,6 +3504,7 @@
       "France": 5,
       "India": 4,
       "Canada": 4,
+      "Switzerland": 2,
       "HK": 2,
       "Mexico": 2,
       "Singapore": 2,
@@ -3512,12 +3513,12 @@
       "Thailand": 2,
       "PE": 2,
       "Belgium": 2,
-      "China": 2,
       "Sweden": 2,
       "CL": 1,
       "Finland": 1,
       "RO": 1,
       "NG": 1,
+      "China": 1,
       "South Africa": 1,
       "Austria": 1,
       "CZ": 1,
@@ -3526,16 +3527,17 @@
       "Brazil": 1,
       "HU": 1,
       "Poland": 1,
-      "Turkey": 1,
-      "Switzerland": 1
+      "Turkey": 1
     },
     "by_group": {
       "thegentlemen": 34,
       "qilin": 26,
       "play": 6,
       "krybit": 6,
-      "Storm": 5,
       "Helix": 5,
+      "Storm": 4,
+      "Wallstreet": 2,
+      "spacebears": 2,
       "unsafe": 2,
       "Panzer": 2,
       "incransom": 2,
@@ -3543,17 +3545,14 @@
       "clop": 2,
       "lynx": 2,
       "shinyhunters": 1,
-      "spacebears": 1,
       "SilentRansomGroup": 1,
-      "Gammax": 1,
-      "Barracuda": 1,
-      "threeam": 1
+      "Gammax": 1
     },
     "by_sector": {
       "Manufacturing": 18,
       "Other": 15,
       "Professional Services": 14,
-      "Technology": 10,
+      "Technology": 11,
       "Not Found": 10,
       "Healthcare": 8,
       "Transportation": 5,
@@ -3562,8 +3561,7 @@
       "Education": 3,
       "Retail & E-Commerce": 3,
       "Financial Services": 3,
-      "Government & Defense": 2,
-      "Hospitality": 1
+      "Government & Defense": 2
     }
   },
   "errors": []
