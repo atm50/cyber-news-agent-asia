@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-10T23:35:53.553237+00:00",
+  "last_updated_utc": "2026-08-11T01:44:34.879676+00:00",
   "victims": [
     {
       "victim": "Cleaver-Brooks",
@@ -359,6 +359,18 @@
       "website": "",
       "description": "zioncontracting.com Zion Contracting LLC is a trusted general contractor based in New York, specializing in complex infrastructure and transportation projects. As a certified MBE, DBE, and SBE firm, they partner with government agencies to help fulfill minority and diversity contracting goals. Their",
       "claim_url": "https://www.ransomware.live/id/WmlvbiBDb250cmFjdGluZ0B0aGVnZW50bGVtZW4=",
+      "monitored": true
+    },
+    {
+      "victim": "Interim HealthCare",
+      "group": "genesis",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-08-11T00:00:43.048648+00:00",
+      "attack_date": "2026-08-10T00:00:00+00:00",
+      "website": "",
+      "description": "A healthcare organization dealing with elderly care services",
+      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/7f2a0a2775f800d932ea/",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "United States",
       "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=J7ZK0cLljprQOb",
-      "monitored": true
-    },
-    {
-      "victim": "www.talbotdes.org",
-      "group": "lynx",
-      "country": "United Kingdom",
-      "sector": "Other",
-      "discovered": "2026-08-06T17:26:18.293521+00:00",
-      "attack_date": "2026-08-06T17:21:23.803000+00:00",
-      "website": "",
-      "description": "Talbot County Department of Emergency Services provides essential emergency services including 9-1-1 communications, emergency medical services, and emergency management. The department aims to prepare the community for various emergencies, including natural and man-made disasters. Their intended cl",
-      "claim_url": "http://lynxblogoxllth4b46cfwlop5pfj4s7dyv37yuy7qn2ftan6gd72hsad.onion/leaks/6a74c293c192cbbf2fa8bfa1",
       "monitored": true
     }
   ],
@@ -3493,13 +3493,13 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 65,
-    "unique_groups": 22,
+    "unique_groups": 21,
     "unique_countries": 31,
     "by_country": {
-      "United States": 33,
+      "United States": 34,
       "Unknown": 8,
-      "United Kingdom": 6,
       "Italy": 5,
+      "United Kingdom": 5,
       "France": 5,
       "Germany": 4,
       "India": 4,
@@ -3540,24 +3540,23 @@
       "Global Secret Group": 3,
       "unsafe": 3,
       "Panzer": 3,
+      "genesis": 3,
       "akira": 3,
       "Wallstreet": 2,
       "spacebears": 2,
-      "genesis": 2,
       "incransom": 2,
       "clop": 2,
       "anubis": 1,
       "Deadlock": 1,
       "shinyhunters": 1,
-      "SilentRansomGroup": 1,
-      "lynx": 1
+      "SilentRansomGroup": 1
     },
     "by_sector": {
       "Manufacturing": 20,
+      "Healthcare": 13,
       "Technology": 12,
       "Professional Services": 12,
-      "Healthcare": 12,
-      "Other": 11,
+      "Other": 10,
       "Not Found": 7,
       "Financial Services": 7,
       "Transportation": 5,
