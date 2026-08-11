@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-11T05:09:26.379846+00:00",
+  "last_updated_utc": "2026-08-11T07:07:47.240225+00:00",
   "victims": [
+    {
+      "victim": "Leafwell",
+      "group": "direwolf",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-08-11T05:55:44.386538+00:00",
+      "attack_date": "2026-08-11T02:12:41.201967+00:00",
+      "website": "",
+      "description": "Hospitals &amp; Physicians Clinics",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/81",
+      "monitored": true
+    },
+    {
+      "victim": "FREYWILLE",
+      "group": "aurora",
+      "country": "Austria",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-11T05:51:58.070271+00:00",
+      "attack_date": "2026-08-11T00:00:00+00:00",
+      "website": "",
+      "description": "[jewelry] FREYWILLE — the Austrian luxury fire-enamel jewelry house with 70+ boutiques across Europe, the Americas, Middle East, Russia/CIS, and Asia-Pacific.\n\n<censored>\n<censored>\n142+ employee files with salary statements (2024–2026), social security numbers (ELDA), employment contracts across 24",
+      "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/freywille-7c86d6ae",
+      "monitored": false
+    },
     {
       "victim": "Cleaver-Brooks",
       "group": "anubis",
@@ -1176,30 +1200,6 @@
       "description": "United States",
       "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=dj7YZ0SGIBx7A0",
       "monitored": false
-    },
-    {
-      "victim": "GCATS Investments",
-      "group": "play",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-06T19:56:18.866956+00:00",
-      "attack_date": "2026-08-06T19:56:02.702128+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=rSQ3WyESL5wR6",
-      "monitored": true
-    },
-    {
-      "victim": "Platinum Group",
-      "group": "play",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-06T19:55:43.174560+00:00",
-      "attack_date": "2026-08-06T19:55:24.729498+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=J7ZK0cLljprQOb",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3492,11 +3492,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 65,
-    "unique_groups": 21,
+    "monitored_victims": 64,
+    "unique_groups": 22,
     "unique_countries": 31,
     "by_country": {
-      "United States": 34,
+      "United States": 33,
       "Unknown": 8,
       "Italy": 5,
       "United Kingdom": 5,
@@ -3505,6 +3505,7 @@
       "India": 4,
       "Canada": 4,
       "Thailand": 3,
+      "Austria": 2,
       "Philippines": 2,
       "HK": 2,
       "Mexico": 2,
@@ -3525,17 +3526,16 @@
       "NG": 1,
       "China": 1,
       "South Africa": 1,
-      "Austria": 1,
       "Sweden": 1
     },
     "by_group": {
       "qilin": 26,
       "thegentlemen": 13,
-      "direwolf": 10,
-      "play": 6,
+      "direwolf": 11,
       "krybit": 6,
       "Helix": 5,
       "Storm": 4,
+      "play": 4,
       "bravox": 3,
       "Global Secret Group": 3,
       "unsafe": 3,
@@ -3546,25 +3546,26 @@
       "spacebears": 2,
       "incransom": 2,
       "clop": 2,
+      "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
       "shinyhunters": 1,
       "SilentRansomGroup": 1
     },
     "by_sector": {
-      "Manufacturing": 20,
-      "Healthcare": 13,
+      "Manufacturing": 19,
+      "Healthcare": 14,
       "Technology": 12,
       "Professional Services": 12,
       "Other": 10,
       "Not Found": 7,
-      "Financial Services": 7,
+      "Financial Services": 6,
       "Transportation": 5,
       "Energy & Utilities": 4,
+      "Retail & E-Commerce": 3,
       "Agriculture and Food Production": 3,
       "Education": 3,
-      "Government & Defense": 2,
-      "Retail & E-Commerce": 2
+      "Government & Defense": 2
     }
   },
   "errors": []
