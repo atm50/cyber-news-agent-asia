@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-11T14:57:55.845497+00:00",
+  "last_updated_utc": "2026-08-11T16:03:52.289012+00:00",
   "victims": [
+    {
+      "victim": "AngMar Companies",
+      "group": "interlock",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-11T15:24:07.216775+00:00",
+      "attack_date": "2026-08-11T15:23:46.214598+00:00",
+      "website": "",
+      "description": "AngMar is a private organization comprised of numerous corporate holdings, LLCs, and companies, operating a network of home health care facilities. They disregard the safety of their clients and the people they care for. As a result, 710 GB of confidential information about the companies they serve ",
+      "claim_url": "http://xkqqpb46vk7appesxtmotbrweogkux6gheyonqpk2dxbuqetgt3cvrad.onion/index.php?p=",
+      "monitored": false
+    },
     {
       "victim": "B&B Hydraulik",
       "group": "payload",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Actini Group (ACTINI SAS) is a French industrial machinery manufacturing company with over 70 years of experience, found...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/8a0bdf901623710a4eef9699878ae33d2fc778edb5e3b5f6302f955744120676/",
-      "monitored": true
-    },
-    {
-      "victim": "www.ernat-bureau-etudes.fr",
-      "group": "krybit",
-      "country": "France",
-      "sector": "Professional Services",
-      "discovered": "2026-08-07T02:25:49.603659+00:00",
-      "attack_date": "2026-08-07T02:25:27.521191+00:00",
-      "website": "",
-      "description": "ERNAT (Etudes Réalisations Négoce Assistance Technique) SARL SCOP is a French worker cooperative (SCOP — Société C...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/80cae2a90e73a84acb9e51e10c40dd58a836d3f650b8f27c39558c72443c56f2/",
       "monitored": true
     }
   ],
@@ -3492,17 +3492,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
-    "unique_groups": 23,
+    "monitored_victims": 63,
+    "unique_groups": 24,
     "unique_countries": 30,
     "by_country": {
       "United States": 34,
-      "Unknown": 8,
+      "Unknown": 9,
       "Germany": 5,
       "Italy": 5,
       "United Kingdom": 5,
-      "France": 5,
       "India": 4,
+      "France": 4,
       "Thailand": 3,
       "Canada": 3,
       "Switzerland": 2,
@@ -3531,7 +3531,7 @@
       "qilin": 24,
       "thegentlemen": 13,
       "direwolf": 11,
-      "krybit": 6,
+      "krybit": 5,
       "Helix": 5,
       "Storm": 4,
       "payload": 3,
@@ -3546,6 +3546,7 @@
       "spacebears": 2,
       "incransom": 2,
       "clop": 2,
+      "interlock": 1,
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
@@ -3554,12 +3555,12 @@
     },
     "by_sector": {
       "Manufacturing": 21,
-      "Professional Services": 13,
       "Healthcare": 13,
+      "Professional Services": 12,
       "Technology": 12,
       "Other": 10,
+      "Not Found": 6,
       "Financial Services": 6,
-      "Not Found": 5,
       "Transportation": 5,
       "Energy & Utilities": 4,
       "Retail & E-Commerce": 3,
