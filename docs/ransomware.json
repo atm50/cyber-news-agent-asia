@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-11T11:00:48.747080+00:00",
+  "last_updated_utc": "2026-08-11T11:52:33.876694+00:00",
   "victims": [
     {
       "victim": "Leafwell",
@@ -818,6 +818,18 @@
       "monitored": false
     },
     {
+      "victim": "LexisNexis",
+      "group": "fulcrumsec",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-05-01T17:09:12.798805+00:00",
+      "attack_date": "2026-08-09 00:00:00.000000",
+      "website": "",
+      "description": "[AI generated] LexisNexis is a global information and analytics company headquartered in the United States. It operates in the legal, regulatory, and business intelligence industries, providing research tools, data analytics, and risk management solutions. Its platforms are widely used by legal prof",
+      "claim_url": "http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/lexisnexis/",
+      "monitored": true
+    },
+    {
       "victim": "Daily Trust",
       "group": "Panzer",
       "country": "NG",
@@ -1188,18 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=7bd8601b-91ae-4038-beed-c1874f4bbf01",
       "monitored": true
-    },
-    {
-      "victim": "Signature Services",
-      "group": "play",
-      "country": "",
-      "sector": "Professional Services",
-      "discovered": "2026-08-06T19:56:53.076914+00:00",
-      "attack_date": "2026-08-06T19:56:36.910110+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=dj7YZ0SGIBx7A0",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3492,12 +3492,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
-    "unique_groups": 22,
+    "monitored_victims": 65,
+    "unique_groups": 23,
     "unique_countries": 31,
     "by_country": {
-      "United States": 33,
-      "Unknown": 8,
+      "United States": 34,
+      "Unknown": 7,
       "Italy": 5,
       "United Kingdom": 5,
       "France": 5,
@@ -3535,13 +3535,13 @@
       "krybit": 6,
       "Helix": 5,
       "Storm": 4,
-      "play": 4,
       "bravox": 3,
       "Global Secret Group": 3,
       "unsafe": 3,
       "Panzer": 3,
       "genesis": 3,
       "akira": 3,
+      "play": 3,
       "Wallstreet": 2,
       "spacebears": 2,
       "incransom": 2,
@@ -3549,6 +3549,7 @@
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
+      "fulcrumsec": 1,
       "shinyhunters": 1,
       "SilentRansomGroup": 1
     },
