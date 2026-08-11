@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-11T21:47:57.433074+00:00",
+  "last_updated_utc": "2026-08-11T22:42:42.155258+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -70,6 +70,66 @@
       "first_seen": "2026-03-04 14:28:39",
       "last_seen": "",
       "country": "JP"
+    },
+    {
+      "value": "http://115.50.150.5:40794/bin.sh",
+      "type": "url",
+      "threat": "2026-08-11 22:13:19",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3902320/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-11 22:13:19",
+      "status": "online"
+    },
+    {
+      "value": "http://221.15.141.166:50250/i",
+      "type": "url",
+      "threat": "2026-08-11 22:08:21",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3902319/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-11 22:08:21",
+      "status": "online"
+    },
+    {
+      "value": "http://123.4.178.145:35087/bin.sh",
+      "type": "url",
+      "threat": "2026-08-11 21:50:20",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3902317/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-11 21:50:20",
+      "status": "online"
+    },
+    {
+      "value": "http://182.121.138.136:38226/i",
+      "type": "url",
+      "threat": "2026-08-11 21:50:20",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3902318/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-11 21:50:20",
+      "status": "online"
+    },
+    {
+      "value": "http://221.15.141.166:50250/bin.sh",
+      "type": "url",
+      "threat": "2026-08-11 21:43:17",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3902316/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-11 21:43:17",
+      "status": "online"
     },
     {
       "value": "http://42.224.175.231:41660/bin.sh",
@@ -1805,66 +1865,6 @@
       "threat": "2026-08-11 20:01:22",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3902164/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-11 14:03:03",
-      "status": "online"
-    },
-    {
-      "value": "http://62.84.172.106/sys64.mpsl",
-      "type": "url",
-      "threat": "2026-08-11 20:17:44",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3902165/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-11 14:03:03",
-      "status": "online"
-    },
-    {
-      "value": "http://72.56.52.158/ass",
-      "type": "url",
-      "threat": "2026-08-11 20:50:57",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3902166/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-11 14:03:03",
-      "status": "online"
-    },
-    {
-      "value": "http://36.255.97.21/bot.m68k",
-      "type": "url",
-      "threat": "2026-08-11 19:37:16",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3902167/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-11 14:03:03",
-      "status": "online"
-    },
-    {
-      "value": "http://62.84.172.106/sys64.x86",
-      "type": "url",
-      "threat": "2026-08-11 19:59:12",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3902168/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-11 14:03:03",
-      "status": "online"
-    },
-    {
-      "value": "http://62.84.172.106/dlr.x86_64",
-      "type": "url",
-      "threat": "2026-08-11 21:13:09",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3902169/",
       "tags": [
         "malware_download"
       ],
@@ -4297,6 +4297,852 @@
       "context": "an outbound connection HTTP POST request to a C2 server at  193.221.200.219  with a custom user-agent ( cpp-httplib/0.18"
     },
     {
+      "value": "CVE-2026-68820",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "onth have been exploited in the wild    CVE-2026-68820  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-62893",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "llowing vulnerabilities more likely.    CVE-2026-62893  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-65665",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.8.    CVE-2026-65665  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62823",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.8.    CVE-2026-62823  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62830",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "llowing vulnerabilities less likely.    CVE-2026-62830  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-50516",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.9.    CVE-2026-50516  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-68794",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-68794 ,  CVE-2026-68816  and  CVE-2026-68804 "
+    },
+    {
+      "value": "CVE-2026-68816",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ion vulnerabilities,  CVE-2026-68794 ,  CVE-2026-68816  and  CVE-2026-68804 , affect Microsoft"
+    },
+    {
+      "value": "CVE-2026-68804",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " CVE-2026-68794 ,  CVE-2026-68816  and  CVE-2026-68804 , affect Microsoft Excel and have a CVS"
+    },
+    {
+      "value": "CVE-2026-62911",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "or and a Heap-based Buffer Overflow.    CVE-2026-62911  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-63515",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-63515 ,  CVE-2026-65657 ,  CVE-2026-63532 ,  "
+    },
+    {
+      "value": "CVE-2026-65657",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ion vulnerabilities,  CVE-2026-63515 ,  CVE-2026-65657 ,  CVE-2026-63532 ,  CVE-2026-64898 ,  "
+    },
+    {
+      "value": "CVE-2026-63532",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "s,  CVE-2026-63515 ,  CVE-2026-65657 ,  CVE-2026-63532 ,  CVE-2026-64898 ,  CVE-2026-64903 ,  "
+    },
+    {
+      "value": "CVE-2026-64898",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " ,  CVE-2026-65657 ,  CVE-2026-63532 ,  CVE-2026-64898 ,  CVE-2026-64903 ,  CVE-2026-64909 ,  "
+    },
+    {
+      "value": "CVE-2026-64903",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " ,  CVE-2026-63532 ,  CVE-2026-64898 ,  CVE-2026-64903 ,  CVE-2026-64909 ,  CVE-2026-64910 ,  "
+    },
+    {
+      "value": "CVE-2026-64909",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " ,  CVE-2026-64898 ,  CVE-2026-64903 ,  CVE-2026-64909 ,  CVE-2026-64910 ,  CVE-2026-64911  an"
+    },
+    {
+      "value": "CVE-2026-64910",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " ,  CVE-2026-64903 ,  CVE-2026-64909 ,  CVE-2026-64910 ,  CVE-2026-64911  and  CVE-2026-70130 "
+    },
+    {
+      "value": "CVE-2026-64911",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " ,  CVE-2026-64909 ,  CVE-2026-64910 ,  CVE-2026-64911  and  CVE-2026-70130 , affect Microsoft"
+    },
+    {
+      "value": "CVE-2026-70130",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " CVE-2026-64910 ,  CVE-2026-64911  and  CVE-2026-70130 , affect Microsoft Office and could all"
+    },
+    {
+      "value": "CVE-2026-63513",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-63513 ,  CVE-2026-63519 ,  CVE-2026-65664 ,  "
+    },
+    {
+      "value": "CVE-2026-63519",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ion vulnerabilities,  CVE-2026-63513 ,  CVE-2026-63519 ,  CVE-2026-65664 ,  CVE-2026-63526  an"
+    },
+    {
+      "value": "CVE-2026-65664",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "s,  CVE-2026-63513 ,  CVE-2026-63519 ,  CVE-2026-65664 ,  CVE-2026-63526  and  CVE-2026-66807 "
+    },
+    {
+      "value": "CVE-2026-63526",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " ,  CVE-2026-63519 ,  CVE-2026-65664 ,  CVE-2026-63526  and  CVE-2026-66807 , affect Microsoft"
+    },
+    {
+      "value": "CVE-2026-66807",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " CVE-2026-65664 ,  CVE-2026-63526  and  CVE-2026-66807 , affect Microsoft Office Graphics Comp"
+    },
+    {
+      "value": "CVE-2026-63518",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-63518 ,  CVE-2026-63525  and  CVE-2026-64907 "
+    },
+    {
+      "value": "CVE-2026-63525",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ion vulnerabilities,  CVE-2026-63518 ,  CVE-2026-63525  and  CVE-2026-64907 , affect Microsoft"
+    },
+    {
+      "value": "CVE-2026-64907",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " CVE-2026-63518 ,  CVE-2026-63525  and  CVE-2026-64907 , affect Microsoft Office Word and have"
+    },
+    {
+      "value": "CVE-2026-62827",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "icrosoft.com/update-guide/vulnerability/CVE-2026-62827    Two elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-64921",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " vulnerabilities,  CVE-2026-62827  and  CVE-2026-64921 , affect Microsoft SharePoint Server an"
+    },
+    {
+      "value": "CVE-2026-62824",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "uthentication for Critical Function.    CVE-2026-62824  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62818",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.8.    CVE-2026-62818  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62817",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-62817 ,  CVE-2026-62820  and  CVE-2026-62878 "
+    },
+    {
+      "value": "CVE-2026-62820",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ion vulnerabilities,  CVE-2026-62817 ,  CVE-2026-62820  and  CVE-2026-62878 , affect Windows D"
+    },
+    {
+      "value": "CVE-2026-62878",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " CVE-2026-62817 ,  CVE-2026-62820  and  CVE-2026-62878 , affect Windows DNS Server.  CVE-2026-"
+    },
+    {
+      "value": "CVE-2026-66802",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-66802  and  CVE-2026-71331 , affect Windows D"
+    },
+    {
+      "value": "CVE-2026-71331",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " vulnerabilities,  CVE-2026-66802  and  CVE-2026-71331 , affect Windows Device Health Attestat"
+    },
+    {
+      "value": "CVE-2026-62890",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "remote code execution vulnerabilities,  CVE-2026-62890  and  CVE-2026-62822 , affect Windows G"
+    },
+    {
+      "value": "CVE-2026-62822",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " vulnerabilities,  CVE-2026-62890  and  CVE-2026-62822 , affect Windows GDI+.  CVE-2026-62890 "
+    },
+    {
+      "value": "CVE-2026-66799",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "rk and has a CVSS base score of 8.8.    CVE-2026-66799  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-62816",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 7.8.    CVE-2026-62816  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62819",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.8.    CVE-2026-62819  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62889",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.1.    CVE-2026-62889  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-65789",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " following vulnerabilities unlikely.    CVE-2026-65789  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-65791",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.1.    CVE-2026-65791  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-49163",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": ".8.   Other critical vulnerabilities    CVE-2026-49163  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-50481",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.8.    CVE-2026-50481  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-68823",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.9.    CVE-2026-68823  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62869",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.1.    CVE-2026-62869  affects Azure Entra ID. Insufficient V"
+    },
+    {
+      "value": "CVE-2026-56161",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.8.    CVE-2026-56161  is an information disclosure vulnerabi"
+    },
+    {
+      "value": "CVE-2026-63522",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "levation of privilege vulnerabilities,  CVE-2026-63522  and  CVE-2026-56162 , affect Azure SQL"
+    },
+    {
+      "value": "CVE-2026-56162",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " vulnerabilities,  CVE-2026-63522  and  CVE-2026-56162 , affect Azure SQL Database.  CVE-2026-"
+    },
+    {
+      "value": "CVE-2026-62836",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "k and has a CVSS base score of 10.0.    CVE-2026-62836  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-50515",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.7.    CVE-2026-50515  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62873",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.9.    CVE-2026-62873  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-59115",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.8.    CVE-2026-59115  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-70332",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.9.    CVE-2026-70332  affects Microsoft Office SharePoint. I"
+    },
+    {
+      "value": "CVE-2026-63508",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.6.    CVE-2026-63508  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-59118",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ility has a CVSS base score of 10.0.    CVE-2026-59118  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-65668",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 9.3.    CVE-2026-65668  is an elevation of privilege vulnerabi"
+    },
+    {
+      "value": "CVE-2026-62815",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "bility has a CVSS base score of 8.8.    CVE-2026-62815  is a remote code execution vulnerabili"
+    },
+    {
+      "value": "CVE-2026-62896",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "core of 9.8.    Three vulnerabilities,  CVE-2026-62896 ,  CVE-2026-62918  and  CVE-2026-65667 "
+    },
+    {
+      "value": "CVE-2026-62918",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ree vulnerabilities,  CVE-2026-62896 ,  CVE-2026-62918  and  CVE-2026-65667 , affect Microsoft"
+    },
+    {
+      "value": "CVE-2026-65667",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " CVE-2026-62896 ,  CVE-2026-62918  and  CVE-2026-65667 , affect Microsoft Teams.  CVE-2026-628"
+    },
+    {
+      "value": "CVE-2026-58650",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "their exploitation is \"more likely:\"    CVE-2026-58650 : Visual Studio Code Security Feature B"
+    },
+    {
+      "value": "CVE-2026-63520",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ecurity Feature Bypass Vulnerability    CVE-2026-63520 : Microsoft SharePoint Server Remote Co"
+    },
+    {
+      "value": "CVE-2026-59124",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " Remote Code Execution Vulnerability    CVE-2026-59124 : Microsoft High Performance Computing "
+    },
+    {
+      "value": "CVE-2026-59133",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": " Remote Code Execution Vulnerability    CVE-2026-59133 : Microsoft High Performance Computing "
+    },
+    {
+      "value": "CVE-2026-59132",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-59132 : Windows TCP/IP Denial of Service Vuln"
+    },
+    {
+      "value": "CVE-2026-61348",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "P/IP Denial of Service Vulnerability    CVE-2026-61348 : Windows Ancillary Function Driver for"
+    },
+    {
+      "value": "CVE-2026-61925",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-61925 : Windows Installer Elevation of Privil"
+    },
+    {
+      "value": "CVE-2026-61930",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-61930 : Windows Kernel Elevation of Privilege"
+    },
+    {
+      "value": "CVE-2026-62688",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62688 : Windows MIDI Service Module Elevation"
+    },
+    {
+      "value": "CVE-2026-62696",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "levation of Privileges Vulnerability    CVE-2026-62696 : Windows Program Compatibility Assista"
+    },
+    {
+      "value": "CVE-2026-62713",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62713 : Windows Cloud Files Mini Filter Drive"
+    },
+    {
+      "value": "CVE-2026-62712",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62712 : Windows Win32k Elevation of Privilege"
+    },
+    {
+      "value": "CVE-2026-62735",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62735 : Windows HTTP.sys Elevation of Privile"
+    },
+    {
+      "value": "CVE-2026-62737",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62737 : Windows Kernel Elevation of Privilege"
+    },
+    {
+      "value": "CVE-2026-62783",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62783 : Windows Remote Access Connection Mana"
+    },
+    {
+      "value": "CVE-2026-62766",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62766 : Windows Kerberos Elevation of Privile"
+    },
+    {
+      "value": "CVE-2026-65788",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-65788 : Desktop Window Manager Elevation of P"
+    },
+    {
+      "value": "CVE-2026-69278",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-69278 : Visual Studio Code Security Feature B"
+    },
+    {
+      "value": "CVE-2026-70307",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "ecurity Feature Bypass Vulnerability    CVE-2026-70307 : Windows Ancillary Function Driver for"
+    },
+    {
+      "value": "CVE-2026-70335",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-70335 : GitHub Copilot and Visual Studio Code"
+    },
+    {
+      "value": "CVE-2026-66804",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-66804 : Microsoft Windows Cross Device Servic"
+    },
+    {
+      "value": "CVE-2026-70355",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-70355 : Microsoft SharePoint Server Elevation"
+    },
+    {
+      "value": "CVE-2026-61358",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-61358 : Windows Accessibility Infrastructure "
+    },
+    {
+      "value": "CVE-2026-61929",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-61929 : Windows Kernel Elevation of Privilege"
+    },
+    {
+      "value": "CVE-2026-62698",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62698 : Microsoft Digest Authentication Eleva"
+    },
+    {
+      "value": "CVE-2026-62721",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62721 : Windows User-Mode Power Service (UMPS"
+    },
+    {
+      "value": "CVE-2026-62741",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62741 : Windows HTTP.sys Elevation of Privile"
+    },
+    {
+      "value": "CVE-2026-62788",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62788 : Windows Kernel Elevation of Privilege"
+    },
+    {
+      "value": "CVE-2026-62832",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62832 : Windows User Profile Service Elevatio"
+    },
+    {
+      "value": "CVE-2026-62888",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-62888 : Windows DWM Core Library Elevation of"
+    },
+    {
+      "value": "CVE-2026-65775",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "article_date": "Tue, 11 Aug 2026 22:21:02 GMT",
+      "context": "Elevation of Privilege Vulnerability    CVE-2026-65775 : Windows Win32k Elevation of Privilege"
+    },
+    {
       "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
       "type": "sha256",
       "source_name": "Cisco Talos",
@@ -4540,24 +5386,6 @@
       "context": "f compromise \n\n\n\n      Indicator    Type    Description     a1fdf65020ce4a0f0940c793c6425baf8a0b994ec48b9baaf72788661a9d"
     },
     {
-      "value": "CVE-2026-68820",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": " Elevation of Privilege Vulnerability ( CVE-2026-68820 )  \r\nThis Important-severity elevation "
-    },
-    {
-      "value": "CVE-2026-62832",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": " Elevation of Privilege Vulnerability ( CVE-2026-62832 )  \r\nMicrosoft says this vulnerability "
-    },
-    {
       "value": "CVE-2026-72971",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -4565,24 +5393,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "(unionfs.sys) Tampering Vulnerability ( CVE-2026-72971 )  \r\nThis vulnerability was publicly di"
-    },
-    {
-      "value": "CVE-2026-62815",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "C Remote Code Execution Vulnerability ( CVE-2026-62815 )  \r\nThis Critical Microsoft QUIC remot"
-    },
-    {
-      "value": "CVE-2026-62878",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "r Remote Code Execution Vulnerability ( CVE-2026-62878 )  \r\nMicrosoft reports that CVE-2026-62"
     },
     {
       "value": "CVE-2026-70354",
@@ -4729,33 +5539,6 @@
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61357  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-49163",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-49163  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-50481",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-50481  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-68823",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68823  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-70340",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -4774,24 +5557,6 @@
       "context": "sclosure Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65806  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62869",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62869  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-56161",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-56161  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-47299",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -4799,51 +5564,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-47299  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-63522",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63522  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-56162",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-56162  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62836",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62836  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62830",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62830  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-50515",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-50515  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-57104",
@@ -4873,15 +5593,6 @@
       "context": "e Bypass Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65675  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-59118",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-59118  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-65786",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -4898,33 +5609,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65787  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65788",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65788  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-70335",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70335  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62873",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62873  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-64906",
@@ -4981,15 +5665,6 @@
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64919  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-50516",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-50516  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-59136",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5006,15 +5681,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "sclosure Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-54123  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62698",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62698  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-66301",
@@ -5051,15 +5717,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65673  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-59115",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-59115  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-68802",
@@ -5152,15 +5809,6 @@
       "context": "nt \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68793  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-68794",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68794  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-68795",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5233,15 +5881,6 @@
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68815  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-68816",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68816  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-68798",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5267,15 +5906,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68803  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-68804",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68804  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-68805",
@@ -5341,15 +5971,6 @@
       "context": "nt \r\n\t\t\t 7.2 \r\n\t\t\t 6.3 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65813  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62911",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 6.5 \r\n\t\t\t 5.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62911  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62913",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5375,24 +5996,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "Spoofing Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62914  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-59133",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-59133  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-59124",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-59124  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62784",
@@ -5438,51 +6041,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 5.5 \r\n\t\t\t 4.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-66809  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-63513",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63513  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-63519",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63519  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65664",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65664  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-63526",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63526  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-66807",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-66807  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-70315",
@@ -5548,24 +6106,6 @@
       "context": "nt \r\n\t\t\t 5.5 \r\n\t\t\t 4.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64899  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-63515",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63515  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65657",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65657  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-65656",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5584,15 +6124,6 @@
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65661  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-63532",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63532  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-63533",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5602,24 +6133,6 @@
       "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63533  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-64898",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64898  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-64903",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64903  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-64904",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5627,42 +6140,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64904  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-64909",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64909  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-64910",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64910  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-64911",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64911  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-70130",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70130  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-57105",
@@ -5681,15 +6158,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 8.0 \r\n\t\t\t 7.0 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70306  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-70332",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 9.3 \r\n\t\t\t 8.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70332  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-63521",
@@ -5764,15 +6232,6 @@
       "context": "nt \r\n\t\t\t 5.5 \r\n\t\t\t 4.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-66810  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-63518",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63518  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-70311",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5780,15 +6239,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "al \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70311  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-63525",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63525  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-63527",
@@ -5807,15 +6257,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64905  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-64907",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64907  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-64915",
@@ -5854,15 +6295,6 @@
       "context": "Spoofing Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62882  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-63508",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63508  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-70313",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5888,15 +6320,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "e Bypass Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70338  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65668",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65668  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62898",
@@ -5944,33 +6367,6 @@
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70321  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62827",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62827  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-70355",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70355  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-64921",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.3 \r\n\t\t\t 7.3 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64921  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-70326",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -5998,15 +6394,6 @@
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63514  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-63520",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63520  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-65658",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -6023,15 +6410,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65663  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65665",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65665  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-64901",
@@ -6169,24 +6547,6 @@
       "context": "ampering Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-63512  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62896",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62896  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65667",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 9.6 \r\n\t\t\t 8.3 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65667  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-65768",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -6194,15 +6554,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65768  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62918",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "tomer action required) \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62918  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-65767",
@@ -6221,15 +6572,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "sclosure Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65769  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-66804",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-66804  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-59135",
@@ -6412,15 +6754,6 @@
       "context": "nt \r\n\t\t\t 7.5 \r\n\t\t\t 6.5 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61363  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62824",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.5 \r\n\t\t\t 6.5 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62824  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-54113",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -6484,24 +6817,6 @@
       "context": "nt \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70336  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-58650",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "e Bypass Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-58650  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-69278",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-69278  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-69306",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -6547,24 +6862,6 @@
       "context": "nt \r\n\t\t\t 5.5 \r\n\t\t\t 4.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62786  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-61358",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61358  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62818",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62818  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-49179",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -6572,24 +6869,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-49179  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-61348",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61348  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-70307",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-70307  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-65783",
@@ -6689,15 +6968,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62722  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62713",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62713  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62771",
@@ -6889,15 +7159,6 @@
       "context": "nt \r\n\t\t\t 6.5 \r\n\t\t\t 5.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62814  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62823",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62823  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-70304",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -6997,33 +7258,6 @@
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62787  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62817",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.5 \r\n\t\t\t 6.5 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62817  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62820",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 8.8 \r\n\t\t\t 7.7 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62820  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65789",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 9.8 \r\n\t\t\t 8.5 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65789  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-61920",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7049,15 +7283,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62894  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62888",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62888  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-61933",
@@ -7087,15 +7312,6 @@
       "context": "e Bypass Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61936  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62893",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62893  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62747",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7112,24 +7328,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62710  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-66802",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-66802  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-71331",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "al \r\n\t\t\t 8.1 \r\n\t\t\t 7.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-71331  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-61923",
@@ -7195,15 +7393,6 @@
       "context": "nt \r\n\t\t\t 5.5 \r\n\t\t\t 4.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61360  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62890",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62890  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62709",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7211,15 +7400,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "sclosure Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62709  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62822",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62822  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62702",
@@ -7276,15 +7456,6 @@
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62753  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62735",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62735  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62739",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7292,15 +7463,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62739  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62741",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62741  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62811",
@@ -7355,15 +7517,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-59127  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-61925",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61925  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-70344",
@@ -7438,15 +7591,6 @@
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62754  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62766",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62766  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62773",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7463,33 +7607,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62752  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-61930",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61930  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62737",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62737  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-61929",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61929  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62708",
@@ -7519,15 +7636,6 @@
       "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62780  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62788",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62788  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-65773",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7535,15 +7643,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.0 \r\n\t\t\t 6.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65773  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-66799",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-66799  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62785",
@@ -7580,15 +7679,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62777  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62688",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "ivileges Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62688  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62693",
@@ -7771,15 +7861,6 @@
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-68821  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62696",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62696  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62751",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7796,24 +7877,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62690  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62816",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62816  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62783",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62783  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62758",
@@ -7897,15 +7960,6 @@
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61365  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62819",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62819  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62799",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -7969,15 +8023,6 @@
       "context": "e Bypass Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62757  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62889",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62889  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-61355",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -8012,15 +8057,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-61359  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-59132",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": " Service Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-59132  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-62792",
@@ -8149,24 +8185,6 @@
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62699  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-62721",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62721  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-62712",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "rivilege Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62712  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-62876",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -8219,15 +8237,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33236",
       "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
       "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-62885  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
-      "value": "CVE-2026-65775",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 7.8 \r\n\t\t\t 6.8 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65775  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
       "value": "CVE-2026-65776",
@@ -8284,15 +8293,6 @@
       "context": "xecution Vulnerability \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65679  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
     },
     {
-      "value": "CVE-2026-65791",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33236",
-      "article_date": "Tue, 11 Aug 2026 17:54:49 GMT",
-      "context": "nt \r\n\t\t\t 8.1 \r\n\t\t\t 7.1 \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65791  \r\n\t\t\t No \r\n\t\t\t No \r\n\t\t\t - \r\n\t\t\t - \r\n\t\t"
-    },
-    {
       "value": "CVE-2026-61939",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -8343,7 +8343,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-11T21:47:54.575564+00:00",
+      "article_date": "2026-08-11T22:42:38.714047+00:00",
       "context": " document containing the malicious payload:         \r\n    - 6d585d11236277c42bf3666192f89733b1d5595967f6434a2e1b6c9d8584"
     },
     {
@@ -8352,7 +8352,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-11T21:47:54.575564+00:00",
+      "article_date": "2026-08-11T22:42:38.714047+00:00",
       "context": "a2e1b6c9d8584a22c\r\n- SHA256 of the malicious payload\r\n    - f591ececf07aedf2f60dc9a362033b6f718799d5909ab38b6941a5296555"
     },
     {
@@ -8361,7 +8361,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-11T21:47:54.575564+00:00",
+      "article_date": "2026-08-11T22:42:38.714047+00:00",
       "context": " payload)\r\n    - https://31.97.137.157:45000\r\n    - https://46.183.25.232:45000\r\n    - https://bet.slotgambit.com\r\n- URL"
     },
     {
@@ -8370,7 +8370,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-11T21:47:55.154624+00:00",
+      "article_date": "2026-08-11T22:42:39.539839+00:00",
       "context": "\n2 RELATED SAMPLES (READ SHA256 HASH - FIRST SEEN DATE):\r\n\r\n55a1eb4c2d3da04376df39d7ba832569c6af1a37a0cf2b95f754ac898023"
     },
     {
@@ -8379,7 +8379,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-11T21:47:55.154624+00:00",
+      "article_date": "2026-08-11T22:42:39.539839+00:00",
       "context": "HURSDAY): Hazy Scorpius Exploitation of CVE-2026-12569\r\n\r\nAUTHOR:\r\n\r\n- Matt Brady\r\n\r\nREFERENCE"
     },
     {
@@ -8388,7 +8388,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-11T21:47:55.154624+00:00",
+      "article_date": "2026-08-11T22:42:39.539839+00:00",
       "context": "aloaltonetworks.com/threat-brief-moveit-cve-2023-34362/\r\n  -- https://www.cybereason.com/blog/"
     },
     {
@@ -8397,7 +8397,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-11T21:47:55.154624+00:00",
+      "article_date": "2026-08-11T22:42:39.539839+00:00",
       "context": "/\r\n  -- https://www.cybereason.com/blog/cve-2024-55956-cleo-vulnerability\r\n- However, the grou"
     },
     {
@@ -8406,7 +8406,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-11T21:47:55.154624+00:00",
+      "article_date": "2026-08-11T22:42:39.539839+00:00",
       "context": "of its exploitation of a vulnerability (CVE-2025-61884) in Oracle’s E-Business Suite (EBS) sof"
     },
     {
@@ -8415,7 +8415,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-05-New-Clickfix-Variant.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-05-New-Clickfix-Variant.txt",
-      "article_date": "2026-08-11T21:47:55.736422+00:00",
+      "article_date": "2026-08-11T22:42:40.361745+00:00",
       "context": "0-111c-49fa-9657-9e53d4e089ae\r\n\r\nSHA256 (Malicious DLL):\r\n- 13a41f154e00a331049db462866533fcfe238e98ce6bcf2b6ed18cd96d0d"
     },
     {
@@ -8424,7 +8424,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
-      "article_date": "2026-08-11T21:47:56.346250+00:00",
+      "article_date": "2026-08-11T22:42:41.007857+00:00",
       "context": "dpoint used to query the contract)\r\n\r\n\r\nSHA256 HASHES:\r\n\r\n- f52809d57d816cf9ea7e95de64df46fcc1cf62d3da972c167497935b5eca"
     },
     {
@@ -8433,7 +8433,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
-      "article_date": "2026-08-11T21:47:56.346250+00:00",
+      "article_date": "2026-08-11T22:42:41.007857+00:00",
       "context": "&debug=<encoded_data>.\r\n- Observed C2:\r\n  - fimmora.surf -> 165.227.123.79:6504.\r\n  - zelpx.garden -> 77.42.90.175:9895."
     },
     {
@@ -8442,7 +8442,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
-      "article_date": "2026-08-11T21:47:56.346250+00:00",
+      "article_date": "2026-08-11T22:42:41.007857+00:00",
       "context": "  - zelpx.garden -> 77.42.90.175:9895.\r\n  - tzpx.courses -> 167.99.78.100:4437.\r\n- The malware forges a Host header to i"
     },
     {
@@ -8451,7 +8451,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
-      "article_date": "2026-08-11T21:47:56.346250+00:00",
+      "article_date": "2026-08-11T22:42:41.007857+00:00",
       "context": "hop, dikdiy.xyz, fluokq.xyz, approe.shop, dolmaq.shop.\r\n  - 77.42.90.175 also hosts dreaub.top and pivotq.top, and zelpx"
     },
     {
@@ -8460,7 +8460,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
-      "article_date": "2026-08-11T21:47:56.346250+00:00",
+      "article_date": "2026-08-11T22:42:41.007857+00:00",
       "context": "ivotq.top, and zelpx.garden historically used a third node, 143.244.141.187.\r\n- One registration system.\r\n  - The C2 and"
     },
     {
@@ -8469,7 +8469,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-07-30-Remus-Info-Stealer-Uses-Blockchain-Anchored-C2.txt",
-      "article_date": "2026-08-11T21:47:56.346250+00:00",
+      "article_date": "2026-08-11T22:42:41.007857+00:00",
       "context": ":4437\r\n- fightwa.biz -> 148.230.76.66:5902\r\n- chalx.live -> 147.135.84.14:5902\r\n- 143.244.141.187 (DigitalOcean, 3rd C2 "
     }
   ],
@@ -9038,14 +9038,14 @@
       "sha1": 1
     },
     "by_source": {
-      "SANS ISC": 418,
+      "SANS ISC": 324,
       "URLhaus": 150,
+      "Cisco Talos": 102,
       "Emerging Threats": 100,
       "Binary Defense": 99,
       "Unit 42": 26,
       "Kaspersky Securelist": 18,
       "Unit 42 (GitHub)": 15,
-      "Cisco Talos": 8,
       "Feodo Tracker": 5,
       "Trend Micro": 4,
       "Microsoft MSTIC": 1
