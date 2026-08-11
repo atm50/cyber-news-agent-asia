@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-11T17:58:04.630144+00:00",
+  "last_updated_utc": "2026-08-11T19:06:42.282489+00:00",
   "victims": [
     {
       "victim": "Crown Group",
@@ -12,6 +12,18 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=6072235c-e4c9-4151-b086-8e83ed5b9fd7",
       "monitored": true
+    },
+    {
+      "victim": "Xpress Tech",
+      "group": "Panzer",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-08-11T18:21:36.956448+00:00",
+      "attack_date": "2026-08-11T17:12:02+00:00",
+      "website": "",
+      "description": "Xpress Tech is a leading B2B iGaming aggregation platform established in 2015 under Softquo Holding. It provides a comprehensive one-stop technical solution connecting operators with over 120 gaming providers and a portfolio of more than 30,000 games via a single Remote API integration. The platform",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/xpress-tech",
+      "monitored": false
     },
     {
       "victim": "AngMar Companies",
@@ -120,6 +132,18 @@
       "description": "Hospitals &amp; Physicians Clinics",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/81",
       "monitored": true
+    },
+    {
+      "victim": "Ganzhou Xinye Craft Co., Ltd.",
+      "group": "Orova",
+      "country": "HK",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-11T18:51:28.815570+00:00",
+      "attack_date": "2026-08-11T00:00:00+00:00",
+      "website": "",
+      "description": "Ganzhou Xinye Art and Craft Co., Ltd. is a large-scale craft gift production enterprise affiliated to Xinlin Group. The company was established in September 1997. It is a large foreign-owned enterprise with a total investment of 7.2 million US dollars. It mainly produces resin, glass, clay, ceramics",
+      "claim_url": "http://mzlajyncb2rafn5bsb7esmo73kyawjxeirunba27n6nermmafzlcp4qd.onion/idlfthynicdrnnzkss/",
+      "monitored": false
     },
     {
       "victim": "G.M.A. GRANDI MARCHE AUTOMOBILI - S.R.L",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "SharePoint libraries staged T1 (least) → T4 (most). Release countdown live on Helix. Tiers unlock by stage when each set timer reaches 0.",
       "claim_url": "http://helix2kvkqjzrkh3ospyukij7uemxwvbdmqberjmrudjmqy4hspwzzqd.onion/p/98709deba70bbdf82c24ed60e779c06c8cf8fec574c10403a9c0caff8e5b84df",
-      "monitored": true
-    },
-    {
-      "victim": "Highwoods Properties",
-      "group": "Helix",
-      "country": "United States",
-      "sector": "Other",
-      "discovered": "2026-08-07T07:20:39.680669+00:00",
-      "attack_date": "2026-08-07T07:20:22.602269+00:00",
-      "website": "",
-      "description": "SharePoint libraries staged T1 (least) → T4 (most). Release countdown live on Helix. Tiers unlock by stage when each set timer reaches 0.",
-      "claim_url": "http://helix2kvkqjzrkh3ospyukij7uemxwvbdmqberjmrudjmqy4hspwzzqd.onion/p/0194658fe7e20d85cecdfb41e2e7545b5d60ac3a53314ecc52c0e239ac6e912c",
-      "monitored": true
-    },
-    {
-      "victim": "Morguard",
-      "group": "Helix",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-08-07T07:20:04.089625+00:00",
-      "attack_date": "2026-08-07T07:19:46.878705+00:00",
-      "website": "",
-      "description": "Morguard reached out, took extensions, then ignored the negotiation with no real offer.\n\nContacting us and stalling is not a strategy. Deadlines stand. Silence after outreach gets a private board and a countdown then publication.",
-      "claim_url": "http://helix2kvkqjzrkh3ospyukij7uemxwvbdmqberjmrudjmqy4hspwzzqd.onion/p/c986586defd4792920f696b167ebdef91eca624746fe6cb5c6a06a0661e43d09",
       "monitored": true
     }
   ],
@@ -3492,22 +3492,22 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
-    "unique_groups": 25,
+    "monitored_victims": 60,
+    "unique_groups": 26,
     "unique_countries": 31,
     "by_country": {
-      "United States": 34,
-      "Unknown": 9,
+      "United States": 32,
+      "Unknown": 10,
       "Italy": 6,
       "United Kingdom": 6,
       "Germany": 5,
       "India": 4,
+      "HK": 3,
       "Thailand": 3,
       "Switzerland": 2,
       "Finland": 2,
       "Philippines": 2,
       "GR": 2,
-      "HK": 2,
       "Canada": 2,
       "Singapore": 2,
       "Taiwan": 2,
@@ -3532,14 +3532,13 @@
       "qilin": 26,
       "thegentlemen": 13,
       "direwolf": 11,
+      "Panzer": 4,
       "Storm": 4,
-      "Helix": 4,
       "payload": 3,
       "krybit": 3,
       "bravox": 3,
       "Global Secret Group": 3,
       "unsafe": 3,
-      "Panzer": 3,
       "genesis": 3,
       "akira": 3,
       "play": 3,
@@ -3547,7 +3546,9 @@
       "spacebears": 2,
       "incransom": 2,
       "clop": 2,
+      "Helix": 2,
       "interlock": 1,
+      "Orova": 1,
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
@@ -3556,13 +3557,13 @@
       "shinyhunters": 1
     },
     "by_sector": {
-      "Manufacturing": 21,
+      "Manufacturing": 22,
       "Healthcare": 13,
+      "Technology": 12,
       "Professional Services": 12,
-      "Other": 11,
-      "Technology": 11,
-      "Not Found": 6,
+      "Other": 10,
       "Transportation": 6,
+      "Not Found": 5,
       "Financial Services": 5,
       "Energy & Utilities": 4,
       "Retail & E-Commerce": 3,
