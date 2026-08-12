@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-12T21:45:55.225313+00:00",
+  "last_updated_utc": "2026-08-12T22:40:49.069708+00:00",
   "victims": [
+    {
+      "victim": "Riker Danzig Scherer Hyland & Perretti",
+      "group": "SilentRansomGroup",
+      "country": "",
+      "sector": "Professional Services",
+      "discovered": "2026-08-12T22:22:17.039230+00:00",
+      "attack_date": "2026-08-12T22:22:15.776603+00:00",
+      "website": "",
+      "description": "Founded in 1882, Riker Danzig Scherer Hyland & Perretti is a law firm with practice areas such as Alte…",
+      "claim_url": "https://www.ransomware.live/id/UmlrZXIgRGFuemlnIFNjaGVyZXIgSHlsYW5kICYgUGVycmV0dGlAU2lsZW50UmFuc29tR3JvdXA=",
+      "monitored": false
+    },
     {
       "victim": "Riker Danzig LLP",
       "group": "SilentRansomGroup",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Quest Personal Care Global Ltd is a global company specializing in affordable beauty and personal care products, with over 30 years of experience and a presence in more than 65 countries. They offer a diverse range of innovative brands and products, including skincare, haircare, and fragrance, aimed",
       "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=13482e3f-7d7f-4b88-b6bd-b0e8468b7498",
-      "monitored": true
-    },
-    {
-      "victim": "Presentations.AI",
-      "group": "unsafe",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-08-10T14:34:47.857209+00:00",
-      "attack_date": "2026-08-10T14:34:10.812207+00:00",
-      "website": "",
-      "description": "Revenue: $5 million",
-      "claim_url": "http://unsafeipw6wbkzzmj7yqp7bz6j7ivzynggmwxsm6u2wwfmfqrxqrrhyd.onion/reel/6a79814c8b907544821fbbb6?page=1",
       "monitored": true
     }
   ],
@@ -3516,12 +3516,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
-    "unique_groups": 22,
+    "monitored_victims": 60,
+    "unique_groups": 21,
     "unique_countries": 32,
     "by_country": {
-      "United States": 39,
-      "Unknown": 9,
+      "United States": 38,
+      "Unknown": 10,
       "Italy": 7,
       "India": 5,
       "United Kingdom": 3,
@@ -3559,9 +3559,9 @@
       "qilin": 7,
       "majinahanashi": 5,
       "krybit": 5,
+      "SilentRansomGroup": 4,
       "incransom": 4,
       "blacknevas": 4,
-      "SilentRansomGroup": 3,
       "payload": 3,
       "bravox": 2,
       "spacebears": 1,
@@ -3574,15 +3574,14 @@
       "anubis": 1,
       "Deadlock": 1,
       "Global Secret Group": 1,
-      "dragonforce": 1,
-      "unsafe": 1
+      "dragonforce": 1
     },
     "by_sector": {
-      "Technology": 19,
+      "Technology": 18,
       "Not Found": 13,
+      "Professional Services": 11,
       "Other": 11,
       "Manufacturing": 11,
-      "Professional Services": 10,
       "Healthcare": 10,
       "Retail & E-Commerce": 9,
       "Financial Services": 5,
