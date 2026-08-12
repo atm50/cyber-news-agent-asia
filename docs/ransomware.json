@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-12T06:14:44.347071+00:00",
+  "last_updated_utc": "2026-08-12T08:18:34.402233+00:00",
   "victims": [
+    {
+      "victim": "R...er",
+      "group": "SilentRansomGroup",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-12T07:21:31.441227+00:00",
+      "attack_date": "2026-08-12T07:20:46.479059+00:00",
+      "website": "",
+      "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
+      "claim_url": "https://business-data-leaks.com/about#eac8494dbf48d8d6a0c1edb1f",
+      "monitored": false
+    },
+    {
+      "victim": "R... D...",
+      "group": "SilentRansomGroup",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-12T07:20:28.267672+00:00",
+      "attack_date": "2026-08-12T07:19:42.417933+00:00",
+      "website": "",
+      "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
+      "claim_url": "https://business-data-leaks.com/about#66235b940dde0d7390718de91",
+      "monitored": false
+    },
     {
       "victim": "Basso Fedele & Figli S.r.l. (Olio Basso) / Villa Raiano",
       "group": "spacebears",
@@ -1176,30 +1200,6 @@
       "description": "[AI generated] Mindray is a Chinese medical device company headquartered in Shenzhen, China. It develops, manufactures, and markets medical equipment including patient monitoring systems, diagnostic imaging devices, in-vitro diagnostic instruments, and anesthesia machines. Founded in 1991, Mindray s",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mindray-com",
       "monitored": true
-    },
-    {
-      "victim": "ATMS",
-      "group": "incransom",
-      "country": "India",
-      "sector": "Transportation",
-      "discovered": "2026-08-07T12:27:11.963336+00:00",
-      "attack_date": "2026-08-07T12:03:00+00:00",
-      "website": "",
-      "description": "Unauthorized access has been gained to the company's confidential files, including client data, proprietary R&D, and financial documentation.",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a705e329cd108bf26faa3a1",
-      "monitored": true
-    },
-    {
-      "victim": "Hartfiel Automation",
-      "group": "thegentlemen",
-      "country": "Germany",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-07T13:42:06.701752+00:00",
-      "attack_date": "2026-08-07T11:57:37+00:00",
-      "website": "",
-      "description": "hartfiel.com zoominfo.com/c/hartfiel-automation-inc/27608695 Hartfiel Automation is an industrial automation company providing comprehensive manufacturing solutions like pneumatics, robotics, motion control, and hydraulics. For over 60 years, they have been a specialized high-tech provider supportin",
-      "claim_url": "https://www.ransomware.live/id/SGFydGZpZWwgQXV0b21hdGlvbkB0aGVnZW50bGVtZW4=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1345,6 +1345,12 @@
       "name": "ElDorado",
       "description": "In September The El Dorado ransomware group have been rebrand as BlackLock ",
       "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "Ethics",
+      "description": "",
+      "locations": 2,
       "meta": ""
     },
     {
@@ -3498,18 +3504,18 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
-    "unique_groups": 25,
+    "monitored_victims": 58,
+    "unique_groups": 26,
     "unique_countries": 31,
     "by_country": {
       "United States": 32,
-      "Unknown": 9,
+      "Unknown": 11,
       "Italy": 7,
       "United Kingdom": 6,
-      "Germany": 5,
-      "India": 4,
+      "Germany": 4,
       "HK": 3,
       "Thailand": 3,
+      "India": 3,
       "Switzerland": 2,
       "Finland": 2,
       "Philippines": 2,
@@ -3536,7 +3542,7 @@
     },
     "by_group": {
       "qilin": 26,
-      "thegentlemen": 13,
+      "thegentlemen": 12,
       "direwolf": 11,
       "Panzer": 4,
       "genesis": 4,
@@ -3549,8 +3555,8 @@
       "unsafe": 3,
       "akira": 3,
       "play": 3,
+      "SilentRansomGroup": 2,
       "Wallstreet": 2,
-      "incransom": 2,
       "clop": 2,
       "interlock": 1,
       "Orova": 1,
@@ -3559,19 +3565,20 @@
       "Deadlock": 1,
       "dragonforce": 1,
       "fulcrumsec": 1,
+      "incransom": 1,
       "shinyhunters": 1
     },
     "by_sector": {
-      "Manufacturing": 22,
+      "Manufacturing": 21,
       "Healthcare": 13,
       "Technology": 12,
       "Professional Services": 12,
       "Other": 10,
-      "Not Found": 6,
+      "Not Found": 8,
       "Financial Services": 5,
       "Agriculture and Food Production": 4,
-      "Transportation": 4,
       "Energy & Utilities": 4,
+      "Transportation": 3,
       "Retail & E-Commerce": 3,
       "Education": 3,
       "Government & Defense": 2
