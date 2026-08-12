@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-12T08:18:34.402233+00:00",
+  "last_updated_utc": "2026-08-12T10:05:52.651154+00:00",
   "victims": [
+    {
+      "victim": "Wanted",
+      "group": "qilin",
+      "country": "Netherlands",
+      "sector": "Not Found",
+      "discovered": "2026-08-12T08:30:01.802474+00:00",
+      "attack_date": "2026-08-12T08:29:37.354193+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=fb9a3982-5863-4b3f-8621-5ffe07df3847",
+      "monitored": false
+    },
     {
       "victim": "R...er",
       "group": "SilentRansomGroup",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "[AI generated] N/A",
       "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/continental-aero",
-      "monitored": true
-    },
-    {
-      "victim": "MINDRAY.COM",
-      "group": "clop",
-      "country": "China",
-      "sector": "Healthcare",
-      "discovered": "2026-08-07T12:50:46.574896+00:00",
-      "attack_date": "2026-08-07T12:50:29.061468+00:00",
-      "website": "",
-      "description": "[AI generated] Mindray is a Chinese medical device company headquartered in Shenzhen, China. It develops, manufactures, and markets medical equipment including patient monitoring systems, diagnostic imaging devices, in-vitro diagnostic instruments, and anesthesia machines. Founded in 1991, Mindray s",
-      "claim_url": "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mindray-com",
       "monitored": true
     }
   ],
@@ -3504,7 +3504,7 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 58,
+    "monitored_victims": 57,
     "unique_groups": 26,
     "unique_countries": 31,
     "by_country": {
@@ -3524,6 +3524,7 @@
       "Singapore": 2,
       "Taiwan": 2,
       "France": 2,
+      "Netherlands": 1,
       "Pakistan": 1,
       "AR": 1,
       "Austria": 1,
@@ -3537,11 +3538,10 @@
       "PE": 1,
       "Belgium": 1,
       "RO": 1,
-      "NG": 1,
-      "China": 1
+      "NG": 1
     },
     "by_group": {
-      "qilin": 26,
+      "qilin": 27,
       "thegentlemen": 12,
       "direwolf": 11,
       "Panzer": 4,
@@ -3557,7 +3557,6 @@
       "play": 3,
       "SilentRansomGroup": 2,
       "Wallstreet": 2,
-      "clop": 2,
       "interlock": 1,
       "Orova": 1,
       "aurora": 1,
@@ -3566,15 +3565,16 @@
       "dragonforce": 1,
       "fulcrumsec": 1,
       "incransom": 1,
-      "shinyhunters": 1
+      "shinyhunters": 1,
+      "clop": 1
     },
     "by_sector": {
       "Manufacturing": 21,
-      "Healthcare": 13,
       "Technology": 12,
       "Professional Services": 12,
+      "Healthcare": 12,
       "Other": 10,
-      "Not Found": 8,
+      "Not Found": 9,
       "Financial Services": 5,
       "Agriculture and Food Production": 4,
       "Energy & Utilities": 4,
