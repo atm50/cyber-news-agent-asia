@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-12T01:56:22.680075+00:00",
+  "last_updated_utc": "2026-08-12T04:09:39.496684+00:00",
   "victims": [
+    {
+      "victim": "Basso Fedele & Figli S.r.l. (Olio Basso) / Villa Raiano",
+      "group": "spacebears",
+      "country": "Italy",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-12T02:36:31.317051+00:00",
+      "attack_date": "2026-08-12T02:36:07.607087+00:00",
+      "website": "",
+      "description": "Basso Fedele & Figli S.r.l. is a historic Italian family company founded in 1904 in San Michele di Serino, in the Irpinia region of Campania. For over a century, the Basso family has been dedicated to the production and bottling of high-quality olive oil. Today, the company is a leading name in the ",
+      "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/68/basso-fedele-figli-srl-olio-basso-villa-raiano",
+      "monitored": false
+    },
     {
       "victim": "Crown Group",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "hartfiel.com zoominfo.com/c/hartfiel-automation-inc/27608695 Hartfiel Automation is an industrial automation company providing comprehensive manufacturing solutions like pneumatics, robotics, motion control, and hydraulics. For over 60 years, they have been a specialized high-tech provider supportin",
       "claim_url": "https://www.ransomware.live/id/SGFydGZpZWwgQXV0b21hdGlvbkB0aGVnZW50bGVtZW4=",
       "monitored": true
-    },
-    {
-      "victim": "Venture Logistics",
-      "group": "Helix",
-      "country": "",
-      "sector": "Transportation",
-      "discovered": "2026-08-07T07:21:59.621550+00:00",
-      "attack_date": "2026-08-07T07:21:40.126286+00:00",
-      "website": "",
-      "description": "SharePoint libraries staged T1 (least) → T4 (most). Release countdown live on Helix. Tiers unlock by stage when each set timer reaches 0.",
-      "claim_url": "http://helix2kvkqjzrkh3ospyukij7uemxwvbdmqberjmrudjmqy4hspwzzqd.onion/p/f2cb1153792fbedb831aa6280d414b35473e8e3a297904b810003b04d8eca445",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3499,12 +3499,12 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 26,
+    "unique_groups": 25,
     "unique_countries": 31,
     "by_country": {
       "United States": 32,
-      "Unknown": 10,
-      "Italy": 6,
+      "Unknown": 9,
+      "Italy": 7,
       "United Kingdom": 6,
       "Germany": 5,
       "India": 4,
@@ -3541,6 +3541,7 @@
       "Panzer": 4,
       "genesis": 4,
       "Storm": 4,
+      "spacebears": 3,
       "payload": 3,
       "krybit": 3,
       "bravox": 3,
@@ -3549,7 +3550,6 @@
       "akira": 3,
       "play": 3,
       "Wallstreet": 2,
-      "spacebears": 2,
       "incransom": 2,
       "clop": 2,
       "interlock": 1,
@@ -3559,8 +3559,7 @@
       "Deadlock": 1,
       "dragonforce": 1,
       "fulcrumsec": 1,
-      "shinyhunters": 1,
-      "Helix": 1
+      "shinyhunters": 1
     },
     "by_sector": {
       "Manufacturing": 22,
@@ -3569,11 +3568,11 @@
       "Professional Services": 12,
       "Other": 10,
       "Not Found": 6,
-      "Transportation": 5,
       "Financial Services": 5,
+      "Agriculture and Food Production": 4,
+      "Transportation": 4,
       "Energy & Utilities": 4,
       "Retail & E-Commerce": 3,
-      "Agriculture and Food Production": 3,
       "Education": 3,
       "Government & Defense": 2
     }
