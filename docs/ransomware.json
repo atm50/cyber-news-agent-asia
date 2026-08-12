@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-12T19:02:46.457844+00:00",
+  "last_updated_utc": "2026-08-12T20:44:58.297492+00:00",
   "victims": [
+    {
+      "victim": "Riker Danzig LLP",
+      "group": "SilentRansomGroup",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-12T19:51:27.372830+00:00",
+      "attack_date": "2026-08-12T19:51:18.130309+00:00",
+      "website": "",
+      "description": "[AI generated] Riker Danzig LLP is a prominent full-service law firm based in the United States, primarily operating in New Jersey. Founded in 1882, the firm provides legal services across a wide range of practice areas including litigation, corporate law, real estate, environmental law, and insuran",
+      "claim_url": "https://www.ransomware.live/id/UmlrZXIgRGFuemlnIExMUEBTaWxlbnRSYW5zb21Hcm91cA==",
+      "monitored": true
+    },
+    {
+      "victim": "gamaus.com",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-12T19:25:55.197575+00:00",
+      "attack_date": "2026-08-12T18:58:47.256000+00:00",
+      "website": "",
+      "description": "https://www.zoominfo.com/c/greater-austin-merchants-cooperative-association/98978085\r greater-austin-merchants-cooperative-association\r 400gb",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7cc2679cd108bf266aea60",
+      "monitored": true
+    },
     {
       "victim": "Jack Rutherford Customs Brokers Ltd / The Rutherford Group www.therg.ca serviced by an IT ...",
       "group": "blacknevas",
@@ -758,6 +782,18 @@
       "monitored": false
     },
     {
+      "victim": "Hightech Signs",
+      "group": "kairos",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-12T20:25:23.931807+00:00",
+      "attack_date": "2026-08-12T00:00:00+00:00",
+      "website": "",
+      "description": "Hightech Signs, Inc. is a full-service sign shop located in Charlottesville, Virginia, specializing in custom sign production and creative consultation. They offer a wide range of products including engraving services, banners, vehicle graphics, and window lettering. Their services cater to clients ",
+      "claim_url": "https://www.ransomware.live/id/SGlnaHRlY2ggU2lnbnNAa2Fpcm9z",
+      "monitored": true
+    },
+    {
       "victim": "Camandona SA",
       "group": "majinahanashi",
       "country": "Switzerland",
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "Revenue: $5 million",
       "claim_url": "http://unsafeipw6wbkzzmj7yqp7bz6j7ivzynggmwxsm6u2wwfmfqrxqrrhyd.onion/reel/6a79814c8b907544821fbbb6?page=1",
-      "monitored": true
-    },
-    {
-      "victim": "MACOFIN HELLAS S.A.",
-      "group": "Global Secret Group",
-      "country": "GR",
-      "sector": "Financial Services",
-      "discovered": "2026-08-10T12:21:15.097136+00:00",
-      "attack_date": "2026-08-10T12:20:43.079690+00:00",
-      "website": "",
-      "description": "Country: Greece |\nWebsite: maco-fin.com |\nRevenue: $10 Million |\nIndustry: Real Estate / Asset Management / Investment Services |\nEmployees: 11–50 Employees |\nProperties: 55.3 GB (48,089 Files, 7,491 Folders)",
-      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/38/",
-      "monitored": false
-    },
-    {
-      "victim": "City of Winchester",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Government & Defense",
-      "discovered": "2026-08-10T12:01:47.794538+00:00",
-      "attack_date": "2026-08-10T12:01:17.607775+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3df43ee6-1240-49b4-beaa-0711e332d8e1",
-      "monitored": true
-    },
-    {
-      "victim": "B Wright Drywall",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-10T12:00:57.733612+00:00",
-      "attack_date": "2026-08-10T12:00:27.385844+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=c579404e-4bb7-4cee-b62a-e7119942263a",
       "monitored": true
     }
   ],
@@ -3516,11 +3516,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
-    "unique_groups": 21,
-    "unique_countries": 33,
+    "monitored_victims": 61,
+    "unique_groups": 22,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 38,
+      "United States": 39,
       "Unknown": 9,
       "Italy": 7,
       "India": 5,
@@ -3551,22 +3551,21 @@
       "AI": 1,
       "Brazil": 1,
       "South Korea": 1,
-      "Spain": 1,
-      "GR": 1
+      "Spain": 1
     },
     "by_group": {
       "clop": 44,
       "direwolf": 11,
-      "qilin": 9,
+      "qilin": 7,
       "majinahanashi": 5,
       "krybit": 5,
+      "incransom": 4,
       "blacknevas": 4,
-      "incransom": 3,
+      "SilentRansomGroup": 3,
       "payload": 3,
-      "SilentRansomGroup": 2,
       "bravox": 2,
-      "Global Secret Group": 2,
       "spacebears": 1,
+      "kairos": 1,
       "Panzer": 1,
       "interlock": 1,
       "genesis": 1,
@@ -3574,23 +3573,24 @@
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
+      "Global Secret Group": 1,
       "dragonforce": 1,
       "unsafe": 1
     },
     "by_sector": {
-      "Technology": 18,
+      "Technology": 19,
       "Not Found": 13,
       "Other": 11,
       "Manufacturing": 11,
+      "Professional Services": 10,
       "Healthcare": 10,
-      "Professional Services": 9,
       "Retail & E-Commerce": 9,
-      "Financial Services": 6,
+      "Financial Services": 5,
       "Agriculture and Food Production": 3,
       "Energy & Utilities": 3,
-      "Government & Defense": 2,
       "Transportation": 2,
       "Hospitality": 2,
+      "Government & Defense": 1,
       "Education": 1
     }
   },
