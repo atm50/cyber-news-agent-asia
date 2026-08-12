@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-11T23:41:09.623701+00:00",
+  "last_updated_utc": "2026-08-12T01:56:22.680075+00:00",
   "victims": [
     {
       "victim": "Crown Group",
@@ -131,6 +131,18 @@
       "website": "",
       "description": "Hospitals &amp; Physicians Clinics",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/81",
+      "monitored": true
+    },
+    {
+      "victim": "**E***",
+      "group": "genesis",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-08-11T23:56:08.099292+00:00",
+      "attack_date": "2026-08-11T00:00:00+00:00",
+      "website": "",
+      "description": "A healthcare organization",
+      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/9e19757b54df85888c12/",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "SharePoint libraries staged T1 (least) → T4 (most). Release countdown live on Helix. Tiers unlock by stage when each set timer reaches 0.",
       "claim_url": "http://helix2kvkqjzrkh3ospyukij7uemxwvbdmqberjmrudjmqy4hspwzzqd.onion/p/f2cb1153792fbedb831aa6280d414b35473e8e3a297904b810003b04d8eca445",
       "monitored": false
-    },
-    {
-      "victim": "Uber",
-      "group": "Helix",
-      "country": "United States",
-      "sector": "Transportation",
-      "discovered": "2026-08-07T07:21:22.132341+00:00",
-      "attack_date": "2026-08-07T07:20:58.230690+00:00",
-      "website": "",
-      "description": "SharePoint libraries staged T1 (least) → T4 (most). Release countdown live on Helix. Tiers unlock by stage when each set timer reaches 0.",
-      "claim_url": "http://helix2kvkqjzrkh3ospyukij7uemxwvbdmqberjmrudjmqy4hspwzzqd.onion/p/98709deba70bbdf82c24ed60e779c06c8cf8fec574c10403a9c0caff8e5b84df",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3539,20 +3539,19 @@
       "thegentlemen": 13,
       "direwolf": 11,
       "Panzer": 4,
+      "genesis": 4,
       "Storm": 4,
       "payload": 3,
       "krybit": 3,
       "bravox": 3,
       "Global Secret Group": 3,
       "unsafe": 3,
-      "genesis": 3,
       "akira": 3,
       "play": 3,
       "Wallstreet": 2,
       "spacebears": 2,
       "incransom": 2,
       "clop": 2,
-      "Helix": 2,
       "interlock": 1,
       "Orova": 1,
       "aurora": 1,
@@ -3560,7 +3559,8 @@
       "Deadlock": 1,
       "dragonforce": 1,
       "fulcrumsec": 1,
-      "shinyhunters": 1
+      "shinyhunters": 1,
+      "Helix": 1
     },
     "by_sector": {
       "Manufacturing": 22,
@@ -3568,8 +3568,8 @@
       "Technology": 12,
       "Professional Services": 12,
       "Other": 10,
-      "Transportation": 6,
-      "Not Found": 5,
+      "Not Found": 6,
+      "Transportation": 5,
       "Financial Services": 5,
       "Energy & Utilities": 4,
       "Retail & E-Commerce": 3,
