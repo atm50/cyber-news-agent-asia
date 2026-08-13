@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-13T06:17:46.305420+00:00",
+  "last_updated_utc": "2026-08-13T08:22:10.221339+00:00",
   "victims": [
     {
       "victim": "Portable Intelligence Inc www.portable-intelligence.com serviced by an IT company Computer...",
@@ -59,6 +59,18 @@
       "website": "",
       "description": "Compunnel, founded in 1994 and headquartered in Plainsboro, New Jersey, provides information technology consulting and staffing, custom business application development, and eLearning services",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7d23ea9cd108bf2677be7a",
+      "monitored": true
+    },
+    {
+      "victim": "Safeware",
+      "group": "thegentlemen",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-13T07:29:47.995902+00:00",
+      "attack_date": "2026-08-12T18:11:16+00:00",
+      "website": "",
+      "description": "safewareinc.com Safeware Inc. is a national leader providing safety and security solutions for first responders, schools, and government agencies.\nFor over 40 years, they have supplied advanced protective equipment and public preparedness training across the United States.\nThe company simplifies gov",
+      "claim_url": "https://www.ransomware.live/id/U2FmZXdhcmVAdGhlZ2VudGxlbWVu",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "medical device and artificial intelligence",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/71",
       "monitored": true
-    },
-    {
-      "victim": "Coggins Insurance Agency",
-      "group": "Global Secret Group",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-10T17:21:51.623578+00:00",
-      "attack_date": "2026-08-10T17:21:07.233615+00:00",
-      "website": "",
-      "description": "Country: Florida, United States |\nWebsite: cogginsinsurance.com |\nRevenue: $5 Million |\nIndustry: Insurance |\nEmployees: 1-10 |\nProperties: 85.9 GB (245,768 Files, 26,563 Folders)",
-      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/18/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1433,6 +1433,12 @@
     },
     {
       "name": "Majinahanashi",
+      "description": "",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "Montage",
       "description": "",
       "locations": 1,
       "meta": ""
@@ -3563,6 +3569,7 @@
       "krybit": 5,
       "SilentRansomGroup": 4,
       "payload": 3,
+      "thegentlemen": 1,
       "spacebears": 1,
       "kairos": 1,
       "Panzer": 1,
@@ -3572,18 +3579,17 @@
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
-      "bravox": 1,
-      "Global Secret Group": 1
+      "bravox": 1
     },
     "by_sector": {
-      "Technology": 19,
+      "Technology": 20,
       "Professional Services": 12,
       "Not Found": 12,
       "Manufacturing": 11,
       "Other": 10,
       "Healthcare": 10,
       "Retail & E-Commerce": 9,
-      "Financial Services": 5,
+      "Financial Services": 4,
       "Agriculture and Food Production": 3,
       "Energy & Utilities": 3,
       "Transportation": 2,
