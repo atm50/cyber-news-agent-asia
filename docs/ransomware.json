@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-12T23:41:56.892892+00:00",
+  "last_updated_utc": "2026-08-13T01:58:18.434653+00:00",
   "victims": [
+    {
+      "victim": "Portable Intelligence Inc www.portable-intelligence.com serviced by an IT company Computer...",
+      "group": "blacknevas",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-13T00:22:25.775694+00:00",
+      "attack_date": "2026-08-13T00:14:37+00:00",
+      "website": "",
+      "description": "A Canadian IT company based in Markham, Ontario, founded in 2015. It develops software for warehouse management and automation (Warehouse Management Systems).Key products:RF Plus — a barcode scanning and inventory tracking system for ERPs (specifically Infor VISUAL)TED — a warehouse task management ",
+      "claim_url": "http://ctyfftrjgtwdjzlgqh4avbd35sqrs6tde4oyam2ufbjch6oqpqtkdtid.onion/334ea365-5531-4a9e-902e-8936568e0e87",
+      "monitored": true
+    },
     {
       "victim": "Riker Danzig Scherer Hyland & Perretti",
       "group": "SilentRansomGroup",
@@ -1188,18 +1200,6 @@
       "description": "Integrated services, logistics and event management.",
       "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/90f902f2-8f2a-4812-a692-e5d7c9ff2204",
       "monitored": false
-    },
-    {
-      "victim": "QPC Global",
-      "group": "dragonforce",
-      "country": "United Kingdom",
-      "sector": "Other",
-      "discovered": "2026-08-11T15:53:26.240153+00:00",
-      "attack_date": "2026-08-10T15:30:23.238466+00:00",
-      "website": "",
-      "description": "Quest Personal Care Global Ltd is a global company specializing in affordable beauty and personal care products, with over 30 years of experience and a presence in more than 65 countries. They offer a diverse range of innovative brands and products, including skincare, haircare, and fragrance, aimed",
-      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=13482e3f-7d7f-4b88-b6bd-b0e8468b7498",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3517,16 +3517,16 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 21,
+    "unique_groups": 20,
     "unique_countries": 32,
     "by_country": {
-      "United States": 38,
+      "United States": 39,
       "Unknown": 10,
       "Italy": 7,
       "India": 5,
-      "United Kingdom": 3,
       "Switzerland": 3,
       "Canada": 2,
+      "United Kingdom": 2,
       "Mexico": 2,
       "Australia": 2,
       "Finland": 2,
@@ -3557,11 +3557,11 @@
       "clop": 44,
       "direwolf": 11,
       "qilin": 7,
+      "blacknevas": 5,
       "majinahanashi": 5,
       "krybit": 5,
       "SilentRansomGroup": 4,
       "incransom": 4,
-      "blacknevas": 4,
       "payload": 3,
       "bravox": 2,
       "spacebears": 1,
@@ -3573,15 +3573,14 @@
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
-      "Global Secret Group": 1,
-      "dragonforce": 1
+      "Global Secret Group": 1
     },
     "by_sector": {
-      "Technology": 18,
+      "Technology": 19,
       "Not Found": 13,
       "Professional Services": 11,
-      "Other": 11,
       "Manufacturing": 11,
+      "Other": 10,
       "Healthcare": 10,
       "Retail & E-Commerce": 9,
       "Financial Services": 5,
