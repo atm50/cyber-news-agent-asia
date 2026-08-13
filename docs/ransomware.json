@@ -1,10 +1,22 @@
 {
-  "last_updated_utc": "2026-08-13T13:10:54.478852+00:00",
+  "last_updated_utc": "2026-08-13T14:58:42.799449+00:00",
   "victims": [
+    {
+      "victim": "D & J Beverage Service",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Hospitality",
+      "discovered": "2026-08-13T13:29:41.689685+00:00",
+      "attack_date": "2026-08-13T13:29:20.207070+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=775c1b28-1eb6-4ee7-b14f-277932b229d4",
+      "monitored": true
+    },
     {
       "victim": "Zara Investment Holding",
       "group": "payload",
-      "country": "Spain",
+      "country": "JO",
       "sector": "Financial Services",
       "discovered": "2026-08-13T12:29:45.704948+00:00",
       "attack_date": "2026-08-13T12:29:04.571368+00:00",
@@ -48,6 +60,18 @@
       "description": "A Canadian IT company based in Markham, Ontario, founded in 2015. It develops software for warehouse management and automation (Warehouse Management Systems).Key products:RF Plus — a barcode scanning and inventory tracking system for ERPs (specifically Infor VISUAL)TED — a warehouse task management ",
       "claim_url": "http://ctyfftrjgtwdjzlgqh4avbd35sqrs6tde4oyam2ufbjch6oqpqtkdtid.onion/334ea365-5531-4a9e-902e-8936568e0e87",
       "monitored": true
+    },
+    {
+      "victim": "CF Supply",
+      "group": "akira",
+      "country": "",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-13T13:24:01.902188+00:00",
+      "attack_date": "2026-08-13T00:00:00+00:00",
+      "website": "",
+      "description": "CF Supply is a Texas-based company that offers a wide range of construction products including \ndrywall, metal framing, insulation, and door hardware. They provide services such as free estim\nates and 24-hour online account access, ensuring convenience for their clients.\n\nWe will upload corporate da",
+      "claim_url": "https://www.ransomware.live/id/Q0YgU3VwcGx5QGFraXJh",
+      "monitored": false
     },
     {
       "victim": "Riker Danzig Scherer Hyland & Perretti",
@@ -986,6 +1010,18 @@
       "monitored": false
     },
     {
+      "victim": "GB Group S.A",
+      "group": "dragonforce",
+      "country": "Poland",
+      "sector": "Financial Services",
+      "discovered": "2026-08-13T14:23:49.642302+00:00",
+      "attack_date": "2026-08-11T13:58:24.388339+00:00",
+      "website": "",
+      "description": "GB Group is one of Haiti’s largest private industrial and trading conglomerates. Headquartered in Port-au-Prince, it operates across nine core industries including construction materials, consumer goods, and energy. Recently, the organization transitioned its corporate identity to B|G|O (Builders of",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=172d1161-42f6-4f69-89a0-d401a2be2b54",
+      "monitored": false
+    },
+    {
       "victim": "Service Evaluation Concepts",
       "group": "qilin",
       "country": "United States",
@@ -1164,42 +1200,6 @@
       "description": "Electrical and Engineering Solutions for Business.",
       "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/1cb930f6-d190-4bc2-bea6-c39d503ce9e2",
       "monitored": false
-    },
-    {
-      "victim": "Osmo Wallet",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-10T18:55:42.076489+00:00",
-      "attack_date": "2026-08-10T18:47:24.149795+00:00",
-      "website": "",
-      "description": "FinTech",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/76",
-      "monitored": true
-    },
-    {
-      "victim": "Fondo",
-      "group": "direwolf",
-      "country": "",
-      "sector": "Financial Services",
-      "discovered": "2026-08-10T18:56:13.350976+00:00",
-      "attack_date": "2026-08-10T18:41:43.492725+00:00",
-      "website": "",
-      "description": "Financial Software",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/75",
-      "monitored": false
-    },
-    {
-      "victim": "Health Carousel",
-      "group": "direwolf",
-      "country": "Philippines",
-      "sector": "Healthcare",
-      "discovered": "2026-08-10T18:56:46.625226+00:00",
-      "attack_date": "2026-08-10T18:38:34.541408+00:00",
-      "website": "",
-      "description": "Business Services · Ohio",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/74",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3522,9 +3522,9 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
-    "unique_groups": 21,
-    "unique_countries": 33,
+    "monitored_victims": 60,
+    "unique_groups": 23,
+    "unique_countries": 34,
     "by_country": {
       "United States": 39,
       "Unknown": 10,
@@ -3539,8 +3539,7 @@
       "Finland": 2,
       "Taiwan": 2,
       "Netherlands": 2,
-      "Philippines": 2,
-      "Spain": 1,
+      "JO": 1,
       "France": 1,
       "SK": 1,
       "HU": 1,
@@ -3554,28 +3553,32 @@
       "Pakistan": 1,
       "Germany": 1,
       "AR": 1,
+      "Poland": 1,
       "HK": 1,
       "Austria": 1,
+      "Philippines": 1,
       "AI": 1,
       "Brazil": 1,
       "South Korea": 1
     },
     "by_group": {
       "clop": 44,
-      "direwolf": 8,
-      "qilin": 7,
+      "qilin": 8,
       "blacknevas": 5,
       "incransom": 5,
       "majinahanashi": 5,
       "krybit": 5,
+      "direwolf": 5,
       "payload": 4,
       "SilentRansomGroup": 4,
       "AiLock": 2,
+      "akira": 1,
       "thegentlemen": 1,
       "spacebears": 1,
       "kairos": 1,
       "Panzer": 1,
       "interlock": 1,
+      "dragonforce": 1,
       "genesis": 1,
       "Orova": 1,
       "aurora": 1,
@@ -3588,14 +3591,14 @@
       "Not Found": 13,
       "Professional Services": 11,
       "Manufacturing": 11,
+      "Retail & E-Commerce": 10,
       "Other": 10,
-      "Retail & E-Commerce": 9,
-      "Healthcare": 8,
-      "Financial Services": 5,
+      "Healthcare": 7,
+      "Financial Services": 4,
+      "Hospitality": 3,
       "Agriculture and Food Production": 3,
       "Energy & Utilities": 3,
       "Transportation": 2,
-      "Hospitality": 2,
       "Government & Defense": 1,
       "Education": 1
     }
