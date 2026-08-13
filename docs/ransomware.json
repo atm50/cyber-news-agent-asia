@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-13T17:57:31.751303+00:00",
+  "last_updated_utc": "2026-08-13T19:06:21.727106+00:00",
   "victims": [
+    {
+      "victim": "SIA Medical Centre",
+      "group": "rhysida",
+      "country": "LV",
+      "sector": "Healthcare",
+      "discovered": "2026-08-13T17:57:28.008533+00:00",
+      "attack_date": "2026-08-13T17:56:55.126638+00:00",
+      "website": "",
+      "description": "SIA Medical Centre SIA Medical was established in 1993 and was founded by Dr Martin Sia in Melbourne's northwest. 9 clinics - Box Hill, Burwood, Croydon, Essendon, Footscray, Moonee Ponds, Montrose, Mulgrave and Berwick.We are pleased to present:~20,000 patient medical records - names, dates of birt",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=258",
+      "monitored": false
+    },
     {
       "victim": "D & J Beverage Service",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "FinTech",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/76",
       "monitored": true
-    },
-    {
-      "victim": "Fondo",
-      "group": "direwolf",
-      "country": "",
-      "sector": "Financial Services",
-      "discovered": "2026-08-10T18:56:13.350976+00:00",
-      "attack_date": "2026-08-10T18:41:43.492725+00:00",
-      "website": "",
-      "description": "Financial Software",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/75",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3523,11 +3523,11 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 23,
-    "unique_countries": 34,
+    "unique_groups": 24,
+    "unique_countries": 35,
     "by_country": {
       "United States": 39,
-      "Unknown": 11,
+      "Unknown": 10,
       "Italy": 6,
       "India": 5,
       "Switzerland": 3,
@@ -3538,6 +3538,7 @@
       "United Kingdom": 2,
       "Taiwan": 2,
       "Netherlands": 2,
+      "LV": 1,
       "JO": 1,
       "France": 1,
       "SK": 1,
@@ -3564,7 +3565,7 @@
     "by_group": {
       "clop": 42,
       "qilin": 8,
-      "direwolf": 7,
+      "direwolf": 6,
       "blacknevas": 5,
       "incransom": 5,
       "majinahanashi": 5,
@@ -3572,6 +3573,7 @@
       "payload": 4,
       "SilentRansomGroup": 4,
       "AiLock": 2,
+      "rhysida": 1,
       "akira": 1,
       "thegentlemen": 1,
       "spacebears": 1,
@@ -3592,9 +3594,9 @@
       "Professional Services": 11,
       "Manufacturing": 11,
       "Retail & E-Commerce": 10,
+      "Healthcare": 8,
       "Other": 8,
-      "Healthcare": 7,
-      "Financial Services": 6,
+      "Financial Services": 5,
       "Energy & Utilities": 4,
       "Hospitality": 3,
       "Transportation": 2,
