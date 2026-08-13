@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-13T20:43:41.682028+00:00",
+  "last_updated_utc": "2026-08-13T21:45:20.713387+00:00",
   "victims": [
+    {
+      "victim": "Hitachi High-Tech",
+      "group": "coinbasecartel",
+      "country": "Japan",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-13T20:53:02.908968+00:00",
+      "attack_date": "2026-08-13T20:52:39.411250+00:00",
+      "website": "",
+      "description": "[AI generated] Hitachi High-Tech is a Japanese technology company headquartered in Tokyo, Japan, and a subsidiary of Hitachi Ltd. It operates in the high-technology and precision equipment industry, specializing in semiconductor manufacturing equipment, analytical and medical instruments, and indust",
+      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/hitachi",
+      "monitored": true
+    },
     {
       "victim": "SIA Medical Centre",
       "group": "rhysida",
@@ -1188,18 +1200,6 @@
       "description": "Electrical and Engineering Solutions for Business.",
       "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/1cb930f6-d190-4bc2-bea6-c39d503ce9e2",
       "monitored": false
-    },
-    {
-      "victim": "Osmo Wallet",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-10T18:55:42.076489+00:00",
-      "attack_date": "2026-08-10T18:47:24.149795+00:00",
-      "website": "",
-      "description": "FinTech",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/76",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3523,15 +3523,15 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 24,
+    "unique_groups": 25,
     "unique_countries": 35,
     "by_country": {
-      "United States": 39,
+      "United States": 38,
       "Unknown": 10,
       "Italy": 6,
       "India": 5,
+      "Japan": 3,
       "Switzerland": 3,
-      "Japan": 2,
       "Canada": 2,
       "Australia": 2,
       "Finland": 2,
@@ -3565,14 +3565,15 @@
     "by_group": {
       "clop": 42,
       "qilin": 8,
-      "direwolf": 6,
       "blacknevas": 5,
       "incransom": 5,
       "majinahanashi": 5,
       "krybit": 5,
+      "direwolf": 5,
       "payload": 4,
       "SilentRansomGroup": 4,
       "AiLock": 2,
+      "coinbasecartel": 1,
       "rhysida": 1,
       "akira": 1,
       "thegentlemen": 1,
@@ -3591,12 +3592,12 @@
     "by_sector": {
       "Technology": 20,
       "Not Found": 14,
+      "Manufacturing": 12,
       "Professional Services": 11,
-      "Manufacturing": 11,
       "Retail & E-Commerce": 10,
       "Healthcare": 8,
       "Other": 8,
-      "Financial Services": 5,
+      "Financial Services": 4,
       "Energy & Utilities": 4,
       "Hospitality": 3,
       "Transportation": 2,

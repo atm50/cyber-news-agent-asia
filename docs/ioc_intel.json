@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-13T20:43:39.689853+00:00",
+  "last_updated_utc": "2026-08-13T21:45:18.324130+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -70,6 +70,18 @@
       "first_seen": "2026-03-04 14:28:39",
       "last_seen": "",
       "country": "JP"
+    },
+    {
+      "value": "http://112.198.138.178:42032/i",
+      "type": "url",
+      "threat": "2026-08-13 21:22:06",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3903319/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-13 21:22:06",
+      "status": "online"
     },
     {
       "value": "http://160.119.71.134/n2/x86_64",
@@ -878,7 +890,7 @@
     {
       "value": "http://2.26.48.37/eclipse.armv5l",
       "type": "url",
-      "threat": "2026-08-13 15:13:23",
+      "threat": "2026-08-13 20:59:25",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903252/",
       "tags": [
@@ -945,7 +957,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-13 15:13:08",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://31.76.29.161/389242390482/pryznet.x86_64",
@@ -993,7 +1005,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-13 14:36:08",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://91.92.242.236/files-129312398/files/file_02013378a7416297.exe",
@@ -1034,7 +1046,7 @@
     {
       "value": "https://stratagemzw.com/img_014740.png",
       "type": "url",
-      "threat": "2026-08-13 14:06:12",
+      "threat": "2026-08-13 20:46:02",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903237/",
       "tags": [
@@ -1226,7 +1238,7 @@
     {
       "value": "https://sarafinance.in/img/roya/stego_4vsu6x7ai8.png",
       "type": "url",
-      "threat": "2026-08-13 13:59:08",
+      "threat": "2026-08-13 20:43:36",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903221/",
       "tags": [
@@ -1322,7 +1334,7 @@
     {
       "value": "https://munihuacho.gob.pe/vehiculos/MSI_PRO.png",
       "type": "url",
-      "threat": "2026-08-13 13:53:38",
+      "threat": "2026-08-13 20:42:00",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903213/",
       "tags": [
@@ -1418,7 +1430,7 @@
     {
       "value": "https://glbeletronica.com.br/wp-content/admin/bin.exe",
       "type": "url",
-      "threat": "2026-08-13 13:51:17",
+      "threat": "2026-08-13 20:45:22",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903204/",
       "tags": [
@@ -1430,7 +1442,7 @@
     {
       "value": "https://glbeletronica.com.br/wp-content/admin/Client_20260811_035917.exe",
       "type": "url",
-      "threat": "2026-08-13 14:52:34",
+      "threat": "2026-08-13 20:41:01",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903205/",
       "tags": [
@@ -1502,7 +1514,7 @@
     {
       "value": "https://my-buck01.s3.cubbit.eu/A/silv-rawfileupload%20(2).txt",
       "type": "url",
-      "threat": "2026-08-13 14:31:29",
+      "threat": "2026-08-13 20:54:40",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903200/",
       "tags": [
@@ -1538,7 +1550,7 @@
     {
       "value": "https://glbeletronica.com.br/wp-content/admin/bin44.exe",
       "type": "url",
-      "threat": "2026-08-13 14:41:32",
+      "threat": "2026-08-13 20:42:59",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3903194/",
       "tags": [
@@ -1860,18 +1872,6 @@
       "status": "offline"
     },
     {
-      "value": "http://91.92.242.236/files-129312398/files/file_ae96d08e0e89cde9.exe",
-      "type": "url",
-      "threat": "2026-08-13 20:35:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3903168/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-13 11:52:29",
-      "status": "online"
-    },
-    {
       "value": "100.23.213.128",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1972,6 +1972,17 @@
     },
     {
       "value": "103.194.106.230",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.241.168.70",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2291,6 +2302,17 @@
     },
     {
       "value": "116.110.154.128",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.155.241",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2818,6 +2840,17 @@
       "first_seen": ""
     },
     {
+      "value": "130.12.182.224",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "130.211.100.134",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -2929,39 +2962,6 @@
     },
     {
       "value": "134.209.233.100",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "138.122.140.200",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "138.197.152.223",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "138.68.152.76",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -5472,7 +5472,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-13T20:43:37.226768+00:00",
+      "article_date": "2026-08-13T21:45:15.834761+00:00",
       "context": "\n\r\n\r\nSHA256 HASHES FOR FIREFOXUPDATE.DLL (9 VARIANTS):\r\n\r\n- 1da7efbbdf7c49193f00716c23ffc6aa7bf95cf7a0592d043b87273deed4"
     },
     {
@@ -5481,7 +5481,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-13T20:43:37.226768+00:00",
+      "article_date": "2026-08-13T21:45:15.834761+00:00",
       "context": "90255ff4fcd40253b49b6a3f1f327728bb8c98b8a040ecbef5118a5e\r\n- f9d378f5e6a0dbca15ae355190f58f66f2e33024a5216f9f0cc065f8c68a"
     },
     {
@@ -5490,7 +5490,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-13T20:43:37.226768+00:00",
+      "article_date": "2026-08-13T21:45:15.834761+00:00",
       "context": "8a3cd0\r\n\r\nSHA256 HASHES FOR MOZGLUE.DLL (54 VARIANTS):\r\n\r\n- 0234f3afddedb16450e7f9c51ec55a3c935ce568806a7c1888aae048d44a"
     },
     {
@@ -5499,7 +5499,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-13T20:43:37.226768+00:00",
+      "article_date": "2026-08-13T21:45:15.834761+00:00",
       "context": "a1afd6b803ab40c29308056d2cb70da3e15bbb7312bc1d9cfd6f33a0\r\n- fc15406249efda3972416625cebab46be623e6eb9c144f2a1ac13535cc2e"
     },
     {
@@ -5508,7 +5508,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-13T20:43:37.226768+00:00",
+      "article_date": "2026-08-13T21:45:15.834761+00:00",
       "context": "35cc2ee974\r\n\r\nSHA256 HASHES FOR XUL.DLL (56 VARIANTS):\r\n\r\n- 056a5cdabf72199382313b0966490d18b7d002ab1638c194a1325d9aaf7c"
     },
     {
@@ -5517,7 +5517,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-13T20:43:37.883048+00:00",
+      "article_date": "2026-08-13T21:45:16.525652+00:00",
       "context": " document containing the malicious payload:         \r\n    - 6d585d11236277c42bf3666192f89733b1d5595967f6434a2e1b6c9d8584"
     },
     {
@@ -5526,7 +5526,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-13T20:43:37.883048+00:00",
+      "article_date": "2026-08-13T21:45:16.525652+00:00",
       "context": "a2e1b6c9d8584a22c\r\n- SHA256 of the malicious payload\r\n    - f591ececf07aedf2f60dc9a362033b6f718799d5909ab38b6941a5296555"
     },
     {
@@ -5535,7 +5535,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-13T20:43:37.883048+00:00",
+      "article_date": "2026-08-13T21:45:16.525652+00:00",
       "context": " payload)\r\n    - https://31.97.137.157:45000\r\n    - https://46.183.25.232:45000\r\n    - https://bet.slotgambit.com\r\n- URL"
     },
     {
@@ -5544,7 +5544,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-13T20:43:38.544622+00:00",
+      "article_date": "2026-08-13T21:45:17.190932+00:00",
       "context": "\n2 RELATED SAMPLES (READ SHA256 HASH - FIRST SEEN DATE):\r\n\r\n55a1eb4c2d3da04376df39d7ba832569c6af1a37a0cf2b95f754ac898023"
     },
     {
@@ -5553,7 +5553,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-13T20:43:38.544622+00:00",
+      "article_date": "2026-08-13T21:45:17.190932+00:00",
       "context": "HURSDAY): Hazy Scorpius Exploitation of CVE-2026-12569\r\n\r\nAUTHOR:\r\n\r\n- Matt Brady\r\n\r\nREFERENCE"
     },
     {
@@ -5562,7 +5562,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-13T20:43:38.544622+00:00",
+      "article_date": "2026-08-13T21:45:17.190932+00:00",
       "context": "aloaltonetworks.com/threat-brief-moveit-cve-2023-34362/\r\n  -- https://www.cybereason.com/blog/"
     },
     {
@@ -5571,7 +5571,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-13T20:43:38.544622+00:00",
+      "article_date": "2026-08-13T21:45:17.190932+00:00",
       "context": "/\r\n  -- https://www.cybereason.com/blog/cve-2024-55956-cleo-vulnerability\r\n- However, the grou"
     },
     {
@@ -5580,7 +5580,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-13T20:43:38.544622+00:00",
+      "article_date": "2026-08-13T21:45:17.190932+00:00",
       "context": "of its exploitation of a vulnerability (CVE-2025-61884) in Oracle’s E-Business Suite (EBS) sof"
     },
     {
@@ -5589,7 +5589,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-05-New-Clickfix-Variant.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-05-New-Clickfix-Variant.txt",
-      "article_date": "2026-08-13T20:43:39.188219+00:00",
+      "article_date": "2026-08-13T21:45:17.822484+00:00",
       "context": "0-111c-49fa-9657-9e53d4e089ae\r\n\r\nSHA256 (Malicious DLL):\r\n- 13a41f154e00a331049db462866533fcfe238e98ce6bcf2b6ed18cd96d0d"
     }
   ],
@@ -6178,6 +6178,6 @@
     "[c2tracker/Metasploit C2]: HTTP Error 404: Not Found",
     "[c2tracker/Brute Ratel C4]: HTTP Error 404: Not Found",
     "[blog_rss/Google TAG]: HTTP Error 404: Not Found",
-    "[blog_rss/FortiGuard]: HTTP Error 404: Not Found"
+    "[blog_rss/FortiGuard]: Remote end closed connection without response"
   ]
 }
