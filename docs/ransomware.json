@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-13T04:17:15.272452+00:00",
+  "last_updated_utc": "2026-08-13T06:17:46.305420+00:00",
   "victims": [
     {
       "victim": "Portable Intelligence Inc www.portable-intelligence.com serviced by an IT company Computer...",
@@ -47,6 +47,18 @@
       "website": "",
       "description": "https://www.zoominfo.com/c/greater-austin-merchants-cooperative-association/98978085\r greater-austin-merchants-cooperative-association\r 400gb",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7cc2679cd108bf266aea60",
+      "monitored": true
+    },
+    {
+      "victim": "clgroup",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-13T05:25:37.187376+00:00",
+      "attack_date": "2026-08-12T18:54:00+00:00",
+      "website": "",
+      "description": "Compunnel, founded in 1994 and headquartered in Plainsboro, New Jersey, provides information technology consulting and staffing, custom business application development, and eLearning services",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7d23ea9cd108bf2677be7a",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "Country: Florida, United States |\nWebsite: cogginsinsurance.com |\nRevenue: $5 Million |\nIndustry: Insurance |\nEmployees: 1-10 |\nProperties: 85.9 GB (245,768 Files, 26,563 Folders)",
       "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/18/",
       "monitored": true
-    },
-    {
-      "victim": "Verona 83",
-      "group": "bravox",
-      "country": "Italy",
-      "sector": "Not Found",
-      "discovered": "2026-08-10T16:55:03.859658+00:00",
-      "attack_date": "2026-08-10T16:54:49.782569+00:00",
-      "website": "",
-      "description": "Integrated services, logistics and event management.",
-      "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/90f902f2-8f2a-4812-a692-e5d7c9ff2204",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3516,13 +3516,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
+    "monitored_victims": 61,
     "unique_groups": 20,
     "unique_countries": 32,
     "by_country": {
-      "United States": 39,
+      "United States": 40,
       "Unknown": 10,
-      "Italy": 7,
+      "Italy": 6,
       "India": 5,
       "Switzerland": 3,
       "Canada": 2,
@@ -3558,12 +3558,11 @@
       "direwolf": 11,
       "qilin": 7,
       "blacknevas": 5,
+      "incransom": 5,
       "majinahanashi": 5,
       "krybit": 5,
       "SilentRansomGroup": 4,
-      "incransom": 4,
       "payload": 3,
-      "bravox": 2,
       "spacebears": 1,
       "kairos": 1,
       "Panzer": 1,
@@ -3573,12 +3572,13 @@
       "aurora": 1,
       "anubis": 1,
       "Deadlock": 1,
+      "bravox": 1,
       "Global Secret Group": 1
     },
     "by_sector": {
       "Technology": 19,
-      "Not Found": 13,
-      "Professional Services": 11,
+      "Professional Services": 12,
+      "Not Found": 12,
       "Manufacturing": 11,
       "Other": 10,
       "Healthcare": 10,
