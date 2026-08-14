@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-13T23:41:55.697516+00:00",
+  "last_updated_utc": "2026-08-14T01:55:50.253379+00:00",
   "victims": [
+    {
+      "victim": "Reminger",
+      "group": "SilentRansomGroup",
+      "country": "Germany",
+      "sector": "Professional Services",
+      "discovered": "2026-08-13T23:52:14.083934+00:00",
+      "attack_date": "2026-08-13T23:52:12.012841+00:00",
+      "website": "",
+      "description": "Reminger Attorneys at Law is a law firm with a strong presence in Ohio, Kentucky, and Indiana, operati…",
+      "claim_url": "https://www.ransomware.live/id/UmVtaW5nZXJAU2lsZW50UmFuc29tR3JvdXA=",
+      "monitored": true
+    },
     {
       "victim": "https://pacific-construction.com/",
       "group": "incransom",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Law Firms &amp; Legal Services",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/78",
-      "monitored": true
-    },
-    {
-      "victim": "HIGEN MOTOR(critical data)",
-      "group": "qilin",
-      "country": "South Korea",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-10T19:39:24.349878+00:00",
-      "attack_date": "2026-08-10T19:39:03.222188+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=42480710-90bb-40d8-a036-99178d61af50",
       "monitored": true
     }
   ],
@@ -3524,7 +3524,7 @@
     "total_victims": 100,
     "monitored_victims": 61,
     "unique_groups": 24,
-    "unique_countries": 35,
+    "unique_countries": 34,
     "by_country": {
       "United States": 37,
       "Unknown": 10,
@@ -3534,6 +3534,7 @@
       "Canada": 3,
       "Japan": 3,
       "Switzerland": 3,
+      "Germany": 2,
       "Australia": 2,
       "Finland": 2,
       "Taiwan": 2,
@@ -3552,25 +3553,23 @@
       "CL": 1,
       "Singapore": 1,
       "Pakistan": 1,
-      "Germany": 1,
       "AR": 1,
       "Poland": 1,
       "HK": 1,
       "Austria": 1,
       "Philippines": 1,
       "AI": 1,
-      "Brazil": 1,
-      "South Korea": 1
+      "Brazil": 1
     },
     "by_group": {
       "clop": 42,
-      "qilin": 8,
       "incransom": 7,
+      "qilin": 7,
+      "SilentRansomGroup": 5,
       "blacknevas": 5,
       "majinahanashi": 5,
       "krybit": 5,
       "payload": 4,
-      "SilentRansomGroup": 4,
       "direwolf": 4,
       "AiLock": 2,
       "coinbasecartel": 1,
@@ -3591,8 +3590,8 @@
     "by_sector": {
       "Technology": 19,
       "Not Found": 14,
-      "Manufacturing": 13,
-      "Professional Services": 12,
+      "Professional Services": 13,
+      "Manufacturing": 12,
       "Retail & E-Commerce": 10,
       "Healthcare": 8,
       "Other": 8,
