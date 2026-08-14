@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-14T18:54:47.428382+00:00",
+  "last_updated_utc": "2026-08-14T19:49:37.538139+00:00",
   "victims": [
     {
       "victim": "Connections",
@@ -16,14 +16,14 @@
     {
       "victim": "Connell Enterprises LLC",
       "group": "interlock",
-      "country": "",
+      "country": "United States",
       "sector": "Other",
       "discovered": "2026-08-14T14:32:04.444257+00:00",
       "attack_date": "2026-08-14T14:31:31.655489+00:00",
       "website": "",
       "description": "He performs system administration for domain networks but is unable to ensure his own security. As a result, his data was compromised, and he was caught distributing pornographic content, storing over 200 terabytes of pornographic data on his network-attached storage (NAS). He administers pornograph",
       "claim_url": "http://sq5gowklqcw4uqwzdsebnpxaynffzctjs6r5mmzzpn6jn76au7qwexid.onion/index.php?p=",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "Turner and Townsend",
@@ -38,28 +38,16 @@
       "monitored": true
     },
     {
-      "victim": "Serruya private equity",
-      "group": "coinbasecartel",
-      "country": "Israel",
-      "sector": "Financial Services",
-      "discovered": "2026-08-14T13:55:21.841984+00:00",
-      "attack_date": "2026-08-14T13:54:59.007381+00:00",
-      "website": "",
-      "description": "[AI generated] Serruya Private Equity is a Canadian private equity firm based in Toronto, Ontario. Founded by the Serruya family, known for their background in the franchise and consumer goods industry, the firm focuses on investments in consumer brands, retail, and food and beverage sectors. The co",
-      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/serruya",
-      "monitored": true
-    },
-    {
       "victim": "Sweet Water Holdings",
       "group": "coinbasecartel",
-      "country": "",
+      "country": "United States",
       "sector": "Agriculture and Food Production",
       "discovered": "2026-08-14T13:54:40.890823+00:00",
       "attack_date": "2026-08-14T13:54:17.594550+00:00",
       "website": "",
       "description": "[AI generated] N/A",
       "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/sweet",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "Pierce Township",
@@ -362,16 +350,28 @@
       "monitored": true
     },
     {
+      "victim": "Serruya private equity",
+      "group": "coinbasecartel",
+      "country": "United States",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-14T13:55:21.841984+00:00",
+      "attack_date": "2026-08-14T00:00:00+00:00",
+      "website": "",
+      "description": "[AI generated] Serruya Private Equity is a Canadian private equity firm based in Toronto, Ontario. Founded by the Serruya family, known for their background in the franchise and consumer goods industry, the firm focuses on investments in consumer brands, retail, and food and beverage sectors. The co",
+      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/serruya",
+      "monitored": true
+    },
+    {
       "victim": "Keystops",
       "group": "akira",
-      "country": "",
+      "country": "United States",
       "sector": "Technology",
       "discovered": "2026-08-14T13:52:06.330489+00:00",
       "attack_date": "2026-08-14T00:00:00+00:00",
       "website": "",
       "description": "Key Oil Company is the largest distributor of branded motor fuels for Marathon Petroleum Compan\ny and also holds contracts with major brands like ExxonMobil and ConocoPhillips. They provide a\nwide range of products including lubricants, diesel exhaust fluid, antifreeze, and various fue\nl delivery so",
       "claim_url": "https://www.ransomware.live/id/S2V5c3RvcHNAYWtpcmE=",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "Cozad Asset Management",
@@ -3528,12 +3528,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
+    "monitored_victims": 65,
     "unique_groups": 26,
-    "unique_countries": 31,
+    "unique_countries": 30,
     "by_country": {
-      "United States": 32,
-      "Unknown": 13,
+      "United States": 36,
+      "Unknown": 10,
       "United Kingdom": 5,
       "Canada": 5,
       "Italy": 4,
@@ -3546,7 +3546,6 @@
       "Austria": 2,
       "Netherlands": 2,
       "Belgium": 1,
-      "Israel": 1,
       "Denmark": 1,
       "GR": 1,
       "MA": 1,
@@ -3600,9 +3599,9 @@
       "Healthcare": 11,
       "Other": 9,
       "Retail & E-Commerce": 9,
-      "Financial Services": 4,
-      "Agriculture and Food Production": 3,
+      "Agriculture and Food Production": 4,
       "Hospitality": 3,
+      "Financial Services": 3,
       "Government & Defense": 2,
       "Energy & Utilities": 2,
       "Transportation": 1
