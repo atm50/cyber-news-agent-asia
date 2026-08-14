@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-14T21:25:32.343405+00:00",
+  "last_updated_utc": "2026-08-14T22:26:48.025437+00:00",
   "victims": [
+    {
+      "victim": "granjarinya.com",
+      "group": "safepay",
+      "country": "Spain",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-14T17:28:25.680346+00:00",
+      "attack_date": "2026-08-14T17:28:09.657169+00:00",
+      "website": "",
+      "description": "Headquartered in Albal, Valencia, the family-owned company traces its origins to three generations of livestock farming. What began as a …",
+      "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/granjarinyacom/",
+      "monitored": false
+    },
     {
       "victim": "Connections",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "[jewelry] FREYWILLE — the Austrian luxury fire-enamel jewelry house with 70+ boutiques across Europe, the Americas, Middle East, Russia/CIS, and Asia-Pacific.\n\n<censored>\n<censored>\n142+ employee files with salary statements (2024–2026), social security numbers (ELDA), employment contracts across 24",
       "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/freywille-7c86d6ae",
       "monitored": false
-    },
-    {
-      "victim": "Cleaver-Brooks",
-      "group": "anubis",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-10T22:22:32.736105+00:00",
-      "attack_date": "2026-08-10T22:21:30.448253+00:00",
-      "website": "",
-      "description": "Major data breach at a leading industrial manufacturer.",
-      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/dYhaxPlEm+MM1HGZrdjsCQ2zwR+TdXRV5fWA04IB7AJL7GAC53hyLGgzLN25Kh6uDrrSTzDBmSVEqH1eIJWIHM0WUtyWlU5",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3528,11 +3528,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 65,
+    "monitored_victims": 64,
     "unique_groups": 26,
     "unique_countries": 30,
     "by_country": {
-      "United States": 36,
+      "United States": 35,
       "Unknown": 10,
       "United Kingdom": 5,
       "Canada": 5,
@@ -3542,6 +3542,7 @@
       "Brazil": 3,
       "Germany": 3,
       "Switzerland": 3,
+      "Spain": 2,
       "Singapore": 2,
       "Austria": 2,
       "Netherlands": 2,
@@ -3551,7 +3552,6 @@
       "MA": 1,
       "Mexico": 1,
       "Malaysia": 1,
-      "Spain": 1,
       "JO": 1,
       "LT": 1,
       "CL": 1,
@@ -3580,6 +3580,7 @@
       "interlock": 2,
       "rhysida": 2,
       "AiLock": 2,
+      "safepay": 1,
       "m3rx": 1,
       "spacebears": 1,
       "kairos": 1,
@@ -3588,18 +3589,17 @@
       "direwolf": 1,
       "genesis": 1,
       "Orova": 1,
-      "aurora": 1,
-      "anubis": 1
+      "aurora": 1
     },
     "by_sector": {
       "Not Found": 17,
       "Professional Services": 15,
-      "Manufacturing": 12,
       "Technology": 12,
+      "Manufacturing": 11,
       "Healthcare": 11,
       "Other": 9,
       "Retail & E-Commerce": 9,
-      "Agriculture and Food Production": 4,
+      "Agriculture and Food Production": 5,
       "Hospitality": 3,
       "Financial Services": 3,
       "Government & Defense": 2,
