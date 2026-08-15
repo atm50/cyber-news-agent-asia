@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-14T23:21:53.806082+00:00",
+  "last_updated_utc": "2026-08-15T01:13:41.506675+00:00",
   "victims": [
     {
       "victim": "granjarinya.com",
@@ -360,6 +360,18 @@
       "description": "gravitycoffee.com zoominfo.com/c/gravity-coffee-company-llc/373342412 Gravity Coffee is a premium coffee brand known for serving high-quality beverages in its physical cafes and through retail products. Their signature medium roast blends feature a bold, smooth flavor profile with popular notes of h",
       "claim_url": "https://www.ransomware.live/id/R3Jhdml0eSBDb2ZmZWVAdGhlZ2VudGxlbWVu",
       "monitored": true
+    },
+    {
+      "victim": "FERRARI MANGIMI SRL",
+      "group": "qilin",
+      "country": "Italy",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-14T20:27:58.071728+00:00",
+      "attack_date": "2026-08-14T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=20b0f435-7e06-4b3f-a805-8a8739b3eaab",
+      "monitored": false
     },
     {
       "victim": "Serruya private equity",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=4e83e92f-9bdd-4f12-907b-e98a783774fe",
-      "monitored": false
-    },
-    {
-      "victim": "FREYWILLE",
-      "group": "aurora",
-      "country": "Austria",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-11T05:51:58.070271+00:00",
-      "attack_date": "2026-08-11T00:00:00+00:00",
-      "website": "",
-      "description": "[jewelry] FREYWILLE — the Austrian luxury fire-enamel jewelry house with 70+ boutiques across Europe, the Americas, Middle East, Russia/CIS, and Asia-Pacific.\n\n<censored>\n<censored>\n142+ employee files with salary statements (2024–2026), social security numbers (ELDA), employment contracts across 24",
-      "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/freywille-7c86d6ae",
       "monitored": false
     }
   ],
@@ -3529,14 +3529,14 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 64,
-    "unique_groups": 26,
+    "unique_groups": 25,
     "unique_countries": 30,
     "by_country": {
       "United States": 35,
       "Unknown": 10,
       "United Kingdom": 5,
+      "Italy": 5,
       "Canada": 5,
-      "Italy": 4,
       "Japan": 4,
       "Australia": 4,
       "Brazil": 3,
@@ -3544,9 +3544,9 @@
       "Switzerland": 3,
       "Spain": 2,
       "Singapore": 2,
-      "Austria": 2,
       "Netherlands": 2,
       "Belgium": 1,
+      "Austria": 1,
       "Denmark": 1,
       "GR": 1,
       "MA": 1,
@@ -3565,7 +3565,7 @@
     },
     "by_group": {
       "thegentlemen": 19,
-      "qilin": 14,
+      "qilin": 15,
       "incransom": 7,
       "Storm": 6,
       "SilentRansomGroup": 5,
@@ -3588,8 +3588,7 @@
       "dragonforce": 1,
       "direwolf": 1,
       "genesis": 1,
-      "Orova": 1,
-      "aurora": 1
+      "Orova": 1
     },
     "by_sector": {
       "Not Found": 17,
@@ -3598,8 +3597,8 @@
       "Manufacturing": 11,
       "Healthcare": 11,
       "Other": 9,
-      "Retail & E-Commerce": 9,
-      "Agriculture and Food Production": 5,
+      "Retail & E-Commerce": 8,
+      "Agriculture and Food Production": 6,
       "Hospitality": 3,
       "Financial Services": 3,
       "Government & Defense": 2,
