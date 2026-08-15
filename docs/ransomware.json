@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-15T04:31:32.783216+00:00",
+  "last_updated_utc": "2026-08-15T05:25:11.327910+00:00",
   "victims": [
+    {
+      "victim": "Alpine Electronics Europe",
+      "group": "Panzer",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-15T00:21:25.972931+00:00",
+      "attack_date": "2026-08-15T00:18:22+00:00",
+      "website": "",
+      "description": "Alpine Electronics Europe specializes in the distribution of automotive electronics and audio products. The company offers a range of products and support services tailored for various European markets. Their intended clients include automotive manufacturers and consumers seeking high-quality audio ",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/alpine-electronics-europe",
+      "monitored": true
+    },
     {
       "victim": "granjarinya.com",
       "group": "safepay",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Ganzhou Xinye Art and Craft Co., Ltd. is a large-scale craft gift production enterprise affiliated to Xinlin Group. The company was established in September 1997. It is a large foreign-owned enterprise with a total investment of 7.2 million US dollars. It mainly produces resin, glass, clay, ceramics",
       "claim_url": "http://mzlajyncb2rafn5bsb7esmo73kyawjxeirunba27n6nermmafzlcp4qd.onion/idlfthynicdrnnzkss/",
-      "monitored": false
-    },
-    {
-      "victim": "G.M.A. GRANDI MARCHE AUTOMOBILI - S.R.L",
-      "group": "qilin",
-      "country": "Italy",
-      "sector": "Transportation",
-      "discovered": "2026-08-11T17:29:19.817959+00:00",
-      "attack_date": "2026-08-11T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=4e83e92f-9bdd-4f12-907b-e98a783774fe",
       "monitored": false
     }
   ],
@@ -3528,19 +3528,19 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
+    "monitored_victims": 65,
     "unique_groups": 25,
     "unique_countries": 30,
     "by_country": {
       "United States": 35,
       "Unknown": 10,
       "United Kingdom": 5,
-      "Italy": 5,
       "Canada": 5,
+      "Germany": 4,
+      "Italy": 4,
       "Japan": 4,
       "Australia": 4,
       "Brazil": 3,
-      "Germany": 3,
       "Switzerland": 3,
       "Spain": 2,
       "Singapore": 2,
@@ -3565,7 +3565,7 @@
     },
     "by_group": {
       "thegentlemen": 19,
-      "qilin": 15,
+      "qilin": 14,
       "incransom": 7,
       "Storm": 6,
       "SilentRansomGroup": 5,
@@ -3577,6 +3577,7 @@
       "payload": 4,
       "clop": 3,
       "akira": 3,
+      "Panzer": 2,
       "interlock": 2,
       "rhysida": 2,
       "AiLock": 2,
@@ -3584,7 +3585,6 @@
       "m3rx": 1,
       "spacebears": 1,
       "kairos": 1,
-      "Panzer": 1,
       "dragonforce": 1,
       "direwolf": 1,
       "genesis": 1,
@@ -3593,8 +3593,8 @@
     "by_sector": {
       "Not Found": 17,
       "Professional Services": 15,
+      "Manufacturing": 12,
       "Technology": 12,
-      "Manufacturing": 11,
       "Healthcare": 11,
       "Other": 9,
       "Retail & E-Commerce": 8,
@@ -3602,8 +3602,7 @@
       "Hospitality": 3,
       "Financial Services": 3,
       "Government & Defense": 2,
-      "Energy & Utilities": 2,
-      "Transportation": 1
+      "Energy & Utilities": 2
     }
   },
   "errors": []
