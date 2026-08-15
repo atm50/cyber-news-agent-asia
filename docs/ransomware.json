@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-15T16:24:57.671412+00:00",
+  "last_updated_utc": "2026-08-15T17:20:59.165232+00:00",
   "victims": [
+    {
+      "victim": "VR Advogados",
+      "group": "Barracuda",
+      "country": "Brazil",
+      "sector": "Professional Services",
+      "discovered": "2026-08-15T12:50:32.297287+00:00",
+      "attack_date": "2026-08-15T12:50:11.612873+00:00",
+      "website": "",
+      "description": "VR Advogados, a Brazilian law firm, neglected its clients’ personal data, violating laws regarding data storage and confidentiality—they posted and shared all of their clients’ documents, passport information, and powers of attorney via a Discord server. We hacked it. Now we have 3,000 documents bel",
+      "claim_url": "http://uvm6hk4wwstfddja5z5htgtlehmfyflffijz6iozsuqyacyibzxefkqd.onion",
+      "monitored": true
+    },
     {
       "victim": "www.shalina.com",
       "group": "blackwater",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Integra Castings is an ISO 9001:2015 certified gray and ductile iron foundry that specializes in melting, molding, and core-making a variety of materials. As a division of The CTD Group, they focus on producing customized solutions for clients while adhering to strict quality assurance guidelines. T",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7b1621a345574b57c7c5d9",
-      "monitored": true
-    },
-    {
-      "victim": "tommer construction",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-11T12:31:35.594686+00:00",
-      "attack_date": "2026-08-11T12:31:15.503770+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=9e4c0161-1011-4c9a-88f7-412512a69477",
       "monitored": true
     }
   ],
@@ -3529,18 +3529,18 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 65,
-    "unique_groups": 24,
+    "unique_groups": 25,
     "unique_countries": 29,
     "by_country": {
-      "United States": 34,
+      "United States": 33,
       "Unknown": 10,
       "United Kingdom": 5,
       "Canada": 5,
+      "Brazil": 4,
       "Germany": 4,
       "Italy": 4,
       "Japan": 4,
       "Australia": 4,
-      "Brazil": 3,
       "Switzerland": 3,
       "India": 2,
       "AR": 2,
@@ -3564,7 +3564,7 @@
     },
     "by_group": {
       "thegentlemen": 19,
-      "qilin": 14,
+      "qilin": 13,
       "incransom": 7,
       "Storm": 6,
       "SilentRansomGroup": 5,
@@ -3581,6 +3581,7 @@
       "interlock": 2,
       "rhysida": 2,
       "AiLock": 2,
+      "Barracuda": 1,
       "anubis": 1,
       "safepay": 1,
       "m3rx": 1,
@@ -3589,11 +3590,11 @@
       "dragonforce": 1
     },
     "by_sector": {
+      "Professional Services": 17,
       "Not Found": 17,
-      "Professional Services": 16,
       "Technology": 12,
       "Healthcare": 11,
-      "Manufacturing": 11,
+      "Manufacturing": 10,
       "Other": 9,
       "Retail & E-Commerce": 8,
       "Agriculture and Food Production": 6,
