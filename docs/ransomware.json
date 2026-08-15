@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-15T22:21:43.488377+00:00",
+  "last_updated_utc": "2026-08-15T23:21:06.335428+00:00",
   "victims": [
+    {
+      "victim": "servmarmg.cl",
+      "group": "ms13089",
+      "country": "CL",
+      "sector": "Other",
+      "discovered": "2026-08-15T19:00:56.324219+00:00",
+      "attack_date": "2026-08-15T19:00:37.501989+00:00",
+      "website": "",
+      "description": "Empresa con más de 25 años de experiencia en el rubro marítimo, orientada a ejecutar operaciones con estándares de calidad, control de riesgo y tiempos de respuesta consistentes...",
+      "claim_url": "http://msleakjir7pxbe6onlqe5uwgvdmy6nq4mnwfy7ojswbhnleenm77vgad.onion/MGS/index.html",
+      "monitored": false
+    },
     {
       "victim": "SEARS (Grupo Sanborns)",
       "group": "spacebears",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "The Canadian Mental Health Association provides mental health services and support. The Association offers advocacy, education, research, and services to persons experiencing mental illness throughout Canada and is headquartered in Toronto, Ontario. \nThe company headquarters is located in 595 Montre",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7b2351a345574b57c7c5db",
-      "monitored": true
-    },
-    {
-      "victim": "Service Evaluation Concepts",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-08-11T13:28:05.098896+00:00",
-      "attack_date": "2026-08-11T13:27:40.175953+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=801161a8-5902-4a46-bebb-0162cc2d2990",
       "monitored": true
     }
   ],
@@ -3534,11 +3534,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
-    "unique_groups": 26,
+    "monitored_victims": 63,
+    "unique_groups": 27,
     "unique_countries": 29,
     "by_country": {
-      "United States": 34,
+      "United States": 33,
       "Unknown": 10,
       "United Kingdom": 5,
       "Brazil": 4,
@@ -3548,6 +3548,7 @@
       "Australia": 4,
       "Canada": 3,
       "Switzerland": 3,
+      "CL": 2,
       "Mexico": 2,
       "India": 2,
       "AR": 2,
@@ -3562,7 +3563,6 @@
       "Malaysia": 1,
       "JO": 1,
       "LT": 1,
-      "CL": 1,
       "Taiwan": 1,
       "Pakistan": 1,
       "Finland": 1,
@@ -3570,7 +3570,7 @@
     },
     "by_group": {
       "thegentlemen": 19,
-      "qilin": 13,
+      "qilin": 12,
       "incransom": 7,
       "SilentRansomGroup": 5,
       "blacknevas": 5,
@@ -3588,6 +3588,7 @@
       "interlock": 2,
       "rhysida": 2,
       "AiLock": 2,
+      "ms13089": 1,
       "Barracuda": 1,
       "anubis": 1,
       "securotrop": 1,
@@ -3598,12 +3599,12 @@
     },
     "by_sector": {
       "Not Found": 18,
-      "Professional Services": 16,
+      "Professional Services": 15,
       "Technology": 12,
       "Healthcare": 11,
+      "Other": 10,
       "Retail & E-Commerce": 9,
       "Manufacturing": 9,
-      "Other": 9,
       "Agriculture and Food Production": 6,
       "Hospitality": 3,
       "Financial Services": 3,
