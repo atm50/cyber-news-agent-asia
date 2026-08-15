@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-15T07:31:39.398049+00:00",
+  "last_updated_utc": "2026-08-15T08:29:43.515347+00:00",
   "victims": [
+    {
+      "victim": "Interim HealthCare",
+      "group": "anubis",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-08-15T04:22:13.780378+00:00",
+      "attack_date": "2026-08-15T04:21:55.237363+00:00",
+      "website": "",
+      "description": "Home Healthcare Agency & Medical Staffing.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/xjzBCfUkCOzKIJhTh9nwY7NPbaLxJGgene7s3HohBcLhET3VwjRQ5Za64O19nnRB2nOWIYc0F5Y5ccdhMpg7XJLRVdOcTdh",
+      "monitored": true
+    },
     {
       "victim": "Alpine Electronics Europe",
       "group": "Panzer",
@@ -1188,18 +1200,6 @@
       "description": "A healthcare organization",
       "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/9e19757b54df85888c12/",
       "monitored": true
-    },
-    {
-      "victim": "Ganzhou Xinye Craft Co., Ltd.",
-      "group": "Orova",
-      "country": "HK",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-11T18:51:28.815570+00:00",
-      "attack_date": "2026-08-11T00:00:00+00:00",
-      "website": "",
-      "description": "Ganzhou Xinye Art and Craft Co., Ltd. is a large-scale craft gift production enterprise affiliated to Xinlin Group. The company was established in September 1997. It is a large foreign-owned enterprise with a total investment of 7.2 million US dollars. It mainly produces resin, glass, clay, ceramics",
-      "claim_url": "http://mzlajyncb2rafn5bsb7esmo73kyawjxeirunba27n6nermmafzlcp4qd.onion/idlfthynicdrnnzkss/",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3528,11 +3528,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 65,
+    "monitored_victims": 66,
     "unique_groups": 25,
-    "unique_countries": 30,
+    "unique_countries": 29,
     "by_country": {
-      "United States": 35,
+      "United States": 36,
       "Unknown": 10,
       "United Kingdom": 5,
       "Canada": 5,
@@ -3560,8 +3560,7 @@
       "Pakistan": 1,
       "Finland": 1,
       "AR": 1,
-      "Poland": 1,
-      "HK": 1
+      "Poland": 1
     },
     "by_group": {
       "thegentlemen": 19,
@@ -3581,21 +3580,21 @@
       "interlock": 2,
       "rhysida": 2,
       "AiLock": 2,
+      "anubis": 1,
       "safepay": 1,
       "m3rx": 1,
       "spacebears": 1,
       "kairos": 1,
       "dragonforce": 1,
       "direwolf": 1,
-      "genesis": 1,
-      "Orova": 1
+      "genesis": 1
     },
     "by_sector": {
       "Not Found": 17,
       "Professional Services": 15,
-      "Manufacturing": 12,
+      "Healthcare": 12,
       "Technology": 12,
-      "Healthcare": 11,
+      "Manufacturing": 11,
       "Other": 9,
       "Retail & E-Commerce": 8,
       "Agriculture and Food Production": 6,
