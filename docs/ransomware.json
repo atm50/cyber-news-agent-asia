@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-16T12:38:51.900271+00:00",
+  "last_updated_utc": "2026-08-16T13:32:23.617291+00:00",
   "victims": [
+    {
+      "victim": "Smartsoft",
+      "group": "Orova",
+      "country": "Taiwan",
+      "sector": "Technology",
+      "discovered": "2026-08-16T08:52:41.066960+00:00",
+      "attack_date": "2026-08-16T00:00:00+00:00",
+      "website": "",
+      "description": "Say goodbye to cumbersome and difficult-to-maintain traditional architectures and regain control of your processes. Redefine enterprise standards with the high performance and low-code platform of .NET 8.",
+      "claim_url": "http://mzlajyncb2rafn5bsb7esmo73kyawjxeirunba27n6nermmafzlcp4qd.onion/omtxosclqflpiwyoei/",
+      "monitored": false
+    },
     {
       "victim": "Oz Hair & Beauty",
       "group": "xpl0itrs",
@@ -1188,18 +1200,6 @@
       "description": "AngMar is a private organization comprised of numerous corporate holdings, LLCs, and companies, operating a network of home health care facilities. They disregard the safety of their clients and the people they care for. As a result, 710 GB of confidential information about the companies they serve ",
       "claim_url": "http://xkqqpb46vk7appesxtmotbrweogkux6gheyonqpk2dxbuqetgt3cvrad.onion/index.php?p=",
       "monitored": false
-    },
-    {
-      "victim": "B&B Hydraulik",
-      "group": "payload",
-      "country": "Germany",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-11T14:30:26.694374+00:00",
-      "attack_date": "2026-08-11T14:29:44.330016+00:00",
-      "website": "",
-      "description": "B&B Hydraulik is a German company based in Hattingen that specializes in the development and manufacturing of hydraulic systems, power units, and specialized equipment. In cooperation with partner organizations, the enterprise supplies control blocks, valves, and components for both industrial and m",
-      "claim_url": "http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/aea6bcf8-61d1-4eae-a870-f7c7367b2d34",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3534,8 +3534,8 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
-    "unique_groups": 28,
+    "monitored_victims": 66,
+    "unique_groups": 29,
     "unique_countries": 27,
     "by_country": {
       "United States": 36,
@@ -3543,10 +3543,11 @@
       "Australia": 5,
       "United Kingdom": 5,
       "Brazil": 4,
-      "Germany": 4,
       "Italy": 4,
       "Japan": 4,
       "India": 3,
+      "Germany": 3,
+      "Taiwan": 2,
       "CL": 2,
       "Mexico": 2,
       "Spain": 2,
@@ -3563,7 +3564,6 @@
       "Malaysia": 1,
       "JO": 1,
       "LT": 1,
-      "Taiwan": 1,
       "Pakistan": 1
     },
     "by_group": {
@@ -3586,24 +3586,25 @@
       "interlock": 2,
       "rhysida": 2,
       "Storm": 2,
-      "payload": 2,
       "AiLock": 2,
+      "Orova": 1,
       "ms13089": 1,
       "Barracuda": 1,
       "anubis": 1,
       "securotrop": 1,
       "safepay": 1,
       "m3rx": 1,
+      "payload": 1,
       "kairos": 1
     },
     "by_sector": {
       "Not Found": 19,
       "Professional Services": 14,
-      "Technology": 12,
+      "Technology": 13,
       "Healthcare": 11,
       "Retail & E-Commerce": 10,
       "Other": 9,
-      "Manufacturing": 9,
+      "Manufacturing": 8,
       "Agriculture and Food Production": 6,
       "Financial Services": 3,
       "Hospitality": 3,
