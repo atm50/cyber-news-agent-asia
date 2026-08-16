@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-16T20:22:30.901293+00:00",
+  "last_updated_utc": "2026-08-16T21:20:49.097310+00:00",
   "victims": [
     {
       "victim": "Mulino Padano",
@@ -866,6 +866,18 @@
       "monitored": true
     },
     {
+      "victim": "Moscord",
+      "group": "Eclipse",
+      "country": "Singapore",
+      "sector": "Not Found",
+      "discovered": "2026-08-16T16:18:45.440068+00:00",
+      "attack_date": "2026-08-14T00:00:00+00:00",
+      "website": "",
+      "description": "Moscord is a digital marketplace that connects buyers and sellers in the maritime industry, offering a platform for various suppliers to aggregate and present their products. The company aims to enhance business operations for its clients by providing innovative solutions in procurement, logistics, ",
+      "claim_url": "http://eclipse4g5kxfwsvpu4qx5sdcnrji6gxl5gt67bucjlgt35g7akvjoid.onion/place/kwie27gounr6uyo7/",
+      "monitored": true
+    },
+    {
       "victim": "FERRARI MANGIMI SRL",
       "group": "qilin",
       "country": "Italy",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "safewareinc.com Safeware Inc. is a national leader providing safety and security solutions for first responders, schools, and government agencies.\nFor over 40 years, they have supplied advanced protective equipment and public preparedness training across the United States.\nThe company simplifies gov",
       "claim_url": "https://www.ransomware.live/id/U2FmZXdhcmVAdGhlZ2VudGxlbWVu",
-      "monitored": true
-    },
-    {
-      "victim": "Jack Rutherford Customs Brokers Ltd / The Rutherford Group www.therg.ca serviced by an IT ...",
-      "group": "blacknevas",
-      "country": "Canada",
-      "sector": "Professional Services",
-      "discovered": "2026-08-12T16:21:57.286702+00:00",
-      "attack_date": "2026-08-12T15:58:10+00:00",
-      "website": "",
-      "description": "Jack Rutherford Customs Brokers Ltd. is a Canadian customs brokerage company currently operating under the brand name The Rutherford Group. The company provides comprehensive logistics services, primarily: customs brokerage (import and export clearance, clearance through Canadian and US customs, com",
-      "claim_url": "http://ctyfftrjgtwdjzlgqh4avbd35sqrs6tde4oyam2ufbjch6oqpqtkdtid.onion/e3eb3b89-131b-4e57-83fd-3fcb58ac35c9",
       "monitored": true
     }
   ],
@@ -3535,7 +3535,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 71,
-    "unique_groups": 29,
+    "unique_groups": 30,
     "unique_countries": 28,
     "by_country": {
       "United States": 30,
@@ -3547,18 +3547,18 @@
       "France": 4,
       "Australia": 4,
       "Brazil": 4,
-      "Canada": 3,
+      "Canada": 2,
       "Malaysia": 2,
       "Belgium": 2,
       "Mexico": 2,
       "India": 2,
       "Spain": 2,
+      "Singapore": 2,
       "South Africa": 1,
       "Philippines": 1,
       "Taiwan": 1,
       "CL": 1,
       "AR": 1,
-      "Singapore": 1,
       "Austria": 1,
       "Denmark": 1,
       "Netherlands": 1,
@@ -3584,7 +3584,6 @@
       "rhysida": 2,
       "Storm": 2,
       "AiLock": 2,
-      "blacknevas": 2,
       "Helix": 1,
       "Orova": 1,
       "ms13089": 1,
@@ -3596,13 +3595,15 @@
       "interlock": 1,
       "clop": 1,
       "m3rx": 1,
-      "payload": 1
+      "Eclipse": 1,
+      "payload": 1,
+      "blacknevas": 1
     },
     "by_sector": {
-      "Professional Services": 17,
       "Technology": 16,
+      "Professional Services": 16,
+      "Not Found": 14,
       "Manufacturing": 13,
-      "Not Found": 13,
       "Retail & E-Commerce": 11,
       "Healthcare": 7,
       "Agriculture and Food Production": 6,
