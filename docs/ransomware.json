@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-16T21:20:49.097310+00:00",
+  "last_updated_utc": "2026-08-16T22:21:20.983093+00:00",
   "victims": [
+    {
+      "victim": "SAGASTA sro",
+      "group": "Panzer",
+      "country": "CZ",
+      "sector": "Not Found",
+      "discovered": "2026-08-16T17:52:24.189617+00:00",
+      "attack_date": "2026-08-16T16:27:25+00:00",
+      "website": "",
+      "description": "SAGASTA is a design and engineering company specializing in modern construction, offering comprehensive design, engineering, and consulting services in the fields of railway, road, bridge, and water management construction.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/sagasta-sro",
+      "monitored": false
+    },
     {
       "victim": "Mulino Padano",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Compunnel, founded in 1994 and headquartered in Plainsboro, New Jersey, provides information technology consulting and staffing, custom business application development, and eLearning services",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7d23ea9cd108bf2677be7a",
-      "monitored": true
-    },
-    {
-      "victim": "Safeware",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-08-13T07:29:47.995902+00:00",
-      "attack_date": "2026-08-12T18:11:16+00:00",
-      "website": "",
-      "description": "safewareinc.com Safeware Inc. is a national leader providing safety and security solutions for first responders, schools, and government agencies.\nFor over 40 years, they have supplied advanced protective equipment and public preparedness training across the United States.\nThe company simplifies gov",
-      "claim_url": "https://www.ransomware.live/id/U2FmZXdhcmVAdGhlZ2VudGxlbWVu",
       "monitored": true
     }
   ],
@@ -3534,11 +3534,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 71,
+    "monitored_victims": 70,
     "unique_groups": 30,
-    "unique_countries": 28,
+    "unique_countries": 29,
     "by_country": {
-      "United States": 30,
+      "United States": 29,
       "Germany": 9,
       "Italy": 7,
       "Unknown": 6,
@@ -3554,6 +3554,7 @@
       "India": 2,
       "Spain": 2,
       "Singapore": 2,
+      "CZ": 1,
       "South Africa": 1,
       "Philippines": 1,
       "Taiwan": 1,
@@ -3569,17 +3570,17 @@
     },
     "by_group": {
       "qilin": 24,
-      "thegentlemen": 19,
+      "thegentlemen": 18,
       "medusalocker": 5,
       "lockbit5": 4,
       "direwolf": 4,
       "coinbasecartel": 4,
       "incransom": 4,
+      "Panzer": 3,
       "xpl0itrs": 3,
       "shinyhunters": 3,
       "akira": 3,
       "SilentRansomGroup": 3,
-      "Panzer": 2,
       "blackwater": 2,
       "rhysida": 2,
       "Storm": 2,
@@ -3600,9 +3601,9 @@
       "blacknevas": 1
     },
     "by_sector": {
-      "Technology": 16,
       "Professional Services": 16,
-      "Not Found": 14,
+      "Not Found": 15,
+      "Technology": 15,
       "Manufacturing": 13,
       "Retail & E-Commerce": 11,
       "Healthcare": 7,
