@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-17T13:39:45.042997+00:00",
+  "last_updated_utc": "2026-08-17T14:28:36.865217+00:00",
   "victims": [
     {
       "victim": "Vermont XCenter",
@@ -23,6 +23,18 @@
       "website": "",
       "description": "Kitchen solutions provider for housing developers.",
       "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/c24b4cd2-897f-403d-ade7-57251f96c6d9",
+      "monitored": true
+    },
+    {
+      "victim": "Lloyd Coils Europe",
+      "group": "aurora",
+      "country": "United Kingdom",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-17T09:52:52.602860+00:00",
+      "attack_date": "2026-08-17T00:00:00+00:00",
+      "website": "",
+      "description": "[manufacturer] 4 Coils Technology s.r.o. (trading as Lloyd Coils Europe) is a Czech-headquartered manufacturer of custom heat exchangers for the HVAC&R industry, with offices in Germany, France, and the United Kingdom. They serve 200+ OEM customers across 39 countries — names like Carrier, Daikin, T",
+      "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/lloyd-coils-europe-344e7910",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "ipssrl.com zoominfo.com/c/ips-srl/372710487 I.P.S. Srl is an Italian company founded in 2005 that specializes in the recovery and recycling of inert waste from construction and demolition activities. They provide environmental services, supply recycled aggregates, and manufacture \"Wastile,\" a 100% e",
       "claim_url": "https://www.ransomware.live/id/SVBTQHRoZWdlbnRsZW1lbg==",
       "monitored": false
-    },
-    {
-      "victim": "Sharecare, Inc.",
-      "group": "shinyhunters",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-14T06:00:42.020893+00:00",
-      "attack_date": "2026-08-13T11:10:00+00:00",
-      "website": "",
-      "description": "This Company data was published due to them hiring a very incompetent and unskilled negotiator. If you choose incompetency to negotiate for you, that is on you. We will be publishing companies data who are negotiating with us, without a warning if negotiators continue to take us as misinformed indiv",
-      "claim_url": "https://www.ransomware.live/id/U2hhcmVjYXJlLCBJbmMuQHNoaW55aHVudGVycw==",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3535,13 +3535,13 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 69,
-    "unique_groups": 32,
+    "unique_groups": 33,
     "unique_countries": 30,
     "by_country": {
-      "United States": 26,
+      "United States": 25,
       "Germany": 9,
       "Italy": 8,
-      "United Kingdom": 6,
+      "United Kingdom": 7,
       "Brazil": 5,
       "Japan": 5,
       "Unknown": 4,
@@ -3580,13 +3580,13 @@
       "xpl0itrs": 3,
       "blackwater": 2,
       "rhysida": 2,
-      "shinyhunters": 2,
       "akira": 2,
       "incransom": 2,
       "Storm": 2,
       "AiLock": 2,
       "dragonforce": 1,
       "bravox": 1,
+      "aurora": 1,
       "emperador": 1,
       "Helix": 1,
       "Orova": 1,
@@ -3599,18 +3599,19 @@
       "interlock": 1,
       "clop": 1,
       "m3rx": 1,
+      "shinyhunters": 1,
       "Eclipse": 1,
       "SilentRansomGroup": 1,
       "payload": 1
     },
     "by_sector": {
       "Not Found": 16,
-      "Manufacturing": 14,
+      "Manufacturing": 15,
       "Technology": 13,
       "Professional Services": 13,
       "Retail & E-Commerce": 10,
-      "Healthcare": 7,
       "Agriculture and Food Production": 6,
+      "Healthcare": 6,
       "Other": 6,
       "Financial Services": 4,
       "Education": 3,
