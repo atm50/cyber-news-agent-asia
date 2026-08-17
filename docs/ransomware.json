@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-17T18:40:25.726387+00:00",
+  "last_updated_utc": "2026-08-17T19:28:51.290071+00:00",
   "victims": [
+    {
+      "victim": "Wishfully Studios",
+      "group": "direwolf",
+      "country": "Sweden",
+      "sector": "Technology",
+      "discovered": "2026-08-17T14:53:46.035657+00:00",
+      "attack_date": "2026-08-17T14:24:32.235000+00:00",
+      "website": "",
+      "description": "Games",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/90",
+      "monitored": false
+    },
+    {
+      "victim": "Arizona State University (ASU)",
+      "group": "direwolf",
+      "country": "United States",
+      "sector": "Education",
+      "discovered": "2026-08-17T14:54:40.031569+00:00",
+      "attack_date": "2026-08-17T14:23:48.206000+00:00",
+      "website": "",
+      "description": "Colleges,Universities",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/91",
+      "monitored": true
+    },
     {
       "victim": "Eva AI Limited",
       "group": "direwolf",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=775c1b28-1eb6-4ee7-b14f-277932b229d4",
-      "monitored": true
-    },
-    {
-      "victim": "Hinman Straub",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-08-14T07:13:12.028381+00:00",
-      "attack_date": "2026-08-13T13:21:19+00:00",
-      "website": "",
-      "description": "Hinman Straub is a full-service law firm located in Albany, New York, offering a comprehensive range of legal and lobbying services. The firm caters to a diverse clientele, including Fortune 500 companies, associations, and local governments, providing expertise in areas such as Labor and Employment",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7dc4cf45ae13d15ffa974e",
-      "monitored": true
-    },
-    {
-      "victim": "3-point Australia",
-      "group": "Storm",
-      "country": "Australia",
-      "sector": "Other",
-      "discovered": "2026-08-14T07:12:41.384020+00:00",
-      "attack_date": "2026-08-13T13:14:24+00:00",
-      "website": "",
-      "description": "3-point Australia is a privately owned project management consultancy specializing in Project Management and Construction Delivery. They provide independent client representation, strategic planning, and end-to-end delivery services to ensure clarity and results for their clients. With a proven trac",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a7dc33045ae13d15ffa974d",
       "monitored": true
     }
   ],
@@ -3534,16 +3534,16 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 70,
-    "unique_groups": 31,
-    "unique_countries": 28,
+    "monitored_victims": 69,
+    "unique_groups": 30,
+    "unique_countries": 29,
     "by_country": {
       "United States": 26,
       "Germany": 9,
       "United Kingdom": 8,
       "Italy": 8,
-      "Australia": 5,
       "Brazil": 5,
+      "Australia": 4,
       "Unknown": 4,
       "France": 4,
       "Spain": 3,
@@ -3555,6 +3555,7 @@
       "Mexico": 2,
       "India": 2,
       "Singapore": 2,
+      "Sweden": 1,
       "AL": 1,
       "CZ": 1,
       "South Africa": 1,
@@ -3570,7 +3571,7 @@
     "by_group": {
       "qilin": 28,
       "thegentlemen": 16,
-      "direwolf": 6,
+      "direwolf": 8,
       "Panzer": 5,
       "medusalocker": 5,
       "lockbit5": 4,
@@ -3581,7 +3582,6 @@
       "rhysida": 2,
       "akira": 2,
       "incransom": 2,
-      "Storm": 2,
       "dragonforce": 1,
       "bravox": 1,
       "emperador": 1,
@@ -3602,15 +3602,15 @@
     },
     "by_sector": {
       "Manufacturing": 16,
-      "Technology": 14,
+      "Technology": 15,
       "Not Found": 14,
-      "Professional Services": 12,
       "Retail & E-Commerce": 11,
+      "Professional Services": 11,
       "Agriculture and Food Production": 6,
       "Healthcare": 6,
-      "Other": 6,
+      "Other": 5,
+      "Education": 4,
       "Government & Defense": 3,
-      "Education": 3,
       "Transportation": 3,
       "Financial Services": 3,
       "Hospitality": 3
