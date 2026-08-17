@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T21:27:01.045712+00:00",
+  "last_updated_utc": "2026-08-17T22:25:03.721169+00:00",
   "victims": [
+    {
+      "victim": "The Rubber Group",
+      "group": "Global Secret Group",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-17T18:22:02.804731+00:00",
+      "attack_date": "2026-08-17T18:21:18.338027+00:00",
+      "website": "",
+      "description": "Country: New Hampshire,US |\nWebsite: www.rubber-group.com |\nRevenue: $19.4 Million |\nIndustry: Plastics Manufacturing, Tires & Rubber, Manufacturing |\nEmployees: 50-100 |\nProperties: 162 GB (207,203 Files, 21,624 Folders)",
+      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/42/",
+      "monitored": true
+    },
     {
       "victim": "4M REALTY COMPANY",
       "group": "Global Secret Group",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "project data client data contract",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7e4ea49cd108bf269e158e",
-      "monitored": true
-    },
-    {
-      "victim": "cambrialawfirm.com",
-      "group": "incransom",
-      "country": "Canada",
-      "sector": "Professional Services",
-      "discovered": "2026-08-13T23:26:32.196914+00:00",
-      "attack_date": "2026-08-13T22:48:58.212000+00:00",
-      "website": "",
-      "description": "personal and medical cards of all clients.",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7e49da9cd108bf269d76d0",
       "monitored": true
     }
   ],
@@ -3538,7 +3538,7 @@
     "unique_groups": 31,
     "unique_countries": 31,
     "by_country": {
-      "United States": 26,
+      "United States": 27,
       "Germany": 9,
       "United Kingdom": 8,
       "Italy": 8,
@@ -3548,7 +3548,6 @@
       "Australia": 3,
       "Spain": 3,
       "CL": 2,
-      "Canada": 2,
       "Malaysia": 2,
       "Japan": 2,
       "Belgium": 2,
@@ -3561,6 +3560,7 @@
       "AL": 1,
       "CZ": 1,
       "South Africa": 1,
+      "Canada": 1,
       "Philippines": 1,
       "Taiwan": 1,
       "AR": 1,
@@ -3580,10 +3580,9 @@
       "aurora": 3,
       "xpl0itrs": 3,
       "coinbasecartel": 3,
+      "Global Secret Group": 2,
       "blackwater": 2,
       "akira": 2,
-      "incransom": 2,
-      "Global Secret Group": 1,
       "dragonforce": 1,
       "bravox": 1,
       "emperador": 1,
@@ -3601,14 +3600,15 @@
       "m3rx": 1,
       "shinyhunters": 1,
       "Eclipse": 1,
-      "SilentRansomGroup": 1
+      "SilentRansomGroup": 1,
+      "incransom": 1
     },
     "by_sector": {
-      "Manufacturing": 16,
+      "Manufacturing": 17,
       "Technology": 15,
       "Not Found": 14,
       "Retail & E-Commerce": 12,
-      "Professional Services": 12,
+      "Professional Services": 11,
       "Agriculture and Food Production": 6,
       "Healthcare": 5,
       "Other": 5,
