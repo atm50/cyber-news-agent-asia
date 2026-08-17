@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T01:15:16.625828+00:00",
+  "last_updated_utc": "2026-08-17T03:01:02.203408+00:00",
   "victims": [
+    {
+      "victim": "Albania's official national teacher training portal.",
+      "group": "emperador",
+      "country": "AL",
+      "sector": "Education",
+      "discovered": "2026-08-16T21:50:56.932034+00:00",
+      "attack_date": "2026-08-16T21:31:00+00:00",
+      "website": "",
+      "description": "Albania’s official national teacher training portal provides centralized professional development resources and accredited programs for educators nationwide.\n\nThis leak include data such as;\nRoughly ~100k Full national ID numbers, full names and teacher certificates in PDF. [Size: 5.9 GB | Sector: E",
+      "claim_url": "/post/albanias-official-national-teacher-training-portal/",
+      "monitored": false
+    },
     {
       "victim": "Teikoku USA",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "A Canadian IT company based in Markham, Ontario, founded in 2015. It develops software for warehouse management and automation (Warehouse Management Systems).Key products:RF Plus — a barcode scanning and inventory tracking system for ERPs (specifically Infor VISUAL)TED — a warehouse task management ",
       "claim_url": "http://ctyfftrjgtwdjzlgqh4avbd35sqrs6tde4oyam2ufbjch6oqpqtkdtid.onion/334ea365-5531-4a9e-902e-8936568e0e87",
       "monitored": true
-    },
-    {
-      "victim": "CF Supply",
-      "group": "akira",
-      "country": "",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-13T13:24:01.902188+00:00",
-      "attack_date": "2026-08-13T00:00:00+00:00",
-      "website": "",
-      "description": "CF Supply is a Texas-based company that offers a wide range of construction products including \ndrywall, metal framing, insulation, and door hardware. They provide services such as free estim\nates and 24-hour online account access, ensuring convenience for their clients.\n\nWe will upload corporate da",
-      "claim_url": "https://www.ransomware.live/id/Q0YgU3VwcGx5QGFraXJh",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3535,15 +3535,15 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 69,
-    "unique_groups": 30,
-    "unique_countries": 29,
+    "unique_groups": 31,
+    "unique_countries": 30,
     "by_country": {
       "United States": 28,
       "Germany": 9,
       "Italy": 8,
-      "Unknown": 5,
       "United Kingdom": 5,
       "Japan": 5,
+      "Unknown": 4,
       "France": 4,
       "Australia": 4,
       "Brazil": 4,
@@ -3555,6 +3555,7 @@
       "India": 2,
       "Spain": 2,
       "Singapore": 2,
+      "AL": 1,
       "CZ": 1,
       "South Africa": 1,
       "Philippines": 1,
@@ -3578,12 +3579,13 @@
       "Panzer": 3,
       "xpl0itrs": 3,
       "shinyhunters": 3,
-      "akira": 3,
       "blackwater": 2,
       "rhysida": 2,
+      "akira": 2,
       "incransom": 2,
       "Storm": 2,
       "AiLock": 2,
+      "emperador": 1,
       "Helix": 1,
       "Orova": 1,
       "ms13089": 1,
@@ -3605,14 +3607,14 @@
       "Manufacturing": 14,
       "Technology": 14,
       "Professional Services": 13,
-      "Retail & E-Commerce": 11,
+      "Retail & E-Commerce": 10,
       "Healthcare": 7,
       "Agriculture and Food Production": 6,
       "Other": 6,
       "Financial Services": 4,
+      "Education": 3,
       "Transportation": 3,
       "Hospitality": 3,
-      "Education": 2,
       "Government & Defense": 2
     }
   },
