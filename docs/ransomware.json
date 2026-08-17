@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T06:55:54.323552+00:00",
+  "last_updated_utc": "2026-08-17T07:54:02.370806+00:00",
   "victims": [
+    {
+      "victim": "Moores",
+      "group": "bravox",
+      "country": "United Kingdom",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-17T03:22:23.204673+00:00",
+      "attack_date": "2026-08-17T03:22:08.709299+00:00",
+      "website": "",
+      "description": "Kitchen solutions provider for housing developers.",
+      "claim_url": "http://bravoxxwcfz5qk43ychgveprpd5mw5hvxfs4a2uz2okx7mumiht4fzyd.onion/blog/c24b4cd2-897f-403d-ade7-57251f96c6d9",
+      "monitored": true
+    },
     {
       "victim": "Albania's Official National Teacher Training Portal",
       "group": "emperador",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Our demand for this Company was $3.3 million. The Company reached out. However, The Company did not try to negotiate. If The Company attempted to negotiate with us The Company would've ended up saving a good chunk of money. Instead they decided to do (see blow); this is also because The Company hire",
       "claim_url": "https://www.ransomware.live/id/Q2FyaGFydHQsIEluYy5Ac2hpbnlodW50ZXJz",
-      "monitored": true
-    },
-    {
-      "victim": "Portable Intelligence Inc www.portable-intelligence.com serviced by an IT company Computer...",
-      "group": "blacknevas",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-08-13T00:22:25.775694+00:00",
-      "attack_date": "2026-08-13T00:14:37+00:00",
-      "website": "",
-      "description": "A Canadian IT company based in Markham, Ontario, founded in 2015. It develops software for warehouse management and automation (Warehouse Management Systems).Key products:RF Plus — a barcode scanning and inventory tracking system for ERPs (specifically Infor VISUAL)TED — a warehouse task management ",
-      "claim_url": "http://ctyfftrjgtwdjzlgqh4avbd35sqrs6tde4oyam2ufbjch6oqpqtkdtid.onion/334ea365-5531-4a9e-902e-8936568e0e87",
       "monitored": true
     }
   ],
@@ -3538,10 +3538,10 @@
     "unique_groups": 31,
     "unique_countries": 30,
     "by_country": {
-      "United States": 28,
+      "United States": 27,
       "Germany": 9,
       "Italy": 8,
-      "United Kingdom": 5,
+      "United Kingdom": 6,
       "Japan": 5,
       "Unknown": 4,
       "France": 4,
@@ -3585,6 +3585,7 @@
       "incransom": 2,
       "Storm": 2,
       "AiLock": 2,
+      "bravox": 1,
       "emperador": 1,
       "Helix": 1,
       "Orova": 1,
@@ -3599,15 +3600,14 @@
       "m3rx": 1,
       "Eclipse": 1,
       "SilentRansomGroup": 1,
-      "payload": 1,
-      "blacknevas": 1
+      "payload": 1
     },
     "by_sector": {
       "Not Found": 15,
       "Manufacturing": 14,
-      "Technology": 14,
+      "Technology": 13,
       "Professional Services": 13,
-      "Retail & E-Commerce": 10,
+      "Retail & E-Commerce": 11,
       "Healthcare": 7,
       "Agriculture and Food Production": 6,
       "Other": 6,
