@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T22:25:03.721169+00:00",
+  "last_updated_utc": "2026-08-17T23:22:48.332927+00:00",
   "victims": [
+    {
+      "victim": "BMW Group",
+      "group": "xpl0itrs",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-17T18:30:10.672092+00:00",
+      "attack_date": "2026-08-17T18:29:53.179392+00:00",
+      "website": "",
+      "description": "German multinational luxury vehicles",
+      "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/bmw/",
+      "monitored": true
+    },
     {
       "victim": "The Rubber Group",
       "group": "Global Secret Group",
@@ -503,6 +515,18 @@
       "website": "",
       "description": "Groupe Actua is a recruitment and temporary staffing agency headquartered in Strasbourg, founded in...",
       "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/dbe106197da13620f53ed5f2481b1970",
+      "monitored": true
+    },
+    {
+      "victim": "Lansing Urgent Care",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-08-17T18:25:39.562479+00:00",
+      "attack_date": "2026-08-16T08:00:00+00:00",
+      "website": "",
+      "description": "Lansing Urgent Care provides a range of urgent care services for both adults and children, including on-site medications, lab tests, and X-rays. Their facilities are designed for quick visits, with an average wait time of under one hour, and they offer telemedicine options for added convenience. The",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a834cdb9cd108bf263e89dd",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=26737f12-4b99-468b-8106-1127bd7f98a5",
       "monitored": false
-    },
-    {
-      "victim": "Reminger",
-      "group": "SilentRansomGroup",
-      "country": "Germany",
-      "sector": "Professional Services",
-      "discovered": "2026-08-13T23:52:14.083934+00:00",
-      "attack_date": "2026-08-13T23:52:12.012841+00:00",
-      "website": "",
-      "description": "Reminger Attorneys at Law is a law firm with a strong presence in Ohio, Kentucky, and Indiana, operati…",
-      "claim_url": "https://www.ransomware.live/id/UmVtaW5nZXJAU2lsZW50UmFuc29tR3JvdXA=",
-      "monitored": true
-    },
-    {
-      "victim": "https://pacific-construction.com/",
-      "group": "incransom",
-      "country": "United Kingdom",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-13T23:27:04.890268+00:00",
-      "attack_date": "2026-08-13T23:09:24.024000+00:00",
-      "website": "",
-      "description": "project data client data contract",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a7e4ea49cd108bf269e158e",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3535,13 +3535,13 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 68,
-    "unique_groups": 31,
+    "unique_groups": 30,
     "unique_countries": 31,
     "by_country": {
-      "United States": 27,
+      "United States": 28,
       "Germany": 9,
-      "United Kingdom": 8,
       "Italy": 8,
+      "United Kingdom": 7,
       "Brazil": 5,
       "Unknown": 4,
       "France": 4,
@@ -3576,9 +3576,9 @@
       "direwolf": 8,
       "Panzer": 6,
       "medusalocker": 5,
+      "xpl0itrs": 4,
       "lockbit5": 4,
       "aurora": 3,
-      "xpl0itrs": 3,
       "coinbasecartel": 3,
       "Global Secret Group": 2,
       "blackwater": 2,
@@ -3587,6 +3587,7 @@
       "bravox": 1,
       "emperador": 1,
       "Helix": 1,
+      "incransom": 1,
       "Orova": 1,
       "ms13089": 1,
       "spacebears": 1,
@@ -3599,18 +3600,16 @@
       "clop": 1,
       "m3rx": 1,
       "shinyhunters": 1,
-      "Eclipse": 1,
-      "SilentRansomGroup": 1,
-      "incransom": 1
+      "Eclipse": 1
     },
     "by_sector": {
       "Manufacturing": 17,
       "Technology": 15,
       "Not Found": 14,
       "Retail & E-Commerce": 12,
-      "Professional Services": 11,
+      "Professional Services": 10,
       "Agriculture and Food Production": 6,
-      "Healthcare": 5,
+      "Healthcare": 6,
       "Other": 5,
       "Education": 4,
       "Government & Defense": 3,
