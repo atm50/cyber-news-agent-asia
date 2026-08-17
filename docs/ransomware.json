@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T14:28:36.865217+00:00",
+  "last_updated_utc": "2026-08-17T15:26:43.122735+00:00",
   "victims": [
+    {
+      "victim": "Doimo Cucine",
+      "group": "Panzer",
+      "country": "Italy",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-17T10:51:42.365350+00:00",
+      "attack_date": "2026-08-17T10:49:28+00:00",
+      "website": "",
+      "description": "Doimo Cucine specializes in modern, customizable designer kitchens that blend beauty and harmony. The company emphasizes a holistic approach to kitchen design, offering a versatile system called All-arounD for creating personalized spaces. With a commitment to quality and innovation, all production ",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/doimo-cucine",
+      "monitored": false
+    },
     {
       "victim": "Vermont XCenter",
       "group": "dragonforce",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "gfeller-treuhand.ch zoominfo.com/c/gfeller-treuhand-und-verwaltungs-ag/372661395 Gfeller Treuhand und Verwaltungs AG is a Swiss real estate and fiduciary company based in Dübendorf, operating since 1980. They specialize in comprehensive property management, real estate sales, and leasing services. T",
       "claim_url": "https://www.ransomware.live/id/R2ZlbGxlciBUcmV1aGFuZCB1bmQgVmVyd2FsdHVuZ3NAdGhlZ2VudGxlbWVu",
-      "monitored": false
-    },
-    {
-      "victim": "IPS",
-      "group": "thegentlemen",
-      "country": "Italy",
-      "sector": "Not Found",
-      "discovered": "2026-08-14T05:59:54.001681+00:00",
-      "attack_date": "2026-08-13T11:40:34+00:00",
-      "website": "",
-      "description": "ipssrl.com zoominfo.com/c/ips-srl/372710487 I.P.S. Srl is an Italian company founded in 2005 that specializes in the recovery and recycling of inert waste from construction and demolition activities. They provide environmental services, supply recycled aggregates, and manufacture \"Wastile,\" a 100% e",
-      "claim_url": "https://www.ransomware.live/id/SVBTQHRoZWdlbnRsZW1lbg==",
       "monitored": false
     }
   ],
@@ -3571,12 +3571,12 @@
     },
     "by_group": {
       "qilin": 28,
-      "thegentlemen": 18,
+      "thegentlemen": 17,
       "medusalocker": 5,
+      "Panzer": 4,
       "lockbit5": 4,
       "direwolf": 4,
       "coinbasecartel": 4,
-      "Panzer": 3,
       "xpl0itrs": 3,
       "blackwater": 2,
       "rhysida": 2,
@@ -3605,8 +3605,8 @@
       "payload": 1
     },
     "by_sector": {
-      "Not Found": 16,
-      "Manufacturing": 15,
+      "Manufacturing": 16,
+      "Not Found": 15,
       "Technology": 13,
       "Professional Services": 13,
       "Retail & E-Commerce": 10,
