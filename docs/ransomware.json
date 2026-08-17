@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T15:26:43.122735+00:00",
+  "last_updated_utc": "2026-08-17T16:27:54.180283+00:00",
   "victims": [
+    {
+      "victim": "Castilla La Mancha",
+      "group": "Panzer",
+      "country": "Spain",
+      "sector": "Government & Defense",
+      "discovered": "2026-08-17T11:52:02.337254+00:00",
+      "attack_date": "2026-08-17T11:03:56+00:00",
+      "website": "",
+      "description": "The Government of Castilla-La Mancha provides a wide range of services and information related to public administration, economy, education, health, and social services. It aims to support various sectors including agriculture, tourism, and employment, while also addressing issues like sustainabilit",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/castilla-la-mancha",
+      "monitored": false
+    },
     {
       "victim": "Doimo Cucine",
       "group": "Panzer",
@@ -1188,18 +1200,6 @@
       "description": "Yaomasa is a Japanese supermarket chain founded in 1919 that offers fresh foods, general groceries, and daily necessities, while also operating TSUTAYA and BOOKOFF franchise stores as part of its cultural division.",
       "claim_url": "https://www.ransomware.live/id/WWFvbWFzYUBBaUxvY2s=",
       "monitored": true
-    },
-    {
-      "victim": "Gfeller Treuhand und Verwaltungs",
-      "group": "thegentlemen",
-      "country": "Switzerland",
-      "sector": "Professional Services",
-      "discovered": "2026-08-14T05:59:33.064269+00:00",
-      "attack_date": "2026-08-13T11:41:37+00:00",
-      "website": "",
-      "description": "gfeller-treuhand.ch zoominfo.com/c/gfeller-treuhand-und-verwaltungs-ag/372661395 Gfeller Treuhand und Verwaltungs AG is a Swiss real estate and fiduciary company based in Dübendorf, operating since 1980. They specialize in comprehensive property management, real estate sales, and leasing services. T",
-      "claim_url": "https://www.ransomware.live/id/R2ZlbGxlciBUcmV1aGFuZCB1bmQgVmVyd2FsdHVuZ3NAdGhlZ2VudGxlbWVu",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3536,7 +3536,7 @@
     "total_victims": 100,
     "monitored_victims": 69,
     "unique_groups": 33,
-    "unique_countries": 30,
+    "unique_countries": 29,
     "by_country": {
       "United States": 25,
       "Germany": 9,
@@ -3547,13 +3547,13 @@
       "Unknown": 4,
       "France": 4,
       "Australia": 4,
+      "Spain": 3,
       "CL": 2,
       "Canada": 2,
       "Malaysia": 2,
       "Belgium": 2,
       "Mexico": 2,
       "India": 2,
-      "Spain": 2,
       "Singapore": 2,
       "AL": 1,
       "CZ": 1,
@@ -3566,14 +3566,13 @@
       "Netherlands": 1,
       "GR": 1,
       "MA": 1,
-      "JO": 1,
-      "Switzerland": 1
+      "JO": 1
     },
     "by_group": {
       "qilin": 28,
-      "thegentlemen": 17,
+      "thegentlemen": 16,
+      "Panzer": 5,
       "medusalocker": 5,
-      "Panzer": 4,
       "lockbit5": 4,
       "direwolf": 4,
       "coinbasecartel": 4,
@@ -3608,16 +3607,16 @@
       "Manufacturing": 16,
       "Not Found": 15,
       "Technology": 13,
-      "Professional Services": 13,
+      "Professional Services": 12,
       "Retail & E-Commerce": 10,
       "Agriculture and Food Production": 6,
       "Healthcare": 6,
       "Other": 6,
       "Financial Services": 4,
+      "Government & Defense": 3,
       "Education": 3,
       "Transportation": 3,
-      "Hospitality": 3,
-      "Government & Defense": 2
+      "Hospitality": 3
     }
   },
   "errors": []
