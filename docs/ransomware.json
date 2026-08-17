@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-17T12:43:30.918810+00:00",
+  "last_updated_utc": "2026-08-17T13:39:45.042997+00:00",
   "victims": [
+    {
+      "victim": "Vermont XCenter",
+      "group": "dragonforce",
+      "country": "Brazil",
+      "sector": "Not Found",
+      "discovered": "2026-08-17T09:24:54.771469+00:00",
+      "attack_date": "2026-08-17T09:10:25.143955+00:00",
+      "website": "",
+      "description": "A Vermont coloca seus clientes estrategicamente no Centro das Decisões, pois entende que o cliente deve estar no Centro das Atenções. Com isso estabelecido, a companhia acredita que é mais simples interpretar o mercado a partir dos desejos e perspectivas do mesmo. Vermont XCenter: Centro de interAçõ",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=50670edf-f2a0-45b3-ae78-bfbc7f5e951d",
+      "monitored": true
+    },
     {
       "victim": "Moores",
       "group": "bravox",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "This Company data was published due to them hiring a very incompetent and unskilled negotiator. If you choose incompetency to negotiate for you, that is on you. We will be publishing companies data who are negotiating with us, without a warning if negotiators continue to take us as misinformed indiv",
       "claim_url": "https://www.ransomware.live/id/U2hhcmVjYXJlLCBJbmMuQHNoaW55aHVudGVycw==",
-      "monitored": true
-    },
-    {
-      "victim": "Carhartt, Inc.",
-      "group": "shinyhunters",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-14T05:59:51.053060+00:00",
-      "attack_date": "2026-08-13T11:10:00+00:00",
-      "website": "",
-      "description": "Our demand for this Company was $3.3 million. The Company reached out. However, The Company did not try to negotiate. If The Company attempted to negotiate with us The Company would've ended up saving a good chunk of money. Instead they decided to do (see blow); this is also because The Company hire",
-      "claim_url": "https://www.ransomware.live/id/Q2FyaGFydHQsIEluYy5Ac2hpbnlodW50ZXJz",
       "monitored": true
     }
   ],
@@ -3535,18 +3535,18 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 69,
-    "unique_groups": 31,
+    "unique_groups": 32,
     "unique_countries": 30,
     "by_country": {
-      "United States": 27,
+      "United States": 26,
       "Germany": 9,
       "Italy": 8,
       "United Kingdom": 6,
+      "Brazil": 5,
       "Japan": 5,
       "Unknown": 4,
       "France": 4,
       "Australia": 4,
-      "Brazil": 4,
       "CL": 2,
       "Canada": 2,
       "Malaysia": 2,
@@ -3578,13 +3578,14 @@
       "coinbasecartel": 4,
       "Panzer": 3,
       "xpl0itrs": 3,
-      "shinyhunters": 3,
       "blackwater": 2,
       "rhysida": 2,
+      "shinyhunters": 2,
       "akira": 2,
       "incransom": 2,
       "Storm": 2,
       "AiLock": 2,
+      "dragonforce": 1,
       "bravox": 1,
       "emperador": 1,
       "Helix": 1,
@@ -3603,11 +3604,11 @@
       "payload": 1
     },
     "by_sector": {
-      "Not Found": 15,
+      "Not Found": 16,
       "Manufacturing": 14,
       "Technology": 13,
       "Professional Services": 13,
-      "Retail & E-Commerce": 11,
+      "Retail & E-Commerce": 10,
       "Healthcare": 7,
       "Agriculture and Food Production": 6,
       "Other": 6,
