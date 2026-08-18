@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-18T14:34:47.895393+00:00",
+  "last_updated_utc": "2026-08-18T15:32:26.394202+00:00",
   "victims": [
+    {
+      "victim": "BOMOHSA",
+      "group": "gunra",
+      "country": "HN",
+      "sector": "Not Found",
+      "discovered": "2026-08-18T10:55:52.812229+00:00",
+      "attack_date": "2026-08-18T10:55:51.919883+00:00",
+      "website": "",
+      "description": "Sector: Service Contractor | Revenue: US$ 20,000,000",
+      "claim_url": "https://www.ransomware.live/id/Qk9NT0hTQUBndW5yYQ==",
+      "monitored": false
+    },
     {
       "victim": "nyklawfirm.com nyk.ae",
       "group": "incransom",
@@ -1188,18 +1200,6 @@
       "description": "vtt.com.br zoominfo.com/c/vtt/372441609 VTT is a pioneering Brazilian technology company founded in 1996 that specializes in Digital Signage and Retail Media solutions. As a leading provider in Latin America, the company delivers innovative digital displays, menu boards, and interactive customer exp",
       "claim_url": "https://www.ransomware.live/id/VmVjdG9yIFR3byBUZWNobm9sb2d5QHRoZWdlbnRsZW1lbg==",
       "monitored": true
-    },
-    {
-      "victim": "Acli",
-      "group": "thegentlemen",
-      "country": "Italy",
-      "sector": "Not Found",
-      "discovered": "2026-08-14T05:54:25.983951+00:00",
-      "attack_date": "2026-08-14T05:23:02+00:00",
-      "website": "",
-      "description": "acli.it zoominfo.com/c/acli/372618594 ACLI (Christian Associations of Italian Workers) is a major Italian Catholic social promotion organization founded in 1944 to advocate for labor rights and human dignity. Operating a vast network of local clubs, the association provides essential community servi",
-      "claim_url": "https://www.ransomware.live/id/QWNsaUB0aGVnZW50bGVtZW4=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3535,13 +3535,13 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 71,
-    "unique_groups": 31,
-    "unique_countries": 32,
+    "unique_groups": 32,
+    "unique_countries": 33,
     "by_country": {
       "United States": 29,
       "Germany": 12,
-      "Italy": 7,
       "United Kingdom": 6,
+      "Italy": 6,
       "Brazil": 5,
       "Unknown": 4,
       "Australia": 4,
@@ -3551,6 +3551,7 @@
       "CL": 2,
       "Belgium": 2,
       "India": 2,
+      "HN": 1,
       "United Arab Emirates": 1,
       "MU": 1,
       "Russia": 1,
@@ -3587,7 +3588,7 @@
       "Global Secret Group": 2,
       "blackwater": 2,
       "coinbasecartel": 2,
-      "thegentlemen": 2,
+      "gunra": 1,
       "AuditTeam": 1,
       "dragonforce": 1,
       "bravox": 1,
@@ -3602,13 +3603,14 @@
       "rhysida": 1,
       "clop": 1,
       "m3rx": 1,
-      "shinyhunters": 1
+      "shinyhunters": 1,
+      "thegentlemen": 1
     },
     "by_sector": {
       "Manufacturing": 17,
       "Technology": 15,
-      "Professional Services": 12,
       "Not Found": 12,
+      "Professional Services": 12,
       "Retail & E-Commerce": 9,
       "Healthcare": 6,
       "Government & Defense": 5,
