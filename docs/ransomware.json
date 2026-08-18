@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-18T21:25:15.088789+00:00",
+  "last_updated_utc": "2026-08-18T22:23:58.029542+00:00",
   "victims": [
+    {
+      "victim": "R & D Machine and Engineering",
+      "group": "dragonforce",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-18T17:55:14.757531+00:00",
+      "attack_date": "2026-08-18T17:38:29.559308+00:00",
+      "website": "",
+      "description": "&D Machine and Engineering, LLC specializes in CNC machining of precision metal components primarily for the aerospace, defense, and space industries. The company is known for its ability to maintain tight tolerances and produce complex geometries using advanced 5-axis milling and coordinate measuri",
+      "claim_url": "http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=9351fab2-40b4-47c9-bf96-a00af22ab27a",
+      "monitored": true
+    },
+    {
+      "victim": "Coltrane Systems",
+      "group": "play",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-18T17:31:54.387648+00:00",
+      "attack_date": "2026-08-18T17:31:37.655687+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=8hJaqxt2rAbAA5",
+      "monitored": true
+    },
     {
       "victim": "BOMOHSA",
       "group": "gunra",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1fc225ea-e524-4f35-9a18-dfb1e1a6cefc",
-      "monitored": true
-    },
-    {
-      "victim": "Urban Worldwide",
-      "group": "qilin",
-      "country": "Netherlands",
-      "sector": "Other",
-      "discovered": "2026-08-14T08:31:03.917214+00:00",
-      "attack_date": "2026-08-14T08:30:27.540299+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=72327559-ff5b-4769-99b2-5c59365f99f3",
-      "monitored": false
-    },
-    {
-      "victim": "tecnoabi.com",
-      "group": "m3rx",
-      "country": "Brazil",
-      "sector": "Technology",
-      "discovered": "2026-08-14T07:56:05.374736+00:00",
-      "attack_date": "2026-08-14T07:55:35.541080+00:00",
-      "website": "",
-      "description": "Tecnologías de Código Abierto S.L., trading as Tecnoabi, is a Málaga, Spain-based B2B software development firm registered in 2008 that specializes in Java, .NET, and proprietary solutions such as VirtRoom and CMMS software. Located in Málaga TechPark, the company maintains extensive expertise in af",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#tecnoabi.com",
       "monitored": true
     }
   ],
@@ -3534,18 +3534,18 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
-    "unique_groups": 32,
-    "unique_countries": 34,
+    "monitored_victims": 70,
+    "unique_groups": 31,
+    "unique_countries": 33,
     "by_country": {
-      "United States": 28,
+      "United States": 30,
       "Germany": 12,
       "United Kingdom": 6,
       "Italy": 6,
       "Unknown": 5,
-      "Brazil": 4,
       "Australia": 4,
       "France": 4,
+      "Brazil": 3,
       "Malaysia": 2,
       "Spain": 2,
       "CL": 2,
@@ -3570,11 +3570,10 @@
       "AR": 1,
       "Singapore": 1,
       "Austria": 1,
-      "Denmark": 1,
-      "Netherlands": 1
+      "Denmark": 1
     },
     "by_group": {
-      "qilin": 28,
+      "qilin": 27,
       "direwolf": 8,
       "incransom": 6,
       "Panzer": 6,
@@ -3582,10 +3581,11 @@
       "lockbit5": 5,
       "medusalocker": 5,
       "xpl0itrs": 4,
+      "play": 3,
       "aurora": 3,
+      "dragonforce": 2,
       "emperador": 2,
       "anubis": 2,
-      "play": 2,
       "Global Secret Group": 2,
       "blackwater": 2,
       "coinbasecartel": 2,
@@ -3593,7 +3593,6 @@
       "akira": 1,
       "shinyhunters": 1,
       "AuditTeam": 1,
-      "dragonforce": 1,
       "bravox": 1,
       "Helix": 1,
       "Orova": 1,
@@ -3604,11 +3603,10 @@
       "safepay": 1,
       "interlock": 1,
       "rhysida": 1,
-      "clop": 1,
-      "m3rx": 1
+      "clop": 1
     },
     "by_sector": {
-      "Manufacturing": 17,
+      "Manufacturing": 18,
       "Technology": 15,
       "Not Found": 13,
       "Professional Services": 12,
@@ -3616,8 +3614,8 @@
       "Government & Defense": 5,
       "Financial Services": 5,
       "Education": 5,
-      "Other": 5,
       "Healthcare": 5,
+      "Other": 4,
       "Agriculture and Food Production": 4,
       "Transportation": 3,
       "Energy & Utilities": 1,
