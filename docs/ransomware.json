@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-18T18:38:58.137552+00:00",
+  "last_updated_utc": "2026-08-18T19:28:30.231061+00:00",
   "victims": [
     {
       "victim": "BOMOHSA",
@@ -71,6 +71,18 @@
       "website": "",
       "description": "SpearFin Ltd\r https://spearfin.net\r SpearFin offers a wide range of services including fund administration, corporate services, compliance support, and investor relations. \r Assets Under Administration US$10 billion.\r \r The leak occurred on June 26, 2026.\r Total leak: 416 GB \r \r Leak included: NDA, ",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a84277a9cd108bf265a45d9",
+      "monitored": false
+    },
+    {
+      "victim": "Borchert & LaSpina",
+      "group": "akira",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-18T14:52:33.805183+00:00",
+      "attack_date": "2026-08-18T00:00:00+00:00",
+      "website": "",
+      "description": "Borchert & LaSpina, P.C. is a respected law firm located in Queens, New York, with a team of si\nx experienced attorneys specializing in various areas of law including real estate, mortgage fo\nreclosure, commercial litigation, personal injury, and elder law.\n\nWe will upload corporate data soon. Clien",
+      "claim_url": "https://www.ransomware.live/id/Qm9yY2hlcnQgJiBMYVNwaW5hQGFraXJh",
       "monitored": false
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Tecnologías de Código Abierto S.L., trading as Tecnoabi, is a Málaga, Spain-based B2B software development firm registered in 2008 that specializes in Java, .NET, and proprietary solutions such as VirtRoom and CMMS software. Located in Málaga TechPark, the company maintains extensive expertise in af",
       "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#tecnoabi.com",
-      "monitored": true
-    },
-    {
-      "victim": "Baxter International, Inc.",
-      "group": "shinyhunters",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-14T05:59:11.749415+00:00",
-      "attack_date": "2026-08-14T05:59:10.309266+00:00",
-      "website": "",
-      "description": "Over 7.1M Salesforce records containing some PII was compromised. This is a final warning to reach out by 17 Aug 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 14 Aug 2026 | Warning: FINAL WARN",
-      "claim_url": "https://www.ransomware.live/id/QmF4dGVyIEludGVybmF0aW9uYWwsIEluYy5Ac2hpbnlodW50ZXJz",
       "monitored": true
     }
   ],
@@ -3534,16 +3534,16 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 70,
-    "unique_groups": 31,
+    "monitored_victims": 69,
+    "unique_groups": 32,
     "unique_countries": 34,
     "by_country": {
-      "United States": 29,
+      "United States": 28,
       "Germany": 12,
       "United Kingdom": 6,
       "Italy": 6,
+      "Unknown": 5,
       "Brazil": 4,
-      "Unknown": 4,
       "Australia": 4,
       "France": 4,
       "Malaysia": 2,
@@ -3585,12 +3585,13 @@
       "aurora": 3,
       "emperador": 2,
       "anubis": 2,
-      "shinyhunters": 2,
       "play": 2,
       "Global Secret Group": 2,
       "blackwater": 2,
       "coinbasecartel": 2,
       "gunra": 1,
+      "akira": 1,
+      "shinyhunters": 1,
       "AuditTeam": 1,
       "dragonforce": 1,
       "bravox": 1,
@@ -3609,14 +3610,14 @@
     "by_sector": {
       "Manufacturing": 17,
       "Technology": 15,
-      "Not Found": 12,
+      "Not Found": 13,
       "Professional Services": 12,
       "Retail & E-Commerce": 9,
-      "Healthcare": 6,
       "Government & Defense": 5,
       "Financial Services": 5,
       "Education": 5,
       "Other": 5,
+      "Healthcare": 5,
       "Agriculture and Food Production": 4,
       "Transportation": 3,
       "Energy & Utilities": 1,
