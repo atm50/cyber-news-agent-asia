@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-17T23:22:48.332927+00:00",
+  "last_updated_utc": "2026-08-18T01:12:57.134756+00:00",
   "victims": [
+    {
+      "victim": "Bridgeport Capital Services",
+      "group": "play",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-08-17T20:27:30.737981+00:00",
+      "attack_date": "2026-08-17T20:27:14.657170+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=1XoenhPNyc7kvl",
+      "monitored": true
+    },
+    {
+      "victim": "Sam Pack Auto Group",
+      "group": "play",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-17T20:26:56.479395+00:00",
+      "attack_date": "2026-08-17T20:26:40.639155+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=QFRJmq96JT1fJm",
+      "monitored": true
+    },
     {
       "victim": "BMW Group",
       "group": "xpl0itrs",
@@ -1176,30 +1200,6 @@
       "description": "Key Oil Company is the largest distributor of branded motor fuels for Marathon Petroleum Compan\ny and also holds contracts with major brands like ExxonMobil and ConocoPhillips. They provide a\nwide range of products including lubricants, diesel exhaust fluid, antifreeze, and various fue\nl delivery so",
       "claim_url": "https://www.ransomware.live/id/S2V5c3RvcHNAYWtpcmE=",
       "monitored": true
-    },
-    {
-      "victim": "Cozad Asset Management",
-      "group": "akira",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-14T13:51:46.098009+00:00",
-      "attack_date": "2026-08-14T00:00:00+00:00",
-      "website": "",
-      "description": "Cozad Asset Management, Inc. provides the highest quality professional and personalized financi\nal services and advice to individuals, families and institutional investors throughout the coun\ntry.\n\nWe will upload 13gb corporate data soon. Employee personal information (passport, DLs, SSN), fi\nnancia",
-      "claim_url": "https://www.ransomware.live/id/Q296YWQgQXNzZXQgTWFuYWdlbWVudEBha2lyYQ==",
-      "monitored": true
-    },
-    {
-      "victim": "Aletex Group",
-      "group": "qilin",
-      "country": "Spain",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-14T10:28:23.621645+00:00",
-      "attack_date": "2026-08-14T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=26737f12-4b99-468b-8106-1127bd7f98a5",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3534,11 +3534,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 68,
-    "unique_groups": 30,
+    "monitored_victims": 69,
+    "unique_groups": 31,
     "unique_countries": 31,
     "by_country": {
-      "United States": 28,
+      "United States": 29,
       "Germany": 9,
       "Italy": 8,
       "United Kingdom": 7,
@@ -3546,7 +3546,7 @@
       "Unknown": 4,
       "France": 4,
       "Australia": 3,
-      "Spain": 3,
+      "Spain": 2,
       "CL": 2,
       "Malaysia": 2,
       "Japan": 2,
@@ -3571,7 +3571,7 @@
       "MA": 1
     },
     "by_group": {
-      "qilin": 27,
+      "qilin": 26,
       "thegentlemen": 16,
       "direwolf": 8,
       "Panzer": 6,
@@ -3580,9 +3580,9 @@
       "lockbit5": 4,
       "aurora": 3,
       "coinbasecartel": 3,
+      "play": 2,
       "Global Secret Group": 2,
       "blackwater": 2,
-      "akira": 2,
       "dragonforce": 1,
       "bravox": 1,
       "emperador": 1,
@@ -3600,21 +3600,22 @@
       "clop": 1,
       "m3rx": 1,
       "shinyhunters": 1,
-      "Eclipse": 1
+      "Eclipse": 1,
+      "akira": 1
     },
     "by_sector": {
-      "Manufacturing": 17,
+      "Manufacturing": 16,
       "Technology": 15,
       "Not Found": 14,
-      "Retail & E-Commerce": 12,
+      "Retail & E-Commerce": 13,
       "Professional Services": 10,
       "Agriculture and Food Production": 6,
       "Healthcare": 6,
       "Other": 5,
       "Education": 4,
+      "Financial Services": 3,
       "Government & Defense": 3,
       "Transportation": 3,
-      "Financial Services": 3,
       "Hospitality": 2
     }
   },
