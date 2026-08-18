@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-18T22:23:58.029542+00:00",
+  "last_updated_utc": "2026-08-18T23:22:26.367817+00:00",
   "victims": [
+    {
+      "victim": "T... P... L...",
+      "group": "SilentRansomGroup",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-18T18:52:28.671905+00:00",
+      "attack_date": "2026-08-18T18:51:41.692311+00:00",
+      "website": "",
+      "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
+      "claim_url": "https://business-data-leaks.com/about#c60495e8cb28f363781648534",
+      "monitored": false
+    },
     {
       "victim": "R & D Machine and Engineering",
       "group": "dragonforce",
@@ -1188,18 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=c80def38-53a7-49d1-9727-54c3a576330c",
       "monitored": false
-    },
-    {
-      "victim": "PenLink",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Government & Defense",
-      "discovered": "2026-08-14T08:31:42.514677+00:00",
-      "attack_date": "2026-08-14T08:31:23.194807+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1fc225ea-e524-4f35-9a18-dfb1e1a6cefc",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3534,15 +3534,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 70,
-    "unique_groups": 31,
+    "monitored_victims": 69,
+    "unique_groups": 32,
     "unique_countries": 33,
     "by_country": {
-      "United States": 30,
+      "United States": 29,
       "Germany": 12,
+      "Unknown": 6,
       "United Kingdom": 6,
       "Italy": 6,
-      "Unknown": 5,
       "Australia": 4,
       "France": 4,
       "Brazil": 3,
@@ -3573,7 +3573,7 @@
       "Denmark": 1
     },
     "by_group": {
-      "qilin": 27,
+      "qilin": 26,
       "direwolf": 8,
       "incransom": 6,
       "Panzer": 6,
@@ -3589,6 +3589,7 @@
       "Global Secret Group": 2,
       "blackwater": 2,
       "coinbasecartel": 2,
+      "SilentRansomGroup": 1,
       "gunra": 1,
       "akira": 1,
       "shinyhunters": 1,
@@ -3608,13 +3609,13 @@
     "by_sector": {
       "Manufacturing": 18,
       "Technology": 15,
-      "Not Found": 13,
+      "Not Found": 14,
       "Professional Services": 12,
       "Retail & E-Commerce": 9,
-      "Government & Defense": 5,
       "Financial Services": 5,
       "Education": 5,
       "Healthcare": 5,
+      "Government & Defense": 4,
       "Other": 4,
       "Agriculture and Food Production": 4,
       "Transportation": 3,
