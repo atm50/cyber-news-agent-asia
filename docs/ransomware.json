@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-18T23:22:26.367817+00:00",
+  "last_updated_utc": "2026-08-19T01:14:03.817791+00:00",
   "victims": [
     {
       "victim": "T... P... L...",
@@ -108,6 +108,18 @@
       "description": "SpearFin Ltd\r https://spearfin.net\r SpearFin offers a wide range of services including fund administration, corporate services, compliance support, and investor relations. \r Assets Under Administration US$10 billion.\r \r The leak occurred on June 26, 2026.\r Total leak: 416 GB \r \r Leak included: NDA, ",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a84277a9cd108bf265a45d9",
       "monitored": false
+    },
+    {
+      "victim": "ADL Embedded Solutions",
+      "group": "securotrop",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-18T20:02:25.447215+00:00",
+      "attack_date": "2026-08-18T00:00:00+00:00",
+      "website": "",
+      "description": "Status: AWAITING\nSize: 925 GB",
+      "claim_url": "http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion",
+      "monitored": true
     },
     {
       "victim": "Borchert & LaSpina",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=0a89537d-3153-43ab-818b-ea2994bb5459",
-      "monitored": false
-    },
-    {
-      "victim": "3f",
-      "group": "qilin",
-      "country": "Denmark",
-      "sector": "Not Found",
-      "discovered": "2026-08-14T08:32:37.632296+00:00",
-      "attack_date": "2026-08-14T08:32:01.683152+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=c80def38-53a7-49d1-9727-54c3a576330c",
       "monitored": false
     }
   ],
@@ -3534,11 +3534,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
+    "monitored_victims": 70,
     "unique_groups": 32,
-    "unique_countries": 33,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 29,
+      "United States": 30,
       "Germany": 12,
       "Unknown": 6,
       "United Kingdom": 6,
@@ -3569,11 +3569,10 @@
       "Mexico": 1,
       "AR": 1,
       "Singapore": 1,
-      "Austria": 1,
-      "Denmark": 1
+      "Austria": 1
     },
     "by_group": {
-      "qilin": 26,
+      "qilin": 25,
       "direwolf": 8,
       "incransom": 6,
       "Panzer": 6,
@@ -3586,6 +3585,7 @@
       "dragonforce": 2,
       "emperador": 2,
       "anubis": 2,
+      "securotrop": 2,
       "Global Secret Group": 2,
       "blackwater": 2,
       "coinbasecartel": 2,
@@ -3600,16 +3600,15 @@
       "ms13089": 1,
       "spacebears": 1,
       "Barracuda": 1,
-      "securotrop": 1,
       "safepay": 1,
       "interlock": 1,
       "rhysida": 1,
       "clop": 1
     },
     "by_sector": {
-      "Manufacturing": 18,
+      "Manufacturing": 19,
       "Technology": 15,
-      "Not Found": 14,
+      "Not Found": 13,
       "Professional Services": 12,
       "Retail & E-Commerce": 9,
       "Financial Services": 5,
