@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-19T14:34:56.558014+00:00",
+  "last_updated_utc": "2026-08-19T15:31:57.384017+00:00",
   "victims": [
+    {
+      "victim": "Medochemie",
+      "group": "qilin",
+      "country": "CY",
+      "sector": "Healthcare",
+      "discovered": "2026-08-19T11:01:27.077374+00:00",
+      "attack_date": "2026-08-19T11:00:51.366158+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=36ee3678-0869-4855-84d6-6c24da6b0595",
+      "monitored": false
+    },
+    {
+      "victim": "Smart Energies",
+      "group": "qilin",
+      "country": "Germany",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-08-19T11:00:32.349655+00:00",
+      "attack_date": "2026-08-19T11:00:11.771766+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=cf78de2d-e2cc-4ec1-9100-42954ad8060f",
+      "monitored": true
+    },
     {
       "victim": "Integraduanas",
       "group": "qilin",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Alpine Electronics Europe specializes in the distribution of automotive electronics and audio products. The company offers a range of products and support services tailored for various European markets. Their intended clients include automotive manufacturers and consumers seeking high-quality audio ",
       "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/alpine-electronics-europe",
-      "monitored": true
-    },
-    {
-      "victim": "Jone Précision",
-      "group": "qilin",
-      "country": "France",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-16T09:32:36.197046+00:00",
-      "attack_date": "2026-08-15T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=40c19069-fd91-4f43-846b-71806c93607a",
-      "monitored": true
-    },
-    {
-      "victim": "DELTA WAYS",
-      "group": "qilin",
-      "country": "Germany",
-      "sector": "Transportation",
-      "discovered": "2026-08-16T09:30:40.960671+00:00",
-      "attack_date": "2026-08-15T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=36fd56c5-beb5-4603-a83d-e57f7033a1c5",
       "monitored": true
     }
   ],
@@ -3534,9 +3534,9 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 68,
+    "monitored_victims": 67,
     "unique_groups": 29,
-    "unique_countries": 30,
+    "unique_countries": 31,
     "by_country": {
       "United States": 29,
       "Germany": 11,
@@ -3544,14 +3544,15 @@
       "Italy": 7,
       "United Kingdom": 6,
       "Australia": 4,
-      "France": 4,
       "Sweden": 3,
       "Brazil": 3,
+      "France": 3,
       "Mexico": 2,
       "South Africa": 2,
       "Canada": 2,
       "Malaysia": 2,
       "CL": 2,
+      "CY": 1,
       "UY": 1,
       "HN": 1,
       "United Arab Emirates": 1,
@@ -3602,18 +3603,18 @@
     },
     "by_sector": {
       "Technology": 17,
-      "Manufacturing": 16,
+      "Manufacturing": 15,
       "Not Found": 13,
       "Professional Services": 12,
+      "Healthcare": 8,
       "Retail & E-Commerce": 8,
-      "Healthcare": 7,
       "Financial Services": 7,
       "Education": 5,
       "Government & Defense": 4,
-      "Transportation": 4,
+      "Transportation": 3,
       "Other": 3,
+      "Energy & Utilities": 2,
       "Agriculture and Food Production": 2,
-      "Energy & Utilities": 1,
       "Hospitality": 1
     }
   },
