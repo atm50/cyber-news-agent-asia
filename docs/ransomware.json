@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-19T16:32:22.708887+00:00",
+  "last_updated_utc": "2026-08-19T17:27:17.823495+00:00",
   "victims": [
+    {
+      "victim": "Thrifty Building Supply",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-19T12:29:26.900154+00:00",
+      "attack_date": "2026-08-19T12:29:07.654870+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=f9c78af5-da6e-409e-8916-f40601f00a99",
+      "monitored": true
+    },
     {
       "victim": "Estech",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "School management software",
       "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/apj39fjogm3w90vmxmq3ct3t0mx209/",
       "monitored": false
-    },
-    {
-      "victim": "RapidFort",
-      "group": "xpl0itrs",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-08-15T21:42:27.744077+00:00",
-      "attack_date": "2026-08-15T21:42:10.706660+00:00",
-      "website": "",
-      "description": "Software supply chain security",
-      "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/rapidfort/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3573,7 +3573,7 @@
       "Taiwan": 1
     },
     "by_group": {
-      "qilin": 27,
+      "qilin": 28,
       "direwolf": 8,
       "Storm": 7,
       "incransom": 6,
@@ -3582,8 +3582,8 @@
       "lockbit5": 5,
       "medusalocker": 5,
       "krybit": 4,
-      "xpl0itrs": 4,
       "play": 3,
+      "xpl0itrs": 3,
       "aurora": 3,
       "SilentRansomGroup": 2,
       "dragonforce": 2,
@@ -3601,11 +3601,11 @@
       "Orova": 1
     },
     "by_sector": {
-      "Technology": 19,
+      "Technology": 18,
       "Manufacturing": 17,
       "Not Found": 13,
+      "Retail & E-Commerce": 9,
       "Professional Services": 9,
-      "Retail & E-Commerce": 8,
       "Financial Services": 8,
       "Healthcare": 5,
       "Education": 5,
