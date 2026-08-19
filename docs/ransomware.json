@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-19T12:46:31.755093+00:00",
+  "last_updated_utc": "2026-08-19T13:44:22.944796+00:00",
   "victims": [
+    {
+      "victim": "Integraduanas",
+      "group": "qilin",
+      "country": "UY",
+      "sector": "Not Found",
+      "discovered": "2026-08-19T09:31:14.402113+00:00",
+      "attack_date": "2026-08-19T09:30:28.479935+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=49409db9-7118-45f9-a6c4-fcc563bd51b7",
+      "monitored": false
+    },
     {
       "victim": "mecasem.org",
       "group": "threeam",
@@ -996,18 +1008,6 @@
       "description": "Lansing Urgent Care provides a range of urgent care services for both adults and children, including on-site medications, lab tests, and X-rays. Their facilities are designed for quick visits, with an average wait time of under one hour, and they offer telemedicine options for added convenience. The",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a834cdb9cd108bf263e89dd",
       "monitored": true
-    },
-    {
-      "victim": "WEBA Meubelen",
-      "group": "qilin",
-      "country": "Belgium",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-16T15:58:24.837014+00:00",
-      "attack_date": "2026-08-16T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=66e54324-f0ab-4773-9d5e-ebbeb662fa59",
-      "monitored": false
     },
     {
       "victim": "Smartsoft",
@@ -3552,6 +3552,7 @@
       "Canada": 2,
       "Malaysia": 2,
       "CL": 2,
+      "UY": 1,
       "HN": 1,
       "United Arab Emirates": 1,
       "MU": 1,
@@ -3564,7 +3565,6 @@
       "CZ": 1,
       "Philippines": 1,
       "Japan": 1,
-      "Belgium": 1,
       "Taiwan": 1,
       "India": 1,
       "AR": 1
@@ -3603,9 +3603,9 @@
     "by_sector": {
       "Technology": 17,
       "Manufacturing": 16,
-      "Not Found": 12,
+      "Not Found": 13,
       "Professional Services": 12,
-      "Retail & E-Commerce": 9,
+      "Retail & E-Commerce": 8,
       "Healthcare": 7,
       "Financial Services": 7,
       "Education": 5,
