@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-19T01:14:03.817791+00:00",
+  "last_updated_utc": "2026-08-19T02:57:48.400815+00:00",
   "victims": [
+    {
+      "victim": "Troutman Pepper Locke",
+      "group": "SilentRansomGroup",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-18T22:51:57.496742+00:00",
+      "attack_date": "2026-08-18T22:51:55.861670+00:00",
+      "website": "",
+      "description": "2nd time we attacked them in a year (first time through physical intrusion), will continue our attacks…",
+      "claim_url": "https://www.ransomware.live/id/VHJvdXRtYW4gUGVwcGVyIExvY2tlQFNpbGVudFJhbnNvbUdyb3Vw",
+      "monitored": true
+    },
     {
       "victim": "T... P... L...",
       "group": "SilentRansomGroup",
@@ -1188,18 +1200,6 @@
       "description": "Data exfiltrated included the following: Database, Project - files, CAD - files Total size: 8Tb Revenue: $5,600,000,000",
       "claim_url": "https://www.ransomware.live/id/WkVCUkEuQ09NQGNsb3A=",
       "monitored": true
-    },
-    {
-      "victim": "Lercher Werkzeugbau",
-      "group": "qilin",
-      "country": "Austria",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-14T08:33:29.118909+00:00",
-      "attack_date": "2026-08-14T08:32:56.581578+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=0a89537d-3153-43ab-818b-ea2994bb5459",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3534,11 +3534,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 70,
+    "monitored_victims": 71,
     "unique_groups": 32,
-    "unique_countries": 32,
+    "unique_countries": 31,
     "by_country": {
-      "United States": 30,
+      "United States": 31,
       "Germany": 12,
       "Unknown": 6,
       "United Kingdom": 6,
@@ -3568,11 +3568,10 @@
       "Taiwan": 1,
       "Mexico": 1,
       "AR": 1,
-      "Singapore": 1,
-      "Austria": 1
+      "Singapore": 1
     },
     "by_group": {
-      "qilin": 25,
+      "qilin": 24,
       "direwolf": 8,
       "incransom": 6,
       "Panzer": 6,
@@ -3582,6 +3581,7 @@
       "xpl0itrs": 4,
       "play": 3,
       "aurora": 3,
+      "SilentRansomGroup": 2,
       "dragonforce": 2,
       "emperador": 2,
       "anubis": 2,
@@ -3589,7 +3589,6 @@
       "Global Secret Group": 2,
       "blackwater": 2,
       "coinbasecartel": 2,
-      "SilentRansomGroup": 1,
       "gunra": 1,
       "akira": 1,
       "shinyhunters": 1,
@@ -3606,10 +3605,10 @@
       "clop": 1
     },
     "by_sector": {
-      "Manufacturing": 19,
+      "Manufacturing": 18,
       "Technology": 15,
+      "Professional Services": 13,
       "Not Found": 13,
-      "Professional Services": 12,
       "Retail & E-Commerce": 9,
       "Financial Services": 5,
       "Education": 5,
