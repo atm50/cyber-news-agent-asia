@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-20T19:31:52.413500+00:00",
+  "last_updated_utc": "2026-08-20T20:29:40.027796+00:00",
   "victims": [
+    {
+      "victim": "Frisian Flag Indonesia",
+      "group": "Panzer",
+      "country": "Indonesia",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-20T16:22:01.160769+00:00",
+      "attack_date": "2026-08-20T16:12:23+00:00",
+      "website": "",
+      "description": "Frisian Flag Indonesia specializes in high-quality dairy products, including sweetened condensed milk, UHT milk, powdered milk for families, and cheese. The company aims to provide nutritious options that support the health and well-being of families, offering products enriched with vitamins and min",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/frisian-flag-indonesia",
+      "monitored": true
+    },
     {
       "victim": "AYUDHYA TH Insurance",
       "group": "DYSPHOR1A",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Human Resources",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/92",
-      "monitored": true
-    },
-    {
-      "victim": "Mighty Kingdom",
-      "group": "direwolf",
-      "country": "Australia",
-      "sector": "Technology",
-      "discovered": "2026-08-17T14:24:29.044512+00:00",
-      "attack_date": "2026-08-17T14:21:52.578000+00:00",
-      "website": "",
-      "description": "Multimedia, Games",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/89",
       "monitored": true
     }
   ],
@@ -3542,7 +3542,7 @@
     "total_victims": 100,
     "monitored_victims": 51,
     "unique_groups": 30,
-    "unique_countries": 34,
+    "unique_countries": 33,
     "by_country": {
       "United States": 27,
       "Unknown": 12,
@@ -3552,13 +3552,13 @@
       "Thailand": 4,
       "France": 3,
       "Sweden": 3,
+      "Indonesia": 2,
       "MM": 2,
       "South Africa": 2,
       "Spain": 2,
       "Mexico": 2,
       "HK": 2,
       "Canada": 2,
-      "Indonesia": 1,
       "Philippines": 1,
       "Netherlands": 1,
       "Taiwan": 1,
@@ -3576,14 +3576,13 @@
       "Russia": 1,
       "Malaysia": 1,
       "TT": 1,
-      "South Korea": 1,
-      "Australia": 1
+      "South Korea": 1
     },
     "by_group": {
       "qilin": 17,
       "incransom": 9,
-      "direwolf": 8,
       "titan": 7,
+      "direwolf": 7,
       "thegentlemen": 6,
       "DYSPHOR1A": 5,
       "everest": 5,
@@ -3593,6 +3592,7 @@
       "Deadlock": 3,
       "xpl0itrs": 3,
       "play": 3,
+      "Panzer": 2,
       "majinahanashi": 2,
       "coinbasecartel": 2,
       "SilentRansomGroup": 2,
@@ -3608,14 +3608,13 @@
       "anubis": 1,
       "securotrop": 1,
       "shinyhunters": 1,
-      "AuditTeam": 1,
-      "Panzer": 1
+      "AuditTeam": 1
     },
     "by_sector": {
       "Manufacturing": 15,
       "Not Found": 14,
-      "Technology": 13,
       "Professional Services": 12,
+      "Technology": 12,
       "Other": 10,
       "Financial Services": 9,
       "Retail & E-Commerce": 6,
@@ -3624,7 +3623,8 @@
       "Hospitality": 4,
       "Government & Defense": 3,
       "Transportation": 3,
-      "Energy & Utilities": 2
+      "Energy & Utilities": 2,
+      "Agriculture and Food Production": 1
     }
   },
   "errors": []
