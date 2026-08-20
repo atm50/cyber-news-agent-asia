@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-20T03:49:58.906256+00:00",
+  "last_updated_utc": "2026-08-20T04:37:53.389471+00:00",
   "victims": [
+    {
+      "victim": "Target",
+      "group": "xpl0itrs",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-20T00:00:59.697641+00:00",
+      "attack_date": "2026-08-20T00:00:45.349971+00:00",
+      "website": "",
+      "description": "General merchandise retail",
+      "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/target/",
+      "monitored": true
+    },
     {
       "victim": "Semana",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=452339ce-71d9-40e3-9af4-95eb820a0be8",
-      "monitored": true
-    },
-    {
-      "victim": "Desatera Sdn Bhd",
-      "group": "qilin",
-      "country": "Malaysia",
-      "sector": "Not Found",
-      "discovered": "2026-08-16T11:31:50.873374+00:00",
-      "attack_date": "2026-08-16T11:31:30.866614+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=573d5082-4973-4a85-ba93-a924bcb1f03c",
       "monitored": true
     }
   ],
@@ -3538,7 +3538,7 @@
     "unique_groups": 29,
     "unique_countries": 33,
     "by_country": {
-      "United States": 28,
+      "United States": 29,
       "Germany": 9,
       "Unknown": 8,
       "United Kingdom": 7,
@@ -3554,7 +3554,6 @@
       "South Africa": 2,
       "France": 2,
       "Brazil": 2,
-      "Malaysia": 2,
       "Taiwan": 1,
       "Turkey": 1,
       "PE": 1,
@@ -3566,6 +3565,7 @@
       "MU": 1,
       "Switzerland": 1,
       "Russia": 1,
+      "Malaysia": 1,
       "TT": 1,
       "South Korea": 1,
       "AL": 1,
@@ -3573,7 +3573,7 @@
       "Philippines": 1
     },
     "by_group": {
-      "qilin": 23,
+      "qilin": 22,
       "incransom": 9,
       "direwolf": 8,
       "Storm": 7,
@@ -3581,11 +3581,11 @@
       "thegentlemen": 5,
       "medusalocker": 5,
       "Panzer": 4,
+      "xpl0itrs": 3,
       "play": 3,
       "aurora": 3,
       "Helix": 2,
       "Deadlock": 2,
-      "xpl0itrs": 2,
       "coinbasecartel": 2,
       "akira": 2,
       "SilentRansomGroup": 2,
@@ -3605,10 +3605,10 @@
     },
     "by_sector": {
       "Manufacturing": 17,
-      "Not Found": 15,
       "Technology": 15,
+      "Not Found": 14,
       "Professional Services": 10,
-      "Retail & E-Commerce": 8,
+      "Retail & E-Commerce": 9,
       "Financial Services": 8,
       "Other": 6,
       "Transportation": 5,
