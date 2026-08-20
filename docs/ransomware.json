@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-20T12:50:18.351004+00:00",
+  "last_updated_utc": "2026-08-20T13:46:56.719855+00:00",
   "victims": [
+    {
+      "victim": "Questronix",
+      "group": "qilin",
+      "country": "Philippines",
+      "sector": "Not Found",
+      "discovered": "2026-08-20T08:58:01.647158+00:00",
+      "attack_date": "2026-08-20T08:57:44.149213+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=33182c8f-74a1-4af9-ba49-b7efdffd6217",
+      "monitored": true
+    },
+    {
+      "victim": "Trends And Concepts",
+      "group": "qilin",
+      "country": "South Africa",
+      "sector": "Other",
+      "discovered": "2026-08-20T08:56:45.119537+00:00",
+      "attack_date": "2026-08-20T08:56:27.597073+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2bfe5896-59d5-44f2-8311-d2be2f67209f",
+      "monitored": true
+    },
     {
       "victim": "JP Molyneux Studio",
       "group": "Deadlock",
@@ -72,6 +96,18 @@
       "description": "General merchandise retail",
       "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/target/",
       "monitored": true
+    },
+    {
+      "victim": "Provite",
+      "group": "qilin",
+      "country": "Netherlands",
+      "sector": "Technology",
+      "discovered": "2026-08-20T08:57:24.581425+00:00",
+      "attack_date": "2026-08-20T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=941da7fa-6ff3-452c-9127-15fa05660c79",
+      "monitored": false
     },
     {
       "victim": "Semana",
@@ -1164,42 +1200,6 @@
       "description": "Personal IT home lab. AD domain: twalfamily.com. VMware vSphere, multiple AD domains. Daniel Al Twal works at Technology North Corp (Edmonton), former DND co-op. No corporate target. Previously misidentified as Forces/forces.gc.ca. | 4172 Wolfe Point Way, Ottawa, ON K1V 1P5, Canada",
       "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/banajah-bajapah/",
       "monitored": false
-    },
-    {
-      "victim": "All Parts Dry Cleaning",
-      "group": "medusalocker",
-      "country": "United Kingdom",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-16T15:21:25.860473+00:00",
-      "attack_date": "2026-08-16T15:21:13.525865+00:00",
-      "website": "",
-      "description": "Dry cleaning & laundry. Domain: allpartsdrycleaning.co.uk. | United Kingdom",
-      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bamatah/",
-      "monitored": true
-    },
-    {
-      "victim": "Idex Group",
-      "group": "medusalocker",
-      "country": "Germany",
-      "sector": "Technology",
-      "discovered": "2026-08-16T15:20:54.694488+00:00",
-      "attack_date": "2026-08-16T15:20:41.323917+00:00",
-      "website": "",
-      "description": "Organization with 30 emails extracted. Domain: idex-group.com",
-      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bakaqah/",
-      "monitored": true
-    },
-    {
-      "victim": "Bija Industrie",
-      "group": "medusalocker",
-      "country": "France",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-16T15:20:22.501805+00:00",
-      "attack_date": "2026-08-16T15:20:10.053971+00:00",
-      "website": "",
-      "description": "Organization with 693 emails extracted. Domain: bija-industrie.com",
-      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/banadah/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3534,32 +3534,34 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
+    "monitored_victims": 59,
     "unique_groups": 30,
-    "unique_countries": 32,
+    "unique_countries": 34,
     "by_country": {
       "United States": 29,
-      "United Kingdom": 8,
       "Unknown": 8,
-      "Germany": 8,
+      "United Kingdom": 7,
+      "Germany": 7,
       "Italy": 5,
-      "France": 4,
+      "France": 3,
       "Spain": 3,
       "Sweden": 3,
       "Australia": 3,
+      "South Africa": 2,
       "Thailand": 2,
       "Mexico": 2,
       "CZ": 2,
       "HK": 2,
       "Canada": 2,
       "Brazil": 2,
+      "Philippines": 1,
+      "Netherlands": 1,
       "Taiwan": 1,
       "Turkey": 1,
       "PE": 1,
       "AR": 1,
       "CY": 1,
       "UY": 1,
-      "South Africa": 1,
       "HN": 1,
       "United Arab Emirates": 1,
       "MU": 1,
@@ -3572,7 +3574,7 @@
       "CL": 1
     },
     "by_group": {
-      "qilin": 19,
+      "qilin": 22,
       "incransom": 9,
       "direwolf": 8,
       "Storm": 7,
@@ -3580,7 +3582,6 @@
       "thegentlemen": 5,
       "everest": 4,
       "Panzer": 4,
-      "medusalocker": 4,
       "Deadlock": 3,
       "xpl0itrs": 3,
       "play": 3,
@@ -3601,15 +3602,16 @@
       "shinyhunters": 1,
       "AuditTeam": 1,
       "lockbit5": 1,
-      "bravox": 1
+      "bravox": 1,
+      "medusalocker": 1
     },
     "by_sector": {
-      "Manufacturing": 16,
+      "Manufacturing": 15,
+      "Not Found": 14,
       "Technology": 14,
-      "Not Found": 13,
       "Professional Services": 11,
-      "Retail & E-Commerce": 9,
-      "Other": 8,
+      "Other": 9,
+      "Retail & E-Commerce": 8,
       "Financial Services": 8,
       "Transportation": 4,
       "Healthcare": 4,
