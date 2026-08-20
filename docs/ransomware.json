@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-20T22:28:37.899361+00:00",
+  "last_updated_utc": "2026-08-20T23:26:21.552149+00:00",
   "victims": [
     {
       "victim": "Be Media",
@@ -218,6 +218,18 @@
       "monitored": false
     },
     {
+      "victim": "Cyrus******",
+      "group": "shinyhunters",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-08-20T18:43:17.962996+00:00",
+      "attack_date": "2026-08-20T11:10:00+00:00",
+      "website": "",
+      "description": "This is a final warning to reach out by end of day 24 Aug 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 20 Aug 2026 | Warning: FINAL WARNING PAY OR LEAK",
+      "claim_url": "https://www.ransomware.live/id/Q3lydXMqKioqKipAc2hpbnlodW50ZXJz",
+      "monitored": false
+    },
+    {
       "victim": "Grand Ion Delemen Hotel",
       "group": "majinahanashi",
       "country": "",
@@ -372,6 +384,18 @@
       "description": "General merchandise retail",
       "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/target/",
       "monitored": true
+    },
+    {
+      "victim": "Ayuntamiento de Velilla de San Antonio",
+      "group": "kairos",
+      "country": "Spain",
+      "sector": "Government & Defense",
+      "discovered": "2026-08-20T18:54:17.542228+00:00",
+      "attack_date": "2026-08-20T00:00:00+00:00",
+      "website": "",
+      "description": "El Ayuntamiento de Velilla de San Antonio es el organismo oficial de gobierno local y administración del municipio de Velilla de San Antonio, situado en la Comunidad de Madrid, España. Gestiona los servicios públicos, el padrón, los impuestos locales y la vida ciudadana de la localidad.",
+      "claim_url": "https://www.ransomware.live/id/QXl1bnRhbWllbnRvIGRlIFZlbGlsbGEgZGUgU2FuIEFudG9uaW9Aa2Fpcm9z",
+      "monitored": false
     },
     {
       "victim": "Cascade Coffee",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "German multinational luxury vehicles",
       "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/bmw/",
-      "monitored": true
-    },
-    {
-      "victim": "The Rubber Group",
-      "group": "Global Secret Group",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-17T18:22:02.804731+00:00",
-      "attack_date": "2026-08-17T18:21:18.338027+00:00",
-      "website": "",
-      "description": "Country: New Hampshire,US |\nWebsite: www.rubber-group.com |\nRevenue: $19.4 Million |\nIndustry: Plastics Manufacturing, Tires & Rubber, Manufacturing |\nEmployees: 50-100 |\nProperties: 162 GB (207,203 Files, 21,624 Folders)",
-      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/42/",
-      "monitored": true
-    },
-    {
-      "victim": "4M REALTY COMPANY",
-      "group": "Global Secret Group",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-17T17:21:21.623009+00:00",
-      "attack_date": "2026-08-17T17:20:36.699682+00:00",
-      "website": "",
-      "description": "Country: Texas, US |\nWebsite: 4mrealty.com |\nRevenue: $5 Million |\nIndustry: Real Estate Brokerage, Real Estate Sales, Property Sales, Commercial Real Estate |\nEmployees: 20-50 |\nProperties: 237 GB (54,995 Files, 4,600 Folders)",
-      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/41/",
       "monitored": true
     }
   ],
@@ -3540,22 +3540,22 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 48,
+    "monitored_victims": 46,
     "unique_groups": 31,
     "unique_countries": 33,
     "by_country": {
-      "United States": 26,
-      "Unknown": 14,
+      "United States": 24,
+      "Unknown": 15,
       "Italy": 9,
       "Germany": 5,
       "Thailand": 4,
       "United Kingdom": 4,
       "France": 3,
+      "Spain": 3,
       "Switzerland": 2,
       "Indonesia": 2,
       "MM": 2,
       "South Africa": 2,
-      "Spain": 2,
       "Mexico": 2,
       "HK": 2,
       "Canada": 2,
@@ -3593,13 +3593,14 @@
       "Deadlock": 3,
       "xpl0itrs": 3,
       "emperador": 2,
+      "shinyhunters": 2,
       "majinahanashi": 2,
       "coinbasecartel": 2,
       "SilentRansomGroup": 2,
-      "Global Secret Group": 2,
       "payload": 1,
       "Panzer": 1,
       "lockbit5": 1,
+      "kairos": 1,
       "Helix": 1,
       "insomnia": 1,
       "threeam": 1,
@@ -3608,21 +3609,20 @@
       "gunra": 1,
       "anubis": 1,
       "securotrop": 1,
-      "shinyhunters": 1,
       "AuditTeam": 1
     },
     "by_sector": {
-      "Manufacturing": 16,
+      "Manufacturing": 15,
       "Not Found": 14,
-      "Technology": 12,
+      "Technology": 13,
       "Professional Services": 12,
       "Other": 10,
       "Financial Services": 9,
-      "Retail & E-Commerce": 6,
+      "Retail & E-Commerce": 5,
       "Healthcare": 5,
+      "Government & Defense": 4,
       "Hospitality": 4,
       "Education": 3,
-      "Government & Defense": 3,
       "Transportation": 3,
       "Energy & Utilities": 2,
       "Agriculture and Food Production": 1
