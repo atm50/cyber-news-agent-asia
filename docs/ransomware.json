@@ -1,10 +1,34 @@
 {
-  "last_updated_utc": "2026-08-20T07:41:21.975548+00:00",
+  "last_updated_utc": "2026-08-20T08:38:57.390083+00:00",
   "victims": [
+    {
+      "victim": "Kingston Technology",
+      "group": "everest",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-20T03:54:37.992161+00:00",
+      "attack_date": "2026-08-20T02:54:18.851417+00:00",
+      "website": "",
+      "description": "[AI generated] Kingston Technology is a privately held American company founded in 1987 and headquartered in Fountain Valley, California. It is one of the world's largest manufacturers of memory products, including DRAM modules, flash storage, USB drives, and solid-state drives. Kingston serves cons",
+      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/kingston-technology",
+      "monitored": true
+    },
+    {
+      "victim": "Experts Entreprendre",
+      "group": "everest",
+      "country": "France",
+      "sector": "Professional Services",
+      "discovered": "2026-08-20T03:54:00.679781+00:00",
+      "attack_date": "2026-08-20T02:53:43.217469+00:00",
+      "website": "",
+      "description": "[AI generated] N/A",
+      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/experts-entreprendre",
+      "monitored": true
+    },
     {
       "victim": "Grupo DT",
       "group": "everest",
-      "country": "Mexico",
+      "country": "Spain",
       "sector": "Other",
       "discovered": "2026-08-20T02:53:41.315894+00:00",
       "attack_date": "2026-08-20T02:53:24.230662+00:00",
@@ -83,18 +107,6 @@
       "website": "",
       "description": "GTS legally registered as Global Terminal Hizmetleri A.Ş. It is the largest independent storage terminal for liquid fuels and oil in the entire Mediterranean region. 470gb",
       "claim_url": "https://www.ransomware.live/id/R2xvYmFsIFRlcm1pbmFsIFNlcnZpY2VzQERlYWRsb2Nr",
-      "monitored": false
-    },
-    {
-      "victim": "Mihuru",
-      "group": "xpl0itrs",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-19T17:58:48.125772+00:00",
-      "attack_date": "2026-08-19T17:58:31.559425+00:00",
-      "website": "",
-      "description": "Consumer travel financing",
-      "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/mihuru/",
       "monitored": false
     },
     {
@@ -420,6 +432,18 @@
       "description": "Healthcare",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/94",
       "monitored": true
+    },
+    {
+      "victim": "Mihuru",
+      "group": "xpl0itrs",
+      "country": "",
+      "sector": "Hospitality",
+      "discovered": "2026-08-19T17:58:48.125772+00:00",
+      "attack_date": "2026-08-19T00:00:00+00:00",
+      "website": "",
+      "description": "Consumer travel financing",
+      "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/mihuru/",
+      "monitored": false
     },
     {
       "victim": "Ericksen Krentel",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Organization with 2018 emails extracted. Domain: thecourierguy.co.za",
       "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bamasah/",
-      "monitored": true
-    },
-    {
-      "victim": "Kennedy Jenks",
-      "group": "Helix",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-08-16T15:00:10.152370+00:00",
-      "attack_date": "2026-08-16T14:59:53.291758+00:00",
-      "website": "",
-      "description": "Kennedy Jenks is live. T1 is unlocked. T2 in 24 hours, then one day each through T4.",
-      "claim_url": "http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/p/1ba8b0df41a617631d09ae43a2bb4a5748b5b3f2b1cd007251bb3598a5ddcf44",
-      "monitored": true
-    },
-    {
-      "victim": "MOSAID Technologies",
-      "group": "qilin",
-      "country": "Canada",
-      "sector": "Technology",
-      "discovered": "2026-08-16T12:31:17.376249+00:00",
-      "attack_date": "2026-08-16T12:30:57.637099+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=d8c30b26-e682-4a35-9f0b-ba5d89532a10",
       "monitored": true
     }
   ],
@@ -3543,15 +3543,15 @@
       "Germany": 8,
       "United Kingdom": 7,
       "Italy": 5,
-      "Mexico": 3,
-      "France": 3,
-      "Canada": 3,
+      "France": 4,
+      "Spain": 3,
       "Sweden": 3,
       "Australia": 3,
-      "Spain": 2,
       "Thailand": 2,
+      "Mexico": 2,
       "CZ": 2,
       "HK": 2,
+      "Canada": 2,
       "South Africa": 2,
       "Brazil": 2,
       "Taiwan": 1,
@@ -3572,19 +3572,18 @@
       "CL": 1
     },
     "by_group": {
-      "qilin": 20,
+      "qilin": 19,
       "incransom": 9,
       "direwolf": 8,
       "Storm": 7,
       "krybit": 5,
       "thegentlemen": 5,
       "medusalocker": 5,
+      "everest": 4,
       "Panzer": 4,
       "xpl0itrs": 3,
       "play": 3,
       "aurora": 3,
-      "everest": 2,
-      "Helix": 2,
       "Deadlock": 2,
       "coinbasecartel": 2,
       "akira": 2,
@@ -3592,6 +3591,7 @@
       "dragonforce": 2,
       "emperador": 2,
       "Global Secret Group": 2,
+      "Helix": 1,
       "insomnia": 1,
       "threeam": 1,
       "Orova": 1,
@@ -3605,8 +3605,8 @@
     },
     "by_sector": {
       "Manufacturing": 16,
-      "Not Found": 14,
       "Technology": 14,
+      "Not Found": 13,
       "Professional Services": 11,
       "Retail & E-Commerce": 9,
       "Financial Services": 8,
@@ -3616,7 +3616,7 @@
       "Government & Defense": 4,
       "Energy & Utilities": 3,
       "Education": 3,
-      "Hospitality": 1,
+      "Hospitality": 2,
       "Agriculture and Food Production": 1
     }
   },
