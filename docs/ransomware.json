@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-21T20:26:15.865661+00:00",
+  "last_updated_utc": "2026-08-21T21:24:58.563056+00:00",
   "victims": [
+    {
+      "victim": "Nteitalia",
+      "group": "Panzer",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-21T16:51:22.138601+00:00",
+      "attack_date": "2026-08-21T15:22:37+00:00",
+      "website": "",
+      "description": "NTE Italia, an engineering and telecommunications service provider based in Catanzaro, Italy. Sensitive thousands of documents are compromised.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/nteitalia",
+      "monitored": false
+    },
     {
       "victim": "Quaker State Mexico",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=36ee3678-0869-4855-84d6-6c24da6b0595",
       "monitored": false
-    },
-    {
-      "victim": "Smart Energies",
-      "group": "qilin",
-      "country": "Germany",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-08-19T11:00:32.349655+00:00",
-      "attack_date": "2026-08-19T11:00:11.771766+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=cf78de2d-e2cc-4ec1-9100-42954ad8060f",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3546,19 +3546,19 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 43,
+    "monitored_victims": 42,
     "unique_groups": 26,
     "unique_countries": 33,
     "by_country": {
       "United States": 26,
-      "Unknown": 15,
+      "Unknown": 16,
       "Italy": 11,
       "Mexico": 6,
       "France": 3,
       "United Arab Emirates": 3,
-      "Germany": 3,
       "United Kingdom": 3,
       "Spain": 3,
+      "Germany": 2,
       "Netherlands": 2,
       "Canada": 2,
       "Thailand": 2,
@@ -3585,7 +3585,7 @@
       "CY": 1
     },
     "by_group": {
-      "qilin": 19,
+      "qilin": 18,
       "thegentlemen": 16,
       "direwolf": 13,
       "titan": 8,
@@ -3595,6 +3595,7 @@
       "akira": 3,
       "iah6477": 3,
       "Deadlock": 3,
+      "Panzer": 2,
       "rhysida": 2,
       "xpl0itrs": 2,
       "play": 2,
@@ -3604,7 +3605,6 @@
       "anubis": 1,
       "SilentRansomGroup": 1,
       "payload": 1,
-      "Panzer": 1,
       "emperador": 1,
       "shinyhunters": 1,
       "lockbit5": 1,
@@ -3616,12 +3616,12 @@
       "Manufacturing": 16,
       "Technology": 16,
       "Other": 13,
-      "Not Found": 11,
+      "Not Found": 12,
       "Professional Services": 10,
       "Hospitality": 6,
       "Retail & E-Commerce": 6,
-      "Energy & Utilities": 5,
       "Financial Services": 5,
+      "Energy & Utilities": 4,
       "Transportation": 4,
       "Healthcare": 3,
       "Education": 3,
