@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-21T15:34:10.818951+00:00",
+  "last_updated_utc": "2026-08-21T16:35:20.295598+00:00",
   "victims": [
+    {
+      "victim": "Fairview Dental Group",
+      "group": "rhysida",
+      "country": "",
+      "sector": "Healthcare",
+      "discovered": "2026-08-21T12:28:19.425238+00:00",
+      "attack_date": "2026-08-21T12:27:46.881499+00:00",
+      "website": "",
+      "description": "Fairview Dental Group Fairview Dental Group offers a range of dental services including family dentistry, cosmetic treatments, dental implants, and invisible braces.We are pleased to present:Full patient database, patient X-rays, scanned forms/consents/invoices, health records (PHI) of the entire pr",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=260",
+      "monitored": false
+    },
+    {
+      "victim": "Gindre India",
+      "group": "qilin",
+      "country": "India",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-21T11:57:12.828596+00:00",
+      "attack_date": "2026-08-21T11:56:53.567455+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=a4a0d54e-27c5-45ec-a3aa-39184e012167",
+      "monitored": true
+    },
     {
       "victim": "Battle Creek Public Schools",
       "group": "rhysida",
@@ -1176,30 +1200,6 @@
       "description": "Hospitals &amp; Physicians Clinics",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/96",
       "monitored": false
-    },
-    {
-      "victim": "PayUp",
-      "group": "direwolf",
-      "country": "",
-      "sector": "Financial Services",
-      "discovered": "2026-08-19T00:54:47.815772+00:00",
-      "attack_date": "2026-08-19T00:32:14.232811+00:00",
-      "website": "",
-      "description": "Financial Software",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/95",
-      "monitored": false
-    },
-    {
-      "victim": "InfoFlo CRM",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-08-19T00:55:20.128682+00:00",
-      "attack_date": "2026-08-19T00:25:57.669000+00:00",
-      "website": "",
-      "description": "software provider",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/93",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3548,9 +3548,9 @@
     "total_victims": 100,
     "monitored_victims": 43,
     "unique_groups": 27,
-    "unique_countries": 34,
+    "unique_countries": 35,
     "by_country": {
-      "United States": 26,
+      "United States": 25,
       "Unknown": 14,
       "Italy": 11,
       "Mexico": 5,
@@ -3563,6 +3563,7 @@
       "Canada": 2,
       "South Africa": 2,
       "Thailand": 2,
+      "India": 1,
       "WS": 1,
       "BZ": 1,
       "Norway": 1,
@@ -3586,21 +3587,21 @@
       "Sweden": 1
     },
     "by_group": {
+      "qilin": 17,
       "thegentlemen": 17,
-      "qilin": 16,
-      "direwolf": 16,
+      "direwolf": 14,
       "titan": 8,
       "everest": 5,
       "krybit": 5,
       "incransom": 4,
       "iah6477": 3,
       "Deadlock": 3,
+      "rhysida": 2,
       "xpl0itrs": 2,
       "play": 2,
       "majinahanashi": 2,
       "akira": 2,
       "coinbasecartel": 2,
-      "rhysida": 1,
       "dragonforce": 1,
       "anubis": 1,
       "SilentRansomGroup": 1,
@@ -3615,18 +3616,18 @@
       "threeam": 1
     },
     "by_sector": {
-      "Technology": 17,
-      "Manufacturing": 15,
+      "Manufacturing": 16,
+      "Technology": 16,
       "Other": 13,
       "Not Found": 13,
       "Professional Services": 10,
-      "Financial Services": 6,
+      "Financial Services": 5,
       "Retail & E-Commerce": 5,
+      "Healthcare": 4,
       "Energy & Utilities": 4,
       "Transportation": 4,
       "Hospitality": 4,
       "Education": 3,
-      "Healthcare": 3,
       "Government & Defense": 2,
       "Agriculture and Food Production": 1
     }
