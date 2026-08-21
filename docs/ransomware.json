@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-21T16:35:20.295598+00:00",
+  "last_updated_utc": "2026-08-21T17:29:43.757733+00:00",
   "victims": [
+    {
+      "victim": "Cinépolis",
+      "group": "qilin",
+      "country": "Mexico",
+      "sector": "Hospitality",
+      "discovered": "2026-08-21T12:56:53.309028+00:00",
+      "attack_date": "2026-08-21T12:56:35.156385+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=01be5eca-c028-47e8-add2-46a852dccda7",
+      "monitored": false
+    },
     {
       "victim": "Fairview Dental Group",
       "group": "rhysida",
@@ -432,6 +444,18 @@
       "description": "Enterprise Resource Planning",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/97",
       "monitored": true
+    },
+    {
+      "victim": "JC Sales",
+      "group": "akira",
+      "country": "",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-21T13:21:20.842951+00:00",
+      "attack_date": "2026-08-21T00:00:00+00:00",
+      "website": "",
+      "description": "JC Sales is a leading full-service wholesaler based in Los Angeles, California, specializing in\na vast array of wholesale products including health and beauty items, food and beverages, gene\nral merchandise, and seasonal items.\n\nWe will upload 206gb of corporate data soon. Detailed personal employee",
+      "claim_url": "https://www.ransomware.live/id/SkMgU2FsZXNAYWtpcmE=",
+      "monitored": false
     },
     {
       "victim": "D...",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "The group gives quality and reliability the highest priority in the through execution of all its business activities. Therefore MECASEM provides a wide range of solutions ISO 17025 (COFRAC) accredited and EN 9100 and ISO 9001 certified. Since 2012",
       "claim_url": "http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/detail/i6ugodb7vvkxpv6l9e74qsyo7z0wv2",
-      "monitored": false
-    },
-    {
-      "victim": "Babcock",
-      "group": "thegentlemen",
-      "country": "South Africa",
-      "sector": "Government & Defense",
-      "discovered": "2026-08-19T08:10:32.513376+00:00",
-      "attack_date": "2026-08-19T06:12:10+00:00",
-      "website": "",
-      "description": "babcock.co.za rocketreach.co/babcock-international-group-africa-profile_b5cda591f42e0b42 Babcock Africa is a leading engineering and asset management company specializing in critical infrastructure and heavy equipment across the African continent. With over 130 years of experience, it provides lifet",
-      "claim_url": "https://www.ransomware.live/id/QmFiY29ja0B0aGVnZW50bGVtZW4=",
-      "monitored": true
-    },
-    {
-      "victim": "Lifesum",
-      "group": "direwolf",
-      "country": "Sweden",
-      "sector": "Healthcare",
-      "discovered": "2026-08-19T00:54:08.345165+00:00",
-      "attack_date": "2026-08-19T00:41:16.944660+00:00",
-      "website": "",
-      "description": "Hospitals &amp; Physicians Clinics",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/96",
       "monitored": false
     }
   ],
@@ -3546,14 +3546,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 43,
+    "monitored_victims": 42,
     "unique_groups": 27,
-    "unique_countries": 35,
+    "unique_countries": 34,
     "by_country": {
       "United States": 25,
-      "Unknown": 14,
+      "Unknown": 15,
       "Italy": 11,
-      "Mexico": 5,
+      "Mexico": 6,
       "France": 3,
       "United Arab Emirates": 3,
       "Germany": 3,
@@ -3561,7 +3561,6 @@
       "Spain": 3,
       "Netherlands": 2,
       "Canada": 2,
-      "South Africa": 2,
       "Thailand": 2,
       "India": 1,
       "WS": 1,
@@ -3576,6 +3575,7 @@
       "Switzerland": 1,
       "Indonesia": 1,
       "Philippines": 1,
+      "South Africa": 1,
       "Taiwan": 1,
       "Turkey": 1,
       "PE": 1,
@@ -3583,24 +3583,23 @@
       "AR": 1,
       "HK": 1,
       "CY": 1,
-      "UY": 1,
-      "Sweden": 1
+      "UY": 1
     },
     "by_group": {
-      "qilin": 17,
-      "thegentlemen": 17,
-      "direwolf": 14,
+      "qilin": 18,
+      "thegentlemen": 16,
+      "direwolf": 13,
       "titan": 8,
       "everest": 5,
       "krybit": 5,
       "incransom": 4,
+      "akira": 3,
       "iah6477": 3,
       "Deadlock": 3,
       "rhysida": 2,
       "xpl0itrs": 2,
       "play": 2,
       "majinahanashi": 2,
-      "akira": 2,
       "coinbasecartel": 2,
       "dragonforce": 1,
       "anubis": 1,
@@ -3621,15 +3620,15 @@
       "Other": 13,
       "Not Found": 13,
       "Professional Services": 10,
+      "Retail & E-Commerce": 6,
+      "Hospitality": 5,
       "Financial Services": 5,
-      "Retail & E-Commerce": 5,
-      "Healthcare": 4,
       "Energy & Utilities": 4,
       "Transportation": 4,
-      "Hospitality": 4,
+      "Healthcare": 3,
       "Education": 3,
-      "Government & Defense": 2,
-      "Agriculture and Food Production": 1
+      "Agriculture and Food Production": 1,
+      "Government & Defense": 1
     }
   },
   "errors": []
