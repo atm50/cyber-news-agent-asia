@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-21T18:40:45.662614+00:00",
+  "last_updated_utc": "2026-08-21T19:26:40.230157+00:00",
   "victims": [
+    {
+      "victim": "Quaker State Mexico",
+      "group": "qilin",
+      "country": "Mexico",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-08-21T14:56:15.304066+00:00",
+      "attack_date": "2026-08-21T14:55:56.695559+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=59a43842-d0d8-41db-ab38-2cd125d91db2",
+      "monitored": false
+    },
+    {
+      "victim": "iPic",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Hospitality",
+      "discovered": "2026-08-21T14:55:37.675449+00:00",
+      "attack_date": "2026-08-21T14:55:18.858993+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=769179b7-db54-45e8-b3ba-9d7c94951e5d",
+      "monitored": true
+    },
     {
       "victim": "Cinépolis",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=cf78de2d-e2cc-4ec1-9100-42954ad8060f",
       "monitored": true
-    },
-    {
-      "victim": "Integraduanas",
-      "group": "qilin",
-      "country": "UY",
-      "sector": "Not Found",
-      "discovered": "2026-08-19T09:31:14.402113+00:00",
-      "attack_date": "2026-08-19T09:30:28.479935+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=49409db9-7118-45f9-a6c4-fcc563bd51b7",
-      "monitored": false
-    },
-    {
-      "victim": "mecasem.org",
-      "group": "threeam",
-      "country": "Mexico",
-      "sector": "Not Found",
-      "discovered": "2026-08-19T08:15:55.565443+00:00",
-      "attack_date": "2026-08-19T08:15:35.441511+00:00",
-      "website": "",
-      "description": "The group gives quality and reliability the highest priority in the through execution of all its business activities. Therefore MECASEM provides a wide range of solutions ISO 17025 (COFRAC) accredited and EN 9100 and ISO 9001 certified. Since 2012",
-      "claim_url": "http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/detail/i6ugodb7vvkxpv6l9e74qsyo7z0wv2",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3546,11 +3546,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 42,
-    "unique_groups": 27,
-    "unique_countries": 34,
+    "monitored_victims": 43,
+    "unique_groups": 26,
+    "unique_countries": 33,
     "by_country": {
-      "United States": 25,
+      "United States": 26,
       "Unknown": 15,
       "Italy": 11,
       "Mexico": 6,
@@ -3582,11 +3582,10 @@
       "CZ": 1,
       "AR": 1,
       "HK": 1,
-      "CY": 1,
-      "UY": 1
+      "CY": 1
     },
     "by_group": {
-      "qilin": 18,
+      "qilin": 19,
       "thegentlemen": 16,
       "direwolf": 13,
       "titan": 8,
@@ -3611,19 +3610,18 @@
       "lockbit5": 1,
       "kairos": 1,
       "Helix": 1,
-      "insomnia": 1,
-      "threeam": 1
+      "insomnia": 1
     },
     "by_sector": {
       "Manufacturing": 16,
       "Technology": 16,
       "Other": 13,
-      "Not Found": 13,
+      "Not Found": 11,
       "Professional Services": 10,
+      "Hospitality": 6,
       "Retail & E-Commerce": 6,
-      "Hospitality": 5,
+      "Energy & Utilities": 5,
       "Financial Services": 5,
-      "Energy & Utilities": 4,
       "Transportation": 4,
       "Healthcare": 3,
       "Education": 3,
