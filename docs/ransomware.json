@@ -1,18 +1,6 @@
 {
-  "last_updated_utc": "2026-08-22T05:27:49.281021+00:00",
+  "last_updated_utc": "2026-08-22T06:40:09.681902+00:00",
   "victims": [
-    {
-      "victim": "Nteitalia",
-      "group": "Panzer",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-21T16:51:22.138601+00:00",
-      "attack_date": "2026-08-21T15:22:37+00:00",
-      "website": "",
-      "description": "NTE Italia, an engineering and telecommunications service provider based in Catanzaro, Italy. Sensitive thousands of documents are compromised.",
-      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/nteitalia",
-      "monitored": false
-    },
     {
       "victim": "Quaker State Mexico",
       "group": "qilin",
@@ -52,14 +40,14 @@
     {
       "victim": "Fairview Dental Group",
       "group": "rhysida",
-      "country": "",
+      "country": "United States",
       "sector": "Healthcare",
       "discovered": "2026-08-21T12:28:19.425238+00:00",
       "attack_date": "2026-08-21T12:27:46.881499+00:00",
       "website": "",
       "description": "Fairview Dental Group Fairview Dental Group offers a range of dental services including family dentistry, cosmetic treatments, dental implants, and invisible braces.We are pleased to present:Full patient database, patient X-rays, scanned forms/consents/invoices, health records (PHI) of the entire pr",
       "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=260",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "Gindre India",
@@ -482,16 +470,28 @@
       "monitored": true
     },
     {
+      "victim": "Nteitalia",
+      "group": "Panzer",
+      "country": "Italy",
+      "sector": "Technology",
+      "discovered": "2026-08-21T16:51:22.138601+00:00",
+      "attack_date": "2026-08-21T00:00:00+00:00",
+      "website": "",
+      "description": "NTE Italia, an engineering and telecommunications service provider based in Catanzaro, Italy. Sensitive thousands of documents are compromised.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/nteitalia",
+      "monitored": false
+    },
+    {
       "victim": "JC Sales",
       "group": "akira",
-      "country": "",
+      "country": "United States",
       "sector": "Retail & E-Commerce",
       "discovered": "2026-08-21T13:21:20.842951+00:00",
       "attack_date": "2026-08-21T00:00:00+00:00",
       "website": "",
       "description": "JC Sales is a leading full-service wholesaler based in Los Angeles, California, specializing in\na vast array of wholesale products including health and beauty items, food and beverages, gene\nral merchandise, and seasonal items.\n\nWe will upload 206gb of corporate data soon. Detailed personal employee",
       "claim_url": "https://www.ransomware.live/id/SkMgU2FsZXNAYWtpcmE=",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "D...",
@@ -892,14 +892,14 @@
     {
       "victim": "Cascade Coffee",
       "group": "akira",
-      "country": "",
+      "country": "United States",
       "sector": "Retail & E-Commerce",
       "discovered": "2026-08-20T14:21:22.360343+00:00",
       "attack_date": "2026-08-20T00:00:00+00:00",
       "website": "",
       "description": "Cascade Coffee is a premier gourmet coffee contract manufacturer based near Seattle, Washington\n, specializing in roasting, grinding, flavoring, and packaging coffee. The company caters to so\nme of the world's finest coffee brands, providing a wide range of products including whole bean\n, ground, fl",
       "claim_url": "https://www.ransomware.live/id/Q2FzY2FkZSBDb2ZmZWVAYWtpcmE=",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "Deas Millwork",
@@ -3546,13 +3546,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 42,
+    "monitored_victims": 45,
     "unique_groups": 26,
     "unique_countries": 33,
     "by_country": {
-      "United States": 26,
-      "Unknown": 16,
-      "Italy": 11,
+      "United States": 29,
+      "Italy": 12,
+      "Unknown": 12,
       "Mexico": 6,
       "France": 3,
       "United Arab Emirates": 3,
@@ -3595,8 +3595,8 @@
       "akira": 3,
       "iah6477": 3,
       "Deadlock": 3,
-      "Panzer": 2,
       "rhysida": 2,
+      "Panzer": 2,
       "xpl0itrs": 2,
       "play": 2,
       "majinahanashi": 2,
@@ -3613,10 +3613,10 @@
       "insomnia": 1
     },
     "by_sector": {
+      "Technology": 17,
       "Manufacturing": 16,
-      "Technology": 16,
       "Other": 13,
-      "Not Found": 12,
+      "Not Found": 11,
       "Professional Services": 10,
       "Hospitality": 6,
       "Retail & E-Commerce": 6,
