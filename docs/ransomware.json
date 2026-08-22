@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-22T09:27:02.993508+00:00",
+  "last_updated_utc": "2026-08-22T10:23:42.872323+00:00",
   "victims": [
+    {
+      "victim": "CRI Electric",
+      "group": "rhysida",
+      "country": "United States",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-08-22T05:56:26.446012+00:00",
+      "attack_date": "2026-08-22T05:55:56.903592+00:00",
+      "website": "",
+      "description": "CRI Electric CRI Electric is a veteran-owned business based in San Antonio, providing professional electrical services since 1998. They cater to both residential and commercial clients, offering services such as emergency electrical repairs, EV charger installations, and home rewiring. We are please",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=264",
+      "monitored": true
+    },
+    {
+      "victim": "Meridian Logistics Group",
+      "group": "thegentlemen",
+      "country": "United States",
+      "sector": "Transportation",
+      "discovered": "2026-08-22T05:19:52.744287+00:00",
+      "attack_date": "2026-08-22T00:00:00+00:00",
+      "website": "",
+      "description": "Full network image staged. ERP exports, dispatch DB and payroll archives recovered. Pending final inventory before publication.",
+      "claim_url": "https://www.ransomware.live/id/TWVyaWRpYW4gTG9naXN0aWNzIEdyb3VwQHRoZWdlbnRsZW1lbg==",
+      "monitored": true
+    },
     {
       "victim": "Quaker State Mexico",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "CHRISTOPHER D. GARVIN (Docket #2352300) is a Wood-Ridge attorney admitted to New York State in 1990 and registered with the Office of Court Administration (OCA) of the New York State Unified Court System. Employer - CHRISTOPHER D. GARVIN, ESQ. COUNSEL AT LAW. The attorney graduated from SETON HALL U",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a8586419cd108bf2686ecf0",
       "monitored": true
-    },
-    {
-      "victim": "EXEL",
-      "group": "incransom",
-      "country": "Canada",
-      "sector": "Technology",
-      "discovered": "2026-08-19T13:54:14.970294+00:00",
-      "attack_date": "2026-08-19T11:11:00+00:00",
-      "website": "",
-      "description": "Exel Systems Inc. specializes in providing high-quality custom heating, ventilation, and air conditioning (HVAC) and energy recovery products. Established in 1993, the company serves the institutional, commercial, and industrial markets, collaborating with building owners, consulting engineers, and ",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a85895b9cd108bf268747e9",
-      "monitored": true
-    },
-    {
-      "victim": "Medochemie",
-      "group": "qilin",
-      "country": "CY",
-      "sector": "Healthcare",
-      "discovered": "2026-08-19T11:01:27.077374+00:00",
-      "attack_date": "2026-08-19T11:00:51.366158+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=36ee3678-0869-4855-84d6-6c24da6b0595",
-      "monitored": false
     }
   ],
   "groups": [
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "DYSPHOR1A",
-      "description": "",
+      "description": "Suspicious group. We did not manage to confirm any victims.",
       "locations": 3,
       "meta": ""
     },
@@ -1518,7 +1518,7 @@
     {
       "name": "ShadowByt3$",
       "description": "ShadowByt3$ is a ransomware-as-a-service group first observed in October 2025, using multi-method extortion and communicating via Telegram and Tox, with a very small confirmed victim list suggesting it remains in early-stage operation.",
-      "locations": 4,
+      "locations": 5,
       "meta": ""
     },
     {
@@ -1668,7 +1668,7 @@
     {
       "name": "apt73",
       "description": "A new ransomware group is said to have emerged in mid-April 2024, under the name 'APT73.' It's worth noting that the group reportedly self-proclaimed as an APT, which stands for 'Advanced Persistent Threat' in the cybersecurity field.<br> <br> According to research, much of the available information about the aforementioned group came from another ransomware group known as LockBit.<BR>Source: http",
-      "locations": 10,
+      "locations": 11,
       "meta": ""
     },
     {
@@ -1902,7 +1902,7 @@
     {
       "name": "chaos",
       "description": "Chaos is a ransomware-as-a-service operation that emerged in early 2025, likely formed by former BlackSuit/Royal members, offering cross-platform ransomware for Windows, Linux, ESXi, and NAS to affiliates recruited on the RAMP dark web forum, excluding CIS/BRICS countries and hospitals from targeting.",
-      "locations": 1,
+      "locations": 2,
       "meta": ""
     },
     {
@@ -2166,7 +2166,7 @@
     {
       "name": "dragonforce",
       "description": "DragonForce is a major ransomware-as-a-service operation first observed in August 2023 that launched a formal affiliate program offering 80% revenue share, then rebranded as a \"ransomware cartel\" in 2025, gaining notoriety for high-profile attacks on UK retailers Marks & Spencer, Co-op, and Harrods.",
-      "locations": 3,
+      "locations": 4,
       "meta": ""
     },
     {
@@ -2280,7 +2280,7 @@
     {
       "name": "funksec",
       "description": "FunkSec is an AI-assisted ransomware-as-a-service group that launched its data leak site in December 2024 and rapidly claimed over 85 victims across government, technology, finance, and education sectors globally, demanding unusually low ransoms and using AI tooling to lower the technical bar for affiliates.",
-      "locations": 7,
+      "locations": 11,
       "meta": ""
     },
     {
@@ -2334,7 +2334,7 @@
     {
       "name": "hellcat",
       "description": "HellCat is a ransomware-as-a-service group that formed in Q4 2024 and quickly became notable for high-profile attacks against Schneider Electric, Telefónica, and Israel's Knesset, primarily gaining initial access via stolen Jira credentials harvested by infostealer malware, targeting critical infrastructure and government entities.",
-      "locations": 6,
+      "locations": 7,
       "meta": ""
     },
     {
@@ -2544,7 +2544,7 @@
     {
       "name": "lockbit3",
       "description": "LockBit, also recognized as LockBit Black or Lockbit 3.0, is one of the largest Ransomware Groups in the world and has orchestrated extensive cyberattacks across various industries, impacting thousands of organizations globally with its relentless and adaptive strategies.",
-      "locations": 36,
+      "locations": 38,
       "meta": ""
     },
     {
@@ -2556,7 +2556,7 @@
     {
       "name": "lockbit5",
       "description": "LockBit 5.0 (\"ChuongDong\") emerged in September 2025 as the group's resurgence following the February 2024 law enforcement takedown, introducing cross-platform payloads targeting Windows, Linux, and VMware ESXi with enhanced evasion capabilities and continuing the RaaS affiliate model of its predecessors.",
-      "locations": 22,
+      "locations": 23,
       "meta": ""
     },
     {
@@ -2664,7 +2664,7 @@
     {
       "name": "medusa",
       "description": "Medusa is a ransomware-as-a-service operation active since June 2021 that has targeted over 300 victims across critical infrastructure sectors including healthcare, education, legal, and manufacturing using double-extortion, with attacks surging 42% between 2023 and 2024 and a formal CISA advisory issued in early 2025.",
-      "locations": 9,
+      "locations": 11,
       "meta": ""
     },
     {
@@ -2770,6 +2770,12 @@
       "meta": ""
     },
     {
+      "name": "nasirsecurity",
+      "description": "Nasir Security is a pro-Iranian threat actor that emerged around October 2025, primarily targeting energy sector organizations in the Middle East (UAE, Oman, Saudi Arabia, Iraq) and Israeli IT supply chain firms, using spear-phishing, BEC, and exploitation of public-facing applications.",
+      "locations": 2,
+      "meta": ""
+    },
+    {
       "name": "nblock",
       "description": "",
       "locations": 1,
@@ -2844,7 +2850,7 @@
     {
       "name": "nova",
       "description": "Nova (formerly RALord) is a ransomware-as-a-service (RaaS) group that encrypts victims’files and uses double-extortion tactics to pressure organizations into paying for decryption and data non-disclosure.",
-      "locations": 9,
+      "locations": 11,
       "meta": ""
     },
     {
@@ -2922,7 +2928,7 @@
     {
       "name": "play",
       "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises.<br> <br> On April 19, 2023, the security company Symantec published two new t",
-      "locations": 3,
+      "locations": 4,
       "meta": ""
     },
     {
@@ -3420,7 +3426,7 @@
     {
       "name": "vect",
       "description": "VECT is a RaaS group that launched its affiliate program in December 2025 with a five-tier revenue-sharing model and a formal partnership with BreachForums; its VECT 2.0 payload contains a critical encryption flaw that irreversibly destroys files larger than 128 KB rather than encrypting them.",
-      "locations": 2,
+      "locations": 3,
       "meta": ""
     },
     {
@@ -3540,11 +3546,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 45,
+    "monitored_victims": 46,
     "unique_groups": 26,
-    "unique_countries": 33,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 29,
+      "United States": 31,
       "Italy": 12,
       "Unknown": 12,
       "Mexico": 6,
@@ -3554,7 +3560,6 @@
       "Spain": 3,
       "Germany": 2,
       "Netherlands": 2,
-      "Canada": 2,
       "Thailand": 2,
       "India": 1,
       "WS": 1,
@@ -3565,6 +3570,7 @@
       "Poland": 1,
       "Brazil": 1,
       "Denmark": 1,
+      "Canada": 1,
       "LV": 1,
       "Switzerland": 1,
       "Indonesia": 1,
@@ -3575,21 +3581,20 @@
       "PE": 1,
       "CZ": 1,
       "AR": 1,
-      "HK": 1,
-      "CY": 1
+      "HK": 1
     },
     "by_group": {
-      "qilin": 18,
-      "thegentlemen": 16,
+      "thegentlemen": 17,
+      "qilin": 17,
       "direwolf": 13,
       "titan": 8,
       "everest": 5,
       "krybit": 5,
-      "incransom": 4,
+      "rhysida": 3,
       "akira": 3,
       "iah6477": 3,
       "Deadlock": 3,
-      "rhysida": 2,
+      "incransom": 3,
       "Panzer": 2,
       "xpl0itrs": 2,
       "play": 2,
@@ -3607,18 +3612,18 @@
       "insomnia": 1
     },
     "by_sector": {
-      "Technology": 17,
       "Manufacturing": 16,
+      "Technology": 16,
       "Other": 13,
       "Not Found": 11,
       "Professional Services": 10,
       "Hospitality": 6,
       "Retail & E-Commerce": 6,
+      "Energy & Utilities": 5,
+      "Transportation": 5,
       "Financial Services": 5,
-      "Energy & Utilities": 4,
-      "Transportation": 4,
-      "Healthcare": 3,
       "Education": 3,
+      "Healthcare": 2,
       "Agriculture and Food Production": 1,
       "Government & Defense": 1
     }
