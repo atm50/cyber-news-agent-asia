@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-22T20:23:02.595404+00:00",
+  "last_updated_utc": "2026-08-22T21:22:28.551856+00:00",
   "victims": [
+    {
+      "victim": "Vietnam Electricity(EVNHANOI)",
+      "group": "emperador",
+      "country": "Vietnam",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-08-22T16:20:45.961955+00:00",
+      "attack_date": "2026-08-22T15:32:00+00:00",
+      "website": "",
+      "description": "Vietnam Electricity (EVN), legally known as Tập đoàn Điện lực Việt Nam, is the largest power company and the sole national electric utility in Vietnam. Fully owned and controlled by the Vietnamese government since its inception in 1994, EVN operates as a vertically integrated monopoly responsible fo",
+      "claim_url": "/post/vietnam-electricityevnhanoi/",
+      "monitored": false
+    },
     {
       "victim": "Integrated Health Systems",
       "group": "coinbasecartel",
@@ -1188,18 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=398be48d-63a4-4708-9788-1ff935ef6de5",
       "monitored": false
-    },
-    {
-      "victim": "Delek US",
-      "group": "Helix",
-      "country": "United States",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-08-19T18:21:04.981569+00:00",
-      "attack_date": "2026-08-19T18:20:48.311104+00:00",
-      "website": "",
-      "description": "Delek US is live. T1 unlocks in 12 hours, then 24 hours per remaining tier.",
-      "claim_url": "http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/p/169f107db2a3ef002d03c665c3adf1f71560d1c5463ef35f720a9d5062f80d4b",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3552,11 +3552,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 51,
-    "unique_groups": 25,
-    "unique_countries": 31,
+    "monitored_victims": 50,
+    "unique_groups": 24,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 31,
+      "United States": 30,
       "Unknown": 13,
       "Italy": 11,
       "Mexico": 5,
@@ -3568,6 +3568,7 @@
       "Germany": 2,
       "Netherlands": 2,
       "United Kingdom": 2,
+      "Vietnam": 1,
       "New Zealand": 1,
       "AR": 1,
       "Israel": 1,
@@ -3599,6 +3600,7 @@
       "rhysida": 3,
       "akira": 3,
       "iah6477": 3,
+      "emperador": 2,
       "spacebears": 2,
       "Panzer": 2,
       "xpl0itrs": 2,
@@ -3609,11 +3611,9 @@
       "anubis": 1,
       "SilentRansomGroup": 1,
       "payload": 1,
-      "emperador": 1,
       "lockbit5": 1,
       "Deadlock": 1,
-      "kairos": 1,
-      "Helix": 1
+      "kairos": 1
     },
     "by_sector": {
       "Technology": 15,
@@ -3623,8 +3623,8 @@
       "Other": 11,
       "Not Found": 10,
       "Hospitality": 6,
-      "Retail & E-Commerce": 5,
       "Energy & Utilities": 5,
+      "Retail & E-Commerce": 5,
       "Healthcare": 4,
       "Transportation": 4,
       "Education": 3,
