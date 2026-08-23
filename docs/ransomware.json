@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-23T20:23:23.366354+00:00",
+  "last_updated_utc": "2026-08-23T21:22:47.591363+00:00",
   "victims": [
     {
       "victim": "Clear Align",
@@ -288,6 +288,18 @@
       "description": "This time the post is about you , not us. Let Mandiant report and advise on us accurately, go away. DISCLAIMER: This information is being provided \"as is\" for informational purposes only. We do not endorse any commercial entity, product, company, or service, including any entities, products, or serv",
       "claim_url": "https://www.ransomware.live/id/UmVsaWFRdWVzdCwgTExDQHNoaW55aHVudGVycw==",
       "monitored": true
+    },
+    {
+      "victim": "Global Go",
+      "group": "killsec",
+      "country": "PE",
+      "sector": "Transportation",
+      "discovered": "2026-08-23T16:20:54.578228+00:00",
+      "attack_date": "2026-08-23T00:00:00+00:00",
+      "website": "",
+      "description": "[AI generated] N/A",
+      "claim_url": "http://ks5424y3wpr5zlug5c7i6svvxweinhbdcqcfnptkfcutrncfazzgz5id.onion/?view=75f4198ee48a",
+      "monitored": false
     },
     {
       "victim": "Euroflora srl",
@@ -1188,18 +1200,6 @@
       "description": "Hospitality",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/99",
       "monitored": true
-    },
-    {
-      "victim": "Aztec Software",
-      "group": "direwolf",
-      "country": "Mexico",
-      "sector": "Technology",
-      "discovered": "2026-08-21T02:29:39.820450+00:00",
-      "attack_date": "2026-08-21T02:17:44.567000+00:00",
-      "website": "",
-      "description": "Engineering Software",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/98",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3553,11 +3553,11 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 18,
-    "unique_countries": 33,
+    "unique_groups": 19,
+    "unique_countries": 34,
     "by_country": {
       "United States": 39,
-      "Mexico": 7,
+      "Mexico": 6,
       "Unknown": 6,
       "Italy": 5,
       "CL": 3,
@@ -3574,6 +3574,7 @@
       "Spain": 1,
       "Pakistan": 1,
       "South Korea": 1,
+      "PE": 1,
       "Switzerland": 1,
       "Vietnam": 1,
       "New Zealand": 1,
@@ -3594,7 +3595,7 @@
       "thegentlemen": 22,
       "qilin": 14,
       "coinbasecartel": 13,
-      "direwolf": 12,
+      "direwolf": 11,
       "kazu": 9,
       "metaencryptor": 6,
       "Storm": 5,
@@ -3604,6 +3605,7 @@
       "emperador": 2,
       "spacebears": 2,
       "majinahanashi": 1,
+      "killsec": 1,
       "incransom": 1,
       "Helix": 1,
       "L Group": 1,
@@ -3615,13 +3617,13 @@
       "Professional Services": 12,
       "Other": 12,
       "Manufacturing": 11,
-      "Technology": 9,
       "Financial Services": 9,
+      "Technology": 8,
       "Energy & Utilities": 7,
       "Not Found": 6,
+      "Transportation": 5,
       "Hospitality": 5,
       "Agriculture and Food Production": 4,
-      "Transportation": 4,
       "Education": 3,
       "Retail & E-Commerce": 1
     }
