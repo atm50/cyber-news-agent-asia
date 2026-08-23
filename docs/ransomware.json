@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-23T17:20:55.208278+00:00",
+  "last_updated_utc": "2026-08-23T18:29:41.061270+00:00",
   "victims": [
     {
       "victim": "Clear Align",
@@ -539,6 +539,18 @@
       "website": "",
       "description": "CRI Electric CRI Electric is a veteran-owned business based in San Antonio, providing professional electrical services since 1998. They cater to both residential and commercial clients, offering services such as emergency electrical repairs, EV charger installations, and home rewiring. We are please",
       "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=264",
+      "monitored": true
+    },
+    {
+      "victim": "compendiumusa.net",
+      "group": "L Group",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-23T13:51:04.128324+00:00",
+      "attack_date": "2026-08-22T00:00:00+00:00",
+      "website": "",
+      "description": "[AI generated] N/A",
+      "claim_url": "http://4zrjdyuq4sjogm2epwwoleegquavhwo3o7fakstnlgox6guqt3qpe4qd.onion/posts/compendiumusa.net/",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "JC Sales is a leading full-service wholesaler based in Los Angeles, California, specializing in\na vast array of wholesale products including health and beauty items, food and beverages, gene\nral merchandise, and seasonal items.\n\nWe will upload 206gb of corporate data soon. Detailed personal employee",
       "claim_url": "https://www.ransomware.live/id/SkMgU2FsZXNAYWtpcmE=",
       "monitored": true
-    },
-    {
-      "victim": "D...",
-      "group": "SilentRansomGroup",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-08-20T20:52:31.218246+00:00",
-      "attack_date": "2026-08-20T20:51:44.285065+00:00",
-      "website": "",
-      "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
-      "claim_url": "https://business-data-leaks.com/about#0417ca7b8c548d47e48d19c85",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3552,13 +3552,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
+    "monitored_victims": 63,
     "unique_groups": 21,
     "unique_countries": 33,
     "by_country": {
-      "United States": 40,
+      "United States": 41,
       "Mexico": 7,
-      "Unknown": 7,
+      "Unknown": 6,
       "CL": 3,
       "Brazil": 3,
       "Canada": 3,
@@ -3606,22 +3606,22 @@
       "majinahanashi": 1,
       "incransom": 1,
       "Helix": 1,
+      "L Group": 1,
       "dragonforce": 1,
       "anubis": 1,
       "Eclipse": 1,
       "Panzer": 1,
-      "akira": 1,
-      "SilentRansomGroup": 1
+      "akira": 1
     },
     "by_sector": {
       "Healthcare": 18,
+      "Professional Services": 11,
       "Manufacturing": 11,
-      "Professional Services": 10,
       "Technology": 10,
       "Other": 10,
       "Financial Services": 9,
-      "Not Found": 8,
       "Energy & Utilities": 7,
+      "Not Found": 7,
       "Hospitality": 5,
       "Transportation": 4,
       "Agriculture and Food Production": 3,
