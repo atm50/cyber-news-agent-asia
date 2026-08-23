@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-23T19:23:08.991628+00:00",
+  "last_updated_utc": "2026-08-23T20:23:23.366354+00:00",
   "victims": [
     {
       "victim": "Clear Align",
@@ -288,6 +288,42 @@
       "description": "This time the post is about you , not us. Let Mandiant report and advise on us accurately, go away. DISCLAIMER: This information is being provided \"as is\" for informational purposes only. We do not endorse any commercial entity, product, company, or service, including any entities, products, or serv",
       "claim_url": "https://www.ransomware.live/id/UmVsaWFRdWVzdCwgTExDQHNoaW55aHVudGVycw==",
       "monitored": true
+    },
+    {
+      "victim": "Euroflora srl",
+      "group": "qilin",
+      "country": "Italy",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-23T16:01:21.608425+00:00",
+      "attack_date": "2026-08-23T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=d84a7b03-b1cb-4442-998a-29759d96f560",
+      "monitored": false
+    },
+    {
+      "victim": "Tecnici Associati STP",
+      "group": "qilin",
+      "country": "Italy",
+      "sector": "Other",
+      "discovered": "2026-08-23T16:00:43.418027+00:00",
+      "attack_date": "2026-08-23T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=605bcb17-be93-4198-b9bd-989d66c1d7e9",
+      "monitored": false
+    },
+    {
+      "victim": "Studio BOLDRIN PAOLO",
+      "group": "qilin",
+      "country": "Italy",
+      "sector": "Professional Services",
+      "discovered": "2026-08-23T15:27:29.725585+00:00",
+      "attack_date": "2026-08-23T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=81079a29-ab55-4c4e-a6ce-317fca6ccb5c",
+      "monitored": false
     },
     {
       "victim": "Aurore Development S.p.A.",
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "Engineering Software",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/98",
-      "monitored": false
-    },
-    {
-      "victim": "NorthStar",
-      "group": "direwolf",
-      "country": "Canada",
-      "sector": "Not Found",
-      "discovered": "2026-08-21T02:30:11.201341+00:00",
-      "attack_date": "2026-08-21T02:05:29.519000+00:00",
-      "website": "",
-      "description": "Enterprise Resource Planning",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/97",
-      "monitored": true
-    },
-    {
-      "victim": "Crystal Pharmatech",
-      "group": "Eclipse",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-23T06:35:47.440384+00:00",
-      "attack_date": "2026-08-21T00:00:00+00:00",
-      "website": "",
-      "description": "Crystal Pharmatech is a technology-driven contract research organization (CRO) that focuses on materials science and engineering for drug development. Established in 2010 and have R&D centers located in Suzhou (China), New Jersey, San Francisco (USA), and Toronto (Canada). Also its key differentiato",
-      "claim_url": "http://eclipse4g5kxfwsvpu4qx5sdcnrji6gxl5gt67bucjlgt35g7akvjoid.onion/place/yy08u95pmobxkhor/",
-      "monitored": true
-    },
-    {
-      "victim": "Nteitalia",
-      "group": "Panzer",
-      "country": "Italy",
-      "sector": "Technology",
-      "discovered": "2026-08-21T16:51:22.138601+00:00",
-      "attack_date": "2026-08-21T00:00:00+00:00",
-      "website": "",
-      "description": "NTE Italia, an engineering and telecommunications service provider based in Catanzaro, Italy. Sensitive thousands of documents are compromised.",
-      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/nteitalia",
       "monitored": false
     }
   ],
@@ -3552,20 +3552,20 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
-    "unique_groups": 20,
+    "monitored_victims": 60,
+    "unique_groups": 18,
     "unique_countries": 33,
     "by_country": {
-      "United States": 40,
+      "United States": 39,
       "Mexico": 7,
       "Unknown": 6,
+      "Italy": 5,
       "CL": 3,
       "Brazil": 3,
-      "Canada": 3,
       "Germany": 3,
-      "Italy": 3,
       "United Arab Emirates": 3,
       "AR": 2,
+      "Canada": 2,
       "Japan": 2,
       "France": 2,
       "Indonesia": 2,
@@ -3592,9 +3592,9 @@
     },
     "by_group": {
       "thegentlemen": 22,
+      "qilin": 14,
       "coinbasecartel": 13,
-      "direwolf": 13,
-      "qilin": 11,
+      "direwolf": 12,
       "kazu": 9,
       "metaencryptor": 6,
       "Storm": 5,
@@ -3608,22 +3608,20 @@
       "Helix": 1,
       "L Group": 1,
       "dragonforce": 1,
-      "anubis": 1,
-      "Eclipse": 1,
-      "Panzer": 1
+      "anubis": 1
     },
     "by_sector": {
-      "Healthcare": 18,
-      "Professional Services": 11,
+      "Healthcare": 17,
+      "Professional Services": 12,
+      "Other": 12,
       "Manufacturing": 11,
-      "Other": 11,
-      "Technology": 10,
+      "Technology": 9,
       "Financial Services": 9,
       "Energy & Utilities": 7,
-      "Not Found": 7,
+      "Not Found": 6,
       "Hospitality": 5,
+      "Agriculture and Food Production": 4,
       "Transportation": 4,
-      "Agriculture and Food Production": 3,
       "Education": 3,
       "Retail & E-Commerce": 1
     }
