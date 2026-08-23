@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-23T05:30:13.253879+00:00",
+  "last_updated_utc": "2026-08-23T06:41:00.767685+00:00",
   "victims": [
+    {
+      "victim": "ReliaQuest, LLC",
+      "group": "shinyhunters",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-23T02:27:36.597005+00:00",
+      "attack_date": "2026-08-23T02:27:34.498343+00:00",
+      "website": "",
+      "description": "This time the post is about you , not us. Let Mandiant report and advise on us accurately, go away. DISCLAIMER: This information is being provided \"as is\" for informational purposes only. We do not endorse any commercial entity, product, company, or service, including any entities, products, or serv",
+      "claim_url": "https://www.ransomware.live/id/UmVsaWFRdWVzdCwgTExDQHNoaW55aHVudGVycw==",
+      "monitored": true
+    },
     {
       "victim": "el-group",
       "group": "incransom",
@@ -1188,18 +1200,6 @@
       "description": "Cascade Coffee is a premier gourmet coffee contract manufacturer based near Seattle, Washington\n, specializing in roasting, grinding, flavoring, and packaging coffee. The company caters to so\nme of the world's finest coffee brands, providing a wide range of products including whole bean\n, ground, fl",
       "claim_url": "https://www.ransomware.live/id/Q2FzY2FkZSBDb2ZmZWVAYWtpcmE=",
       "monitored": true
-    },
-    {
-      "victim": "Deas Millwork",
-      "group": "akira",
-      "country": "",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-20T13:51:49.510889+00:00",
-      "attack_date": "2026-08-20T00:00:00+00:00",
-      "website": "",
-      "description": "Deas Millwork specializes in architectural design elements, offering custom millwork solutions \nfor various projects. They focus on creating high-quality craftsmanship that serves as the cent\nerpiece of any design.\n\nWe will upload corporate data soon. Employee personal information (passports, DLs, a",
-      "claim_url": "https://www.ransomware.live/id/RGVhcyBNaWxsd29ya0Bha2lyYQ==",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3552,12 +3552,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 51,
+    "monitored_victims": 52,
     "unique_groups": 26,
     "unique_countries": 32,
     "by_country": {
-      "United States": 31,
-      "Unknown": 13,
+      "United States": 32,
+      "Unknown": 12,
       "Italy": 11,
       "Mexico": 5,
       "France": 4,
@@ -3596,13 +3596,13 @@
       "qilin": 9,
       "titan": 8,
       "everest": 5,
-      "shinyhunters": 3,
+      "shinyhunters": 4,
       "rhysida": 3,
-      "akira": 3,
       "iah6477": 3,
       "emperador": 2,
       "spacebears": 2,
       "Panzer": 2,
+      "akira": 2,
       "xpl0itrs": 2,
       "play": 2,
       "majinahanashi": 2,
@@ -3618,11 +3618,11 @@
       "kairos": 1
     },
     "by_sector": {
-      "Technology": 14,
-      "Manufacturing": 12,
+      "Technology": 15,
       "Other": 11,
       "Financial Services": 11,
       "Professional Services": 11,
+      "Manufacturing": 11,
       "Not Found": 10,
       "Energy & Utilities": 6,
       "Hospitality": 6,
