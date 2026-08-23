@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-23T03:03:51.624647+00:00",
+  "last_updated_utc": "2026-08-23T04:37:18.717505+00:00",
   "victims": [
+    {
+      "victim": "el-group",
+      "group": "incransom",
+      "country": "Switzerland",
+      "sector": "Other",
+      "discovered": "2026-08-22T22:54:30.808147+00:00",
+      "attack_date": "2026-08-22T22:22:00+00:00",
+      "website": "",
+      "description": "Unauthorized access has been gained to the company's confidential files, including client data, proprietary R&D, and financial documentation.",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a8979d59cd108bf26069fa7",
+      "monitored": false
+    },
     {
       "victim": "AmSpec",
       "group": "Helix",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Deas Millwork specializes in architectural design elements, offering custom millwork solutions \nfor various projects. They focus on creating high-quality craftsmanship that serves as the cent\nerpiece of any design.\n\nWe will upload corporate data soon. Employee personal information (passports, DLs, a",
       "claim_url": "https://www.ransomware.live/id/RGVhcyBNaWxsd29ya0Bha2lyYQ==",
-      "monitored": false
-    },
-    {
-      "victim": "Provite",
-      "group": "qilin",
-      "country": "Netherlands",
-      "sector": "Technology",
-      "discovered": "2026-08-20T08:57:24.581425+00:00",
-      "attack_date": "2026-08-20T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=941da7fa-6ff3-452c-9127-15fa05660c79",
       "monitored": false
     }
   ],
@@ -3553,7 +3553,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 51,
-    "unique_groups": 25,
+    "unique_groups": 26,
     "unique_countries": 32,
     "by_country": {
       "United States": 31,
@@ -3563,9 +3563,9 @@
       "France": 4,
       "Indonesia": 3,
       "United Arab Emirates": 3,
+      "Switzerland": 2,
       "Philippines": 2,
       "Germany": 2,
-      "Netherlands": 2,
       "United Kingdom": 2,
       "Spain": 2,
       "Vietnam": 1,
@@ -3583,9 +3583,9 @@
       "Poland": 1,
       "Brazil": 1,
       "Denmark": 1,
+      "Netherlands": 1,
       "Canada": 1,
       "LV": 1,
-      "Switzerland": 1,
       "South Africa": 1,
       "JM": 1
     },
@@ -3593,7 +3593,7 @@
       "thegentlemen": 17,
       "coinbasecartel": 13,
       "direwolf": 13,
-      "qilin": 10,
+      "qilin": 9,
       "titan": 8,
       "everest": 5,
       "shinyhunters": 3,
@@ -3607,6 +3607,7 @@
       "play": 2,
       "majinahanashi": 2,
       "pear": 2,
+      "incransom": 1,
       "Helix": 1,
       "dragonforce": 1,
       "anubis": 1,
@@ -3617,12 +3618,12 @@
       "kairos": 1
     },
     "by_sector": {
-      "Technology": 15,
+      "Technology": 14,
       "Manufacturing": 12,
+      "Other": 11,
       "Financial Services": 11,
       "Professional Services": 11,
       "Not Found": 10,
-      "Other": 10,
       "Energy & Utilities": 6,
       "Hospitality": 6,
       "Retail & E-Commerce": 5,
