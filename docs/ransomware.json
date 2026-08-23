@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-23T15:23:14.739551+00:00",
+  "last_updated_utc": "2026-08-23T16:25:33.062729+00:00",
   "victims": [
+    {
+      "victim": "FRUCASTRO SL",
+      "group": "emperador",
+      "country": "Spain",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-23T12:20:48.380196+00:00",
+      "attack_date": "2026-08-23T11:40:00+00:00",
+      "website": "",
+      "description": "Recent databases, important documents [Size: 540.1 MB | Sector: Manufacturing]",
+      "claim_url": "/post/frucastro-sl/",
+      "monitored": false
+    },
     {
       "victim": "PappyJoe: Healthcare Management System",
       "group": "kazu",
@@ -676,14 +688,14 @@
     {
       "victim": "Volktek",
       "group": "thegentlemen",
-      "country": "Singapore",
+      "country": "Taiwan",
       "sector": "Technology",
       "discovered": "2026-08-23T06:33:10.588556+00:00",
       "attack_date": "2026-08-21T08:35:48+00:00",
       "website": "",
       "description": "volktek.com zoominfo.com/c/volktek-corp/161873991 Volktek is a leading Taiwanese manufacturer established in 1994, specializing in high-performance industrial networking and Ethernet solutions.\nThey design and produce a wide range of robust equipment, including industrial Ethernet switches, PoE devi",
       "claim_url": "https://www.ransomware.live/id/Vm9sa3Rla0B0aGVnZW50bGVtZW4=",
-      "monitored": true
+      "monitored": false
     },
     {
       "victim": "Layher",
@@ -1151,18 +1163,6 @@
       "website": "",
       "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
       "claim_url": "https://business-data-leaks.com/about#0417ca7b8c548d47e48d19c85",
-      "monitored": false
-    },
-    {
-      "victim": "Gruppo Spaggiari Parma",
-      "group": "xpl0itrs",
-      "country": "Italy",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-20T19:31:43.321420+00:00",
-      "attack_date": "2026-08-20T19:31:25.293462+00:00",
-      "website": "",
-      "description": "School management software",
-      "claim_url": "http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/spaggiari/",
       "monitored": false
     },
     {
@@ -3552,9 +3552,9 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
-    "unique_groups": 23,
-    "unique_countries": 31,
+    "monitored_victims": 63,
+    "unique_groups": 22,
+    "unique_countries": 32,
     "by_country": {
       "United States": 41,
       "Unknown": 8,
@@ -3562,7 +3562,6 @@
       "Brazil": 3,
       "Canada": 3,
       "Germany": 3,
-      "Italy": 3,
       "United Arab Emirates": 3,
       "AR": 2,
       "Japan": 2,
@@ -3570,6 +3569,8 @@
       "Indonesia": 2,
       "India": 2,
       "CL": 2,
+      "Italy": 2,
+      "Spain": 1,
       "Pakistan": 1,
       "South Korea": 1,
       "Switzerland": 1,
@@ -3579,7 +3580,7 @@
       "Israel": 1,
       "CZ": 1,
       "China": 1,
-      "Singapore": 1,
+      "Taiwan": 1,
       "WS": 1,
       "BZ": 1,
       "Norway": 1,
@@ -3600,23 +3601,22 @@
       "shinyhunters": 3,
       "rhysida": 3,
       "iah6477": 3,
+      "emperador": 2,
       "spacebears": 2,
       "majinahanashi": 1,
       "incransom": 1,
       "Helix": 1,
-      "emperador": 1,
       "dragonforce": 1,
       "anubis": 1,
       "Eclipse": 1,
       "Panzer": 1,
       "akira": 1,
-      "SilentRansomGroup": 1,
-      "xpl0itrs": 1
+      "SilentRansomGroup": 1
     },
     "by_sector": {
       "Healthcare": 18,
-      "Manufacturing": 11,
       "Other": 10,
+      "Manufacturing": 10,
       "Technology": 10,
       "Financial Services": 10,
       "Professional Services": 9,
@@ -3624,9 +3624,9 @@
       "Energy & Utilities": 7,
       "Hospitality": 5,
       "Transportation": 4,
+      "Agriculture and Food Production": 3,
       "Retail & E-Commerce": 3,
-      "Education": 3,
-      "Agriculture and Food Production": 2
+      "Education": 3
     }
   },
   "errors": []
