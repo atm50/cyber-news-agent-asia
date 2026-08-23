@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-23T18:29:41.061270+00:00",
+  "last_updated_utc": "2026-08-23T19:23:08.991628+00:00",
   "victims": [
     {
       "victim": "Clear Align",
@@ -288,6 +288,18 @@
       "description": "This time the post is about you , not us. Let Mandiant report and advise on us accurately, go away. DISCLAIMER: This information is being provided \"as is\" for informational purposes only. We do not endorse any commercial entity, product, company, or service, including any entities, products, or serv",
       "claim_url": "https://www.ransomware.live/id/UmVsaWFRdWVzdCwgTExDQHNoaW55aHVudGVycw==",
       "monitored": true
+    },
+    {
+      "victim": "Aurore Development S.p.A.",
+      "group": "qilin",
+      "country": "Italy",
+      "sector": "Other",
+      "discovered": "2026-08-23T14:58:25.791136+00:00",
+      "attack_date": "2026-08-23T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3f4a1190-8da1-4306-9b22-1bf89595987e",
+      "monitored": false
     },
     {
       "victim": "el-group",
@@ -1188,18 +1200,6 @@
       "description": "NTE Italia, an engineering and telecommunications service provider based in Catanzaro, Italy. Sensitive thousands of documents are compromised.",
       "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/nteitalia",
       "monitored": false
-    },
-    {
-      "victim": "JC Sales",
-      "group": "akira",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-21T13:21:20.842951+00:00",
-      "attack_date": "2026-08-21T00:00:00+00:00",
-      "website": "",
-      "description": "JC Sales is a leading full-service wholesaler based in Los Angeles, California, specializing in\na vast array of wholesale products including health and beauty items, food and beverages, gene\nral merchandise, and seasonal items.\n\nWe will upload 206gb of corporate data soon. Detailed personal employee",
-      "claim_url": "https://www.ransomware.live/id/SkMgU2FsZXNAYWtpcmE=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3552,24 +3552,24 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
-    "unique_groups": 21,
+    "monitored_victims": 62,
+    "unique_groups": 20,
     "unique_countries": 33,
     "by_country": {
-      "United States": 41,
+      "United States": 40,
       "Mexico": 7,
       "Unknown": 6,
       "CL": 3,
       "Brazil": 3,
       "Canada": 3,
       "Germany": 3,
+      "Italy": 3,
       "United Arab Emirates": 3,
       "AR": 2,
       "Japan": 2,
       "France": 2,
       "Indonesia": 2,
       "India": 2,
-      "Italy": 2,
       "QA": 1,
       "Spain": 1,
       "Pakistan": 1,
@@ -3594,7 +3594,7 @@
       "thegentlemen": 22,
       "coinbasecartel": 13,
       "direwolf": 13,
-      "qilin": 10,
+      "qilin": 11,
       "kazu": 9,
       "metaencryptor": 6,
       "Storm": 5,
@@ -3610,15 +3610,14 @@
       "dragonforce": 1,
       "anubis": 1,
       "Eclipse": 1,
-      "Panzer": 1,
-      "akira": 1
+      "Panzer": 1
     },
     "by_sector": {
       "Healthcare": 18,
       "Professional Services": 11,
       "Manufacturing": 11,
+      "Other": 11,
       "Technology": 10,
-      "Other": 10,
       "Financial Services": 9,
       "Energy & Utilities": 7,
       "Not Found": 7,
@@ -3626,7 +3625,7 @@
       "Transportation": 4,
       "Agriculture and Food Production": 3,
       "Education": 3,
-      "Retail & E-Commerce": 2
+      "Retail & E-Commerce": 1
     }
   },
   "errors": []
