@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-24T01:16:58.297133+00:00",
+  "last_updated_utc": "2026-08-24T03:04:05.192017+00:00",
   "victims": [
+    {
+      "victim": "Westwing Group SE",
+      "group": "coinbasecartel",
+      "country": "Germany",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-23T21:26:15.633976+00:00",
+      "attack_date": "2026-08-23T21:25:53.204353+00:00",
+      "website": "",
+      "description": "[AI generated] Westwing Group SE is a German e-commerce company specializing in home and living products. Founded in 2011 and headquartered in Munich, Germany, it operates an online platform offering curated furniture, décor, and lifestyle products. The company serves customers across multiple Europ",
+      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/westwing-2",
+      "monitored": true
+    },
     {
       "victim": "S.E.M.P. s.r.l.",
       "group": "qilin",
@@ -1188,18 +1200,6 @@
       "description": "Jewelry &amp; Watch Retail",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/102",
       "monitored": false
-    },
-    {
-      "victim": "Authenticate Information Systems",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-08-21T02:28:02.005161+00:00",
-      "attack_date": "2026-08-21T02:18:51.438000+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/101",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3556,13 +3556,13 @@
     "unique_groups": 19,
     "unique_countries": 33,
     "by_country": {
-      "United States": 39,
+      "United States": 38,
       "Italy": 6,
       "Mexico": 6,
       "Unknown": 6,
+      "Germany": 4,
       "CL": 3,
       "Brazil": 3,
-      "Germany": 3,
       "United Arab Emirates": 3,
       "AR": 2,
       "Canada": 2,
@@ -3593,9 +3593,9 @@
     "by_group": {
       "thegentlemen": 22,
       "qilin": 15,
-      "coinbasecartel": 13,
+      "coinbasecartel": 14,
       "kazu": 9,
-      "direwolf": 9,
+      "direwolf": 8,
       "metaencryptor": 6,
       "Storm": 5,
       "shinyhunters": 4,
@@ -3617,14 +3617,14 @@
       "Professional Services": 12,
       "Other": 11,
       "Financial Services": 9,
-      "Technology": 8,
+      "Technology": 7,
       "Energy & Utilities": 7,
       "Not Found": 6,
       "Transportation": 5,
       "Hospitality": 5,
       "Agriculture and Food Production": 4,
       "Education": 3,
-      "Retail & E-Commerce": 1
+      "Retail & E-Commerce": 2
     }
   },
   "errors": []
