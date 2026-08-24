@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-23T23:21:50.877491+00:00",
+  "last_updated_utc": "2026-08-24T01:16:58.297133+00:00",
   "victims": [
     {
       "victim": "S.E.M.P. s.r.l.",
@@ -60,6 +60,18 @@
       "description": "Recent databases, important documents [Size: 540.1 MB | Sector: Manufacturing]",
       "claim_url": "/post/frucastro-sl/",
       "monitored": false
+    },
+    {
+      "victim": "CyrusOne, LLC.",
+      "group": "shinyhunters",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-08-23T20:27:42.698495+00:00",
+      "attack_date": "2026-08-23T11:10:00+00:00",
+      "website": "",
+      "description": "Update 23 Aug : We are removing the clients name off this post. They are refusing to pay a $13 million demand. They have 24 hours left to engage with us. We hold 12.9 million Salesforce records along with: Sharepoint:\n(369.6 GB Compressed / 645 GB Uncompressed)\n288,729 Files, 60,513 Folders\n\n- More ",
+      "claim_url": "https://www.ransomware.live/id/Q3lydXNPbmUsIExMQy5Ac2hpbnlodW50ZXJz",
+      "monitored": true
     },
     {
       "victim": "PappyJoe: Healthcare Management System",
@@ -1188,18 +1200,6 @@
       "description": "[AI generated] N/A",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/101",
       "monitored": true
-    },
-    {
-      "victim": "ProSim Aviation Research",
-      "group": "direwolf",
-      "country": "Netherlands",
-      "sector": "Technology",
-      "discovered": "2026-08-21T02:28:35.988894+00:00",
-      "attack_date": "2026-08-21T02:18:32.517000+00:00",
-      "website": "",
-      "description": "Engineering Software",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/100",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3552,11 +3552,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 59,
+    "monitored_victims": 60,
     "unique_groups": 19,
-    "unique_countries": 34,
+    "unique_countries": 33,
     "by_country": {
-      "United States": 38,
+      "United States": 39,
       "Italy": 6,
       "Mexico": 6,
       "Unknown": 6,
@@ -3588,19 +3588,18 @@
       "Norway": 1,
       "Austria": 1,
       "Poland": 1,
-      "Denmark": 1,
-      "Netherlands": 1
+      "Denmark": 1
     },
     "by_group": {
       "thegentlemen": 22,
       "qilin": 15,
       "coinbasecartel": 13,
-      "direwolf": 10,
       "kazu": 9,
+      "direwolf": 9,
       "metaencryptor": 6,
       "Storm": 5,
+      "shinyhunters": 4,
       "Barracuda": 3,
-      "shinyhunters": 3,
       "rhysida": 3,
       "emperador": 2,
       "spacebears": 2,
