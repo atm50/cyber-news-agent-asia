@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-24T15:39:53.126265+00:00",
+  "last_updated_utc": "2026-08-24T16:39:00.217448+00:00",
   "victims": [
     {
       "victim": "resi.com",
@@ -12,6 +12,30 @@
       "description": "Resi is a UK-based online architectural and home renovation platform founded in 2017 by Alexandra Depledge and Jules Col...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/94e954f9fa4095799dede0c689e6d6b51ddddaff16d44b75cf49ba265dc3a79a/",
       "monitored": true
+    },
+    {
+      "victim": "Senvibe",
+      "group": "Panzer",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-08-24T12:21:38.939396+00:00",
+      "attack_date": "2026-08-24T00:00:00+00:00",
+      "website": "",
+      "description": "SENVIBE project is to improve and build national educational capacities, cooperation and competences in dealing with environmental and occupational noise and vibration (No&Vib) engineering issues in accordance with ongoing EU integration strategies and the needs identified in Serbia.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/senvibe",
+      "monitored": false
+    },
+    {
+      "victim": "A&E + SMA Design",
+      "group": "qilin",
+      "country": "United Arab Emirates",
+      "sector": "Professional Services",
+      "discovered": "2026-08-24T11:29:02.292660+00:00",
+      "attack_date": "2026-08-24T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=a856aee8-ed3d-46cd-9bb3-4927bb0fc8d2",
+      "monitored": false
     },
     {
       "victim": "Westwing Group SE",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "[AI generated] N/A",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/107",
-      "monitored": true
-    },
-    {
-      "victim": "Allstar Industries",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-21T02:25:53.441478+00:00",
-      "attack_date": "2026-08-21T02:20:28.442000+00:00",
-      "website": "",
-      "description": "Business Services",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/106",
-      "monitored": true
-    },
-    {
-      "victim": "Deer Creek-Mackinaw CUSD",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-08-21T02:26:25.037171+00:00",
-      "attack_date": "2026-08-21T02:20:12.703000+00:00",
-      "website": "",
-      "description": "Education",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/105",
       "monitored": true
     }
   ],
@@ -3552,18 +3552,18 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
-    "unique_groups": 20,
+    "monitored_victims": 60,
+    "unique_groups": 21,
     "unique_countries": 34,
     "by_country": {
-      "United States": 38,
+      "United States": 36,
+      "Unknown": 6,
       "Italy": 6,
       "Germany": 5,
       "Mexico": 5,
-      "Unknown": 5,
+      "United Arab Emirates": 4,
       "CL": 3,
       "Brazil": 3,
-      "United Arab Emirates": 3,
       "AR": 2,
       "Canada": 2,
       "Japan": 2,
@@ -3593,18 +3593,19 @@
     },
     "by_group": {
       "thegentlemen": 22,
-      "qilin": 15,
+      "qilin": 16,
       "coinbasecartel": 14,
       "kazu": 9,
       "Storm": 6,
       "metaencryptor": 6,
-      "direwolf": 6,
       "shinyhunters": 4,
+      "direwolf": 4,
       "Barracuda": 3,
       "rhysida": 3,
       "emperador": 2,
       "spacebears": 2,
       "krybit": 1,
+      "Panzer": 1,
       "majinahanashi": 1,
       "killsec": 1,
       "incransom": 1,
@@ -3615,18 +3616,18 @@
     },
     "by_sector": {
       "Healthcare": 17,
-      "Manufacturing": 12,
-      "Professional Services": 12,
+      "Professional Services": 13,
+      "Manufacturing": 11,
       "Other": 10,
       "Financial Services": 9,
-      "Technology": 7,
+      "Technology": 8,
       "Energy & Utilities": 7,
       "Transportation": 6,
       "Not Found": 6,
       "Agriculture and Food Production": 4,
       "Hospitality": 4,
       "Retail & E-Commerce": 3,
-      "Education": 3
+      "Education": 2
     }
   },
   "errors": []
