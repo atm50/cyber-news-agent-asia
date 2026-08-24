@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-24T16:39:00.217448+00:00",
+  "last_updated_utc": "2026-08-24T17:31:53.343414+00:00",
   "victims": [
+    {
+      "victim": "Federis Abogados",
+      "group": "Booba Project",
+      "country": "Mexico",
+      "sector": "Professional Services",
+      "discovered": "2026-08-24T13:20:21.987922+00:00",
+      "attack_date": "2026-08-24T13:01:53.086000+00:00",
+      "website": "",
+      "description": "Law Practice Stolen data: 61 GB.",
+      "claim_url": "https://www.ransomware.live/id/RmVkZXJpcyBBYm9nYWRvc0BCb29iYSBQcm9qZWN0",
+      "monitored": false
+    },
     {
       "victim": "resi.com",
       "group": "krybit",
@@ -1188,18 +1200,6 @@
       "description": "Building Materials",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/108",
       "monitored": false
-    },
-    {
-      "victim": "HP Carriers",
-      "group": "direwolf",
-      "country": "United States",
-      "sector": "Transportation",
-      "discovered": "2026-08-21T02:25:21.518145+00:00",
-      "attack_date": "2026-08-21T02:20:44.311000+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/107",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3552,15 +3552,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
-    "unique_groups": 21,
+    "monitored_victims": 59,
+    "unique_groups": 22,
     "unique_countries": 34,
     "by_country": {
-      "United States": 36,
+      "United States": 35,
+      "Mexico": 6,
       "Unknown": 6,
       "Italy": 6,
       "Germany": 5,
-      "Mexico": 5,
       "United Arab Emirates": 4,
       "CL": 3,
       "Brazil": 3,
@@ -3599,11 +3599,12 @@
       "Storm": 6,
       "metaencryptor": 6,
       "shinyhunters": 4,
-      "direwolf": 4,
       "Barracuda": 3,
       "rhysida": 3,
+      "direwolf": 3,
       "emperador": 2,
       "spacebears": 2,
+      "Booba Project": 1,
       "krybit": 1,
       "Panzer": 1,
       "majinahanashi": 1,
@@ -3616,14 +3617,14 @@
     },
     "by_sector": {
       "Healthcare": 17,
-      "Professional Services": 13,
+      "Professional Services": 14,
       "Manufacturing": 11,
       "Other": 10,
       "Financial Services": 9,
       "Technology": 8,
       "Energy & Utilities": 7,
-      "Transportation": 6,
       "Not Found": 6,
+      "Transportation": 5,
       "Agriculture and Food Production": 4,
       "Hospitality": 4,
       "Retail & E-Commerce": 3,
