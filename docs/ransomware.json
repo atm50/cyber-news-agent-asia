@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-24T04:44:19.949170+00:00",
+  "last_updated_utc": "2026-08-24T05:39:00.118865+00:00",
   "victims": [
+    {
+      "victim": "resi.com",
+      "group": "krybit",
+      "country": "Germany",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-08-24T00:54:35.293077+00:00",
+      "attack_date": "2026-08-24T00:54:16.482468+00:00",
+      "website": "",
+      "description": "Resi is a UK-based online architectural and home renovation platform founded in 2017 by Alexandra Depledge and Jules Col...",
+      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/94e954f9fa4095799dede0c689e6d6b51ddddaff16d44b75cf49ba265dc3a79a/",
+      "monitored": true
+    },
     {
       "victim": "Westwing Group SE",
       "group": "coinbasecartel",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Business Services",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/103",
-      "monitored": false
-    },
-    {
-      "victim": "Diaco Global",
-      "group": "direwolf",
-      "country": "",
-      "sector": "Other",
-      "discovered": "2026-08-21T02:27:28.504869+00:00",
-      "attack_date": "2026-08-21T02:19:32.079000+00:00",
-      "website": "",
-      "description": "Jewelry &amp; Watch Retail",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/102",
       "monitored": false
     }
   ],
@@ -3552,15 +3552,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
-    "unique_groups": 19,
+    "monitored_victims": 61,
+    "unique_groups": 20,
     "unique_countries": 33,
     "by_country": {
       "United States": 38,
       "Italy": 6,
       "Mexico": 6,
-      "Unknown": 6,
-      "Germany": 4,
+      "Germany": 5,
+      "Unknown": 5,
       "CL": 3,
       "Brazil": 3,
       "United Arab Emirates": 3,
@@ -3595,7 +3595,7 @@
       "qilin": 15,
       "coinbasecartel": 14,
       "kazu": 9,
-      "direwolf": 8,
+      "direwolf": 7,
       "metaencryptor": 6,
       "Storm": 5,
       "shinyhunters": 4,
@@ -3603,6 +3603,7 @@
       "rhysida": 3,
       "emperador": 2,
       "spacebears": 2,
+      "krybit": 1,
       "majinahanashi": 1,
       "killsec": 1,
       "incransom": 1,
@@ -3615,7 +3616,7 @@
       "Healthcare": 17,
       "Manufacturing": 12,
       "Professional Services": 12,
-      "Other": 11,
+      "Other": 10,
       "Financial Services": 9,
       "Technology": 7,
       "Energy & Utilities": 7,
@@ -3623,8 +3624,8 @@
       "Transportation": 5,
       "Hospitality": 5,
       "Agriculture and Food Production": 4,
-      "Education": 3,
-      "Retail & E-Commerce": 2
+      "Retail & E-Commerce": 3,
+      "Education": 3
     }
   },
   "errors": []
