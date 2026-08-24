@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-24T11:28:56.056060+00:00",
+  "last_updated_utc": "2026-08-24T12:50:48.062293+00:00",
   "victims": [
     {
       "victim": "resi.com",
@@ -23,18 +23,6 @@
       "website": "",
       "description": "[AI generated] Westwing Group SE is a German e-commerce company specializing in home and living products. Founded in 2011 and headquartered in Munich, Germany, it operates an online platform offering curated furniture, décor, and lifestyle products. The company serves customers across multiple Europ",
       "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/westwing-2",
-      "monitored": true
-    },
-    {
-      "victim": "City of Mitchell",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Government & Defense",
-      "discovered": "2026-08-24T04:51:29.575481+00:00",
-      "attack_date": "2026-08-23T19:58:46+00:00",
-      "website": "",
-      "description": "Mitchell is a city in and the county seat of Davison County, South Dakota, United States. Mitchell is the principal city of the Mitchell Micropolitan Statistical Area, which includes all of Davison and Hanson counties. \nThe company headquarters is located in 612 N Main Street, Mitchell, SD 57301, Un",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a8b50f6bcb899d105729a11",
       "monitored": true
     },
     {
@@ -1199,6 +1187,18 @@
       "website": "",
       "description": "Business Services",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/106",
+      "monitored": true
+    },
+    {
+      "victim": "Deer Creek-Mackinaw CUSD",
+      "group": "direwolf",
+      "country": "United States",
+      "sector": "Education",
+      "discovered": "2026-08-21T02:26:25.037171+00:00",
+      "attack_date": "2026-08-21T02:20:12.703000+00:00",
+      "website": "",
+      "description": "Education",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/105",
       "monitored": true
     }
   ],
@@ -3596,9 +3596,9 @@
       "qilin": 15,
       "coinbasecartel": 14,
       "kazu": 9,
-      "Storm": 7,
+      "Storm": 6,
       "metaencryptor": 6,
-      "direwolf": 5,
+      "direwolf": 6,
       "shinyhunters": 4,
       "Barracuda": 3,
       "rhysida": 3,
@@ -3626,8 +3626,7 @@
       "Agriculture and Food Production": 4,
       "Hospitality": 4,
       "Retail & E-Commerce": 3,
-      "Education": 2,
-      "Government & Defense": 1
+      "Education": 3
     }
   },
   "errors": []
