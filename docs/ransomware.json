@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-25T22:28:11.345036+00:00",
+  "last_updated_utc": "2026-08-25T23:25:53.065475+00:00",
   "victims": [
+    {
+      "victim": "SC PaderTeG Cabluri Electrice",
+      "group": "qilin",
+      "country": "RO",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-25T19:00:00.001606+00:00",
+      "attack_date": "2026-08-25T18:59:27.606894+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=67b118f1-0db6-4685-95b4-8dcd8bff0d5d",
+      "monitored": false
+    },
     {
       "victim": "Tiseo Paving",
       "group": "Global Secret Group",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Founded in 1962 and headquartered in Grand Rapids, MI, Autodie LLC is a company that specializes in design and manufacture large-scale dies for metal stamping. \nThe company headquarters is located in 44 Coldbrook Street NW, Grand Rapids, MI 49503, United States. 201-500 Employees",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a888b0c6b6c8d90d8d37468",
-      "monitored": true
-    },
-    {
-      "victim": "Pinnacle Hospital",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-23T06:42:15.540955+00:00",
-      "attack_date": "2026-08-21T17:24:52+00:00",
-      "website": "",
-      "description": "Pinnacle Healthcare / Pinnacle Hospital is a physician-owned, patient-centered healthcare organization operating an 18-bed acute care hospital in Crown Point, Indiana. The company provides a wide range of medical and surgical services through a network of more than 150 physicians and medical special",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a8889e46b6c8d90d8d37467",
       "monitored": true
     }
   ],
@@ -3552,11 +3552,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
+    "monitored_victims": 63,
     "unique_groups": 31,
     "unique_countries": 33,
     "by_country": {
-      "United States": 35,
+      "United States": 34,
       "Unknown": 10,
       "Italy": 7,
       "Germany": 6,
@@ -3565,10 +3565,10 @@
       "AR": 3,
       "Brazil": 3,
       "Mexico": 3,
+      "RO": 2,
       "United Kingdom": 2,
       "United Arab Emirates": 2,
       "Malaysia": 1,
-      "RO": 1,
       "South Africa": 1,
       "Russia": 1,
       "RS": 1,
@@ -3591,17 +3591,17 @@
       "China": 1
     },
     "by_group": {
+      "qilin": 14,
       "coinbasecartel": 14,
-      "qilin": 13,
       "kazu": 9,
       "Dark Project": 6,
       "metaencryptor": 6,
       "dragonforce": 4,
       "Booba Project": 4,
-      "Storm": 4,
       "shinyhunters": 4,
       "Global Secret Group": 3,
       "akira": 3,
+      "Storm": 3,
       "Barracuda": 3,
       "direwolf": 2,
       "ShadowByt3$": 2,
@@ -3624,10 +3624,10 @@
       "thegentlemen": 1
     },
     "by_sector": {
-      "Healthcare": 16,
       "Professional Services": 15,
+      "Healthcare": 15,
       "Financial Services": 12,
-      "Manufacturing": 9,
+      "Manufacturing": 10,
       "Other": 9,
       "Agriculture and Food Production": 8,
       "Technology": 8,
