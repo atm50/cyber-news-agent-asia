@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-25T16:37:56.296212+00:00",
+  "last_updated_utc": "2026-08-25T17:32:54.712169+00:00",
   "victims": [
     {
       "victim": "Pump Engineering Company",
@@ -35,6 +35,18 @@
       "website": "",
       "description": "About Dentist in New Britain, CT Dentist in New Britain has spent over a decade caring for families across New Britain—pairing modern technology with the kind of warmth you don't expect from a dental office. As a result of the attack, the following were compromised: the entire customer database, con",
       "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=dentist-in-new-britain-ct",
+      "monitored": true
+    },
+    {
+      "victim": "WINTER Ingenieure",
+      "group": "akira",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-25T12:53:05.913666+00:00",
+      "attack_date": "2026-08-25T00:00:00+00:00",
+      "website": "",
+      "description": "WINTER Ingenieure specializes in planning and monitoring the construction of technical building\nequipment across Germany, focusing on functionality, sustainability, and cost-effectiveness. W\nith a team of over 140 employees located in Düsseldorf, Berlin, and Hamburg, they integrate tec\nhnical compon",
+      "claim_url": "https://www.ransomware.live/id/V0lOVEVSIEluZ2VuaWV1cmVAYWtpcmE=",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Battle Creek Public Schools Battle Creek Public Schools in Nebraska provides educational services for students from pre-kindergarten through 12th grade. We are pleased to present:Student records of named minors:**  IEP/special-ed files, disability determination notices, discipline/suspension records",
       "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=259",
-      "monitored": true
-    },
-    {
-      "victim": "The Pendas Law Firm",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-08-21T09:56:54.942935+00:00",
-      "attack_date": "2026-08-21T09:56:37.430203+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=9859bcba-a0f1-4b0a-9653-a68d5327e833",
       "monitored": true
     }
   ],
@@ -3556,11 +3556,11 @@
     "unique_groups": 27,
     "unique_countries": 34,
     "by_country": {
-      "United States": 37,
+      "United States": 36,
       "Unknown": 9,
+      "Germany": 6,
       "Italy": 6,
       "Mexico": 5,
-      "Germany": 5,
       "Canada": 4,
       "AR": 3,
       "Brazil": 3,
@@ -3592,7 +3592,7 @@
       "India": 1
     },
     "by_group": {
-      "qilin": 18,
+      "qilin": 17,
       "coinbasecartel": 14,
       "kazu": 9,
       "Dark Project": 6,
@@ -3601,10 +3601,10 @@
       "dragonforce": 4,
       "Booba Project": 4,
       "shinyhunters": 4,
+      "akira": 3,
       "Barracuda": 3,
       "rhysida": 3,
       "majinahanashi": 2,
-      "akira": 2,
       "Deadlock": 2,
       "arcusmedia": 2,
       "Panzer": 2,
@@ -3622,9 +3622,9 @@
     },
     "by_sector": {
       "Healthcare": 16,
-      "Professional Services": 15,
+      "Professional Services": 14,
       "Financial Services": 12,
-      "Manufacturing": 10,
+      "Manufacturing": 11,
       "Other": 10,
       "Agriculture and Food Production": 7,
       "Technology": 7,
