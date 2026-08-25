@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-25T13:51:31.833604+00:00",
+  "last_updated_utc": "2026-08-25T14:45:16.162210+00:00",
   "victims": [
+    {
+      "victim": "Pump Engineering Company",
+      "group": "Dark Project",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-25T09:51:49.817517+00:00",
+      "attack_date": "2026-08-25T09:30:02.936346+00:00",
+      "website": "",
+      "description": "About Pump Engineering Company Pump Engineering Company is a full-service distributor and supplier of industrial pumps, parts, and fluid handling systems, serving Southern California since 1946. During the cyberattack, 120,000 files (115 GB) were stolen, including an extensive customer database, ins",
+      "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=pump-engineering-company",
+      "monitored": true
+    },
     {
       "victim": "PCA Group Sdn. Bhd.",
       "group": "majinahanashi",
@@ -201,7 +213,7 @@
       "discovered": "2026-08-24T14:23:32.659108+00:00",
       "attack_date": "2026-08-24T13:58:43+00:00",
       "website": "",
-      "description": "https://marcktechno.comMarktechno has been a key player in the mechanical and sheet metal Deadline: 2026-08-31 13:50:00.000000",
+      "description": "https://marcktechno.com Marktechno has been a key player in the mechanical and sheet metal Deadline: 2026-08-31 13:50:00.000000",
       "claim_url": "http://arcuufpr5xxbbkin4mlidt7itmr6znlppk63jbtkeguuhszmc5g7qdyd.onion/?p=792",
       "monitored": false
     },
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "layher.cl zoominfo.com/c/layher-del-pacífico-sa--layher-chile/1319092699 Layher Chile is the local branch of the globally renowned German manufacturer specializing in scaffolding and access systems.\nThey supply high-quality scaffolding solutions, safety equipment, and event structures for the const",
       "claim_url": "https://www.ransomware.live/id/TGF5aGVyQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "Espac",
-      "group": "thegentlemen",
-      "country": "CL",
-      "sector": "Technology",
-      "discovered": "2026-08-23T06:33:51.356487+00:00",
-      "attack_date": "2026-08-21T08:32:48+00:00",
-      "website": "",
-      "description": "espac.cl zoominfo.com/c/espac/425816287 ESPAC Construcción is a leading Chilean company based in Santiago that manufactures and distributes specialized products for the building industry.\nThey produce high-quality construction materials, including steel shores, heavy-duty pallets, scaffolding system",
-      "claim_url": "https://www.ransomware.live/id/RXNwYWNAdGhlZ2VudGxlbWVu",
       "monitored": false
     }
   ],
@@ -3552,11 +3552,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
+    "monitored_victims": 65,
     "unique_groups": 26,
     "unique_countries": 34,
     "by_country": {
-      "United States": 37,
+      "United States": 38,
       "Unknown": 7,
       "Italy": 6,
       "Mexico": 5,
@@ -3564,8 +3564,8 @@
       "Canada": 4,
       "AR": 3,
       "Brazil": 3,
-      "CL": 3,
       "United Arab Emirates": 2,
+      "CL": 2,
       "Indonesia": 2,
       "Malaysia": 1,
       "South Africa": 1,
@@ -3595,15 +3595,15 @@
       "qilin": 18,
       "coinbasecartel": 14,
       "kazu": 9,
+      "Dark Project": 6,
       "Storm": 6,
       "metaencryptor": 6,
-      "Dark Project": 5,
       "dragonforce": 4,
       "Booba Project": 4,
       "shinyhunters": 4,
-      "thegentlemen": 4,
       "Barracuda": 3,
       "rhysida": 3,
+      "thegentlemen": 3,
       "majinahanashi": 2,
       "Deadlock": 2,
       "arcusmedia": 2,
@@ -3622,10 +3622,10 @@
     "by_sector": {
       "Healthcare": 16,
       "Professional Services": 14,
+      "Manufacturing": 11,
       "Other": 11,
       "Financial Services": 10,
-      "Manufacturing": 10,
-      "Technology": 9,
+      "Technology": 8,
       "Not Found": 7,
       "Agriculture and Food Production": 6,
       "Energy & Utilities": 5,
