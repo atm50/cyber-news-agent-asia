@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-08-25T17:32:54.712169+00:00",
+  "last_updated_utc": "2026-08-25T18:39:59.657764+00:00",
   "victims": [
+    {
+      "victim": "Sinar Mas Agribusiness and Food Golden Agri-Resources)",
+      "group": "ShadowByt3$",
+      "country": "Indonesia",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-25T14:26:02.536617+00:00",
+      "attack_date": "2026-08-25T14:25:46.616345+00:00",
+      "website": "",
+      "description": "We Breached This company a few months ago. we stole 375.66MB.\nmirror 1: https://anonfilesnew.com/s/4t-mBJg9wMy\nMore info is on darkforums.ru about this leak.",
+      "claim_url": "https://transfer.it/t/XMX4214zCJrb",
+      "monitored": true
+    },
+    {
+      "victim": "A-Plus Software Limited",
+      "group": "ShadowByt3$",
+      "country": "United Kingdom",
+      "sector": "Technology",
+      "discovered": "2026-08-25T14:25:27.547858+00:00",
+      "attack_date": "2026-08-25T14:25:11.616150+00:00",
+      "website": "",
+      "description": "We Breached A-plus through a sql injection vulnerability and downloaded everything in there backend. We gained access to there system on 08/18/2026\n\nThe following data was stolen:\n\n1. Website User Data (`usr.csv`)\n- This file contains the administrative backend infrastructure for the website, exposi",
+      "claim_url": "https://transfer.it/t/Ek7m9dkzhZ6Y",
+      "monitored": true
+    },
     {
       "victim": "Pump Engineering Company",
       "group": "Dark Project",
@@ -348,6 +372,18 @@
       "description": "Resi is a UK-based online architectural and home renovation platform founded in 2017 by Alexandra Depledge and Jules Col...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/94e954f9fa4095799dede0c689e6d6b51ddddaff16d44b75cf49ba265dc3a79a/",
       "monitored": true
+    },
+    {
+      "victim": "S*******",
+      "group": "genesis",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-08-25T13:57:53.027032+00:00",
+      "attack_date": "2026-08-24T00:00:00+00:00",
+      "website": "",
+      "description": "An International Public Company",
+      "claim_url": "http://genesis6ixpb5mcy4kudybtw5op2wqlrkocfogbnenz3c647ibqixiad.onion/44dfaf172b7515dc1e80/",
+      "monitored": false
     },
     {
       "victim": "Bihl",
@@ -1164,42 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=01be5eca-c028-47e8-add2-46a852dccda7",
       "monitored": false
-    },
-    {
-      "victim": "Fairview Dental Group",
-      "group": "rhysida",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-21T12:28:19.425238+00:00",
-      "attack_date": "2026-08-21T12:27:46.881499+00:00",
-      "website": "",
-      "description": "Fairview Dental Group Fairview Dental Group offers a range of dental services including family dentistry, cosmetic treatments, dental implants, and invisible braces.We are pleased to present:Full patient database, patient X-rays, scanned forms/consents/invoices, health records (PHI) of the entire pr",
-      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=260",
-      "monitored": true
-    },
-    {
-      "victim": "Gindre India",
-      "group": "qilin",
-      "country": "India",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-21T11:57:12.828596+00:00",
-      "attack_date": "2026-08-21T11:56:53.567455+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=a4a0d54e-27c5-45ec-a3aa-39184e012167",
-      "monitored": true
-    },
-    {
-      "victim": "Battle Creek Public Schools",
-      "group": "rhysida",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-08-21T10:28:03.015892+00:00",
-      "attack_date": "2026-08-21T10:27:30.392150+00:00",
-      "website": "",
-      "description": "Battle Creek Public Schools Battle Creek Public Schools in Nebraska provides educational services for students from pre-kindergarten through 12th grade. We are pleased to present:Student records of named minors:**  IEP/special-ed files, disability determination notices, discipline/suspension records",
-      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=259",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3552,25 +3552,25 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
-    "unique_groups": 27,
-    "unique_countries": 34,
+    "monitored_victims": 63,
+    "unique_groups": 29,
+    "unique_countries": 33,
     "by_country": {
-      "United States": 36,
-      "Unknown": 9,
+      "United States": 34,
+      "Unknown": 10,
       "Germany": 6,
       "Italy": 6,
       "Mexico": 5,
       "Canada": 4,
+      "Indonesia": 3,
       "AR": 3,
       "Brazil": 3,
+      "United Kingdom": 2,
       "United Arab Emirates": 2,
-      "Indonesia": 2,
       "Malaysia": 1,
       "RO": 1,
       "South Africa": 1,
       "Russia": 1,
-      "United Kingdom": 1,
       "RS": 1,
       "Portugal": 1,
       "Australia": 1,
@@ -3588,11 +3588,10 @@
       "Philippines": 1,
       "Israel": 1,
       "CZ": 1,
-      "China": 1,
-      "India": 1
+      "China": 1
     },
     "by_group": {
-      "qilin": 17,
+      "qilin": 16,
       "coinbasecartel": 14,
       "kazu": 9,
       "Dark Project": 6,
@@ -3603,7 +3602,7 @@
       "shinyhunters": 4,
       "akira": 3,
       "Barracuda": 3,
-      "rhysida": 3,
+      "ShadowByt3$": 2,
       "majinahanashi": 2,
       "Deadlock": 2,
       "arcusmedia": 2,
@@ -3613,28 +3612,29 @@
       "safepay": 1,
       "blackwater": 1,
       "krybit": 1,
+      "genesis": 1,
       "dispossessor": 1,
       "killsec": 1,
       "incransom": 1,
       "Helix": 1,
+      "rhysida": 1,
       "L Group": 1,
       "thegentlemen": 1
     },
     "by_sector": {
-      "Healthcare": 16,
+      "Healthcare": 15,
       "Professional Services": 14,
       "Financial Services": 12,
-      "Manufacturing": 11,
+      "Manufacturing": 10,
       "Other": 10,
-      "Agriculture and Food Production": 7,
-      "Technology": 7,
-      "Not Found": 6,
+      "Agriculture and Food Production": 8,
+      "Technology": 8,
+      "Not Found": 7,
       "Energy & Utilities": 5,
       "Transportation": 4,
       "Hospitality": 3,
       "Retail & E-Commerce": 3,
-      "Government & Defense": 1,
-      "Education": 1
+      "Government & Defense": 1
     }
   },
   "errors": []
