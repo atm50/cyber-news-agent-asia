@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-24T23:23:02.114775+00:00",
+  "last_updated_utc": "2026-08-25T01:15:36.610793+00:00",
   "victims": [
+    {
+      "victim": "lagegepesca.it",
+      "group": "safepay",
+      "country": "Italy",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-24T19:29:25.478541+00:00",
+      "attack_date": "2026-08-24T19:29:08.259302+00:00",
+      "website": "",
+      "description": "Based in Lallio, near Bergamo in Lombardy, the company traces its origins to 1957, when Santo Gavazzi established a small …",
+      "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/lagegepescait/",
+      "monitored": false
+    },
     {
       "victim": "Jones, Little & Co., CPAs, LLP",
       "group": "Dark Project",
@@ -1188,18 +1200,6 @@
       "description": "oceanica.ws Oceanica Internacional is a comprehensive logistics and freight forwarding company operating across Central America.\nThey serve as a strategic logistics partner, providing international trade and supply chain solutions in countries like Costa Rica, Panama, and Guatemala.\nThe company spec",
       "claim_url": "https://www.ransomware.live/id/T2NlYW5pY2EgSW50ZXJuYWNpb25hbEB0aGVnZW50bGVtZW4=",
       "monitored": false
-    },
-    {
-      "victim": "CAZ Investments",
-      "group": "thegentlemen",
-      "country": "BZ",
-      "sector": "Financial Services",
-      "discovered": "2026-08-21T08:26:36.533245+00:00",
-      "attack_date": "2026-08-21T08:17:41+00:00",
-      "website": "",
-      "description": "cazinvestments.com zoominfo.com/c/caz-investments-lp/16765398 CAZ Investments We have taken NDA files, HR data, user data, employee data, models, bank statements, tax and legal documents, confidential files, photos of your work and leisure time, screenshots, information about interactions with offsh",
-      "claim_url": "https://www.ransomware.live/id/Q0FaIEludmVzdG1lbnRzQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
     }
   ],
   "groups": [
@@ -1524,7 +1524,7 @@
     {
       "name": "ShadowByt3$",
       "description": "ShadowByt3$ is a ransomware-as-a-service group first observed in October 2025, using multi-method extortion and communicating via Telegram and Tox, with a very small confirmed victim list suggesting it remains in early-stage operation.",
-      "locations": 5,
+      "locations": 6,
       "meta": ""
     },
     {
@@ -3553,12 +3553,12 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 63,
-    "unique_groups": 24,
-    "unique_countries": 34,
+    "unique_groups": 25,
+    "unique_countries": 33,
     "by_country": {
       "United States": 37,
+      "Italy": 7,
       "Unknown": 6,
-      "Italy": 6,
       "Mexico": 5,
       "Germany": 5,
       "Canada": 4,
@@ -3588,14 +3588,13 @@
       "CZ": 1,
       "China": 1,
       "Taiwan": 1,
-      "WS": 1,
-      "BZ": 1
+      "WS": 1
     },
     "by_group": {
       "qilin": 17,
       "coinbasecartel": 14,
-      "thegentlemen": 10,
       "kazu": 9,
+      "thegentlemen": 9,
       "Storm": 6,
       "metaencryptor": 6,
       "Dark Project": 4,
@@ -3608,6 +3607,7 @@
       "Panzer": 2,
       "emperador": 2,
       "spacebears": 2,
+      "safepay": 1,
       "blackwater": 1,
       "krybit": 1,
       "akira": 1,
@@ -3622,11 +3622,11 @@
       "Professional Services": 14,
       "Manufacturing": 10,
       "Other": 10,
-      "Financial Services": 10,
       "Technology": 9,
+      "Financial Services": 9,
+      "Agriculture and Food Production": 6,
       "Not Found": 6,
       "Energy & Utilities": 6,
-      "Agriculture and Food Production": 5,
       "Transportation": 5,
       "Hospitality": 4,
       "Retail & E-Commerce": 3,
