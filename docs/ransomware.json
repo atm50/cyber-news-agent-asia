@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-26T01:21:35.328733+00:00",
+  "last_updated_utc": "2026-08-26T03:05:58.011612+00:00",
   "victims": [
+    {
+      "victim": "ma***up",
+      "group": "AuditTeam",
+      "country": "Russia",
+      "sector": "Not Found",
+      "discovered": "2026-08-25T21:20:18.615993+00:00",
+      "attack_date": "2026-08-25T21:20:06.264983+00:00",
+      "website": "",
+      "description": "",
+      "claim_url": "http://6tdqqaxftvradka5d2frzgwixis7fmro7rfh4ettzcx7jfapkebe6jad.onion/entity/17E19C9B6B41D33F",
+      "monitored": true
+    },
     {
       "victim": "industry.airliquide.kr",
       "group": "safepay",
@@ -1188,18 +1200,6 @@
       "description": "Freelom.net s.r.o. is a Czech internet service provider and IT company based in Lomnice nad Popelkou, which has been operating since 2009 . The company's primary focus is providing wireless internet access via its own network, with services available 24 hours a day, 7 days a week.The company is led ",
       "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/72/freelom",
       "monitored": false
-    },
-    {
-      "victim": "CRI Electric",
-      "group": "rhysida",
-      "country": "United States",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-08-22T05:56:26.446012+00:00",
-      "attack_date": "2026-08-22T05:55:56.903592+00:00",
-      "website": "",
-      "description": "CRI Electric CRI Electric is a veteran-owned business based in San Antonio, providing professional electrical services since 1998. They cater to both residential and commercial clients, offering services such as emergency electrical repairs, EV charger installations, and home rewiring. We are please",
-      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=264",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3556,7 +3556,7 @@
     "unique_groups": 30,
     "unique_countries": 34,
     "by_country": {
-      "United States": 32,
+      "United States": 31,
       "Unknown": 10,
       "Italy": 7,
       "Germany": 6,
@@ -3565,6 +3565,7 @@
       "AR": 3,
       "Brazil": 3,
       "Mexico": 3,
+      "Russia": 2,
       "South Korea": 2,
       "RO": 2,
       "United Kingdom": 2,
@@ -3573,7 +3574,6 @@
       "China": 1,
       "Malaysia": 1,
       "South Africa": 1,
-      "Russia": 1,
       "RS": 1,
       "Portugal": 1,
       "Australia": 1,
@@ -3614,27 +3614,27 @@
       "Storm": 2,
       "emperador": 2,
       "spacebears": 2,
+      "AuditTeam": 1,
       "blackwater": 1,
       "krybit": 1,
       "genesis": 1,
       "dispossessor": 1,
       "killsec": 1,
       "incransom": 1,
-      "Helix": 1,
-      "rhysida": 1
+      "Helix": 1
     },
     "by_sector": {
       "Professional Services": 15,
       "Healthcare": 15,
       "Financial Services": 12,
       "Other": 10,
+      "Not Found": 9,
       "Manufacturing": 9,
-      "Not Found": 8,
       "Agriculture and Food Production": 8,
       "Technology": 8,
       "Transportation": 4,
       "Retail & E-Commerce": 4,
-      "Energy & Utilities": 4,
+      "Energy & Utilities": 3,
       "Government & Defense": 2,
       "Hospitality": 1
     }
