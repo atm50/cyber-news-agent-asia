@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-26T05:35:03.127409+00:00",
+  "last_updated_utc": "2026-08-26T06:50:15.632563+00:00",
   "victims": [
+    {
+      "victim": "Air International Thermal Systems",
+      "group": "qilin",
+      "country": "United Kingdom",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-26T01:57:16.824942+00:00",
+      "attack_date": "2026-08-26T01:56:14.102888+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=8f547a67-d984-4212-bfb2-ac38b169df36",
+      "monitored": true
+    },
     {
       "victim": "ma***up",
       "group": "AuditTeam",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "The Cecilian Bank is an FDIC-insured financial institution that offers a wide range of personal and business banking services, including checking and savings accounts, loans, and online banking. Their services cater to individuals, small businesses, and large corporations, providing competitive rate",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a899c66bcb899d105729a0e",
-      "monitored": true
-    },
-    {
-      "victim": "NovoCure Limited",
-      "group": "shinyhunters",
-      "country": "Israel",
-      "sector": "Healthcare",
-      "discovered": "2026-08-22T14:13:59.045511+00:00",
-      "attack_date": "2026-08-22T11:10:00+00:00",
-      "website": "",
-      "description": "This is a final warning to reach out by end of day 24 Aug 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 22 Aug 2026 | Warning: FINAL WARNING PAY OR LEAK",
-      "claim_url": "https://www.ransomware.live/id/Tm92b0N1cmUgTGltaXRlZEBzaGlueWh1bnRlcnM=",
       "monitored": true
     }
   ],
@@ -3554,13 +3554,14 @@
     "total_victims": 100,
     "monitored_victims": 61,
     "unique_groups": 30,
-    "unique_countries": 34,
+    "unique_countries": 33,
     "by_country": {
       "United States": 31,
       "Unknown": 10,
       "Italy": 7,
       "Germany": 5,
       "Canada": 4,
+      "United Kingdom": 3,
       "Indonesia": 3,
       "AR": 3,
       "Brazil": 3,
@@ -3568,7 +3569,6 @@
       "Russia": 2,
       "South Korea": 2,
       "RO": 2,
-      "United Kingdom": 2,
       "Taiwan": 2,
       "United Arab Emirates": 2,
       "Netherlands": 1,
@@ -3588,11 +3588,10 @@
       "Vietnam": 1,
       "New Zealand": 1,
       "France": 1,
-      "Philippines": 1,
-      "Israel": 1
+      "Philippines": 1
     },
     "by_group": {
-      "qilin": 14,
+      "qilin": 15,
       "coinbasecartel": 13,
       "kazu": 9,
       "Dark Project": 6,
@@ -3603,7 +3602,6 @@
       "Global Secret Group": 3,
       "Orova": 3,
       "akira": 3,
-      "shinyhunters": 3,
       "Barracuda": 3,
       "safepay": 2,
       "direwolf": 2,
@@ -3614,6 +3612,7 @@
       "Panzer": 2,
       "Storm": 2,
       "emperador": 2,
+      "shinyhunters": 2,
       "AuditTeam": 1,
       "blackwater": 1,
       "krybit": 1,
@@ -3625,10 +3624,10 @@
     },
     "by_sector": {
       "Professional Services": 17,
-      "Healthcare": 15,
+      "Healthcare": 14,
       "Other": 11,
       "Financial Services": 11,
-      "Manufacturing": 9,
+      "Manufacturing": 10,
       "Not Found": 8,
       "Agriculture and Food Production": 8,
       "Technology": 8,
