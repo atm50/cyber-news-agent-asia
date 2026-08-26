@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-26T13:55:39.834015+00:00",
+  "last_updated_utc": "2026-08-26T14:44:54.084609+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "MEMSIC",
+      "group": "abyss",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-26T09:52:34.994614+00:00",
+      "attack_date": "2026-08-26T09:52:33.678371+00:00",
+      "website": "",
+      "description": "Founded in 1999, MEMSIC is a company that designs, manufactures Flow sensors, Accelerometers, Sensing technology, Inertial systems, Magnetometers, Tilt sensors. MEMSIC is located in Massachusetts.",
+      "claim_url": "https://www.ransomware.live/id/TUVNU0lDQGFieXNz",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "[AI generated] N/A",
       "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/abacusadv",
       "monitored": false
-    },
-    {
-      "victim": "LifeBank Microfinance Foundation",
-      "group": "coinbasecartel",
-      "country": "Philippines",
-      "sector": "Financial Services",
-      "discovered": "2026-08-22T13:54:14.699056+00:00",
-      "attack_date": "2026-08-22T13:53:52.357054+00:00",
-      "website": "",
-      "description": "[AI generated] LifeBank Microfinance Foundation is a nonprofit microfinance institution operating in the Philippines. It provides financial services, including small loans, savings programs, and livelihood assistance, primarily to low-income individuals and underserved communities. The organization ",
-      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/lifebankfoundation",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3553,10 +3553,10 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 61,
-    "unique_groups": 31,
-    "unique_countries": 33,
+    "unique_groups": 32,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 32,
+      "United States": 33,
       "Unknown": 10,
       "Italy": 7,
       "Germany": 5,
@@ -3587,12 +3587,11 @@
       "Switzerland": 1,
       "Vietnam": 1,
       "New Zealand": 1,
-      "France": 1,
-      "Philippines": 1
+      "France": 1
     },
     "by_group": {
       "qilin": 15,
-      "coinbasecartel": 11,
+      "coinbasecartel": 10,
       "kazu": 9,
       "Dark Project": 6,
       "metaencryptor": 6,
@@ -3613,6 +3612,7 @@
       "Panzer": 2,
       "emperador": 2,
       "shinyhunters": 2,
+      "abyss": 1,
       "AuditTeam": 1,
       "blackwater": 1,
       "krybit": 1,
@@ -3627,8 +3627,8 @@
       "Professional Services": 18,
       "Healthcare": 14,
       "Other": 12,
-      "Financial Services": 10,
-      "Manufacturing": 10,
+      "Manufacturing": 11,
+      "Financial Services": 9,
       "Not Found": 8,
       "Technology": 8,
       "Agriculture and Food Production": 7,
