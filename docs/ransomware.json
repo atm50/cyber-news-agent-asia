@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-08-26T09:41:55.597298+00:00",
+  "last_updated_utc": "2026-08-26T10:35:40.622145+00:00",
   "victims": [
+    {
+      "victim": "Paylogix",
+      "group": "akira",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-01-15T13:48:29.435004+00:00",
+      "attack_date": "2026-11-18 00:00:00.000000",
+      "website": "",
+      "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
+      "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
     {
       "victim": "Air International Thermal Systems",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "[AI generated] PT. Bank Perekonomian Rakyat Bintan is an Indonesian rural bank, known as a Bank Perkreditan Rakyat or BPR, operating in the Bintan regency of Riau Islands province, Indonesia. It provides basic financial services including savings, deposits, and credit facilities primarily to local c",
       "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/bprbintan",
-      "monitored": true
-    },
-    {
-      "victim": "The Cecilian Bank",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-08-23T06:40:21.560252+00:00",
-      "attack_date": "2026-08-22T12:56:06+00:00",
-      "website": "",
-      "description": "The Cecilian Bank is an FDIC-insured financial institution that offers a wide range of personal and business banking services, including checking and savings accounts, loans, and online banking. Their services cater to individuals, small businesses, and large corporations, providing competitive rate",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a899c66bcb899d105729a0e",
       "monitored": true
     }
   ],
@@ -3596,12 +3596,12 @@
       "kazu": 9,
       "Dark Project": 6,
       "metaencryptor": 6,
+      "akira": 4,
       "dragonforce": 4,
       "Booba Project": 4,
       "chaos": 3,
       "Global Secret Group": 3,
       "Orova": 3,
-      "akira": 3,
       "Barracuda": 3,
       "safepay": 2,
       "direwolf": 2,
@@ -3610,7 +3610,6 @@
       "Deadlock": 2,
       "arcusmedia": 2,
       "Panzer": 2,
-      "Storm": 2,
       "emperador": 2,
       "shinyhunters": 2,
       "AuditTeam": 1,
@@ -3618,6 +3617,7 @@
       "krybit": 1,
       "genesis": 1,
       "dispossessor": 1,
+      "Storm": 1,
       "killsec": 1,
       "incransom": 1,
       "Helix": 1
@@ -3625,8 +3625,8 @@
     "by_sector": {
       "Professional Services": 17,
       "Healthcare": 14,
-      "Other": 11,
       "Financial Services": 11,
+      "Other": 11,
       "Manufacturing": 10,
       "Not Found": 8,
       "Agriculture and Food Production": 8,
