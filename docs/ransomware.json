@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-26T12:52:35.423720+00:00",
+  "last_updated_utc": "2026-08-26T13:55:39.834015+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Morgan Services",
+      "group": "AiLock",
+      "country": "United Kingdom",
+      "sector": "Professional Services",
+      "discovered": "2026-08-26T09:50:28.341849+00:00",
+      "attack_date": "2026-08-26T09:50:27.165744+00:00",
+      "website": "",
+      "description": "Morgan Services, Inc. is a family-owned textile company in business since 1887, they specialize in linen and uniform rental services for all types of facilities. Morgan is headquartered in Chicago, Illinois.",
+      "claim_url": "https://www.ransomware.live/id/TW9yZ2FuIFNlcnZpY2VzQEFpTG9jaw==",
+      "monitored": true
+    },
+    {
+      "victim": "Hamilton",
+      "group": "AiLock",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-08-26T09:50:08.230111+00:00",
+      "attack_date": "2026-08-26T09:50:06.786804+00:00",
+      "website": "",
+      "description": "Founded in 1953 and headquartered in Reno, Nevada, Hamilton Company is a global provider in the design and manufacture of liquid handling, process measurement, robotics and automated storage solutions, serving customers in academic and private research laboratories, pharmaceutical and clinical diagn",
+      "claim_url": "https://www.ransomware.live/id/SGFtaWx0b25AQWlMb2Nr",
       "monitored": true
     },
     {
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "[AI generated] LifeBank Microfinance Foundation is a nonprofit microfinance institution operating in the Philippines. It provides financial services, including small loans, savings programs, and livelihood assistance, primarily to low-income individuals and underserved communities. The organization ",
       "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/lifebankfoundation",
-      "monitored": true
-    },
-    {
-      "victim": "PT Perusahaan Jamu Air Mancur",
-      "group": "coinbasecartel",
-      "country": "Indonesia",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-08-22T13:53:34.215756+00:00",
-      "attack_date": "2026-08-22T13:53:11.568774+00:00",
-      "website": "",
-      "description": "[AI generated] PT Perusahaan Jamu Air Mancur is an Indonesian company operating in the traditional herbal medicine industry. Based in Solo, Central Java, it manufactures and distributes jamu, a traditional Indonesian herbal remedy, along with related health and wellness products. Founded in 1963, th",
-      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/airmancur",
-      "monitored": true
-    },
-    {
-      "victim": "PT. Bank Perekonomian Rakyat Bintan",
-      "group": "coinbasecartel",
-      "country": "Indonesia",
-      "sector": "Financial Services",
-      "discovered": "2026-08-22T13:52:53.314637+00:00",
-      "attack_date": "2026-08-22T13:52:28.447095+00:00",
-      "website": "",
-      "description": "[AI generated] PT. Bank Perekonomian Rakyat Bintan is an Indonesian rural bank, known as a Bank Perkreditan Rakyat or BPR, operating in the Bintan regency of Riau Islands province, Indonesia. It provides basic financial services including savings, deposits, and credit facilities primarily to local c",
-      "claim_url": "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/bprbintan",
       "monitored": true
     }
   ],
@@ -3553,16 +3553,15 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 61,
-    "unique_groups": 30,
+    "unique_groups": 31,
     "unique_countries": 33,
     "by_country": {
-      "United States": 31,
+      "United States": 32,
       "Unknown": 10,
       "Italy": 7,
       "Germany": 5,
+      "United Kingdom": 4,
       "Canada": 4,
-      "United Kingdom": 3,
-      "Indonesia": 3,
       "AR": 3,
       "Brazil": 3,
       "Mexico": 3,
@@ -3573,6 +3572,7 @@
       "United Arab Emirates": 2,
       "Netherlands": 1,
       "China": 1,
+      "Indonesia": 1,
       "Malaysia": 1,
       "South Africa": 1,
       "RS": 1,
@@ -3592,7 +3592,7 @@
     },
     "by_group": {
       "qilin": 15,
-      "coinbasecartel": 13,
+      "coinbasecartel": 11,
       "kazu": 9,
       "Dark Project": 6,
       "metaencryptor": 6,
@@ -3603,6 +3603,7 @@
       "Global Secret Group": 3,
       "Orova": 3,
       "Barracuda": 3,
+      "AiLock": 2,
       "safepay": 2,
       "direwolf": 2,
       "ShadowByt3$": 2,
@@ -3623,14 +3624,14 @@
       "Helix": 1
     },
     "by_sector": {
-      "Professional Services": 17,
+      "Professional Services": 18,
       "Healthcare": 14,
-      "Financial Services": 11,
-      "Other": 11,
+      "Other": 12,
+      "Financial Services": 10,
       "Manufacturing": 10,
       "Not Found": 8,
-      "Agriculture and Food Production": 8,
       "Technology": 8,
+      "Agriculture and Food Production": 7,
       "Transportation": 4,
       "Retail & E-Commerce": 3,
       "Energy & Utilities": 3,
