@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-29T17:00:51.920078+00:00",
+  "last_updated_utc": "2026-08-29T19:41:32.254420+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,30 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Uniguacu",
+      "group": "emperador",
+      "country": "",
+      "sector": "Other",
+      "discovered": "2026-08-29T15:21:02.506987+00:00",
+      "attack_date": "2026-08-29T15:03:00+00:00",
+      "website": "",
+      "description": "full commitment of the network having full access to infrastructure, thus ensuring access to the database containing confidential and financial information! I obtained some images that compromise the financial sector. You have 13 days to trade. If the trade doesn't occur as planned, we will have to ",
+      "claim_url": "/post/uniguacu/",
+      "monitored": false
+    },
+    {
+      "victim": "Neumaticos Corral S.A.",
+      "group": "qilin",
+      "country": "AR",
+      "sector": "Manufacturing",
+      "discovered": "2026-08-29T15:01:16.203875+00:00",
+      "attack_date": "2026-08-29T15:00:54.010925+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=5396431c-0700-4548-bcec-1ec417e29773",
+      "monitored": false
     },
     {
       "victim": "The Frame Group",
@@ -1176,30 +1200,6 @@
       "description": "Vascara (Global Fashion One Member Company Limited) is a Vietnamese premium fashion brand specializing in stylish women'...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/3455587bd83dc1208ce17d662972ee350216ecdf624c956e6c96050fee82a060/",
       "monitored": true
-    },
-    {
-      "victim": "Incolur",
-      "group": "thegentlemen",
-      "country": "CL",
-      "sector": "Other",
-      "discovered": "2026-08-26T15:35:01.951459+00:00",
-      "attack_date": "2026-08-26T13:33:46+00:00",
-      "website": "",
-      "description": "incolur.cl zoominfo.com/c/incolur/372497016 Incolur Corretajes Limitada is a Chilean import & distribution company specialized in industrial supplies. It imports and distributes: machine tools and their accessories, abrasives (grinding/cutting wheels), welding equipment, measuring & precision instru",
-      "claim_url": "https://www.ransomware.live/id/SW5jb2x1ckB0aGVnZW50bGVtZW4=",
-      "monitored": false
-    },
-    {
-      "victim": "Espinos",
-      "group": "thegentlemen",
-      "country": "Mexico",
-      "sector": "Other",
-      "discovered": "2026-08-26T15:35:23.807603+00:00",
-      "attack_date": "2026-08-26T13:29:45+00:00",
-      "website": "",
-      "description": "espinos.energy dnb.com/business-directory/company-profiles.espinos_sa.7081c859ec6ec62bc369252d901ee655.html Espinos S.A. is a Chilean power generation company operating under the Potencia Chile brand (Grupo Agrisol), with 17 years of experience and ~260 MW of installed capacity. It runs a diversifie",
-      "claim_url": "https://www.ransomware.live/id/RXNwaW5vc0B0aGVnZW50bGVtZW4=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3565,20 +3565,20 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 47,
-    "unique_groups": 25,
-    "unique_countries": 35,
+    "unique_groups": 24,
+    "unique_countries": 34,
     "by_country": {
-      "Unknown": 24,
+      "Unknown": 25,
       "United States": 22,
-      "Mexico": 5,
       "United Kingdom": 5,
       "Australia": 4,
+      "Mexico": 4,
       "Brazil": 4,
+      "AR": 3,
       "Germany": 3,
       "Malaysia": 2,
       "HK": 2,
       "Turkey": 2,
-      "AR": 2,
       "India": 2,
       "France": 1,
       "Austria": 1,
@@ -3601,27 +3601,25 @@
       "CO": 1,
       "GA": 1,
       "GT": 1,
-      "Vietnam": 1,
-      "CL": 1
+      "Vietnam": 1
     },
     "by_group": {
-      "qilin": 22,
+      "qilin": 23,
       "krybit": 12,
       "SilentRansomGroup": 10,
       "akira": 7,
       "lockbit5": 6,
       "incransom": 5,
       "medusalocker": 5,
+      "emperador": 4,
       "iah6477": 4,
       "shinyhunters": 3,
       "chaos": 3,
-      "emperador": 3,
       "majinahanashi": 2,
       "ShadowByt3$": 2,
       "Orova": 2,
       "Doommageddon": 2,
       "rhysida": 2,
-      "thegentlemen": 2,
       "m3rx": 1,
       "moneymessage": 1,
       "unsafe": 1,
@@ -3633,13 +3631,13 @@
     },
     "by_sector": {
       "Not Found": 21,
+      "Manufacturing": 14,
       "Healthcare": 13,
-      "Manufacturing": 13,
       "Technology": 10,
       "Retail & E-Commerce": 9,
       "Financial Services": 7,
       "Professional Services": 6,
-      "Other": 6,
+      "Other": 5,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
       "Energy & Utilities": 3,
