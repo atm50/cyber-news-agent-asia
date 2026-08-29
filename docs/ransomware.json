@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-29T19:41:32.254420+00:00",
+  "last_updated_utc": "2026-08-29T22:26:14.022051+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "LAPoco Architects",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-08-29T18:00:45.102178+00:00",
+      "attack_date": "2026-08-29T18:00:25.128832+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2affb033-7e6a-48cc-be6d-8b0bcb395750",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Jindal Life Science Private Limited is an Indian full-service Contract Research Organization (CRO) established in 2023, ...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/79296199a4f112d4be2996b7f1f7288fa0a02db21fd752c9ccc203e7c6bd4162/",
-      "monitored": true
-    },
-    {
-      "victim": "vascara.com",
-      "group": "krybit",
-      "country": "Brazil",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-08-26T15:27:22.502817+00:00",
-      "attack_date": "2026-08-26T15:27:02.705905+00:00",
-      "website": "",
-      "description": "Vascara (Global Fashion One Member Company Limited) is a Vietnamese premium fashion brand specializing in stylish women'...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/3455587bd83dc1208ce17d662972ee350216ecdf624c956e6c96050fee82a060/",
       "monitored": true
     }
   ],
@@ -3569,13 +3569,13 @@
     "unique_countries": 34,
     "by_country": {
       "Unknown": 25,
-      "United States": 22,
+      "United States": 23,
       "United Kingdom": 5,
       "Australia": 4,
       "Mexico": 4,
-      "Brazil": 4,
       "AR": 3,
       "Germany": 3,
+      "Brazil": 3,
       "Malaysia": 2,
       "HK": 2,
       "Turkey": 2,
@@ -3604,8 +3604,8 @@
       "Vietnam": 1
     },
     "by_group": {
-      "qilin": 23,
-      "krybit": 12,
+      "qilin": 24,
+      "krybit": 11,
       "SilentRansomGroup": 10,
       "akira": 7,
       "lockbit5": 6,
@@ -3634,9 +3634,9 @@
       "Manufacturing": 14,
       "Healthcare": 13,
       "Technology": 10,
-      "Retail & E-Commerce": 9,
+      "Retail & E-Commerce": 8,
       "Financial Services": 7,
-      "Professional Services": 6,
+      "Professional Services": 7,
       "Other": 5,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
