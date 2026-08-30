@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-30T01:07:19.133681+00:00",
+  "last_updated_utc": "2026-08-30T07:57:53.515180+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Neogen Corporation",
+      "group": "shinyhunters",
+      "country": "United States",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-08-29T21:01:56.845816+00:00",
+      "attack_date": "2026-08-29T21:01:55.310143+00:00",
+      "website": "",
+      "description": "This is a final warning to reach out by 1 Sep 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 30 Aug 2026 | Warning: FINAL WARNING",
+      "claim_url": "https://www.ransomware.live/id/TmVvZ2VuIENvcnBvcmF0aW9uQHNoaW55aHVudGVycw==",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "Mima Foods is an Egyptian top producer and global exporter of IQF (Individually Quick Frozen) frozen vegetables and food...",
       "claim_url": "http://krybitxdpxohsmjooeb3gbgpmdddreh6mnflzac6bnezz74b7yje67yd.onion/blog/635ce28baae8183bfa21b23d8ae8c2706d6b628c0273373b801ec70eb871a2b3/",
       "monitored": false
-    },
-    {
-      "victim": "sysconth.com",
-      "group": "krybit",
-      "country": "Brazil",
-      "sector": "Technology",
-      "discovered": "2026-08-26T15:28:34.431299+00:00",
-      "attack_date": "2026-08-26T15:28:18.407370+00:00",
-      "website": "",
-      "description": "Syscon (Thailand) Co., Ltd. is a Thai company headquartered in Bang Khen District, Bangkok, Thailand, specializing in th...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/f9b703dd490fb677614bd2dd48715289ae7f8811e239d5c97a8caab9b4dd7396/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3568,17 +3568,17 @@
     "unique_groups": 24,
     "unique_countries": 34,
     "by_country": {
+      "United States": 25,
       "Unknown": 25,
-      "United States": 24,
       "United Kingdom": 5,
       "Australia": 4,
       "Mexico": 4,
       "AR": 3,
       "Germany": 3,
-      "Brazil": 3,
       "Malaysia": 2,
       "HK": 2,
       "Turkey": 2,
+      "Brazil": 2,
       "France": 1,
       "Austria": 1,
       "MT": 1,
@@ -3606,14 +3606,14 @@
     "by_group": {
       "qilin": 25,
       "SilentRansomGroup": 10,
-      "krybit": 10,
+      "krybit": 9,
       "akira": 7,
       "lockbit5": 6,
       "incransom": 5,
       "medusalocker": 5,
+      "shinyhunters": 4,
       "emperador": 4,
       "iah6477": 4,
-      "shinyhunters": 3,
       "chaos": 3,
       "majinahanashi": 2,
       "ShadowByt3$": 2,
@@ -3633,13 +3633,13 @@
       "Not Found": 21,
       "Manufacturing": 14,
       "Healthcare": 12,
-      "Technology": 10,
+      "Technology": 9,
       "Retail & E-Commerce": 8,
       "Financial Services": 7,
       "Professional Services": 7,
       "Other": 6,
+      "Agriculture and Food Production": 5,
       "Transportation": 4,
-      "Agriculture and Food Production": 4,
       "Energy & Utilities": 3,
       "Hospitality": 2,
       "Government & Defense": 2
