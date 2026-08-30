@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-29T22:26:14.022051+00:00",
+  "last_updated_utc": "2026-08-30T01:07:19.133681+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Bandit Industries",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-08-29T19:28:32.521672+00:00",
+      "attack_date": "2026-08-29T19:28:09.456331+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=f366be31-dcd5-4b96-809c-197c9ba6999c",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Syscon (Thailand) Co., Ltd. is a Thai company headquartered in Bang Khen District, Bangkok, Thailand, specializing in th...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/f9b703dd490fb677614bd2dd48715289ae7f8811e239d5c97a8caab9b4dd7396/",
-      "monitored": true
-    },
-    {
-      "victim": "jindallifescience.com",
-      "group": "krybit",
-      "country": "India",
-      "sector": "Healthcare",
-      "discovered": "2026-08-26T15:27:59.170968+00:00",
-      "attack_date": "2026-08-26T15:27:41.550754+00:00",
-      "website": "",
-      "description": "Jindal Life Science Private Limited is an Indian full-service Contract Research Organization (CRO) established in 2023, ...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/79296199a4f112d4be2996b7f1f7288fa0a02db21fd752c9ccc203e7c6bd4162/",
       "monitored": true
     }
   ],
@@ -3569,7 +3569,7 @@
     "unique_countries": 34,
     "by_country": {
       "Unknown": 25,
-      "United States": 23,
+      "United States": 24,
       "United Kingdom": 5,
       "Australia": 4,
       "Mexico": 4,
@@ -3579,7 +3579,6 @@
       "Malaysia": 2,
       "HK": 2,
       "Turkey": 2,
-      "India": 2,
       "France": 1,
       "Austria": 1,
       "MT": 1,
@@ -3600,13 +3599,14 @@
       "Italy": 1,
       "CO": 1,
       "GA": 1,
+      "India": 1,
       "GT": 1,
       "Vietnam": 1
     },
     "by_group": {
-      "qilin": 24,
-      "krybit": 11,
+      "qilin": 25,
       "SilentRansomGroup": 10,
+      "krybit": 10,
       "akira": 7,
       "lockbit5": 6,
       "incransom": 5,
@@ -3632,12 +3632,12 @@
     "by_sector": {
       "Not Found": 21,
       "Manufacturing": 14,
-      "Healthcare": 13,
+      "Healthcare": 12,
       "Technology": 10,
       "Retail & E-Commerce": 8,
       "Financial Services": 7,
       "Professional Services": 7,
-      "Other": 5,
+      "Other": 6,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
       "Energy & Utilities": 3,
