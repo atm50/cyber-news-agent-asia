@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-31T04:00:51.390675+00:00",
+  "last_updated_utc": "2026-08-31T10:47:25.223968+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -240,18 +240,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=d1947ee4-7210-4bf1-8c59-28faa9ac8495",
       "monitored": true
-    },
-    {
-      "victim": "lindner-group.com",
-      "group": "m3rx",
-      "country": "Austria",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-29T12:01:00.475602+00:00",
-      "attack_date": "2026-08-29T12:00:31.933369+00:00",
-      "website": "",
-      "description": "Lindner Group is Europe's leading manufacturer and service provider specializing in interior fit-out, building envelope, and insulation technology. With over 60 years of experience, the company offers tailored project solutions and products, ranging from ceilings, floors, and partitions to clean roo",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#lindner-group.com",
-      "monitored": false
     },
     {
       "victim": "AUM Construction",
@@ -1200,6 +1188,18 @@
       "description": "Organization with 7568 emails extracted. Domain: qualisteel.com",
       "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/baoagah/",
       "monitored": false
+    },
+    {
+      "victim": "Health",
+      "group": "medusalocker",
+      "country": "Australia",
+      "sector": "Healthcare",
+      "discovered": "2026-08-27T06:27:23.436098+00:00",
+      "attack_date": "2026-08-27T06:27:11.024280+00:00",
+      "website": "",
+      "description": "Organization with 103 emails extracted. Domain: health.nsw.gov.au",
+      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/banazah/",
+      "monitored": true
     }
   ],
   "groups": [
@@ -1680,7 +1680,7 @@
     {
       "name": "anubis",
       "description": "Anubis is a ransomware-as-a-service group active since December 2024 that targets healthcare, engineering, construction, and professional services sectors, offering affiliates a flexible revenue split model and an optional destructive \"wipe mode\" alongside standard encryption.",
-      "locations": 2,
+      "locations": 3,
       "meta": ""
     },
     {
@@ -2334,7 +2334,7 @@
     {
       "name": "gunra",
       "description": "Gunra is a financially motivated ransomware group that emerged in April 2025, using double-extortion tactics against real estate, pharmaceuticals, and manufacturing sectors across Japan, Egypt, Panama, Italy, and Argentina, deploying separate Windows and Linux variants with a strict five-day payment deadline.",
-      "locations": 2,
+      "locations": 3,
       "meta": ""
     },
     {
@@ -3570,18 +3570,18 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 48,
-    "unique_groups": 28,
-    "unique_countries": 37,
+    "monitored_victims": 49,
+    "unique_groups": 27,
+    "unique_countries": 36,
     "by_country": {
       "United States": 25,
       "Unknown": 13,
       "United Kingdom": 8,
       "Mexico": 6,
+      "Australia": 4,
       "Turkey": 3,
       "Brazil": 3,
       "AR": 3,
-      "Australia": 3,
       "Thailand": 3,
       "Sweden": 2,
       "HK": 2,
@@ -3594,7 +3594,6 @@
       "MK": 1,
       "France": 1,
       "Malaysia": 1,
-      "Austria": 1,
       "MT": 1,
       "Spain": 1,
       "PR": 1,
@@ -3616,10 +3615,10 @@
       "qilin": 26,
       "thegentlemen": 16,
       "lockbit5": 6,
+      "medusalocker": 5,
       "akira": 4,
       "shinyhunters": 4,
       "emperador": 4,
-      "medusalocker": 4,
       "direwolf": 3,
       "incransom": 3,
       "chaos": 3,
@@ -3634,7 +3633,6 @@
       "SilentRansomGroup": 2,
       "Wallstreet": 1,
       "threeam": 1,
-      "m3rx": 1,
       "moneymessage": 1,
       "unsafe": 1,
       "Panzer": 1,
@@ -3644,8 +3642,8 @@
     },
     "by_sector": {
       "Not Found": 18,
-      "Manufacturing": 14,
-      "Healthcare": 13,
+      "Healthcare": 14,
+      "Manufacturing": 13,
       "Technology": 11,
       "Professional Services": 9,
       "Retail & E-Commerce": 8,
