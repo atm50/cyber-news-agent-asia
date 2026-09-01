@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-01T20:39:29.727647+00:00",
+  "last_updated_utc": "2026-09-01T23:05:10.221664+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Szechenyi Programiroda Nonprofit Kf",
+      "group": "rhysida",
+      "country": "HU",
+      "sector": "Other",
+      "discovered": "2026-09-01T17:27:14.520298+00:00",
+      "attack_date": "2026-09-01T17:27:12.993710+00:00",
+      "website": "",
+      "description": "Szechenyi Programiroda Nonprofit Kf",
+      "claim_url": "https://www.ransomware.live/id/U3plY2hlbnlpIFByb2dyYW1pcm9kYSBOb25wcm9maXQgS2ZAcmh5c2lkYQ==",
+      "monitored": false
     },
     {
       "victim": "Oportunidados",
@@ -1188,18 +1200,6 @@
       "description": "Hundreds of millions of records/rows of data was compromised containing very sensitive information spanning from PII to PHI. We urge you to reach out. Read our emails. We will provide a substanial discount. Failure to engage with us will result in the full publication of data taken from you and we v",
       "claim_url": "https://www.ransomware.live/id/TWNLZXNzb24gQ29ycG9yYXRpb25Ac2hpbnlodW50ZXJz",
       "monitored": true
-    },
-    {
-      "victim": "SITTNAK Lojistik A.Ş.",
-      "group": "Doommageddon",
-      "country": "Turkey",
-      "sector": "Transportation",
-      "discovered": "2026-08-28T23:21:25.915181+00:00",
-      "attack_date": "2026-08-28T23:21:12.759777+00:00",
-      "website": "",
-      "description": "Status: upcoming | Data size: — | Files: 0 files | Deadline: 2026-09-15T00:00:00Z",
-      "claim_url": "http://iacjvmxjb2ivqkxxzmde4w6g53gn6ym7c3g6mfifvejyhqtp4wrkypyd.onion/victim/sittnak-lojistik-a-ş-",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3572,7 +3572,7 @@
     "total_victims": 100,
     "monitored_victims": 60,
     "unique_groups": 27,
-    "unique_countries": 35,
+    "unique_countries": 36,
     "by_country": {
       "United States": 33,
       "Unknown": 7,
@@ -3589,7 +3589,7 @@
       "Saudi Arabia": 2,
       "Taiwan": 2,
       "AR": 2,
-      "Turkey": 2,
+      "HU": 1,
       "Indonesia": 1,
       "Switzerland": 1,
       "China": 1,
@@ -3602,6 +3602,7 @@
       "Japan": 1,
       "CO": 1,
       "CL": 1,
+      "Turkey": 1,
       "Sweden": 1,
       "QA": 1,
       "MD": 1,
@@ -3626,6 +3627,7 @@
       "majinahanashi": 3,
       "shinyhunters": 2,
       "iah6477": 2,
+      "rhysida": 1,
       "bravox": 1,
       "medusalocker": 1,
       "Global Secret Group": 1,
@@ -3636,21 +3638,20 @@
       "aurora": 1,
       "threeam": 1,
       "emperador": 1,
-      "ShadowByt3$": 1,
-      "Doommageddon": 1
+      "ShadowByt3$": 1
     },
     "by_sector": {
       "Manufacturing": 19,
       "Professional Services": 14,
       "Technology": 14,
+      "Other": 10,
       "Not Found": 10,
-      "Other": 9,
       "Healthcare": 9,
       "Retail & E-Commerce": 5,
       "Financial Services": 4,
       "Education": 4,
       "Agriculture and Food Production": 4,
-      "Transportation": 4,
+      "Transportation": 3,
       "Hospitality": 2,
       "Government & Defense": 1,
       "Energy & Utilities": 1
