@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-02T03:11:31.526770+00:00",
+  "last_updated_utc": "2026-09-02T08:28:10.436509+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Marlborough Partners",
+      "group": "anubis",
+      "country": "United Kingdom",
+      "sector": "Financial Services",
+      "discovered": "2026-09-02T03:52:25.670056+00:00",
+      "attack_date": "2026-09-02T03:51:32.174315+00:00",
+      "website": "",
+      "description": "Major data breach at a capital solutions advisory firm.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/5VYRngWB4RHGrQhum0wZh8OC72oO1g3GU++a70ZsZ6tkH4WMROBRx4tJXAXmdwAp3e0NJ5M+6ftohrSE8ypGt5MGR0ZWd4",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "PUBLICATION SCHEDULED. [LEAK / 6341 FILES]",
       "claim_url": "https://www.ransomware.live/id/VEVSUkEqKiogJiBNT04qKioqQG1hamluYWhhbmFzaGk=",
-      "monitored": false
-    },
-    {
-      "victim": "South Pacific Hotel Limited",
-      "group": "Orova",
-      "country": "HK",
-      "sector": "Hospitality",
-      "discovered": "2026-08-29T09:21:06.187141+00:00",
-      "attack_date": "2026-08-29T00:00:00+00:00",
-      "website": "",
-      "description": "The hotel has a unique glass curtain wall and an oval building appearance. The building is 28 floors high, with 293 rooms and suites.",
-      "claim_url": "http://maa2yprc5pldyr5hjn246hw7i66wdhglnostqgqkcbuh4vyyeos4xxyd.onion/tdktzqllhidxxapwas/",
       "monitored": false
     }
   ],
@@ -3570,25 +3570,25 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 60,
-    "unique_groups": 28,
+    "monitored_victims": 61,
+    "unique_groups": 29,
     "unique_countries": 36,
     "by_country": {
       "United States": 33,
       "Unknown": 7,
+      "United Kingdom": 4,
       "India": 4,
       "Germany": 4,
       "Spain": 4,
       "Netherlands": 4,
       "Mexico": 3,
       "Canada": 3,
-      "United Kingdom": 3,
       "Malaysia": 3,
-      "HK": 3,
       "Brazil": 2,
       "Saudi Arabia": 2,
       "Taiwan": 2,
       "AR": 2,
+      "HK": 2,
       "HU": 1,
       "Indonesia": 1,
       "Switzerland": 1,
@@ -3621,12 +3621,13 @@
       "incransom": 6,
       "thegentlemen": 4,
       "play": 4,
-      "Orova": 4,
       "Wallstreet": 3,
       "everest": 3,
       "majinahanashi": 3,
+      "Orova": 3,
       "Global Secret Group": 2,
       "iah6477": 2,
+      "anubis": 1,
       "SilentRansomGroup": 1,
       "rhysida": 1,
       "bravox": 1,
@@ -3648,12 +3649,12 @@
       "Other": 11,
       "Not Found": 10,
       "Healthcare": 8,
+      "Financial Services": 5,
       "Retail & E-Commerce": 5,
-      "Financial Services": 4,
       "Education": 4,
       "Agriculture and Food Production": 4,
       "Transportation": 3,
-      "Hospitality": 2,
+      "Hospitality": 1,
       "Government & Defense": 1
     }
   },
