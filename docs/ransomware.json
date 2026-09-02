@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-02T20:36:02.013348+00:00",
+  "last_updated_utc": "2026-09-02T23:01:54.582544+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,42 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Cartrack Holdings",
+      "group": "direwolf",
+      "country": "South Africa",
+      "sector": "Transportation",
+      "discovered": "2026-09-02T17:53:21.581325+00:00",
+      "attack_date": "2026-09-02T17:45:28.531799+00:00",
+      "website": "",
+      "description": "Software",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/120",
+      "monitored": true
+    },
+    {
+      "victim": "Ormond Beach Florida",
+      "group": "Wallstreet",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-09-02T16:51:15.246733+00:00",
+      "attack_date": "2026-09-02T16:42:11+00:00",
+      "website": "",
+      "description": "Ormond Beach, Florida, is a scenic coastal city just north of Daytona Beach, known for its beaches, relaxed atmosphere, historic charm, and outdoor activities.",
+      "claim_url": "https://www.ransomware.live/id/T3Jtb25kIEJlYWNoIEZsb3JpZGFAV2FsbHN0cmVldA==",
+      "monitored": true
+    },
+    {
+      "victim": "PTT Oil and Retail Business",
+      "group": "direwolf",
+      "country": "Thailand",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-09-02T16:54:26.923730+00:00",
+      "attack_date": "2026-09-02T16:28:59.877000+00:00",
+      "website": "",
+      "description": "Chemicals",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/119",
+      "monitored": false
     },
     {
       "victim": "N***************",
@@ -1164,42 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=633d975c-e73f-462e-95fb-a372b53b600a",
       "monitored": true
-    },
-    {
-      "victim": "Black Cat Engineering Construction Wll",
-      "group": "qilin",
-      "country": "QA",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-30T13:31:32.133234+00:00",
-      "attack_date": "2026-08-30T13:31:08.677544+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=9b7d483d-aaa7-4da7-8724-a96e7005d141",
-      "monitored": false
-    },
-    {
-      "victim": "wmdn.net",
-      "group": "threeam",
-      "country": "MD",
-      "sector": "Not Found",
-      "discovered": "2026-08-30T09:10:43.889079+00:00",
-      "attack_date": "2026-08-30T09:10:27.833814+00:00",
-      "website": "",
-      "description": "Twin States News is a media organization that provides comprehensive coverage of local, state, national, and world news. Their services include reporting on various topics such as crime, education, health, politics, and community events. The inten",
-      "claim_url": "http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/detail/5fu0x8tyhssmlkn5pxxoxw1wqvtikx",
-      "monitored": false
-    },
-    {
-      "victim": "AFSARD",
-      "group": "qilin",
-      "country": "MK",
-      "sector": "Not Found",
-      "discovered": "2026-08-30T16:07:30.579790+00:00",
-      "attack_date": "2026-08-30T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=9136a394-e1a1-47ce-8fe6-16ed813a5d23",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3570,11 +3570,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
-    "unique_groups": 28,
-    "unique_countries": 36,
+    "monitored_victims": 64,
+    "unique_groups": 27,
+    "unique_countries": 34,
     "by_country": {
-      "United States": 32,
+      "United States": 33,
       "India": 7,
       "Unknown": 6,
       "Netherlands": 5,
@@ -3583,17 +3583,18 @@
       "Germany": 4,
       "Spain": 4,
       "Mexico": 3,
+      "Thailand": 2,
       "Singapore": 2,
       "Saudi Arabia": 2,
       "Taiwan": 2,
       "Malaysia": 2,
+      "South Africa": 1,
       "France": 1,
       "HU": 1,
       "Brazil": 1,
       "Indonesia": 1,
       "Switzerland": 1,
       "China": 1,
-      "Thailand": 1,
       "BT": 1,
       "PA": 1,
       "Italy": 1,
@@ -3606,22 +3607,19 @@
       "HK": 1,
       "CL": 1,
       "Turkey": 1,
-      "Sweden": 1,
-      "QA": 1,
-      "MD": 1,
-      "MK": 1
+      "Sweden": 1
     },
     "by_group": {
       "krybit": 14,
       "incransom": 12,
       "akira": 10,
+      "direwolf": 8,
       "BrainCipher": 8,
-      "qilin": 7,
-      "direwolf": 6,
       "lockbit5": 6,
+      "qilin": 5,
       "thegentlemen": 5,
+      "Wallstreet": 4,
       "play": 4,
-      "Wallstreet": 3,
       "everest": 3,
       "medusalocker": 2,
       "Eclipse": 2,
@@ -3638,24 +3636,23 @@
       "interlock": 1,
       "Falcon": 1,
       "crypto24": 1,
-      "nightspire": 1,
-      "threeam": 1
+      "nightspire": 1
     },
     "by_sector": {
-      "Manufacturing": 19,
+      "Manufacturing": 18,
       "Technology": 16,
       "Professional Services": 13,
-      "Not Found": 10,
       "Other": 10,
+      "Not Found": 9,
       "Healthcare": 7,
       "Financial Services": 5,
+      "Transportation": 5,
       "Education": 5,
-      "Transportation": 4,
       "Retail & E-Commerce": 3,
       "Agriculture and Food Production": 3,
+      "Energy & Utilities": 2,
       "Government & Defense": 2,
-      "Hospitality": 2,
-      "Energy & Utilities": 1
+      "Hospitality": 2
     }
   },
   "errors": []
