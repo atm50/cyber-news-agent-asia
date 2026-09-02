@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-02T08:28:10.436509+00:00",
+  "last_updated_utc": "2026-09-02T13:18:35.816723+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -14,6 +14,18 @@
       "monitored": true
     },
     {
+      "victim": "Grayson Rural Electric Cooperative",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-09-02T05:01:37.576150+00:00",
+      "attack_date": "2026-09-02T05:01:16.261951+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=678d1dd9-022a-4521-8317-67e56329d10e",
+      "monitored": true
+    },
+    {
       "victim": "Marlborough Partners",
       "group": "anubis",
       "country": "United Kingdom",
@@ -23,6 +35,18 @@
       "website": "",
       "description": "Major data breach at a capital solutions advisory firm.",
       "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/5VYRngWB4RHGrQhum0wZh8OC72oO1g3GU++a70ZsZ6tkH4WMROBRx4tJXAXmdwAp3e0NJ5M+6ftohrSE8ypGt5MGR0ZWd4",
+      "monitored": true
+    },
+    {
+      "victim": "Chip 1 Exchange",
+      "group": "aurora",
+      "country": "Singapore",
+      "sector": "Technology",
+      "discovered": "2026-09-02T06:52:31.237644+00:00",
+      "attack_date": "2026-09-02T00:00:00+00:00",
+      "website": "",
+      "description": "[distributor] Chip 1 Exchange — a global independent electronics distributor headquartered in Neu-Isenburg, Germany, with primary US operations in Laguna Hills, California.\n\nThe dataset spans 13 years (2013-2026) of corporate operations and encompasses:\n\n40+ passport photographs, I-9 forms with SSNs",
+      "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/chip-1-exchange-13b819b4",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=b03ebcee-148c-41f8-ba2e-30817cb3b4bb",
       "monitored": false
-    },
-    {
-      "victim": "ITC Properties Group Limited",
-      "group": "Orova",
-      "country": "HK",
-      "sector": "Other",
-      "discovered": "2026-08-29T11:51:55.918962+00:00",
-      "attack_date": "2026-08-29T00:00:00+00:00",
-      "website": "",
-      "description": "ITC Properties is an investment holding company and the Group is principally engaged in development of, selling of and investment in properties in Macau, Hong Kong, the People's Republic of China (the \"PRC\") and Canada; securities investments and provision of loan financing services.",
-      "claim_url": "http://maa2yprc5pldyr5hjn246hw7i66wdhglnostqgqkcbuh4vyyeos4xxyd.onion/tniuxcbkulursuccej/",
-      "monitored": false
-    },
-    {
-      "victim": "TERRA*** & MON****",
-      "group": "majinahanashi",
-      "country": "Spain",
-      "sector": "Technology",
-      "discovered": "2026-08-29T09:50:57.518015+00:00",
-      "attack_date": "2026-08-29T00:00:00+00:00",
-      "website": "",
-      "description": "PUBLICATION SCHEDULED. [LEAK / 6341 FILES]",
-      "claim_url": "https://www.ransomware.live/id/VEVSUkEqKiogJiBNT04qKioqQG1hamluYWhhbmFzaGk=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -1296,7 +1296,7 @@
     {
       "name": "BrainCipher",
       "description": "Brain Cipher emerged in July 2024. Both Windows and Linux variants are available. Brain Cipher using the leaked build of LockBit Black for their operations. The group suspected to have exploited CVE-2023-28252 (Microsoft Windows CLFS Driver Privilege Escalation Vulnerability). The Ransom demand ranges from $150,000 to $1,00,0000. Demand to be paid with Monero (XMR) cryptocurrency. In 2025, they ha",
-      "locations": 8,
+      "locations": 32,
       "meta": ""
     },
     {
@@ -3570,25 +3570,25 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
+    "monitored_victims": 63,
     "unique_groups": 29,
     "unique_countries": 36,
     "by_country": {
-      "United States": 33,
+      "United States": 34,
       "Unknown": 7,
       "United Kingdom": 4,
       "India": 4,
       "Germany": 4,
-      "Spain": 4,
       "Netherlands": 4,
       "Mexico": 3,
       "Canada": 3,
+      "Spain": 3,
       "Malaysia": 3,
+      "Singapore": 2,
       "Brazil": 2,
       "Saudi Arabia": 2,
       "Taiwan": 2,
       "AR": 2,
-      "HK": 2,
       "HU": 1,
       "Indonesia": 1,
       "Switzerland": 1,
@@ -3598,9 +3598,9 @@
       "PE": 1,
       "United Arab Emirates": 1,
       "Ireland": 1,
-      "Singapore": 1,
       "Japan": 1,
       "CO": 1,
+      "HK": 1,
       "CL": 1,
       "Turkey": 1,
       "Sweden": 1,
@@ -3612,7 +3612,7 @@
       "MT": 1
     },
     "by_group": {
-      "qilin": 15,
+      "qilin": 16,
       "krybit": 14,
       "BrainCipher": 8,
       "akira": 7,
@@ -3623,9 +3623,10 @@
       "play": 4,
       "Wallstreet": 3,
       "everest": 3,
-      "majinahanashi": 3,
-      "Orova": 3,
+      "aurora": 2,
       "Global Secret Group": 2,
+      "majinahanashi": 2,
+      "Orova": 2,
       "iah6477": 2,
       "anubis": 1,
       "SilentRansomGroup": 1,
@@ -3636,7 +3637,6 @@
       "Falcon": 1,
       "crypto24": 1,
       "nightspire": 1,
-      "aurora": 1,
       "threeam": 1,
       "shinyhunters": 1,
       "emperador": 1,
@@ -3646,7 +3646,7 @@
       "Manufacturing": 19,
       "Professional Services": 15,
       "Technology": 14,
-      "Other": 11,
+      "Other": 10,
       "Not Found": 10,
       "Healthcare": 8,
       "Financial Services": 5,
@@ -3654,6 +3654,7 @@
       "Education": 4,
       "Agriculture and Food Production": 4,
       "Transportation": 3,
+      "Energy & Utilities": 1,
       "Hospitality": 1,
       "Government & Defense": 1
     }
