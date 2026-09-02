@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-01T23:05:10.221664+00:00",
+  "last_updated_utc": "2026-09-02T03:11:31.526770+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Quality Resource Pvt",
+      "group": "Global Secret Group",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-09-01T22:21:43.231902+00:00",
+      "attack_date": "2026-09-01T22:20:58.431704+00:00",
+      "website": "",
+      "description": "Country: United States |\nWebsite: qualityresourcepvt.com |\nRevenue: $19 Million |\nIndustry: Advertising Networks |\nEmployees: 201–500 employees |\nProperties: 60.1 GB (170,436 Files, 88,440 Folders)",
+      "claim_url": "http://o5lsqyar7ox25z734k6zaxt2vf7bsyi4q5rturi5iyxzqo3ica7bjsad.onion/project/8tEkAvb4TaoYSH37/",
+      "monitored": true
+    },
+    {
+      "victim": "Holland & Knight",
+      "group": "SilentRansomGroup",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-09-01T21:22:04.213469+00:00",
+      "attack_date": "2026-09-01T21:22:02.497478+00:00",
+      "website": "",
+      "description": "Holland & Knight, headquartered in Tampa, Florida, and established in 1968, is a law firm that offers …",
+      "claim_url": "https://www.ransomware.live/id/SG9sbGFuZCAmIEtuaWdodEBTaWxlbnRSYW5zb21Hcm91cA==",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "The hotel has a unique glass curtain wall and an oval building appearance. The building is 28 floors high, with 293 rooms and suites.",
       "claim_url": "http://maa2yprc5pldyr5hjn246hw7i66wdhglnostqgqkcbuh4vyyeos4xxyd.onion/tdktzqllhidxxapwas/",
       "monitored": false
-    },
-    {
-      "victim": "Oilquip Inc",
-      "group": "incransom",
-      "country": "United States",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-08-29T00:25:36.702779+00:00",
-      "attack_date": "2026-08-28T23:59:00+00:00",
-      "website": "",
-      "description": "Oilquip Inc, established in 1960, is a comprehensive fluid power distributor that specializes in hydraulics, pneumatics, oil conditioning, and system integration. The company is dedicated to providing innovative electro-hydraulic and electro-mechanical solutions while exceeding customer expectations",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a8f0c6c9cd108bf26a1bbe6",
-      "monitored": true
-    },
-    {
-      "victim": "McKesson Corporation",
-      "group": "shinyhunters",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-28T23:57:50.569651+00:00",
-      "attack_date": "2026-08-28T23:57:48.817488+00:00",
-      "website": "",
-      "description": "Hundreds of millions of records/rows of data was compromised containing very sensitive information spanning from PII to PHI. We urge you to reach out. Read our emails. We will provide a substanial discount. Failure to engage with us will result in the full publication of data taken from you and we v",
-      "claim_url": "https://www.ransomware.live/id/TWNLZXNzb24gQ29ycG9yYXRpb25Ac2hpbnlodW50ZXJz",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3571,7 +3571,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 27,
+    "unique_groups": 28,
     "unique_countries": 36,
     "by_country": {
       "United States": 33,
@@ -3616,45 +3616,45 @@
       "krybit": 14,
       "BrainCipher": 8,
       "akira": 7,
-      "incransom": 7,
       "direwolf": 6,
       "lockbit5": 6,
+      "incransom": 6,
       "thegentlemen": 4,
       "play": 4,
       "Orova": 4,
       "Wallstreet": 3,
       "everest": 3,
       "majinahanashi": 3,
-      "shinyhunters": 2,
+      "Global Secret Group": 2,
       "iah6477": 2,
+      "SilentRansomGroup": 1,
       "rhysida": 1,
       "bravox": 1,
       "medusalocker": 1,
-      "Global Secret Group": 1,
       "interlock": 1,
       "Falcon": 1,
       "crypto24": 1,
       "nightspire": 1,
       "aurora": 1,
       "threeam": 1,
+      "shinyhunters": 1,
       "emperador": 1,
       "ShadowByt3$": 1
     },
     "by_sector": {
       "Manufacturing": 19,
-      "Professional Services": 14,
+      "Professional Services": 15,
       "Technology": 14,
-      "Other": 10,
+      "Other": 11,
       "Not Found": 10,
-      "Healthcare": 9,
+      "Healthcare": 8,
       "Retail & E-Commerce": 5,
       "Financial Services": 4,
       "Education": 4,
       "Agriculture and Food Production": 4,
       "Transportation": 3,
       "Hospitality": 2,
-      "Government & Defense": 1,
-      "Energy & Utilities": 1
+      "Government & Defense": 1
     }
   },
   "errors": []
