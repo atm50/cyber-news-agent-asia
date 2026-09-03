@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-03T01:06:13.478154+00:00",
+  "last_updated_utc": "2026-09-03T06:56:20.298551+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Greenberg Traurig",
+      "group": "SilentRansomGroup",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-09-02T23:21:12.808426+00:00",
+      "attack_date": "2026-09-02T23:21:08.641249+00:00",
+      "website": "",
+      "description": "[AI generated] Greenberg Traurig is a large multinational law firm headquartered in the United States. It provides legal services across numerous practice areas including corporate law, real estate, litigation, intellectual property, and government affairs. Operating in the legal services industry, ",
+      "claim_url": "https://www.ransomware.live/id/R3JlZW5iZXJnIFRyYXVyaWdAU2lsZW50UmFuc29tR3JvdXA=",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Hospitals",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/115",
-      "monitored": false
-    },
-    {
-      "victim": "Erdem Hospital",
-      "group": "direwolf",
-      "country": "Turkey",
-      "sector": "Healthcare",
-      "discovered": "2026-08-30T14:54:22.650260+00:00",
-      "attack_date": "2026-08-30T14:35:29.999000+00:00",
-      "website": "",
-      "description": "Hospitals",
-      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/114",
       "monitored": false
     }
   ],
@@ -3570,11 +3570,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
+    "monitored_victims": 64,
     "unique_groups": 27,
-    "unique_countries": 33,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 33,
+      "United States": 34,
       "Unknown": 8,
       "India": 7,
       "Netherlands": 5,
@@ -3605,21 +3605,20 @@
       "Japan": 1,
       "CO": 1,
       "HK": 1,
-      "CL": 1,
-      "Turkey": 1
+      "CL": 1
     },
     "by_group": {
       "krybit": 14,
       "incransom": 12,
       "akira": 10,
       "BrainCipher": 8,
-      "direwolf": 7,
+      "direwolf": 6,
       "lockbit5": 6,
       "thegentlemen": 5,
+      "SilentRansomGroup": 4,
       "Wallstreet": 4,
       "qilin": 4,
       "play": 4,
-      "SilentRansomGroup": 3,
       "everest": 3,
       "medusalocker": 2,
       "Eclipse": 2,
@@ -3640,10 +3639,10 @@
     "by_sector": {
       "Manufacturing": 18,
       "Technology": 15,
-      "Professional Services": 12,
+      "Professional Services": 13,
       "Not Found": 11,
       "Other": 10,
-      "Healthcare": 7,
+      "Healthcare": 6,
       "Financial Services": 5,
       "Transportation": 5,
       "Education": 5,
