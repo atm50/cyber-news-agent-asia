@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-03T16:14:48.437045+00:00",
+  "last_updated_utc": "2026-09-03T19:41:38.320894+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,30 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "ligacancerguate.org",
+      "group": "krybit",
+      "country": "GT",
+      "sector": "Healthcare",
+      "discovered": "2026-09-03T12:54:58.276152+00:00",
+      "attack_date": "2026-09-03T12:54:39.502074+00:00",
+      "website": "",
+      "description": "INCAN — Instituto de Cancerología y Hospital Dr. Bernardo del Valle S. is Guatemala's premier private cancer treatmen...",
+      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/48aed03de5af8c8a5e0d241efaede19509c0fc975e7522e8fe53440252d855e6/",
+      "monitored": false
+    },
+    {
+      "victim": "McDonald's Ecuador",
+      "group": "Vexy Ransomware",
+      "country": "EC",
+      "sector": "Hospitality",
+      "discovered": "2026-09-03T12:51:32.806994+00:00",
+      "attack_date": "2026-09-03T12:33:16+00:00",
+      "website": "",
+      "description": "McDonald's Ecuador is the local franchise operation of the global McDonald's brand. The company operates fast-food restaurants across Ecuador, offering products such as burgers, fries, beverages, breakfast items, and children's meals. It operates under the McDonald's franchise model through Arcos Do",
+      "claim_url": "https://www.ransomware.live/id/TWNEb25hbGQncyBFY3VhZG9yQFZleHkgUmFuc29td2FyZQ==",
+      "monitored": false
     },
     {
       "victim": "Dinas Komunikasi dan Informatika",
@@ -1176,30 +1200,6 @@
       "description": "bkc.org and bethelclassical.org  Mission Statement Bethel Classical Academy seeks to guide studen...",
       "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/4df8a2630497e57d1bffcc5b194f84b5",
       "monitored": true
-    },
-    {
-      "victim": "allsteelproducts.nl",
-      "group": "lockbit5",
-      "country": "Netherlands",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-31T09:30:36.950972+00:00",
-      "attack_date": "2026-08-31T07:05:00+00:00",
-      "website": "",
-      "description": "All Steel Products is a wholesale supplier specializing in hydraulic products, offering a wide range...",
-      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/a49c74cceb87d8fada016bf867ecc979",
-      "monitored": false
-    },
-    {
-      "victim": "vkj.nl",
-      "group": "lockbit5",
-      "country": "Netherlands",
-      "sector": "Other",
-      "discovered": "2026-08-31T09:31:08.557350+00:00",
-      "attack_date": "2026-08-31T07:04:00+00:00",
-      "website": "",
-      "description": "Van Kessel & Janssen begeleidt huisvestingsprojecten met deskundig advies en projectmanagement. Van...",
-      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/2be334915a0191df4dc1bfe814393802",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3578,13 +3578,12 @@
     "total_victims": 100,
     "monitored_victims": 70,
     "unique_groups": 28,
-    "unique_countries": 30,
+    "unique_countries": 32,
     "by_country": {
       "United States": 37,
       "Unknown": 7,
       "India": 7,
       "Canada": 5,
-      "Netherlands": 4,
       "Spain": 4,
       "United Kingdom": 3,
       "Mexico": 3,
@@ -3592,9 +3591,12 @@
       "Indonesia": 2,
       "Thailand": 2,
       "Brazil": 2,
+      "Netherlands": 2,
       "Singapore": 2,
       "Saudi Arabia": 2,
       "Malaysia": 2,
+      "GT": 1,
+      "EC": 1,
       "South Africa": 1,
       "France": 1,
       "Australia": 1,
@@ -3612,26 +3614,26 @@
       "Japan": 1
     },
     "by_group": {
-      "krybit": 14,
+      "krybit": 15,
       "incransom": 11,
       "Storm": 8,
       "BrainCipher": 8,
       "akira": 7,
       "direwolf": 5,
       "thegentlemen": 5,
-      "lockbit5": 5,
       "Wallstreet": 4,
       "SilentRansomGroup": 4,
       "qilin": 4,
       "play": 4,
       "everest": 3,
+      "lockbit5": 3,
+      "Vexy Ransomware": 2,
       "medusalocker": 2,
       "Eclipse": 2,
       "Global Secret Group": 2,
       "Panzer": 1,
       "insomnia": 1,
       "anubis": 1,
-      "Vexy Ransomware": 1,
       "kairos": 1,
       "aurora": 1,
       "rhysida": 1,
@@ -3642,20 +3644,20 @@
       "crypto24": 1
     },
     "by_sector": {
-      "Manufacturing": 17,
+      "Manufacturing": 16,
       "Technology": 14,
       "Professional Services": 12,
       "Not Found": 12,
-      "Other": 9,
+      "Other": 8,
       "Financial Services": 7,
-      "Healthcare": 5,
+      "Healthcare": 6,
       "Retail & E-Commerce": 4,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
       "Education": 4,
+      "Hospitality": 3,
       "Government & Defense": 3,
-      "Energy & Utilities": 3,
-      "Hospitality": 2
+      "Energy & Utilities": 3
     }
   },
   "errors": []
