@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-04T10:44:47.078497+00:00",
+  "last_updated_utc": "2026-09-04T14:51:43.811255+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,30 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Blanco & Etcheverry",
+      "group": "gunra",
+      "country": "UY",
+      "sector": "Professional Services",
+      "discovered": "2026-09-04T06:59:19.092117+00:00",
+      "attack_date": "2026-09-04T06:59:18.414443+00:00",
+      "website": "",
+      "description": "Sector: Law Firm | Revenue: US$ 5,000,000",
+      "claim_url": "https://www.ransomware.live/id/QmxhbmNvICYgRXRjaGV2ZXJyeUBndW5yYQ==",
+      "monitored": false
+    },
+    {
+      "victim": "Occidental",
+      "group": "gunra",
+      "country": "VE",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-09-04T06:58:59.451329+00:00",
+      "attack_date": "2026-09-04T06:58:58.669209+00:00",
+      "website": "",
+      "description": "Sector: Insurance | Revenue: US$ 157,000,000",
+      "claim_url": "https://www.ransomware.live/id/T2NjaWRlbnRhbEBndW5yYQ==",
+      "monitored": false
     },
     {
       "victim": "Complete Packaging Solutions",
@@ -1176,30 +1200,6 @@
       "description": "United States",
       "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=nRz8hNyblr2Aee",
       "monitored": true
-    },
-    {
-      "victim": "Meteor Group",
-      "group": "play",
-      "country": "Germany",
-      "sector": "Other",
-      "discovered": "2026-08-31T14:27:20.013816+00:00",
-      "attack_date": "2026-08-31T14:27:04.250139+00:00",
-      "website": "",
-      "description": "Germany",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=ERRbEvbLM2k5Ta",
-      "monitored": true
-    },
-    {
-      "victim": "Cedar County Memorial Hospital",
-      "group": "Wallstreet",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-08-31T13:21:44.345291+00:00",
-      "attack_date": "2026-08-31T13:13:27+00:00",
-      "website": "",
-      "description": "Cedar County Memorial Hospital is a community hospital providing emergency, inpatient, outpatient, diagnostic, surgical, and rehabilitation services.",
-      "claim_url": "https://www.ransomware.live/id/Q2VkYXIgQ291bnR5IE1lbW9yaWFsIEhvc3BpdGFsQFdhbGxzdHJlZXQ=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1265,6 +1265,12 @@
     },
     {
       "name": "Black X",
+      "description": "",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "BlackLocks",
       "description": "",
       "locations": 1,
       "meta": ""
@@ -3576,15 +3582,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 66,
-    "unique_groups": 28,
-    "unique_countries": 32,
+    "monitored_victims": 64,
+    "unique_groups": 29,
+    "unique_countries": 34,
     "by_country": {
-      "United States": 36,
+      "United States": 35,
       "Unknown": 9,
       "India": 7,
-      "Germany": 5,
       "Canada": 5,
+      "Germany": 4,
       "Spain": 4,
       "Mexico": 3,
       "Italy": 2,
@@ -3593,6 +3599,8 @@
       "United Kingdom": 2,
       "Brazil": 2,
       "Netherlands": 2,
+      "UY": 1,
+      "VE": 1,
       "CL": 1,
       "GT": 1,
       "EC": 1,
@@ -3622,10 +3630,11 @@
       "akira": 6,
       "qilin": 6,
       "direwolf": 5,
-      "Wallstreet": 4,
-      "play": 4,
+      "Wallstreet": 3,
       "thegentlemen": 3,
       "everest": 3,
+      "play": 3,
+      "gunra": 2,
       "Panzer": 2,
       "spacebears": 2,
       "Vexy Ransomware": 2,
@@ -3645,19 +3654,19 @@
     },
     "by_sector": {
       "Manufacturing": 14,
+      "Professional Services": 13,
       "Technology": 13,
-      "Professional Services": 12,
       "Not Found": 12,
-      "Other": 10,
-      "Healthcare": 7,
+      "Other": 9,
       "Financial Services": 6,
+      "Healthcare": 6,
       "Education": 5,
+      "Energy & Utilities": 4,
       "Retail & E-Commerce": 4,
       "Transportation": 4,
       "Agriculture and Food Production": 4,
       "Hospitality": 3,
-      "Government & Defense": 3,
-      "Energy & Utilities": 3
+      "Government & Defense": 3
     }
   },
   "errors": []
