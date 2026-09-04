@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-04T14:51:43.811255+00:00",
+  "last_updated_utc": "2026-09-04T18:09:58.346323+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Commission de la construction du Quebec (CCQ)",
+      "group": "qilin",
+      "country": "Canada",
+      "sector": "Government & Defense",
+      "discovered": "2026-09-04T11:30:59.887918+00:00",
+      "attack_date": "2026-09-04T11:30:34.266514+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=a2710463-aa0e-4555-be9c-57188ff6434c",
       "monitored": true
     },
     {
@@ -84,6 +96,18 @@
       "description": "Schwartz, Giannini, Lantsberger & Adamson (SGLA) Accountancy  Corporation is a full-service certified public accounting firm based in  Stockton, California, founded in 1988. The firm provides tax planning  and compliance, audits, reviews and compilations, bookkeeping, payroll,  outsourced CFO suppor",
       "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/74/schwartz-giannini-lantsberger-adamson-sgla",
       "monitored": true
+    },
+    {
+      "victim": "Worrell",
+      "group": "akira",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-09-04T13:51:54.499887+00:00",
+      "attack_date": "2026-09-04T00:00:00+00:00",
+      "website": "",
+      "description": "Worrell Corporation is a family-owned business based in Indianapolis that specializes in promot\nional products, marketing, and print services. They assist clients in finding impactful promoti\nonal items while offering tailored marketing strategies and webstore solutions.\n\nWe will upload 45gb of corp",
+      "claim_url": "https://www.ransomware.live/id/V29ycmVsbEBha2lyYQ==",
+      "monitored": false
     },
     {
       "victim": "Studio Oculistico Ciraci",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Canada",
       "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=hEIeYmkZgItUu",
-      "monitored": true
-    },
-    {
-      "victim": "Figgins Family Wine Estates",
-      "group": "play",
-      "country": "United States",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-08-31T14:28:26.464503+00:00",
-      "attack_date": "2026-08-31T14:28:11.371287+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=UmJAWJS9K2lw",
-      "monitored": true
-    },
-    {
-      "victim": "KRC Machine Tool Solutions",
-      "group": "play",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-08-31T14:27:53.377310+00:00",
-      "attack_date": "2026-08-31T14:27:38.147231+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=nRz8hNyblr2Aee",
       "monitored": true
     }
   ],
@@ -3582,14 +3582,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
+    "monitored_victims": 63,
     "unique_groups": 29,
     "unique_countries": 34,
     "by_country": {
-      "United States": 35,
-      "Unknown": 9,
+      "United States": 33,
+      "Unknown": 10,
       "India": 7,
-      "Canada": 5,
+      "Canada": 6,
       "Germany": 4,
       "Spain": 4,
       "Mexico": 3,
@@ -3626,14 +3626,13 @@
       "incransom": 8,
       "Storm": 8,
       "BrainCipher": 8,
+      "akira": 7,
+      "qilin": 7,
       "SilentRansomGroup": 7,
-      "akira": 6,
-      "qilin": 6,
       "direwolf": 5,
       "Wallstreet": 3,
       "thegentlemen": 3,
       "everest": 3,
-      "play": 3,
       "gunra": 2,
       "Panzer": 2,
       "spacebears": 2,
@@ -3650,23 +3649,24 @@
       "bravox": 1,
       "majinahanashi": 1,
       "interlock": 1,
-      "Falcon": 1
+      "Falcon": 1,
+      "play": 1
     },
     "by_sector": {
-      "Manufacturing": 14,
       "Professional Services": 13,
+      "Manufacturing": 13,
+      "Not Found": 13,
       "Technology": 13,
-      "Not Found": 12,
       "Other": 9,
       "Financial Services": 6,
       "Healthcare": 6,
       "Education": 5,
+      "Government & Defense": 4,
       "Energy & Utilities": 4,
       "Retail & E-Commerce": 4,
       "Transportation": 4,
-      "Agriculture and Food Production": 4,
       "Hospitality": 3,
-      "Government & Defense": 3
+      "Agriculture and Food Production": 3
     }
   },
   "errors": []
