@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-05T03:14:29.521958+00:00",
+  "last_updated_utc": "2026-09-05T08:07:30.630593+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Judicial Branch of the Province of Jujuy",
+      "group": "emperador",
+      "country": "AR",
+      "sector": "Government & Defense",
+      "discovered": "2026-09-05T02:50:45.984795+00:00",
+      "attack_date": "2026-09-05T01:47:00+00:00",
+      "website": "",
+      "description": "The official website of the Judicial Branch of Jujuy, Argentina. It provides court information, digital case management, mediation services, legal rulings, and judicial news for legal professionals and the public.\n\nNow i have your wordpress databases, login credentials to internal systems(thanks to ",
+      "claim_url": "/post/judicial-branch-of-the-province-of-jujuy/",
+      "monitored": false
     },
     {
       "victim": "H... C...",
@@ -1188,18 +1200,6 @@
       "description": "[AI generated] N/A",
       "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/ahadandco-com",
       "monitored": false
-    },
-    {
-      "victim": "sago.com",
-      "group": "BrainCipher",
-      "country": "",
-      "sector": "Technology",
-      "discovered": "2026-08-31T19:52:07.912081+00:00",
-      "attack_date": "2026-08-31T19:51:51.545927+00:00",
-      "website": "",
-      "description": "[AI generated] Sago is a market research and insights company headquartered in the United States. It specializes in connecting brands and researchers with qualified participants for qualitative and quantitative research studies, including focus groups, online surveys, and in-depth interviews. Former",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/sago-com",
-      "monitored": false
     }
   ],
   "groups": [
@@ -1272,7 +1272,7 @@
     {
       "name": "BlackLocks",
       "description": "",
-      "locations": 1,
+      "locations": 2,
       "meta": ""
     },
     {
@@ -3583,11 +3583,11 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 60,
-    "unique_groups": 27,
-    "unique_countries": 33,
+    "unique_groups": 28,
+    "unique_countries": 34,
     "by_country": {
       "United States": 30,
-      "Unknown": 14,
+      "Unknown": 13,
       "India": 8,
       "Germany": 5,
       "Canada": 5,
@@ -3598,6 +3598,7 @@
       "Indonesia": 2,
       "Thailand": 2,
       "Brazil": 2,
+      "AR": 1,
       "MM": 1,
       "UY": 1,
       "VE": 1,
@@ -3628,8 +3629,8 @@
       "Storm": 8,
       "direwolf": 6,
       "qilin": 6,
-      "BrainCipher": 6,
       "Vexy Ransomware": 5,
+      "BrainCipher": 5,
       "spacebears": 3,
       "lockbit5": 3,
       "Wallstreet": 3,
@@ -3638,6 +3639,7 @@
       "Panzer": 2,
       "medusalocker": 2,
       "Eclipse": 2,
+      "emperador": 1,
       "DYSPHOR1A": 1,
       "tridentlocker": 1,
       "insomnia": 1,
@@ -3651,15 +3653,15 @@
     },
     "by_sector": {
       "Not Found": 14,
-      "Technology": 13,
       "Manufacturing": 13,
+      "Technology": 12,
       "Other": 10,
       "Professional Services": 10,
       "Healthcare": 7,
       "Financial Services": 6,
+      "Government & Defense": 5,
       "Education": 5,
       "Retail & E-Commerce": 4,
-      "Government & Defense": 4,
       "Energy & Utilities": 4,
       "Transportation": 4,
       "Hospitality": 3,
