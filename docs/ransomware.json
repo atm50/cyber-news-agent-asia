@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-05T17:58:20.576295+00:00",
+  "last_updated_utc": "2026-09-05T20:08:16.695698+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "CitizensPay",
+      "group": "DYSPHOR1A",
+      "country": "MM",
+      "sector": "Financial Services",
+      "discovered": "2026-09-05T15:50:36.617535+00:00",
+      "attack_date": "2026-09-05T15:50:35.733805+00:00",
+      "website": "",
+      "description": "Citizens Pay (also known as CTZPay) is a mobile digital wallet and payment platform in Myanmar powered by Myanmar Citizens Bank (MCB) and Capital Connect Limited. Compromised agent user information — total data size 30 GB. Price range $7,000 to $25,000. Victim domain https://ctzpay.com.",
+      "claim_url": "https://www.ransomware.live/id/Q2l0aXplbnNQYXlARFlTUEhPUjFB",
+      "monitored": false
     },
     {
       "victim": "Philippine Ports Authority",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Organization with 150 emails extracted. Domain: lawter.com",
       "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/baoatah/",
-      "monitored": true
-    },
-    {
-      "victim": "Commission de la construction du Quebec",
-      "group": "qilin",
-      "country": "Canada",
-      "sector": "Government & Defense",
-      "discovered": "2026-09-01T03:57:10.128191+00:00",
-      "attack_date": "2026-09-01T03:56:51.567977+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=bb124a20-c23d-4d26-a952-fefc3b6d6fc2",
       "monitored": true
     }
   ],
@@ -3582,7 +3582,7 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
+    "monitored_victims": 68,
     "unique_groups": 27,
     "unique_countries": 32,
     "by_country": {
@@ -3590,8 +3590,9 @@
       "Unknown": 10,
       "India": 8,
       "Germany": 5,
-      "Canada": 5,
+      "Canada": 4,
       "Mexico": 3,
+      "MM": 2,
       "United Kingdom": 2,
       "France": 2,
       "Netherlands": 2,
@@ -3601,7 +3602,6 @@
       "Brazil": 2,
       "Philippines": 1,
       "AR": 1,
-      "MM": 1,
       "UY": 1,
       "VE": 1,
       "CL": 1,
@@ -3621,7 +3621,7 @@
     },
     "by_group": {
       "krybit": 15,
-      "qilin": 13,
+      "qilin": 12,
       "SilentRansomGroup": 8,
       "incransom": 8,
       "Storm": 8,
@@ -3631,13 +3631,13 @@
       "spacebears": 4,
       "lockbit5": 3,
       "Wallstreet": 3,
+      "DYSPHOR1A": 2,
       "aurora": 2,
       "gunra": 2,
       "Panzer": 2,
       "medusalocker": 2,
       "Eclipse": 2,
       "emperador": 1,
-      "DYSPHOR1A": 1,
       "tridentlocker": 1,
       "insomnia": 1,
       "anubis": 1,
@@ -3655,12 +3655,12 @@
       "Other": 9,
       "Technology": 8,
       "Healthcare": 8,
-      "Financial Services": 6,
+      "Financial Services": 7,
       "Transportation": 6,
       "Retail & E-Commerce": 5,
-      "Government & Defense": 5,
       "Education": 5,
       "Hospitality": 4,
+      "Government & Defense": 4,
       "Energy & Utilities": 4,
       "Agriculture and Food Production": 3
     }
