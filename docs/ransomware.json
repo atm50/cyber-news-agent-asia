@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-05T15:50:17.458718+00:00",
+  "last_updated_utc": "2026-09-05T17:58:20.576295+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Philippine Ports Authority",
+      "group": "qilin",
+      "country": "Philippines",
+      "sector": "Transportation",
+      "discovered": "2026-09-05T13:46:22.001080+00:00",
+      "attack_date": "2026-09-05T13:45:59.532693+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=65f2d9fb-d508-4c18-84e1-14defac537bb",
+      "monitored": true
+    },
+    {
+      "victim": "Bauman Law Group",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-09-05T13:45:42.996623+00:00",
+      "attack_date": "2026-09-05T13:45:02.895051+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=e46fa1b8-8412-4232-9d35-bec750d2f148",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=bb124a20-c23d-4d26-a952-fefc3b6d6fc2",
       "monitored": true
-    },
-    {
-      "victim": "VIVOTEK",
-      "group": "everest",
-      "country": "Taiwan",
-      "sector": "Technology",
-      "discovered": "2026-09-01T02:25:26.523703+00:00",
-      "attack_date": "2026-09-01T01:25:07.034754+00:00",
-      "website": "",
-      "description": "[AI generated] VIVOTEK is a Taiwanese company founded in 2000 and headquartered in New Taipei City, Taiwan. It specializes in network surveillance products, including IP cameras, video management software, and network video recorders. Operating in the physical security and surveillance industry, VIV",
-      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/vivotek",
-      "monitored": false
-    },
-    {
-      "victim": "Italtel Peru",
-      "group": "everest",
-      "country": "PE",
-      "sector": "Technology",
-      "discovered": "2026-09-01T02:24:48.790434+00:00",
-      "attack_date": "2026-09-01T01:24:25.353489+00:00",
-      "website": "",
-      "description": "[AI generated] Italtel Peru is a subsidiary of Italtel, an Italian telecommunications technology company. Operating in Peru, it provides ICT solutions including network infrastructure, system integration, and telecommunications services. The company serves enterprise and public sector clients, offer",
-      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/italtel-peru",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3582,11 +3582,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
-    "unique_groups": 28,
-    "unique_countries": 33,
+    "monitored_victims": 69,
+    "unique_groups": 27,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 35,
+      "United States": 36,
       "Unknown": 10,
       "India": 8,
       "Germany": 5,
@@ -3599,6 +3599,7 @@
       "Indonesia": 2,
       "Thailand": 2,
       "Brazil": 2,
+      "Philippines": 1,
       "AR": 1,
       "MM": 1,
       "UY": 1,
@@ -3616,13 +3617,11 @@
       "BT": 1,
       "Saudi Arabia": 1,
       "PA": 1,
-      "Spain": 1,
-      "Taiwan": 1,
-      "PE": 1
+      "Spain": 1
     },
     "by_group": {
       "krybit": 15,
-      "qilin": 11,
+      "qilin": 13,
       "SilentRansomGroup": 8,
       "incransom": 8,
       "Storm": 8,
@@ -3637,7 +3636,6 @@
       "Panzer": 2,
       "medusalocker": 2,
       "Eclipse": 2,
-      "everest": 2,
       "emperador": 1,
       "DYSPHOR1A": 1,
       "tridentlocker": 1,
@@ -3653,14 +3651,14 @@
     "by_sector": {
       "Manufacturing": 14,
       "Not Found": 13,
-      "Technology": 10,
-      "Professional Services": 9,
+      "Professional Services": 10,
       "Other": 9,
+      "Technology": 8,
       "Healthcare": 8,
       "Financial Services": 6,
+      "Transportation": 6,
       "Retail & E-Commerce": 5,
       "Government & Defense": 5,
-      "Transportation": 5,
       "Education": 5,
       "Hospitality": 4,
       "Energy & Utilities": 4,
