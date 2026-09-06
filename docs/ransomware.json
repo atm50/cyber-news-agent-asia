@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-06T00:38:14.216232+00:00",
+  "last_updated_utc": "2026-09-06T05:34:08.390003+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Mission Pet Health",
+      "group": "direwolf",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-09-05T21:54:20.573912+00:00",
+      "attack_date": "2026-09-05T21:44:49.338000+00:00",
+      "website": "",
+      "description": "Healthcare Services",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/122",
+      "monitored": true
+    },
+    {
+      "victim": "Spirit Cultural Exchange - US",
+      "group": "kazu",
+      "country": "United States",
+      "sector": "Education",
+      "discovered": "2026-09-05T21:29:42.693866+00:00",
+      "attack_date": "2026-09-05T21:29:41.291608+00:00",
+      "website": "",
+      "description": "Spirit Cultural Exchange is a U.S.-based organization that provides international cultural exchange and J-1 visa programs for students, young professionals, teachers, and international participants. Its programs include Summer Work and Travel, internships, professional training, and teaching opportu",
+      "claim_url": "https://www.ransomware.live/id/U3Bpcml0IEN1bHR1cmFsIEV4Y2hhbmdlIC0gVVNAa2F6dQ==",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "The Holding Company for Construction and Development (HCCD) is an Egyptian public holding company (Egyptian Holding Stoc...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/e6c5461f72626d0dd12186aa932006643c9a45b9cc7c4c024ccb73ad550c7b98/",
       "monitored": true
-    },
-    {
-      "victim": "Multiver Ltée",
-      "group": "incransom",
-      "country": "Canada",
-      "sector": "Not Found",
-      "discovered": "2026-09-02T14:55:53.486798+00:00",
-      "attack_date": "2026-09-01T05:45:00+00:00",
-      "website": "",
-      "description": "Multiver Ltée specializes in the manufacturing of glass products, offering a range of solutions from sealed to tempered and shaped glass. With over 50 years of experience, the company is renowned for its craftsmanship and commitment to timely delivery. They have successfully completed various archit",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a98358f9cd108bf26b3e38b",
-      "monitored": true
-    },
-    {
-      "victim": "Metales Panamericanos",
-      "group": "incransom",
-      "country": "PA",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-02T14:55:35.724292+00:00",
-      "attack_date": "2026-09-01T05:45:00+00:00",
-      "website": "",
-      "description": "English Metales Panamericanos, previously known as ACERO PANAMA, is the main construction & steel supplier to the Construction industry in Panama, initially focus in steel materials, now our new mission is extended to different constructions systems, Electrical Solutions, Equipment & Devices, zing c",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a9836399cd108bf26b3fe27",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3582,17 +3582,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
-    "unique_groups": 27,
-    "unique_countries": 32,
+    "monitored_victims": 70,
+    "unique_groups": 28,
+    "unique_countries": 31,
     "by_country": {
-      "United States": 36,
+      "United States": 38,
       "Unknown": 10,
       "India": 8,
       "Germany": 5,
-      "Canada": 4,
       "Mexico": 3,
       "Brazil": 3,
+      "Canada": 3,
       "MM": 2,
       "United Kingdom": 2,
       "France": 2,
@@ -3616,27 +3616,27 @@
       "Switzerland": 1,
       "China": 1,
       "BT": 1,
-      "Saudi Arabia": 1,
-      "PA": 1
+      "Saudi Arabia": 1
     },
     "by_group": {
       "krybit": 15,
       "qilin": 12,
       "SilentRansomGroup": 8,
       "Storm": 8,
+      "direwolf": 7,
       "akira": 6,
       "Vexy Ransomware": 6,
-      "direwolf": 6,
       "thegentlemen": 5,
       "spacebears": 4,
-      "incransom": 4,
       "lockbit5": 3,
       "Wallstreet": 3,
       "DYSPHOR1A": 2,
       "aurora": 2,
       "gunra": 2,
       "Panzer": 2,
+      "incransom": 2,
       "Eclipse": 2,
+      "kazu": 1,
       "emperador": 1,
       "tridentlocker": 1,
       "insomnia": 1,
@@ -3649,19 +3649,19 @@
       "bravox": 1
     },
     "by_sector": {
-      "Not Found": 13,
-      "Manufacturing": 12,
+      "Not Found": 12,
+      "Manufacturing": 11,
+      "Healthcare": 10,
       "Professional Services": 10,
-      "Healthcare": 9,
       "Other": 9,
       "Technology": 8,
       "Financial Services": 7,
       "Transportation": 7,
       "Retail & E-Commerce": 6,
+      "Education": 5,
       "Hospitality": 4,
       "Government & Defense": 4,
       "Energy & Utilities": 4,
-      "Education": 4,
       "Agriculture and Food Production": 3
     }
   },
