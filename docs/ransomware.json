@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-06T18:54:07.212124+00:00",
+  "last_updated_utc": "2026-09-06T21:06:00.309580+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "eAssist Dental Solutions",
+      "group": "direwolf",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-09-06T16:55:00.061014+00:00",
+      "attack_date": "2026-09-06T16:13:48.378000+00:00",
+      "website": "",
+      "description": "Healthcare",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/124",
       "monitored": true
     },
     {
@@ -47,6 +59,18 @@
       "website": "",
       "description": "The edacentrum is the network for electronics, design and applications in business and science. As an independent authority, the edacentrum designs research & development for a consistent design methodology along the entire value chain. In this role, the edacentrum is a recognized innovation acceler",
       "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/edacentrum",
+      "monitored": true
+    },
+    {
+      "victim": "Sancity",
+      "group": "Vexy Ransomware",
+      "country": "India",
+      "sector": "Other",
+      "discovered": "2026-09-06T15:00:28.254541+00:00",
+      "attack_date": "2026-09-06T00:00:00+00:00",
+      "website": "",
+      "description": "An active, unlisted public company incorporated in 2012, operating in real estate/construction and real-estate marketing & sales",
+      "claim_url": "https://www.ransomware.live/id/U2FuY2l0eUBWZXh5IFJhbnNvbXdhcmU=",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "DMT Consulting Private Limited is an Indian private limited company incorporated on September 25, 1998, formerly known a...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/f6d3a75e05df78f42ef573ea36c91f4ae27682d98a1f4b152b836772912be9cd/",
       "monitored": true
-    },
-    {
-      "victim": "jswlaw.bt",
-      "group": "krybit",
-      "country": "BT",
-      "sector": "Professional Services",
-      "discovered": "2026-09-01T08:57:56.209777+00:00",
-      "attack_date": "2026-09-01T08:57:38.600445+00:00",
-      "website": "",
-      "description": "Jigme Singye Wangchuck School of Law (JSW Law) is Bhutan's first and only law school, established by Royal Charter on Fe...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/eef2674fa5fbd480f4e5d9e74b67388f89ebd936cb7b47cd9ac6449a0545c0de/",
-      "monitored": false
-    },
-    {
-      "victim": "vedantaainstitute.in",
-      "group": "krybit",
-      "country": "India",
-      "sector": "Education",
-      "discovered": "2026-09-01T08:57:18.981540+00:00",
-      "attack_date": "2026-09-01T08:57:00.910522+00:00",
-      "website": "",
-      "description": "Vedantaa Institute of Medical Sciences (VIMS) is a private Indian medical education institution and hospital operated un...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/a6192b6dd1341e11255961b0434a7f6b3ecbe1ca982dc4d8cb8035c2bbc8978e/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1494,7 +1494,7 @@
     {
       "name": "Panzer",
       "description": "",
-      "locations": 1,
+      "locations": 6,
       "meta": ""
     },
     {
@@ -3582,11 +3582,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 73,
+    "monitored_victims": 74,
     "unique_groups": 29,
-    "unique_countries": 31,
+    "unique_countries": 30,
     "by_country": {
-      "United States": 41,
+      "United States": 42,
       "Unknown": 8,
       "India": 7,
       "Germany": 6,
@@ -3615,17 +3615,16 @@
       "Singapore": 1,
       "Australia": 1,
       "HU": 1,
-      "China": 1,
-      "BT": 1
+      "China": 1
     },
     "by_group": {
       "qilin": 12,
-      "krybit": 11,
-      "direwolf": 8,
+      "direwolf": 9,
+      "krybit": 9,
       "SilentRansomGroup": 8,
       "Storm": 8,
+      "Vexy Ransomware": 7,
       "akira": 6,
-      "Vexy Ransomware": 6,
       "thegentlemen": 5,
       "Panzer": 4,
       "spacebears": 4,
@@ -3650,16 +3649,16 @@
       "bravox": 1
     },
     "by_sector": {
+      "Healthcare": 13,
       "Not Found": 13,
-      "Healthcare": 12,
-      "Professional Services": 10,
       "Manufacturing": 10,
+      "Professional Services": 9,
+      "Other": 9,
       "Technology": 9,
-      "Other": 8,
       "Financial Services": 7,
       "Transportation": 6,
       "Retail & E-Commerce": 6,
-      "Education": 5,
+      "Education": 4,
       "Hospitality": 4,
       "Government & Defense": 4,
       "Energy & Utilities": 4,
