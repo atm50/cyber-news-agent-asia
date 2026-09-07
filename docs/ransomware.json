@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-06T23:32:38.081270+00:00",
+  "last_updated_utc": "2026-09-07T03:12:17.818258+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -890,18 +890,6 @@
       "monitored": true
     },
     {
-      "victim": "PennFab",
-      "group": "akira",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-02T14:22:30.041744+00:00",
-      "attack_date": "2026-09-02T00:00:00+00:00",
-      "website": "",
-      "description": "PennFab is a Pennsylvania-based steel manufacturing company specializing in structural steel fa\nbrication for various industries, including railroad and transportation. They offer a wide rang\ne of services such as engineering, welding, and custom metal fabrication, ensuring high-quality\nproducts mad",
-      "claim_url": "https://www.ransomware.live/id/UGVubkZhYkBha2lyYQ==",
-      "monitored": true
-    },
-    {
       "victim": "ScrubaDub Auto Wash Centers",
       "group": "akira",
       "country": "United States",
@@ -1200,6 +1188,18 @@
       "description": "Reignwood Park Thailand is a luxury real estate and integrated lifestyle development project by Reignwood Group — a le...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/a4b7783f228e95d687242d90c562f3c82007667ab2c25634bc4dcc7a97dd6b7f/",
       "monitored": true
+    },
+    {
+      "victim": "orex.co.th",
+      "group": "krybit",
+      "country": "Thailand",
+      "sector": "Other",
+      "discovered": "2026-09-01T08:59:45.853771+00:00",
+      "attack_date": "2026-09-01T08:59:28.372545+00:00",
+      "website": "",
+      "description": "Orex Trading Co., Ltd. is a Thai trusted distributor and one-stop service provider of medical products, pharmaceuticals,...",
+      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/0cc1b08a430375b81d49f1e0bc6faa8f0f963165831ba630bb530e6f4913437b/",
+      "monitored": false
     }
   ],
   "groups": [
@@ -3582,11 +3582,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 74,
+    "monitored_victims": 73,
     "unique_groups": 30,
     "unique_countries": 30,
     "by_country": {
-      "United States": 43,
+      "United States": 42,
       "Unknown": 8,
       "India": 7,
       "Germany": 5,
@@ -3597,6 +3597,7 @@
       "United Kingdom": 2,
       "France": 2,
       "Indonesia": 2,
+      "Thailand": 2,
       "Switzerland": 2,
       "Saudi Arabia": 1,
       "Philippines": 1,
@@ -3611,7 +3612,6 @@
       "EC": 1,
       "Malaysia": 1,
       "South Africa": 1,
-      "Thailand": 1,
       "Singapore": 1,
       "Australia": 1,
       "HU": 1,
@@ -3623,8 +3623,8 @@
       "SilentRansomGroup": 8,
       "Storm": 8,
       "Vexy Ransomware": 7,
-      "akira": 6,
-      "krybit": 6,
+      "krybit": 7,
+      "akira": 5,
       "thegentlemen": 5,
       "Panzer": 4,
       "spacebears": 4,
@@ -3653,8 +3653,8 @@
       "Healthcare": 13,
       "Not Found": 13,
       "Professional Services": 10,
-      "Manufacturing": 10,
-      "Other": 8,
+      "Other": 9,
+      "Manufacturing": 9,
       "Financial Services": 7,
       "Technology": 7,
       "Retail & E-Commerce": 7,
