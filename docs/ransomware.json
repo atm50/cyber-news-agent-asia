@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-07T03:12:17.818258+00:00",
+  "last_updated_utc": "2026-09-07T09:00:21.834429+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Medela.com",
+      "group": "shinyhunters",
+      "country": "Switzerland",
+      "sector": "Healthcare",
+      "discovered": "2026-09-07T01:32:59.937610+00:00",
+      "attack_date": "2026-09-07T01:32:58.372900+00:00",
+      "website": "",
+      "description": "This is a final warning to reach out by 08 Sep 2026 before we leak along with several annoying (digital) problems that'll come your way. Make the right decision, don't be the next headline. | Updated: 07 Sep 2026 | Warning: FINAL WARNING",
+      "claim_url": "https://www.ransomware.live/id/TWVkZWxhLmNvbUBzaGlueWh1bnRlcnM=",
+      "monitored": false
+    },
+    {
+      "victim": "Ben Leeds Properties",
+      "group": "ShadowByt3$",
+      "country": "United Kingdom",
+      "sector": "Other",
+      "discovered": "2026-09-07T03:52:12.749532+00:00",
+      "attack_date": "2026-09-07T00:00:00+00:00",
+      "website": "",
+      "description": "We have emailed the following\r\n\r\nla@benleedsproperties.com\r\nnikki@benleedsproperties.com\r\n21736Roscoe@benleedsproperties.com\r\n3327livonia@benleedsproperties.com\r\nAccounting@BenLeedsProperties.com\r\nSupport@BenLeedsProperties.com\r\nManagement@BenLeedsProperties.com\r\n\r\nReply back and negotiate or all da",
+      "claim_url": "https://mega.nz/notpublishedyetbutwillbesoon",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "Alphaplantes (Service d'Entretien des Plantes Alpha Inc.) is a Canadian family-owned company founded in 1970, headquarte...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/4cbd84e6fad4c509ca2e838b55850baa2999b06d47e17b62c62de5e7c5108f11/",
       "monitored": true
-    },
-    {
-      "victim": "reignwoodpark.com",
-      "group": "krybit",
-      "country": "China",
-      "sector": "Hospitality",
-      "discovered": "2026-09-01T09:00:26.862330+00:00",
-      "attack_date": "2026-09-01T09:00:04.801012+00:00",
-      "website": "",
-      "description": "Reignwood Park Thailand is a luxury real estate and integrated lifestyle development project by Reignwood Group — a le...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/a4b7783f228e95d687242d90c562f3c82007667ab2c25634bc4dcc7a97dd6b7f/",
-      "monitored": true
-    },
-    {
-      "victim": "orex.co.th",
-      "group": "krybit",
-      "country": "Thailand",
-      "sector": "Other",
-      "discovered": "2026-09-01T08:59:45.853771+00:00",
-      "attack_date": "2026-09-01T08:59:28.372545+00:00",
-      "website": "",
-      "description": "Orex Trading Co., Ltd. is a Thai trusted distributor and one-stop service provider of medical products, pharmaceuticals,...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/0cc1b08a430375b81d49f1e0bc6faa8f0f963165831ba630bb530e6f4913437b/",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3583,22 +3583,21 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 73,
-    "unique_groups": 30,
-    "unique_countries": 30,
+    "unique_groups": 32,
+    "unique_countries": 29,
     "by_country": {
       "United States": 42,
       "Unknown": 8,
       "India": 7,
       "Germany": 5,
+      "Switzerland": 3,
+      "United Kingdom": 3,
       "MM": 3,
       "Brazil": 3,
       "Canada": 3,
       "Mexico": 2,
-      "United Kingdom": 2,
       "France": 2,
       "Indonesia": 2,
-      "Thailand": 2,
-      "Switzerland": 2,
       "Saudi Arabia": 1,
       "Philippines": 1,
       "AR": 1,
@@ -3612,10 +3611,10 @@
       "EC": 1,
       "Malaysia": 1,
       "South Africa": 1,
+      "Thailand": 1,
       "Singapore": 1,
       "Australia": 1,
-      "HU": 1,
-      "China": 1
+      "HU": 1
     },
     "by_group": {
       "qilin": 12,
@@ -3623,9 +3622,9 @@
       "SilentRansomGroup": 8,
       "Storm": 8,
       "Vexy Ransomware": 7,
-      "krybit": 7,
       "akira": 5,
       "thegentlemen": 5,
+      "krybit": 5,
       "Panzer": 4,
       "spacebears": 4,
       "DYSPHOR1A": 3,
@@ -3636,6 +3635,8 @@
       "gunra": 2,
       "incransom": 2,
       "Eclipse": 2,
+      "shinyhunters": 1,
+      "ShadowByt3$": 1,
       "chaos": 1,
       "kazu": 1,
       "emperador": 1,
@@ -3650,7 +3651,7 @@
       "bravox": 1
     },
     "by_sector": {
-      "Healthcare": 13,
+      "Healthcare": 14,
       "Not Found": 13,
       "Professional Services": 10,
       "Other": 9,
@@ -3661,8 +3662,8 @@
       "Transportation": 6,
       "Government & Defense": 5,
       "Education": 4,
-      "Hospitality": 4,
       "Energy & Utilities": 4,
+      "Hospitality": 3,
       "Agriculture and Food Production": 2
     }
   },
