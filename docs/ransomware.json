@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-07T22:33:54.559799+00:00",
+  "last_updated_utc": "2026-09-08T00:57:21.281951+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -215,6 +215,30 @@
       "website": "",
       "description": "Hologic, Inc. is a U.S.-based medical technology company specializing in women’s health. It develops and manufactures diagnostic, imaging, and surgical products, with a strong focus on breast health, gynecology, diagnostics, and osteoporosis assessment.",
       "claim_url": "https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:1b1f881b5082e0d983b217312555559ddcb10de358316f06a3bf10a138abcbf0/0AFC:c6f1ac7aa4e7fd8391f8e61c78267b00044613c3e3a22a2a7f54ea5349e41918",
+      "monitored": true
+    },
+    {
+      "victim": "State of Florida DMV",
+      "group": "shinyhunters",
+      "country": "United States",
+      "sector": "Government & Defense",
+      "discovered": "2026-09-07T20:07:30.598993+00:00",
+      "attack_date": "2026-09-07T11:10:00+00:00",
+      "website": "",
+      "description": "Contact us, you know how. or we will release the files. View download button below for proof (samples). Deadline : 9 11 2026 | Updated: 07 Sep 2026 | Warning: FINAL WARNING",
+      "claim_url": "https://www.ransomware.live/id/U3RhdGUgb2YgRmxvcmlkYSBETVZAc2hpbnlodW50ZXJz",
+      "monitored": true
+    },
+    {
+      "victim": "Wellness Partners network(combined revenue)",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-09-07T18:59:19.198606+00:00",
+      "attack_date": "2026-09-07T08:50:00+00:00",
+      "website": "",
+      "description": "Headquartered in Clinton, New York Community Wellness Partners is a faith based non-profit organization that provides healthcare, housing and community services. They also have 24/7 skilled-nursing care to older adults who require residential medical care and support services.",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6a9f08409cd108bf26a4f9bf",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "Algra Group specializes in customized input systems, front panels, and industrial labels, provi\r\nding tailored solutions for various industries. Their product range includes agnostic touch sys\r\ntems, piezo keyboards, and weightpads, catering to sectors such as food processing, automation,\r\nwellness,",
       "claim_url": "https://www.ransomware.live/id/QWxncmEgR3JvdXBAYWtpcmE=",
       "monitored": false
-    },
-    {
-      "victim": "part1.simplexengg.in",
-      "group": "Eclipse",
-      "country": "India",
-      "sector": "Technology",
-      "discovered": "2026-09-02T13:21:21.433862+00:00",
-      "attack_date": "2026-09-02T00:00:00+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://yecdjimqiaekprxza6wkqecma4bwt757qiyfjngsaxg7rkjv4xukpwad.onion/data/part1.simplexengg.in/",
-      "monitored": true
-    },
-    {
-      "victim": "Royal Plaza On Scotts",
-      "group": "Eclipse",
-      "country": "Singapore",
-      "sector": "Hospitality",
-      "discovered": "2026-09-02T12:22:01.548771+00:00",
-      "attack_date": "2026-09-02T00:00:00+00:00",
-      "website": "",
-      "description": "Royal Plaza on Scotts Hotel is a five-star independent hotel located in the heart of Singapore's Orchard Road, offering spacious and modern accommodations. With a legacy of over 50 years, it has been recognized as Asia Pacific's Best Independent Hotel, providing guests with a comfortable stay and aw",
-      "claim_url": "http://eclipse4g5kxfwsvpu4qx5sdcnrji6gxl5gt67bucjlgt35g7akvjoid.onion/place/luiusuxs7vt1g4fr/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3583,25 +3583,25 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 70,
-    "unique_groups": 34,
+    "unique_groups": 33,
     "unique_countries": 30,
     "by_country": {
-      "United States": 39,
+      "United States": 41,
       "Unknown": 9,
-      "India": 6,
       "Germany": 6,
+      "India": 5,
       "Canada": 4,
       "Brazil": 3,
       "United Kingdom": 3,
       "MM": 3,
       "Italy": 2,
-      "Singapore": 2,
       "Switzerland": 2,
       "AR": 2,
       "France": 2,
       "CO": 1,
       "Sweden": 1,
       "Spain": 1,
+      "Singapore": 1,
       "Saudi Arabia": 1,
       "Mexico": 1,
       "Philippines": 1,
@@ -3632,21 +3632,20 @@
       "lockbit5": 3,
       "Storm": 3,
       "Dark Project": 2,
+      "shinyhunters": 2,
+      "incransom": 2,
       "kazu": 2,
       "aurora": 2,
       "dragonforce": 2,
       "gunra": 2,
       "Wallstreet": 2,
-      "Eclipse": 2,
       "rhysida": 1,
       "interlock": 1,
-      "shinyhunters": 1,
       "ShadowByt3$": 1,
       "chaos": 1,
       "emperador": 1,
       "tridentlocker": 1,
       "krybit": 1,
-      "incransom": 1,
       "insomnia": 1,
       "medusalocker": 1,
       "anubis": 1,
@@ -3654,19 +3653,19 @@
       "kairos": 1
     },
     "by_sector": {
-      "Healthcare": 13,
+      "Healthcare": 14,
       "Manufacturing": 12,
       "Not Found": 12,
       "Retail & E-Commerce": 10,
       "Professional Services": 10,
       "Transportation": 7,
       "Other": 7,
+      "Government & Defense": 7,
       "Financial Services": 6,
-      "Technology": 6,
-      "Government & Defense": 6,
+      "Technology": 5,
       "Education": 4,
       "Energy & Utilities": 4,
-      "Hospitality": 3
+      "Hospitality": 2
     }
   },
   "errors": []
