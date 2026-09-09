@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-08T23:53:15.512765+00:00",
+  "last_updated_utc": "2026-09-09T03:24:01.268523+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Red Star Oil",
+      "group": "play",
+      "country": "RS",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-09-08T20:46:45.441557+00:00",
+      "attack_date": "2026-09-08T20:46:29.998944+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=URWl0S32MlBaOs",
+      "monitored": false
+    },
+    {
+      "victim": "GT Distributors",
+      "group": "play",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-09-08T20:46:11.659092+00:00",
+      "attack_date": "2026-09-08T20:45:53.639999+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=uvrc17ZppDE4Jp",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "veradigm.com zoominfo.com/c/veradigm-llc/471134180 \n3.5+ million personal patient records with PII  full name, address, social security number, email, address, phone number,guarantors PII ,Score Veradigm Inc. is a publicly traded American healthcare technology and data analytics company (OTC: MDRX),",
       "claim_url": "https://www.ransomware.live/id/VmVyYWRpZ21AdGhlZ2VudGxlbWVu",
       "monitored": true
-    },
-    {
-      "victim": "Zdrowit",
-      "group": "thegentlemen",
-      "country": "Poland",
-      "sector": "Healthcare",
-      "discovered": "2026-09-05T18:30:11.287716+00:00",
-      "attack_date": "2026-09-04T17:20:01+00:00",
-      "website": "",
-      "description": "karierazdrowit.pl zoominfo.com/c/zdrowit/535531700  Zdrowit S.A. is a family-owned Polish pharmacy chain with 100% Polish capital, operating since 2004 and headquartered in Bytom, Silesia, with over 1,000 employees across 40+ cities in southern and central Poland, aiming to become the largest pharma",
-      "claim_url": "https://www.ransomware.live/id/WmRyb3dpdEB0aGVnZW50bGVtZW4=",
-      "monitored": false
-    },
-    {
-      "victim": "MBT Telecom",
-      "group": "DYSPHOR1A",
-      "country": "MM",
-      "sector": "Technology",
-      "discovered": "2026-09-04T16:50:33.931476+00:00",
-      "attack_date": "2026-09-04T16:50:33.189882+00:00",
-      "website": "",
-      "description": "Myanmar Broadband Telecom Co., Ltd. (MBT) is a leading fiber internet service provider and telecommunications network solutions company established in Myanmar in 2013. Full database compromise exposing 209,970 user records including PII, passwords, and device information.",
-      "claim_url": "https://www.ransomware.live/id/TUJUIFRlbGVjb21ARFlTUEhPUjFB",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3582,11 +3582,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 66,
-    "unique_groups": 25,
+    "monitored_victims": 67,
+    "unique_groups": 26,
     "unique_countries": 34,
     "by_country": {
-      "United States": 35,
+      "United States": 36,
       "AR": 5,
       "Brazil": 5,
       "United Kingdom": 4,
@@ -3596,7 +3596,6 @@
       "France": 3,
       "Unknown": 3,
       "India": 3,
-      "MM": 3,
       "Philippines": 2,
       "Portugal": 2,
       "Russia": 2,
@@ -3604,6 +3603,8 @@
       "South Africa": 2,
       "CO": 2,
       "Germany": 2,
+      "MM": 2,
+      "RS": 1,
       "Austria": 1,
       "Netherlands": 1,
       "Ukraine": 1,
@@ -3618,11 +3619,10 @@
       "Sweden": 1,
       "Switzerland": 1,
       "Saudi Arabia": 1,
-      "Mexico": 1,
-      "Poland": 1
+      "Mexico": 1
     },
     "by_group": {
-      "thegentlemen": 21,
+      "thegentlemen": 20,
       "safepay": 10,
       "direwolf": 10,
       "qilin": 10,
@@ -3634,13 +3634,14 @@
       "AuditTeam": 3,
       "Dark Project": 3,
       "everest": 3,
-      "DYSPHOR1A": 3,
+      "play": 2,
       "chaos": 2,
       "rhysida": 2,
       "Eclipse": 2,
       "shinyhunters": 2,
       "kazu": 2,
       "aurora": 2,
+      "DYSPHOR1A": 2,
       "spacebears": 2,
       "interlock": 1,
       "incransom": 1,
@@ -3651,18 +3652,18 @@
     "by_sector": {
       "Professional Services": 14,
       "Manufacturing": 13,
-      "Healthcare": 11,
+      "Retail & E-Commerce": 10,
+      "Healthcare": 10,
       "Not Found": 10,
-      "Retail & E-Commerce": 9,
       "Other": 8,
-      "Technology": 7,
       "Financial Services": 6,
+      "Technology": 6,
       "Education": 5,
       "Transportation": 5,
       "Hospitality": 4,
       "Government & Defense": 4,
-      "Agriculture and Food Production": 2,
-      "Energy & Utilities": 2
+      "Energy & Utilities": 3,
+      "Agriculture and Food Production": 2
     }
   },
   "errors": []
