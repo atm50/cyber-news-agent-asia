@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-09T08:43:03.746705+00:00",
+  "last_updated_utc": "2026-09-09T13:28:57.108089+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Gellibrand Support Services",
+      "group": "anubis",
+      "country": "",
+      "sector": "Professional Services",
+      "discovered": "2026-09-09T04:54:18.301902+00:00",
+      "attack_date": "2026-09-09T04:53:07.414912+00:00",
+      "website": "",
+      "description": "A data breach at a company full of smiling patients.",
+      "claim_url": "http://anubisyfkh5rixydjpoo3jqucauajz2juybrbtuglcppjj2y3eg3y6ad.onion/r/kNBNu2z2L5DaCF3Rqzk2jPPQWcnQ8j4Ob3JNbY+wBQVAJhgFcOuE7SJDf2xf06SgsCwj8czCzWBjEvRukSo5TRQajJlNHRJ",
+      "monitored": false
     },
     {
       "victim": "Red Star Oil",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Sports Endeavors is a North Carolina company founded in 1984 by brothers Mike and Brendan Moylan. It owns Soccer.com, WorldSoccerShop, and 431 Sports, selling uniforms, gear, and apparel for soccer, baseball, softball, and volleyball to teams, players, and fans. The company is known for a large sele",
       "claim_url": "http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/75/sports-endeavors",
-      "monitored": true
-    },
-    {
-      "victim": "Veradigm",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-09-05T18:29:58.376127+00:00",
-      "attack_date": "2026-09-04T17:26:38+00:00",
-      "website": "",
-      "description": "veradigm.com zoominfo.com/c/veradigm-llc/471134180 \n3.5+ million personal patient records with PII  full name, address, social security number, email, address, phone number,guarantors PII ,Score Veradigm Inc. is a publicly traded American healthcare technology and data analytics company (OTC: MDRX),",
-      "claim_url": "https://www.ransomware.live/id/VmVyYWRpZ21AdGhlZ2VudGxlbWVu",
       "monitored": true
     }
   ],
@@ -3582,19 +3582,19 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
-    "unique_groups": 26,
+    "monitored_victims": 66,
+    "unique_groups": 27,
     "unique_countries": 34,
     "by_country": {
-      "United States": 36,
+      "United States": 35,
       "AR": 5,
       "Brazil": 5,
+      "Unknown": 4,
       "United Kingdom": 4,
       "Italy": 3,
       "Spain": 3,
       "Canada": 3,
       "France": 3,
-      "Unknown": 3,
       "India": 3,
       "Philippines": 2,
       "Portugal": 2,
@@ -3622,7 +3622,7 @@
       "Mexico": 1
     },
     "by_group": {
-      "thegentlemen": 20,
+      "thegentlemen": 19,
       "safepay": 10,
       "direwolf": 10,
       "qilin": 10,
@@ -3643,6 +3643,7 @@
       "aurora": 2,
       "DYSPHOR1A": 2,
       "spacebears": 2,
+      "anubis": 1,
       "interlock": 1,
       "incransom": 1,
       "ShadowByt3$": 1,
@@ -3650,11 +3651,11 @@
       "SilentRansomGroup": 1
     },
     "by_sector": {
-      "Professional Services": 14,
+      "Professional Services": 15,
       "Manufacturing": 13,
       "Retail & E-Commerce": 10,
-      "Healthcare": 10,
       "Not Found": 10,
+      "Healthcare": 9,
       "Other": 8,
       "Financial Services": 6,
       "Technology": 6,
