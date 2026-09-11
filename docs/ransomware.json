@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-11T08:40:07.250178+00:00",
+  "last_updated_utc": "2026-09-11T13:18:57.250441+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -24,6 +24,18 @@
       "description": "Agencia Estatal de Meteorología - AEMET is a governmental agency of Spain that provides comprehensive meteorological services, including weather observation, predictions, and climate analytics. It serves various sectors such as agriculture, aviation, maritime activities, and emergency services. AEME",
       "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/agencia-estatal-de-meteorología",
       "monitored": false
+    },
+    {
+      "victim": "drwu.com",
+      "group": "lockbit5",
+      "country": "China",
+      "sector": "Not Found",
+      "discovered": "2026-06-20T09:27:38.941381+00:00",
+      "attack_date": "2026-09-11 00:00:00.000000",
+      "website": "",
+      "description": "Founded in 2003 by Dr. Wu, Asia’s highly reputable dermatology professor, and his eldest son Eric Wu...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/e6e709b5072728b43c95f73fab650022",
+      "monitored": true
     },
     {
       "victim": "CO-OP URBAN BANK LTD",
@@ -216,6 +228,18 @@
       "description": "Colombian Company.\nAudit and Tax Audit with more than 5 years of experience\nCalle 17 sur 44 - 159 Oficina 1501 EDIFICIO CLAROSCURO, Medellín Colombia.\nLlámanos o escríbenos: 310 447 2013 - 313 796 9917\nThe archives contain personal data of employees and customers of the company, tax documents, datab",
       "claim_url": "/post/easy-job-sas/",
       "monitored": false
+    },
+    {
+      "victim": "Medical Department Store",
+      "group": "dragonforce",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-09-11T05:53:47.072496+00:00",
+      "attack_date": "2026-09-10T05:53:29.864608+00:00",
+      "website": "",
+      "description": "Medical Department Store in united state",
+      "claim_url": "http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog/?post_uuid=aafe099f-f355-4460-95fb-4443b41efc21",
+      "monitored": true
     },
     {
       "victim": "John Engel Team",
@@ -1176,30 +1200,6 @@
       "description": "sharpoffice.com.au zoominfo.com/c/sharp-office/1306869482 Sharp Office  is one of Australia's longest-running B2B office suppliers — heritage dating to 1935 (John Sharp Business Systems, Sydney), merged with Stafford Menser in 2011 into Sharp Office Systems Pty Ltd, HQ in Ingleburn NSW, serving clie",
       "claim_url": "https://www.ransomware.live/id/U2hhcnAgT2ZmaWNlQHRoZWdlbnRsZW1lbg==",
       "monitored": true
-    },
-    {
-      "victim": "Chip7",
-      "group": "thegentlemen",
-      "country": "Portugal",
-      "sector": "Technology",
-      "discovered": "2026-09-07T21:54:56.429592+00:00",
-      "attack_date": "2026-09-07T14:30:39+00:00",
-      "website": "",
-      "description": "chip7.pt zoominfo.com/c/chip7/507351948 We have downloaded your company's data: Confidential personal data and customer information, Financial Documents and Accounting, Business correspondence and legal documents, your databases, e-mails, IT infrastructure information, Accesses and credentials, Tech",
-      "claim_url": "https://www.ransomware.live/id/Q2hpcDdAdGhlZ2VudGxlbWVu",
-      "monitored": false
-    },
-    {
-      "victim": "GGS",
-      "group": "everest",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-09-07T15:29:41.803511+00:00",
-      "attack_date": "2026-09-07T14:29:22.129219+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/ggs",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3582,12 +3582,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
+    "monitored_victims": 69,
     "unique_groups": 25,
-    "unique_countries": 31,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 31,
-      "Unknown": 10,
+      "United States": 32,
+      "Unknown": 9,
       "India": 5,
       "Canada": 5,
       "Brazil": 5,
@@ -3600,12 +3600,13 @@
       "Philippines": 2,
       "Japan": 2,
       "Italy": 2,
-      "Portugal": 2,
       "France": 2,
       "South Korea": 2,
+      "China": 1,
       "BA": 1,
       "RS": 1,
       "Austria": 1,
+      "Portugal": 1,
       "Netherlands": 1,
       "Singapore": 1,
       "Ukraine": 1,
@@ -3619,11 +3620,11 @@
       "Australia": 1
     },
     "by_group": {
-      "thegentlemen": 13,
+      "thegentlemen": 12,
       "safepay": 10,
       "AuditTeam": 9,
       "akira": 8,
-      "lockbit5": 5,
+      "lockbit5": 6,
       "direwolf": 5,
       "play": 4,
       "rhysida": 4,
@@ -3639,18 +3640,18 @@
       "Global Secret Group": 2,
       "clop": 2,
       "Eclipse": 2,
+      "dragonforce": 1,
       "ShadowByt3$": 1,
       "embargo": 1,
       "anubis": 1,
-      "interlock": 1,
-      "everest": 1
+      "interlock": 1
     },
     "by_sector": {
       "Manufacturing": 22,
       "Professional Services": 14,
       "Not Found": 12,
-      "Technology": 9,
-      "Retail & E-Commerce": 8,
+      "Retail & E-Commerce": 9,
+      "Technology": 8,
       "Other": 7,
       "Financial Services": 6,
       "Healthcare": 6,
