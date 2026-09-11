@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-11T03:18:45.912817+00:00",
+  "last_updated_utc": "2026-09-11T08:40:07.250178+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Agencia Estatal de Meteorología",
+      "group": "Panzer",
+      "country": "Spain",
+      "sector": "Government & Defense",
+      "discovered": "2026-09-11T00:52:07.255341+00:00",
+      "attack_date": "2026-09-11T00:23:54+00:00",
+      "website": "",
+      "description": "Agencia Estatal de Meteorología - AEMET is a governmental agency of Spain that provides comprehensive meteorological services, including weather observation, predictions, and climate analytics. It serves various sectors such as agriculture, aviation, maritime activities, and emergency services. AEME",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/agencia-estatal-de-meteorología",
+      "monitored": false
     },
     {
       "victim": "CO-OP URBAN BANK LTD",
@@ -1188,18 +1200,6 @@
       "description": "[AI generated] N/A",
       "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/ggs",
       "monitored": false
-    },
-    {
-      "victim": "KÖRBER",
-      "group": "everest",
-      "country": "Germany",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-07T15:29:01.556489+00:00",
-      "attack_date": "2026-09-07T14:28:40.871551+00:00",
-      "website": "",
-      "description": "[AI generated] Körber is a German technology conglomerate headquartered in Hamburg, Germany. The company operates across multiple industries including supply chain automation, pharma, tissue, tobacco, and digital solutions. Körber develops and delivers software, machinery, and integrated systems to ",
-      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/korber",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3582,7 +3582,7 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 68,
+    "monitored_victims": 67,
     "unique_groups": 25,
     "unique_countries": 31,
     "by_country": {
@@ -3591,7 +3591,8 @@
       "India": 5,
       "Canada": 5,
       "Brazil": 5,
-      "Germany": 4,
+      "Spain": 3,
+      "Germany": 3,
       "CO": 3,
       "United Kingdom": 3,
       "Russia": 3,
@@ -3599,7 +3600,6 @@
       "Philippines": 2,
       "Japan": 2,
       "Italy": 2,
-      "Spain": 2,
       "Portugal": 2,
       "France": 2,
       "South Korea": 2,
@@ -3631,22 +3631,22 @@
       "Dark Project": 4,
       "qilin": 4,
       "Storm": 4,
+      "Panzer": 3,
       "Vexy Ransomware": 3,
       "chaos": 3,
       "Wallstreet": 3,
       "incransom": 3,
       "Global Secret Group": 2,
       "clop": 2,
-      "Panzer": 2,
       "Eclipse": 2,
-      "everest": 2,
       "ShadowByt3$": 1,
       "embargo": 1,
       "anubis": 1,
-      "interlock": 1
+      "interlock": 1,
+      "everest": 1
     },
     "by_sector": {
-      "Manufacturing": 23,
+      "Manufacturing": 22,
       "Professional Services": 14,
       "Not Found": 12,
       "Technology": 9,
@@ -3657,8 +3657,8 @@
       "Energy & Utilities": 4,
       "Agriculture and Food Production": 4,
       "Hospitality": 3,
+      "Government & Defense": 2,
       "Education": 2,
-      "Government & Defense": 1,
       "Transportation": 1
     }
   },
