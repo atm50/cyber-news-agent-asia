@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-11T13:18:57.250441+00:00",
+  "last_updated_utc": "2026-09-11T17:35:14.820839+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,30 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Dustin Group",
+      "group": "fulcrumsec",
+      "country": "Sweden",
+      "sector": "Technology",
+      "discovered": "2026-09-11T12:29:31.850341+00:00",
+      "attack_date": "2026-09-11T12:28:53.857306+00:00",
+      "website": "",
+      "description": "[AI generated] Dustin Group is a Swedish technology reseller and IT solutions provider headquartered in Stockholm, Sweden. The company operates primarily in the Nordic and Benelux regions, offering hardware, software, and IT services to businesses and public sector organizations. Its product portfol",
+      "claim_url": "http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/dustin/",
+      "monitored": false
+    },
+    {
+      "victim": "Konica Minolta Bulgaria",
+      "group": "Panzer",
+      "country": "BG",
+      "sector": "Manufacturing",
+      "discovered": "2026-09-11T10:53:16.691797+00:00",
+      "attack_date": "2026-09-11T10:40:15+00:00",
+      "website": "",
+      "description": "Konica Minolta Bulgaria is a company with its own sales, marketing, and technical structure, and is part of the global brand specializing in innovative business and IT solutions. The company established its presence in Bulgaria in 2005 and has experienced continuous growth ever since.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/konica-minolta-bulgaria",
+      "monitored": false
     },
     {
       "victim": "Agencia Estatal de Meteorología",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "United Group is a diversified Indian business group delivering innovative products and services across multiple industries. Founded in 2003, the company began as a food and beverage consultancy and has since expanded into food ingredients, nutraceuticals, industrial machinery, infrastructure, fashio",
       "claim_url": "https://www.ransomware.live/id/VW5pdGVkIEdyb3VwQFZleHkgUmFuc29td2FyZQ==",
-      "monitored": true
-    },
-    {
-      "victim": "S A Chile",
-      "group": "thegentlemen",
-      "country": "CL",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-09-07T21:54:15.556609+00:00",
-      "attack_date": "2026-09-07T14:44:44+00:00",
-      "website": "",
-      "description": "syachile.cl zoominfo.com/c/sa-chile/372625700 S&A Chile is a Chilean mission-critical IT integrator founded in 1989 by Peruvian-Palestinian immigrant Edward Seleme Chávez from his home dining room — today run by his daughters (2nd generation) after his death in 2024, HQ named after him in Providenci",
-      "claim_url": "https://www.ransomware.live/id/UyBBIENoaWxlQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "Sharp Office",
-      "group": "thegentlemen",
-      "country": "Australia",
-      "sector": "Professional Services",
-      "discovered": "2026-09-07T21:54:35.623984+00:00",
-      "attack_date": "2026-09-07T14:39:38+00:00",
-      "website": "",
-      "description": "sharpoffice.com.au zoominfo.com/c/sharp-office/1306869482 Sharp Office  is one of Australia's longest-running B2B office suppliers — heritage dating to 1935 (John Sharp Business Systems, Sydney), merged with Stafford Menser in 2011 into Sharp Office Systems Pty Ltd, HQ in Ingleburn NSW, serving clie",
-      "claim_url": "https://www.ransomware.live/id/U2hhcnAgT2ZmaWNlQHRoZWdlbnRsZW1lbg==",
       "monitored": true
     }
   ],
@@ -3582,8 +3582,8 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
-    "unique_groups": 25,
+    "monitored_victims": 68,
+    "unique_groups": 26,
     "unique_countries": 32,
     "by_country": {
       "United States": 32,
@@ -3602,6 +3602,8 @@
       "Italy": 2,
       "France": 2,
       "South Korea": 2,
+      "Sweden": 1,
+      "BG": 1,
       "China": 1,
       "BA": 1,
       "RS": 1,
@@ -3615,24 +3617,22 @@
       "GE": 1,
       "PE": 1,
       "Denmark": 1,
-      "Turkey": 1,
-      "CL": 1,
-      "Australia": 1
+      "Turkey": 1
     },
     "by_group": {
-      "thegentlemen": 12,
       "safepay": 10,
+      "thegentlemen": 10,
       "AuditTeam": 9,
       "akira": 8,
       "lockbit5": 6,
       "direwolf": 5,
+      "Panzer": 4,
       "play": 4,
       "rhysida": 4,
       "emperador": 4,
       "Dark Project": 4,
       "qilin": 4,
       "Storm": 4,
-      "Panzer": 3,
       "Vexy Ransomware": 3,
       "chaos": 3,
       "Wallstreet": 3,
@@ -3640,6 +3640,7 @@
       "Global Secret Group": 2,
       "clop": 2,
       "Eclipse": 2,
+      "fulcrumsec": 1,
       "dragonforce": 1,
       "ShadowByt3$": 1,
       "embargo": 1,
@@ -3647,16 +3648,16 @@
       "interlock": 1
     },
     "by_sector": {
-      "Manufacturing": 22,
-      "Professional Services": 14,
+      "Manufacturing": 23,
+      "Professional Services": 13,
       "Not Found": 12,
+      "Technology": 9,
       "Retail & E-Commerce": 9,
-      "Technology": 8,
       "Other": 7,
       "Financial Services": 6,
       "Healthcare": 6,
-      "Energy & Utilities": 4,
       "Agriculture and Food Production": 4,
+      "Energy & Utilities": 3,
       "Hospitality": 3,
       "Government & Defense": 2,
       "Education": 2,
