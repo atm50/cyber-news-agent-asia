@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-11T17:35:14.820839+00:00",
+  "last_updated_utc": "2026-09-11T20:33:48.697871+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Port of Tanjung Pelepas",
+      "group": "direwolf",
+      "country": "Malaysia",
+      "sector": "Transportation",
+      "discovered": "2026-09-11T15:54:58.991295+00:00",
+      "attack_date": "2026-09-11T15:42:01.231000+00:00",
+      "website": "",
+      "description": "Marine Shipping &amp; Transportation",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/135",
       "monitored": true
     },
     {
@@ -479,6 +491,18 @@
       "website": "",
       "description": "Die Mediengruppe Thiel aus Ludwigsfelde ist Ihr verlässlicher Druck- und Werbepartner, wenn es um individuelle Lösungen für innen und außen geht. Ob eindrucksvolle Printprodukte, maßgeschneiderte Werbetechnik oder professionelle Geschäftsausstattung – bei uns erhalten Sie alles aus einer Hand.\r \r Da",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6aa15b3d9cd108bf26f1a91f",
+      "monitored": true
+    },
+    {
+      "victim": "Foss Inc.",
+      "group": "pear",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-09-11T14:19:06.854549+00:00",
+      "attack_date": "2026-09-09T00:00:00+00:00",
+      "website": "",
+      "description": "Leading provider of installation, maintenance services to the energy industry",
+      "claim_url": "http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/fossinc",
       "monitored": true
     },
     {
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "dwarkadasjewellers.com zoominfo.com/c/soni-dwarkadas-virchand/562586193 We have downloaded company's data: Confidential personal data and customer information, Financial Documents and Accounting, Business correspondence and legal documents, your databases, IT infrastructure information, Accesses and",
       "claim_url": "https://www.ransomware.live/id/U29uaSBEd2Fya2FkYXMgVmlyY2hhbmRAdGhlZ2VudGxlbWVu",
-      "monitored": true
-    },
-    {
-      "victim": "Yapı Merkezi",
-      "group": "thegentlemen",
-      "country": "Turkey",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-07T21:54:05.195624+00:00",
-      "attack_date": "2026-09-07T14:51:13+00:00",
-      "website": "",
-      "description": "ym.com.tr rocketreach.co/yapi-merkezi-profile_b5c7f2fff42e0db7 YM Group is a Turkish family-owned manufacturing and brand house founded in 1986 in Istanbul by Yüksel Mehmet Yıldırım, built on a flexible-packaging plant in Çorlu (Halal-certified, exporting to Europe/MENA). Its crown jewel: it owns an",
-      "claim_url": "https://www.ransomware.live/id/WWFwxLEgTWVya2V6aUB0aGVnZW50bGVtZW4=",
-      "monitored": false
-    },
-    {
-      "victim": "United Group",
-      "group": "Vexy Ransomware",
-      "country": "India",
-      "sector": "Other",
-      "discovered": "2026-09-07T17:54:08.633023+00:00",
-      "attack_date": "2026-09-07T14:45:43+00:00",
-      "website": "",
-      "description": "United Group is a diversified Indian business group delivering innovative products and services across multiple industries. Founded in 2003, the company began as a food and beverage consultancy and has since expanded into food ingredients, nutraceuticals, industrial machinery, infrastructure, fashio",
-      "claim_url": "https://www.ransomware.live/id/VW5pdGVkIEdyb3VwQFZleHkgUmFuc29td2FyZQ==",
       "monitored": true
     }
   ],
@@ -3582,15 +3582,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 68,
-    "unique_groups": 26,
+    "monitored_victims": 69,
+    "unique_groups": 27,
     "unique_countries": 32,
     "by_country": {
-      "United States": 32,
+      "United States": 33,
       "Unknown": 9,
-      "India": 5,
       "Canada": 5,
       "Brazil": 5,
+      "India": 4,
       "Spain": 3,
       "Germany": 3,
       "CO": 3,
@@ -3602,6 +3602,7 @@
       "Italy": 2,
       "France": 2,
       "South Korea": 2,
+      "Malaysia": 1,
       "Sweden": 1,
       "BG": 1,
       "China": 1,
@@ -3616,16 +3617,15 @@
       "South Africa": 1,
       "GE": 1,
       "PE": 1,
-      "Denmark": 1,
-      "Turkey": 1
+      "Denmark": 1
     },
     "by_group": {
       "safepay": 10,
-      "thegentlemen": 10,
       "AuditTeam": 9,
+      "thegentlemen": 9,
       "akira": 8,
+      "direwolf": 6,
       "lockbit5": 6,
-      "direwolf": 5,
       "Panzer": 4,
       "play": 4,
       "rhysida": 4,
@@ -3633,11 +3633,11 @@
       "Dark Project": 4,
       "qilin": 4,
       "Storm": 4,
-      "Vexy Ransomware": 3,
       "chaos": 3,
       "Wallstreet": 3,
       "incransom": 3,
       "Global Secret Group": 2,
+      "Vexy Ransomware": 2,
       "clop": 2,
       "Eclipse": 2,
       "fulcrumsec": 1,
@@ -3645,23 +3645,24 @@
       "ShadowByt3$": 1,
       "embargo": 1,
       "anubis": 1,
+      "pear": 1,
       "interlock": 1
     },
     "by_sector": {
-      "Manufacturing": 23,
+      "Manufacturing": 22,
+      "Not Found": 13,
       "Professional Services": 13,
-      "Not Found": 12,
       "Technology": 9,
       "Retail & E-Commerce": 9,
-      "Other": 7,
       "Financial Services": 6,
       "Healthcare": 6,
+      "Other": 6,
       "Agriculture and Food Production": 4,
       "Energy & Utilities": 3,
       "Hospitality": 3,
+      "Transportation": 2,
       "Government & Defense": 2,
-      "Education": 2,
-      "Transportation": 1
+      "Education": 2
     }
   },
   "errors": []

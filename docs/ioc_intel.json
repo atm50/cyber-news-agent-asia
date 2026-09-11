@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-11T17:35:13.042300+00:00",
+  "last_updated_utc": "2026-09-11T20:33:47.186398+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -70,6 +70,282 @@
       "first_seen": "2026-03-04 14:28:39",
       "last_seen": "",
       "country": "JP"
+    },
+    {
+      "value": "https://adpayworks.b-cdn.net/download/1.1.2/AdPayWorks.exe",
+      "type": "url",
+      "threat": "2026-09-11 20:18:18",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915345/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 20:18:18",
+      "status": "online"
+    },
+    {
+      "value": "https://raw.githubusercontent.com/HartayKirjonrw/sa4/refs/heads/main/Signature%20Nib.exe",
+      "type": "url",
+      "threat": "2026-09-11 20:17:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915344/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 20:17:15",
+      "status": "online"
+    },
+    {
+      "value": "http://221.14.173.32:33059/i",
+      "type": "url",
+      "threat": "2026-09-11 20:09:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915343/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 20:09:25",
+      "status": "online"
+    },
+    {
+      "value": "http://42.58.171.35:34835/i",
+      "type": "url",
+      "threat": "2026-09-11 20:01:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915342/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 20:01:24",
+      "status": "online"
+    },
+    {
+      "value": "http://222.127.55.224:47900/i",
+      "type": "url",
+      "threat": "2026-09-11 19:50:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915341/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:50:24",
+      "status": "online"
+    },
+    {
+      "value": "http://222.127.55.224:47900/bin.sh",
+      "type": "url",
+      "threat": "2026-09-11 19:46:27",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915340/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:46:27",
+      "status": "online"
+    },
+    {
+      "value": "http://119.179.215.67:52251/i",
+      "type": "url",
+      "threat": "2026-09-11 19:18:20",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915339/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:18:20",
+      "status": "online"
+    },
+    {
+      "value": "http://105.184.213.176:55983/i",
+      "type": "url",
+      "threat": "2026-09-11 19:12:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915338/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:12:13",
+      "status": "online"
+    },
+    {
+      "value": "http://167.235.91.194/v",
+      "type": "url",
+      "threat": "2026-09-11 19:10:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915337/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:10:13",
+      "status": "online"
+    },
+    {
+      "value": "http://105.184.213.176:55983/bin.sh",
+      "type": "url",
+      "threat": "2026-09-11 19:06:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915336/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:06:23",
+      "status": "online"
+    },
+    {
+      "value": "http://42.231.207.203:40714/i",
+      "type": "url",
+      "threat": "2026-09-11 19:01:24",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915335/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 19:01:24",
+      "status": "online"
+    },
+    {
+      "value": "http://123.190.27.84:51494/i",
+      "type": "url",
+      "threat": "2026-09-11 18:56:19",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915334/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:56:19",
+      "status": "online"
+    },
+    {
+      "value": "http://168.119.85.190/bash.sh",
+      "type": "url",
+      "threat": "",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915333/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:54:17",
+      "status": "offline"
+    },
+    {
+      "value": "http://176.9.88.12/miner",
+      "type": "url",
+      "threat": "2026-09-11 18:42:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915331/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:42:23",
+      "status": "online"
+    },
+    {
+      "value": "http://103.171.168.74:33809/bin.sh",
+      "type": "url",
+      "threat": "2026-09-11 18:42:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915332/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:42:23",
+      "status": "online"
+    },
+    {
+      "value": "http://176.9.104.142/bin.sh",
+      "type": "url",
+      "threat": "2026-09-11 18:40:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915329/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:40:26",
+      "status": "online"
+    },
+    {
+      "value": "http://176.9.104.142/ohshit.sh",
+      "type": "url",
+      "threat": "2026-09-11 18:40:26",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915330/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:40:26",
+      "status": "online"
+    },
+    {
+      "value": "http://123.190.27.84:51494/bin.sh",
+      "type": "url",
+      "threat": "2026-09-11 18:30:25",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915328/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 18:30:25",
+      "status": "online"
+    },
+    {
+      "value": "http://62.60.226.140/files/gold/file.exe",
+      "type": "url",
+      "threat": "2026-09-11 17:56:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915327/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 17:56:13",
+      "status": "online"
+    },
+    {
+      "value": "http://158.255.83.95:40290/i",
+      "type": "url",
+      "threat": "2026-09-11 17:33:23",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915326/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 17:33:23",
+      "status": "online"
+    },
+    {
+      "value": "http://154.70.152.216/zed",
+      "type": "url",
+      "threat": "2026-09-11 17:32:15",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915325/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 17:32:15",
+      "status": "online"
+    },
+    {
+      "value": "http://174.138.85.68/zed",
+      "type": "url",
+      "threat": "2026-09-11 17:32:13",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915324/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 17:32:13",
+      "status": "online"
+    },
+    {
+      "value": "https://xolep1.tos-cn-beijing.volces.com/Project-rd.exe",
+      "type": "url",
+      "threat": "2026-09-11 17:31:33",
+      "source": "URLhaus",
+      "source_url": "https://urlhaus.abuse.ch/url/3915323/",
+      "tags": [
+        "malware_download"
+      ],
+      "first_seen": "2026-09-11 17:31:33",
+      "status": "online"
     },
     {
       "value": "http://182.121.181.208:36990/i",
@@ -278,7 +554,7 @@
     {
       "value": "http://221.202.103.35:46188/i",
       "type": "url",
-      "threat": "2026-09-11 16:10:42",
+      "threat": "2026-09-11 19:33:49",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3915305/",
       "tags": [
@@ -302,7 +578,7 @@
     {
       "value": "http://198.251.85.84:8080/bot_s390x",
       "type": "url",
-      "threat": "2026-09-11 15:52:44",
+      "threat": "2026-09-11 20:09:22",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3915292/",
       "tags": [
@@ -314,7 +590,7 @@
     {
       "value": "http://198.251.85.84:8080/bot_armv7l",
       "type": "url",
-      "threat": "2026-09-11 16:08:49",
+      "threat": "2026-09-11 20:00:27",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3915293/",
       "tags": [
@@ -1082,7 +1358,7 @@
     {
       "value": "http://61.53.75.162:37419/i",
       "type": "url",
-      "threat": "2026-09-11 15:41:10",
+      "threat": "2026-09-11 19:05:14",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3915230/",
       "tags": [
@@ -1574,7 +1850,7 @@
     {
       "value": "http://175.148.80.73:34858/bin.sh",
       "type": "url",
-      "threat": "2026-09-11 15:38:31",
+      "threat": "2026-09-11 19:27:54",
       "source": "URLhaus",
       "source_url": "https://urlhaus.abuse.ch/url/3915200/",
       "tags": [
@@ -1593,282 +1869,6 @@
         "malware_download"
       ],
       "first_seen": "2026-09-11 10:01:34",
-      "status": "online"
-    },
-    {
-      "value": "http://115.49.200.54:46559/i",
-      "type": "url",
-      "threat": "2026-09-11 10:01:34",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915202/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:34",
-      "status": "offline"
-    },
-    {
-      "value": "http://120.28.135.4:35562/i",
-      "type": "url",
-      "threat": "2026-09-11 16:30:34",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915181/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://182.116.50.238:48011/i",
-      "type": "url",
-      "threat": "2026-09-11 10:01:33",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915182/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "offline"
-    },
-    {
-      "value": "http://115.51.123.229:51347/i",
-      "type": "url",
-      "threat": "2026-09-11 15:36:07",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915183/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://125.43.5.41:34827/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 16:18:05",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915184/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://113.236.121.214:57011/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 15:50:26",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915185/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://113.231.204.123:36484/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 15:39:58",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915186/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://120.28.197.69:53898/i",
-      "type": "url",
-      "threat": "2026-09-11 16:13:57",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915187/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://218.13.149.41:36783/i",
-      "type": "url",
-      "threat": "2026-09-11 15:22:13",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915188/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://113.231.204.123:36484/i",
-      "type": "url",
-      "threat": "2026-09-11 15:56:52",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915189/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://117.63.74.133:39063/Mozi.m",
-      "type": "url",
-      "threat": "2026-09-11 16:51:26",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915190/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://113.221.96.116:37382/i",
-      "type": "url",
-      "threat": "2026-09-11 15:55:17",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915191/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://115.56.157.204:43031/i",
-      "type": "url",
-      "threat": "2026-09-11 16:42:52",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915192/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://175.31.168.229:50764/i",
-      "type": "url",
-      "threat": "2026-09-11 16:06:28",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915193/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://114.239.63.214:39292/i",
-      "type": "url",
-      "threat": "2026-09-11 15:57:03",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915194/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:33",
-      "status": "online"
-    },
-    {
-      "value": "http://182.126.248.175:50532/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 15:20:55",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915176/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:32",
-      "status": "online"
-    },
-    {
-      "value": "http://125.45.26.216:35595/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 16:20:15",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915177/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:32",
-      "status": "online"
-    },
-    {
-      "value": "http://115.56.102.220:52578/i",
-      "type": "url",
-      "threat": "2026-09-11 15:47:50",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915178/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:32",
-      "status": "online"
-    },
-    {
-      "value": "http://218.13.149.41:36783/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 15:21:08",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915179/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:32",
-      "status": "online"
-    },
-    {
-      "value": "http://175.165.81.86:53929/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 16:17:44",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915180/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:32",
-      "status": "online"
-    },
-    {
-      "value": "http://113.228.216.246:38119/bin.sh",
-      "type": "url",
-      "threat": "",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915173/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:31",
-      "status": "offline"
-    },
-    {
-      "value": "http://125.40.86.11:41297/bin.sh",
-      "type": "url",
-      "threat": "2026-09-11 15:29:57",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915174/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:31",
-      "status": "online"
-    },
-    {
-      "value": "http://175.165.81.86:53929/i",
-      "type": "url",
-      "threat": "2026-09-11 16:31:05",
-      "source": "URLhaus",
-      "source_url": "https://urlhaus.abuse.ch/url/3915175/",
-      "tags": [
-        "malware_download"
-      ],
-      "first_seen": "2026-09-11 10:01:31",
       "status": "online"
     },
     {
@@ -6113,7 +6113,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-09-04-VoidShadow-framework.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-09-04-VoidShadow-framework.txt",
-      "article_date": "2026-09-11T17:35:10.711178+00:00",
+      "article_date": "2026-09-11T20:33:44.979104+00:00",
       "context": "ces related to this threat\n\nINDICATORS:\n\nSHA-256 HASHES:\n\n- 033cdc85aec2ae5016c61134918860c6969761fdf95c55bb0d84c2e9c333"
     },
     {
@@ -6122,7 +6122,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-09-04-VoidShadow-framework.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-09-04-VoidShadow-framework.txt",
-      "article_date": "2026-09-11T17:35:10.711178+00:00",
+      "article_date": "2026-09-11T20:33:44.979104+00:00",
       "context": "ee93015fc0f2f06a4a1eb4e0f [Windows agent]\n\nIP ADDRESSES:\n\n- 47.76.221.103\n- 47.242.255.141\n- 8.148.241.46\n\nDOMAINS:\n\n- a"
     },
     {
@@ -6131,7 +6131,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-09-04-VoidShadow-framework.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-09-04-VoidShadow-framework.txt",
-      "article_date": "2026-09-11T17:35:10.711178+00:00",
+      "article_date": "2026-09-11T20:33:44.979104+00:00",
       "context": "4a1eb4e0f [Windows agent]\n\nIP ADDRESSES:\n\n- 47.76.221.103\n- 47.242.255.141\n- 8.148.241.46\n\nDOMAINS:\n\n- aliqopen.com\n- cl"
     },
     {
@@ -6140,7 +6140,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-09-04-VoidShadow-framework.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-09-04-VoidShadow-framework.txt",
-      "article_date": "2026-09-11T17:35:10.711178+00:00",
+      "article_date": "2026-09-11T20:33:44.979104+00:00",
       "context": "s agent]\n\nIP ADDRESSES:\n\n- 47.76.221.103\n- 47.242.255.141\n- 8.148.241.46\n\nDOMAINS:\n\n- aliqopen.com\n- cloudapi-update.com"
     },
     {
@@ -6149,7 +6149,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-09-01-Threat-Actors-in-Fake-IT-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-09-01-Threat-Actors-in-Fake-IT-Campaign.txt",
-      "article_date": "2026-09-11T17:35:11.947388+00:00",
+      "article_date": "2026-09-11T20:33:46.116879+00:00",
       "context": "licious MSI download)\r\n\r\nSHA256 HASHES (malicious):\r\n\r\n   * 878567e4b6f4552f8f56f300c3a2af0fe9c7935686ee0e34ef5f632c81ba"
     },
     {
@@ -6158,11 +6158,55 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-09-01-Threat-Actors-in-Fake-IT-Campaign.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-09-01-Threat-Actors-in-Fake-IT-Campaign.txt",
-      "article_date": "2026-09-11T17:35:11.947388+00:00",
+      "article_date": "2026-09-11T20:33:46.116879+00:00",
       "context": "458477d7(SupportHost.exe, custom reverse shell agent)\r\n   * c44af51e75b2023376cf7fa2735d72f1c433d9dc58163dc298690731c80b"
     }
   ],
   "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-84869",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+      "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+      "date_added": "2026-09-11",
+      "due_date": "2026-09-14",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-42016",
+      "vendor": "JFrog",
+      "product": "Artifactory",
+      "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
+      "description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope.",
+      "date_added": "2026-09-11",
+      "due_date": "2026-09-25",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-42018",
+      "vendor": "JFrog",
+      "product": "Artifactory",
+      "name": "JFrog Artifactory Improper Authentication Vulnerability",
+      "description": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
+      "date_added": "2026-09-11",
+      "due_date": "2026-09-25",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-85706",
+      "vendor": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "name": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+      "description": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API.",
+      "date_added": "2026-09-11",
+      "due_date": "2026-09-14",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-86060",
       "vendor": "MikroTik",
@@ -6668,50 +6712,6 @@
       "due_date": "2026-08-07",
       "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-34486",
-      "vendor": "Apache",
-      "product": "Tomcat",
-      "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-      "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE‑2025‑24813.",
-      "date_added": "2026-08-04",
-      "due_date": "2026-08-07",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-9198",
-      "vendor": "IBM",
-      "product": "Langflow",
-      "name": "IBM Langflow Code Injection Vulnerability",
-      "description": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.",
-      "date_added": "2026-08-04",
-      "due_date": "2026-08-07",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-18577",
-      "vendor": "N-able",
-      "product": "N-central",
-      "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "description": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556.",
-      "date_added": "2026-08-03",
-      "due_date": "2026-08-06",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-20316",
-      "vendor": "Cisco",
-      "product": "Secure Firewall Management Center (FMC)",
-      "name": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-      "description": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.",
-      "date_added": "2026-07-29",
-      "due_date": "2026-08-01",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Known"
     }
   ],
   "stats": {
