@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-12T15:07:07.449131+00:00",
+  "last_updated_utc": "2026-09-12T18:10:12.847868+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Axdia International",
+      "group": "rhysida",
+      "country": "",
+      "sector": "Professional Services",
+      "discovered": "2026-09-12T13:10:06.735416+00:00",
+      "attack_date": "2026-09-12T13:09:35.870195+00:00",
+      "website": "",
+      "description": "Axdia International Axdia International is a German electronics company that brings together a wide range of modern small electronics and electric mobility products.    More",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=273",
+      "monitored": false
+    },
+    {
+      "victim": "watchops.com",
+      "group": "unsafe",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-09-12T12:44:48.743923+00:00",
+      "attack_date": "2026-09-12T12:44:25.690587+00:00",
+      "website": "",
+      "description": "Revenue: $1.3 million",
+      "claim_url": "http://unsafeipw6wbkzzmj7yqp7bz6j7ivzynggmwxsm6u2wwfmfqrxqrrhyd.onion/reel/6aa53cbe102e2455604e8663?page=1",
       "monitored": true
     },
     {
@@ -252,6 +276,18 @@
       "description": "Status: AWAITING\nSize: 191 GB",
       "claim_url": "http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion",
       "monitored": true
+    },
+    {
+      "victim": "Nexbex Solutions Private Limited",
+      "group": "emperador",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-09-12T13:51:54.425309+00:00",
+      "attack_date": "2026-09-11T22:46:00+00:00",
+      "website": "",
+      "description": "Nexbex Solutions Private Limited is a technology consulting and software engineering firm incorporated in November 2023, headquartered in Malappuram, Kerala (India). Classified as an emerging private company, it operates with a paid-up capital of 10 million Indian rupees (₹10 Lakhs) and a compact te",
+      "claim_url": "/post/nexbex-solutions-private-limited/",
+      "monitored": false
     },
     {
       "victim": "compunnel.com",
@@ -1164,42 +1200,6 @@
       "description": "Inc. is a software company. The company provides dynamic process improvement solutions, predict\nive technology, and end-to-end support to a variety of process-based operations dedicated to im\nproving operational efficiency and responsiveness.\n\nWe will upload corporate data soon. Employee and custome",
       "claim_url": "https://www.ransomware.live/id/Q3JlYXRlQVNvZnRAYWtpcmE=",
       "monitored": false
-    },
-    {
-      "victim": "The Zhou Law Group",
-      "group": "Eclipse",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-09-08T13:51:47.484225+00:00",
-      "attack_date": "2026-09-08T00:00:00+00:00",
-      "website": "",
-      "description": "The Zhou Law Group is one of the largest family law firms in California, specializing in divorce and related family law issues such as child custody, spousal support, and property division. With a team of top-rated divorce lawyers and Certified Family Law Specialists, they provide effective legal so",
-      "claim_url": "http://eclipse4g5kxfwsvpu4qx5sdcnrji6gxl5gt67bucjlgt35g7akvjoid.onion/place/hulk5pzh81yov2oh/",
-      "monitored": true
-    },
-    {
-      "victim": "TTG Asia Media",
-      "group": "Eclipse",
-      "country": "Singapore",
-      "sector": "Hospitality",
-      "discovered": "2026-09-08T13:51:14.025557+00:00",
-      "attack_date": "2026-09-08T00:00:00+00:00",
-      "website": "",
-      "description": "TTG Asia is a leading travel trade business resource in the Asia-Pacific region, established in 1974. The company provides a comprehensive range of services and information related to travel, including hotels, transportation, airlines, and cruises. Its intended clients include travel professionals a",
-      "claim_url": "http://eclipse4g5kxfwsvpu4qx5sdcnrji6gxl5gt67bucjlgt35g7akvjoid.onion/place/2yiioe5fyw3jbfpg/",
-      "monitored": true
-    },
-    {
-      "victim": "Wi***IT",
-      "group": "AuditTeam",
-      "country": "Ukraine",
-      "sector": "Technology",
-      "discovered": "2026-09-08T11:20:28.759010+00:00",
-      "attack_date": "2026-09-08T00:00:00+00:00",
-      "website": "",
-      "description": "",
-      "claim_url": "http://6tdqqaxftvradka5d2frzgwixis7fmro7rfh4ettzcx7jfapkebe6jad.onion/entity/DD843CB564F9724E",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3582,12 +3582,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
+    "monitored_victims": 65,
     "unique_groups": 29,
-    "unique_countries": 35,
+    "unique_countries": 33,
     "by_country": {
       "United States": 33,
-      "Unknown": 10,
+      "Unknown": 12,
       "India": 5,
       "France": 3,
       "Canada": 3,
@@ -3618,23 +3618,21 @@
       "Austria": 1,
       "Italy": 1,
       "Portugal": 1,
-      "Netherlands": 1,
-      "Singapore": 1,
-      "Ukraine": 1
+      "Netherlands": 1
     },
     "by_group": {
       "krybit": 12,
       "safepay": 11,
-      "AuditTeam": 9,
       "akira": 8,
+      "AuditTeam": 8,
+      "emperador": 5,
       "lockbit5": 5,
+      "rhysida": 4,
       "medusalocker": 4,
       "direwolf": 4,
       "Panzer": 4,
       "qilin": 4,
       "play": 4,
-      "emperador": 4,
-      "rhysida": 3,
       "chaos": 3,
       "Wallstreet": 3,
       "incransom": 3,
@@ -3642,7 +3640,7 @@
       "Global Secret Group": 2,
       "Vexy Ransomware": 2,
       "clop": 2,
-      "Eclipse": 2,
+      "unsafe": 1,
       "securotrop": 1,
       "fulcrumsec": 1,
       "dragonforce": 1,
@@ -3655,13 +3653,13 @@
     },
     "by_sector": {
       "Manufacturing": 21,
-      "Not Found": 13,
+      "Not Found": 14,
       "Professional Services": 13,
       "Technology": 10,
       "Healthcare": 8,
       "Other": 7,
-      "Hospitality": 5,
       "Financial Services": 4,
+      "Hospitality": 4,
       "Government & Defense": 4,
       "Retail & E-Commerce": 4,
       "Transportation": 3,
