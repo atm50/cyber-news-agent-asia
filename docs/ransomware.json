@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-13T14:06:51.307920+00:00",
+  "last_updated_utc": "2026-09-13T17:57:00.427980+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,42 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Navitrans",
+      "group": "emperador",
+      "country": "",
+      "sector": "Transportation",
+      "discovered": "2026-09-13T13:51:22.518452+00:00",
+      "attack_date": "2026-09-13T12:30:00+00:00",
+      "website": "",
+      "description": "Navitrans is a leading Colombian distributor and service provider specializing in commercial trucks and heavy machinery, offering a comprehensive range of products and services including vehicle sales, spare parts distribution, and maintenance and repair services through a nationwide network of work",
+      "claim_url": "/post/navitrans/",
+      "monitored": false
+    },
+    {
+      "victim": "www.kashkha.com",
+      "group": "krybit",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-09-13T12:29:33.395462+00:00",
+      "attack_date": "2026-09-13T12:29:10.459833+00:00",
+      "website": "",
+      "description": "Kashkha is a multinational modest fashion brand founded three decades ago in Dubai, UAE, specializing in designing, manu...",
+      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/f80863cff7bd3f7607c6486f3615c67a133e57a0cd5f4b6d749c3f1f3c3a1a9e/",
+      "monitored": false
+    },
+    {
+      "victim": "CARIDRO VAL DE LOIRE",
+      "group": "qilin",
+      "country": "France",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-09-13T11:03:46.354166+00:00",
+      "attack_date": "2026-09-13T11:03:26.085548+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=224e65b0-92cc-464a-871e-518f88a99685",
       "monitored": true
     },
     {
@@ -1164,42 +1200,6 @@
       "description": "Founded in 1947 by the Contreras brothers, the company has continuously evolved and modernized, focu...",
       "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/eebdb941599051680b06f260a48734ff",
       "monitored": false
-    },
-    {
-      "victim": "Alaska Electrical Apprenticeship",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-09-08T13:27:02.593094+00:00",
-      "attack_date": "2026-09-08T13:26:27.544205+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=70fa650d-b9a1-4f47-89cb-9551f5266355",
-      "monitored": true
-    },
-    {
-      "victim": "Technology Dynamics",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Technology",
-      "discovered": "2026-09-09T10:11:43.321633+00:00",
-      "attack_date": "2026-09-08T09:41:29+00:00",
-      "website": "",
-      "description": "Established in 1976, Technology Dynamics Inc. is a leading designer and manufacturer of Switching Power Supplies, DC-DC Converters, and DC-UPS Systems for Military, Industrial, and Commercial applications. The company offers a wide range of products including standard, modified, and custom power sup",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6a9fd8494cc2b2e7e76b5aa9",
-      "monitored": true
-    },
-    {
-      "victim": "SAD'S Interim",
-      "group": "rhysida",
-      "country": "France",
-      "sector": "Professional Services",
-      "discovered": "2026-09-08T06:02:10.597437+00:00",
-      "attack_date": "2026-09-08T06:01:43.427807+00:00",
-      "website": "",
-      "description": "SAD'S Interim Since 2000, SAD'S INTERIM has established itself as a key player in the temporary employment sector.Bank statements (relev�s) with SEPA credit transfersFactoring: invoice import batches, client receivables ledgers (encours) with EUR amounts and named clients, payment receipts (quittanc",
-      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=268",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3582,17 +3582,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 67,
-    "unique_groups": 32,
+    "monitored_victims": 65,
+    "unique_groups": 31,
     "unique_countries": 33,
     "by_country": {
-      "United States": 33,
-      "Unknown": 10,
+      "United States": 31,
+      "Unknown": 12,
       "India": 8,
       "Germany": 4,
+      "France": 3,
       "Russia": 3,
       "United Kingdom": 3,
-      "France": 3,
       "Canada": 3,
       "Spain": 3,
       "United Arab Emirates": 2,
@@ -3621,19 +3621,19 @@
       "Netherlands": 1
     },
     "by_group": {
-      "krybit": 12,
+      "krybit": 13,
       "safepay": 11,
       "AuditTeam": 7,
+      "emperador": 6,
       "akira": 5,
-      "emperador": 5,
       "lockbit5": 5,
-      "rhysida": 4,
+      "qilin": 4,
       "medusalocker": 4,
       "direwolf": 4,
       "Panzer": 4,
-      "qilin": 4,
       "play": 4,
       "Vexy Ransomware": 3,
+      "rhysida": 3,
       "chaos": 3,
       "Wallstreet": 3,
       "incransom": 3,
@@ -3651,24 +3651,23 @@
       "embargo": 1,
       "Dark Project": 1,
       "anubis": 1,
-      "pear": 1,
-      "Storm": 1
+      "pear": 1
     },
     "by_sector": {
       "Manufacturing": 22,
-      "Not Found": 13,
-      "Professional Services": 13,
-      "Technology": 10,
+      "Not Found": 14,
+      "Professional Services": 12,
+      "Technology": 9,
       "Other": 8,
       "Healthcare": 8,
+      "Transportation": 5,
       "Financial Services": 4,
-      "Transportation": 4,
+      "Agriculture and Food Production": 4,
       "Government & Defense": 4,
       "Retail & E-Commerce": 4,
       "Hospitality": 3,
-      "Agriculture and Food Production": 3,
-      "Education": 2,
-      "Energy & Utilities": 2
+      "Energy & Utilities": 2,
+      "Education": 1
     }
   },
   "errors": []
