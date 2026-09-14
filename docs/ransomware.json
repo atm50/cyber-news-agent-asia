@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-14T00:48:25.352984+00:00",
+  "last_updated_utc": "2026-09-14T05:52:06.757033+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Cerámicas Kantu",
+      "group": "Panzer",
+      "country": "",
+      "sector": "Manufacturing",
+      "discovered": "2026-09-13T23:23:34.307597+00:00",
+      "attack_date": "2026-09-13T23:13:03+00:00",
+      "website": "",
+      "description": "Cerámicas Kantu S.A.C. is a Peruvian company specializing in the manufacturing of decorative tiles and accessories made from ceramic, porcelain, and glass. With over 40 years of experience in the ceramic industry and more than 15 years in producing construction finishes, they offer high-quality prod",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/cerámicas-kantu",
+      "monitored": false
     },
     {
       "victim": "Gilco Scaffolding",
@@ -1188,18 +1200,6 @@
       "description": "Corporate Wellness Services",
       "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/129",
       "monitored": true
-    },
-    {
-      "victim": "fdcputman.nl",
-      "group": "lockbit5",
-      "country": "Netherlands",
-      "sector": "Other",
-      "discovered": "2026-09-08T15:36:47.464788+00:00",
-      "attack_date": "2026-09-08T13:29:00+00:00",
-      "website": "",
-      "description": "FDC Putman is a financial specialist offering tailored advice on mortgages, insurance, and various f...",
-      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/b4282657ac697c09ff05210c91e3dece",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3584,10 +3584,10 @@
     "total_victims": 100,
     "monitored_victims": 66,
     "unique_groups": 31,
-    "unique_countries": 33,
+    "unique_countries": 32,
     "by_country": {
       "United States": 31,
-      "Unknown": 12,
+      "Unknown": 13,
       "India": 8,
       "United Kingdom": 4,
       "Germany": 4,
@@ -3617,8 +3617,7 @@
       "Austria": 1,
       "AR": 1,
       "Italy": 1,
-      "Portugal": 1,
-      "Netherlands": 1
+      "Portugal": 1
     },
     "by_group": {
       "krybit": 13,
@@ -3626,14 +3625,14 @@
       "AuditTeam": 7,
       "emperador": 6,
       "akira": 5,
+      "Panzer": 5,
       "qilin": 5,
       "medusalocker": 4,
       "direwolf": 4,
-      "Panzer": 4,
-      "lockbit5": 4,
       "play": 4,
       "Vexy Ransomware": 3,
       "rhysida": 3,
+      "lockbit5": 3,
       "chaos": 3,
       "Wallstreet": 3,
       "incransom": 3,
@@ -3654,12 +3653,12 @@
       "pear": 1
     },
     "by_sector": {
-      "Manufacturing": 23,
+      "Manufacturing": 24,
       "Not Found": 13,
       "Professional Services": 12,
       "Technology": 9,
-      "Other": 8,
       "Healthcare": 8,
+      "Other": 7,
       "Transportation": 5,
       "Financial Services": 4,
       "Agriculture and Food Production": 4,
