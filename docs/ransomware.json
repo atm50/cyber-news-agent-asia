@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-15T20:03:44.338263+00:00",
+  "last_updated_utc": "2026-09-15T23:27:25.157286+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Wiggins, Childs, Pantazis, Fisher, & Goldfarb LLC",
+      "group": "insomnia",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-09-15T17:30:14.921178+00:00",
+      "attack_date": "2026-09-15T17:29:58.619917+00:00",
+      "website": "",
+      "description": "Large U.S. plaintiffs firm with Alabama, D.C., and Florida offices. Since 1985, it’s been known for excellence in discrimination, consumer protection, and employment law, leading class actions that advance protections for victims.",
+      "claim_url": "http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/Wiggins/",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "Elevator manufacturer, brand 银海 (Yinhai). Produces machine-room-less (MRL) passenger elevators and OEMs elevator components (car top/bottom, car wall panels, COP, doors) for OTIS, KONE, Hitachi, Toshiba, TKS (蒂升). Export business (project DUBROVSKIY-2, customer 赛博). Infrastructure: Synology NAS (adm",
       "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/baoajah/",
       "monitored": true
-    },
-    {
-      "victim": "Abourametals",
-      "group": "medusalocker",
-      "country": "United Arab Emirates",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-12T09:01:13.120076+00:00",
-      "attack_date": "2026-09-12T09:01:00.617411+00:00",
-      "website": "",
-      "description": "Organization with 25448 emails extracted. Domain: abourametals.com",
-      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/baqatah/",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3588,11 +3588,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 59,
+    "monitored_victims": 60,
     "unique_groups": 27,
     "unique_countries": 34,
     "by_country": {
-      "United States": 29,
+      "United States": 30,
       "Unknown": 12,
       "India": 5,
       "France": 4,
@@ -3609,7 +3609,6 @@
       "Finland": 2,
       "HR": 2,
       "Russia": 2,
-      "United Arab Emirates": 2,
       "South Korea": 1,
       "CR": 1,
       "Israel": 1,
@@ -3621,6 +3620,7 @@
       "GE": 1,
       "Mexico": 1,
       "South Africa": 1,
+      "United Arab Emirates": 1,
       "MA": 1,
       "HT": 1,
       "Canada": 1,
@@ -3635,6 +3635,7 @@
       "AuditTeam": 4,
       "Storm": 3,
       "lockbit5": 3,
+      "insomnia": 2,
       "metaencryptor": 2,
       "Panzer": 2,
       "unsafe": 2,
@@ -3642,23 +3643,22 @@
       "Booba Project": 2,
       "Eclipse": 2,
       "genesis": 2,
-      "medusalocker": 2,
       "arcusmedia": 1,
       "iah6477": 1,
       "ShadowByt3$": 1,
       "anubis": 1,
-      "insomnia": 1,
       "emperador": 1,
       "shinyhunters": 1,
       "Doommageddon": 1,
       "Barracuda": 1,
       "Vexy Ransomware": 1,
       "rhysida": 1,
-      "global": 1
+      "global": 1,
+      "medusalocker": 1
     },
     "by_sector": {
-      "Manufacturing": 22,
-      "Professional Services": 11,
+      "Manufacturing": 21,
+      "Professional Services": 12,
       "Technology": 11,
       "Not Found": 10,
       "Other": 10,
