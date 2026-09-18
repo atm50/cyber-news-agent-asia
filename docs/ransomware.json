@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-18T20:30:25.730947+00:00",
+  "last_updated_utc": "2026-09-18T23:04:10.411228+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "Premier Lighting & Controls",
+      "group": "Gammax",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-09-18T17:52:03.699855+00:00",
+      "attack_date": "2026-09-18T17:51:01.431211+00:00",
+      "website": "",
+      "description": "Premier Lighting & Controls is a full-service commercial lighting agency. It serves architects, contractors, distributors, building owners, and en...",
+      "claim_url": "http://gammax6w3dkfdjfrjthtmqzsioue52vzy6lz54qy6jcvmogfpubutjyd.onion/post/HGvxCUBphjeJKnWK1EVU0CE0x7gVH6YJ",
       "monitored": true
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "Southern California Telephone Company (SCTC) is a dynamic telecom provider with over 30 years o\nf experience, offering a comprehensive range of services for both residential and business clie\nnts. Their product lineup includes high-speed internet, mobility solutions, virtual fax service\ns, and VoIP ",
       "claim_url": "https://www.ransomware.live/id/U291dGhlcm4gQ2FsaWZvcm5pYSBUZWxlcGhvbmUgQ29tcGFueUBha2lyYQ==",
       "monitored": true
-    },
-    {
-      "victim": "Better Accounting Solutions",
-      "group": "anubis",
-      "country": "",
-      "sector": "Professional Services",
-      "discovered": "2026-09-14T23:24:09.918201+00:00",
-      "attack_date": "2026-09-14T23:23:37.595956+00:00",
-      "website": "",
-      "description": "Wall Street accountants data breach.",
-      "claim_url": "http://anubisyfkh5rixydjpoo3jqucauajz2juybrbtuglcppjj2y3eg3y6ad.onion/r/n7OJxbNlcpQFjxvqP7ZUH0SviViC7e1rz5rpFWAo9sicfLZqWAY5ac5rr5Stb03ahbceE749fGYjTZHiA19QoWtkOXgwcVZP",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3606,12 +3606,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 58,
+    "monitored_victims": 59,
     "unique_groups": 30,
     "unique_countries": 29,
     "by_country": {
-      "United States": 32,
-      "Unknown": 12,
+      "United States": 33,
+      "Unknown": 11,
       "Germany": 6,
       "AR": 4,
       "Brazil": 3,
@@ -3658,6 +3658,7 @@
       "Wallstreet": 2,
       "arcusmedia": 2,
       "dragonforce": 2,
+      "Gammax": 1,
       "AuditTeam": 1,
       "rhysida": 1,
       "Spirals": 1,
@@ -3669,13 +3670,12 @@
       "blacknevas": 1,
       "kairos": 1,
       "insomnia": 1,
-      "iah6477": 1,
-      "anubis": 1
+      "iah6477": 1
     },
     "by_sector": {
-      "Manufacturing": 19,
+      "Manufacturing": 20,
       "Technology": 12,
-      "Professional Services": 11,
+      "Professional Services": 10,
       "Other": 10,
       "Financial Services": 9,
       "Not Found": 8,
