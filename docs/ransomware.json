@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-19T08:36:04.927145+00:00",
+  "last_updated_utc": "2026-09-19T12:55:58.233776+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -14,16 +14,28 @@
       "monitored": true
     },
     {
+      "victim": "Cassias MG Government",
+      "group": "emperador",
+      "country": "Brazil",
+      "sector": "Government & Defense",
+      "discovered": "2026-09-19T07:50:51.612488+00:00",
+      "attack_date": "2026-09-19T07:14:00+00:00",
+      "website": "",
+      "description": "network commitment, from government credentials to justice panels, such as access to the financial sector, police, personal data, medical (SUS), RG(CIN), BIRTH CERTIFICATE, CPF (identity number in Brazil) among other data from CASSIAS.MG.GOV departments, we will give you a deadline to negotiate with",
+      "claim_url": "/post/cassias-mg-government/",
+      "monitored": true
+    },
+    {
       "victim": "Quest Group",
       "group": "anubis",
-      "country": "",
+      "country": "United States",
       "sector": "Technology",
       "discovered": "2026-09-18T23:55:10.634158+00:00",
       "attack_date": "2026-09-18T23:54:24.784425+00:00",
       "website": "",
       "description": "Employee data, internal files, and a few unexpected discoveries.",
       "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/ZxMuptij8OrXtBb4TyaPrfDFsvfmfD4otvTwmnvCXIBU5W+YfSjke0DNnrdrCPDPvRWvmCkwFFbjgtFGU3mvjEl1dFI5V3NB",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "K3G Solutions Brazil",
@@ -40,7 +52,7 @@
     {
       "victim": "Vista Plastic Solutions",
       "group": "play",
-      "country": "United States",
+      "country": "Canada",
       "sector": "Manufacturing",
       "discovered": "2026-09-18T20:44:20.711951+00:00",
       "attack_date": "2026-09-18T20:44:05.484544+00:00",
@@ -228,6 +240,18 @@
       "description": "Education / Labor Union · US — New York | The union’s complete legal case archive — approx. 181,420 documents: grievance and arbitration files, disciplinary appeal decisions and personnel case files, each named for a member; Contract documents: CBAs, MOUs, MOAs and side letters; Nurse-federation and",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-uft",
       "monitored": true
+    },
+    {
+      "victim": "Quy Nhon University",
+      "group": "Vexy Ransomware",
+      "country": "Vietnam",
+      "sector": "Education",
+      "discovered": "2026-09-19T07:54:22.255428+00:00",
+      "attack_date": "2026-09-18T14:00:27+00:00",
+      "website": "",
+      "description": "Quy Nhon University (QNU) is a public, multidisciplinary university located in Quy Nhon City, Binh Dinh Province, Vietnam. Established in 1977, the university has a long-standing tradition in teacher education and has developed into a comprehensive institution offering a wide range of academic progr",
+      "claim_url": "https://www.ransomware.live/id/UXV5IE5ob24gVW5pdmVyc2l0eUBWZXh5IFJhbnNvbXdhcmU=",
+      "monitored": false
     },
     {
       "victim": "MPA Pharma",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=139dec8c-f16d-4463-8545-768524251858",
-      "monitored": true
-    },
-    {
-      "victim": "SFA Engineering Corporation",
-      "group": "metaencryptor",
-      "country": "South Korea",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-15T11:59:46.342220+00:00",
-      "attack_date": "2026-09-15T11:59:30.965687+00:00",
-      "website": "",
-      "description": "SFA Engineering Corporation is a South Korean high-tech engineering company specializing in industrial automation, robotics, and manufacturing equipment. The company provides advanced solutions for the semiconductor, OLED display, battery, and smart factory industries, serving major global manufactu",
-      "claim_url": "https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:b4e5dcfb3b326b048e07e9eb243f13de/0AFC:e7a37dfd17dd56a4dbf0ace14ec1970c3803b2c7819d8b27b95efd14633411c040dd911a325f1324eb38cedd28917dcb",
-      "monitored": true
-    },
-    {
-      "victim": "Nippon Steel Corporation",
-      "group": "metaencryptor",
-      "country": "Japan",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-15T11:59:12.189167+00:00",
-      "attack_date": "2026-09-15T11:58:49.936119+00:00",
-      "website": "",
-      "description": "Nippon Steel Corporation is Japan’s largest steelmaker and one of the world’s leading steel producers. Headquartered in Tokyo, the company manufactures and supplies advanced steel products for the automotive, construction, energy, infrastructure, and industrial sectors. Nippon Steel operates globall",
-      "claim_url": "https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:17fe94bae6f2528438ad5cd6abf43bdea9955e32ca2e0edcdffe61821b1ca70a/0AFC:db652f7bace8bdfd5e7e15c757ca5ec12d171d7b890b1073f3079a7a1f96c794ab0fdbd49e59c65fcc379bcd4e1b4900",
       "monitored": true
     }
   ],
@@ -2441,7 +2441,7 @@
     },
     {
       "name": "iah6477",
-      "description": "Archive without group name",
+      "description": "",
       "locations": 1,
       "meta": ""
     },
@@ -3608,19 +3608,19 @@
     "total_victims": 100,
     "monitored_victims": 61,
     "unique_groups": 32,
-    "unique_countries": 30,
+    "unique_countries": 29,
     "by_country": {
       "United States": 32,
-      "Unknown": 10,
+      "Unknown": 9,
       "Germany": 7,
-      "Brazil": 4,
-      "Canada": 4,
+      "Brazil": 5,
+      "Canada": 5,
       "AR": 4,
+      "Vietnam": 3,
       "United Kingdom": 3,
       "Australia": 3,
       "Sweden": 2,
       "Turkey": 2,
-      "Vietnam": 2,
       "CL": 2,
       "Singapore": 2,
       "Mexico": 2,
@@ -3628,7 +3628,6 @@
       "Spain": 2,
       "Italy": 2,
       "Switzerland": 2,
-      "Japan": 2,
       "Ireland": 1,
       "VE": 1,
       "Russia": 1,
@@ -3639,7 +3638,7 @@
       "CZ": 1,
       "IR": 1,
       "PE": 1,
-      "South Korea": 1
+      "Japan": 1
     },
     "by_group": {
       "qilin": 18,
@@ -3648,16 +3647,16 @@
       "safepay": 8,
       "Panzer": 5,
       "Storm": 5,
-      "metaencryptor": 5,
+      "emperador": 4,
       "incransom": 4,
       "play": 3,
+      "Vexy Ransomware": 3,
       "BrainCipher": 3,
-      "emperador": 3,
+      "metaencryptor": 3,
       "Spirals": 2,
       "lockbit5": 2,
       "EndZone": 2,
       "krybit": 2,
-      "Vexy Ransomware": 2,
       "Wallstreet": 2,
       "dragonforce": 2,
       "anubis": 1,
@@ -3676,16 +3675,16 @@
       "insomnia": 1
     },
     "by_sector": {
-      "Manufacturing": 18,
+      "Manufacturing": 16,
       "Technology": 14,
       "Professional Services": 12,
       "Financial Services": 9,
       "Other": 9,
       "Healthcare": 8,
+      "Education": 7,
       "Not Found": 6,
-      "Education": 6,
       "Retail & E-Commerce": 6,
-      "Government & Defense": 4,
+      "Government & Defense": 5,
       "Agriculture and Food Production": 4,
       "Hospitality": 3,
       "Energy & Utilities": 1
