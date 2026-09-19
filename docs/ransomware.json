@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-19T03:25:47.048524+00:00",
+  "last_updated_utc": "2026-09-19T08:36:04.927145+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Quest Group",
+      "group": "anubis",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-09-18T23:55:10.634158+00:00",
+      "attack_date": "2026-09-18T23:54:24.784425+00:00",
+      "website": "",
+      "description": "Employee data, internal files, and a few unexpected discoveries.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/ZxMuptij8OrXtBb4TyaPrfDFsvfmfD4otvTwmnvCXIBU5W+YfSjke0DNnrdrCPDPvRWvmCkwFFbjgtFGU3mvjEl1dFI5V3NB",
+      "monitored": false
     },
     {
       "victim": "K3G Solutions Brazil",
@@ -1188,18 +1200,6 @@
       "description": "Nippon Steel Corporation is Japan’s largest steelmaker and one of the world’s leading steel producers. Headquartered in Tokyo, the company manufactures and supplies advanced steel products for the automotive, construction, energy, infrastructure, and industrial sectors. Nippon Steel operates globall",
       "claim_url": "https://metacrpttdfpbm4qoxzcrqqgr6e6zafpazgxm72knmujw2mwvi34rwad.onion/0AFC:17fe94bae6f2528438ad5cd6abf43bdea9955e32ca2e0edcdffe61821b1ca70a/0AFC:db652f7bace8bdfd5e7e15c757ca5ec12d171d7b890b1073f3079a7a1f96c794ab0fdbd49e59c65fcc379bcd4e1b4900",
       "monitored": true
-    },
-    {
-      "victim": "Asada Sarapiqu",
-      "group": "arcusmedia",
-      "country": "CR",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-09-15T11:52:38.057981+00:00",
-      "attack_date": "2026-09-15T11:39:39+00:00",
-      "website": "",
-      "description": "asadasarapiqui.comAsada Sarapiquí is an organization focused on providing water supply ser Deadline: 2026-09-22 11:37:00.000000",
-      "claim_url": "http://arcuufpr5xxbbkin4mlidt7itmr6znlppk63jbtkeguuhszmc5g7qdyd.onion/?p=807",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3607,11 +3607,11 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 61,
-    "unique_groups": 31,
-    "unique_countries": 31,
+    "unique_groups": 32,
+    "unique_countries": 30,
     "by_country": {
       "United States": 32,
-      "Unknown": 9,
+      "Unknown": 10,
       "Germany": 7,
       "Brazil": 4,
       "Canada": 4,
@@ -3639,8 +3639,7 @@
       "CZ": 1,
       "IR": 1,
       "PE": 1,
-      "South Korea": 1,
-      "CR": 1
+      "South Korea": 1
     },
     "by_group": {
       "qilin": 18,
@@ -3660,8 +3659,8 @@
       "krybit": 2,
       "Vexy Ransomware": 2,
       "Wallstreet": 2,
-      "arcusmedia": 2,
       "dragonforce": 2,
+      "anubis": 1,
       "Gammax": 1,
       "AuditTeam": 1,
       "rhysida": 1,
@@ -3672,12 +3671,13 @@
       "shinyhunters": 1,
       "ShadowByt3$": 1,
       "blacknevas": 1,
+      "arcusmedia": 1,
       "kairos": 1,
       "insomnia": 1
     },
     "by_sector": {
       "Manufacturing": 18,
-      "Technology": 13,
+      "Technology": 14,
       "Professional Services": 12,
       "Financial Services": 9,
       "Other": 9,
@@ -3685,8 +3685,8 @@
       "Not Found": 6,
       "Education": 6,
       "Retail & E-Commerce": 6,
-      "Agriculture and Food Production": 5,
       "Government & Defense": 4,
+      "Agriculture and Food Production": 4,
       "Hospitality": 3,
       "Energy & Utilities": 1
     }
