@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-20T10:45:50.423056+00:00",
+  "last_updated_utc": "2026-09-20T14:33:16.094838+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Studio Notarile Associato Salvatore Costantino E Anna Favarato",
+      "group": "emperador",
+      "country": "Italy",
+      "sector": "Professional Services",
+      "discovered": "2026-09-20T09:35:30.781513+00:00",
+      "attack_date": "2026-09-20T08:30:00+00:00",
+      "website": "",
+      "description": "Studio Notarile Associato Salvatore Costantino E Anna Favarato, Follina \n+39 0438 971778\nPiazza Iv Novembre, 20, 31051, Follina , Italia\nNotary's office\nseveral thousand documents\nThere are many customer documents and employee data. [Sector: Finance, Other]",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/studio-notarile-associato-salvatore-costantino-e-anna-favarato/",
+      "monitored": false
     },
     {
       "victim": "TOWILL",
@@ -1188,18 +1200,6 @@
       "description": "The organization identifies itself as one of the principal private healthcare providers in the region and serves patients from Coahuila …",
       "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/laconcepcioncommx/",
       "monitored": false
-    },
-    {
-      "victim": "meterex.com",
-      "group": "safepay",
-      "country": "Germany",
-      "sector": "Technology",
-      "discovered": "2026-09-15T19:31:20.079261+00:00",
-      "attack_date": "2026-09-15T19:31:06.021770+00:00",
-      "website": "",
-      "description": "The company is headquartered in Langenfeld, North Rhine-Westphalia, and is legally registered as Karl Kuntze (GmbH & Co.), HRA 16336 …",
-      "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/meterexcom/",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3612,18 +3612,18 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
+    "monitored_victims": 60,
     "unique_groups": 35,
     "unique_countries": 27,
     "by_country": {
       "United States": 31,
       "Unknown": 10,
-      "Germany": 7,
       "Brazil": 6,
       "Canada": 6,
+      "Germany": 6,
+      "Italy": 4,
       "AR": 4,
       "Sweden": 3,
-      "Italy": 3,
       "Vietnam": 3,
       "United Kingdom": 3,
       "Australia": 3,
@@ -3648,11 +3648,11 @@
       "qilin": 14,
       "N0n": 11,
       "akira": 8,
-      "emperador": 5,
+      "emperador": 6,
       "Panzer": 5,
       "Storm": 5,
-      "safepay": 5,
       "incransom": 4,
+      "safepay": 4,
       "arcusmedia": 3,
       "play": 3,
       "BrainCipher": 3,
@@ -3682,9 +3682,9 @@
       "kairos": 1
     },
     "by_sector": {
-      "Technology": 17,
+      "Technology": 16,
       "Manufacturing": 14,
-      "Professional Services": 10,
+      "Professional Services": 11,
       "Financial Services": 9,
       "Healthcare": 9,
       "Other": 9,
