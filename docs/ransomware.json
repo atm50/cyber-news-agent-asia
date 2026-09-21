@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-21T03:37:55.091404+00:00",
+  "last_updated_utc": "2026-09-21T09:40:48.997142+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,30 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "SECOND HOUSE",
+      "group": "incransom",
+      "country": "Spain",
+      "sector": "Hospitality",
+      "discovered": "2026-09-21T00:35:05.808718+00:00",
+      "attack_date": "2026-09-21T00:00:00+00:00",
+      "website": "",
+      "description": "Second House (Second House, S.L.) is a privately held real estate company   \r    headquartered in Barcelona, Spain, with over 26 years of experience in the  \r    property sector. Their business model centers on buying properties and      \r    adding value to them — through renovation works, improvin",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6ab02fa89cd108bf26c5e025",
+      "monitored": false
+    },
+    {
+      "victim": "Maryann Kriger",
+      "group": "incransom",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-09-21T00:34:36.706236+00:00",
+      "attack_date": "2026-09-21T00:00:00+00:00",
+      "website": "",
+      "description": "At Bonita Orthodontics, Dr. Maryann Kriger and our friendly team provide    \r    personalized orthodontic care using state-of-the-art technology. As a       \r    board-certified orthodontist and Elite Invisalign Provider, Dr. Kriger takes\r    a conservative approach — creating simple, affordable tre",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6ab057339cd108bf26ca4f1a",
       "monitored": true
     },
     {
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=6670e26d-3391-43e8-bcb6-f00c2ba10bc7",
       "monitored": false
-    },
-    {
-      "victim": "Owen Leigh Optometry",
-      "group": "dragonforce",
-      "country": "United Kingdom",
-      "sector": "Healthcare",
-      "discovered": "2026-09-16T03:54:08.705686+00:00",
-      "attack_date": "2026-09-16T03:53:35.671558+00:00",
-      "website": "",
-      "description": "Full DATA 400 GB+\n\nThe brain uses the eyes to gather information about our surroundings. The brain cannot process all our view so it must first decide what to look for. The eyes-brain system then has to select that information, usually by shifting eye position and often by shifting focus. How the ey",
-      "claim_url": "http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog/?post_uuid=2be33b50-70f7-4151-8b86-b60b31e5e1ba",
-      "monitored": true
-    },
-    {
-      "victim": "Community Property Management",
-      "group": "dragonforce",
-      "country": "United States",
-      "sector": "Other",
-      "discovered": "2026-09-16T03:55:01.189986+00:00",
-      "attack_date": "2026-09-16T03:49:20.010594+00:00",
-      "website": "",
-      "description": "full data 200 GB+ \n\nWe have been in business since 1978 as a management firm specializing in the management of common interest developments including condominiums and planned unit developments.\n\nCPM rapidly evolved into one of the premier association management firms in the industry and is on the fo",
-      "claim_url": "http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog/?post_uuid=dbdc4732-e361-4834-a8bf-52778bae559f",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1583,7 +1583,7 @@
     },
     {
       "name": "SilentRansomGroup",
-      "description": "a former Conti team",
+      "description": "A former Conti team\naka Chatty Spider and UNC3753",
       "locations": 1,
       "meta": ""
     },
@@ -3612,8 +3612,8 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 57,
-    "unique_groups": 34,
+    "monitored_victims": 56,
+    "unique_groups": 33,
     "unique_countries": 30,
     "by_country": {
       "United States": 31,
@@ -3626,9 +3626,9 @@
       "AR": 4,
       "Sweden": 3,
       "Vietnam": 3,
+      "Spain": 2,
       "CL": 2,
       "Singapore": 2,
-      "United Kingdom": 2,
       "Australia": 2,
       "Thailand": 1,
       "Switzerland": 1,
@@ -3643,7 +3643,7 @@
       "TT": 1,
       "France": 1,
       "PY": 1,
-      "Spain": 1,
+      "United Kingdom": 1,
       "CZ": 1,
       "IR": 1
     },
@@ -3651,10 +3651,10 @@
       "qilin": 17,
       "N0n": 11,
       "emperador": 7,
+      "incransom": 6,
       "akira": 5,
       "Panzer": 5,
       "Storm": 5,
-      "incransom": 4,
       "krybit": 3,
       "AuditTeam": 3,
       "arcusmedia": 3,
@@ -3667,7 +3667,6 @@
       "lockbit5": 2,
       "EndZone": 2,
       "Wallstreet": 2,
-      "dragonforce": 2,
       "bravox": 1,
       "nightspire": 1,
       "unsafe": 1,
@@ -3685,16 +3684,16 @@
     },
     "by_sector": {
       "Technology": 17,
+      "Not Found": 12,
       "Manufacturing": 11,
-      "Not Found": 11,
       "Professional Services": 10,
       "Financial Services": 9,
-      "Healthcare": 9,
-      "Other": 9,
+      "Healthcare": 8,
+      "Other": 8,
       "Education": 7,
       "Retail & E-Commerce": 5,
+      "Hospitality": 4,
       "Government & Defense": 4,
-      "Hospitality": 3,
       "Energy & Utilities": 2,
       "Agriculture and Food Production": 2,
       "Transportation": 1
