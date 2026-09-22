@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-22T09:05:28.587262+00:00",
+  "last_updated_utc": "2026-09-22T14:24:06.270658+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Columbus Informatica",
+      "group": "qilin",
+      "country": "Italy",
+      "sector": "Technology",
+      "discovered": "2026-09-22T10:18:01.849173+00:00",
+      "attack_date": "2026-09-22T10:17:25.144662+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=e2830711-e339-4a2b-8f79-8dfdeef6dce9",
+      "monitored": false
     },
     {
       "victim": "NAI Earle Furman",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Diakoniewerk Apolda gGmbH is a German non-profit social welfare organization (gemeinnützige GmbH) founded in 2006, head...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/de7e0d4866fbf62b75c43232d4fe7b1b027939b6c70eec209729816d09f88f64/",
-      "monitored": true
-    },
-    {
-      "victim": "Vigatec",
-      "group": "qilin",
-      "country": "Germany",
-      "sector": "Technology",
-      "discovered": "2026-09-17T20:58:39.918548+00:00",
-      "attack_date": "2026-09-17T20:58:17.051722+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=17c492a1-01f4-417a-a5b2-054009087ccb",
       "monitored": true
     }
   ],
@@ -3612,17 +3612,17 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
+    "monitored_victims": 60,
     "unique_groups": 34,
     "unique_countries": 33,
     "by_country": {
       "United States": 38,
       "Unknown": 8,
       "Brazil": 5,
-      "Germany": 5,
+      "Italy": 4,
       "Canada": 4,
       "Turkey": 4,
-      "Italy": 3,
+      "Germany": 4,
       "Vietnam": 3,
       "Japan": 2,
       "Sweden": 2,
@@ -3651,8 +3651,8 @@
       "PY": 1
     },
     "by_group": {
-      "N0n": 12,
       "qilin": 12,
+      "N0n": 12,
       "Storm": 8,
       "metaencryptor": 6,
       "play": 5,
@@ -3687,8 +3687,8 @@
       "securotrop": 1
     },
     "by_sector": {
-      "Manufacturing": 16,
       "Technology": 16,
+      "Manufacturing": 16,
       "Not Found": 12,
       "Financial Services": 11,
       "Professional Services": 8,
