@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-24T07:17:54.274871+00:00",
+  "last_updated_utc": "2026-09-24T13:18:02.810277+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,18 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "Final statement re PSA",
+      "group": "shinyhunters",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-09-24T08:44:48.048248+00:00",
+      "attack_date": "2026-09-24T08:44:46.503372+00:00",
+      "website": "",
+      "description": "Good afternoon, We have no further comments to make regarding our PSA statement we released the other day. Our organisation is highly confident we have achieved our goal and our intentions we repeatedly made clear to journalists and in our public statements. There is 5 days remaining still. We have ",
+      "claim_url": "https://www.ransomware.live/id/RmluYWwgc3RhdGVtZW50IHJlIFBTQUBzaGlueWh1bnRlcnM=",
+      "monitored": false
     },
     {
       "victim": "Solucioning S.A.",
@@ -1188,18 +1200,6 @@
       "description": "Canada",
       "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=GEK3Hk0FkaPAwQ",
       "monitored": true
-    },
-    {
-      "victim": "Inglewood Golf",
-      "group": "play",
-      "country": "Canada",
-      "sector": "Hospitality",
-      "discovered": "2026-09-18T20:43:47.009719+00:00",
-      "attack_date": "2026-09-18T20:43:30.559756+00:00",
-      "website": "",
-      "description": "Canada",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=30nnxBd36EMmja",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1451,6 +1451,12 @@
     },
     {
       "name": "Icarus",
+      "description": "",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "ImNotAVillain",
       "description": "",
       "locations": 1,
       "meta": ""
@@ -3612,15 +3618,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 53,
+    "monitored_victims": 52,
     "unique_groups": 38,
     "unique_countries": 29,
     "by_country": {
       "United States": 34,
-      "Unknown": 20,
+      "Unknown": 21,
       "Italy": 7,
       "Brazil": 5,
-      "Canada": 5,
+      "Canada": 4,
       "Germany": 3,
       "AR": 2,
       "Japan": 2,
@@ -3653,7 +3659,7 @@
       "SilentRansomGroup": 6,
       "Booba Project": 5,
       "metaencryptor": 5,
-      "play": 4,
+      "shinyhunters": 3,
       "EndZone": 3,
       "incransom": 3,
       "arcusmedia": 3,
@@ -3662,9 +3668,9 @@
       "N0n": 3,
       "termite": 3,
       "AuditTeam": 3,
+      "play": 3,
       "Storm": 3,
       "Barracuda": 2,
-      "shinyhunters": 2,
       "titan": 2,
       "unsafe": 2,
       "Global Secret Group": 2,
@@ -3687,7 +3693,7 @@
       "Panzer": 1
     },
     "by_sector": {
-      "Not Found": 19,
+      "Not Found": 20,
       "Manufacturing": 17,
       "Technology": 14,
       "Professional Services": 13,
@@ -3699,8 +3705,8 @@
       "Retail & E-Commerce": 3,
       "Education": 2,
       "Energy & Utilities": 2,
-      "Hospitality": 2,
-      "Agriculture and Food Production": 1
+      "Agriculture and Food Production": 1,
+      "Hospitality": 1
     }
   },
   "errors": []
