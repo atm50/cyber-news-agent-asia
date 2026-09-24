@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-23T22:45:07.404607+00:00",
+  "last_updated_utc": "2026-09-24T01:09:34.132187+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,30 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "OnTrac",
+      "group": "emperador",
+      "country": "United States",
+      "sector": "Transportation",
+      "discovered": "2026-09-23T20:51:04.749900+00:00",
+      "attack_date": "2026-09-23T20:07:00+00:00",
+      "website": "",
+      "description": "OnTrac is a major last-mile e-commerce delivery company formed by the 2021 merger of LaserShip and OnTrac. It positions itself as a direct alternative to FedEx and UPS, offering coast-to-coast coverage, 7-day-a-week operations, and competitive rates to reach over 75% of the U.S. population.\n\nWe hold",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/ontrac/",
+      "monitored": true
+    },
+    {
+      "victim": "Abtach Ltd.",
+      "group": "Barracuda",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-09-23T19:20:51.283138+00:00",
+      "attack_date": "2026-09-23T19:20:12.330662+00:00",
+      "website": "",
+      "description": "Abtach Ltd. was renamed Intersys Ltd.—a Pakistani company engaged in fraud targeting the US. The company’s employees charged fees for services that did not actually exist.\nThe company’s founder, Azneem Bilwani, was involved in the illicit trafficking of synthetic opioids and fentanyl analogues, whic",
+      "claim_url": "http://uvm6hk4wwstfddja5z5htgtlehmfyflffijz6iozsuqyacyibzxefkqd.onion/leaks",
+      "monitored": false
     },
     {
       "victim": "goldstarfinancial.com",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "[AVAILABLE DATA] Radiology and health imaging, client personal and health data.",
       "claim_url": "https://www.ransomware.live/id/UElUVFNSQURAU3BpcmFscw==",
-      "monitored": true
-    },
-    {
-      "victim": "Inter (Venezuela's largest internet provider)",
-      "group": "N0n",
-      "country": "VE",
-      "sector": "Technology",
-      "discovered": "2026-09-18T19:51:07.604510+00:00",
-      "attack_date": "2026-09-18T19:50:50.860113+00:00",
-      "website": "",
-      "description": "Telecommunications / ISP · Venezuela | Subscriber connection records: 15,300,000+ entries, tens of thousands of subscriber addresses with the services they contacted; Complete internal network map across all regional operations; Core infrastructure configuration evidence | Network traffic remains se",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-inter",
-      "monitored": false
-    },
-    {
-      "victim": "Premier Lighting & Controls",
-      "group": "Gammax",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-18T17:52:03.699855+00:00",
-      "attack_date": "2026-09-18T17:51:01.431211+00:00",
-      "website": "",
-      "description": "Premier Lighting & Controls is a full-service commercial lighting agency. It serves architects, contractors, distributors, building owners, and en...",
-      "claim_url": "http://gammax6w3dkfdjfrjthtmqzsioue52vzy6lz54qy6jcvmogfpubutjyd.onion/post/HGvxCUBphjeJKnWK1EVU0CE0x7gVH6YJ",
       "monitored": true
     }
   ],
@@ -3614,10 +3614,10 @@
     "total_victims": 100,
     "monitored_victims": 54,
     "unique_groups": 38,
-    "unique_countries": 31,
+    "unique_countries": 30,
     "by_country": {
       "United States": 35,
-      "Unknown": 18,
+      "Unknown": 19,
       "Italy": 7,
       "Brazil": 5,
       "Canada": 5,
@@ -3645,22 +3645,21 @@
       "India": 1,
       "HK": 1,
       "Sweden": 1,
-      "Ireland": 1,
-      "VE": 1
+      "Ireland": 1
     },
     "by_group": {
       "qilin": 10,
       "akira": 8,
+      "emperador": 6,
       "SilentRansomGroup": 6,
       "Booba Project": 5,
-      "emperador": 5,
       "play": 5,
       "metaencryptor": 5,
-      "N0n": 4,
       "incransom": 3,
       "arcusmedia": 3,
       "medusalocker": 3,
       "anubis": 3,
+      "N0n": 3,
       "termite": 3,
       "AuditTeam": 3,
       "Storm": 3,
@@ -3672,6 +3671,7 @@
       "Global Secret Group": 2,
       "nightspire": 2,
       "Orova": 2,
+      "Barracuda": 1,
       "BrainCipher": 1,
       "spacebears": 1,
       "rhysida": 1,
@@ -3685,20 +3685,19 @@
       "krybit": 1,
       "bravox": 1,
       "cry0": 1,
-      "Panzer": 1,
-      "Gammax": 1
+      "Panzer": 1
     },
     "by_sector": {
-      "Manufacturing": 18,
-      "Not Found": 18,
-      "Technology": 15,
+      "Not Found": 19,
+      "Manufacturing": 17,
+      "Technology": 14,
       "Professional Services": 13,
       "Healthcare": 9,
       "Other": 6,
       "Financial Services": 5,
       "Government & Defense": 4,
+      "Transportation": 3,
       "Retail & E-Commerce": 3,
-      "Transportation": 2,
       "Education": 2,
       "Energy & Utilities": 2,
       "Hospitality": 2,
