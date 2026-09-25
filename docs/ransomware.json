@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-25T05:54:49.761286+00:00",
+  "last_updated_utc": "2026-09-25T11:18:42.506343+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -11,6 +11,18 @@
       "website": "",
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
+      "monitored": true
+    },
+    {
+      "victim": "TapClicks (marketing analytics platform)",
+      "group": "N0n",
+      "country": "United States",
+      "sector": "Technology",
+      "discovered": "2026-09-25T03:21:46.506246+00:00",
+      "attack_date": "2026-09-25T03:21:29.623423+00:00",
+      "website": "",
+      "description": "Marketing analytics / SaaS · United States | The complete platform source code (97,000+ commits with full history); The multi-tenant instance management system with production architecture; A customer's full marketing database: 354 advertising platform datasets, client lists, user accounts with pass",
+      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-tapclicks",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Prestige Management Inc. is a licensed real estate company based in New York, specializing in r\nesidential and commercial property management. The company is dedicated to providing high-quali\nty management services for property owners and residents, ensuring accountability and complianc\ne in their o",
       "claim_url": "https://www.ransomware.live/id/UHJlc3RpZ2UgTWFuYWdlbWVudEBha2lyYQ==",
-      "monitored": true
-    },
-    {
-      "victim": "IKEGAMI TSUSHINKI COMPANY LIMITED",
-      "group": "qilin",
-      "country": "Japan",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-21T08:01:50.407973+00:00",
-      "attack_date": "2026-09-21T00:00:00+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=337a2e3e-edbf-4a8e-9b75-157296837da2",
       "monitored": true
     }
   ],
@@ -3622,7 +3622,7 @@
     "unique_groups": 37,
     "unique_countries": 30,
     "by_country": {
-      "United States": 35,
+      "United States": 36,
       "Unknown": 23,
       "Italy": 5,
       "Brazil": 3,
@@ -3632,7 +3632,6 @@
       "AR": 2,
       "Germany": 2,
       "Canada": 2,
-      "Japan": 2,
       "UG": 1,
       "Saudi Arabia": 1,
       "MO": 1,
@@ -3648,18 +3647,20 @@
       "ML": 1,
       "MD": 1,
       "UZ": 1,
+      "Japan": 1,
       "Finland": 1,
       "Israel": 1,
       "South Korea": 1,
       "AO": 1
     },
     "by_group": {
-      "qilin": 12,
+      "qilin": 11,
       "akira": 10,
       "SilentRansomGroup": 6,
       "incransom": 5,
       "Booba Project": 5,
       "metaencryptor": 5,
+      "N0n": 3,
       "krybit": 3,
       "shinyhunters": 3,
       "EndZone": 3,
@@ -3675,7 +3676,6 @@
       "emperador": 2,
       "anubis": 2,
       "titan": 2,
-      "N0n": 2,
       "play": 2,
       "Global Secret Group": 2,
       "ImNotAVillain": 1,
@@ -3693,12 +3693,12 @@
       "nightspire": 1
     },
     "by_sector": {
-      "Manufacturing": 18,
       "Not Found": 17,
+      "Manufacturing": 17,
       "Professional Services": 13,
+      "Technology": 10,
       "Other": 10,
       "Healthcare": 10,
-      "Technology": 9,
       "Financial Services": 6,
       "Government & Defense": 4,
       "Education": 3,
