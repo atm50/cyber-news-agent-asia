@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-24T22:02:06.905686+00:00",
+  "last_updated_utc": "2026-09-25T00:29:56.555531+00:00",
   "victims": [
     {
       "victim": "Paylogix",
@@ -12,6 +12,42 @@
       "description": "Paylogix is an insuretech pioneer offering premium technology sol\nutions that streamline the administration of voluntary benefits. \nTheir robust suite of services includes enrollment, premium billi\nng, alternative funding, and a software-as-a-service platform tai\nlored for groups of all sizes.\n\nWe w",
       "claim_url": "https://www.ransomware.live/id/UGF5bG9naXhAYWtpcmE=",
       "monitored": true
+    },
+    {
+      "victim": "efada.sa",
+      "group": "krybit",
+      "country": "Saudi Arabia",
+      "sector": "Other",
+      "discovered": "2026-09-24T20:01:08.851154+00:00",
+      "attack_date": "2026-09-24T20:00:52.235789+00:00",
+      "website": "",
+      "description": "efada.sa...",
+      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/pending-6ab577d1234c6-1790277585/",
+      "monitored": true
+    },
+    {
+      "victim": "NEAD Pro",
+      "group": "rhysida",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-09-24T18:01:29.579614+00:00",
+      "attack_date": "2026-09-24T18:01:13.290204+00:00",
+      "website": "",
+      "description": "NEAD Pro Nead Pro is a professional multidisciplinary firm based in Gorizia and Udine, Italy, that provides legal, tax, bankruptcy, and accounting consulting services.What it is: a network share belonging to two Italian professional firms located at Via Roma 20, Gorizia (Friuli-Venezia Giulia):NEAD ",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=277",
+      "monitored": false
+    },
+    {
+      "victim": "bnlawmacau.com www.bn-ip.com",
+      "group": "incransom",
+      "country": "MO",
+      "sector": "Professional Services",
+      "discovered": "2026-09-24T17:58:23.744897+00:00",
+      "attack_date": "2026-09-24T16:49:16.111000+00:00",
+      "website": "",
+      "description": "full data all country",
+      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6ab5548c9cd108bf2677a835",
+      "monitored": false
     },
     {
       "victim": "ukbjja.org",
@@ -1164,42 +1200,6 @@
       "description": "Alabama Woman's Health Care\nComprehensive Consultative Medicine, Wellbeing and Aesthetic Care Organization\nSeveral thousand documents of employees and clients and an archive of photos\n420 Lowell Dr\nSuite 400\nHuntsville, AL 35801 [Sector: Medical, Other]",
       "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/alabama-womans-health-care/",
       "monitored": true
-    },
-    {
-      "victim": "acilnet.com",
-      "group": "krybit",
-      "country": "Turkey",
-      "sector": "Technology",
-      "discovered": "2026-09-20T14:11:58.952794+00:00",
-      "attack_date": "2026-09-20T14:11:35.009723+00:00",
-      "website": "",
-      "description": "Ahluwalia Contracts (India) Limited (ACIL) is one of India's largest civil construction and contracting companies, incor...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/4f64bd4cbeb824f0996d4a452888a817f61920ab51cd08b9bc364e7eb1e91982/",
-      "monitored": false
-    },
-    {
-      "victim": "Zorlu Holding",
-      "group": "qilin",
-      "country": "Turkey",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-20T12:15:03.477485+00:00",
-      "attack_date": "2026-09-20T12:14:45.367654+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=51f10216-38bf-4521-a65e-4d8e1cad8cd6",
-      "monitored": false
-    },
-    {
-      "victim": "ShopDunk",
-      "group": "qilin",
-      "country": "Thailand",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-09-20T12:14:25.639076+00:00",
-      "attack_date": "2026-09-20T12:14:07.283736+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=283a4d27-c413-4819-9937-3ea8ec6725c7",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3618,29 +3618,30 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 52,
+    "monitored_victims": 53,
     "unique_groups": 37,
-    "unique_countries": 30,
+    "unique_countries": 31,
     "by_country": {
       "United States": 34,
-      "Unknown": 22,
+      "Unknown": 23,
       "Italy": 5,
       "Brazil": 3,
       "France": 3,
       "United Kingdom": 2,
       "Australia": 2,
       "AR": 2,
-      "Thailand": 2,
       "Germany": 2,
       "Canada": 2,
       "Japan": 2,
-      "Turkey": 2,
+      "Saudi Arabia": 1,
+      "MO": 1,
       "CO": 1,
       "SV": 1,
       "TZ": 1,
       "Portugal": 1,
       "OM": 1,
       "PE": 1,
+      "Thailand": 1,
       "CZ": 1,
       "BG": 1,
       "ML": 1,
@@ -3654,9 +3655,9 @@
       "SO": 1
     },
     "by_group": {
-      "qilin": 14,
+      "qilin": 12,
       "akira": 10,
-      "incransom": 6,
+      "incransom": 7,
       "SilentRansomGroup": 6,
       "Booba Project": 5,
       "metaencryptor": 5,
@@ -3668,6 +3669,7 @@
       "medusalocker": 3,
       "termite": 3,
       "Storm": 3,
+      "rhysida": 2,
       "Wallstreet": 2,
       "Barracuda": 2,
       "anubis": 2,
@@ -3678,7 +3680,6 @@
       "ImNotAVillain": 1,
       "BrainCipher": 1,
       "spacebears": 1,
-      "rhysida": 1,
       "Spirals": 1,
       "arcusmedia": 1,
       "secp0": 1,
@@ -3693,18 +3694,18 @@
       "lockbit5": 1
     },
     "by_sector": {
-      "Manufacturing": 19,
-      "Not Found": 17,
-      "Professional Services": 12,
-      "Technology": 10,
+      "Not Found": 18,
+      "Manufacturing": 18,
+      "Professional Services": 13,
+      "Other": 10,
       "Healthcare": 9,
-      "Other": 9,
+      "Technology": 9,
       "Financial Services": 6,
       "Government & Defense": 4,
       "Education": 3,
       "Transportation": 3,
-      "Retail & E-Commerce": 3,
       "Energy & Utilities": 2,
+      "Retail & E-Commerce": 2,
       "Agriculture and Food Production": 2,
       "Hospitality": 1
     }
