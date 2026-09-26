@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-09-26T03:50:11.065241+00:00",
+  "last_updated_utc": "2026-09-26T09:12:06.035488+00:00",
   "victims": [
+    {
+      "victim": "Crossett",
+      "group": "termite",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-09-26T00:43:37.349060+00:00",
+      "attack_date": "2026-09-25T23:25:32.175000+00:00",
+      "website": "",
+      "description": "Crossett Home is a leading petroleum transporter operating in major markets across the Eastern &lt;a href=&quot;http:&#x2F;&#x2F;U.S&quot;&gt;U.S&lt;&#x2F;a&gt;. and Ontario, Canada. Established in 1928, the company specializes in safe and reliable fuel transportation services, supported by a fleet ",
+      "claim_url": "http://termiteuslbumdge2zmfmfcsrvmvsfe4gvyudc5j6cdnisnhtftvokid.onion/post/6ab702d300ab5ab6ab5a2ee5",
+      "monitored": true
+    },
     {
       "victim": "N...",
       "group": "SilentRansomGroup",
@@ -1188,18 +1200,6 @@
       "description": "",
       "claim_url": "http://6tdqqaxftvradka5d2frzgwixis7fmro7rfh4ettzcx7jfapkebe6jad.onion/entity/15E3F424FBA355A9",
       "monitored": false
-    },
-    {
-      "victim": "Metallco",
-      "group": "play",
-      "country": "Brazil",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-21T22:16:54.217399+00:00",
-      "attack_date": "2026-09-21T22:16:38.519465+00:00",
-      "website": "",
-      "description": "Norway",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=C3pnt8lMDNeWgr",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1296,7 +1296,7 @@
     {
       "name": "Booba Project",
       "description": "Booba",
-      "locations": 3,
+      "locations": 4,
       "meta": ""
     },
     {
@@ -2994,7 +2994,7 @@
     {
       "name": "pear",
       "description": "Pure Extraction And Ransom (PEAR) Team is the community of highly responsible and strictly disciplined members. We are a private team and have nothing common with any other threat actors. We've been monitoring this field for a long-long time. So, we understand all the processes and know well how it all works.",
-      "locations": 19,
+      "locations": 22,
       "meta": ""
     },
     {
@@ -3619,14 +3619,14 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 49,
-    "unique_groups": 32,
+    "unique_groups": 31,
     "unique_countries": 34,
     "by_country": {
-      "United States": 29,
+      "United States": 30,
       "Unknown": 23,
       "Italy": 6,
       "United Kingdom": 4,
-      "Brazil": 4,
+      "Brazil": 3,
       "France": 3,
       "Australia": 2,
       "AR": 2,
@@ -3665,6 +3665,7 @@
       "everest": 6,
       "incransom": 6,
       "Booba Project": 5,
+      "termite": 4,
       "metaencryptor": 3,
       "emperador": 3,
       "N0n": 3,
@@ -3673,7 +3674,6 @@
       "shinyhunters": 3,
       "dragonforce": 3,
       "medusalocker": 3,
-      "termite": 3,
       "pear": 3,
       "Spirals": 2,
       "rhysida": 2,
@@ -3688,15 +3688,14 @@
       "anubis": 1,
       "secp0": 1,
       "kairos": 1,
-      "AuditTeam": 1,
-      "play": 1
+      "AuditTeam": 1
     },
     "by_sector": {
       "Not Found": 18,
       "Professional Services": 15,
-      "Manufacturing": 15,
+      "Manufacturing": 14,
       "Healthcare": 13,
-      "Other": 8,
+      "Other": 9,
       "Technology": 7,
       "Financial Services": 6,
       "Energy & Utilities": 3,
