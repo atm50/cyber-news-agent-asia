@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-09-27T17:34:08.730824+00:00",
+  "last_updated_utc": "2026-09-27T20:59:10.311032+00:00",
   "victims": [
+    {
+      "victim": "Revenga Smart Solutions",
+      "group": "qilin",
+      "country": "Spain",
+      "sector": "Technology",
+      "discovered": "2026-09-27T16:06:05.111130+00:00",
+      "attack_date": "2026-09-27T16:05:31.762329+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=afd7850c-c193-4be3-86d1-cac552d102cd",
+      "monitored": false
+    },
+    {
+      "victim": "Willatt & Flickinger",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-09-27T16:05:11.768205+00:00",
+      "attack_date": "2026-09-27T16:04:41.916656+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=e61f21e4-4a24-4e6a-8cea-19b6a71f4156",
+      "monitored": true
+    },
+    {
+      "victim": "Pantaneiro Capas",
+      "group": "arcusmedia",
+      "country": "Brazil",
+      "sector": "Manufacturing",
+      "discovered": "2026-09-27T13:53:21.721586+00:00",
+      "attack_date": "2026-09-27T11:36:16+00:00",
+      "website": "",
+      "description": "www.pantaneirocapas.com.br—Pantaneiro Capas has been in the waterproof products market for Deadline: 2026-10-04 11:32:00.000000",
+      "claim_url": "http://arcuufpr5xxbbkin4mlidt7itmr6znlppk63jbtkeguuhszmc5g7qdyd.onion/?p=822",
+      "monitored": true
+    },
     {
       "victim": "Car Service Abschlepp",
       "group": "emperador",
@@ -1164,42 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=e2830711-e339-4a2b-8f79-8dfdeef6dce9",
       "monitored": false
-    },
-    {
-      "victim": "NAI Earle Furman",
-      "group": "secp0",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-09-22T03:38:30.754998+00:00",
-      "attack_date": "2026-09-22T03:37:27.960023+00:00",
-      "website": "",
-      "description": "The reviewed dataset is a single-snapshot, single-volume file-server tree (E:/Shares, 1.36M paths) covering NAI Earle Furman's brokerage deals, property-management portfolio (MRI accounting), broker commissions, employee home directories, and the absorbed Croxton Gray firm's data...",
-      "claim_url": "http://secponewsxgrlnirowclps2kllzaotaf5w2bsvktdnz4qhjr2jnwvvyd.onion/post/8629429a76e88003/index.html",
-      "monitored": true
-    },
-    {
-      "victim": "FinSoft (Kolibri retail back-office software)",
-      "group": "N0n",
-      "country": "UZ",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-09-22T01:51:38.794148+00:00",
-      "attack_date": "2026-09-22T01:51:21.337970+00:00",
-      "website": "",
-      "description": "Retail software vendor / IT services · Uzbekistan | Client databases of 10+ retail chains (keddo, marc, lancaster, comf_rus, ek, cr, bas_at, bas_juk, bas_nov, bas_zar): sales, stock, pricing, financial records; Back-office platform and API service data | One client database publishes per day after t",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-finsoft",
-      "monitored": false
-    },
-    {
-      "victim": "Sealcon",
-      "group": "termite",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-22T02:45:36.882685+00:00",
-      "attack_date": "2026-09-22T01:20:41+00:00",
-      "website": "",
-      "description": "Founded in 1989 and headquartered in Colorado, Sealcon is a cable management provider in North America consisting of rated electrical and electronic components such as liquid-tight strain reliefs, cable glands, circular connectors, UL enclosures, conduit, and electrical accessories.\n",
-      "claim_url": "http://termiteuslbumdge2zmfmfcsrvmvsfe4gvyudc5j6cdnisnhtftvokid.onion/post/6ab1d87a00ab5ab6ab5a24a3",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3619,16 +3619,17 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 49,
-    "unique_groups": 32,
-    "unique_countries": 35,
+    "unique_groups": 31,
+    "unique_countries": 34,
     "by_country": {
-      "United States": 28,
+      "United States": 27,
       "Unknown": 24,
+      "Brazil": 4,
       "United Kingdom": 4,
       "Italy": 4,
       "Germany": 3,
-      "Brazil": 3,
       "France": 3,
+      "Spain": 2,
       "Australia": 2,
       "Portugal": 2,
       "AR": 2,
@@ -3638,7 +3639,6 @@
       "Japan": 1,
       "Belgium": 1,
       "KE": 1,
-      "Spain": 1,
       "MA": 1,
       "UG": 1,
       "Saudi Arabia": 1,
@@ -3655,11 +3655,10 @@
       "KZ": 1,
       "ML": 1,
       "MD": 1,
-      "Canada": 1,
-      "UZ": 1
+      "Canada": 1
     },
     "by_group": {
-      "qilin": 11,
+      "qilin": 13,
       "SilentRansomGroup": 7,
       "Wallstreet": 7,
       "everest": 6,
@@ -3670,42 +3669,41 @@
       "thegentlemen": 4,
       "Barracuda": 3,
       "metaencryptor": 3,
-      "N0n": 3,
       "krybit": 3,
       "lockbit5": 3,
       "shinyhunters": 3,
       "dragonforce": 3,
       "medusalocker": 3,
-      "termite": 2,
+      "arcusmedia": 2,
+      "N0n": 2,
       "Spirals": 2,
       "rhysida": 2,
       "Storm": 2,
       "EndZone": 2,
       "titan": 2,
       "m3rx": 1,
+      "termite": 1,
       "Vexy Ransomware": 1,
       "ImNotAVillain": 1,
       "BrainCipher": 1,
       "spacebears": 1,
-      "arcusmedia": 1,
       "payoutsking": 1,
-      "anubis": 1,
-      "secp0": 1
+      "anubis": 1
     },
     "by_sector": {
-      "Not Found": 17,
-      "Professional Services": 15,
+      "Not Found": 18,
       "Manufacturing": 14,
+      "Professional Services": 14,
       "Healthcare": 11,
+      "Technology": 10,
       "Other": 10,
-      "Technology": 9,
       "Financial Services": 5,
       "Transportation": 4,
       "Energy & Utilities": 3,
       "Education": 3,
-      "Retail & E-Commerce": 3,
       "Agriculture and Food Production": 3,
-      "Government & Defense": 3
+      "Government & Defense": 3,
+      "Retail & E-Commerce": 2
     }
   },
   "errors": []
