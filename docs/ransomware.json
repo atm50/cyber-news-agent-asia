@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-09-27T20:59:10.311032+00:00",
+  "last_updated_utc": "2026-09-27T23:45:16.234707+00:00",
   "victims": [
+    {
+      "victim": "XICO",
+      "group": "qilin",
+      "country": "Mexico",
+      "sector": "Not Found",
+      "discovered": "2026-09-27T17:03:11.072620+00:00",
+      "attack_date": "2026-09-27T17:02:48.801719+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=dc126a0f-d8c2-4bee-84ac-31e60c0d895f",
+      "monitored": false
+    },
+    {
+      "victim": "Island",
+      "group": "qilin",
+      "country": "Canada",
+      "sector": "Technology",
+      "discovered": "2026-09-27T17:02:29.099119+00:00",
+      "attack_date": "2026-09-27T17:02:01.210817+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=507b6770-93b2-456b-bc96-6e4b2bb9ce72",
+      "monitored": true
+    },
     {
       "victim": "Revenga Smart Solutions",
       "group": "qilin",
@@ -47,6 +71,18 @@
       "website": "",
       "description": "CSA Car Service Abschlepp- & Bergungsdienst GmbH\nGenslerstraße 72, 13055 Berlin\nArchived personal and corporate data of employees and customers\nHere are the most important documents [Sector: Transportation]",
       "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/car-service-abschlepp/",
+      "monitored": true
+    },
+    {
+      "victim": "First Secure Bank Group",
+      "group": "Storm",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-09-27T17:53:23.053212+00:00",
+      "attack_date": "2026-09-27T05:26:29+00:00",
+      "website": "",
+      "description": "First Secure Bank Group is a U.S.-based financial services organization focused on providing community-oriented banking solutions to individuals, families, and businesses. The group operates through affiliated banking institutions, including First Secure Bank and The State Bank Group. Its services i",
+      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6ab8a905528b12a7cec1aca5",
       "monitored": true
     },
     {
@@ -1164,42 +1200,6 @@
       "description": "Education Administration Programs Stolen data: 35 GB.",
       "claim_url": "https://www.ransomware.live/id/VHVsYXJlIFdlc3Rlcm4gSGlnaCBTY2hvb2xAQm9vYmEgUHJvamVjdA==",
       "monitored": true
-    },
-    {
-      "victim": "The Fifty/50",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-09-22T13:23:32.188210+00:00",
-      "attack_date": "2026-09-22T13:22:59.597572+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=83a4106b-ded9-491f-82ff-e55b5142dc8a",
-      "monitored": true
-    },
-    {
-      "victim": "Textile City",
-      "group": "qilin",
-      "country": "Canada",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-22T11:12:13.506098+00:00",
-      "attack_date": "2026-09-22T11:11:52.635570+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3754a51f-623d-45ca-b05a-5fa9c39d6b14",
-      "monitored": true
-    },
-    {
-      "victim": "Columbus Informatica",
-      "group": "qilin",
-      "country": "Italy",
-      "sector": "Technology",
-      "discovered": "2026-09-22T10:18:01.849173+00:00",
-      "attack_date": "2026-09-22T10:17:25.144662+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=e2830711-e339-4a2b-8f79-8dfdeef6dce9",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3620,19 +3620,21 @@
     "total_victims": 100,
     "monitored_victims": 49,
     "unique_groups": 31,
-    "unique_countries": 34,
+    "unique_countries": 35,
     "by_country": {
       "United States": 27,
       "Unknown": 24,
       "Brazil": 4,
       "United Kingdom": 4,
-      "Italy": 4,
       "Germany": 3,
+      "Italy": 3,
       "France": 3,
       "Spain": 2,
       "Australia": 2,
       "Portugal": 2,
       "AR": 2,
+      "Mexico": 1,
+      "Canada": 1,
       "Indonesia": 1,
       "Sweden": 1,
       "South Africa": 1,
@@ -3654,11 +3656,10 @@
       "BG": 1,
       "KZ": 1,
       "ML": 1,
-      "MD": 1,
-      "Canada": 1
+      "MD": 1
     },
     "by_group": {
-      "qilin": 13,
+      "qilin": 12,
       "SilentRansomGroup": 7,
       "Wallstreet": 7,
       "everest": 6,
@@ -3667,6 +3668,7 @@
       "Booba Project": 5,
       "emperador": 4,
       "thegentlemen": 4,
+      "Storm": 3,
       "Barracuda": 3,
       "metaencryptor": 3,
       "krybit": 3,
@@ -3678,7 +3680,6 @@
       "N0n": 2,
       "Spirals": 2,
       "rhysida": 2,
-      "Storm": 2,
       "EndZone": 2,
       "titan": 2,
       "m3rx": 1,
@@ -3692,12 +3693,12 @@
     },
     "by_sector": {
       "Not Found": 18,
-      "Manufacturing": 14,
       "Professional Services": 14,
+      "Manufacturing": 13,
       "Healthcare": 11,
       "Technology": 10,
       "Other": 10,
-      "Financial Services": 5,
+      "Financial Services": 6,
       "Transportation": 4,
       "Energy & Utilities": 3,
       "Education": 3,
