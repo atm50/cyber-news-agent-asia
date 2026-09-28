@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-09-27T23:45:16.234707+00:00",
+  "last_updated_utc": "2026-09-28T03:59:39.869205+00:00",
   "victims": [
+    {
+      "victim": "Ressources Si",
+      "group": "Panzer",
+      "country": "France",
+      "sector": "Professional Services",
+      "discovered": "2026-09-27T22:24:33.339674+00:00",
+      "attack_date": "2026-09-27T22:10:38+00:00",
+      "website": "",
+      "description": "Ressources Si is a company that operates in the Movie Theaters industry. It employs 10to19 people and has 1Mto5M of revenue.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/ressources-si",
+      "monitored": true
+    },
+    {
+      "victim": "Asesoría FAR",
+      "group": "Panzer",
+      "country": "",
+      "sector": "Professional Services",
+      "discovered": "2026-09-27T22:25:06.347330+00:00",
+      "attack_date": "2026-09-27T22:07:53+00:00",
+      "website": "",
+      "description": "Asesoría FAR is a Barcelona-based firm providing property management, accounting, tax, and business advisory services.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/asesoría-far",
+      "monitored": false
+    },
     {
       "victim": "XICO",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "IT services / document services · Mali | Client documents: scans, attestations, insurance and embassy files, shared business folders | Operations are fully stopped. Nothing restores without settlement — all backups and shadow copies are encrypted or destroyed. | [ACTIVE: deadline 2026-09-25 16:00 UT",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-africatech",
       "monitored": false
-    },
-    {
-      "victim": "GOTTHELF",
-      "group": "Booba Project",
-      "country": "MD",
-      "sector": "Not Found",
-      "discovered": "2026-09-22T14:50:26.634669+00:00",
-      "attack_date": "2026-09-22T14:38:15.026000+00:00",
-      "website": "",
-      "description": "Healthcare Stolen data: 2 GB.",
-      "claim_url": "https://www.ransomware.live/id/R09UVEhFTEZAQm9vYmEgUHJvamVjdA==",
-      "monitored": false
-    },
-    {
-      "victim": "Tulare Western High School",
-      "group": "Booba Project",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-09-22T14:50:47.613268+00:00",
-      "attack_date": "2026-09-22T14:27:12.215000+00:00",
-      "website": "",
-      "description": "Education Administration Programs Stolen data: 35 GB.",
-      "claim_url": "https://www.ransomware.live/id/VHVsYXJlIFdlc3Rlcm4gSGlnaCBTY2hvb2xAQm9vYmEgUHJvamVjdA==",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3619,16 +3619,16 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 49,
-    "unique_groups": 31,
-    "unique_countries": 35,
+    "unique_groups": 32,
+    "unique_countries": 34,
     "by_country": {
-      "United States": 27,
-      "Unknown": 24,
+      "United States": 26,
+      "Unknown": 25,
+      "France": 4,
       "Brazil": 4,
       "United Kingdom": 4,
       "Germany": 3,
       "Italy": 3,
-      "France": 3,
       "Spain": 2,
       "Australia": 2,
       "Portugal": 2,
@@ -3655,8 +3655,7 @@
       "CZ": 1,
       "BG": 1,
       "KZ": 1,
-      "ML": 1,
-      "MD": 1
+      "ML": 1
     },
     "by_group": {
       "qilin": 12,
@@ -3665,7 +3664,6 @@
       "everest": 6,
       "incransom": 6,
       "akira": 5,
-      "Booba Project": 5,
       "emperador": 4,
       "thegentlemen": 4,
       "Storm": 3,
@@ -3674,8 +3672,10 @@
       "krybit": 3,
       "lockbit5": 3,
       "shinyhunters": 3,
+      "Booba Project": 3,
       "dragonforce": 3,
       "medusalocker": 3,
+      "Panzer": 2,
       "arcusmedia": 2,
       "N0n": 2,
       "Spirals": 2,
@@ -3692,8 +3692,8 @@
       "anubis": 1
     },
     "by_sector": {
-      "Not Found": 18,
-      "Professional Services": 14,
+      "Not Found": 17,
+      "Professional Services": 16,
       "Manufacturing": 13,
       "Healthcare": 11,
       "Technology": 10,
@@ -3701,9 +3701,9 @@
       "Financial Services": 6,
       "Transportation": 4,
       "Energy & Utilities": 3,
-      "Education": 3,
       "Agriculture and Food Production": 3,
       "Government & Defense": 3,
+      "Education": 2,
       "Retail & E-Commerce": 2
     }
   },
