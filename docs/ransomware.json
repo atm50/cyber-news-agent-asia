@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-09-28T23:46:30.200088+00:00",
+  "last_updated_utc": "2026-09-29T04:33:44.038035+00:00",
   "victims": [
+    {
+      "victim": "M*** P**** M***",
+      "group": "netrunner",
+      "country": "Malaysia",
+      "sector": "Not Found",
+      "discovered": "2026-09-28T23:34:34.191580+00:00",
+      "attack_date": "2026-09-28T23:34:33.345725+00:00",
+      "website": "",
+      "description": "",
+      "claim_url": "https://www.ransomware.live/id/TSoqKiBQKioqKiBNKioqQG5ldHJ1bm5lcg==",
+      "monitored": true
+    },
+    {
+      "victim": "Arnold Center",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-09-28T20:01:05.988942+00:00",
+      "attack_date": "2026-09-28T20:00:35.389327+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=d771352d-1892-4420-9c89-4c7858283780",
+      "monitored": true
+    },
     {
       "victim": "safescaffolding.net",
       "group": "threeam",
@@ -395,6 +419,18 @@
       "website": "",
       "description": "Scenario Management is a specialist support provider based in Lancashire, serving areas including Blackpool, Wyre, Fylde, and Preston. The company offers 24-hour supported living and residential services, as well as short stay respite care for individuals with learning disabilities, complex needs, a",
       "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/smcare",
+      "monitored": false
+    },
+    {
+      "victim": "MinMor Industries",
+      "group": "cry0",
+      "country": "",
+      "sector": "Manufacturing",
+      "discovered": "2026-09-28T22:56:41.792635+00:00",
+      "attack_date": "2026-09-28T00:00:00+00:00",
+      "website": "",
+      "description": "Coming soon...",
+      "claim_url": "https://www.ransomware.live/id/TWluTW9yIEluZHVzdHJpZXNAY3J5MA==",
       "monitored": false
     },
     {
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "This is a small company of 4-5 people, yet it has big clients in the oil production sector.\nUnfortunately, the company neglected data security, allowing us to gain access to all their confidential files - projects, documents, blueprints, and so on.\nThe company has been ignoring us for five days now,",
       "claim_url": "http://uvm6hk4wwstfddja5z5htgtlehmfyflffijz6iozsuqyacyibzxefkqd.onion/leaks",
-      "monitored": false
-    },
-    {
-      "victim": "eTeam",
-      "group": "EndZone",
-      "country": "",
-      "sector": "Professional Services",
-      "discovered": "2026-09-24T01:21:36.513046+00:00",
-      "attack_date": "2026-09-24T01:21:35.046377+00:00",
-      "website": "",
-      "description": "Revenue: Revenue: $229 million\n\neTeam Inc. is a privately held global workforce solutions and business transformation company. Founded in 1999 by Ben Thakur, the company is certified as a Minority Business Enterprise (MBE). It has grown from a boutique IT staffing agency into a massive global networ",
-      "claim_url": "https://www.ransomware.live/id/ZVRlYW1ARW5kWm9uZQ==",
-      "monitored": false
-    },
-    {
-      "victim": "Kellys Home Center",
-      "group": "pear",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-09-28T10:01:39.461478+00:00",
-      "attack_date": "2026-09-24T00:00:00+00:00",
-      "website": "",
-      "description": "The company specializes in selling high-quality home appliances, mattresses, and furniture",
-      "claim_url": "http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/kellyshomecenter",
-      "monitored": true
-    },
-    {
-      "victim": "Wallatec",
-      "group": "akira",
-      "country": "",
-      "sector": "Other",
-      "discovered": "2026-09-24T13:56:18.753785+00:00",
-      "attack_date": "2026-09-24T00:00:00+00:00",
-      "website": "",
-      "description": "Wallatec creates high-performance carbonation systems for restaurants and busy kitchens. Their \nequipment is built to handle intense daily use, working perfectly even in the most hectic envir\nonments.\n\nWe will upload 15gb of corporate data soon. Employee information (passports), projects, financi\nal",
-      "claim_url": "https://www.ransomware.live/id/V2FsbGF0ZWNAYWtpcmE=",
       "monitored": false
     }
   ],
@@ -3624,12 +3624,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 52,
+    "monitored_victims": 53,
     "unique_groups": 31,
-    "unique_countries": 33,
+    "unique_countries": 34,
     "by_country": {
       "United States": 24,
-      "Unknown": 19,
+      "Unknown": 18,
       "United Kingdom": 6,
       "Spain": 5,
       "Switzerland": 4,
@@ -3643,6 +3643,7 @@
       "Philippines": 2,
       "Canada": 2,
       "Mexico": 2,
+      "Malaysia": 1,
       "India": 1,
       "Bangladesh": 1,
       "Netherlands": 1,
@@ -3663,7 +3664,7 @@
       "Portugal": 1
     },
     "by_group": {
-      "qilin": 13,
+      "qilin": 14,
       "incransom": 8,
       "safepay": 8,
       "threeam": 7,
@@ -3674,16 +3675,18 @@
       "thegentlemen": 4,
       "SilentRansomGroup": 3,
       "Panzer": 3,
-      "akira": 3,
       "Storm": 3,
       "metaencryptor": 3,
       "krybit": 3,
       "Doommageddon": 2,
       "play": 2,
       "N0n": 2,
+      "akira": 2,
       "Barracuda": 2,
+      "netrunner": 1,
       "payload": 1,
       "interlock": 1,
+      "cry0": 1,
       "arcusmedia": 1,
       "m3rx": 1,
       "termite": 1,
@@ -3691,19 +3694,17 @@
       "Spirals": 1,
       "rhysida": 1,
       "lockbit5": 1,
-      "shinyhunters": 1,
-      "EndZone": 1,
-      "pear": 1
+      "shinyhunters": 1
     },
     "by_sector": {
-      "Manufacturing": 17,
-      "Professional Services": 12,
-      "Not Found": 12,
+      "Manufacturing": 18,
+      "Not Found": 14,
       "Healthcare": 11,
       "Technology": 11,
-      "Other": 10,
+      "Professional Services": 11,
+      "Other": 9,
       "Financial Services": 6,
-      "Retail & E-Commerce": 5,
+      "Retail & E-Commerce": 4,
       "Energy & Utilities": 4,
       "Education": 3,
       "Transportation": 3,
