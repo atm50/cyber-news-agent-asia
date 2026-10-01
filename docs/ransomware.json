@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-10-01T06:55:20.920136+00:00",
+  "last_updated_utc": "2026-10-01T14:16:14.820073+00:00",
   "victims": [
+    {
+      "victim": "LA PONDEROSA",
+      "group": "emperador",
+      "country": "Mexico",
+      "sector": "Agriculture and Food Production",
+      "discovered": "2026-10-01T09:51:43.266155+00:00",
+      "attack_date": "2026-10-01T09:12:00+00:00",
+      "website": "",
+      "description": "GRANJA AVICOLA LA PONDEROSA\nVenezuela\nThe corporate purpose is mainly the purchase, \nsale, import, export, breeding, processing and marketing \nof all types of poultry and/or domestic \nanimals in general.\nThe archives contain several thousand documents with personnel \nand customer data. [Sector: Manu",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/la-ponderosa/",
+      "monitored": false
+    },
+    {
+      "victim": "Dynamic Office Solutions",
+      "group": "qilin",
+      "country": "United Kingdom",
+      "sector": "Professional Services",
+      "discovered": "2026-10-01T09:04:21.073553+00:00",
+      "attack_date": "2026-10-01T09:03:56.309370+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=05d5e589-925f-41d9-af30-b533bab25f26",
+      "monitored": true
+    },
+    {
+      "victim": "Laboratorios Roemmers SAICF",
+      "group": "aurora",
+      "country": "AR",
+      "sector": "Healthcare",
+      "discovered": "2026-10-01T06:55:01.164223+00:00",
+      "attack_date": "2026-10-01T00:00:00+00:00",
+      "website": "",
+      "description": "Laboratorios Roemmers SAICF — Argentina's #1 pharmaceutical company by revenue, with €1.669 billion in consolidated turnover, 6,890 employees, and 69 subsidiaries across 11 countries.\n\nThe exposed material includes:\n\n4,207 employees' national identity numbers (CUIL) — Argentina's equivalent of a Soc",
+      "claim_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/laboratorios-roemmers-saicf-e9b9df85",
+      "monitored": false
+    },
     {
       "victim": "Houston Thyroid & Endocrine Specialists",
       "group": "N0n",
@@ -1142,18 +1178,6 @@
       "monitored": true
     },
     {
-      "victim": "stjames.wa.edu.au",
-      "group": "threeam",
-      "country": "Australia",
-      "sector": "Education",
-      "discovered": "2026-09-28T18:49:38.475443+00:00",
-      "attack_date": "2026-09-28T18:49:05.989705+00:00",
-      "website": "",
-      "description": "St James’ Anglican School provides a holistic education for students from Kindergarten to Year 12, focusing on unlocking individual potential and fostering excellence across various disciplines. The school offers a diverse curriculum that includes",
-      "claim_url": "http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/detail/cagswhuu8hnoy061j9aeb00nu5z5od",
-      "monitored": true
-    },
-    {
       "victim": "Goodrich Logistics",
       "group": "Doommageddon",
       "country": "",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Status: upcoming | Deadline: 2026-10-05T00:00:00Z",
       "claim_url": "http://iacjvmxjb2ivqkxxzmde4w6g53gn6ym7c3g6mfifvejyhqtp4wrkypyd.onion/victim/chem-process-systems-pvt--ltd-",
-      "monitored": true
-    },
-    {
-      "victim": "Starr Whitehouse Landscape Architects",
-      "group": "play",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-09-28T18:33:25.750880+00:00",
-      "attack_date": "2026-09-28T18:33:10.677380+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=HSH2UrUcOHFsCD",
-      "monitored": true
-    },
-    {
-      "victim": "Ever Ready First Aid",
-      "group": "play",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-09-28T18:32:52.007763+00:00",
-      "attack_date": "2026-09-28T18:32:35.628567+00:00",
-      "website": "",
-      "description": "United States",
-      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=t0kOVbmTKmp1Vt",
       "monitored": true
     }
   ],
@@ -3624,28 +3624,29 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 72,
+    "monitored_victims": 70,
     "unique_groups": 26,
     "unique_countries": 34,
     "by_country": {
-      "United States": 35,
+      "United States": 33,
       "Germany": 11,
+      "United Kingdom": 6,
       "Unknown": 5,
-      "United Kingdom": 5,
       "Italy": 3,
       "France": 3,
       "South Korea": 3,
       "Brazil": 3,
       "South Africa": 3,
+      "Mexico": 2,
+      "AR": 2,
       "Belgium": 2,
-      "Australia": 2,
       "Canada": 2,
       "Taiwan": 2,
+      "Australia": 1,
       "Japan": 1,
       "Poland": 1,
       "PR": 1,
       "Turkey": 1,
-      "Mexico": 1,
       "BZ": 1,
       "Vietnam": 1,
       "Austria": 1,
@@ -3660,7 +3661,6 @@
       "United Arab Emirates": 1,
       "Malaysia": 1,
       "CO": 1,
-      "AR": 1,
       "India": 1
     },
     "by_group": {
@@ -3668,15 +3668,17 @@
       "lamashtu": 10,
       "Storm": 7,
       "BrainCipher": 7,
-      "threeam": 7,
       "m3rx": 6,
-      "play": 5,
+      "threeam": 6,
+      "emperador": 3,
       "N0n": 3,
       "safepay": 3,
+      "play": 3,
+      "qilin": 2,
+      "aurora": 2,
       "Vexy Ransomware": 2,
       "interlock": 2,
       "netrunner": 2,
-      "emperador": 2,
       "rhysida": 2,
       "kairos": 2,
       "chaos": 2,
@@ -3685,11 +3687,9 @@
       "Doommageddon": 2,
       "ULose": 1,
       "Eclipse": 1,
-      "aurora": 1,
       "Wallstreet": 1,
       "AuditTeam": 1,
-      "incransom": 1,
-      "qilin": 1
+      "incransom": 1
     },
     "by_sector": {
       "Professional Services": 16,
@@ -3702,8 +3702,8 @@
       "Energy & Utilities": 4,
       "Financial Services": 4,
       "Transportation": 3,
-      "Education": 3,
-      "Agriculture and Food Production": 1,
+      "Agriculture and Food Production": 2,
+      "Education": 2,
       "Hospitality": 1,
       "Government & Defense": 1
     }
