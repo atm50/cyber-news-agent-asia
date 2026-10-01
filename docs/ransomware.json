@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-01T00:24:35.166327+00:00",
+  "last_updated_utc": "2026-10-01T06:55:20.920136+00:00",
   "victims": [
+    {
+      "victim": "Houston Thyroid & Endocrine Specialists",
+      "group": "N0n",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-09-30T22:53:00.862321+00:00",
+      "attack_date": "2026-09-30T22:52:46.877549+00:00",
+      "website": "",
+      "description": "Healthcare - Endocrinology (US) · Houston, Texas | 14,441 patient document scans from a Houston endocrinology practice: lab results, medical summaries, diagnoses, insurance records, day sheets; Protected health information of thousands of patients including SSNs, dates of birth, and clinical data; B",
+      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-htes",
+      "monitored": true
+    },
     {
       "victim": "wolfusofsky.de",
       "group": "safepay",
@@ -11,6 +23,18 @@
       "website": "",
       "description": "The group provides a broad range of construction and infrastructure services to public and private clients in Rhineland-Palatinate, Saarland, neighboring …",
       "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/wolfusofskyde/",
+      "monitored": true
+    },
+    {
+      "victim": "Summit Electric Supply",
+      "group": "Vexy Ransomware",
+      "country": "United States",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-09-30T20:55:47.014462+00:00",
+      "attack_date": "2026-09-30T19:44:13+00:00",
+      "website": "",
+      "description": "Summit Electric Supply supplies electrical products and solutions for commercial, industrial, construction, OEM, institutional, and marine applications. Its website allows customers to browse products, check availability, manage orders, view invoices, and purchase online.",
+      "claim_url": "https://www.ransomware.live/id/U3VtbWl0IEVsZWN0cmljIFN1cHBseUBWZXh5IFJhbnNvbXdhcmU=",
       "monitored": true
     },
     {
@@ -347,6 +371,18 @@
       "website": "",
       "description": "Century Management is a prominent full-service property management company based in New York, established in 1971. They specialize in managing a diverse portfolio of residential properties, including rentals, co-ops, and condos, while offering services such as property, financial, and project manage",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abc6953017ad22f3de0f1d7",
+      "monitored": true
+    },
+    {
+      "victim": "The Japan Times",
+      "group": "Eclipse",
+      "country": "Japan",
+      "sector": "Other",
+      "discovered": "2026-09-30T21:53:18.441300+00:00",
+      "attack_date": "2026-09-30T00:00:00+00:00",
+      "website": "",
+      "description": "The Japan Times is a leading English-language news outlet that provides comprehensive coverage of Japan's business, politics, culture, sports, and entertainment. It offers various subscription options, including digital and print formats, catering to a diverse audience interested in Japanese news an",
+      "claim_url": "http://eclipse4g5kxfwsvpu4qx5sdcnrji6gxl5gt67bucjlgt35g7akvjoid.onion/place/65t5yth9vh3smlon/",
       "monitored": true
     },
     {
@@ -1164,42 +1200,6 @@
       "description": "United States",
       "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=t0kOVbmTKmp1Vt",
       "monitored": true
-    },
-    {
-      "victim": "PKSF — Palli Karma-Sahayak Foundation",
-      "group": "medusalocker",
-      "country": "Bangladesh",
-      "sector": "Financial Services",
-      "discovered": "2026-09-28T18:03:04.304233+00:00",
-      "attack_date": "2026-09-28T18:02:50.734043+00:00",
-      "website": "",
-      "description": "Organization with 13 emails extracted. Domain: 08trl.exit",
-      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bamanah/",
-      "monitored": true
-    },
-    {
-      "victim": "New World Diagnostics",
-      "group": "qilin",
-      "country": "Philippines",
-      "sector": "Healthcare",
-      "discovered": "2026-09-28T17:00:04.105747+00:00",
-      "attack_date": "2026-09-28T16:59:36.490924+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=477fec77-060d-441e-bff3-641490e9923c",
-      "monitored": true
-    },
-    {
-      "victim": "Netech (Neeser Technik AG)",
-      "group": "payload",
-      "country": "Switzerland",
-      "sector": "Manufacturing",
-      "discovered": "2026-09-28T16:59:11.383587+00:00",
-      "attack_date": "2026-09-28T16:58:27.011974+00:00",
-      "website": "",
-      "description": "Netech (Neeser Technik AG) is a Swiss engineering and industrial services company based in Seuzach. It specializes in comprehensive maintenance, retrofitting, and overhauls of industrial machinery and manufacturing systems. The firm provides end-to-end technical support for production facilities, co",
-      "claim_url": "http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/b83c2a4c-304d-4cdb-b0fa-3625978942ec",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3624,11 +3624,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 71,
-    "unique_groups": 27,
-    "unique_countries": 36,
+    "monitored_victims": 72,
+    "unique_groups": 26,
+    "unique_countries": 34,
     "by_country": {
-      "United States": 33,
+      "United States": 35,
       "Germany": 11,
       "Unknown": 5,
       "United Kingdom": 5,
@@ -3641,6 +3641,7 @@
       "Australia": 2,
       "Canada": 2,
       "Taiwan": 2,
+      "Japan": 1,
       "Poland": 1,
       "PR": 1,
       "Turkey": 1,
@@ -3660,10 +3661,7 @@
       "Malaysia": 1,
       "CO": 1,
       "AR": 1,
-      "India": 1,
-      "Bangladesh": 1,
-      "Philippines": 1,
-      "Switzerland": 1
+      "India": 1
     },
     "by_group": {
       "thegentlemen": 25,
@@ -3673,37 +3671,36 @@
       "threeam": 7,
       "m3rx": 6,
       "play": 5,
+      "N0n": 3,
       "safepay": 3,
+      "Vexy Ransomware": 2,
       "interlock": 2,
       "netrunner": 2,
       "emperador": 2,
-      "N0n": 2,
       "rhysida": 2,
       "kairos": 2,
       "chaos": 2,
       "Gammax": 2,
       "lockbit5": 2,
-      "qilin": 2,
       "Doommageddon": 2,
       "ULose": 1,
+      "Eclipse": 1,
       "aurora": 1,
       "Wallstreet": 1,
       "AuditTeam": 1,
       "incransom": 1,
-      "Vexy Ransomware": 1,
-      "medusalocker": 1,
-      "payload": 1
+      "qilin": 1
     },
     "by_sector": {
-      "Manufacturing": 17,
       "Professional Services": 16,
+      "Manufacturing": 16,
       "Healthcare": 13,
       "Not Found": 12,
       "Technology": 11,
-      "Other": 9,
-      "Financial Services": 5,
+      "Other": 10,
       "Retail & E-Commerce": 5,
-      "Energy & Utilities": 3,
+      "Energy & Utilities": 4,
+      "Financial Services": 4,
       "Transportation": 3,
       "Education": 3,
       "Agriculture and Food Production": 1,
