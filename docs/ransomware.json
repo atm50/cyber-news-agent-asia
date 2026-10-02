@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-01T20:10:36.319906+00:00",
+  "last_updated_utc": "2026-10-02T00:34:40.221136+00:00",
   "victims": [
     {
       "victim": "DISK PRECISION GROUP - diskprecision.com",
@@ -143,6 +143,18 @@
       "website": "",
       "description": "Post Metal Recycling specializes in buying scrap metal from businesses and individuals, offering both ferrous and non-ferrous recycling services. They provide on-site scales for accurate measurements and facilitate various recycling options including yard drop-off, roll-off service, and site clean-u",
       "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6abe3c919cd108bf26987392",
+      "monitored": true
+    },
+    {
+      "victim": "Slate Valley Unified School District",
+      "group": "kairos",
+      "country": "United States",
+      "sector": "Education",
+      "discovered": "2026-10-01T19:00:23.598688+00:00",
+      "attack_date": "2026-10-01T00:00:00+00:00",
+      "website": "",
+      "description": "The Slate Valley Unified Union School District is a public school district located in Fair Haven, Vermont, serving the communities of Benson, Castleton, Fair Haven, Hubbardton, Orwell, and West Haven. The data also includes 647 GB of SQL databases containing personal and medical information about st",
+      "claim_url": "https://www.ransomware.live/id/U2xhdGUgVmFsbGV5IFVuaWZpZWQgU2Nob29sIERpc3RyaWN0QGthaXJvcw==",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "+92 4235831462 , Noon Sugar Mills Limited is one of Pakistan's oldest and most esteemed business entities, specializing in the production of white sugar and industrial-grade ethanol. Established in 1964, the company has significantly expanded its sugarcane crushing capacity and ethanol production ca",
       "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#noonsugar.com",
-      "monitored": false
-    },
-    {
-      "victim": "iccsi.com",
-      "group": "m3rx",
-      "country": "",
-      "sector": "Professional Services",
-      "discovered": "2026-09-29T10:34:59.653412+00:00",
-      "attack_date": "2026-09-29T10:34:23.503603+00:00",
-      "website": "",
-      "description": "+1 (781) 331-9811. Interconnect Computer Cabling Services, Inc. is a full-service telecommunications company that has been operational since 1986, providing services for a diverse range of projects including education, medical facilities, hospitality, and corporate offices. The company specializes i",
-      "claim_url": "http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#iccsi.com",
       "monitored": false
     }
   ],
@@ -3624,13 +3624,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
+    "monitored_victims": 70,
     "unique_groups": 30,
     "unique_countries": 30,
     "by_country": {
-      "United States": 40,
+      "United States": 41,
       "Germany": 10,
-      "Unknown": 8,
+      "Unknown": 7,
       "United Kingdom": 4,
       "Brazil": 3,
       "Italy": 3,
@@ -3665,13 +3665,14 @@
       "BrainCipher": 7,
       "incransom": 6,
       "Storm": 6,
-      "m3rx": 5,
+      "m3rx": 4,
       "emperador": 3,
       "akira": 3,
       "safepay": 3,
       "play": 3,
       "genesis": 3,
       "Booba Project": 2,
+      "kairos": 2,
       "aurora": 2,
       "N0n": 2,
       "Vexy Ransomware": 2,
@@ -3687,24 +3688,23 @@
       "netrunner": 1,
       "ULose": 1,
       "Eclipse": 1,
-      "kairos": 1,
       "Wallstreet": 1,
       "AuditTeam": 1
     },
     "by_sector": {
       "Manufacturing": 18,
       "Healthcare": 17,
-      "Professional Services": 15,
+      "Professional Services": 14,
       "Not Found": 11,
       "Other": 10,
       "Technology": 9,
       "Retail & E-Commerce": 5,
+      "Education": 3,
       "Energy & Utilities": 3,
       "Financial Services": 3,
       "Government & Defense": 2,
       "Agriculture and Food Production": 2,
       "Transportation": 2,
-      "Education": 2,
       "Hospitality": 1
     }
   },
