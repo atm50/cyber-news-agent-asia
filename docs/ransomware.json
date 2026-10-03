@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-02T22:57:09.207653+00:00",
+  "last_updated_utc": "2026-10-03T01:47:28.937612+00:00",
   "victims": [
+    {
+      "victim": "Thai Lion Air",
+      "group": "qilin",
+      "country": "Thailand",
+      "sector": "Transportation",
+      "discovered": "2026-10-02T21:04:55.711379+00:00",
+      "attack_date": "2026-10-02T21:04:33.694921+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=619f9d9a-4828-46ef-bef3-ca52e1a9a5ee",
+      "monitored": false
+    },
+    {
+      "victim": "Mat Bao Corporation",
+      "group": "rhysida",
+      "country": "Vietnam",
+      "sector": "Technology",
+      "discovered": "2026-10-02T20:04:32.336783+00:00",
+      "attack_date": "2026-10-02T20:04:06.819776+00:00",
+      "website": "",
+      "description": "Mat Bao Corporation Mat Bao Corporation offers a range of services including domain registration, cloud hosting, professional email solutions, and cloud server storage. Files: 746,108Data volume: 106.8 GBGovernment inspection materials - NEAC inspection decision No. 61/QD (29.04.2025) against the ce",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=280",
+      "monitored": false
+    },
     {
       "victim": "Electro Heat Sweden AB",
       "group": "rhysida",
@@ -1176,30 +1200,6 @@
       "description": "groupe-aprosep.com guyanasso.org Groupe APROSEP (founded 1994, Cayenne, French Guiana) is a solidarity-economy network (groupement d'économie solidaire) that unites and professionalizes associations across the region, focusing on employment insertion, training and social innovation. It runs several ",
       "claim_url": "https://www.ransomware.live/id/R3JvdXBlIEFQUk9TRVBAdGhlZ2VudGxlbWVu",
       "monitored": false
-    },
-    {
-      "victim": "trailerbridge.com",
-      "group": "BrainCipher",
-      "country": "United States",
-      "sector": "Transportation",
-      "discovered": "2026-09-29T15:24:54.906884+00:00",
-      "attack_date": "2026-09-29T15:24:38.949599+00:00",
-      "website": "",
-      "description": "[AI generated] Trailer Bridge is a U.S.-based transportation and logistics company headquartered in Jacksonville, Florida. It operates in the maritime shipping industry, providing container and trailer-on-barge ocean freight services, primarily between the continental United States and Puerto Rico. ",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/trailerbridge",
-      "monitored": true
-    },
-    {
-      "victim": "mccordclaims.com",
-      "group": "BrainCipher",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-09-29T15:24:19.024466+00:00",
-      "attack_date": "2026-09-29T15:24:02.670366+00:00",
-      "website": "",
-      "description": "[AI generated] N/A\n\nI don't have verified information about a company operating at \"mccordclaims.com.\" Rather than speculate about its industry, services, or country of operation, I should note that this appears to be a claims-related domain name (possibly insurance claims adjusting, legal claims, o",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/mccordclaims",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3624,22 +3624,24 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 69,
+    "monitored_victims": 67,
     "unique_groups": 33,
-    "unique_countries": 31,
+    "unique_countries": 32,
     "by_country": {
-      "United States": 40,
+      "United States": 38,
       "Germany": 10,
       "Unknown": 7,
       "Brazil": 4,
       "France": 4,
       "United Kingdom": 3,
       "Mexico": 3,
+      "Vietnam": 2,
       "Canada": 2,
       "India": 2,
       "GR": 2,
       "Belgium": 2,
       "Taiwan": 2,
+      "Thailand": 1,
       "Sweden": 1,
       "Denmark": 1,
       "CZ": 1,
@@ -3655,7 +3657,6 @@
       "PR": 1,
       "Turkey": 1,
       "BZ": 1,
-      "Vietnam": 1,
       "Austria": 1,
       "New Zealand": 1,
       "SN": 1
@@ -3668,12 +3669,11 @@
       "akira": 6,
       "incransom": 6,
       "Storm": 6,
-      "rhysida": 3,
-      "qilin": 3,
+      "qilin": 4,
+      "rhysida": 4,
       "emperador": 3,
       "safepay": 3,
       "genesis": 3,
-      "BrainCipher": 3,
       "Wallstreet": 2,
       "Deadlock": 2,
       "netrunner": 2,
@@ -3693,7 +3693,8 @@
       "Eclipse": 1,
       "kairos": 1,
       "m3rx": 1,
-      "chaos": 1
+      "chaos": 1,
+      "BrainCipher": 1
     },
     "by_sector": {
       "Manufacturing": 19,
@@ -3701,14 +3702,14 @@
       "Other": 11,
       "Professional Services": 11,
       "Not Found": 9,
-      "Technology": 7,
+      "Technology": 8,
       "Retail & E-Commerce": 5,
+      "Transportation": 4,
       "Energy & Utilities": 4,
       "Education": 4,
-      "Transportation": 4,
       "Agriculture and Food Production": 3,
-      "Financial Services": 3,
       "Hospitality": 2,
+      "Financial Services": 2,
       "Government & Defense": 1
     }
   },
