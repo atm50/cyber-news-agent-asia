@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-03T17:50:13.013702+00:00",
+  "last_updated_utc": "2026-10-03T20:40:58.969780+00:00",
   "victims": [
+    {
+      "victim": "Genesis Credit Management",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-10-03T14:05:35.886097+00:00",
+      "attack_date": "2026-10-03T14:05:09.977974+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=8080b082-a6d7-4f55-9045-b816f0501825",
+      "monitored": true
+    },
+    {
+      "victim": "Precon Marine Inc",
+      "group": "netrunner",
+      "country": "",
+      "sector": "Transportation",
+      "discovered": "2026-10-03T14:04:39.862559+00:00",
+      "attack_date": "2026-10-03T14:04:24.490253+00:00",
+      "website": "",
+      "description": "Precon Marine, Inc. is a diversified marine contractor specializing in heavy marine construction and advanced subsea services.",
+      "claim_url": "http://netrunrsb3bivj5gnwajzxlig5qkteb6edgthxj7fmsvhkzxtwfxwaad.onion/view/precon",
+      "monitored": false
+    },
     {
       "victim": "Skaff Group",
       "group": "rhysida",
@@ -1176,30 +1200,6 @@
       "description": "Gibson Area Hospital & Health Services is a nonprofit community hospital located in Gibson City, Illinois. It provides a range of healthcare services, including emergency care, inpatient and outpatient treatment, diagnostic testing, rehabilitation, primary care, and services for women and newborns",
       "claim_url": "https://www.ransomware.live/id/R2lic29uIEFyZWEgSG9zcGl0YWwgJiBIZWFsdGggU2VydmljZXNAV2FsbHN0cmVldA==",
       "monitored": true
-    },
-    {
-      "victim": "Pulmonary Services Group",
-      "group": "thegentlemen",
-      "country": "PR",
-      "sector": "Healthcare",
-      "discovered": "2026-09-30T03:34:08.167193+00:00",
-      "attack_date": "2026-09-29T16:46:08+00:00",
-      "website": "",
-      "description": "pulmonaryservicesgrouppr.com zoominfo.com/c/pulmonary-services-group/442368923 Pulmonary Services Group (Medicare-enrolled since 1998, pulmonaryservicesgrouppr.com, Santurce/San Juan + Mayagüez, Puerto Rico) is a three-company group — Respiratory Equipment Leasing and Sales Services Corp., Mayagüez ",
-      "claim_url": "https://www.ransomware.live/id/UHVsbW9uYXJ5IFNlcnZpY2VzIEdyb3VwQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
-    },
-    {
-      "victim": "Corswarem Group",
-      "group": "thegentlemen",
-      "country": "Belgium",
-      "sector": "Not Found",
-      "discovered": "2026-09-30T03:34:28.816370+00:00",
-      "attack_date": "2026-09-29T16:34:14+00:00",
-      "website": "",
-      "description": "corswarem.eu Corswarem Group (founded 1957, Tongeren, Belgium) is a family-owned manufacturer and installer of aluminium windows, doors, curtain-wall facades, terraces and solar panels, with 65+ years of expertise and 18–20 employees across five legal entities (Ramenconstructie Corswarem NV as the m",
-      "claim_url": "https://www.ransomware.live/id/Q29yc3dhcmVtIEdyb3VwQHRoZWdlbnRsZW1lbg==",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3624,13 +3624,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 71,
+    "monitored_victims": 72,
     "unique_groups": 32,
-    "unique_countries": 29,
+    "unique_countries": 28,
     "by_country": {
-      "United States": 39,
+      "United States": 40,
+      "Unknown": 10,
       "Germany": 10,
-      "Unknown": 9,
       "France": 4,
       "Mexico": 3,
       "Brazil": 3,
@@ -3639,7 +3639,6 @@
       "United Arab Emirates": 2,
       "India": 2,
       "Australia": 2,
-      "Belgium": 2,
       "South Korea": 2,
       "Saudi Arabia": 1,
       "Thailand": 1,
@@ -3652,27 +3651,27 @@
       "EC": 1,
       "Malaysia": 1,
       "AR": 1,
+      "Belgium": 1,
       "Italy": 1,
       "Japan": 1,
       "Poland": 1,
-      "Taiwan": 1,
-      "PR": 1
+      "Taiwan": 1
     },
     "by_group": {
-      "thegentlemen": 10,
       "lamashtu": 10,
       "Storm": 9,
+      "thegentlemen": 8,
       "akira": 7,
       "Booba Project": 6,
       "krybit": 6,
       "incransom": 6,
+      "qilin": 5,
       "rhysida": 5,
       "Wallstreet": 4,
-      "qilin": 4,
+      "netrunner": 3,
       "safepay": 3,
       "genesis": 3,
       "Deadlock": 2,
-      "netrunner": 2,
       "emperador": 2,
       "aurora": 2,
       "N0n": 2,
@@ -3694,19 +3693,19 @@
     },
     "by_sector": {
       "Manufacturing": 19,
-      "Healthcare": 17,
+      "Healthcare": 16,
       "Other": 12,
       "Professional Services": 9,
       "Technology": 9,
-      "Not Found": 9,
-      "Transportation": 5,
+      "Not Found": 8,
+      "Transportation": 6,
       "Energy & Utilities": 4,
       "Education": 4,
+      "Financial Services": 3,
       "Retail & E-Commerce": 3,
       "Agriculture and Food Production": 3,
       "Government & Defense": 2,
-      "Hospitality": 2,
-      "Financial Services": 2
+      "Hospitality": 2
     }
   },
   "errors": []
