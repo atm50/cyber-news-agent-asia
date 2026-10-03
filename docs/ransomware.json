@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-03T01:47:28.937612+00:00",
+  "last_updated_utc": "2026-10-03T07:41:37.397690+00:00",
   "victims": [
+    {
+      "victim": "seven seas group",
+      "group": "Spirals",
+      "country": "United Arab Emirates",
+      "sector": "Transportation",
+      "discovered": "2026-10-03T00:53:20.745035+00:00",
+      "attack_date": "2026-10-03T00:00:00+00:00",
+      "website": "",
+      "description": "Seven Seas is a global maritime services group that specializes in providing general ship supplies, stores, spare parts & leading technical maritime brands through its extensive global network.",
+      "claim_url": "https://www.ransomware.live/id/c2V2ZW4gc2VhcyBncm91cEBTcGlyYWxz",
+      "monitored": false
+    },
     {
       "victim": "Thai Lion Air",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "drinks.com.tw zoominfo.com/c/drinks-wines--spirits-co-ltd/425924055 DRINKS / Oak Barrel (橡木桶洋酒, Drinks Wines & Spirits Co., Ltd.) (founded 1993, Taipei) is Taiwan's largest liquor retail and import chain — 33–35 stores nationwide with about NT$2 billion (US$60M) annual revenue and 200–300 staff. Fou",
       "claim_url": "https://www.ransomware.live/id/RHJpbmtzIFdpbmVzIFNwaXJpdHNAdGhlZ2VudGxlbWVu",
-      "monitored": false
-    },
-    {
-      "victim": "Groupe APROSEP",
-      "group": "thegentlemen",
-      "country": "SN",
-      "sector": "Other",
-      "discovered": "2026-09-30T03:38:39.134710+00:00",
-      "attack_date": "2026-09-29T15:27:19+00:00",
-      "website": "",
-      "description": "groupe-aprosep.com guyanasso.org Groupe APROSEP (founded 1994, Cayenne, French Guiana) is a solidarity-economy network (groupement d'économie solidaire) that unites and professionalizes associations across the region, focusing on employment insertion, training and social innovation. It runs several ",
-      "claim_url": "https://www.ransomware.live/id/R3JvdXBlIEFQUk9TRVBAdGhlZ2VudGxlbWVu",
       "monitored": false
     }
   ],
@@ -3625,8 +3625,8 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 67,
-    "unique_groups": 33,
-    "unique_countries": 32,
+    "unique_groups": 34,
+    "unique_countries": 31,
     "by_country": {
       "United States": 38,
       "Germany": 10,
@@ -3635,6 +3635,7 @@
       "France": 4,
       "United Kingdom": 3,
       "Mexico": 3,
+      "United Arab Emirates": 2,
       "Vietnam": 2,
       "Canada": 2,
       "India": 2,
@@ -3647,7 +3648,6 @@
       "CZ": 1,
       "EC": 1,
       "Malaysia": 1,
-      "United Arab Emirates": 1,
       "AR": 1,
       "Italy": 1,
       "Australia": 1,
@@ -3658,11 +3658,10 @@
       "Turkey": 1,
       "BZ": 1,
       "Austria": 1,
-      "New Zealand": 1,
-      "SN": 1
+      "New Zealand": 1
     },
     "by_group": {
-      "thegentlemen": 14,
+      "thegentlemen": 13,
       "lamashtu": 10,
       "Booba Project": 6,
       "krybit": 6,
@@ -3682,6 +3681,7 @@
       "play": 2,
       "interlock": 2,
       "Gammax": 2,
+      "Spirals": 1,
       "Panzer": 1,
       "Barracuda": 1,
       "AuditTeam": 1,
@@ -3699,12 +3699,12 @@
     "by_sector": {
       "Manufacturing": 19,
       "Healthcare": 17,
-      "Other": 11,
       "Professional Services": 11,
+      "Other": 10,
       "Not Found": 9,
       "Technology": 8,
+      "Transportation": 5,
       "Retail & E-Commerce": 5,
-      "Transportation": 4,
       "Energy & Utilities": 4,
       "Education": 4,
       "Agriculture and Food Production": 3,
