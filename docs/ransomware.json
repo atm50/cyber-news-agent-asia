@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-04T19:15:41.708974+00:00",
+  "last_updated_utc": "2026-10-04T22:49:01.949489+00:00",
   "victims": [
+    {
+      "victim": "OMUR HIRDAVAT LTD",
+      "group": "emperador",
+      "country": "Turkey",
+      "sector": "Manufacturing",
+      "discovered": "2026-10-04T17:22:49.413371+00:00",
+      "attack_date": "2026-10-04T17:11:00+00:00",
+      "website": "",
+      "description": "A Turkish company engaged in the wholesale and \nretail trade of construction and household fittings\nThe archives contain several thousand documents with \npersonnel and customer data [Sector: Manufacturing]",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/omur-hirdavat-ltd/",
+      "monitored": false
+    },
     {
       "victim": "Chadwick Switchboards",
       "group": "qilin",
@@ -287,6 +299,18 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=5d436d0c-303c-4a73-b7e1-df8a1b1e3cea",
+      "monitored": true
+    },
+    {
+      "victim": "MorseLife Health System, Inc.",
+      "group": "Booba Project",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-10-04T15:20:31.523089+00:00",
+      "attack_date": "2026-10-02T12:42:52.515000+00:00",
+      "website": "",
+      "description": "Hospitals and Health Care Stolen data: 344 GB.",
+      "claim_url": "https://www.ransomware.live/id/TW9yc2VMaWZlIEhlYWx0aCBTeXN0ZW0sIEluYy5AQm9vYmEgUHJvamVjdA==",
       "monitored": true
     },
     {
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Gardeners' Guild is a full-service landscaping company based in the SF Bay Area, specializing in both interior and exterior landscape maintenance and construction. Founded in 1972 and employee-owned, they offer a range of services including irrigation repair, sustainable landscaping, and fire fuel r",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abc86d1017ad22f3de0f1dc",
-      "monitored": true
-    },
-    {
-      "victim": "North Hills Facility Services",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-09-30T03:35:42.576546+00:00",
-      "attack_date": "2026-09-30T01:50:48+00:00",
-      "website": "",
-      "description": "North Hills Facility Services offers premier facility and janitorial services for both commercial and residential properties in the NY Metro area, backed by over 50 years of experience. Their extensive range of services includes facility cleaning, emergency response, disinfecting, and specialized ma",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abc6af8017ad22f3de0f1db",
-      "monitored": true
-    },
-    {
-      "victim": "Olnick Rentals",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Hospitality",
-      "discovered": "2026-09-30T03:35:11.421689+00:00",
-      "attack_date": "2026-09-30T01:48:49+00:00",
-      "website": "",
-      "description": "Olnick Rentals specializes in exceptional real estate management, with a focus on residential, office, retail, and hospitality properties. The company has a rich history of managing properties over generations, ensuring high-quality service and client satisfaction. Their intended clients include bus",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6abc6a81017ad22f3de0f1da",
       "monitored": true
     }
   ],
@@ -3624,11 +3624,11 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 70,
+    "monitored_victims": 69,
     "unique_groups": 29,
-    "unique_countries": 29,
+    "unique_countries": 30,
     "by_country": {
-      "United States": 35,
+      "United States": 34,
       "Unknown": 10,
       "Germany": 10,
       "Brazil": 4,
@@ -3641,6 +3641,7 @@
       "United Arab Emirates": 2,
       "India": 2,
       "South Korea": 2,
+      "Turkey": 1,
       "CL": 1,
       "CO": 1,
       "IR": 1,
@@ -3663,16 +3664,16 @@
       "lamashtu": 10,
       "krybit": 9,
       "thegentlemen": 9,
-      "Storm": 8,
       "akira": 7,
-      "Booba Project": 6,
+      "Booba Project": 7,
+      "Storm": 6,
       "incransom": 6,
       "rhysida": 5,
+      "emperador": 3,
       "netrunner": 3,
       "Wallstreet": 3,
       "safepay": 3,
       "Deadlock": 2,
-      "emperador": 2,
       "N0n": 2,
       "play": 2,
       "direwolf": 1,
@@ -3690,12 +3691,12 @@
       "ULose": 1
     },
     "by_sector": {
-      "Manufacturing": 22,
-      "Healthcare": 14,
+      "Manufacturing": 23,
+      "Healthcare": 15,
       "Other": 11,
       "Technology": 10,
-      "Professional Services": 8,
       "Not Found": 8,
+      "Professional Services": 7,
       "Transportation": 6,
       "Energy & Utilities": 4,
       "Education": 4,
@@ -3703,7 +3704,7 @@
       "Financial Services": 3,
       "Agriculture and Food Production": 3,
       "Government & Defense": 2,
-      "Hospitality": 2
+      "Hospitality": 1
     }
   },
   "errors": []
