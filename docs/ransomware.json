@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-11T18:38:59.288780+00:00",
+  "last_updated_utc": "2026-10-11T22:41:58.651438+00:00",
   "victims": [
+    {
+      "victim": "Reed & Giordano PA",
+      "group": "rhysida",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-10-11T15:28:31.162726+00:00",
+      "attack_date": "2026-10-11T15:27:51.145031+00:00",
+      "website": "",
+      "description": "Reed & Giordano PA 94,604 files / ~51.3 GBACH instructions for the firm's client trust account (IOLTA) with complete account details; clients' wire-transfer details.PII: W-9/W-2 forms with SSNs, Massachusetts driver's licenses, birth certificate, personal UBS documents of a financial advisor.Client ",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=283",
+      "monitored": true
+    },
     {
       "victim": "CNESTEN",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "ragelectric.com zoominfo.com/c/rag-electric-inc/401375471 RAG Electric, Inc. is a private, family-owned electrical contractor founded in 1987 (originally as FEIZ Electric) in Los Angeles, California, incorporated in 2001 and run by founder Farshad Feizbakhsh and his son Matthew. It generates estimat",
       "claim_url": "https://www.ransomware.live/id/UmFnIEVsZWN0cmljQHRoZWdlbnRsZW1lbg==",
-      "monitored": true
-    },
-    {
-      "victim": "harborpacific.com",
-      "group": "incransom",
-      "country": "United States",
-      "sector": "Transportation",
-      "discovered": "2026-10-07T05:07:34.873428+00:00",
-      "attack_date": "2026-10-06T21:24:00+00:00",
-      "website": "",
-      "description": "Harbor Pacific Contractors, Inc. specializes in Industrial, Mechanical, and Heavy Civil Construction Services in the Pacific Northwest. Their offerings include wastewater and water treatment facilities, transportation infrastructure, pump stations, and power generation facilities. The company serves",
-      "claim_url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/6ac5c9869cd108bf26935649",
       "monitored": true
     }
   ],
@@ -3690,18 +3690,18 @@
       "N0n": 6,
       "SilentRansomGroup": 5,
       "Eclipse": 5,
+      "rhysida": 4,
       "dragonforce": 4,
       "Panzer": 4,
-      "rhysida": 3,
       "Black X": 3,
       "arcusmedia": 3,
       "akira": 3,
-      "incransom": 3,
       "Deadlock": 2,
       "safepay": 2,
       "interlock": 2,
       "anubis": 2,
       "nightspire": 2,
+      "incransom": 2,
       "BYOD": 2,
       "Redact": 1,
       "exitium": 1,
@@ -3717,16 +3717,16 @@
     },
     "by_sector": {
       "Healthcare": 16,
+      "Professional Services": 14,
       "Manufacturing": 13,
-      "Professional Services": 13,
       "Education": 11,
       "Technology": 11,
       "Other": 10,
       "Not Found": 8,
       "Energy & Utilities": 4,
       "Hospitality": 3,
-      "Transportation": 3,
       "Government & Defense": 2,
+      "Transportation": 2,
       "Financial Services": 2,
       "Retail & E-Commerce": 2,
       "Agriculture and Food Production": 2
