@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-10T20:29:49.147692+00:00",
+  "last_updated_utc": "2026-10-11T00:07:27.985511+00:00",
   "victims": [
+    {
+      "victim": "Helwan University (HITU)",
+      "group": "UmBra",
+      "country": "EG",
+      "sector": "Education",
+      "discovered": "2026-10-10T16:54:23.654958+00:00",
+      "attack_date": "2026-10-10T16:54:02.119535+00:00",
+      "website": "",
+      "description": "Helwan International Technological University — a pioneering Egyptian institution offering cutting-edge programs in Cybersecurity, Data Science, Artificial Intelligence, and Mechatronics, equipped with advanced labs and strong industry partnerships to prepare students for the digital future.",
+      "claim_url": "http://umbra7isogjsgdcndz3uu6qvl5zftjptt6s3iiuecjlwbt4yqyvrhcid.onion",
+      "monitored": false
+    },
+    {
+      "victim": "DexCom",
+      "group": "Redact",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-10-10T16:53:38.697114+00:00",
+      "attack_date": "2026-10-10T16:53:11.980798+00:00",
+      "website": "",
+      "description": "Sector: Medical Equipment | Revenue: $4.97B USD",
+      "claim_url": "http://neclc36yt4yaa5lv54kh4qbhvjcvuv6nnaurqowkellytpvj3afh4aid.onion",
+      "monitored": true
+    },
     {
       "victim": "ACI Proyectos SAS",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=291a1cf9-661d-441e-a6ff-03899084f01d",
       "monitored": false
-    },
-    {
-      "victim": "Palma",
-      "group": "thegentlemen",
-      "country": "United States",
-      "sector": "Other",
-      "discovered": "2026-10-09T19:22:15.403540+00:00",
-      "attack_date": "2026-10-06T20:18:12+00:00",
-      "website": "",
-      "description": "palmainc.com zoominfo.com/c/palma-inc/344828237 Palma, Inc. is a private, family-owned epoxy flooring manufacturer and installer founded in 1927 in Whippany, New Jersey — now in its third generation (CEO Fred Palma III). It generates estimated annual revenue of $25–42M with only ~10–15 direct employ",
-      "claim_url": "https://www.ransomware.live/id/UGFsbWFAdGhlZ2VudGxlbWVu",
-      "monitored": true
-    },
-    {
-      "victim": "grunenwald.com",
-      "group": "lockbit5",
-      "country": "Germany",
-      "sector": "Other",
-      "discovered": "2026-10-08T03:32:37.315584+00:00",
-      "attack_date": "2026-10-06T20:13:00+00:00",
-      "website": "",
-      "description": "GRUNENWALD Créateur français d&#039;afficheurs sportifs haute performance depuis 1960, vous propose...",
-      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/1b972f45820dd30cbf92c88816007780",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3648,23 +3648,23 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
-    "unique_groups": 30,
+    "monitored_victims": 61,
+    "unique_groups": 31,
     "unique_countries": 30,
     "by_country": {
       "United States": 30,
       "Unknown": 14,
-      "Germany": 6,
       "Brazil": 6,
+      "Germany": 5,
       "Singapore": 4,
       "Canada": 4,
       "India": 4,
+      "EG": 3,
       "Spain": 3,
       "Taiwan": 3,
       "Japan": 2,
       "Switzerland": 2,
       "Mexico": 2,
-      "EG": 2,
       "France": 2,
       "CO": 1,
       "CL": 1,
@@ -3684,9 +3684,9 @@
       "Turkey": 1
     },
     "by_group": {
-      "thegentlemen": 23,
+      "thegentlemen": 22,
       "qilin": 13,
-      "UmBra": 8,
+      "UmBra": 9,
       "SilentRansomGroup": 5,
       "Eclipse": 5,
       "Panzer": 4,
@@ -3702,7 +3702,7 @@
       "nightspire": 2,
       "dragonforce": 2,
       "BYOD": 2,
-      "lockbit5": 2,
+      "Redact": 1,
       "exitium": 1,
       "threeam": 1,
       "emperador": 1,
@@ -3713,14 +3713,15 @@
       "payload": 1,
       "RunSomeWares": 1,
       "Storm": 1,
-      "N0n": 1
+      "N0n": 1,
+      "lockbit5": 1
     },
     "by_sector": {
+      "Education": 14,
       "Manufacturing": 14,
-      "Other": 13,
-      "Education": 13,
+      "Healthcare": 13,
       "Professional Services": 12,
-      "Healthcare": 12,
+      "Other": 11,
       "Technology": 10,
       "Not Found": 9,
       "Hospitality": 4,
