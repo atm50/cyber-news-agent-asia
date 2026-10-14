@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-13T22:29:07.203279+00:00",
+  "last_updated_utc": "2026-10-14T01:38:32.717835+00:00",
   "victims": [
+    {
+      "victim": "The Golden Legacy Financing",
+      "group": "qilin",
+      "country": "",
+      "sector": "Financial Services",
+      "discovered": "2026-10-13T21:13:07.350042+00:00",
+      "attack_date": "2026-10-13T21:12:42.477958+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=1bfb7b37-625a-40a4-bf5c-11ff2028ddad",
+      "monitored": false
+    },
     {
       "victim": "Lambertinum Seniorenwohnanlage",
       "group": "Wallstreet",
@@ -1188,18 +1200,6 @@
       "description": "The Command of the National Police of Ecuador (Comandancia General de la Policía Nacional) is the country's top-level police administrative and command center. Here’s a breakdown of the key details: 🏢 Basic Info & Location • Headquarters Address: Av. Río Amazonas N36-152, Quito 170135, Ecuador (loca",
       "claim_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1791802200900732076_U6jpBiky",
       "monitored": false
-    },
-    {
-      "victim": "Canadian Mennonite University (CMU)",
-      "group": "dragonforce",
-      "country": "Canada",
-      "sector": "Education",
-      "discovered": "2026-10-12T11:03:12.265227+00:00",
-      "attack_date": "2026-10-12T10:39:45.889160+00:00",
-      "website": "",
-      "description": "Canadian Mennonite University (CMU) is a Christian institution in Winnipeg, Manitoba, offering undergraduate degrees in various fields such as arts, business, music, and sciences, along with three graduate degree programs. The university focuses on a small community environment that fosters academic",
-      "claim_url": "http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog/?post_uuid=855a382e-353b-4025-9a7c-e946f88627f7",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3654,14 +3654,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
-    "unique_groups": 22,
-    "unique_countries": 33,
+    "monitored_victims": 62,
+    "unique_groups": 21,
+    "unique_countries": 32,
     "by_country": {
       "United States": 19,
       "South Korea": 12,
       "Sweden": 10,
-      "Unknown": 8,
+      "Unknown": 9,
       "Brazil": 5,
       "United Kingdom": 4,
       "Indonesia": 4,
@@ -3689,13 +3689,12 @@
       "Saudi Arabia": 1,
       "KW": 1,
       "MA": 1,
-      "Vietnam": 1,
-      "Canada": 1
+      "Vietnam": 1
     },
     "by_group": {
       "N0n": 43,
       "Wallstreet": 11,
-      "qilin": 6,
+      "qilin": 7,
       "interlock": 6,
       "play": 5,
       "everest": 3,
@@ -3713,8 +3712,7 @@
       "BYOD": 1,
       "aurora": 1,
       "safepay": 1,
-      "Deadlock": 1,
-      "dragonforce": 1
+      "Deadlock": 1
     },
     "by_sector": {
       "Transportation": 36,
@@ -3725,11 +3723,10 @@
       "Other": 7,
       "Technology": 4,
       "Retail & E-Commerce": 4,
+      "Financial Services": 3,
       "Energy & Utilities": 3,
-      "Financial Services": 2,
       "Agriculture and Food Production": 1,
-      "Government & Defense": 1,
-      "Education": 1
+      "Government & Defense": 1
     }
   },
   "errors": []
