@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-14T01:38:32.717835+00:00",
+  "last_updated_utc": "2026-10-14T07:10:49.828271+00:00",
   "victims": [
+    {
+      "victim": "Lane Equipment",
+      "group": "dragonforce",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-10-14T00:30:19.672653+00:00",
+      "attack_date": "2026-10-14T00:11:07.208408+00:00",
+      "website": "",
+      "description": "Lane Equipment Company has been a trusted food service partner in Texas since 1966, specializing in the sales, leasing, repairs, and parts for commercial kitchen equipment. They offer a wide range of products including soft serve machines, frozen beverage machines, ice machines, and refrigeration so",
+      "claim_url": "http://xjhmtitnrdrgzw4vmsghirdoo2fk35a3tzj4enlmah4pvehdspydsiyd.onion/blog/?post_uuid=80647a0a-be8a-4eff-9880-f87144478cf1",
+      "monitored": true
+    },
+    {
+      "victim": "Company #65",
+      "group": "N0n",
+      "country": "Brazil",
+      "sector": "Not Found",
+      "discovered": "2026-10-13T23:22:05.398765+00:00",
+      "attack_date": "2026-10-13T23:21:46.926266+00:00",
+      "website": "",
+      "description": "packaging manufacturing (extrusion) · Brazil | [PENDING EXPOSURE]",
+      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
+      "monitored": true
+    },
     {
       "victim": "The Golden Legacy Financing",
       "group": "qilin",
@@ -407,6 +431,18 @@
       "website": "",
       "description": "United States",
       "claim_url": "http://j75o7xvvsm4lpsjhkjvb4wl2q6ajegvabe6oswthuaubbykk4xkzgpid.onion/topic.php?id=fLdQsL6MK6gzRZ",
+      "monitored": false
+    },
+    {
+      "victim": "***o* **s**e** Solutions",
+      "group": "nightspire",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-10-14T02:10:44.438081+00:00",
+      "attack_date": "2026-10-13T00:00:00+00:00",
+      "website": "",
+      "description": "Data is not available now.",
+      "claim_url": "https://www.ransomware.live/id/KioqbyogKipzKiplKiogU29sdXRpb25zQG5pZ2h0c3BpcmU=",
       "monitored": false
     },
     {
@@ -1164,42 +1200,6 @@
       "description": "Port logistics · Indonesia | Operational EDI archives (container manifests) | [NOT PAID — EXPOSED: files publish 2026-10-19 13:27 UTC]",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-ilcs.co.id",
       "monitored": true
-    },
-    {
-      "victim": "Pusan Newport Company (container terminal operations)",
-      "group": "N0n",
-      "country": "South Korea",
-      "sector": "Transportation",
-      "discovered": "2026-10-12T13:54:25.278473+00:00",
-      "attack_date": "2026-10-12T13:54:05.396977+00:00",
-      "website": "",
-      "description": "Port terminal operations · South Korea | Terminal operating system deployment and configuration records and operational container documentation | [NOT PAID — EXPOSED: files publish 2026-10-19 13:27 UTC]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-pncport.com",
-      "monitored": true
-    },
-    {
-      "victim": "Nam Dinh Vu Port (container terminal operations)",
-      "group": "N0n",
-      "country": "Vietnam",
-      "sector": "Transportation",
-      "discovered": "2026-10-12T13:53:46.847316+00:00",
-      "attack_date": "2026-10-12T13:53:16.403457+00:00",
-      "website": "",
-      "description": "Port terminal operations / maritime logistics · Vietnam | The full EDI message archive of the terminal's operations server: vessel schedules, container manifests (BAPLIE), gate movement records (CODECO), booking messages (COPARN) covering multiple international shipping lines; Internal system config",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-namdinhvuport",
-      "monitored": false
-    },
-    {
-      "victim": "Ecuador police headquarters",
-      "group": "HYFLOCK",
-      "country": "EC",
-      "sector": "Government & Defense",
-      "discovered": "2026-10-13T17:11:39.540719+00:00",
-      "attack_date": "2026-10-12T10:50:00+00:00",
-      "website": "",
-      "description": "The Command of the National Police of Ecuador (Comandancia General de la Policía Nacional) is the country's top-level police administrative and command center. Here’s a breakdown of the key details: 🏢 Basic Info & Location • Headquarters Address: Av. Río Amazonas N36-152, Quito 170135, Ecuador (loca",
-      "claim_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1791802200900732076_U6jpBiky",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3654,15 +3654,15 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 62,
-    "unique_groups": 21,
-    "unique_countries": 32,
+    "monitored_victims": 63,
+    "unique_groups": 23,
+    "unique_countries": 31,
     "by_country": {
-      "United States": 19,
-      "South Korea": 12,
+      "United States": 20,
+      "South Korea": 11,
+      "Unknown": 10,
       "Sweden": 10,
-      "Unknown": 9,
-      "Brazil": 5,
+      "Brazil": 6,
       "United Kingdom": 4,
       "Indonesia": 4,
       "Germany": 3,
@@ -3670,7 +3670,6 @@
       "India": 3,
       "Singapore": 3,
       "Turkey": 2,
-      "EC": 2,
       "Spain": 2,
       "China": 2,
       "Norway": 1,
@@ -3683,16 +3682,16 @@
       "Italy": 1,
       "South Africa": 1,
       "CL": 1,
+      "EC": 1,
       "HK": 1,
       "Netherlands": 1,
       "Taiwan": 1,
       "Saudi Arabia": 1,
       "KW": 1,
-      "MA": 1,
-      "Vietnam": 1
+      "MA": 1
     },
     "by_group": {
-      "N0n": 43,
+      "N0n": 42,
       "Wallstreet": 11,
       "qilin": 7,
       "interlock": 6,
@@ -3703,30 +3702,31 @@
       "Dark Project": 3,
       "incransom": 2,
       "Panzer": 2,
-      "HYFLOCK": 2,
       "metaencryptor": 2,
+      "dragonforce": 1,
       "sarcoma": 1,
       "direwolf": 1,
       "Vexy Ransomware": 1,
       "emperador": 1,
+      "HYFLOCK": 1,
+      "nightspire": 1,
       "BYOD": 1,
       "aurora": 1,
       "safepay": 1,
       "Deadlock": 1
     },
     "by_sector": {
-      "Transportation": 36,
+      "Transportation": 34,
       "Professional Services": 15,
-      "Manufacturing": 10,
+      "Manufacturing": 11,
+      "Not Found": 9,
       "Healthcare": 8,
-      "Not Found": 8,
       "Other": 7,
-      "Technology": 4,
+      "Technology": 5,
       "Retail & E-Commerce": 4,
       "Financial Services": 3,
       "Energy & Utilities": 3,
-      "Agriculture and Food Production": 1,
-      "Government & Defense": 1
+      "Agriculture and Food Production": 1
     }
   },
   "errors": []
