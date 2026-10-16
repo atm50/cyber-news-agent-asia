@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-15T21:58:52.369257+00:00",
+  "last_updated_utc": "2026-10-16T00:11:55.980625+00:00",
   "victims": [
+    {
+      "victim": "TGM Manufacturing, Inc",
+      "group": "Wallstreet",
+      "country": "United States",
+      "sector": "Manufacturing",
+      "discovered": "2026-10-15T19:23:13.230279+00:00",
+      "attack_date": "2026-10-15T19:08:37+00:00",
+      "website": "",
+      "description": "TGM Manufacturing provides machining services, including automobile machine-shop work.",
+      "claim_url": "https://www.ransomware.live/id/VEdNIE1hbnVmYWN0dXJpbmcsIEluY0BXYWxsc3RyZWV0",
+      "monitored": true
+    },
     {
       "victim": "Segres Systec",
       "group": "qilin",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "The company focuses on applying marine biotechnology to human health, animal health, functional foods and sustainable aquaculture. Its official website …",
       "claim_url": "http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/hiqbiocom/",
-      "monitored": true
-    },
-    {
-      "victim": "Aeroklas Duys / Duys Engineering Group",
-      "group": "Deadlock",
-      "country": "South Africa",
-      "sector": "Manufacturing",
-      "discovered": "2026-10-12T17:50:45.857578+00:00",
-      "attack_date": "2026-10-12T17:50:44.540848+00:00",
-      "website": "",
-      "description": "Aeroklas Duys (Pty) Ltd a specialized automotive manufacturing company It was formed as a strategic joint venture between the Duys Engineering Group and Aeroklas (a prominent global automotive accessory manufacturer owned by the Eastern Polymer Group of Thailand). Duys Engineering Group an industria",
-      "claim_url": "https://www.ransomware.live/id/QWVyb2tsYXMgRHV5cyAvIER1eXMgRW5naW5lZXJpbmcgR3JvdXBARGVhZGxvY2s=",
       "monitored": true
     }
   ],
@@ -3661,10 +3661,10 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 49,
-    "unique_groups": 26,
-    "unique_countries": 29,
+    "unique_groups": 25,
+    "unique_countries": 28,
     "by_country": {
-      "United States": 23,
+      "United States": 24,
       "Unknown": 21,
       "Sweden": 10,
       "Brazil": 6,
@@ -3691,13 +3691,12 @@
       "AR": 1,
       "Turkey": 1,
       "MN": 1,
-      "Malaysia": 1,
-      "South Africa": 1
+      "Malaysia": 1
     },
     "by_group": {
+      "Wallstreet": 14,
       "qilin": 14,
       "N0n": 14,
-      "Wallstreet": 13,
       "lockbit5": 8,
       "iah6477": 7,
       "akira": 6,
@@ -3719,8 +3718,7 @@
       "HYFLOCK": 1,
       "nightspire": 1,
       "BYOD": 1,
-      "safepay": 1,
-      "Deadlock": 1
+      "safepay": 1
     },
     "by_sector": {
       "Not Found": 18,
