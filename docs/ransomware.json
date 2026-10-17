@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-17T15:04:43.281130+00:00",
+  "last_updated_utc": "2026-10-17T18:13:22.658208+00:00",
   "victims": [
     {
       "victim": "Company #86",
@@ -348,6 +348,18 @@
       "description": "Healthcare - Ophthalmology (US) · Mississippi, USA | Patient records of a Mississippi ophthalmology practice: 13,308 patient records with names and dates of birth, taken from the patient database backup of December 2025; The complete patient database backup history of the practice, 2018 through 2025",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-envision",
       "monitored": false
+    },
+    {
+      "victim": "ock.com.my",
+      "group": "lockbit5",
+      "country": "Malaysia",
+      "sector": "Not Found",
+      "discovered": "2026-10-17T11:32:47.829699+00:00",
+      "attack_date": "2026-10-16T13:08:00+00:00",
+      "website": "",
+      "description": "OCK Group Berhad specializes in telco network services and infrastructure in Malaysia, offering solu...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/7628e0fef6a422909d4bd3310eff49ec",
+      "monitored": true
     },
     {
       "victim": "Minkon",
@@ -1188,18 +1200,6 @@
       "description": "ak-sladek_cz Sladek & Partners Prague law firm operating as Mgr. Ivana Sládková, advokát (IČO 66252946), with 24 years of practice since 2002 — specializing in real estate transactions, divorce/family law, and attorney escrow (advokátní úschova). The firm's flagship claim: 500M CZK ($23M) held in es",
       "claim_url": "https://www.ransomware.live/id/U2xhZGVrIFBhcnRuZXJzQHRoZWdlbnRsZW1lbg==",
       "monitored": false
-    },
-    {
-      "victim": "Pantanal Agricola",
-      "group": "thegentlemen",
-      "country": "Brazil",
-      "sector": "Agriculture and Food Production",
-      "discovered": "2026-10-16T09:33:15.232714+00:00",
-      "attack_date": "2026-10-14T19:46:57+00:00",
-      "website": "",
-      "description": "pantanalagricola.com.br Pantanal Agrícola S.A. is a Brazilian agri-input distributor (crop protection, fertilizers, seeds) founded in 2001 in São Gabriel do Oeste, Mato Grosso do Sul — 19 legal units, 15-16 stores across MS/MT/GO, ~300 employees, serving 64+ municipalities and 5 million hectares of ",
-      "claim_url": "https://www.ransomware.live/id/UGFudGFuYWwgQWdyaWNvbGFAdGhlZ2VudGxlbWVu",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3668,11 +3668,11 @@
     "total_victims": 100,
     "monitored_victims": 61,
     "unique_groups": 18,
-    "unique_countries": 26,
+    "unique_countries": 27,
     "by_country": {
       "United States": 41,
       "Unknown": 21,
-      "Brazil": 7,
+      "Brazil": 6,
       "United Kingdom": 4,
       "South Korea": 2,
       "Japan": 2,
@@ -3682,6 +3682,7 @@
       "Austria": 1,
       "Belgium": 1,
       "HK": 1,
+      "Malaysia": 1,
       "Germany": 1,
       "Australia": 1,
       "Poland": 1,
@@ -3699,11 +3700,11 @@
     },
     "by_group": {
       "N0n": 27,
-      "thegentlemen": 15,
+      "thegentlemen": 14,
       "qilin": 12,
       "THE SEVEN DEADLY SINS": 7,
       "iah6477": 7,
-      "lockbit5": 5,
+      "lockbit5": 6,
       "everest": 4,
       "play": 4,
       "incransom": 4,
@@ -3718,7 +3719,7 @@
       "emperador": 1
     },
     "by_sector": {
-      "Not Found": 26,
+      "Not Found": 27,
       "Technology": 13,
       "Manufacturing": 12,
       "Healthcare": 12,
@@ -3726,9 +3727,9 @@
       "Financial Services": 6,
       "Retail & E-Commerce": 4,
       "Other": 4,
-      "Agriculture and Food Production": 4,
       "Transportation": 3,
       "Education": 3,
+      "Agriculture and Food Production": 3,
       "Government & Defense": 3,
       "Energy & Utilities": 2,
       "Hospitality": 1
