@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-17T01:07:38.738380+00:00",
+  "last_updated_utc": "2026-10-17T06:38:40.699857+00:00",
   "victims": [
+    {
+      "victim": "Prafesta Ind. e Com. de Embalagens Ltda",
+      "group": "N0n",
+      "country": "Brazil",
+      "sector": "Manufacturing",
+      "discovered": "2026-10-16T21:53:44.751763+00:00",
+      "attack_date": "2026-10-16T21:53:22.565417+00:00",
+      "website": "",
+      "description": "packaging manufacturing (extrusion) · Brazil | Senior Sapiens ERP and Vetorh HR payroll platform; eSocial government payroll filings September and October 2026; Thousands of electronic invoices with customer and supplier data; Worker and partner CPF identification numbers; Bank integration certifica",
+      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-prafesta",
+      "monitored": true
+    },
     {
       "victim": "WSBI-ESBG",
       "group": "play",
@@ -1188,18 +1200,6 @@
       "description": "engineersireland.ie Engineers Ireland Ireland's national professional body for engineers, founded 1835 with a Royal Charter (1877) and statutory authority under a 1969 Act to award the \"Chartered Engineer\" (CEng) title. HQ at 22 Clyde Road, Ballsbridge, Dublin 4; ~30,000 members (21,052 paying) acro",
       "claim_url": "https://www.ransomware.live/id/RW5naW5lZXJzIElyZWxhbmRAdGhlZ2VudGxlbWVu",
       "monitored": false
-    },
-    {
-      "victim": "Inovar Packaging Group",
-      "group": "thegentlemen",
-      "country": "Australia",
-      "sector": "Manufacturing",
-      "discovered": "2026-10-16T09:36:01.932691+00:00",
-      "attack_date": "2026-10-14T17:01:45+00:00",
-      "website": "",
-      "description": "inovarpackaging.com Inovar Packaging Group (Irving, TX) is a PE-backed buy-and-build platform producing pressure-sensitive labels, shrink sleeves, flexible packaging, and RFID — 14 US plants, 12+ acquisitions since 2016 (latest: Kiliper Corp, Feb 2026). Owned by Kelso & Company since May 2022 (previ",
-      "claim_url": "https://www.ransomware.live/id/SW5vdmFyIFBhY2thZ2luZyBHcm91cEB0aGVnZW50bGVtZW4=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3672,9 +3672,9 @@
     "by_country": {
       "United States": 40,
       "Unknown": 20,
-      "Brazil": 6,
+      "Brazil": 7,
       "United Kingdom": 4,
-      "Australia": 3,
+      "Australia": 2,
       "EG": 2,
       "South Korea": 2,
       "Mexico": 2,
@@ -3699,8 +3699,8 @@
       "Ireland": 1
     },
     "by_group": {
-      "N0n": 23,
-      "thegentlemen": 23,
+      "N0n": 24,
+      "thegentlemen": 22,
       "qilin": 12,
       "THE SEVEN DEADLY SINS": 7,
       "iah6477": 7,
