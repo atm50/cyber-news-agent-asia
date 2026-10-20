@@ -1,6 +1,42 @@
 {
-  "last_updated_utc": "2026-10-20T18:58:18.141446+00:00",
+  "last_updated_utc": "2026-10-20T22:12:00.600229+00:00",
   "victims": [
+    {
+      "victim": "Asensus Surgical",
+      "group": "Dark Project",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-10-20T17:53:03.802698+00:00",
+      "attack_date": "2026-10-20T17:17:19.576821+00:00",
+      "website": "",
+      "description": "About Asensus Surgical TransEnterix, which rebranded as Asensus Surgical in 2021, pursued the goal of challenging Intuitive Surgical in the robotic surgery market. After the FDA rejected its SurgiBot system in 2016, the company pivoted to the Senhance platform, a digital laparoscopy system featuring",
+      "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=asensus-surgical",
+      "monitored": true
+    },
+    {
+      "victim": "The Excalibur Group",
+      "group": "Dark Project",
+      "country": "United States",
+      "sector": "Not Found",
+      "discovered": "2026-10-20T17:52:21.347217+00:00",
+      "attack_date": "2026-10-20T16:59:38.286477+00:00",
+      "website": "",
+      "description": "About The Excalibur Group The Excalibur Group is a Washington D.C. based company that focuses on enhancing local, state, and federal programs through staff augmentation, training, and program management in the Defense, IT, Workforce, Environmental, and Legal sectors. They provide specialized job tra",
+      "claim_url": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=the-excalibur-group",
+      "monitored": true
+    },
+    {
+      "victim": "P...S...R...",
+      "group": "SilentRansomGroup",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-10-20T16:56:29.357983+00:00",
+      "attack_date": "2026-10-20T16:56:24.413740+00:00",
+      "website": "",
+      "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
+      "claim_url": "https://business-data-leaks.com/about#e5c8d91d10d4914e62868234c",
+      "monitored": false
+    },
     {
       "victim": "51Ridge (Newark NJ hosting/IT)",
       "group": "N0n",
@@ -1162,42 +1198,6 @@
       "attack_date": "2026-10-16T15:56:19.690211+00:00",
       "website": "",
       "description": "Healthcare - Ambulatory Surgery Center (US) · Texas, US | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": false
-    },
-    {
-      "victim": "Company #77",
-      "group": "N0n",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-10-16T15:56:01.252137+00:00",
-      "attack_date": "2026-10-16T15:55:44.789131+00:00",
-      "website": "",
-      "description": "investigations and due diligence · USA | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": true
-    },
-    {
-      "victim": "Company #76",
-      "group": "N0n",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-10-16T15:55:26.210449+00:00",
-      "attack_date": "2026-10-16T15:55:09.616463+00:00",
-      "website": "",
-      "description": "fintech payments · US | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": true
-    },
-    {
-      "victim": "Company #72",
-      "group": "N0n",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-10-16T15:54:50.992242+00:00",
-      "attack_date": "2026-10-16T15:54:34.695461+00:00",
-      "website": "",
-      "description": "Software / fundraising services · California, USA | [PENDING EXPOSURE]",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
       "monitored": false
     }
@@ -3679,7 +3679,7 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 67,
-    "unique_groups": 23,
+    "unique_groups": 24,
     "unique_countries": 30,
     "by_country": {
       "United States": 51,
@@ -3714,7 +3714,7 @@
       "AD": 1
     },
     "by_group": {
-      "N0n": 35,
+      "N0n": 32,
       "qilin": 15,
       "Helix": 7,
       "Booba Project": 6,
@@ -3722,6 +3722,8 @@
       "play": 4,
       "thegentlemen": 4,
       "Storm": 3,
+      "Dark Project": 2,
+      "SilentRansomGroup": 2,
       "Mimori": 2,
       "payload": 2,
       "aurora": 2,
@@ -3732,17 +3734,16 @@
       "anubis": 1,
       "lockbit5": 1,
       "fulcrumsec": 1,
-      "SilentRansomGroup": 1,
       "incransom": 1,
       "iah6477": 1,
       "Eclipse": 1,
       "Vexy Ransomware": 1
     },
     "by_sector": {
-      "Not Found": 27,
+      "Not Found": 26,
       "Manufacturing": 14,
       "Technology": 10,
-      "Healthcare": 8,
+      "Healthcare": 9,
       "Professional Services": 7,
       "Transportation": 7,
       "Education": 5,
