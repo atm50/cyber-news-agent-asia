@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-21T18:26:40.826605+00:00",
+  "last_updated_utc": "2026-10-21T22:09:21.942187+00:00",
   "victims": [
+    {
+      "victim": "Westrock Coffee",
+      "group": "Helix",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-10-21T17:52:48.926395+00:00",
+      "attack_date": "2026-10-21T17:52:46.839322+00:00",
+      "website": "",
+      "description": "Westrock Coffee records. Yearly revenue ~$1.2 billion yearly. GoFile links and passwords unlock in 24 hours.",
+      "claim_url": "/p/0ceb11ce8af51bad973b497a2c560e41d7b9b08d3740d9a9f370e619b8e1bbe6",
+      "monitored": true
+    },
     {
       "victim": "Hypertherm",
       "group": "Helix",
@@ -203,6 +215,30 @@
       "website": "",
       "description": "Bruin Group LLC is a telecom expense management (TEM) and communications auditing firm. Companies hand them carrier invoices, circuit inventories, wire instructions, letters of authorization, and internal ticket correspondence so Bruin can audit and recover overcharges. Bruin sits on a concentrated ",
       "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/bruin-group-llc/",
+      "monitored": true
+    },
+    {
+      "victim": "Flextron Circuit Assembly",
+      "group": "akira",
+      "country": "Singapore",
+      "sector": "Manufacturing",
+      "discovered": "2026-10-21T15:04:12.163999+00:00",
+      "attack_date": "2026-10-21T00:00:00+00:00",
+      "website": "",
+      "description": "Flextron Circuit Assembly specializes in quick-turn prototype PCB manufacturing and assembly, o\nffering a comprehensive range of services including design, fabrication, and assembly of printe\nd circuit boards (PCBs).\n\nWe will upload 34gb of corporate data soon. Employee personal information (passpor",
+      "claim_url": "https://www.ransomware.live/id/RmxleHRyb24gQ2lyY3VpdCBBc3NlbWJseUBha2lyYQ==",
+      "monitored": true
+    },
+    {
+      "victim": "Cascade Flooring America",
+      "group": "akira",
+      "country": "United States",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-10-21T15:03:52.587157+00:00",
+      "attack_date": "2026-10-21T00:00:00+00:00",
+      "website": "",
+      "description": "Cascade Flooring America is a flooring store located in Vancouver, WA, offering a wide range of\nproducts including flooring, furniture, window coverings, and kitchen and bath services. The c\nompany caters to homeowners looking for premium flooring solutions, with options such as carpet\n, hardwood, l",
+      "claim_url": "https://www.ransomware.live/id/Q2FzY2FkZSBGbG9vcmluZyBBbWVyaWNhQGFraXJh",
       "monitored": true
     },
     {
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "Smith Douglas Homes records. Yearly revenue ~$971 million. GoFile links and passwords unlock in 12 hours.",
       "claim_url": "/p/59176aa57be6f0a6f968acdd09950150bf8d937a16d21d8ab78cff5320fa5061",
-      "monitored": true
-    },
-    {
-      "victim": "Company #88",
-      "group": "N0n",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-10-17T19:24:26.787601+00:00",
-      "attack_date": "2026-10-17T19:24:10.739943+00:00",
-      "website": "",
-      "description": "home healthcare services · United States | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": true
-    },
-    {
-      "victim": "Rheem Global",
-      "group": "Helix",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-10-17T18:22:04.862943+00:00",
-      "attack_date": "2026-10-17T18:21:47.769934+00:00",
-      "website": "",
-      "description": "Rheem Global customer records. Yearly revenue ~$6 billion. GoFile links and passwords unlock in 12 hours.",
-      "claim_url": "http://helixr2sncrd3ndsz5oho6mzqw3x5u7mvox5zcsngc5wm7v4l5k7oryd.onion/p/98b1cacc251d258410ef1b65fcadd04029087169211a2788e534c8a57bb244eb",
-      "monitored": true
-    },
-    {
-      "victim": "Company #86",
-      "group": "N0n",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-10-17T06:53:37.963927+00:00",
-      "attack_date": "2026-10-17T06:53:18.140414+00:00",
-      "website": "",
-      "description": "real estate and land development · United States | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
       "monitored": true
     }
   ],
@@ -3679,10 +3679,10 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 68,
-    "unique_groups": 25,
-    "unique_countries": 25,
+    "unique_groups": 26,
+    "unique_countries": 26,
     "by_country": {
-      "United States": 54,
+      "United States": 53,
       "Unknown": 14,
       "Germany": 5,
       "Portugal": 2,
@@ -3692,6 +3692,7 @@
       "Netherlands": 2,
       "Vietnam": 1,
       "GA": 1,
+      "Singapore": 1,
       "Canada": 1,
       "ET": 1,
       "TN": 1,
@@ -3709,7 +3710,7 @@
       "Italy": 1
     },
     "by_group": {
-      "N0n": 33,
+      "N0n": 31,
       "qilin": 14,
       "Helix": 8,
       "Booba Project": 6,
@@ -3719,6 +3720,7 @@
       "Global Secret Group": 3,
       "Storm": 3,
       "HYFLOCK": 2,
+      "akira": 2,
       "Dark Project": 2,
       "Mimori": 2,
       "incransom": 2,
@@ -3736,13 +3738,13 @@
       "Scarlettgroup": 1
     },
     "by_sector": {
-      "Not Found": 30,
+      "Not Found": 28,
       "Manufacturing": 14,
       "Professional Services": 9,
       "Technology": 8,
+      "Retail & E-Commerce": 7,
       "Healthcare": 7,
       "Other": 6,
-      "Retail & E-Commerce": 5,
       "Transportation": 5,
       "Financial Services": 4,
       "Education": 4,
