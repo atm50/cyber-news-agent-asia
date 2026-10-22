@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-22T18:21:07.731130+00:00",
+  "last_updated_utc": "2026-10-22T22:09:19.976052+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -106,17 +106,6 @@
     },
     {
       "value": "101.47.28.226",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "101.96.195.253",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -271,17 +260,6 @@
     },
     {
       "value": "102.220.161.86",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "103.118.182.33",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -468,6 +446,17 @@
       "first_seen": ""
     },
     {
+      "value": "103.90.67.3",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "104.155.100.207",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -491,6 +480,17 @@
     },
     {
       "value": "104.155.26.39",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.155.84.46",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -546,17 +546,6 @@
     },
     {
       "value": "104.199.86.173",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "104.199.98.110",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -645,17 +634,6 @@
     },
     {
       "value": "113.98.254.50",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "115.190.235.8",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -799,6 +777,17 @@
     },
     {
       "value": "116.110.223.150",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.223.61",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -996,17 +985,6 @@
       "first_seen": ""
     },
     {
-      "value": "125.228.190.132",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
       "value": "128.14.232.142",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1162,6 +1140,28 @@
     },
     {
       "value": "130.12.209.165",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "130.211.53.116",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "134.209.185.7",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2526,6 +2526,42 @@
       "context": ", issuer emSign Root CS CA - G3\n\n \n \n   CVE-2026-111943   Unlike languages that defer entirely "
     },
     {
+      "value": "5.191.140.240",
+      "type": "ip",
+      "source_name": "Cisco Talos",
+      "article_title": "Two critical RCEs in PHP core",
+      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
+      "context": "should prioritize.        Indicators of Compromise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124"
+    },
+    {
+      "value": "158.69.113.75",
+      "type": "ip",
+      "source_name": "Cisco Talos",
+      "article_title": "Two critical RCEs in PHP core",
+      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
+      "context": "ze.        Indicators of Compromise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124  45.198.224.16"
+    },
+    {
+      "value": "94.154.43.149",
+      "type": "ip",
+      "source_name": "Cisco Talos",
+      "article_title": "Two critical RCEs in PHP core",
+      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
+      "context": "cators of Compromise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124  45.198.224.169  85.11.167.24"
+    },
+    {
+      "value": "143.246.223.124",
+      "type": "ip",
+      "source_name": "Cisco Talos",
+      "article_title": "Two critical RCEs in PHP core",
+      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
+      "context": "omise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124  45.198.224.169  85.11.167.243  \n           "
+    },
+    {
       "value": "af8a983b9ada07eae1259bf2953abd40",
       "type": "md5",
       "source_name": "Kaspersky Securelist",
@@ -2612,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2621,7 +2657,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2630,7 +2666,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2639,7 +2675,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2648,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2657,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2666,7 +2702,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2675,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T18:21:05.923500+00:00",
+      "article_date": "2026-10-22T22:09:18.321113+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -2684,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-22T18:21:06.582992+00:00",
+      "article_date": "2026-10-22T22:09:18.903389+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     },
     {
@@ -2693,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T18:21:07.228976+00:00",
+      "article_date": "2026-10-22T22:09:19.472828+00:00",
       "context": "DICATORS\n\nSHA-256 HASHES FOR THE AGENT IN VERSION ORDER:\n\n- 35fc649622dfea297cb2a37ce2b6a9f89733546a22a5d13410c96ff90412"
     },
     {
@@ -2702,7 +2738,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T18:21:07.228976+00:00",
+      "article_date": "2026-10-22T22:09:19.472828+00:00",
       "context": "de838c01f6a97 (v2.3, 2026-10-02, C:\\Windows\\a3qyudf3.exe)\n- e6ad79c9c792c0337c7d19ad5e6c9e9d94b6355a45460bef2c72000fc319"
     },
     {
@@ -2711,7 +2747,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T18:21:07.228976+00:00",
+      "article_date": "2026-10-22T22:09:19.472828+00:00",
       "context": " copilot.txt, newest)\n\nSHA-256 HASHES FOR THE V7 STAGER:\n\n- 18ad1fa64328c998a13cbae0c09f84114433c03872868475e455119a9acb"
     },
     {
@@ -2720,7 +2756,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T18:21:07.228976+00:00",
+      "article_date": "2026-10-22T22:09:19.472828+00:00",
       "context": "4e40d2d8695ac29c6702482fb73b8c67bd6859d88c62 (2026-09-29)\n- 316c71f65517016ad58770410ca639b9c3bfb2f23ccd341cdaaf13375c82"
     }
   ],
@@ -3278,10 +3314,10 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 50,
-    "total": 255,
+    "total_extracted": 54,
+    "total": 259,
     "by_type": {
-      "ip": 217,
+      "ip": 221,
       "sha256": 18,
       "cve": 13,
       "md5": 6,
@@ -3290,7 +3326,7 @@
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Cisco Talos": 17,
+      "Cisco Talos": 21,
       "Unit 42 (GitHub)": 13,
       "Unit 42": 11,
       "Microsoft MSTIC": 6,
