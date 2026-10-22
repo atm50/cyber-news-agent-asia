@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-22T13:31:49.207983+00:00",
+  "last_updated_utc": "2026-10-22T18:21:07.731130+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2277,19 +2277,19 @@
       "value": "CVE-2026-109618",
       "type": "cve",
       "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Wed, 21 Oct 2026 16:30:34 +0000",
-      "context": "Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n"
+      "article_title": "The Current Landscape of OAuth Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+      "article_date": "Thu, 22 Oct 2026 17:00:25 +0000",
+      "context": "Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 \n         \n     \n \n   "
     },
     {
       "value": "CVE-2026-109619",
       "type": "cve",
       "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Wed, 21 Oct 2026 16:30:34 +0000",
-      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t "
+      "article_title": "The Current Landscape of OAuth Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+      "article_date": "Thu, 22 Oct 2026 17:00:25 +0000",
+      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 \n         \n     \n \n             \n      "
     },
     {
       "value": "CVE-2026-0257",
@@ -2298,7 +2298,7 @@
       "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
       "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
       "article_date": "Wed, 21 Oct 2026 16:30:34 +0000",
-      "context": "at Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20) \n                 "
+      "context": " Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) \n                 "
     },
     {
       "value": "CVE-2026-88771",
@@ -2373,85 +2373,76 @@
       "context": " of BeyondTrust Critical Vulnerability (CVE-2026-1731) \n                   \n                 "
     },
     {
-      "value": "162.243.3.92",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-      "article_url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-      "article_date": "Wed, 21 Oct 2026 14:00:24 +0000",
-      "context": "tructure \n The threat actor used a single US-based server ( 162.243.3.92 ) to host multiple core services, including: \n "
+      "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "e files from Talos telemetry over the past week    SHA256:  9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffc"
     },
     {
-      "value": "104.238.38.202",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-      "article_url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-      "article_date": "Wed, 21 Oct 2026 14:00:24 +0000",
-      "context": " of Compromise \n \n  162.243.3.92 - actor infrastructure  \n  104.238.38.202 - commercial proxy server  \n \n   Additional R"
+      "value": "7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "ple.exe Detection Name: W32.9F1F11A708-100.SBX.TG  SHA256:  7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d"
     },
     {
-      "value": "CVE-2023-27532",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": "targeting Veeam backup infrastructure ( CVE-2023-27532 ), to maximize their impact. \n   Conclu"
+      "value": "985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "a6997f.exe Detection Name: Win.Tool.Kmsauto::1201  SHA256:  985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db3"
     },
     {
-      "value": "23.128.228.6",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": "odule. \n   Indicators of the Activity \n  IP Addresses  \n \n  23.128.228.6  \n  104.207.144.154  \n  146.19.216.119  \n  146."
+      "value": "d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "eea4f2.exe Detection Name: Win.Tool.Kmsauto::1201  SHA256:  d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661"
     },
     {
-      "value": "104.207.144.154",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": "tors of the Activity \n  IP Addresses  \n \n  23.128.228.6  \n  104.207.144.154  \n  146.19.216.119  \n  146.19.216.120  \n  14"
+      "value": "2915b3f8b703eb744fc54c81f4a9c67f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507  MD5: 2915b3f8b703eb744fc54c81f4a9c67f Talos Rep:  https://talosin"
     },
     {
-      "value": "146.19.216.119",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": " \n  IP Addresses  \n \n  23.128.228.6  \n  104.207.144.154  \n  146.19.216.119  \n  146.19.216.120  \n  146.19.216.125  \n  179"
+      "value": "cca616647db9370c88998ae25da6997f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f  MD5: cca616647db9370c88998ae25da6997f Talos Rep:  https://talosin"
     },
     {
-      "value": "185.195.232.139",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": "\n  146.19.216.120  \n  146.19.216.125  \n  179.43.172.213  \n  185.195.232.139  \n  198.12.106.60  \n  202.144.192.47  \n \n  H"
+      "value": "485055033bcddfde56325c0d2feea4f2",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9  MD5: 485055033bcddfde56325c0d2feea4f2 Talos Rep:  https://talosin"
     },
     {
-      "value": "198.12.106.60",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": "  146.19.216.125  \n  179.43.172.213  \n  185.195.232.139  \n  198.12.106.60  \n  202.144.192.47  \n \n  Host Names and Mac Ad"
-    },
-    {
-      "value": "202.144.192.47",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
-      "article_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "article_date": "Tue, 20 Oct 2026 20:30:42 +0000",
-      "context": "\n  179.43.172.213  \n  185.195.232.139  \n  198.12.106.60  \n  202.144.192.47  \n \n  Host Names and Mac Addresses  \n \n  aa:b"
+      "value": "0c883b1d66afce606d9830f48d69d74b",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "I had plans for that second",
+      "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+      "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
+      "context": "4c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1  MD5: 0c883b1d66afce606d9830f48d69d74b Talos Rep:  https://talosin"
     },
     {
       "value": "e7568fe6e12331f4fd7de61da4c7559d0f8eb192a218d4741a3ba75184333838",
@@ -2621,7 +2612,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2630,7 +2621,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2639,7 +2630,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2648,7 +2639,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2657,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2666,7 +2657,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2675,7 +2666,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2684,7 +2675,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T13:31:47.564275+00:00",
+      "article_date": "2026-10-22T18:21:05.923500+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -2693,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-22T13:31:48.124374+00:00",
+      "article_date": "2026-10-22T18:21:06.582992+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     },
     {
@@ -2702,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T13:31:48.705246+00:00",
+      "article_date": "2026-10-22T18:21:07.228976+00:00",
       "context": "DICATORS\n\nSHA-256 HASHES FOR THE AGENT IN VERSION ORDER:\n\n- 35fc649622dfea297cb2a37ce2b6a9f89733546a22a5d13410c96ff90412"
     },
     {
@@ -2711,7 +2702,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T13:31:48.705246+00:00",
+      "article_date": "2026-10-22T18:21:07.228976+00:00",
       "context": "de838c01f6a97 (v2.3, 2026-10-02, C:\\Windows\\a3qyudf3.exe)\n- e6ad79c9c792c0337c7d19ad5e6c9e9d94b6355a45460bef2c72000fc319"
     },
     {
@@ -2720,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T13:31:48.705246+00:00",
+      "article_date": "2026-10-22T18:21:07.228976+00:00",
       "context": " copilot.txt, newest)\n\nSHA-256 HASHES FOR THE V7 STAGER:\n\n- 18ad1fa64328c998a13cbae0c09f84114433c03872868475e455119a9acb"
     },
     {
@@ -2729,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T13:31:48.705246+00:00",
+      "article_date": "2026-10-22T18:21:07.228976+00:00",
       "context": "4e40d2d8695ac29c6702482fb73b8c67bd6859d88c62 (2026-09-29)\n- 316c71f65517016ad58770410ca639b9c3bfb2f23ccd341cdaaf13375c82"
     }
   ],
@@ -3287,21 +3278,21 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 51,
-    "total": 256,
+    "total_extracted": 50,
+    "total": 255,
     "by_type": {
-      "ip": 225,
-      "cve": 14,
-      "sha256": 14,
-      "md5": 2,
+      "ip": 217,
+      "sha256": 18,
+      "cve": 13,
+      "md5": 6,
       "sha1": 1
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Unit 42": 20,
+      "Cisco Talos": 17,
       "Unit 42 (GitHub)": 13,
-      "Cisco Talos": 9,
+      "Unit 42": 11,
       "Microsoft MSTIC": 6,
       "Feodo Tracker": 5,
       "Kaspersky Securelist": 3

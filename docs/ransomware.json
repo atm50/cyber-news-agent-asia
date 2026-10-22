@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-22T13:31:50.750444+00:00",
+  "last_updated_utc": "2026-10-22T18:21:09.641223+00:00",
   "victims": [
+    {
+      "victim": "PWC",
+      "group": "everest",
+      "country": "United Kingdom",
+      "sector": "Professional Services",
+      "discovered": "2026-10-22T13:10:19.855983+00:00",
+      "attack_date": "2026-10-22T13:09:56.693203+00:00",
+      "website": "",
+      "description": "[AI generated] PwC (PricewaterhouseCoopers) is a multinational professional services network headquartered in London, United Kingdom. It is one of the \"Big Four\" accounting firms, offering audit and assurance, tax, consulting, and advisory services to businesses, governments, and organizations world",
+      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/pwc",
+      "monitored": true
+    },
     {
       "victim": "Performance Ford Inc",
       "group": "N0n",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "Baltimore Tank Lines is a leading transporter of liquid bulk commodities, including fuel, DEF, motor oils, fertilizer, and food-grade products. With over 75 years of experience, the company serves a diverse clientele across local, regional, and national accounts. They are committed to expanding thei",
       "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6ad57ddc017ad22f3de0f1ee",
-      "monitored": true
-    },
-    {
-      "victim": "Merit Financial Group",
-      "group": "Storm",
-      "country": "United States",
-      "sector": "Financial Services",
-      "discovered": "2026-10-19T06:55:20.491512+00:00",
-      "attack_date": "2026-10-19T02:16:12+00:00",
-      "website": "",
-      "description": "Merit Financial Group, LLC, doing business as Merit Financial Advisors (\"Merit\"), is a national wealth management firm that supports both the independent broker-dealer and RIA models. Based in Atlanta, Georgia, Merit has 24 additional offices throughout the U.S. and managed $5.59 billion in assets a",
-      "claim_url": "http://yqhecvqtdvq6p7duqcgw2qca77spbgakxcoibtx6zpvfshltsbbbhfqd.onion/company/6ad57d6c017ad22f3de0f1ed",
       "monitored": true
     }
   ],
@@ -3682,10 +3682,10 @@
     "unique_groups": 27,
     "unique_countries": 25,
     "by_country": {
-      "United States": 45,
+      "United States": 44,
       "Unknown": 19,
       "Germany": 8,
-      "United Kingdom": 4,
+      "United Kingdom": 5,
       "Canada": 2,
       "AR": 2,
       "Mexico": 2,
@@ -3715,7 +3715,7 @@
       "SilentRansomGroup": 7,
       "lamashtu": 6,
       "Booba Project": 6,
-      "everest": 4,
+      "everest": 5,
       "incransom": 3,
       "Helix": 3,
       "Global Secret Group": 3,
@@ -3726,7 +3726,6 @@
       "Dark Project": 2,
       "Mimori": 2,
       "payload": 2,
-      "Storm": 2,
       "spacebears": 1,
       "interlock": 1,
       "pear": 1,
@@ -3735,11 +3734,12 @@
       "anubis": 1,
       "Redact": 1,
       "lockbit5": 1,
-      "fulcrumsec": 1
+      "fulcrumsec": 1,
+      "Storm": 1
     },
     "by_sector": {
       "Not Found": 29,
-      "Professional Services": 12,
+      "Professional Services": 13,
       "Manufacturing": 12,
       "Healthcare": 10,
       "Retail & E-Commerce": 7,
@@ -3749,9 +3749,9 @@
       "Transportation": 3,
       "Agriculture and Food Production": 2,
       "Energy & Utilities": 2,
-      "Financial Services": 2,
       "Government & Defense": 2,
-      "Hospitality": 2
+      "Hospitality": 2,
+      "Financial Services": 1
     }
   },
   "errors": []
