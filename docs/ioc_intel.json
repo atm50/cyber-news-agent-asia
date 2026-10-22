@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-22T01:17:18.520464+00:00",
+  "last_updated_utc": "2026-10-22T07:11:28.440327+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2535,6 +2535,24 @@
       "context": ", issuer emSign Root CS CA - G3\n\n \n \n   CVE-2026-111943   Unlike languages that defer entirely "
     },
     {
+      "value": "af8a983b9ada07eae1259bf2953abd40",
+      "type": "md5",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia",
+      "article_url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+      "article_date": "Thu, 22 Oct 2026 06:00:48 +0000",
+      "context": "ogleupdate.exe  (original filename:  jcef_helper.exe , MD5: AF8A983B9ADA07EAE1259BF2953ABD40), which is also delivered b"
+    },
+    {
+      "value": "CVE-2022-21894",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia",
+      "article_url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+      "article_date": "Thu, 22 Oct 2026 06:00:48 +0000",
+      "context": " exploits the Baton Drop vulnerability (CVE-2022-21894) and is similar to the BlackLotus bootk"
+    },
+    {
       "value": "ec84d6cb2ae7974767aedac246b50a3e",
       "type": "md5",
       "source_name": "Kaspersky Securelist",
@@ -2544,76 +2562,40 @@
       "context": ". \n Indicators of compromise \n File hashes \n  TouchShift  \n ec84d6cb2ae7974767aedac246b50a3e              mscoree.dll \n "
     },
     {
-      "value": "CVE-2026-4272",
+      "value": "CVE-2026-9545",
       "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "The journey of a paper unicorn: adventures inside a modern warehouse",
-      "article_url": "https://securelist.com/paper-unicorn-warehouse-security/121537/",
-      "article_date": "Tue, 20 Oct 2026 07:00:45 +0000",
-      "context": "example, Honeywell devices affected by  CVE-2026-4272 . \n In both cases, the result is the sa"
+      "source_name": "Microsoft MSTIC",
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "blicly disclosed today, such as curl’s  CVE-2026-9545  and  CVE-2026-13608 , Node.js’s  CVE-2"
     },
     {
-      "value": "CVE-2026-70774",
+      "value": "CVE-2026-13608",
       "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "The journey of a paper unicorn: adventures inside a modern warehouse",
-      "article_url": "https://securelist.com/paper-unicorn-warehouse-security/121537/",
-      "article_date": "Tue, 20 Oct 2026 07:00:45 +0000",
-      "context": " to the WMS itself. A recent example is CVE-2026-70774 in Oracle Warehouse Management, part of"
+      "source_name": "Microsoft MSTIC",
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "ay, such as curl’s  CVE-2026-9545  and  CVE-2026-13608 , Node.js’s  CVE-2026-56848 , and Linux"
     },
     {
-      "value": "144.172.64.99",
-      "type": "ip",
+      "value": "CVE-2026-56848",
+      "type": "cve",
       "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "itional indicators with one IP address matching exactly the 144.172.64.99 infrastructure responsible for the earlier pas"
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "-9545  and  CVE-2026-13608 , Node.js’s  CVE-2026-56848 , and Linux kernel  CVE-2026-64563 . Ou"
     },
     {
-      "value": "144.172.64.128",
-      "type": "ip",
+      "value": "CVE-2026-64563",
+      "type": "cve",
       "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "omise (IOC) \n\n\n\n      Indicator    Type    Description      144.172.64.128    IP    These IPs were seen performing Sign-"
-    },
-    {
-      "value": "144.172.64.60",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "ronments of ConnectWise apps.      144.172.64.99    IP      144.172.64.60    IP      187.15.88.186   187.15.90.217   187"
-    },
-    {
-      "value": "187.15.88.186",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "pps.      144.172.64.99    IP      144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    The"
-    },
-    {
-      "value": "187.15.90.217",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "2.64.99    IP      144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    These IPs were seen"
-    },
-    {
-      "value": "187.15.89.186",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "   144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    These IPs were seen accessing the G"
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "s’s  CVE-2026-56848 , and Linux kernel  CVE-2026-64563 . Our  public CVE index  lists the CVEs"
     },
     {
       "value": "b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763ea7bd",
@@ -2621,7 +2603,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2630,7 +2612,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2639,7 +2621,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2648,7 +2630,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2657,7 +2639,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2666,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2675,7 +2657,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2684,7 +2666,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-22T01:17:16.716140+00:00",
+      "article_date": "2026-10-22T07:11:26.670336+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -2693,7 +2675,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-22T01:17:17.365340+00:00",
+      "article_date": "2026-10-22T07:11:27.304374+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     },
     {
@@ -2702,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T01:17:18.018357+00:00",
+      "article_date": "2026-10-22T07:11:27.937250+00:00",
       "context": "DICATORS\n\nSHA-256 HASHES FOR THE AGENT IN VERSION ORDER:\n\n- 35fc649622dfea297cb2a37ce2b6a9f89733546a22a5d13410c96ff90412"
     },
     {
@@ -2711,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T01:17:18.018357+00:00",
+      "article_date": "2026-10-22T07:11:27.937250+00:00",
       "context": "de838c01f6a97 (v2.3, 2026-10-02, C:\\Windows\\a3qyudf3.exe)\n- e6ad79c9c792c0337c7d19ad5e6c9e9d94b6355a45460bef2c72000fc319"
     },
     {
@@ -2720,7 +2702,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T01:17:18.018357+00:00",
+      "article_date": "2026-10-22T07:11:27.937250+00:00",
       "context": " copilot.txt, newest)\n\nSHA-256 HASHES FOR THE V7 STAGER:\n\n- 18ad1fa64328c998a13cbae0c09f84114433c03872868475e455119a9acb"
     },
     {
@@ -2729,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-09-C2Agent-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-22T01:17:18.018357+00:00",
+      "article_date": "2026-10-22T07:11:27.937250+00:00",
       "context": "4e40d2d8695ac29c6702482fb73b8c67bd6859d88c62 (2026-09-29)\n- 316c71f65517016ad58770410ca639b9c3bfb2f23ccd341cdaaf13375c82"
     }
   ],
@@ -3287,13 +3269,13 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 51,
-    "total": 256,
+    "total_extracted": 49,
+    "total": 254,
     "by_type": {
-      "ip": 225,
-      "cve": 15,
+      "ip": 219,
+      "cve": 18,
       "sha256": 14,
-      "md5": 1,
+      "md5": 2,
       "sha1": 1
     },
     "by_source": {
@@ -3302,8 +3284,8 @@
       "Unit 42": 20,
       "Unit 42 (GitHub)": 13,
       "Cisco Talos": 9,
-      "Microsoft MSTIC": 6,
       "Feodo Tracker": 5,
+      "Microsoft MSTIC": 4,
       "Kaspersky Securelist": 3
     }
   },
