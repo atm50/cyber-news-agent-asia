@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-23T01:16:29.258060+00:00",
+  "last_updated_utc": "2026-10-23T07:03:14.683143+00:00",
   "victims": [
+    {
+      "victim": "SEPIVER",
+      "group": "qilin",
+      "country": "Mexico",
+      "sector": "Not Found",
+      "discovered": "2026-10-22T23:40:29.746474+00:00",
+      "attack_date": "2026-10-22T23:40:11.771502+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=9dba0158-69cd-4424-b35c-2b4b5cce4c0b",
+      "monitored": false
+    },
     {
       "victim": "M... C...",
       "group": "SilentRansomGroup",
@@ -144,6 +156,18 @@
       "description": "automotive retail · United States | Network security configuration of an automotive retailer; Private network tunnel definitions between locations; Internal network maps and device inventory | [NOT PAID — EXPOSED]",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-perford",
       "monitored": true
+    },
+    {
+      "victim": "istanbultrading.com",
+      "group": "lockbit5",
+      "country": "Turkey",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-10-22T21:30:20.484598+00:00",
+      "attack_date": "2026-10-22T08:25:00+00:00",
+      "website": "",
+      "description": "Istanbul Foodstuff Trading Co LLC is a company that operates in the Computer Equipment & Peripherals...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/cc721543382c0d008c07a3d34d109662",
+      "monitored": false
     },
     {
       "victim": "Company #109",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=921958fc-7df4-447d-9a1a-4d75ef650aa7",
-      "monitored": true
-    },
-    {
-      "victim": "SkyWorld Air Cargo",
-      "group": "qilin",
-      "country": "United Arab Emirates",
-      "sector": "Transportation",
-      "discovered": "2026-10-19T15:58:41.146838+00:00",
-      "attack_date": "2026-10-19T15:58:20.198803+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=590c5dac-e648-4936-9c78-8e6b6aee76b9",
-      "monitored": false
-    },
-    {
-      "victim": "Johnson & Pace",
-      "group": "qilin",
-      "country": "United Kingdom",
-      "sector": "Not Found",
-      "discovered": "2026-10-19T15:58:00.416336+00:00",
-      "attack_date": "2026-10-19T15:57:38.679631+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=47da60e2-06da-40e4-99fe-504addd02cde",
       "monitored": true
     }
   ],
@@ -3678,17 +3678,19 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 63,
+    "monitored_victims": 62,
     "unique_groups": 26,
     "unique_countries": 24,
     "by_country": {
       "United States": 39,
       "Unknown": 24,
       "Germany": 9,
-      "United Kingdom": 5,
+      "United Kingdom": 4,
+      "Mexico": 2,
       "France": 2,
       "Australia": 2,
       "Canada": 2,
+      "Turkey": 1,
       "BG": 1,
       "Ireland": 1,
       "AR": 1,
@@ -3698,19 +3700,17 @@
       "GA": 1,
       "Malaysia": 1,
       "Singapore": 1,
-      "Mexico": 1,
       "ET": 1,
       "TN": 1,
       "TT": 1,
       "Switzerland": 1,
       "Spain": 1,
-      "India": 1,
-      "United Arab Emirates": 1
+      "India": 1
     },
     "by_group": {
       "N0n": 23,
       "SilentRansomGroup": 9,
-      "qilin": 9,
+      "qilin": 8,
       "BrainCipher": 8,
       "lamashtu": 6,
       "Booba Project": 6,
@@ -3718,6 +3718,7 @@
       "akira": 5,
       "bravox": 3,
       "Global Secret Group": 3,
+      "lockbit5": 2,
       "incransom": 2,
       "Helix": 2,
       "HYFLOCK": 2,
@@ -3732,14 +3733,13 @@
       "clop": 1,
       "emperador": 1,
       "anubis": 1,
-      "Redact": 1,
-      "lockbit5": 1
+      "Redact": 1
     },
     "by_sector": {
       "Not Found": 32,
       "Professional Services": 13,
       "Manufacturing": 12,
-      "Retail & E-Commerce": 8,
+      "Retail & E-Commerce": 9,
       "Healthcare": 8,
       "Technology": 6,
       "Other": 6,
@@ -3748,8 +3748,8 @@
       "Agriculture and Food Production": 2,
       "Energy & Utilities": 2,
       "Government & Defense": 2,
-      "Transportation": 2,
-      "Financial Services": 1
+      "Financial Services": 1,
+      "Transportation": 1
     }
   },
   "errors": []
