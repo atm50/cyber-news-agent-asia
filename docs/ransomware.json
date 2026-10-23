@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-22T22:09:21.615001+00:00",
+  "last_updated_utc": "2026-10-23T01:16:29.258060+00:00",
   "victims": [
+    {
+      "victim": "M... C...",
+      "group": "SilentRansomGroup",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-10-22T19:30:40.239379+00:00",
+      "attack_date": "2026-10-22T19:29:49.653510+00:00",
+      "website": "",
+      "description": "Redacted entry - full company name pending disclosure (FULL DATA TIMER active).",
+      "claim_url": "https://business-data-leaks.com/about#566e04ce945e506789bc34e7a",
+      "monitored": false
+    },
+    {
+      "victim": "United Restaurant Supply",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Hospitality",
+      "discovered": "2026-10-22T18:41:39.974610+00:00",
+      "attack_date": "2026-10-22T18:41:07.754507+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=cc010905-a668-4910-8410-adc72cc57e25",
+      "monitored": true
+    },
     {
       "victim": "AMSAM",
       "group": "bravox",
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=47da60e2-06da-40e4-99fe-504addd02cde",
       "monitored": true
-    },
-    {
-      "victim": "Dental Team FL",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-10-19T15:57:18.608289+00:00",
-      "attack_date": "2026-10-19T15:56:54.759411+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=4ca26250-a1aa-493e-bb4a-70ed6ef950c2",
-      "monitored": true
-    },
-    {
-      "victim": "Grupo Cronica",
-      "group": "qilin",
-      "country": "AR",
-      "sector": "Other",
-      "discovered": "2026-10-19T14:53:29.161722+00:00",
-      "attack_date": "2026-10-19T14:53:06.535766+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2634a8dd-fd94-4584-a156-5c958c06b2f2",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3683,15 +3683,15 @@
     "unique_countries": 24,
     "by_country": {
       "United States": 39,
-      "Unknown": 23,
+      "Unknown": 24,
       "Germany": 9,
       "United Kingdom": 5,
       "France": 2,
       "Australia": 2,
       "Canada": 2,
-      "AR": 2,
       "BG": 1,
       "Ireland": 1,
+      "AR": 1,
       "South Korea": 1,
       "Portugal": 1,
       "Vietnam": 1,
@@ -3709,8 +3709,8 @@
     },
     "by_group": {
       "N0n": 23,
-      "qilin": 10,
-      "SilentRansomGroup": 8,
+      "SilentRansomGroup": 9,
+      "qilin": 9,
       "BrainCipher": 8,
       "lamashtu": 6,
       "Booba Project": 6,
@@ -3736,19 +3736,19 @@
       "lockbit5": 1
     },
     "by_sector": {
-      "Not Found": 31,
+      "Not Found": 32,
       "Professional Services": 13,
       "Manufacturing": 12,
-      "Healthcare": 9,
       "Retail & E-Commerce": 8,
-      "Other": 7,
+      "Healthcare": 8,
       "Technology": 6,
+      "Other": 6,
       "Education": 4,
+      "Hospitality": 2,
       "Agriculture and Food Production": 2,
       "Energy & Utilities": 2,
       "Government & Defense": 2,
       "Transportation": 2,
-      "Hospitality": 1,
       "Financial Services": 1
     }
   },
