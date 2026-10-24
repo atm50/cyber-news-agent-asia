@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-24T20:21:00.646902+00:00",
+  "last_updated_utc": "2026-10-24T22:56:58.476302+00:00",
   "victims": [
+    {
+      "victim": "Castle Howard Estate",
+      "group": "qilin",
+      "country": "United Kingdom",
+      "sector": "Hospitality",
+      "discovered": "2026-10-24T16:34:49.360176+00:00",
+      "attack_date": "2026-10-24T16:34:13.768572+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=65926679-0b3a-43f2-9283-4ac16718f881",
+      "monitored": true
+    },
+    {
+      "victim": "Vins Viallet",
+      "group": "lamashtu",
+      "country": "France",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-10-24T16:30:40.843615+00:00",
+      "attack_date": "2026-10-24T16:30:21.356818+00:00",
+      "website": "",
+      "description": "Vins Viallet is a French family-owned wine producer and distributor based in the Savoie region. Founded in 1966, the company produces and markets a range of wines, including white, red, rosé and sparkling varieties, serving retail and wholesale",
+      "claim_url": "http://lamashtux5j74mcm7lwwgn5yrvuwtrpxjoyendif3v3hrztjesfoyayd.onion/post/ad10729196bfae1e58eb75aa8ae7536f",
+      "monitored": true
+    },
     {
       "victim": "Frommann Energie GmbH",
       "group": "emperador",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "[AI generated] N/A\n\nI don't have reliable, verified information about a company associated with the domain \"srsnodgrass.com.\" Rather than provide speculative or potentially inaccurate details about its operations, industry, or country of origin, I'm flagging this as unknown. If you have additional c",
       "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/srsnodgrass-com",
-      "monitored": true
-    },
-    {
-      "victim": "prosomnus.com",
-      "group": "BrainCipher",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-10-21T20:52:52.404024+00:00",
-      "attack_date": "2026-10-21T20:52:35.963037+00:00",
-      "website": "",
-      "description": "[AI generated] ProSomnus Inc. is a U.S.-based medical device company specializing in the design and manufacture of precision oral appliances for the treatment of obstructive sleep apnea and snoring. Operating in the healthcare and medical device industry, the company focuses on sleep medicine soluti",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/prosomnus-com",
-      "monitored": true
-    },
-    {
-      "victim": "olyortho.com",
-      "group": "BrainCipher",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-10-21T20:52:16.151344+00:00",
-      "attack_date": "2026-10-21T20:52:00.650592+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/olyortho-com",
       "monitored": true
     }
   ],
@@ -3682,11 +3682,13 @@
     "unique_groups": 27,
     "unique_countries": 28,
     "by_country": {
-      "United States": 25,
+      "United States": 23,
       "Unknown": 20,
       "Germany": 12,
       "AR": 4,
       "Spain": 4,
+      "United Kingdom": 3,
+      "France": 3,
       "Mexico": 3,
       "Australia": 3,
       "Netherlands": 2,
@@ -3695,8 +3697,6 @@
       "Turkey": 2,
       "Italy": 2,
       "Switzerland": 2,
-      "France": 2,
-      "United Kingdom": 2,
       "EG": 1,
       "Portugal": 1,
       "Pakistan": 1,
@@ -3712,14 +3712,14 @@
       "Ireland": 1
     },
     "by_group": {
-      "qilin": 17,
+      "qilin": 18,
       "N0n": 17,
-      "BrainCipher": 7,
+      "lamashtu": 7,
       "krybit": 6,
-      "lamashtu": 6,
       "lockbit5": 5,
       "akira": 5,
       "SilentRansomGroup": 5,
+      "BrainCipher": 5,
       "emperador": 4,
       "rhysida": 3,
       "Whitearmor": 3,
@@ -3745,15 +3745,15 @@
       "Manufacturing": 17,
       "Professional Services": 16,
       "Technology": 10,
-      "Healthcare": 9,
       "Other": 9,
-      "Retail & E-Commerce": 6,
+      "Retail & E-Commerce": 7,
+      "Healthcare": 7,
+      "Hospitality": 3,
       "Energy & Utilities": 3,
       "Financial Services": 2,
       "Agriculture and Food Production": 2,
       "Transportation": 2,
-      "Education": 2,
-      "Hospitality": 2
+      "Education": 2
     }
   },
   "errors": []
