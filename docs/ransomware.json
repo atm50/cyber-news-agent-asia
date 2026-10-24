@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-24T17:54:05.930293+00:00",
+  "last_updated_utc": "2026-10-24T20:21:00.646902+00:00",
   "victims": [
+    {
+      "victim": "Frommann Energie GmbH",
+      "group": "emperador",
+      "country": "Germany",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-10-24T14:52:41.604608+00:00",
+      "attack_date": "2026-10-24T13:47:00+00:00",
+      "website": "",
+      "description": "German company that sells and delivers fuels, \nprimarily heating oil (Heizöl), \nbut also motor fuels and lubricants.\nArchived personal and corporate data of employees and customers.\nHere are the most important documents. [Sector: Manufacturing, Finance, Technology]",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/frommann-energie-gmbh/",
+      "monitored": true
+    },
+    {
+      "victim": "Phoenix S&S GmbH",
+      "group": "emperador",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-10-24T14:53:32.619361+00:00",
+      "attack_date": "2026-10-24T13:42:00+00:00",
+      "website": "",
+      "description": "German company from Frankfurt am Main, \nwhich deals with building maintenance, construction services, \nlogistics and security.\nArchived personal and corporate data of employees and customers.\nHere are the most important documents. [Sector: Manufacturing, Finance, Transportation]",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/phoenix-ss-gmbh/",
+      "monitored": true
+    },
     {
       "victim": "SLTN Inter Access",
       "group": "qilin",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "[AI generated] N/A",
       "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/olyortho-com",
-      "monitored": true
-    },
-    {
-      "victim": "mvjllp.com",
-      "group": "BrainCipher",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-10-21T20:51:40.629098+00:00",
-      "attack_date": "2026-10-21T20:51:23.385562+00:00",
-      "website": "",
-      "description": "[AI generated] N/A",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/mvjllp-com",
-      "monitored": false
-    },
-    {
-      "victim": "Hanjin Information Systems & Telecommunication Co., Ltd.",
-      "group": "N0n",
-      "country": "South Korea",
-      "sector": "Technology",
-      "discovered": "2026-10-21T19:54:47.947489+00:00",
-      "attack_date": "2026-10-21T19:54:25.243442+00:00",
-      "website": "",
-      "description": "IT services · South Korea | A complete corporate identity directory of an IT services company, 999 personnel accounts with names and corporate email addresses; The client staffing structure showing which personnel are seconded to major client organizations; Third party vendor accounts and their corp",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion#v-hist",
       "monitored": true
     }
   ],
@@ -3678,13 +3678,13 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 49,
+    "monitored_victims": 50,
     "unique_groups": 27,
-    "unique_countries": 29,
+    "unique_countries": 28,
     "by_country": {
       "United States": 25,
-      "Unknown": 21,
-      "Germany": 10,
+      "Unknown": 20,
+      "Germany": 12,
       "AR": 4,
       "Spain": 4,
       "Mexico": 3,
@@ -3709,23 +3709,22 @@
       "TN": 1,
       "Taiwan": 1,
       "BG": 1,
-      "Ireland": 1,
-      "South Korea": 1
+      "Ireland": 1
     },
     "by_group": {
-      "N0n": 18,
       "qilin": 17,
-      "BrainCipher": 8,
+      "N0n": 17,
+      "BrainCipher": 7,
       "krybit": 6,
       "lamashtu": 6,
       "lockbit5": 5,
       "akira": 5,
       "SilentRansomGroup": 5,
+      "emperador": 4,
       "rhysida": 3,
       "Whitearmor": 3,
       "thegentlemen": 3,
       "Deadlock": 2,
-      "emperador": 2,
       "Orova": 2,
       "bravox": 2,
       "everest": 2,
@@ -3742,18 +3741,18 @@
       "incransom": 1
     },
     "by_sector": {
-      "Not Found": 21,
-      "Manufacturing": 16,
+      "Not Found": 20,
+      "Manufacturing": 17,
       "Professional Services": 16,
-      "Technology": 11,
+      "Technology": 10,
       "Healthcare": 9,
       "Other": 9,
       "Retail & E-Commerce": 6,
+      "Energy & Utilities": 3,
       "Financial Services": 2,
       "Agriculture and Food Production": 2,
       "Transportation": 2,
       "Education": 2,
-      "Energy & Utilities": 2,
       "Hospitality": 2
     }
   },
