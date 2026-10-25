@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-25T21:29:39.121528+00:00",
+  "last_updated_utc": "2026-10-25T23:52:23.408660+00:00",
   "victims": [
     {
       "victim": "White & Case",
@@ -59,6 +59,18 @@
       "website": "",
       "description": "We encrypted your servers and stole some of your source code, along with some sensitive information. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. [Sector: Technology]",
       "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/a-rms/",
+      "monitored": false
+    },
+    {
+      "victim": "Yodingenierie",
+      "group": "Panzer",
+      "country": "BJ",
+      "sector": "Professional Services",
+      "discovered": "2026-10-25T17:55:57.455931+00:00",
+      "attack_date": "2026-10-25T12:37:07+00:00",
+      "website": "",
+      "description": "YOD Engineering is an engineering company computer science, member of the NED&CO Group , a pan-African player committed to transformation digital, information systems governance and innovation by intelligence artificial.",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/yodingenierie",
       "monitored": false
     },
     {
@@ -1186,18 +1198,6 @@
       "attack_date": "2026-10-22T07:26:33.127578+00:00",
       "website": "",
       "description": "diamond and lab grown diamond trading · New York, New York, United States | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": false
-    },
-    {
-      "victim": "Company #104",
-      "group": "N0n",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-10-22T07:26:14.546647+00:00",
-      "attack_date": "2026-10-22T07:25:56.119935+00:00",
-      "website": "",
-      "description": "Legal Services - Family Law (US) · California, USA | [PENDING EXPOSURE]",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
       "monitored": false
     }
@@ -3680,10 +3680,10 @@
     "total_victims": 100,
     "monitored_victims": 46,
     "unique_groups": 27,
-    "unique_countries": 30,
+    "unique_countries": 31,
     "by_country": {
       "United States": 25,
-      "Unknown": 21,
+      "Unknown": 20,
       "Germany": 8,
       "AR": 4,
       "Spain": 4,
@@ -3697,6 +3697,7 @@
       "Malaysia": 2,
       "Turkey": 2,
       "Italy": 2,
+      "BJ": 1,
       "Belgium": 1,
       "MM": 1,
       "China": 1,
@@ -3715,7 +3716,7 @@
     },
     "by_group": {
       "qilin": 23,
-      "N0n": 22,
+      "N0n": 21,
       "emperador": 7,
       "krybit": 6,
       "lockbit5": 5,
@@ -3725,13 +3726,13 @@
       "akira": 3,
       "SilentRansomGroup": 3,
       "Falcon": 2,
+      "Panzer": 2,
       "Deadlock": 2,
       "Orova": 2,
       "bravox": 2,
       "HYFLOCK": 1,
       "anubis": 1,
       "lamashtu": 1,
-      "Panzer": 1,
       "chaos": 1,
       "Doommageddon": 1,
       "sarcoma": 1,
@@ -3743,9 +3744,9 @@
       "everest": 1
     },
     "by_sector": {
-      "Not Found": 18,
+      "Not Found": 17,
       "Manufacturing": 16,
-      "Professional Services": 14,
+      "Professional Services": 15,
       "Technology": 14,
       "Healthcare": 8,
       "Retail & E-Commerce": 8,
