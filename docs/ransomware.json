@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-25T00:54:07.853088+00:00",
+  "last_updated_utc": "2026-10-25T05:46:00.364951+00:00",
   "victims": [
+    {
+      "victim": "Newcomer Cremations, Funerals & Receptions",
+      "group": "anubis",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-10-25T00:31:56.643577+00:00",
+      "attack_date": "2026-10-25T00:31:20.927348+00:00",
+      "website": "",
+      "description": "Customers' personal documents and the company's internal documents.",
+      "claim_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/cADQ8Jkbtn5C1uHUgOSy7MhG4AZEsyOS7U7m4RtAci7a+ZH1yzDdeAFPMZHJshlsPYVEYyCkU1bJSlIhA1NBFlxNkIxTzRW",
+      "monitored": true
+    },
+    {
+      "victim": "Hisense",
+      "group": "Whitearmor",
+      "country": "China",
+      "sector": "Technology",
+      "discovered": "2026-10-25T01:24:13.562658+00:00",
+      "attack_date": "2026-10-24T21:33:00+00:00",
+      "website": "",
+      "description": "Hisense is a Chinese multinational electronics and appliance manufacturer, founded in 1969, known globally for televisions and home appliances.\n\nWe hold Hisense's entire GCRM production document store, the full warranty-claims archive for Malaysia/Singapore: customer names, phones, emails, ID number",
+      "claim_url": "http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion",
+      "monitored": true
+    },
     {
       "victim": "Castle Howard Estate",
       "group": "qilin",
@@ -1176,30 +1200,6 @@
       "description": "[AI generated] N/A\n\nI don't have reliable, verified information about \"clinicaromero.com\" to provide an accurate factual description. Rather than guess based on the name alone (which suggests it could be a medical clinic, possibly in a Spanish-speaking country), I'd be fabricating details about its ",
       "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/clinicaromero-com",
       "monitored": false
-    },
-    {
-      "victim": "sodali.com",
-      "group": "BrainCipher",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-10-21T20:54:08.535201+00:00",
-      "attack_date": "2026-10-21T20:53:48.687410+00:00",
-      "website": "",
-      "description": "[AI generated] Sodali & Co is a global corporate governance and advisory firm providing services such as shareholder engagement, proxy solicitation, investor relations, M&A and contested situation advisory, ESG consulting, and governance analytics. Formed through the merger of Georgeson and Sodali, ",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/sodali-com",
-      "monitored": true
-    },
-    {
-      "victim": "srsnodgrass.com",
-      "group": "BrainCipher",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-10-21T20:53:28.795043+00:00",
-      "attack_date": "2026-10-21T20:53:12.403244+00:00",
-      "website": "",
-      "description": "[AI generated] N/A\n\nI don't have reliable, verified information about a company associated with the domain \"srsnodgrass.com.\" Rather than provide speculative or potentially inaccurate details about its operations, industry, or country of origin, I'm flagging this as unknown. If you have additional c",
-      "claim_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/srsnodgrass-com",
-      "monitored": true
     }
   ],
   "groups": [
@@ -3679,10 +3679,10 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 50,
-    "unique_groups": 27,
-    "unique_countries": 28,
+    "unique_groups": 28,
+    "unique_countries": 29,
     "by_country": {
-      "United States": 23,
+      "United States": 22,
       "Unknown": 20,
       "Germany": 12,
       "AR": 4,
@@ -3697,6 +3697,7 @@
       "Turkey": 2,
       "Italy": 2,
       "Switzerland": 2,
+      "China": 1,
       "EG": 1,
       "Portugal": 1,
       "Pakistan": 1,
@@ -3719,15 +3720,16 @@
       "lockbit5": 5,
       "akira": 5,
       "SilentRansomGroup": 5,
-      "BrainCipher": 5,
+      "Whitearmor": 4,
       "emperador": 4,
       "rhysida": 3,
-      "Whitearmor": 3,
       "thegentlemen": 3,
+      "BrainCipher": 3,
       "Deadlock": 2,
       "Orova": 2,
       "bravox": 2,
       "everest": 2,
+      "anubis": 1,
       "Panzer": 1,
       "chaos": 1,
       "Doommageddon": 1,
@@ -3743,11 +3745,11 @@
     "by_sector": {
       "Not Found": 20,
       "Manufacturing": 17,
-      "Professional Services": 16,
-      "Technology": 10,
+      "Professional Services": 14,
+      "Technology": 11,
       "Other": 9,
+      "Healthcare": 8,
       "Retail & E-Commerce": 7,
-      "Healthcare": 7,
       "Hospitality": 3,
       "Energy & Utilities": 3,
       "Financial Services": 2,
