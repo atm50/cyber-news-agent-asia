@@ -1,6 +1,18 @@
 {
-  "last_updated_utc": "2026-10-25T14:52:39.171859+00:00",
+  "last_updated_utc": "2026-10-25T18:12:09.624458+00:00",
   "victims": [
+    {
+      "victim": "Aesthetic Dental Designs, P.A",
+      "group": "HYFLOCK",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-10-25T11:53:17.559073+00:00",
+      "attack_date": "2026-10-25T11:18:53+00:00",
+      "website": "",
+      "description": "Aesthetic Dental Designs, P.A. (operating commercially as Dental Arts of Atlantis) is a fully licensed and accredited dental healthcare corporation headquartered at 5057 S Congress Ave, Suite 401, Lake Worth Beach, Florida (NPI: 1235501420). The practice is anchored by a distinguished clinical team,",
+      "claim_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1792927133207540290_t1VZ3aak",
+      "monitored": true
+    },
     {
       "victim": "AyT COMPUTERS SRL",
       "group": "emperador",
@@ -1188,18 +1200,6 @@
       "description": "Medienwerkstatt stands for digital and printed communication of the highest quality and disting\nuishes itself through an exceptional customer service. With more than 50 passionate talents for\nvarious offline and online disciplines, medienwerkstatt ag is one of the largest media service\nproviders in ",
       "claim_url": "https://www.ransomware.live/id/TWVkaWVud2Vya3N0YXR0QGFraXJh",
       "monitored": true
-    },
-    {
-      "victim": "Annapath",
-      "group": "akira",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-10-22T15:59:40.386628+00:00",
-      "attack_date": "2026-10-22T00:00:00+00:00",
-      "website": "",
-      "description": "Annapath, Inc. is a privately owned surgical and cytopathology laboratory that primarily focuse\ns on dermatopathology, serving clients in Maryland, Delaware, Pennsylvania, Washington D.C., Vi\nrginia, and West Virginia. The company offers a full range of anatomic and clinical pathology s\nervices, emp",
-      "claim_url": "https://www.ransomware.live/id/QW5uYXBhdGhAYWtpcmE=",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3678,12 +3678,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 47,
-    "unique_groups": 26,
+    "monitored_victims": 48,
+    "unique_groups": 27,
     "unique_countries": 29,
     "by_country": {
-      "United States": 23,
-      "Unknown": 22,
+      "United States": 24,
+      "Unknown": 21,
       "Germany": 11,
       "Spain": 4,
       "Switzerland": 3,
@@ -3718,8 +3718,8 @@
       "emperador": 6,
       "krybit": 6,
       "lockbit5": 5,
-      "akira": 5,
       "lamashtu": 4,
+      "akira": 4,
       "SilentRansomGroup": 4,
       "Whitearmor": 3,
       "rhysida": 3,
@@ -3728,6 +3728,7 @@
       "Orova": 2,
       "bravox": 2,
       "everest": 2,
+      "HYFLOCK": 1,
       "anubis": 1,
       "Panzer": 1,
       "chaos": 1,
@@ -3741,13 +3742,13 @@
       "spacebears": 1
     },
     "by_sector": {
-      "Not Found": 20,
+      "Not Found": 19,
       "Manufacturing": 16,
       "Professional Services": 14,
       "Technology": 13,
       "Retail & E-Commerce": 8,
+      "Healthcare": 7,
       "Other": 7,
-      "Healthcare": 6,
       "Energy & Utilities": 4,
       "Agriculture and Food Production": 3,
       "Hospitality": 3,
