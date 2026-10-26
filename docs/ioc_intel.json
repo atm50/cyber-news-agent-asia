@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-26T16:33:35.142223+00:00",
+  "last_updated_utc": "2026-10-26T21:25:03.470006+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -161,17 +161,6 @@
     },
     {
       "value": "102.220.160.237",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "102.220.160.67",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -348,6 +337,17 @@
     },
     {
       "value": "103.228.36.205",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.39.213.200",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -578,7 +578,29 @@
       "first_seen": ""
     },
     {
+      "value": "107.172.23.112",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "108.142.154.184",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "108.28.86.172",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -875,7 +897,7 @@
       "first_seen": ""
     },
     {
-      "value": "120.192.20.57",
+      "value": "119.97.184.93",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -886,7 +908,7 @@
       "first_seen": ""
     },
     {
-      "value": "120.48.0.142",
+      "value": "120.192.20.57",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -920,6 +942,17 @@
     },
     {
       "value": "121.160.25.114",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.228.250.70",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -1051,17 +1084,6 @@
       "first_seen": ""
     },
     {
-      "value": "130.12.182.144",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
       "value": "130.12.182.149",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1117,17 +1139,6 @@
       "first_seen": ""
     },
     {
-      "value": "130.12.182.231",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
       "value": "130.12.182.93",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1151,17 +1162,6 @@
     },
     {
       "value": "130.211.53.116",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "134.209.185.7",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2760,12 +2760,39 @@
       "context": "   144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    These IPs were seen accessing the G"
     },
     {
+      "value": "f82fd317860454606003aa9dc7efde284d851424730e229f19c50d60206311b8",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
+      "article_date": "2026-10-26T21:25:00.383190+00:00",
+      "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
+    },
+    {
+      "value": "CVE-2026-102785",
+      "type": "cve",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
+      "article_date": "2026-10-26T21:25:00.383190+00:00",
+      "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
+    },
+    {
+      "value": "168.144.251.199",
+      "type": "ip",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
+      "article_date": "2026-10-26T21:25:00.383190+00:00",
+      "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
+    },
+    {
       "value": "b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763ea7bd",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2774,7 +2801,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2783,7 +2810,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2792,7 +2819,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2801,7 +2828,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2810,7 +2837,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2819,7 +2846,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2828,7 +2855,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-26T16:33:33.458326+00:00",
+      "article_date": "2026-10-26T21:25:02.338626+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -2837,44 +2864,8 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-26T16:33:34.052575+00:00",
+      "article_date": "2026-10-26T21:25:02.966590+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
-    },
-    {
-      "value": "35fc649622dfea297cb2a37ce2b6a9f89733546a22a5d13410c96ff904126e92",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-09-C2Agent-malware.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-26T16:33:34.639310+00:00",
-      "context": "DICATORS\n\nSHA-256 HASHES FOR THE AGENT IN VERSION ORDER:\n\n- 35fc649622dfea297cb2a37ce2b6a9f89733546a22a5d13410c96ff90412"
-    },
-    {
-      "value": "e6ad79c9c792c0337c7d19ad5e6c9e9d94b6355a45460bef2c72000fc3197292",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-09-C2Agent-malware.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-26T16:33:34.639310+00:00",
-      "context": "de838c01f6a97 (v2.3, 2026-10-02, C:\\Windows\\a3qyudf3.exe)\n- e6ad79c9c792c0337c7d19ad5e6c9e9d94b6355a45460bef2c72000fc319"
-    },
-    {
-      "value": "18ad1fa64328c998a13cbae0c09f84114433c03872868475e455119a9acb9bed",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-09-C2Agent-malware.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-26T16:33:34.639310+00:00",
-      "context": " copilot.txt, newest)\n\nSHA-256 HASHES FOR THE V7 STAGER:\n\n- 18ad1fa64328c998a13cbae0c09f84114433c03872868475e455119a9acb"
-    },
-    {
-      "value": "316c71f65517016ad58770410ca639b9c3bfb2f23ccd341cdaaf13375c829a26",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-09-C2Agent-malware.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-09-C2Agent-malware.txt",
-      "article_date": "2026-10-26T16:33:34.639310+00:00",
-      "context": "4e40d2d8695ac29c6702482fb73b8c67bd6859d88c62 (2026-09-29)\n- 316c71f65517016ad58770410ca639b9c3bfb2f23ccd341cdaaf13375c82"
     }
   ],
   "cisa_kev": [
@@ -3431,12 +3422,12 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 67,
-    "total": 272,
+    "total_extracted": 66,
+    "total": 271,
     "by_type": {
-      "ip": 221,
-      "sha256": 31,
-      "cve": 14,
+      "ip": 222,
+      "sha256": 28,
+      "cve": 15,
       "md5": 5,
       "sha1": 1
     },
@@ -3445,8 +3436,8 @@
       "Binary Defense": 100,
       "Cisco Talos": 21,
       "Microsoft MSTIC": 19,
-      "Unit 42 (GitHub)": 13,
       "Unit 42": 12,
+      "Unit 42 (GitHub)": 12,
       "Feodo Tracker": 5,
       "Kaspersky Securelist": 2
     }
