@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-27T07:23:31.161686+00:00",
+  "last_updated_utc": "2026-10-27T14:02:26.060812+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2535,40 +2535,40 @@
       "context": ", issuer emSign Root CS CA - G3\n\n \n \n   CVE-2026-111943   Unlike languages that defer entirely "
     },
     {
-      "value": "5.191.140.240",
-      "type": "ip",
-      "source_name": "Cisco Talos",
-      "article_title": "Two critical RCEs in PHP core",
-      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
-      "context": "should prioritize.        Indicators of Compromise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124"
+      "value": "CVE-2026-25243",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure",
+      "article_url": "https://securelist.com/cloud-infrastructure-isolation-bypass/121609/",
+      "article_date": "Tue, 27 Oct 2026 12:00:19 +0000",
+      "context": "tware version in use was vulnerable to  CVE-2026-25243 . At the time of the analysis, no publi"
     },
     {
-      "value": "158.69.113.75",
+      "value": "100.64.0.0",
       "type": "ip",
-      "source_name": "Cisco Talos",
-      "article_title": "Two critical RCEs in PHP core",
-      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
-      "context": "ze.        Indicators of Compromise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124  45.198.224.16"
+      "source_name": "Kaspersky Securelist",
+      "article_title": "An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure",
+      "article_url": "https://securelist.com/cloud-infrastructure-isolation-bypass/121609/",
+      "article_date": "Tue, 27 Oct 2026 12:00:19 +0000",
+      "context": " attack vectors: \n \n We discovered an eth2 interface on the 100.64.0.0/10 subnet on the host. The cloud’s overlay networ"
     },
     {
-      "value": "94.154.43.149",
+      "value": "100.64.1.1",
       "type": "ip",
-      "source_name": "Cisco Talos",
-      "article_title": "Two critical RCEs in PHP core",
-      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
-      "context": "cators of Compromise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124  45.198.224.169  85.11.167.24"
+      "source_name": "Kaspersky Securelist",
+      "article_title": "An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure",
+      "article_url": "https://securelist.com/cloud-infrastructure-isolation-bypass/121609/",
+      "article_date": "Tue, 27 Oct 2026 12:00:19 +0000",
+      "context": "   \"discoveredLabels\": {\r\n           \"__address__\": \"http://100.64.1.1:6897/metrics\",\r\n           \"__meta_url\": \"CENSORE"
     },
     {
-      "value": "143.246.223.124",
+      "value": "192.0.2.1",
       "type": "ip",
-      "source_name": "Cisco Talos",
-      "article_title": "Two critical RCEs in PHP core",
-      "article_url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-      "article_date": "Wed, 21 Oct 2026 15:10:53 GMT",
-      "context": "omise (IoCs)   5.191.140.240  158.69.113.75  94.154.43.149  143.246.223.124  45.198.224.169  85.11.167.243  \n           "
+      "source_name": "Kaspersky Securelist",
+      "article_title": "An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure",
+      "article_url": "https://securelist.com/cloud-infrastructure-isolation-bypass/121609/",
+      "article_date": "Tue, 27 Oct 2026 12:00:19 +0000",
+      "context": "ker_processes\": 27\r\n }\r\n},\r\n\"standby_cluster\": {\r\n \"host\": \"192.0.2.1\",\r\n \"port\": 5432\r\n}\r\n}  \n\t\t\t \n\t\t\t\t \n\t\t\t\t\t \n\t\t\t\t \n\t"
     },
     {
       "value": "af8a983b9ada07eae1259bf2953abd40",
@@ -5501,7 +5501,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-27T07:23:28.377817+00:00",
+      "article_date": "2026-10-27T14:02:22.975896+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -5510,7 +5510,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-27T07:23:28.377817+00:00",
+      "article_date": "2026-10-27T14:02:22.975896+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -5519,7 +5519,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-27T07:23:28.377817+00:00",
+      "article_date": "2026-10-27T14:02:22.975896+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     },
     {
@@ -5528,7 +5528,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -5537,7 +5537,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -5546,7 +5546,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -5555,7 +5555,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -5564,7 +5564,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -5573,7 +5573,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -5582,7 +5582,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -5591,7 +5591,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-27T07:23:30.097198+00:00",
+      "article_date": "2026-10-27T14:02:24.922070+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -5600,7 +5600,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-27T07:23:30.658689+00:00",
+      "article_date": "2026-10-27T14:02:25.557392+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     }
   ],
@@ -6161,8 +6161,8 @@
     "total_extracted": 370,
     "total": 575,
     "by_type": {
-      "cve": 319,
-      "ip": 222,
+      "cve": 320,
+      "ip": 221,
       "sha256": 28,
       "md5": 5,
       "sha1": 1
@@ -6171,12 +6171,12 @@
       "SANS ISC": 304,
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Cisco Talos": 21,
       "Microsoft MSTIC": 19,
+      "Cisco Talos": 17,
       "Unit 42": 12,
       "Unit 42 (GitHub)": 12,
-      "Feodo Tracker": 5,
-      "Kaspersky Securelist": 2
+      "Kaspersky Securelist": 6,
+      "Feodo Tracker": 5
     }
   },
   "errors": [
