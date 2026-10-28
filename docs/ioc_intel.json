@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-28T17:08:47.669847+00:00",
+  "last_updated_utc": "2026-10-28T22:16:34.610481+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -457,6 +457,17 @@
       "first_seen": ""
     },
     {
+      "value": "104.155.100.236",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "104.155.17.130",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -513,6 +524,17 @@
     },
     {
       "value": "104.199.18.55",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "104.199.27.11",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -689,6 +711,17 @@
     },
     {
       "value": "116.110.1.213",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.110.147.250",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -897,6 +930,17 @@
       "first_seen": ""
     },
     {
+      "value": "116.99.170.110",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "116.99.171.150",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -963,6 +1007,17 @@
       "first_seen": ""
     },
     {
+      "value": "120.193.9.169",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "120.48.52.177",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -975,6 +1030,17 @@
     },
     {
       "value": "120.48.90.166",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "121.155.247.19",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -1096,72 +1162,6 @@
     },
     {
       "value": "129.121.129.187",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "129.45.84.193",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "130.12.180.32",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "130.12.181.23",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "130.12.182.122",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "130.12.182.223",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "130.12.182.224",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2274,22 +2274,31 @@
   ],
   "extracted_iocs": [
     {
+      "value": "CVE-2024-34102",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Unwrapping Retail Peak Season Cyber Threats",
+      "article_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+      "article_date": "Wed, 28 Oct 2026 18:00:10 +0000",
+      "context": "loited the  CosmicSting  vulnerability (CVE-2024-34102) to execute remote code on unpatched se"
+    },
+    {
       "value": "CVE-2026-109618",
       "type": "cve",
       "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
+      "article_title": "Unwrapping Retail Peak Season Cyber Threats",
+      "article_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+      "article_date": "Wed, 28 Oct 2026 18:00:10 +0000",
       "context": "Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) \n"
     },
     {
       "value": "CVE-2026-109619",
       "type": "cve",
       "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) \n\t \n\t \n\t \n\t \n\t \n\t "
+      "article_title": "Unwrapping Retail Peak Season Cyber Threats",
+      "article_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+      "article_date": "Wed, 28 Oct 2026 18:00:10 +0000",
+      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) \n         \n     \n "
     },
     {
       "value": "CVE-2026-10961",
@@ -2382,6 +2391,15 @@
       "context": " of BeyondTrust Critical Vulnerability (CVE-2026-1731) \n                   \n                 "
     },
     {
+      "value": "CVE-2026-20127",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+      "article_url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+      "article_date": "Wed, 28 Oct 2026 21:32:02 GMT",
+      "context": "highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability"
+    },
+    {
       "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
       "type": "sha256",
       "source_name": "Cisco Talos",
@@ -2452,87 +2470,6 @@
       "article_url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
       "article_date": "Thu, 22 Oct 2026 18:04:32 GMT",
       "context": "4c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1  MD5: 0c883b1d66afce606d9830f48d69d74b Talos Rep:  https://talosin"
-    },
-    {
-      "value": "e7568fe6e12331f4fd7de61da4c7559d0f8eb192a218d4741a3ba75184333838",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": "\n \n \nEM EV TLS CA - G3B (eMudhra BV), CCADB A012304\nSHA-256 E7568FE6E12331F4FD7DE61DA4C7559D0F8EB192A218D4741A3BA7518433"
-    },
-    {
-      "value": "98b896625c0c230adeec3eb2cf6aad5001ecf9156a68644e82374ce5833bc25b",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": " G3\n\nEM OV TLS CA - G3B (eMudhra BV), CCADB A012308\nSHA-256 98B896625C0C230ADEEC3EB2CF6AAD5001ECF9156A68644E82374CE5833B"
-    },
-    {
-      "value": "42c4accd12c4f59597925e1a08a7a90102608543809308d50ec427e118ba1493",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": " G3\n\nEM DV TLS CA - G3B (eMudhra BV), CCADB A012302\nSHA-256 42C4ACCD12C4F59597925E1A08A7A90102608543809308D50EC427E118BA"
-    },
-    {
-      "value": "432ec25f0d28de9006d97bf752f17bbb2cd41f669933fcb072d9a1148d0261f3",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": "G3\n\nEM EV TLS CA - G3C (eMudhra Inc), CCADB A012296\nSHA-256 432EC25F0D28DE9006D97BF752F17BBB2CD41F669933FCB072D9A1148D02"
-    },
-    {
-      "value": "cb6e15165ac802e9b3f993f16c25d41f4e81c21ebde71ae1b012ac00bf9c7c3f",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": "G3\n\nEM OV TLS CA - G3C (eMudhra Inc), CCADB A012300\nSHA-256 CB6E15165AC802E9B3F993F16C25D41F4E81C21EBDE71AE1B012AC00BF9C"
-    },
-    {
-      "value": "0164d7ceae5bb909c272af151ff44b1177ae9b47d9424b94f1d9558c30934d19",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": "G3\n\nEM DV TLS CA - G3C (eMudhra Inc), CCADB A012294\nSHA-256 0164D7CEAE5BB909C272AF151FF44B1177AE9B47D9424B94F1D9558C3093"
-    },
-    {
-      "value": "9e39de2881273acc225a149c72ba3e0f51424963669ab633ee1dc7df5db067b4",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": "- G3\n\nEM OV CS CA - G3B (eMudhra BV), CCADB A012306\nSHA-256 9E39DE2881273ACC225A149C72BA3E0F51424963669AB633EE1DC7DF5DB0"
-    },
-    {
-      "value": "4b2460a466f95fd40113bcdcca2ceb29b3b093921de45474da7df48874c630b1",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": " G3\n\nEM OV CS CA - G3C (eMudhra Inc), CCADB A012298\nSHA-256 4B2460A466F95FD40113BCDCCA2CEB29B3B093921DE45474DA7DF48874C6"
-    },
-    {
-      "value": "CVE-2026-111943",
-      "type": "cve",
-      "source_name": "Cisco Talos",
-      "article_title": "Compromised eMudhra intermediate certificates",
-      "article_url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-      "article_date": "Wed, 21 Oct 2026 20:43:29 GMT",
-      "context": ", issuer emSign Root CS CA - G3\n\n \n \n   CVE-2026-111943   Unlike languages that defer entirely "
     },
     {
       "value": "CVE-2026-25243",
@@ -2747,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-28T17:08:44.843893+00:00",
+      "article_date": "2026-10-28T22:16:31.863844+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2756,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-28T17:08:44.843893+00:00",
+      "article_date": "2026-10-28T22:16:31.863844+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2765,7 +2702,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-28T17:08:44.843893+00:00",
+      "article_date": "2026-10-28T22:16:31.863844+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     },
     {
@@ -2774,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2783,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2792,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2801,7 +2738,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2810,7 +2747,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2819,7 +2756,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2828,7 +2765,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2837,7 +2774,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-28T17:08:46.590840+00:00",
+      "article_date": "2026-10-28T22:16:33.543301+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -2846,11 +2783,33 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-28T17:08:47.166538+00:00",
+      "article_date": "2026-10-28T22:16:34.107144+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     }
   ],
   "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-41709",
+      "vendor": "Broadcom",
+      "product": "VMware ESX",
+      "name": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+      "date_added": "2026-10-28",
+      "due_date": "2026-11-11",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-46300",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+      "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+      "date_added": "2026-10-28",
+      "due_date": "2026-10-31",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-48356",
       "vendor": "Adobe",
@@ -3378,38 +3337,16 @@
       "due_date": "2026-09-19",
       "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-76460",
-      "vendor": "Cisco",
-      "product": "Identity Services Engine",
-      "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
-      "description": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
-      "date_added": "2026-09-16",
-      "due_date": "2026-09-19",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-87886",
-      "vendor": "Acronis",
-      "product": "Backup",
-      "name": "Acronis Backup Incorrect Default Permissions Vulnerability",
-      "description": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
-      "date_added": "2026-09-16",
-      "due_date": "2026-09-19",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
     }
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 64,
-    "total": 269,
+    "total_extracted": 57,
+    "total": 262,
     "by_type": {
       "ip": 221,
-      "sha256": 28,
-      "cve": 15,
+      "sha256": 20,
+      "cve": 16,
       "md5": 4,
       "sha1": 1
     },
@@ -3417,9 +3354,9 @@
       "Emerging Threats": 100,
       "Binary Defense": 100,
       "Microsoft MSTIC": 19,
-      "Cisco Talos": 17,
-      "Unit 42": 12,
+      "Unit 42": 13,
       "Unit 42 (GitHub)": 12,
+      "Cisco Talos": 9,
       "Feodo Tracker": 5,
       "Kaspersky Securelist": 4
     }
