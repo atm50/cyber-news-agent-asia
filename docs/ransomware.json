@@ -1,6 +1,54 @@
 {
-  "last_updated_utc": "2026-10-29T02:09:48.282089+00:00",
+  "last_updated_utc": "2026-10-29T09:28:25.984318+00:00",
   "victims": [
+    {
+      "victim": "Santiam Hospital & Clinics",
+      "group": "anubis",
+      "country": "United States",
+      "sector": "Healthcare",
+      "discovered": "2026-10-28T23:32:38.524137+00:00",
+      "attack_date": "2026-10-28T23:31:54.432809+00:00",
+      "website": "",
+      "description": "A major medical data breach.",
+      "claim_url": "http://anubisyfkh5rixydjpoo3jqucauajz2juybrbtuglcppjj2y3eg3y6ad.onion/r/nq9u4+YdH6O0Btja8GGfFCclUwfaUiA4JPpD1WSBOBmNpC1D1MADe1UbZ6Le5I34OzabZHvwaYzWjlWeqfDoQUZhUFY1MTNr",
+      "monitored": true
+    },
+    {
+      "victim": "Lowenstein Sandler LLP",
+      "group": "SilentRansomGroup",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-10-28T23:30:55.412982+00:00",
+      "attack_date": "2026-10-28T23:30:54.144910+00:00",
+      "website": "",
+      "description": "Founded in 1961 and headquartered in New York City, New York, Lowenstein Sandler is a national law fir…",
+      "claim_url": "https://www.ransomware.live/id/TG93ZW5zdGVpbiBTYW5kbGVyIExMUEBTaWxlbnRSYW5zb21Hcm91cA==",
+      "monitored": true
+    },
+    {
+      "victim": "susannecerda.com",
+      "group": "lockbit5",
+      "country": "Mexico",
+      "sector": "Not Found",
+      "discovered": "2026-10-29T04:03:09.015718+00:00",
+      "attack_date": "2026-10-28T21:47:00+00:00",
+      "website": "",
+      "description": "Die Unternehmensgruppe Susanne Cerdá bietet nicht nur Dienstleistungen im Bereich Unternehmensgründu...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/98851f019da8167a79f7e392f513b5a4",
+      "monitored": false
+    },
+    {
+      "victim": "xspringcapital.com",
+      "group": "lockbit5",
+      "country": "Singapore",
+      "sector": "Financial Services",
+      "discovered": "2026-10-29T04:03:54.440445+00:00",
+      "attack_date": "2026-10-28T21:42:00+00:00",
+      "website": "",
+      "description": "XSpring Capital Public Company Limited is a company that operates in the business of investing in va...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/ed9b39cc52e5ab03735c34039a652f5d",
+      "monitored": true
+    },
     {
       "victim": "Morrison Foerster",
       "group": "SilentRansomGroup",
@@ -74,18 +122,6 @@
       "monitored": false
     },
     {
-      "victim": "PQE Group",
-      "group": "Panzer",
-      "country": "",
-      "sector": "Professional Services",
-      "discovered": "2026-10-28T18:26:50.917009+00:00",
-      "attack_date": "2026-10-28T17:30:37+00:00",
-      "website": "",
-      "description": "Founded in 1998, PQE Group provides technology solutions and compliance consulting services to the Life Sciences industry. The company is headquartered in Reggello, Florence. Note : The Full Data volume is coming as duplicati (dindex.zip.aes), Our Team with our Affiliates will try to enum the PassPh",
-      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/pqe-group",
-      "monitored": false
-    },
-    {
       "victim": "Noelker and Hull",
       "group": "rhysida",
       "country": "United States",
@@ -112,14 +148,14 @@
     {
       "victim": "Marbre Design",
       "group": "payload",
-      "country": "",
+      "country": "France",
       "sector": "Manufacturing",
       "discovered": "2026-10-28T14:48:35.878124+00:00",
       "attack_date": "2026-10-28T14:47:38.408353+00:00",
       "website": "",
       "description": "Marbre Design is a French company specializing in the processing of natural stone, marble, granite, and composite materials. The enterprise custom-manufactures kitchen countertops, bathroom fixtures, fireplace surrounds, and interior architectural elements. Its core operations focus on precision cut",
       "claim_url": "http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/9dc5e696-700c-4c5d-88b7-396487d81128",
-      "monitored": false
+      "monitored": true
     },
     {
       "victim": "Company #112",
@@ -155,6 +191,18 @@
       "website": "",
       "description": "wagyu.xyz runs two rigged systems, both proven by the evidence:\n\n1. Rigged coinflip. The site advertises \"48% win chance, 4% house edge\" (coinflip-public-claim.txt, coinflip-public-terms.json), but server settings aimed for a 4.00% expected edge and the distribution of outcomes is measurably shifted",
       "claim_url": "http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion",
+      "monitored": false
+    },
+    {
+      "victim": "PQE Group",
+      "group": "Panzer",
+      "country": "Italy",
+      "sector": "Professional Services",
+      "discovered": "2026-10-28T18:26:50.917009+00:00",
+      "attack_date": "2026-10-28T00:00:00+00:00",
+      "website": "",
+      "description": "Founded in 1998, PQE Group provides technology solutions and compliance consulting services to the Life Sciences industry. The company is headquartered in Reggello, Florence. Note : The Full Data volume is coming as duplicati (dindex.zip.aes), Our Team with our Affiliates will try to enum the PassPh",
+      "claim_url": "http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/company/pqe-group",
       "monitored": false
     },
     {
@@ -228,30 +276,6 @@
       "description": "Ryder is a Fortune 500 transportation and supply chain management company providing fleet management, dedicated transportation, and logistics solutions.\n\nWhat we hold: 18.75M rows, 328 CSVs,  consumer names, phones, emails, driver/associate PII, cleartext API keys, LMS credentials, FTP/telematics co",
       "claim_url": "http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion",
       "monitored": true
-    },
-    {
-      "victim": "Machelen (Belgium)",
-      "group": "rhysida",
-      "country": "Belgium",
-      "sector": "Not Found",
-      "discovered": "2026-10-27T22:25:47.522037+00:00",
-      "attack_date": "2026-10-27T22:24:20.267452+00:00",
-      "website": "",
-      "description": "Machelen (Belgium) Machelen (Belgium) - municipal and social welfare (OCMW) file servers1.3 million files, ~2.9 TB. Working copy + backup copy (lawer2/lawer3). Language: Dutch, partly French.Contents:Social welfare and migration service client files: passports, ID cards, residence permits, sick note",
-      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=288",
-      "monitored": false
-    },
-    {
-      "victim": "https://t.me/whitearmorxd",
-      "group": "Whitearmor",
-      "country": "",
-      "sector": "Not Found",
-      "discovered": "2026-10-27T23:18:42.871402+00:00",
-      "attack_date": "2026-10-27T21:59:00+00:00",
-      "website": "",
-      "description": "Hi, join our telegram channel for fun.. i guess\n\nhttps://t.me/whitearmorxd",
-      "claim_url": "http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion",
-      "monitored": false
     },
     {
       "victim": "TWICE SRL",
@@ -1176,30 +1200,6 @@
       "description": "Mass tort litigation law firm - Our 82 GB extraction includes confidentiality agreements, stipulations, NDAs, internal board documents, privileged attorney-client communications, client rosters detailing medical conditions and settlement eligibility, active-case strategy documents, liability estimat",
       "claim_url": "http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/downloads/WeitzLuxenberg.7z",
       "monitored": true
-    },
-    {
-      "victim": "Astrana Health",
-      "group": "Falcon",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-10-25T14:53:02.969183+00:00",
-      "attack_date": "2026-10-25T14:52:59.950343+00:00",
-      "website": "",
-      "description": "Healthcare services Â· NASDAQ: ASTH - Our 738 GB extraction includes internal documents, regulatory audit reports, payer financial dispute trackers, internal operational readiness reviews, acquisition pipelines, detailed reimbursement tables, internal system evaluations, regulatory notifications, fu",
-      "claim_url": "http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/downloads/AstranaHealth.7z",
-      "monitored": true
-    },
-    {
-      "victim": "A-RMS",
-      "group": "emperador",
-      "country": "",
-      "sector": "Government & Defense",
-      "discovered": "2026-10-25T14:52:33.011354+00:00",
-      "attack_date": "2026-10-25T13:37:00+00:00",
-      "website": "",
-      "description": "We encrypted your servers and stole some of your source code, along with some sensitive information. If you do not pay the ransom, we will contact and attack your employees, clients, and partners to destroy your business. [Sector: Technology]",
-      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/a-rms/",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3678,49 +3678,51 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 61,
-    "unique_groups": 24,
+    "monitored_victims": 64,
+    "unique_groups": 26,
     "unique_countries": 20,
     "by_country": {
-      "United States": 38,
-      "Unknown": 26,
+      "United States": 39,
+      "Unknown": 22,
       "Germany": 8,
+      "Italy": 4,
       "United Kingdom": 4,
+      "Mexico": 3,
       "Malaysia": 3,
-      "Italy": 3,
-      "Belgium": 2,
-      "Mexico": 2,
+      "Singapore": 2,
+      "France": 2,
       "Canada": 2,
       "Spain": 2,
       "Israel": 1,
       "Denmark": 1,
+      "Belgium": 1,
       "Pakistan": 1,
       "United Arab Emirates": 1,
       "Philippines": 1,
-      "Singapore": 1,
-      "France": 1,
       "Australia": 1,
       "Turkey": 1,
       "AR": 1
     },
     "by_group": {
       "qilin": 19,
-      "Whitearmor": 11,
+      "Whitearmor": 10,
       "Booba Project": 10,
       "everest": 8,
       "play": 7,
-      "SilentRansomGroup": 5,
+      "SilentRansomGroup": 6,
       "payload": 5,
       "aurora": 4,
-      "emperador": 4,
-      "rhysida": 3,
       "N0n": 3,
       "akira": 3,
-      "Falcon": 3,
+      "emperador": 3,
+      "lockbit5": 2,
       "Wallstreet": 2,
+      "rhysida": 2,
       "crypto24": 2,
       "ULose": 2,
       "BYOD": 2,
+      "Falcon": 2,
+      "anubis": 1,
       "Global Secret Group": 1,
       "Panzer": 1,
       "direwolf": 1,
@@ -3730,18 +3732,18 @@
       "Doommageddon": 1
     },
     "by_sector": {
-      "Professional Services": 14,
-      "Not Found": 12,
+      "Professional Services": 15,
       "Healthcare": 12,
+      "Not Found": 11,
       "Manufacturing": 11,
       "Technology": 10,
       "Retail & E-Commerce": 8,
       "Energy & Utilities": 7,
+      "Financial Services": 6,
       "Education": 6,
       "Other": 6,
-      "Financial Services": 5,
-      "Government & Defense": 5,
-      "Transportation": 4
+      "Transportation": 4,
+      "Government & Defense": 4
     }
   },
   "errors": []

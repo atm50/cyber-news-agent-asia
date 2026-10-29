@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-29T02:09:46.640473+00:00",
+  "last_updated_utc": "2026-10-29T09:28:23.820568+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2472,6 +2472,33 @@
       "context": "4c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1  MD5: 0c883b1d66afce606d9830f48d69d74b Talos Rep:  https://talosin"
     },
     {
+      "value": "e4537a1762fcafd2fd96bfc825bad34f9db9a24d",
+      "type": "sha1",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
+      "article_url": "https://securelist.com/netamloader/121676/",
+      "article_date": "Thu, 29 Oct 2026 08:00:15 +0000",
+      "context": "omise \n File hashes \n  F2458ED133F8D0CA19E22C10F577E98E     e4537a1762fcafd2fd96bfc825bad34f9db9a24d \n E1DC6F1ED193594F2"
+    },
+    {
+      "value": "f2458ed133f8d0ca19e22c10f577e98e",
+      "type": "md5",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
+      "article_url": "https://securelist.com/netamloader/121676/",
+      "article_date": "Thu, 29 Oct 2026 08:00:15 +0000",
+      "context": "ulnerabilities. \n Indicators of Compromise \n File hashes \n  F2458ED133F8D0CA19E22C10F577E98E     e4537a1762fcafd2fd96bfc"
+    },
+    {
+      "value": "1.0.0.0",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
+      "article_url": "https://securelist.com/netamloader/121676/",
+      "article_date": "Thu, 29 Oct 2026 08:00:15 +0000",
+      "context": "embly  value=\"Microsoft.HostIntegration.Connectors, Version=1.0.0.0, \r\n                    Culture=neutral, PublicKeyTok"
+    },
+    {
       "value": "CVE-2026-25243",
       "type": "cve",
       "source_name": "Kaspersky Securelist",
@@ -2684,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-29T02:09:43.679215+00:00",
+      "article_date": "2026-10-29T09:28:20.809574+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2693,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-29T02:09:43.679215+00:00",
+      "article_date": "2026-10-29T09:28:20.809574+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2702,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-29T02:09:43.679215+00:00",
+      "article_date": "2026-10-29T09:28:20.809574+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     },
     {
@@ -2711,7 +2738,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2720,7 +2747,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2729,7 +2756,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2738,7 +2765,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2747,7 +2774,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2756,7 +2783,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2765,7 +2792,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2774,7 +2801,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T02:09:45.502066+00:00",
+      "article_date": "2026-10-29T09:28:22.639514+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     },
     {
@@ -2783,7 +2810,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-29T02:09:46.138284+00:00",
+      "article_date": "2026-10-29T09:28:23.317192+00:00",
       "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     }
   ],
@@ -3341,14 +3368,14 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 57,
-    "total": 262,
+    "total_extracted": 60,
+    "total": 265,
     "by_type": {
-      "ip": 221,
+      "ip": 222,
       "sha256": 20,
       "cve": 16,
-      "md5": 4,
-      "sha1": 1
+      "md5": 5,
+      "sha1": 2
     },
     "by_source": {
       "Emerging Threats": 100,
@@ -3357,8 +3384,8 @@
       "Unit 42": 13,
       "Unit 42 (GitHub)": 12,
       "Cisco Talos": 9,
-      "Feodo Tracker": 5,
-      "Kaspersky Securelist": 4
+      "Kaspersky Securelist": 7,
+      "Feodo Tracker": 5
     }
   },
   "errors": [
