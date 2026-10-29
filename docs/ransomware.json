@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-29T09:28:25.984318+00:00",
+  "last_updated_utc": "2026-10-29T16:39:54.647217+00:00",
   "victims": [
+    {
+      "victim": "MAA Group Consulting Engineers",
+      "group": "emperador",
+      "country": "",
+      "sector": "Professional Services",
+      "discovered": "2026-10-29T10:21:43.189083+00:00",
+      "attack_date": "2026-10-29T09:08:00+00:00",
+      "website": "",
+      "description": "MAA Group Consulting Engineers is a leading regional engineering and consulting service provider founded in 1975, with over 1,000 professionals operating across East and Southeast Asia. The group provides comprehensive integrated solutions—ranging from conceptual planning and engineering design to p",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/maa-group-consulting-engineers/",
+      "monitored": false
+    },
+    {
+      "victim": "ClaimTek Systems",
+      "group": "rhysida",
+      "country": "",
+      "sector": "Financial Services",
+      "discovered": "2026-10-29T09:07:28.112468+00:00",
+      "attack_date": "2026-10-29T09:06:56.581515+00:00",
+      "website": "",
+      "description": "ClaimTek Systems ClaimTek Systems specializes in preparing individuals for successful entry into the medical billing and practice management business with a comprehensive training and support system. They offer a range of scalable products and services, including state-of-the-art billing software an",
+      "claim_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=292",
+      "monitored": false
+    },
     {
       "victim": "Santiam Hospital & Clinics",
       "group": "anubis",
@@ -40,14 +64,14 @@
     {
       "victim": "xspringcapital.com",
       "group": "lockbit5",
-      "country": "Singapore",
+      "country": "Thailand",
       "sector": "Financial Services",
       "discovered": "2026-10-29T04:03:54.440445+00:00",
       "attack_date": "2026-10-28T21:42:00+00:00",
       "website": "",
       "description": "XSpring Capital Public Company Limited is a company that operates in the business of investing in va...",
       "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/ed9b39cc52e5ab03735c34039a652f5d",
-      "monitored": true
+      "monitored": false
     },
     {
       "victim": "Morrison Foerster",
@@ -1176,30 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=adf72c1b-5f84-4959-bf7d-f579627226d8",
       "monitored": true
-    },
-    {
-      "victim": "Partido Liberal",
-      "group": "Whitearmor",
-      "country": "AR",
-      "sector": "Government & Defense",
-      "discovered": "2026-10-25T16:56:33.851704+00:00",
-      "attack_date": "2026-10-25T16:00:00+00:00",
-      "website": "",
-      "description": "Brazil's Liberal Party (PL) is the political party of the Bolsonaro family. Although named \"Liberal,\" it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party's presidential candidate, advocating red",
-      "claim_url": "http://whitearz6uvtfdefgsc4r3mzmyswtte65k5umcmv6cu6zhi4l5k4irad.onion",
-      "monitored": false
-    },
-    {
-      "victim": "Weitz & Luxenberg",
-      "group": "Falcon",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-10-25T15:52:01.178008+00:00",
-      "attack_date": "2026-10-25T15:51:58.187696+00:00",
-      "website": "",
-      "description": "Mass tort litigation law firm - Our 82 GB extraction includes confidentiality agreements, stipulations, NDAs, internal board documents, privileged attorney-client communications, client rosters detailing medical conditions and settlement eligibility, active-case strategy documents, liability estimat",
-      "claim_url": "http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion/downloads/WeitzLuxenberg.7z",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1578,7 +1578,7 @@
     {
       "name": "Scarlettgroup",
       "description": "Leaks are uploaded to QU.AX service",
-      "locations": 3,
+      "locations": 5,
       "meta": ""
     },
     {
@@ -3678,55 +3678,55 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 64,
+    "monitored_victims": 62,
     "unique_groups": 26,
     "unique_countries": 20,
     "by_country": {
-      "United States": 39,
-      "Unknown": 22,
+      "United States": 38,
+      "Unknown": 24,
       "Germany": 8,
       "Italy": 4,
       "United Kingdom": 4,
       "Mexico": 3,
       "Malaysia": 3,
-      "Singapore": 2,
       "France": 2,
       "Canada": 2,
       "Spain": 2,
+      "Thailand": 1,
       "Israel": 1,
       "Denmark": 1,
       "Belgium": 1,
       "Pakistan": 1,
       "United Arab Emirates": 1,
       "Philippines": 1,
+      "Singapore": 1,
       "Australia": 1,
-      "Turkey": 1,
-      "AR": 1
+      "Turkey": 1
     },
     "by_group": {
       "qilin": 19,
-      "Whitearmor": 10,
       "Booba Project": 10,
+      "Whitearmor": 9,
       "everest": 8,
       "play": 7,
       "SilentRansomGroup": 6,
       "payload": 5,
+      "emperador": 4,
       "aurora": 4,
+      "rhysida": 3,
       "N0n": 3,
       "akira": 3,
-      "emperador": 3,
       "lockbit5": 2,
       "Wallstreet": 2,
-      "rhysida": 2,
       "crypto24": 2,
       "ULose": 2,
       "BYOD": 2,
-      "Falcon": 2,
       "anubis": 1,
       "Global Secret Group": 1,
       "Panzer": 1,
       "direwolf": 1,
       "genesis": 1,
+      "Falcon": 1,
       "dragonforce": 1,
       "pear": 1,
       "Doommageddon": 1
@@ -3738,12 +3738,12 @@
       "Manufacturing": 11,
       "Technology": 10,
       "Retail & E-Commerce": 8,
+      "Financial Services": 7,
       "Energy & Utilities": 7,
-      "Financial Services": 6,
       "Education": 6,
       "Other": 6,
       "Transportation": 4,
-      "Government & Defense": 4
+      "Government & Defense": 3
     }
   },
   "errors": []
