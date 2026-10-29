@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-29T16:39:52.637795+00:00",
+  "last_updated_utc": "2026-10-29T21:34:53.481511+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -105,6 +105,17 @@
       "first_seen": ""
     },
     {
+      "value": "101.47.152.216",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "101.47.28.226",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -194,17 +205,6 @@
     },
     {
       "value": "102.220.161.173",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "102.220.161.27",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -611,6 +611,17 @@
       "first_seen": ""
     },
     {
+      "value": "107.170.19.20",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "107.172.23.112",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -689,6 +700,17 @@
     },
     {
       "value": "114.130.253.3",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "115.160.97.208",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -974,6 +996,17 @@
       "first_seen": ""
     },
     {
+      "value": "118.70.239.231",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "119.28.84.193",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1062,6 +1095,17 @@
       "first_seen": ""
     },
     {
+      "value": "121.178.185.141",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "121.228.250.70",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1118,50 +1162,6 @@
     },
     {
       "value": "123.180.188.162",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "123.60.5.93",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "125.124.175.173",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "128.14.232.142",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "129.121.129.187",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2274,6 +2274,114 @@
   ],
   "extracted_iocs": [
     {
+      "value": "CVE-2026-109618",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) \n"
+    },
+    {
+      "value": "CVE-2026-109619",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) \n\t \n\t \n\t \n\t \n\t \n\t "
+    },
+    {
+      "value": "CVE-2026-10961",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": " \"php|multipart|upload.progress|longjmp|CVE-2026-10961[89]\"\r\n| comp count() as hits, count_dis"
+    },
+    {
+      "value": "CVE-2026-0257",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": " Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) \n                 "
+    },
+    {
+      "value": "CVE-2026-88771",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "      Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wil"
+    },
+    {
+      "value": "CVE-2026-88772",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": " NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated Septembe"
+    },
+    {
+      "value": "CVE-2025-40947",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "\t\t Command injection \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t"
+    },
+    {
+      "value": "CVE-2025-40948",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t                   \n              "
+    },
+    {
+      "value": "CVE-2026-0300",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "       \n                   \n\t\t\t\t \n\t\t\t\t\t CVE-2026-0300 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t EarthWorm \n\t\t\t\t \n\t\t\t"
+    },
+    {
+      "value": "CVE-2026-31431",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "\t\t \n\t\t\t\t\t Containers \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2026-31431 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t Kubernetes \n\t\t\t\t    "
+    },
+    {
+      "value": "CVE-2023-33538",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": "eep Dive Into Attempted Exploitation of CVE-2023-33538 \n                   \n                  "
+    },
+    {
+      "value": "CVE-2026-1731",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
+      "context": " of BeyondTrust Critical Vulnerability (CVE-2026-1731) \n                   \n                 "
+    },
+    {
       "value": "CVE-2024-34102",
       "type": "cve",
       "source_name": "Unit 42",
@@ -2283,112 +2391,94 @@
       "context": "loited the  CosmicSting  vulnerability (CVE-2024-34102) to execute remote code on unpatched se"
     },
     {
-      "value": "CVE-2026-109618",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Unwrapping Retail Peak Season Cyber Threats",
-      "article_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
-      "article_date": "Wed, 28 Oct 2026 18:00:10 +0000",
-      "context": "Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) \n"
+      "value": "73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "e files from Talos telemetry over the past week     SHA256: 73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea"
     },
     {
-      "value": "CVE-2026-109619",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Unwrapping Retail Peak Season Cyber Threats",
-      "article_url": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
-      "article_date": "Wed, 28 Oct 2026 18:00:10 +0000",
-      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) \n         \n     \n "
+      "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "SAuto++.exe  Detection Name: HackTool:WZTeam-tpd    SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffc"
     },
     {
-      "value": "CVE-2026-10961",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": " \"php|multipart|upload.progress|longjmp|CVE-2026-10961[89]\"\r\n| comp count() as hits, count_dis"
+      "value": "7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "exe  Detection Name: W32.9F1F11A708-100.SBX.TG**    SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d"
     },
     {
-      "value": "CVE-2026-0257",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": " Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) \n                 "
+      "value": "58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "997f.exe  Detection Name: Win.Tool.Kmsauto::1201    SHA256: 58d6fec4ba24c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b71"
     },
     {
-      "value": "CVE-2026-88771",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "      Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wil"
+      "value": "fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "et.exe  Detection Name: W32.58D6FEC4BA-95.SBX.TG    SHA256: fed979f93bcaf4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509"
     },
     {
-      "value": "CVE-2026-88772",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": " NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated Septembe"
+      "value": "0cf0271c3564881fce95f44c649bd745",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "60418c2271b863c567e40e842adbab3c57023cb72de590ea377d   MD5: 0cf0271c3564881fce95f44c649bd745  Talos Rep:   https://talos"
     },
     {
-      "value": "CVE-2025-40947",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "\t\t Command injection \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t"
+      "value": "2915b3f8b703eb744fc54c81f4a9c67f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "93e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507   MD5: 2915b3f8b703eb744fc54c81f4a9c67f  Talos Rep:   https://talos"
     },
     {
-      "value": "CVE-2025-40948",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t                   \n              "
+      "value": "cca616647db9370c88998ae25da6997f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "fdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f   MD5: cca616647db9370c88998ae25da6997f  Talos Rep:   https://talos"
     },
     {
-      "value": "CVE-2026-0300",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "       \n                   \n\t\t\t\t \n\t\t\t\t\t CVE-2026-0300 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t EarthWorm \n\t\t\t\t \n\t\t\t"
+      "value": "f1fe671bcefd4630e5ed8b87c9283534",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "c32d38c9a0c7c39df3cb0e91f500b323e841121d703c7b718681   MD5: f1fe671bcefd4630e5ed8b87c9283534  Talos Rep:   https://talos"
     },
     {
-      "value": "CVE-2026-31431",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "\t\t \n\t\t\t\t\t Containers \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2026-31431 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t Kubernetes \n\t\t\t\t    "
-    },
-    {
-      "value": "CVE-2023-33538",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": "eep Dive Into Attempted Exploitation of CVE-2023-33538 \n                   \n                  "
-    },
-    {
-      "value": "CVE-2026-1731",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Fri, 23 Oct 2026 19:00:34 +0000",
-      "context": " of BeyondTrust Critical Vulnerability (CVE-2026-1731) \n                   \n                 "
+      "value": "207d9d891ac756b2bfad88aba5682c65",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "A quiet week in infosec <.<",
+      "article_url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+      "article_date": "Thu, 29 Oct 2026 18:00:00 GMT",
+      "context": "f4e73ebd25748093a92095d5109cbd01d55f97bdc50ce509ad2f   MD5: 207d9d891ac756b2bfad88aba5682c65  Talos Rep:   https://talos"
     },
     {
       "value": "CVE-2023-20198",
@@ -2407,15 +2497,6 @@
       "article_url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
       "article_date": "Thu, 29 Oct 2026 10:00:00 GMT",
       "context": "ctor hosted the NIK C2 framework on a server at IP address “87.120.196.120”, resolving the domain “total-sitevv.lol”. Th"
-    },
-    {
-      "value": "CVE-2026-20127",
-      "type": "cve",
-      "source_name": "Cisco Talos",
-      "article_title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
-      "article_url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
-      "article_date": "Wed, 28 Oct 2026 21:32:02 GMT",
-      "context": "highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability"
     },
     {
       "value": "e4537a1762fcafd2fd96bfc825bad34f9db9a24d",
@@ -2481,175 +2562,49 @@
       "context": "ker_processes\": 27\r\n }\r\n},\r\n\"standby_cluster\": {\r\n \"host\": \"192.0.2.1\",\r\n \"port\": 5432\r\n}\r\n}  \n\t\t\t \n\t\t\t\t \n\t\t\t\t\t \n\t\t\t\t \n\t"
     },
     {
-      "value": "9dd0a3926f96a37eb86cf1ee2310d9be93139cc4ebef3ef9e2efe9531390be25",
+      "value": "d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1f1c7",
       "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "ent match. \n\n\n  \nDeviceFileEvents\n| where SHA256 in~ (\n    \"9dd0a3926f96a37eb86cf1ee2310d9be93139cc4ebef3ef9e2efe9531390"
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_date": "2026-10-29T21:34:50.491535+00:00",
+      "context": "gent installers used in this campaign:\n \n  -- SHA-256 hash: d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1"
     },
     {
-      "value": "03ac2a8b752605d1d7710979c17ff18b03dd978203ba23ba97fd8ce3d6f897ea",
+      "value": "24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa8b49",
       "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "39cc4ebef3ef9e2efe9531390be25  SHA-256  cook.py, variant    03ac2a8b752605d1d7710979c17ff18b03dd978203ba23ba97fd8ce3d6f8"
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_date": "2026-10-29T21:34:50.491535+00:00",
+      "context": "79e8d1f1c7\n  -- File name: Docusign.exe\n\n  -- SHA-256 hash: 24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa"
     },
     {
-      "value": "34bef04fe88ac9d0aae0475630b1738681d15b94f233ac8aa46eacf5968305fa",
+      "value": "8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe18516024649",
       "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "7fd8ce3d6f897ea  SHA-256  cook.py, Windows wheel variant    34bef04fe88ac9d0aae0475630b1738681d15b94f233ac8aa46eacf59683"
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_date": "2026-10-29T21:34:50.491535+00:00",
+      "context": "7aa8b49\n  -- File name: documentpdf.exe\n\n  -- SHA-256 hash: 8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe1851602"
     },
     {
-      "value": "b6122440d0d9cb1eb1ade9933f49214da8c31288de7710c076c2680dfa528465",
+      "value": "65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb96566",
       "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "ac8aa46eacf5968305fa  SHA-256  sitecustomize.py, variant    b6122440d0d9cb1eb1ade9933f49214da8c31288de7710c076c2680dfa52"
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_date": "2026-10-29T21:34:50.491535+00:00",
+      "context": "be18516024649\n  -- File name: Evite.exe\n\n  -- SHA-256 hash: 65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb9"
     },
     {
-      "value": "7f191632e7320705d154b85204f1ae546b543acbd7e8861229b76f5042b92bdb",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "528465  SHA-256  sitecustomize.py, Windows wheel variant    7f191632e7320705d154b85204f1ae546b543acbd7e8861229b76f5042b9"
-    },
-    {
-      "value": "84dc8c82c0a4a4a62552ef826b49fcc86d1a5c4a5d0f2c06665723f93d129d7d",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "1ae546b543acbd7e8861229b76f5042b92bdb  SHA-256  cook.pth    84dc8c82c0a4a4a62552ef826b49fcc86d1a5c4a5d0f2c06665723f93d12"
-    },
-    {
-      "value": "7598727f209d717041db37f7dca271d3a7d328a279890e0e1d55375729aeb86d",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "36c0bb  file  Marker written after stolen data was sent.    7598727f209d717041db37f7dca271d3a7d328a279890e0e1d55375729ae"
-    },
-    {
-      "value": "0aaf7ba346d41ef2f40390436738b001180d5a1c03aa093f121078a9969d9a1a",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "-256  litellm-1.107.0-cp310-abi3-macosx_10_12_x86_64.whl    0aaf7ba346d41ef2f40390436738b001180d5a1c03aa093f121078a9969d"
-    },
-    {
-      "value": "668169d35b87bf51324080390b1b1c5ab12bd335cfe5f1a99e3689abd5e02ae6",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "HA-256  litellm-1.107.0-cp310-abi3-macosx_11_0_arm64.whl    668169d35b87bf51324080390b1b1c5ab12bd335cfe5f1a99e3689abd5e0"
-    },
-    {
-      "value": "462d0c9f67ca522d9e0e4acd245e90b36ce0d5353604a66bb7c43a1ec4a6fcf7",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "6  litellm-1.107.0-cp310-abi3-manylinux_2_28_aarch64.whl    462d0c9f67ca522d9e0e4acd245e90b36ce0d5353604a66bb7c43a1ec4a6"
-    },
-    {
-      "value": "c2e32d0ce2548aa662c18bf5001911a79fe5b30cf8357132275add02fdcde054",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "56  litellm-1.107.0-cp310-abi3-manylinux_2_28_x86_64.whl    c2e32d0ce2548aa662c18bf5001911a79fe5b30cf8357132275add02fdcd"
-    },
-    {
-      "value": "1bbce8caa94f01c0aaa0b7ddae51553a8a32e1ce53d96d44fe583272aff7ad00",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "56  litellm-1.107.0-cp310-abi3-musllinux_1_2_aarch64.whl    1bbce8caa94f01c0aaa0b7ddae51553a8a32e1ce53d96d44fe583272aff7"
-    },
-    {
-      "value": "12d4ccc5c6f8d35cf4f2cf233b7f3e418e863e657d81ff5f5fc9e210005b9484",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "article_date": "Fri, 23 Oct 2026 18:12:19 +0000",
-      "context": "256  litellm-1.107.0-cp310-abi3-musllinux_1_2_x86_64.whl    12d4ccc5c6f8d35cf4f2cf233b7f3e418e863e657d81ff5f5fc9e210005b"
-    },
-    {
-      "value": "144.172.64.99",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "itional indicators with one IP address matching exactly the 144.172.64.99 infrastructure responsible for the earlier pas"
-    },
-    {
-      "value": "144.172.64.128",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "omise (IOC) \n\n\n\n      Indicator    Type    Description      144.172.64.128    IP    These IPs were seen performing Sign-"
-    },
-    {
-      "value": "144.172.64.60",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "ronments of ConnectWise apps.      144.172.64.99    IP      144.172.64.60    IP      187.15.88.186   187.15.90.217   187"
-    },
-    {
-      "value": "187.15.88.186",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "pps.      144.172.64.99    IP      144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    The"
-    },
-    {
-      "value": "187.15.90.217",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "2.64.99    IP      144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    These IPs were seen"
-    },
-    {
-      "value": "187.15.89.186",
-      "type": "ip",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "article_date": "Wed, 21 Oct 2026 18:23:55 +0000",
-      "context": "   144.172.64.60    IP      187.15.88.186   187.15.90.217   187.15.89.186      IP    These IPs were seen accessing the G"
+      "value": "6d9ed879adc48c1b0eba4058a5c6511a5dd07c63",
+      "type": "sha1",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
+      "article_date": "2026-10-29T21:34:50.491535+00:00",
+      "context": "ZECURIT TECHNOLOGIES PRIVATE LIMITED\n  -- SHA-1 thumbprint: 6D9ED879ADC48C1B0EBA4058A5C6511A5DD07C63\n- Indicators to hun"
     },
     {
       "value": "f82fd317860454606003aa9dc7efde284d851424730e229f19c50d60206311b8",
@@ -2657,7 +2612,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-29T16:39:49.487565+00:00",
+      "article_date": "2026-10-29T21:34:51.102182+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2666,7 +2621,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-29T16:39:49.487565+00:00",
+      "article_date": "2026-10-29T21:34:51.102182+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2675,7 +2630,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-29T16:39:49.487565+00:00",
+      "article_date": "2026-10-29T21:34:51.102182+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     },
     {
@@ -2684,7 +2639,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
     },
     {
@@ -2693,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
     },
     {
@@ -2702,7 +2657,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
     },
     {
@@ -2711,7 +2666,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
     },
     {
@@ -2720,7 +2675,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
     },
     {
@@ -2729,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
     },
     {
@@ -2738,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
     },
     {
@@ -2747,20 +2702,33 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-29T16:39:51.467339+00:00",
+      "article_date": "2026-10-29T21:34:52.979336+00:00",
       "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
-    },
-    {
-      "value": "b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a170750",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-12-MSI-impersonating-PuTTY-delivers-malware.txt",
-      "article_date": "2026-10-29T16:39:52.134662+00:00",
-      "context": "): 1835187f-121a-4103-832f-24649a461cac\n\nSHA-256 HASHES:\n\n- b59d9c911f11ddbe5ac0cd7e2e6e311093a44ac31453b5cab801c31f6a17"
     }
   ],
   "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-97229",
+      "vendor": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "name": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+      "date_added": "2026-10-29",
+      "due_date": "2026-11-01",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-76418",
+      "vendor": "Cisco",
+      "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "name": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+      "date_added": "2026-10-29",
+      "due_date": "2026-11-01",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-41709",
       "vendor": "Broadcom",
@@ -3288,50 +3256,27 @@
       "due_date": "2026-09-21",
       "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2025-39682",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-      "description": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-      "date_added": "2026-09-18",
-      "due_date": "2026-09-21",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-58704",
-      "vendor": "Google",
-      "product": "Pixel",
-      "name": "Google Pixel Improper Authorization Vulnerability",
-      "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
-      "date_added": "2026-09-16",
-      "due_date": "2026-09-19",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
     }
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 54,
-    "total": 259,
+    "total_extracted": 48,
+    "total": 253,
     "by_type": {
-      "ip": 223,
-      "cve": 17,
-      "sha256": 16,
-      "sha1": 2,
-      "md5": 1
+      "ip": 217,
+      "cve": 16,
+      "sha256": 11,
+      "md5": 6,
+      "sha1": 3
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Microsoft MSTIC": 19,
+      "Unit 42 (GitHub)": 16,
       "Unit 42": 13,
-      "Unit 42 (GitHub)": 12,
+      "Cisco Talos": 12,
       "Kaspersky Securelist": 7,
-      "Feodo Tracker": 5,
-      "Cisco Talos": 3
+      "Feodo Tracker": 5
     }
   },
   "errors": [
