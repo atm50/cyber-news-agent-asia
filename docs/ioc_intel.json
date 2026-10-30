@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-30T15:37:12.269437+00:00",
+  "last_updated_utc": "2026-10-30T20:28:12.727637+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2535,12 +2535,66 @@
       "context": "embly  value=\"Microsoft.HostIntegration.Connectors, Version=1.0.0.0, \r\n                    Culture=neutral, PublicKeyTok"
     },
     {
+      "value": "85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17",
+      "type": "sha256",
+      "source_name": "Microsoft MSTIC",
+      "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+      "article_date": "Fri, 30 Oct 2026 16:11:44 +0000",
+      "context": "of compromise (IOC) \n\n\n\n      Indicator    Type    Role     85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da10"
+    },
+    {
+      "value": "f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001",
+      "type": "sha256",
+      "source_name": "Microsoft MSTIC",
+      "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+      "article_date": "Fri, 30 Oct 2026 16:11:44 +0000",
+      "context": "14043aec0da109f17  SHA-256   Initial Access Java Script     f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46"
+    },
+    {
+      "value": "06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7",
+      "type": "sha256",
+      "source_name": "Microsoft MSTIC",
+      "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+      "article_date": "Fri, 30 Oct 2026 16:11:44 +0000",
+      "context": "bb5446e2e46f001  SHA-256   Initial Access python script     06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad41114"
+    },
+    {
+      "value": "31.40.205.155",
+      "type": "ip",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
+      "article_date": "2026-10-30T20:28:07.452446+00:00",
+      "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
+    },
+    {
+      "value": "103.100.158.103",
+      "type": "ip",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
+      "article_date": "2026-10-30T20:28:07.452446+00:00",
+      "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
+    },
+    {
+      "value": "152.233.51.12",
+      "type": "ip",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
+      "article_date": "2026-10-30T20:28:07.452446+00:00",
+      "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
+    },
+    {
       "value": "d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1f1c7",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-30T15:37:09.291402+00:00",
+      "article_date": "2026-10-30T20:28:08.101993+00:00",
       "context": "gent installers used in this campaign:\n \n  -- SHA-256 hash: d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1"
     },
     {
@@ -2549,7 +2603,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-30T15:37:09.291402+00:00",
+      "article_date": "2026-10-30T20:28:08.101993+00:00",
       "context": "79e8d1f1c7\n  -- File name: Docusign.exe\n\n  -- SHA-256 hash: 24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa"
     },
     {
@@ -2558,7 +2612,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-30T15:37:09.291402+00:00",
+      "article_date": "2026-10-30T20:28:08.101993+00:00",
       "context": "7aa8b49\n  -- File name: documentpdf.exe\n\n  -- SHA-256 hash: 8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe1851602"
     },
     {
@@ -2567,7 +2621,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-30T15:37:09.291402+00:00",
+      "article_date": "2026-10-30T20:28:08.101993+00:00",
       "context": "be18516024649\n  -- File name: Evite.exe\n\n  -- SHA-256 hash: 65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb9"
     },
     {
@@ -2576,7 +2630,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-30T15:37:09.291402+00:00",
+      "article_date": "2026-10-30T20:28:08.101993+00:00",
       "context": "ZECURIT TECHNOLOGIES PRIVATE LIMITED\n  -- SHA-1 thumbprint: 6D9ED879ADC48C1B0EBA4058A5C6511A5DD07C63\n- Indicators to hun"
     },
     {
@@ -2585,7 +2639,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-30T15:37:09.922796+00:00",
+      "article_date": "2026-10-30T20:28:10.936471+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2594,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-30T15:37:09.922796+00:00",
+      "article_date": "2026-10-30T20:28:10.936471+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2603,83 +2657,33 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-30T15:37:09.922796+00:00",
+      "article_date": "2026-10-30T20:28:10.936471+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
-    },
-    {
-      "value": "b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763ea7bd",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": "ove; usable together as a scan signature for panel hosts.\n- b3a4d98b2258ae935924207c6727f32bd60a6c38f6ea0dfeb0ab9c86763e"
-    },
-    {
-      "value": "6232b958294770b6ab92247eb321a63117ce7c70",
-      "type": "sha1",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": "extension permission hash shared across the whole family.\n- 6232b958294770b6ab92247eb321a63117ce7c70 - SHA1 thumbprint o"
-    },
-    {
-      "value": "216.203.21.119",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": ".com - CDN-fronted operator panel domain.\n\nIP Addresses:\n\n- 216.203.21.119 - WebSocket C2 and operator panel contacted b"
-    },
-    {
-      "value": "190.2.184.201",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": "nel contacted by the extension in the observed intrusion.\n- 190.2.184.201 - Delphi banking trojan C2, observed on ports "
-    },
-    {
-      "value": "216.203.20.116",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": "elphi banking trojan C2, observed on ports 8082 and 8398.\n- 216.203.20.116 - Operator panel adjacent to the C2 above, co"
-    },
-    {
-      "value": "65.38.121.128",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": "djacent to the C2 above, confirmed active September 2026.\n- 65.38.121.128 - Long-running operator panel and WebSocket C2"
-    },
-    {
-      "value": "134.209.200.162",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": " panel and WebSocket C2, confirmed active September 2026.\n- 134.209.200.162 - Operator panel, confirmed active September"
-    },
-    {
-      "value": "45.61.136.99",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-13-Casbaneiro-Banking-Trojan.txt",
-      "article_date": "2026-10-30T15:37:11.766860+00:00",
-      "context": "69.213 - Operator panel, confirmed active September 2026.\n- 45.61.136.99 - Operator panel that also hosted actor panel d"
     }
   ],
   "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-118527",
+      "vendor": "Ivanti",
+      "product": "Connect Secure",
+      "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+      "date_added": "2026-10-30",
+      "due_date": "2026-11-13",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-111357",
+      "vendor": "Ivanti",
+      "product": "Connect Secure",
+      "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+      "date_added": "2026-10-30",
+      "due_date": "2026-11-02",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-97229",
       "vendor": "GitLab",
@@ -3207,49 +3211,28 @@
       "due_date": "2026-09-24",
       "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2025-39964",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Race Condition Vulnerability",
-      "description": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state.",
-      "date_added": "2026-09-18",
-      "due_date": "2026-09-21",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-53266",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
-      "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-      "date_added": "2026-09-18",
-      "due_date": "2026-09-21",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
     }
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 45,
-    "total": 250,
+    "total_extracted": 43,
+    "total": 248,
     "by_type": {
-      "ip": 214,
+      "ip": 211,
       "cve": 16,
-      "sha256": 11,
+      "sha256": 13,
       "md5": 6,
-      "sha1": 3
+      "sha1": 2
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Unit 42 (GitHub)": 16,
       "Unit 42": 13,
       "Cisco Talos": 12,
+      "Unit 42 (GitHub)": 11,
       "Feodo Tracker": 5,
-      "Kaspersky Securelist": 4
+      "Kaspersky Securelist": 4,
+      "Microsoft MSTIC": 3
     }
   },
   "errors": [
