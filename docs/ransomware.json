@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-10-30T01:36:53.764520+00:00",
+  "last_updated_utc": "2026-10-30T08:09:38.038293+00:00",
   "victims": [
+    {
+      "victim": "Susman Godfrey LLP",
+      "group": "SilentRansomGroup",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-10-30T00:02:22.816559+00:00",
+      "attack_date": "2026-10-30T00:02:21.477082+00:00",
+      "website": "",
+      "description": "Susman Godfrey L.L.P. is a premier litigation firm recognized for its exceptional courtroom talent and…",
+      "claim_url": "https://www.ransomware.live/id/U3VzbWFuIEdvZGZyZXkgTExQQFNpbGVudFJhbnNvbUdyb3Vw",
+      "monitored": true
+    },
+    {
+      "victim": "TDS Telecommunications LLC.",
+      "group": "Global Secret Group",
+      "country": "United States",
+      "sector": "Energy & Utilities",
+      "discovered": "2026-10-29T21:54:07.712704+00:00",
+      "attack_date": "2026-10-29T21:53:22.986061+00:00",
+      "website": "",
+      "description": "Country: Madison, Wisconsin, US |\nWebsite: tdstelecom.com |\nRevenue: $1.30 Billion |\nIndustry: Telecommunications, Internet Service Providers |\nEmployees: 3,000-5,000 |\nProperties: 27.4 GB (79,679 Files, 1,943 Folders)",
+      "claim_url": "http://b5gozwifyvy5bhys3bsiq5tedhpot345udggjyb54fsjd2m7nteftkad.onion/project/peKL2tmrm6MUe6WN/",
+      "monitored": true
+    },
     {
       "victim": "IT Foods Industries",
       "group": "Shiba",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=49e05aaa-52a8-47cb-9d45-7d3bd4d4c1ce",
-      "monitored": true
-    },
-    {
-      "victim": "Premier Medical Group",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-10-26T12:00:15.570344+00:00",
-      "attack_date": "2026-10-26T11:59:30.054191+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2080c2f3-9cfb-4476-a9f2-71a8ad09c124",
-      "monitored": true
-    },
-    {
-      "victim": "Zachary Confections",
-      "group": "qilin",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-10-26T11:59:07.803953+00:00",
-      "attack_date": "2026-10-26T11:58:35.611935+00:00",
-      "website": "",
-      "description": "N/A",
-      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=d6e801e2-91f2-40df-a088-e2cbead6e1aa",
       "monitored": true
     }
   ],
@@ -3712,11 +3712,11 @@
     },
     "by_group": {
       "Booba Project": 16,
-      "qilin": 11,
+      "qilin": 9,
       "Whitearmor": 8,
       "everest": 8,
+      "SilentRansomGroup": 7,
       "play": 7,
-      "SilentRansomGroup": 6,
       "Shiba": 4,
       "everstake": 4,
       "emperador": 4,
@@ -3724,6 +3724,7 @@
       "N0n": 3,
       "akira": 3,
       "aurora": 3,
+      "Global Secret Group": 2,
       "Scarlettgroup": 2,
       "lockbit5": 2,
       "Wallstreet": 2,
@@ -3731,7 +3732,6 @@
       "ULose": 2,
       "krybit": 1,
       "anubis": 1,
-      "Global Secret Group": 1,
       "Panzer": 1,
       "direwolf": 1,
       "crypto24": 1,
@@ -3740,17 +3740,17 @@
       "Falcon": 1
     },
     "by_sector": {
-      "Healthcare": 14,
-      "Professional Services": 12,
+      "Professional Services": 13,
+      "Healthcare": 13,
       "Not Found": 12,
       "Technology": 11,
       "Financial Services": 9,
       "Education": 8,
       "Manufacturing": 8,
-      "Retail & E-Commerce": 6,
+      "Energy & Utilities": 6,
       "Other": 6,
+      "Retail & E-Commerce": 5,
       "Government & Defense": 5,
-      "Energy & Utilities": 5,
       "Transportation": 3,
       "Agriculture and Food Production": 1
     }
