@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-31T06:42:05.179382+00:00",
+  "last_updated_utc": "2026-10-31T13:22:17.314539+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2391,6 +2391,15 @@
       "context": "loited the  CosmicSting  vulnerability (CVE-2024-34102) to execute remote code on unpatched se"
     },
     {
+      "value": "57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e2279",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "article_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "article_date": "Sat, 31 Oct 2026 12:00:00 GMT",
+      "context": " itself.    Sample details \n \n         SHA256               57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e"
+    },
+    {
       "value": "73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d",
       "type": "sha256",
       "source_name": "Cisco Talos",
@@ -2490,15 +2499,6 @@
       "context": "s and exploiting a known vulnerability (CVE-2023-20198) in publicly accessible web-based manag"
     },
     {
-      "value": "87.120.196.120",
-      "type": "ip",
-      "source_name": "Cisco Talos",
-      "article_title": "NIK C2: The new AI-enabled command-and-control framework",
-      "article_url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
-      "article_date": "Thu, 29 Oct 2026 10:00:00 GMT",
-      "context": "ctor hosted the NIK C2 framework on a server at IP address “87.120.196.120”, resolving the domain “total-sitevv.lol”. Th"
-    },
-    {
       "value": "CVE-2026-3102",
       "type": "cve",
       "source_name": "Kaspersky Securelist",
@@ -2535,58 +2535,40 @@
       "context": "embly  value=\"Microsoft.HostIntegration.Connectors, Version=1.0.0.0, \r\n                    Culture=neutral, PublicKeyTok"
     },
     {
-      "value": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
-      "type": "sha256",
+      "value": "CVE-2026-9545",
+      "type": "cve",
       "source_name": "Microsoft MSTIC",
-      "article_title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "article_date": "Sat, 31 Oct 2026 01:02:57 +0000",
-      "context": "ileEvents\n | where Timestamp > ago(30d)\n | where SHA256 == \"ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6"
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "blicly disclosed today, such as curl’s  CVE-2026-9545  and  CVE-2026-13608 , Node.js’s  CVE-2"
     },
     {
-      "value": "7e0a52885fadee05544a9e99eb18c792bec05900a5e1a66d68f8383decb0e278",
-      "type": "sha256",
+      "value": "CVE-2026-13608",
+      "type": "cve",
       "source_name": "Microsoft MSTIC",
-      "article_title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "article_date": "Sat, 31 Oct 2026 01:02:57 +0000",
-      "context": "point; not a Visual Studio extension (VSIX) package hash    7e0a52885fadee05544a9e99eb18c792bec05900a5e1a66d68f8383decb0"
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "ay, such as curl’s  CVE-2026-9545  and  CVE-2026-13608 , Node.js’s  CVE-2026-56848 , and Linux"
     },
     {
-      "value": "134.209.82.225",
-      "type": "ip",
+      "value": "CVE-2026-56848",
+      "type": "cve",
       "source_name": "Microsoft MSTIC",
-      "article_title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "article_date": "Sat, 31 Oct 2026 01:02:57 +0000",
-      "context": "kEvents\n | where Timestamp > ago(30d)\n | where RemoteIP == \"134.209.82.225\"\n     or RemoteUrl has \"134.209.82.225\"\n | pr"
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "-9545  and  CVE-2026-13608 , Node.js’s  CVE-2026-56848 , and Linux kernel  CVE-2026-64563 . Ou"
     },
     {
-      "value": "85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17",
-      "type": "sha256",
+      "value": "CVE-2026-64563",
+      "type": "cve",
       "source_name": "Microsoft MSTIC",
-      "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-      "article_date": "Fri, 30 Oct 2026 16:11:44 +0000",
-      "context": "of compromise (IOC) \n\n\n\n      Indicator    Type    Role     85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da10"
-    },
-    {
-      "value": "f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-      "article_date": "Fri, 30 Oct 2026 16:11:44 +0000",
-      "context": "14043aec0da109f17  SHA-256   Initial Access Java Script     f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46"
-    },
-    {
-      "value": "06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7",
-      "type": "sha256",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-      "article_date": "Fri, 30 Oct 2026 16:11:44 +0000",
-      "context": "bb5446e2e46f001  SHA-256   Initial Access python script     06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad41114"
+      "article_title": "3 lessons from frontier AI vulnerability research",
+      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "article_date": "Wed, 07 Oct 2026 16:00:00 +0000",
+      "context": "s’s  CVE-2026-56848 , and Linux kernel  CVE-2026-64563 . Our  public CVE index  lists the CVEs"
     },
     {
       "value": "31.40.205.155",
@@ -2594,7 +2576,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-10-31T06:42:02.459452+00:00",
+      "article_date": "2026-10-31T13:22:14.576804+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -2603,7 +2585,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-10-31T06:42:02.459452+00:00",
+      "article_date": "2026-10-31T13:22:14.576804+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -2612,7 +2594,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-10-31T06:42:02.459452+00:00",
+      "article_date": "2026-10-31T13:22:14.576804+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     },
     {
@@ -2621,7 +2603,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-31T06:42:03.008187+00:00",
+      "article_date": "2026-10-31T13:22:15.141638+00:00",
       "context": "gent installers used in this campaign:\n \n  -- SHA-256 hash: d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1"
     },
     {
@@ -2630,7 +2612,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-31T06:42:03.008187+00:00",
+      "article_date": "2026-10-31T13:22:15.141638+00:00",
       "context": "79e8d1f1c7\n  -- File name: Docusign.exe\n\n  -- SHA-256 hash: 24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa"
     },
     {
@@ -2639,7 +2621,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-31T06:42:03.008187+00:00",
+      "article_date": "2026-10-31T13:22:15.141638+00:00",
       "context": "7aa8b49\n  -- File name: documentpdf.exe\n\n  -- SHA-256 hash: 8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe1851602"
     },
     {
@@ -2648,7 +2630,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-31T06:42:03.008187+00:00",
+      "article_date": "2026-10-31T13:22:15.141638+00:00",
       "context": "be18516024649\n  -- File name: Evite.exe\n\n  -- SHA-256 hash: 65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb9"
     },
     {
@@ -2657,7 +2639,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-10-31T06:42:03.008187+00:00",
+      "article_date": "2026-10-31T13:22:15.141638+00:00",
       "context": "ZECURIT TECHNOLOGIES PRIVATE LIMITED\n  -- SHA-1 thumbprint: 6D9ED879ADC48C1B0EBA4058A5C6511A5DD07C63\n- Indicators to hun"
     },
     {
@@ -2666,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-31T06:42:03.564511+00:00",
+      "article_date": "2026-10-31T13:22:15.694369+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2675,7 +2657,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-31T06:42:03.564511+00:00",
+      "article_date": "2026-10-31T13:22:15.694369+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2684,7 +2666,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-10-31T06:42:03.564511+00:00",
+      "article_date": "2026-10-31T13:22:15.694369+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     }
   ],
@@ -3242,12 +3224,12 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 46,
-    "total": 251,
+    "total_extracted": 44,
+    "total": 249,
     "by_type": {
-      "ip": 212,
-      "cve": 16,
-      "sha256": 15,
+      "ip": 210,
+      "cve": 20,
+      "sha256": 11,
       "md5": 6,
       "sha1": 2
     },
@@ -3257,9 +3239,9 @@
       "Unit 42": 13,
       "Cisco Talos": 12,
       "Unit 42 (GitHub)": 11,
-      "Microsoft MSTIC": 6,
       "Feodo Tracker": 5,
-      "Kaspersky Securelist": 4
+      "Kaspersky Securelist": 4,
+      "Microsoft MSTIC": 4
     }
   },
   "errors": [
