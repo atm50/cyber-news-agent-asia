@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-01T08:48:28.590699+00:00",
+  "last_updated_utc": "2026-11-01T15:50:16.557231+00:00",
   "victims": [
     {
       "victim": "EVINOKS",
@@ -12,6 +12,42 @@
       "description": "Evinoks is a Turkish company that produces and sells various products for hotel and restaurant service, such as trolleys, chairs, tables, buffet units, furniture and hygiene equipment. It has a wide range of customers and partners around the world and aims to provide innovative, aesthetic and qualit",
       "claim_url": "http://qr6uopkqxmq254osyct3oibil32xp3qsimkkbqdscsrsb4zqbagnifad.onion/",
       "monitored": false
+    },
+    {
+      "victim": "Select Community Management",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Professional Services",
+      "discovered": "2026-11-01T11:25:59.119232+00:00",
+      "attack_date": "2026-11-01T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=faeaec5f-4086-4105-92c7-b53e325f1f82",
+      "monitored": true
+    },
+    {
+      "victim": "CMD Naturkosmetik",
+      "group": "qilin",
+      "country": "Germany",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-11-01T11:25:13.392406+00:00",
+      "attack_date": "2026-11-01T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=a0bc38a9-1046-4a8e-8b33-16c9ec65e14c",
+      "monitored": true
+    },
+    {
+      "victim": "qc-consult",
+      "group": "qilin",
+      "country": "Germany",
+      "sector": "Professional Services",
+      "discovered": "2026-11-01T11:24:24.453592+00:00",
+      "attack_date": "2026-11-01T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=c174368c-cd41-4227-8642-3cd30e8de5dd",
+      "monitored": true
     },
     {
       "victim": "Danser",
@@ -1164,42 +1200,6 @@
       "description": "N/A",
       "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=32f6a06d-3db3-4147-af6d-564b8f0c1a87",
       "monitored": true
-    },
-    {
-      "victim": "Santiam Hospital & Clinics",
-      "group": "anubis",
-      "country": "United States",
-      "sector": "Healthcare",
-      "discovered": "2026-10-28T23:32:38.524137+00:00",
-      "attack_date": "2026-10-28T23:31:54.432809+00:00",
-      "website": "",
-      "description": "A major medical data breach.",
-      "claim_url": "http://anubisyfkh5rixydjpoo3jqucauajz2juybrbtuglcppjj2y3eg3y6ad.onion/r/nq9u4+YdH6O0Btja8GGfFCclUwfaUiA4JPpD1WSBOBmNpC1D1MADe1UbZ6Le5I34OzabZHvwaYzWjlWeqfDoQUZhUFY1MTNr",
-      "monitored": true
-    },
-    {
-      "victim": "Lowenstein Sandler LLP",
-      "group": "SilentRansomGroup",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-10-28T23:30:55.412982+00:00",
-      "attack_date": "2026-10-28T23:30:54.144910+00:00",
-      "website": "",
-      "description": "Founded in 1961 and headquartered in New York City, New York, Lowenstein Sandler is a national law fir…",
-      "claim_url": "https://www.ransomware.live/id/TG93ZW5zdGVpbiBTYW5kbGVyIExMUEBTaWxlbnRSYW5zb21Hcm91cA==",
-      "monitored": true
-    },
-    {
-      "victim": "susannecerda.com",
-      "group": "lockbit5",
-      "country": "Mexico",
-      "sector": "Not Found",
-      "discovered": "2026-10-29T04:03:09.015718+00:00",
-      "attack_date": "2026-10-28T21:47:00+00:00",
-      "website": "",
-      "description": "Die Unternehmensgruppe Susanne Cerdá bietet nicht nur Dienstleistungen im Bereich Unternehmensgründu...",
-      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/98851f019da8167a79f7e392f513b5a4",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3690,14 +3690,14 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 51,
-    "unique_groups": 29,
+    "monitored_victims": 52,
+    "unique_groups": 27,
     "unique_countries": 28,
     "by_country": {
-      "United States": 32,
+      "United States": 31,
       "Unknown": 24,
-      "Mexico": 7,
-      "Germany": 3,
+      "Mexico": 6,
+      "Germany": 5,
       "Philippines": 3,
       "Taiwan": 3,
       "Japan": 2,
@@ -3724,10 +3724,10 @@
       "India": 1
     },
     "by_group": {
-      "qilin": 13,
+      "qilin": 16,
       "safepay": 9,
       "genesis": 9,
-      "SilentRansomGroup": 7,
+      "SilentRansomGroup": 6,
       "Booba Project": 6,
       "rhysida": 5,
       "emperador": 5,
@@ -3750,20 +3750,18 @@
       "Doommageddon": 1,
       "Global Secret Group": 1,
       "krybit": 1,
-      "dragonforce": 1,
-      "anubis": 1,
-      "lockbit5": 1
+      "dragonforce": 1
     },
     "by_sector": {
-      "Not Found": 18,
-      "Professional Services": 14,
+      "Not Found": 17,
+      "Professional Services": 15,
       "Technology": 11,
       "Manufacturing": 11,
-      "Healthcare": 8,
       "Education": 7,
+      "Healthcare": 7,
+      "Retail & E-Commerce": 6,
       "Other": 6,
       "Transportation": 6,
-      "Retail & E-Commerce": 5,
       "Financial Services": 5,
       "Government & Defense": 4,
       "Energy & Utilities": 3,
