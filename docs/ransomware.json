@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-11-01T01:54:51.472981+00:00",
+  "last_updated_utc": "2026-11-01T08:48:28.590699+00:00",
   "victims": [
+    {
+      "victim": "EVINOKS",
+      "group": "Barracuda",
+      "country": "Turkey",
+      "sector": "Technology",
+      "discovered": "2026-11-01T01:50:47.238640+00:00",
+      "attack_date": "2026-11-01T01:50:30.711414+00:00",
+      "website": "",
+      "description": "Evinoks is a Turkish company that produces and sells various products for hotel and restaurant service, such as trolleys, chairs, tables, buffet units, furniture and hygiene equipment. It has a wide range of customers and partners around the world and aims to provide innovative, aesthetic and qualit",
+      "claim_url": "http://qr6uopkqxmq254osyct3oibil32xp3qsimkkbqdscsrsb4zqbagnifad.onion/",
+      "monitored": false
+    },
+    {
+      "victim": "Danser",
+      "group": "qilin",
+      "country": "United States",
+      "sector": "Other",
+      "discovered": "2026-11-01T00:39:08.118503+00:00",
+      "attack_date": "2026-11-01T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=5f1b3909-c068-4289-a191-3312e3b3938a",
+      "monitored": true
+    },
     {
       "victim": "JHAMF Group",
       "group": "Vexy Ransomware",
@@ -24,18 +48,6 @@
       "description": "systemsoft.info",
       "claim_url": "https://www.ransomware.live/id/U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl",
       "monitored": false
-    },
-    {
-      "victim": "Punta Shopping",
-      "group": "emperador",
-      "country": "Brazil",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-10-31T18:51:54.564529+00:00",
-      "attack_date": "2026-10-31T17:31:00+00:00",
-      "website": "",
-      "description": "Commercial organization in Uruguay, located in the city of Punta del Este\nField of activity: shopping center management, rental of commercial space, retail trade and services.\nThe archive contains the most important personal data and customer data. [Sector: Finance]",
-      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/punta-shopping/",
-      "monitored": true
     },
     {
       "victim": "Straze Garden Center",
@@ -252,6 +264,18 @@
       "description": "bi-link.com Revenue $380.2 Million  Bi-Link US precision manufacturer founded in 1961 (HQ Bloomingdale, IL), making metal stampings and injection-molded plastics with in-house tooling and assembly for automotive, medical, wireless, and consumer electronics OEMs. It owns plants in Shanghai, Nanning, ",
       "claim_url": "https://www.ransomware.live/id/QmkgTGlua0B0aGVnZW50bGVtZW4=",
       "monitored": true
+    },
+    {
+      "victim": "Punta Shopping",
+      "group": "emperador",
+      "country": "UY",
+      "sector": "Retail & E-Commerce",
+      "discovered": "2026-10-31T18:51:54.564529+00:00",
+      "attack_date": "2026-10-31T00:00:00+00:00",
+      "website": "",
+      "description": "Commercial organization in Uruguay, located in the city of Punta del Este\r\nField of activity: shopping center management, rental of commercial space, retail trade and services.\r\nThe archive contains the most important personal data and customer data. [Sector: Finance]",
+      "claim_url": "http://emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion/post/punta-shopping/",
+      "monitored": false
     },
     {
       "victim": "**F*A *.A",
@@ -1176,30 +1200,6 @@
       "description": "Die Unternehmensgruppe Susanne Cerdá bietet nicht nur Dienstleistungen im Bereich Unternehmensgründu...",
       "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/98851f019da8167a79f7e392f513b5a4",
       "monitored": false
-    },
-    {
-      "victim": "xspringcapital.com",
-      "group": "lockbit5",
-      "country": "Thailand",
-      "sector": "Financial Services",
-      "discovered": "2026-10-29T04:03:54.440445+00:00",
-      "attack_date": "2026-10-28T21:42:00+00:00",
-      "website": "",
-      "description": "XSpring Capital Public Company Limited is a company that operates in the business of investing in va...",
-      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/ed9b39cc52e5ab03735c34039a652f5d",
-      "monitored": false
-    },
-    {
-      "victim": "Morrison Foerster",
-      "group": "SilentRansomGroup",
-      "country": "United States",
-      "sector": "Professional Services",
-      "discovered": "2026-10-28T21:29:40.152117+00:00",
-      "attack_date": "2026-10-28T21:29:39.087475+00:00",
-      "website": "",
-      "description": "Morrison Foerster is a leading international law firm with a presence in the United States, Asia, and …",
-      "claim_url": "https://www.ransomware.live/id/TW9ycmlzb24gRm9lcnN0ZXJAU2lsZW50UmFuc29tR3JvdXA=",
-      "monitored": true
     }
   ],
   "groups": [
@@ -1637,6 +1637,12 @@
     },
     {
       "name": "Storm",
+      "description": "",
+      "locations": 1,
+      "meta": ""
+    },
+    {
+      "name": "Syntax",
       "description": "",
       "locations": 1,
       "meta": ""
@@ -3684,8 +3690,8 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 52,
-    "unique_groups": 28,
+    "monitored_victims": 51,
+    "unique_groups": 29,
     "unique_countries": 28,
     "by_country": {
       "United States": 32,
@@ -3700,13 +3706,14 @@
       "Italy": 2,
       "Canada": 2,
       "United Kingdom": 2,
+      "Turkey": 1,
       "Bangladesh": 1,
       "BG": 1,
-      "Brazil": 1,
       "Switzerland": 1,
       "EC": 1,
       "PE": 1,
       "Israel": 1,
+      "UY": 1,
       "Netherlands": 1,
       "Singapore": 1,
       "United Arab Emirates": 1,
@@ -3714,17 +3721,16 @@
       "CI": 1,
       "RO": 1,
       "Austria": 1,
-      "India": 1,
-      "Thailand": 1
+      "India": 1
     },
     "by_group": {
-      "qilin": 12,
+      "qilin": 13,
       "safepay": 9,
       "genesis": 9,
-      "SilentRansomGroup": 8,
+      "SilentRansomGroup": 7,
       "Booba Project": 6,
-      "emperador": 5,
       "rhysida": 5,
+      "emperador": 5,
       "everstake": 5,
       "thegentlemen": 4,
       "AuditTeam": 4,
@@ -3736,7 +3742,7 @@
       "Vexy Ransomware": 2,
       "N0n": 2,
       "aurora": 2,
-      "lockbit5": 2,
+      "Barracuda": 1,
       "sarcoma": 1,
       "nightspire": 1,
       "incransom": 1,
@@ -3745,19 +3751,20 @@
       "Global Secret Group": 1,
       "krybit": 1,
       "dragonforce": 1,
-      "anubis": 1
+      "anubis": 1,
+      "lockbit5": 1
     },
     "by_sector": {
       "Not Found": 18,
-      "Professional Services": 15,
+      "Professional Services": 14,
+      "Technology": 11,
       "Manufacturing": 11,
-      "Technology": 10,
       "Healthcare": 8,
       "Education": 7,
+      "Other": 6,
       "Transportation": 6,
-      "Financial Services": 6,
       "Retail & E-Commerce": 5,
-      "Other": 5,
+      "Financial Services": 5,
       "Government & Defense": 4,
       "Energy & Utilities": 3,
       "Agriculture and Food Production": 2
