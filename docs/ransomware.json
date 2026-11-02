@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-11-01T20:16:20.501285+00:00",
+  "last_updated_utc": "2026-11-02T00:19:23.023762+00:00",
   "victims": [
+    {
+      "victim": "Tema Hwt",
+      "group": "Shiba",
+      "country": "Germany",
+      "sector": "Not Found",
+      "discovered": "2026-11-01T18:03:35.740611+00:00",
+      "attack_date": "2026-11-01T18:03:34.415175+00:00",
+      "website": "",
+      "description": "TEMA Heizung Berlin is a company that provides heating services in Berlin. They offer a range of heating options including heating pumps, maintenance, and optimization. They also provide services for existing oil/gas heating.",
+      "claim_url": "https://www.ransomware.live/id/VGVtYSBId3RAU2hpYmE=",
+      "monitored": true
+    },
+    {
+      "victim": "synergy.co.id",
+      "group": "lockbit5",
+      "country": "Indonesia",
+      "sector": "Not Found",
+      "discovered": "2026-11-01T19:27:52.959212+00:00",
+      "attack_date": "2026-11-01T14:55:00+00:00",
+      "website": "",
+      "description": "PT Synergy Risk Management Consultants (“SYNERGY”), an independent company, established in  London,...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/4dd29260c09708342891c8d4ea0c79bd",
+      "monitored": true
+    },
     {
       "victim": "AmplifAI (GoDaddy instance)",
       "group": "Whitearmor",
@@ -48,6 +72,18 @@
       "description": "Evinoks is a Turkish company that produces and sells various products for hotel and restaurant service, such as trolleys, chairs, tables, buffet units, furniture and hygiene equipment. It has a wide range of customers and partners around the world and aims to provide innovative, aesthetic and qualit",
       "claim_url": "http://qr6uopkqxmq254osyct3oibil32xp3qsimkkbqdscsrsb4zqbagnifad.onion/",
       "monitored": false
+    },
+    {
+      "victim": "fzmb GmbH, Forschungszentrum für Medizintechnik und Biotechnologie",
+      "group": "qilin",
+      "country": "Germany",
+      "sector": "Healthcare",
+      "discovered": "2026-11-01T17:33:12.469171+00:00",
+      "attack_date": "2026-11-01T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=f918b640-c055-4fcc-b9b3-7390a58342b0",
+      "monitored": true
     },
     {
       "victim": "Global Holding",
@@ -1163,42 +1199,6 @@
       "website": "",
       "description": "Government Administration Stolen data: 15 GB.",
       "claim_url": "https://www.ransomware.live/id/Q2lyY2xldmlsbGUgUG9saWNlIERlcGFydG1lbnRAQm9vYmEgUHJvamVjdA==",
-      "monitored": true
-    },
-    {
-      "victim": "Programs for Parents, Inc.",
-      "group": "Booba Project",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-10-29T13:21:55.468140+00:00",
-      "attack_date": "2026-10-29T13:07:06.942000+00:00",
-      "website": "",
-      "description": "Non-profit Organizations Stolen data: 95 GB.",
-      "claim_url": "https://www.ransomware.live/id/UHJvZ3JhbXMgZm9yIFBhcmVudHMsIEluYy5AQm9vYmEgUHJvamVjdA==",
-      "monitored": true
-    },
-    {
-      "victim": "South Weber City",
-      "group": "Booba Project",
-      "country": "United States",
-      "sector": "Government & Defense",
-      "discovered": "2026-10-29T13:22:16.123980+00:00",
-      "attack_date": "2026-10-29T13:04:58.315000+00:00",
-      "website": "",
-      "description": "Government Administration Stolen data: 295 GB.",
-      "claim_url": "https://www.ransomware.live/id/U291dGggV2ViZXIgQ2l0eUBCb29iYSBQcm9qZWN0",
-      "monitored": true
-    },
-    {
-      "victim": "California School Boards Association",
-      "group": "Booba Project",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-10-29T13:22:37.130896+00:00",
-      "attack_date": "2026-10-29T13:00:33.372000+00:00",
-      "website": "",
-      "description": "Education Management Stolen data: 80 GB.",
-      "claim_url": "https://www.ransomware.live/id/Q2FsaWZvcm5pYSBTY2hvb2wgQm9hcmRzIEFzc29jaWF0aW9uQEJvb2JhIFByb2plY3Q=",
       "monitored": true
     }
   ],
@@ -3691,13 +3691,13 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 52,
-    "unique_groups": 28,
-    "unique_countries": 28,
+    "unique_groups": 29,
+    "unique_countries": 29,
     "by_country": {
-      "United States": 32,
+      "United States": 29,
       "Unknown": 22,
+      "Germany": 7,
       "Mexico": 6,
-      "Germany": 5,
       "United Kingdom": 3,
       "Philippines": 3,
       "Taiwan": 3,
@@ -3706,6 +3706,7 @@
       "AR": 2,
       "Malaysia": 2,
       "Italy": 2,
+      "Indonesia": 1,
       "Turkey": 1,
       "HU": 1,
       "Bangladesh": 1,
@@ -3724,23 +3725,23 @@
       "RO": 1
     },
     "by_group": {
-      "qilin": 20,
+      "qilin": 21,
       "safepay": 9,
       "genesis": 9,
       "SilentRansomGroup": 6,
+      "Shiba": 5,
       "everstake": 5,
       "Whitearmor": 4,
       "rhysida": 4,
       "emperador": 4,
       "thegentlemen": 4,
       "AuditTeam": 4,
-      "Shiba": 4,
-      "Booba Project": 4,
       "payload": 3,
       "akira": 3,
       "Vexy Ransomware": 2,
       "N0n": 2,
       "aurora": 2,
+      "lockbit5": 1,
       "direwolf": 1,
       "HYFLOCK": 1,
       "Barracuda": 1,
@@ -3751,19 +3752,20 @@
       "Doommageddon": 1,
       "Scarlettgroup": 1,
       "Global Secret Group": 1,
-      "krybit": 1
+      "krybit": 1,
+      "Booba Project": 1
     },
     "by_sector": {
-      "Not Found": 17,
+      "Not Found": 19,
       "Professional Services": 16,
       "Technology": 12,
       "Manufacturing": 11,
       "Retail & E-Commerce": 7,
       "Other": 7,
       "Transportation": 7,
-      "Education": 7,
-      "Healthcare": 5,
-      "Government & Defense": 4,
+      "Healthcare": 6,
+      "Education": 5,
+      "Government & Defense": 3,
       "Energy & Utilities": 3,
       "Agriculture and Food Production": 2,
       "Financial Services": 2
