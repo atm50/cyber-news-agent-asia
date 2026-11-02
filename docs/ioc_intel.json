@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-02T07:18:56.116706+00:00",
+  "last_updated_utc": "2026-11-02T17:53:51.937235+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2499,6 +2499,33 @@
       "context": "s and exploiting a known vulnerability (CVE-2023-20198) in publicly accessible web-based manag"
     },
     {
+      "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
+      "type": "md5",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "CyberStrikeAI in the wild: the use of AI in real-world attacks on organizations",
+      "article_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+      "article_date": "Mon, 02 Nov 2026 08:00:24 +0000",
+      "context": " indicators:  \n \n \n \n  CyberStrikeAI Windows Beacon  \n \n \n  D726A8B4886C636F76CA6D30EF6A6FF4  \n c:\\windows\\temp\\svchosts"
+    },
+    {
+      "value": "185.186.245.144",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "CyberStrikeAI in the wild: the use of AI in real-world attacks on organizations",
+      "article_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+      "article_date": "Mon, 02 Nov 2026 08:00:24 +0000",
+      "context": "ple above is a reverse shell that connects to the server at 185.186.245.144:5501: \n     \n The p1.ps1 payload and similar"
+    },
+    {
+      "value": "104.234.26.163",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "CyberStrikeAI in the wild: the use of AI in real-world attacks on organizations",
+      "article_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+      "article_date": "Mon, 02 Nov 2026 08:00:24 +0000",
+      "context": "n  \n \n \n  media.fastcdn.bar  \n C2 for  Linux Beacon  \n \n \n  104.234.26.163  \n C2 for Payload Delivery +  Linux Beacon  \n"
+    },
+    {
       "value": "CVE-2026-3102",
       "type": "cve",
       "source_name": "Kaspersky Securelist",
@@ -2589,12 +2616,30 @@
       "context": "bb5446e2e46f001  SHA-256   Initial Access python script     06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad41114"
     },
     {
+      "value": "CVE-2026-98432",
+      "type": "cve",
+      "source_name": "SANS ISC",
+      "article_title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+      "article_url": "https://isc.sans.edu/diary/rss/33482",
+      "article_date": "Mon, 02 Nov 2026 14:52:05 GMT",
+      "context": "y in Linux's implementation (RFC 8684,  CVE-2026-98432) \r\n\r\n Instead of looking at the vulnera"
+    },
+    {
+      "value": "17.0.0.0",
+      "type": "ip",
+      "source_name": "SANS ISC",
+      "article_title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+      "article_url": "https://isc.sans.edu/diary/rss/33482",
+      "article_date": "Mon, 02 Nov 2026 14:52:05 GMT",
+      "context": "ved is iOS/iPadOS. In this case, IPv4 connections to Apple (17.0.0.0/8) often utilize MPTCP [Apple]. MPTCP was initially"
+    },
+    {
       "value": "31.40.205.155",
       "type": "ip",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-02T07:18:52.804079+00:00",
+      "article_date": "2026-11-02T17:53:49.107081+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -2603,7 +2648,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-02T07:18:52.804079+00:00",
+      "article_date": "2026-11-02T17:53:49.107081+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -2612,7 +2657,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-02T07:18:52.804079+00:00",
+      "article_date": "2026-11-02T17:53:49.107081+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     },
     {
@@ -2621,7 +2666,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-02T07:18:53.547741+00:00",
+      "article_date": "2026-11-02T17:53:49.689025+00:00",
       "context": "gent installers used in this campaign:\n \n  -- SHA-256 hash: d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1"
     },
     {
@@ -2630,7 +2675,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-02T07:18:53.547741+00:00",
+      "article_date": "2026-11-02T17:53:49.689025+00:00",
       "context": "79e8d1f1c7\n  -- File name: Docusign.exe\n\n  -- SHA-256 hash: 24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa"
     },
     {
@@ -2639,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-02T07:18:53.547741+00:00",
+      "article_date": "2026-11-02T17:53:49.689025+00:00",
       "context": "7aa8b49\n  -- File name: documentpdf.exe\n\n  -- SHA-256 hash: 8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe1851602"
     },
     {
@@ -2648,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-02T07:18:53.547741+00:00",
+      "article_date": "2026-11-02T17:53:49.689025+00:00",
       "context": "be18516024649\n  -- File name: Evite.exe\n\n  -- SHA-256 hash: 65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb9"
     },
     {
@@ -2657,7 +2702,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-02T07:18:53.547741+00:00",
+      "article_date": "2026-11-02T17:53:49.689025+00:00",
       "context": "ZECURIT TECHNOLOGIES PRIVATE LIMITED\n  -- SHA-1 thumbprint: 6D9ED879ADC48C1B0EBA4058A5C6511A5DD07C63\n- Indicators to hun"
     },
     {
@@ -2666,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-02T07:18:54.466476+00:00",
+      "article_date": "2026-11-02T17:53:50.276288+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2675,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-02T07:18:54.466476+00:00",
+      "article_date": "2026-11-02T17:53:50.276288+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2684,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-02T07:18:54.466476+00:00",
+      "article_date": "2026-11-02T17:53:50.276288+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     }
   ],
@@ -3242,13 +3287,13 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 46,
-    "total": 251,
+    "total_extracted": 51,
+    "total": 256,
     "by_type": {
-      "ip": 211,
-      "cve": 16,
+      "ip": 214,
+      "cve": 17,
       "sha256": 16,
-      "md5": 6,
+      "md5": 7,
       "sha1": 2
     },
     "by_source": {
@@ -3257,9 +3302,10 @@
       "Unit 42": 13,
       "Cisco Talos": 12,
       "Unit 42 (GitHub)": 11,
+      "Kaspersky Securelist": 7,
       "Microsoft MSTIC": 6,
       "Feodo Tracker": 5,
-      "Kaspersky Securelist": 4
+      "SANS ISC": 2
     }
   },
   "errors": [
