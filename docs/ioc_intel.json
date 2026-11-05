@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-05T03:14:04.891884+00:00",
+  "last_updated_utc": "2026-11-05T11:56:15.310825+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2499,6 +2499,87 @@
       "context": "s and exploiting a known vulnerability (CVE-2023-20198) in publicly accessible web-based manag"
     },
     {
+      "value": "CVE-2025-53770",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": " 2025, several threat actors exploited  CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabi"
+    },
+    {
+      "value": "CVE-2025-53771",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "at actors exploited  CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabilities)  in on-prem"
+    },
+    {
+      "value": "CVE-2025-6264",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "– namely version 0.73.4.0 vulnerable to CVE-2025-6264 – that the attackers abused for command"
+    },
+    {
+      "value": "45.91.94.204",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "rgeted the same SharePoint host with a crafted request from 45.91.94.204 (45.91.92.0/22, ASN 63473, HostHatch, LLC). Thi"
+    },
+    {
+      "value": "45.91.92.0",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "e SharePoint host with a crafted request from 45.91.94.204 (45.91.92.0/22, ASN 63473, HostHatch, LLC). This resulted in "
+    },
+    {
+      "value": "199.232.210.172",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "auth.qgtxtebl.workers.dev/  \n Velociraptor server URL \n \n \n 199.232.210.172 \n C2 traffic relay \n \n \n 0x991EC6E04413F2D4D"
+    },
+    {
+      "value": "91.224.92.121",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "3F891CE97D7D2E64DDEE \n VS Code Insiders for tunneling \n \n \n 91.224.92.121 \n Bulletproof-hosted C2 server \n \n \n 49.51.132"
+    },
+    {
+      "value": "49.51.132.100",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "ng \n \n \n 91.224.92.121 \n Bulletproof-hosted C2 server \n \n \n 49.51.132.100 \n SPN node \n \n \n https://github.com/cloudflare"
+    },
+    {
+      "value": "204.76.203.219",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "article_url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "article_date": "Thu, 05 Nov 2026 10:00:11 +0000",
+      "context": "ogramFiles(x86)\\ZohoMeeting\\UnAttended\\ZohoMeeting.7z \n \n \n 204.76.203.219 \n Bulletproof-hosted C2 server \n \n \n 0x054a32"
+    },
+    {
       "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
       "type": "md5",
       "source_name": "Kaspersky Securelist",
@@ -2524,15 +2605,6 @@
       "article_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
       "article_date": "Mon, 02 Nov 2026 08:00:24 +0000",
       "context": "n  \n \n \n  media.fastcdn.bar  \n C2 for  Linux Beacon  \n \n \n  104.234.26.163  \n C2 for Payload Delivery +  Linux Beacon  \n"
-    },
-    {
-      "value": "CVE-2026-3102",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Filter generation in practice: from algorithms to LLMs",
-      "article_url": "https://securelist.com/practical-filter-generation/121697/",
-      "article_date": "Fri, 30 Oct 2026 10:00:44 +0000",
-      "context": "nderstanding an ExifTool vulnerability (CVE-2026-3102)  \t\t \n\t\t\t\t\t \n \t\t\t \n\t\t\t \n\t\t\t \n\t\t\t \n\t\t\t \t"
     },
     {
       "value": "006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c",
@@ -2612,7 +2684,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-05T03:14:02.495071+00:00",
+      "article_date": "2026-11-05T11:56:12.691185+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -2621,7 +2693,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-05T03:14:02.495071+00:00",
+      "article_date": "2026-11-05T11:56:12.691185+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -2630,7 +2702,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-05T03:14:02.495071+00:00",
+      "article_date": "2026-11-05T11:56:12.691185+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -2639,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-05T03:14:02.495071+00:00",
+      "article_date": "2026-11-05T11:56:12.691185+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -2648,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-05T03:14:02.495071+00:00",
+      "article_date": "2026-11-05T11:56:12.691185+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -2657,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-05T03:14:02.495071+00:00",
+      "article_date": "2026-11-05T11:56:12.691185+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -2666,7 +2738,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-05T03:14:03.139141+00:00",
+      "article_date": "2026-11-05T11:56:13.341176+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -2675,7 +2747,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-05T03:14:03.139141+00:00",
+      "article_date": "2026-11-05T11:56:13.341176+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -2684,7 +2756,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-05T03:14:03.139141+00:00",
+      "article_date": "2026-11-05T11:56:13.341176+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     },
     {
@@ -2693,7 +2765,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-05T03:14:03.758615+00:00",
+      "article_date": "2026-11-05T11:56:13.952758+00:00",
       "context": "gent installers used in this campaign:\n \n  -- SHA-256 hash: d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1"
     },
     {
@@ -2702,7 +2774,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-05T03:14:03.758615+00:00",
+      "article_date": "2026-11-05T11:56:13.952758+00:00",
       "context": "79e8d1f1c7\n  -- File name: Docusign.exe\n\n  -- SHA-256 hash: 24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa"
     },
     {
@@ -2711,7 +2783,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-05T03:14:03.758615+00:00",
+      "article_date": "2026-11-05T11:56:13.952758+00:00",
       "context": "7aa8b49\n  -- File name: documentpdf.exe\n\n  -- SHA-256 hash: 8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe1851602"
     },
     {
@@ -2720,7 +2792,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-05T03:14:03.758615+00:00",
+      "article_date": "2026-11-05T11:56:13.952758+00:00",
       "context": "be18516024649\n  -- File name: Evite.exe\n\n  -- SHA-256 hash: 65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb9"
     },
     {
@@ -2729,7 +2801,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-05T03:14:03.758615+00:00",
+      "article_date": "2026-11-05T11:56:13.952758+00:00",
       "context": "ZECURIT TECHNOLOGIES PRIVATE LIMITED\n  -- SHA-1 thumbprint: 6D9ED879ADC48C1B0EBA4058A5C6511A5DD07C63\n- Indicators to hun"
     },
     {
@@ -2738,7 +2810,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-05T03:14:04.390439+00:00",
+      "article_date": "2026-11-05T11:56:14.809090+00:00",
       "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
     },
     {
@@ -2747,7 +2819,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-05T03:14:04.390439+00:00",
+      "article_date": "2026-11-05T11:56:14.809090+00:00",
       "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
     },
     {
@@ -2756,7 +2828,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-05T03:14:04.390439+00:00",
+      "article_date": "2026-11-05T11:56:14.809090+00:00",
       "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     }
   ],
@@ -3314,12 +3386,12 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 54,
-    "total": 259,
+    "total_extracted": 62,
+    "total": 267,
     "by_type": {
-      "ip": 216,
+      "ip": 222,
+      "cve": 19,
       "sha256": 19,
-      "cve": 17,
       "md5": 6,
       "sha1": 1
     },
@@ -3329,9 +3401,9 @@
       "Unit 42 (GitHub)": 17,
       "Unit 42": 13,
       "Cisco Talos": 12,
+      "Kaspersky Securelist": 12,
       "Microsoft MSTIC": 7,
       "Feodo Tracker": 5,
-      "Kaspersky Securelist": 4,
       "SANS ISC": 1
     }
   },
