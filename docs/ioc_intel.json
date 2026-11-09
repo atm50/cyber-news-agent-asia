@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-09T09:14:27.540133+00:00",
+  "last_updated_utc": "2026-11-09T20:28:25.832341+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2751,6 +2751,15 @@
       "context": "ip-rule:evenodd;fill:#06f\\\" /\\u003e \\u003cpath d=\\\"M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2."
     },
     {
+      "value": "CVE-2025-31324",
+      "type": "cve",
+      "source_name": "SANS ISC",
+      "article_title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33502",
+      "article_date": "Mon, 09 Nov 2026 18:18:15 GMT",
+      "context": "\n The exploited vulnerability is \"old\": CVE-2025-31324. A perfect 10 CVSS score and the simple"
+    },
+    {
       "value": "CVE-2026-123158",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -2823,12 +2832,21 @@
       "context": "215925 \r\n\t\t\t VPSVAULTHOST VPSVAULT.HOST LTD \r\n\t\t \r\n\t\t \r\n\t\t\t 121.190.39.238 \r\n\t\t\t 4 \r\n\t\t\t AS4766 \r\n\t\t\t KIXS-AS-KR-KR - Ko"
     },
     {
+      "value": "c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28b855",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
+      "article_date": "2026-11-09T20:28:23.319591+00:00",
+      "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
+    },
+    {
       "value": "253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd216618d7",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-09T09:14:25.129601+00:00",
+      "article_date": "2026-11-09T20:28:24.628832+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -2837,7 +2855,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-09T09:14:25.129601+00:00",
+      "article_date": "2026-11-09T20:28:24.628832+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -2846,7 +2864,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-09T09:14:25.129601+00:00",
+      "article_date": "2026-11-09T20:28:24.628832+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -2855,7 +2873,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-09T09:14:25.129601+00:00",
+      "article_date": "2026-11-09T20:28:24.628832+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -2864,7 +2882,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-09T09:14:25.129601+00:00",
+      "article_date": "2026-11-09T20:28:24.628832+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -2873,7 +2891,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-09T09:14:25.129601+00:00",
+      "article_date": "2026-11-09T20:28:24.628832+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -2882,7 +2900,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-09T09:14:25.774456+00:00",
+      "article_date": "2026-11-09T20:28:25.329366+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -2891,7 +2909,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-09T09:14:25.774456+00:00",
+      "article_date": "2026-11-09T20:28:25.329366+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -2900,83 +2918,44 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-09T09:14:25.774456+00:00",
+      "article_date": "2026-11-09T20:28:25.329366+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
-    },
-    {
-      "value": "d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1f1c7",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-09T09:14:26.414067+00:00",
-      "context": "gent installers used in this campaign:\n \n  -- SHA-256 hash: d7bae1209fea304403d8eb6f042ea0b9b84be14ef7e29ab9f9c9c079e8d1"
-    },
-    {
-      "value": "24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa8b49",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-09T09:14:26.414067+00:00",
-      "context": "79e8d1f1c7\n  -- File name: Docusign.exe\n\n  -- SHA-256 hash: 24387787c0789f0b8ff02102273a8edef5888c420be15bfae103250ce7aa"
-    },
-    {
-      "value": "8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe18516024649",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-09T09:14:26.414067+00:00",
-      "context": "7aa8b49\n  -- File name: documentpdf.exe\n\n  -- SHA-256 hash: 8585921fd9bb23f8dcd12e0d637d43aee6597793038e1ac53dcbe1851602"
-    },
-    {
-      "value": "65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb96566",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-09T09:14:26.414067+00:00",
-      "context": "be18516024649\n  -- File name: Evite.exe\n\n  -- SHA-256 hash: 65f1731d5cdcc169c36d3690196f3a7c60922d85c620d172cc607c8d7eb9"
-    },
-    {
-      "value": "6d9ed879adc48c1b0eba4058a5c6511a5dd07c63",
-      "type": "sha1",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-29-Phishing-emails-push-Zecurit-Agent-RMM.txt",
-      "article_date": "2026-11-09T09:14:26.414067+00:00",
-      "context": "ZECURIT TECHNOLOGIES PRIVATE LIMITED\n  -- SHA-1 thumbprint: 6D9ED879ADC48C1B0EBA4058A5C6511A5DD07C63\n- Indicators to hun"
-    },
-    {
-      "value": "f82fd317860454606003aa9dc7efde284d851424730e229f19c50d60206311b8",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-09T09:14:27.039052+00:00",
-      "context": "4ee1f82295fce67f1f93e316efe11a2c95018491e5cc484 (py.alfa)\n- f82fd317860454606003aa9dc7efde284d851424730e229f19c50d602063"
-    },
-    {
-      "value": "CVE-2026-102785",
-      "type": "cve",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-09T09:14:27.039052+00:00",
-      "context": "2026-10-26 (Monday): YOOtheme Pro CVE-2026-102785 Exploited to Deploy Webshells\n\nAUTHORS:"
-    },
-    {
-      "value": "168.144.251.199",
-      "type": "ip",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-26-exploitation-of-CVE-2026-102785.txt",
-      "article_date": "2026-11-09T09:14:27.039052+00:00",
-      "context": ":\n\nIP address for exploitation and automated validation:\n\n- 168.144.251.199\n\nURL for remote PHP loader (fetches and eval"
     }
   ],
   "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-102895",
+      "vendor": "GPUStack",
+      "product": "GPUStack",
+      "name": "GPUStack Improper Authentication Vulnerability",
+      "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-123158",
+      "vendor": "OpenBSD",
+      "product": "OpenSSH",
+      "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-116779",
+      "vendor": "SignalWire",
+      "product": "FreeSwitch",
+      "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+      "date_added": "2026-11-09",
+      "due_date": "2026-11-12",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-19868",
       "vendor": "SonicWall",
@@ -3493,61 +3472,27 @@
       "due_date": "2026-09-27",
       "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-71362",
-      "vendor": "Adobe",
-      "product": "Commerce and Magento ",
-      "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
-      "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
-      "date_added": "2026-09-24",
-      "due_date": "2026-09-27",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-93952",
-      "vendor": "Arista",
-      "product": "VeloCloud Orchestrator",
-      "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-      "date_added": "2026-09-22",
-      "due_date": "2026-09-25",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-94127",
-      "vendor": "F5",
-      "product": "BIG-IP APM",
-      "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "description": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
-      "date_added": "2026-09-22",
-      "due_date": "2026-09-25",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
     }
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 78,
-    "total": 283,
+    "total_extracted": 72,
+    "total": 277,
     "by_type": {
-      "ip": 239,
+      "ip": 238,
       "cve": 22,
-      "sha256": 14,
-      "md5": 7,
-      "sha1": 1
+      "sha256": 10,
+      "md5": 7
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Unit 42 (GitHub)": 17,
       "Cisco Talos": 15,
       "Kaspersky Securelist": 14,
       "Unit 42": 12,
       "Microsoft MSTIC": 12,
-      "SANS ISC": 8,
+      "Unit 42 (GitHub)": 10,
+      "SANS ISC": 9,
       "Feodo Tracker": 5
     }
   },
