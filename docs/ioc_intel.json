@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-11T08:55:39.258616+00:00",
+  "last_updated_utc": "2026-11-11T16:56:08.489482+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2274,6 +2274,24 @@
   ],
   "extracted_iocs": [
     {
+      "value": "3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8cb6e9",
+      "type": "sha256",
+      "source_name": "Unit 42",
+      "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "article_url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "article_date": "Wed, 11 Nov 2026 15:00:23 +0000",
+      "context": "owser Extension Files (Read: SHA-256 hash - filename): \n \n  3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8c"
+    },
+    {
+      "value": "0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd",
+      "type": "sha256",
+      "source_name": "Unit 42",
+      "article_title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "article_url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "article_date": "Wed, 11 Nov 2026 15:00:23 +0000",
+      "context": "om  \n \n Antino Sample (Read: SHA-256 hash - filename): \n \n  0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af5"
+    },
+    {
       "value": "CVE-2026-109618",
       "type": "cve",
       "source_name": "Unit 42",
@@ -2290,96 +2308,6 @@
       "article_url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
       "article_date": "Mon, 02 Nov 2026 23:00:45 +0000",
       "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) \n         \n     \n "
-    },
-    {
-      "value": "CVE-2026-10961",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": " \"php|multipart|upload.progress|longjmp|CVE-2026-10961[89]\"\r\n| comp count() as hits, count_dis"
-    },
-    {
-      "value": "CVE-2026-0257",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": " Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) \n                 "
-    },
-    {
-      "value": "CVE-2026-88771",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": "      Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wil"
-    },
-    {
-      "value": "CVE-2026-88772",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": " NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated Septembe"
-    },
-    {
-      "value": "CVE-2025-40947",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": "\t\t Command injection \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t"
-    },
-    {
-      "value": "CVE-2025-40948",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": "\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t                   \n              "
-    },
-    {
-      "value": "CVE-2026-0300",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": "       \n                   \n\t\t\t\t \n\t\t\t\t\t CVE-2026-0300 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t EarthWorm \n\t\t\t\t \n\t\t\t"
-    },
-    {
-      "value": "CVE-2026-31431",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": "\t\t \n\t\t\t\t\t Containers \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2026-31431 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t Kubernetes \n\t\t\t\t    "
-    },
-    {
-      "value": "CVE-2023-33538",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": "eep Dive Into Attempted Exploitation of CVE-2023-33538 \n                   \n                  "
-    },
-    {
-      "value": "CVE-2026-1731",
-      "type": "cve",
-      "source_name": "Unit 42",
-      "article_title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-      "article_date": "Thu, 29 Oct 2026 18:00:34 +0000",
-      "context": " of BeyondTrust Critical Vulnerability (CVE-2026-1731) \n                   \n                 "
     },
     {
       "value": "CVE-2026-124194",
@@ -3399,6 +3327,60 @@
       "context": " itself.    Sample details \n \n         SHA256               57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e"
     },
     {
+      "value": "d631627131b90d576d77f4bf530e1abe",
+      "type": "md5",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "article_url": "https://securelist.com/citrus-ransomware/121879/",
+      "article_date": "Wed, 11 Nov 2026 10:00:25 +0000",
+      "context": "tors of compromise \n \n \n \n  File hashes  \n \n \n  Xray  \n \n \n d631627131b90d576d77f4bf530e1abe \n mst.exe, sabycenter.exe, "
+    },
+    {
+      "value": "CVE-2026-54121",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "article_url": "https://securelist.com/citrus-ransomware/121879/",
+      "article_date": "Wed, 11 Nov 2026 10:00:25 +0000",
+      "context": "he authentication bypass vulnerability  CVE-2026-54121 (Certighost) ; these attempts created m"
+    },
+    {
+      "value": "CVE-2020-1337",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "article_url": "https://securelist.com/citrus-ransomware/121879/",
+      "article_date": "Wed, 11 Nov 2026 10:00:25 +0000",
+      "context": " this file included an exploit for the  CVE-2020-1337  vulnerability; the same exploit is ava"
+    },
+    {
+      "value": "91.210.109.118",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "article_url": "https://securelist.com/citrus-ransomware/121879/",
+      "article_date": "Wed, 11 Nov 2026 10:00:25 +0000",
+      "context": "specify the address of a system they control (in this case, 91.210.109.118) and send forged data from it. If exploitatio"
+    },
+    {
+      "value": "91.210.108.180",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "article_url": "https://securelist.com/citrus-ransomware/121879/",
+      "article_date": "Wed, 11 Nov 2026 10:00:25 +0000",
+      "context": " \n Sysvc \n \n \n  IP addresses  \n \n \n  91.210.109.118  \n \n \n  91.210.108.180  \n \n \n \n\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t"
+    },
+    {
+      "value": "CVE-2026-0257",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
+      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
+      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
+      "context": "eport on the Qilin group exploiting the CVE-2026-0257 vulnerability in Palo Alto Networks fir"
+    },
+    {
       "value": "CVE-2026-15409",
       "type": "cve",
       "source_name": "Kaspersky Securelist",
@@ -3460,51 +3442,6 @@
       "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
       "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
       "context": "authenticated remote code execution. \n  CVE-2026-63077  in JetBrains TeamCity allowed OS comma"
-    },
-    {
-      "value": "CVE-2025-22224",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Virtualization security: attack layers and misconfiguration impact",
-      "article_url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
-      "article_date": "Fri, 06 Nov 2026 10:00:12 +0000",
-      "context": "erver and every workload on it.  VMware CVE-2025-22224  showed this risk: an attacker with adm"
-    },
-    {
-      "value": "CVE-2024-21626",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Virtualization security: attack layers and misconfiguration impact",
-      "article_url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
-      "article_date": "Fri, 06 Nov 2026 10:00:12 +0000",
-      "context": "y software exploit. For instance, runc  CVE-2024-21626  involved leaked file descriptors that "
-    },
-    {
-      "value": "CVE-2026-41567",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Virtualization security: attack layers and misconfiguration impact",
-      "article_url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
-      "article_date": "Fri, 06 Nov 2026 10:00:12 +0000",
-      "context": "xed archive and mount-handling flaws in CVE-2026-41567, CVE-2026-41568, and CVE-2026-42306. Th"
-    },
-    {
-      "value": "CVE-2026-41568",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Virtualization security: attack layers and misconfiguration impact",
-      "article_url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
-      "article_date": "Fri, 06 Nov 2026 10:00:12 +0000",
-      "context": "mount-handling flaws in CVE-2026-41567, CVE-2026-41568, and CVE-2026-42306. These cases requir"
-    },
-    {
-      "value": "CVE-2026-42306",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Virtualization security: attack layers and misconfiguration impact",
-      "article_url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
-      "article_date": "Fri, 06 Nov 2026 10:00:12 +0000",
-      "context": " in CVE-2026-41567, CVE-2026-41568, and CVE-2026-42306. These cases required particular condit"
     },
     {
       "value": "CVE-2020-36323",
@@ -14105,7 +14042,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-11T08:55:36.839472+00:00",
+      "article_date": "2026-11-11T16:56:06.023940+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -14114,7 +14051,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-11T08:55:38.126568+00:00",
+      "article_date": "2026-11-11T16:56:07.330671+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -14123,7 +14060,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-11T08:55:38.126568+00:00",
+      "article_date": "2026-11-11T16:56:07.330671+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -14132,7 +14069,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-11T08:55:38.126568+00:00",
+      "article_date": "2026-11-11T16:56:07.330671+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -14141,7 +14078,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-11T08:55:38.126568+00:00",
+      "article_date": "2026-11-11T16:56:07.330671+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -14150,7 +14087,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-11T08:55:38.126568+00:00",
+      "article_date": "2026-11-11T16:56:07.330671+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -14159,7 +14096,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-11T08:55:38.126568+00:00",
+      "article_date": "2026-11-11T16:56:07.330671+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -14168,7 +14105,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-11T08:55:38.755682+00:00",
+      "article_date": "2026-11-11T16:56:07.986040+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -14177,7 +14114,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-11T08:55:38.755682+00:00",
+      "article_date": "2026-11-11T16:56:07.986040+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -14186,7 +14123,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-11T08:55:38.755682+00:00",
+      "article_date": "2026-11-11T16:56:07.986040+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     }
   ],
@@ -14744,24 +14681,24 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 1324,
-    "total": 1529,
+    "total_extracted": 1317,
+    "total": 1522,
     "by_type": {
-      "cve": 1295,
-      "ip": 221,
-      "sha256": 8,
-      "md5": 5
+      "cve": 1283,
+      "ip": 223,
+      "sha256": 10,
+      "md5": 6
     },
     "by_source": {
       "SANS ISC": 1167,
       "Cisco Talos": 113,
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Unit 42": 12,
-      "Kaspersky Securelist": 12,
+      "Kaspersky Securelist": 13,
       "Microsoft MSTIC": 10,
       "Unit 42 (GitHub)": 10,
-      "Feodo Tracker": 5
+      "Feodo Tracker": 5,
+      "Unit 42": 4
     }
   },
   "errors": [
