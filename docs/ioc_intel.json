@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-12T14:58:59.742144+00:00",
+  "last_updated_utc": "2026-11-12T21:49:04.640385+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2274,6 +2274,24 @@
   ],
   "extracted_iocs": [
     {
+      "value": "154.44.31.4",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
+      "article_url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+      "article_date": "Thu, 12 Nov 2026 15:00:31 +0000",
+      "context": "ustomized fork of Cairn from a server hosted in Hong Kong ( 154.44.31.4 , AS979, NetLab Global) and hosted an attack egr"
+    },
+    {
+      "value": "82.29.129.54",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
+      "article_url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+      "article_date": "Thu, 12 Nov 2026 15:00:31 +0000",
+      "context": " and hosted an attack egress and staging node in the U.S. ( 82.29.129.54 , AS142036, Hosteons Pte. Ltd.). Figure 1 below"
+    },
+    {
       "value": "3e535d63af8a95221fb517fa1b3e4a0029d3463d8b767443abdff385ee8cb6e9",
       "type": "sha256",
       "source_name": "Unit 42",
@@ -2292,13 +2310,112 @@
       "context": "om  \n \n Antino Sample (Read: SHA-256 hash - filename): \n \n  0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af5"
     },
     {
+      "value": "f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "e files from Talos telemetry over the past week     SHA256: f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81"
+    },
+    {
+      "value": "7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "f85.js  Detection Name: W32.F4B1F888F2-95.SBX.TG    SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d"
+    },
+    {
+      "value": "ae59aedc4d89d7b22db5dc65cd0b2ff68b20b74863d44f53fd346de739081694",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "997f.exe  Detection Name: Win.Tool.Kmsauto::1201    SHA256: ae59aedc4d89d7b22db5dc65cd0b2ff68b20b74863d44f53fd346de73908"
+    },
+    {
+      "value": "f0f8ceed9d5db100de257e6c8a4c85b08a30fd9591de754169adcfe0cf627bcb",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "94.exe  Detection Name: W32.AE59AEDC4D-95.SBX.TG    SHA256: f0f8ceed9d5db100de257e6c8a4c85b08a30fd9591de754169adcfe0cf62"
+    },
+    {
+      "value": "985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "html  Detection Name: W32.F0F8CEED9D-95.SBX.TG      SHA256: 985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db3"
+    },
+    {
+      "value": "95a6a4b638cfdfbe3afc883d593a1f87",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "aa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85   MD5: 95a6a4b638cfdfbe3afc883d593a1f87  Talos Rep:   https://talos"
+    },
+    {
+      "value": "cca616647db9370c88998ae25da6997f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "fdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f   MD5: cca616647db9370c88998ae25da6997f  Talos Rep:   https://talos"
+    },
+    {
+      "value": "1fd9ccecac8794f39d826fdd8a62e6bc",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "d7b22db5dc65cd0b2ff68b20b74863d44f53fd346de739081694   MD5: 1fd9ccecac8794f39d826fdd8a62e6bc  Talos Rep:   https://talos"
+    },
+    {
+      "value": "57ddcd4384fd595a12df5a6258e5af4d",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "b100de257e6c8a4c85b08a30fd9591de754169adcfe0cf627bcb   MD5: 57ddcd4384fd595a12df5a6258e5af4d  Talos Rep:   https://talos"
+    },
+    {
+      "value": "485055033bcddfde56325c0d2feea4f2",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "18c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9   MD5: 485055033bcddfde56325c0d2feea4f2  Talos Rep:   https://talos"
+    },
+    {
       "value": "CVE-2026-124194",
       "type": "cve",
       "source_name": "Cisco Talos",
-      "article_title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
-      "article_url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
-      "article_date": "Wed, 11 Nov 2026 01:41:17 GMT",
-      "context": "month have been exploited in the wild   CVE-2026-124194  affects Microsoft Office Outlook.  CVE"
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "ofing flaw in Microsoft Office Outlook (CVE-2026-124194) is already being actively exploited in"
+    },
+    {
+      "value": "CVE-2026-125350",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "Never be afraid to ask questions",
+      "article_url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+      "article_date": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "context": "o-day in Google Chrome’s XML component (CVE-2026-125350), released on Wednesday. The vulnerabil"
     },
     {
       "value": "CVE-2026-113862",
@@ -3237,24 +3354,6 @@
       "context": "SAuto++.exe  Detection Name: HackTool:WZTeam-tpd    SHA256: a31f222fc283227f5e7988d1ad9c0aecd66d58bb7b4d8518ae23e110308d"
     },
     {
-      "value": "f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Bring a tent, I've got the coffee: Lessons from it-sa",
-      "article_url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
-      "article_date": "Thu, 05 Nov 2026 19:00:00 GMT",
-      "context": "  Detection Name: Win.Dropper.Miner::95.sbx.tg**    SHA256: f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81"
-    },
-    {
-      "value": "7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Bring a tent, I've got the coffee: Lessons from it-sa",
-      "article_url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
-      "article_date": "Thu, 05 Nov 2026 19:00:00 GMT",
-      "context": "f85.js  Detection Name: W32.F4B1F888F2-95.SBX.TG    SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d"
-    },
-    {
       "value": "2915b3f8b703eb744fc54c81f4a9c67f",
       "type": "md5",
       "source_name": "Cisco Talos",
@@ -3280,33 +3379,6 @@
       "article_url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
       "article_date": "Thu, 05 Nov 2026 19:00:00 GMT",
       "context": "227f5e7988d1ad9c0aecd66d58bb7b4d8518ae23e110308dbf91   MD5: 7bdbd180c081fa63ca94f9c22c457376  Talos Rep:   https://talos"
-    },
-    {
-      "value": "95a6a4b638cfdfbe3afc883d593a1f87",
-      "type": "md5",
-      "source_name": "Cisco Talos",
-      "article_title": "Bring a tent, I've got the coffee: Lessons from it-sa",
-      "article_url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
-      "article_date": "Thu, 05 Nov 2026 19:00:00 GMT",
-      "context": "aa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85   MD5: 95a6a4b638cfdfbe3afc883d593a1f87  Talos Rep:  https://talosi"
-    },
-    {
-      "value": "cca616647db9370c88998ae25da6997f",
-      "type": "md5",
-      "source_name": "Cisco Talos",
-      "article_title": "Bring a tent, I've got the coffee: Lessons from it-sa",
-      "article_url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
-      "article_date": "Thu, 05 Nov 2026 19:00:00 GMT",
-      "context": "fdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f   MD5: cca616647db9370c88998ae25da6997f  Talos Rep:   https://talos"
-    },
-    {
-      "value": "57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e2279",
-      "type": "sha256",
-      "source_name": "Cisco Talos",
-      "article_title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-      "article_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-      "article_date": "Sat, 31 Oct 2026 12:00:00 GMT",
-      "context": " itself.    Sample details \n \n         SHA256               57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e"
     },
     {
       "value": "CVE-2026-19478",
@@ -13943,7 +14015,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-12T14:58:57.558476+00:00",
+      "article_date": "2026-11-12T21:49:02.272995+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -13952,7 +14024,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T14:58:58.670838+00:00",
+      "article_date": "2026-11-12T21:49:03.509297+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -13961,7 +14033,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T14:58:58.670838+00:00",
+      "article_date": "2026-11-12T21:49:03.509297+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -13970,7 +14042,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T14:58:58.670838+00:00",
+      "article_date": "2026-11-12T21:49:03.509297+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -13979,7 +14051,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T14:58:58.670838+00:00",
+      "article_date": "2026-11-12T21:49:03.509297+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -13988,7 +14060,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T14:58:58.670838+00:00",
+      "article_date": "2026-11-12T21:49:03.509297+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -13997,7 +14069,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T14:58:58.670838+00:00",
+      "article_date": "2026-11-12T21:49:03.509297+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -14006,7 +14078,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-12T14:58:59.239141+00:00",
+      "article_date": "2026-11-12T21:49:04.138011+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -14015,7 +14087,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-12T14:58:59.239141+00:00",
+      "article_date": "2026-11-12T21:49:04.138011+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -14024,7 +14096,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-12T14:58:59.239141+00:00",
+      "article_date": "2026-11-12T21:49:04.138011+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     }
   ],
@@ -14582,24 +14654,24 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 1306,
-    "total": 1511,
+    "total_extracted": 1314,
+    "total": 1519,
     "by_type": {
-      "cve": 1275,
-      "ip": 216,
-      "sha256": 14,
-      "md5": 6
+      "cve": 1276,
+      "ip": 218,
+      "sha256": 16,
+      "md5": 9
     },
     "by_source": {
       "SANS ISC": 1160,
-      "Cisco Talos": 113,
+      "Cisco Talos": 119,
       "Emerging Threats": 100,
       "Binary Defense": 100,
       "Kaspersky Securelist": 15,
       "Unit 42 (GitHub)": 10,
       "Microsoft MSTIC": 6,
       "Feodo Tracker": 5,
-      "Unit 42": 2
+      "Unit 42": 4
     }
   },
   "errors": [
