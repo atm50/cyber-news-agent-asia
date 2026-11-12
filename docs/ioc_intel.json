@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-12T05:59:07.170564+00:00",
+  "last_updated_utc": "2026-11-12T14:58:59.742144+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -3309,6 +3309,24 @@
       "context": " itself.    Sample details \n \n         SHA256               57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e"
     },
     {
+      "value": "CVE-2026-19478",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Transcending the trust boundaries: how a cloud pentest works",
+      "article_url": "https://securelist.com/how-a-cloud-pentest-works/121921/",
+      "article_date": "Thu, 12 Nov 2026 10:00:53 +0000",
+      "context": "ds a vulnerability in it (for example,  CVE-2026-19478  in the case of the GitLab web interfac"
+    },
+    {
+      "value": "CVE-2026-43284",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Transcending the trust boundaries: how a cloud pentest works",
+      "article_url": "https://securelist.com/how-a-cloud-pentest-works/121921/",
+      "article_date": "Thu, 12 Nov 2026 10:00:53 +0000",
+      "context": "ds ways to escape the container (using  CVE-2026-43284 ) into the runtime: the container runti"
+    },
+    {
       "value": "d631627131b90d576d77f4bf530e1abe",
       "type": "md5",
       "source_name": "Kaspersky Securelist",
@@ -3462,15 +3480,6 @@
       "context": " Hidden file identified as HackTool:Linux/GsNetcat.A!MTB    12450bafc7a4398040e1ad3a16dbf4dbc79b6a8f83ef306c4f0f73f59886"
     },
     {
-      "value": "CVE-2026-43284",
-      "type": "cve",
-      "source_name": "Microsoft MSTIC",
-      "article_title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
-      "article_url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
-      "article_date": "Wed, 11 Nov 2026 19:49:57 +0000",
-      "context": "nts, threat actors attempted to exploit CVE-2026-43284, one of the recent Linux kernel vulnera"
-    },
-    {
       "value": "CVE-2026-74544",
       "type": "cve",
       "source_name": "Microsoft MSTIC",
@@ -3487,6 +3496,24 @@
       "article_url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
       "article_date": "Wed, 11 Nov 2026 16:55:00 +0000",
       "context": " it mid-use.      \n\n\n\n A closer look at CVE-2026-64563 \n\n\n\n  CVE-2026-64563  is a one-line sta"
+    },
+    {
+      "value": "CVE-2026-102895",
+      "type": "cve",
+      "source_name": "SANS ISC",
+      "article_title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33514",
+      "article_date": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "context": "pts for GPUStack Authentication Bypass (CVE-2026-102895) \n     \n     \n     \n     \n     \n     \n "
+    },
+    {
+      "value": "144.91.73.103",
+      "type": "ip",
+      "source_name": "SANS ISC",
+      "article_title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33514",
+      "article_date": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "context": "\r\n The IP address we see as the origin of these requests is 144.91.73.103. In the last couple of days, we have seen this"
     },
     {
       "value": "CVE-2026-109475",
@@ -13916,7 +13943,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-12T05:59:04.783798+00:00",
+      "article_date": "2026-11-12T14:58:57.558476+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -13925,7 +13952,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T05:59:06.065456+00:00",
+      "article_date": "2026-11-12T14:58:58.670838+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -13934,7 +13961,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T05:59:06.065456+00:00",
+      "article_date": "2026-11-12T14:58:58.670838+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -13943,7 +13970,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T05:59:06.065456+00:00",
+      "article_date": "2026-11-12T14:58:58.670838+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -13952,7 +13979,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T05:59:06.065456+00:00",
+      "article_date": "2026-11-12T14:58:58.670838+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -13961,7 +13988,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T05:59:06.065456+00:00",
+      "article_date": "2026-11-12T14:58:58.670838+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -13970,7 +13997,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-12T05:59:06.065456+00:00",
+      "article_date": "2026-11-12T14:58:58.670838+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -13979,7 +14006,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-12T05:59:06.668026+00:00",
+      "article_date": "2026-11-12T14:58:59.239141+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -13988,7 +14015,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-12T05:59:06.668026+00:00",
+      "article_date": "2026-11-12T14:58:59.239141+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -13997,7 +14024,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-12T05:59:06.668026+00:00",
+      "article_date": "2026-11-12T14:58:59.239141+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     }
   ],
@@ -14555,22 +14582,22 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 1303,
-    "total": 1508,
+    "total_extracted": 1306,
+    "total": 1511,
     "by_type": {
-      "cve": 1273,
-      "ip": 215,
+      "cve": 1275,
+      "ip": 216,
       "sha256": 14,
       "md5": 6
     },
     "by_source": {
-      "SANS ISC": 1158,
+      "SANS ISC": 1160,
       "Cisco Talos": 113,
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Kaspersky Securelist": 13,
+      "Kaspersky Securelist": 15,
       "Unit 42 (GitHub)": 10,
-      "Microsoft MSTIC": 7,
+      "Microsoft MSTIC": 6,
       "Feodo Tracker": 5,
       "Unit 42": 2
     }
