@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-11-11T23:20:51.466833+00:00",
+  "last_updated_utc": "2026-11-12T05:59:08.896767+00:00",
   "victims": [
+    {
+      "victim": "Dep",
+      "group": "medusalocker",
+      "country": "",
+      "sector": "Not Found",
+      "discovered": "2026-11-11T22:01:37.377000+00:00",
+      "attack_date": "2026-11-11T22:01:23.348675+00:00",
+      "website": "",
+      "description": "THERMO GROUP, C.A. wholesales pharmaceutical products and medical supplies, as evidenced by its financial transactions with FarmaTodo, C.A., including sales commission reports and income tax withholdings (ISLR).",
+      "claim_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bataaab/",
+      "monitored": false
+    },
+    {
+      "victim": "Minor League Baseball",
+      "group": "play",
+      "country": "United States",
+      "sector": "Hospitality",
+      "discovered": "2026-11-11T20:19:30.872886+00:00",
+      "attack_date": "2026-11-11T20:19:13.810584+00:00",
+      "website": "",
+      "description": "United States",
+      "claim_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=4gCfH9C8tAiBS",
+      "monitored": true
+    },
     {
       "victim": "Company #213",
       "group": "N0n",
@@ -1174,30 +1198,6 @@
       "attack_date": "2026-11-09T10:45:34.525161+00:00",
       "website": "",
       "description": "wealth management · Canada | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": true
-    },
-    {
-      "victim": "Company #185",
-      "group": "N0n",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-11-09T10:45:15.936205+00:00",
-      "attack_date": "2026-11-09T10:44:44.294547+00:00",
-      "website": "",
-      "description": "plumbing and HVAC distribution · United States | [PENDING EXPOSURE]",
-      "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
-      "monitored": true
-    },
-    {
-      "victim": "Company #184",
-      "group": "N0n",
-      "country": "United States",
-      "sector": "Not Found",
-      "discovered": "2026-11-09T10:44:25.611520+00:00",
-      "attack_date": "2026-11-09T10:44:03.741132+00:00",
-      "website": "",
-      "description": "employee benefits consulting · United States | [PENDING EXPOSURE]",
       "claim_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
       "monitored": true
     }
@@ -3738,12 +3738,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 71,
+    "monitored_victims": 70,
     "unique_groups": 28,
     "unique_countries": 24,
     "by_country": {
-      "United States": 52,
-      "Unknown": 15,
+      "United States": 51,
+      "Unknown": 16,
       "Canada": 7,
       "United Kingdom": 4,
       "Spain": 3,
@@ -3768,17 +3768,18 @@
       "South Korea": 1
     },
     "by_group": {
-      "N0n": 30,
+      "N0n": 28,
       "Curious Worm": 9,
       "interlock": 9,
       "Booba Project": 6,
+      "play": 4,
       "SilentRansomGroup": 4,
       "Aoqin": 3,
       "akira": 3,
-      "play": 3,
       "Vortex": 3,
       "BYOD": 3,
       "Climax Inc": 3,
+      "medusalocker": 2,
       "everstake": 2,
       "osiris": 2,
       "Dark Project": 2,
@@ -3789,7 +3790,6 @@
       "Doommageddon": 1,
       "qilin": 1,
       "Panzer": 1,
-      "medusalocker": 1,
       "bravox": 1,
       "krybit": 1,
       "Orova": 1,
@@ -3798,7 +3798,7 @@
       "rhysida": 1
     },
     "by_sector": {
-      "Not Found": 37,
+      "Not Found": 36,
       "Healthcare": 18,
       "Professional Services": 9,
       "Retail & E-Commerce": 8,
@@ -3806,11 +3806,11 @@
       "Technology": 6,
       "Education": 5,
       "Other": 3,
+      "Hospitality": 2,
       "Transportation": 2,
       "Energy & Utilities": 2,
       "Agriculture and Food Production": 1,
-      "Government & Defense": 1,
-      "Hospitality": 1
+      "Government & Defense": 1
     }
   },
   "errors": []
