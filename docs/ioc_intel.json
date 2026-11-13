@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-13T02:26:45.052027+00:00",
+  "last_updated_utc": "2026-11-13T10:38:10.351243+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -3381,6 +3381,168 @@
       "context": "227f5e7988d1ad9c0aecd66d58bb7b4d8518ae23e110308dbf91   MD5: 7bdbd180c081fa63ca94f9c22c457376  Talos Rep:   https://talos"
     },
     {
+      "value": "15dc419b7fbeb50c50820a7cd27997541deafa4fa710f074bb657f0149574baf",
+      "type": "sha256",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": ".exe / lock.exe. \n High \n Sample-specific \n \n \n  SHA-256  \n 15dc419b7fbeb50c50820a7cd27997541deafa4fa710f074bb657f014957"
+    },
+    {
+      "value": "5a9b7a0d3f25757aea957713d7e84cabec87597b3474368328a8fd5ed7a12f78",
+      "type": "sha256",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "anagement agent. \n High \n Sample-specific \n \n \n  SHA-256  \n 5a9b7a0d3f25757aea957713d7e84cabec87597b3474368328a8fd5ed7a1"
+    },
+    {
+      "value": "28f8da19ddcdf26e426875c7a834b34a79bc1c33",
+      "type": "sha1",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "l portal access. \n High \n Incident-specific \n \n \n  SHA-1  \n 28f8da19ddcdf26e426875c7a834b34a79bc1c33 \n svhost.exe / lock"
+    },
+    {
+      "value": "CVE-2021-21972",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": " For example, the Twelve group  chained CVE-2021-21972 and CVE-2021-22005  to plant a web shel"
+    },
+    {
+      "value": "CVE-2021-22005",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "welve group  chained CVE-2021-21972 and CVE-2021-22005  to plant a web shell directly on a vCe"
+    },
+    {
+      "value": "CVE-2021-21974",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "EV*  \n  Why it matters here  \n \n \n \n \n  CVE-2021-21974  \n ESXi OpenSLP \n Remote code execution"
+    },
+    {
+      "value": "CVE-2021-21985",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": " in ransomware-related activity. \n \n \n  CVE-2021-21985  \n vCenter VSAN Health Check plugin \n R"
+    },
+    {
+      "value": "CVE-2023-34048",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": " in ransomware-related activity. \n \n \n  CVE-2023-34048  \n vCenter DCERPC \n Out-of-bounds write"
+    },
+    {
+      "value": "CVE-2024-37085",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "virtualization management plane. \n \n \n  CVE-2024-37085  \n ESXi AD integration \n AD permissions"
+    },
+    {
+      "value": "CVE-2024-38812",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "d administrative access to ESXi. \n \n \n  CVE-2024-38812 / 38813  \n vCenter DCERPC \n RCE / privi"
+    },
+    {
+      "value": "CVE-2025-22224",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "virtualization management plane. \n \n \n  CVE-2025-22224 / 22225 / 22226  \n ESXi / Workstation /"
+    },
+    {
+      "value": "CVE-2025-22225",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "o perform a guest-to-host attack chain. CVE-2025-22225 exploitation has been seen in ransomwar"
+    },
+    {
+      "value": "CVE-2024-40711",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "uding those with the lowest privileges. CVE-2024-40711 is listed in CISA’s KEV database as a v"
+    },
+    {
+      "value": "CVE-2025-23120",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": " vulnerability exploited by ransomware. CVE-2025-23120 is more recent and still absent from KE"
+    },
+    {
+      "value": "45.149.154.135",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "f cloudflare.com. \n High \n Incident-specific \n \n \n  IPv4  \n 45.149.154.135 \n Remote-management agent C2. \n High \n Incide"
+    },
+    {
+      "value": "91.92.242.121",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "agement agent C2. \n High \n Incident-specific \n \n \n  IPv4  \n 91.92.242.121 \n VPS used for initial portal access. \n High \n"
+    },
+    {
+      "value": "31.41.33.212",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "al portal access. \n High \n Incident-specific \n \n \n  IPv4  \n 31.41.33.212 \n VPS used for initial portal access. \n High \n "
+    },
+    {
+      "value": "188.240.57.94",
+      "type": "ip",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+      "article_url": "https://securelist.com/esxi-ransomware/121959/",
+      "article_date": "Fri, 13 Nov 2026 09:00:43 +0000",
+      "context": "al portal access. \n High \n Incident-specific \n \n \n  IPv4  \n 188.240.57.94 \n VPS used for initial portal access. \n High \n"
+    },
+    {
       "value": "CVE-2026-19478",
       "type": "cve",
       "source_name": "Kaspersky Securelist",
@@ -3444,78 +3606,6 @@
       "context": " \n Sysvc \n \n \n  IP addresses  \n \n \n  91.210.109.118  \n \n \n  91.210.108.180  \n \n \n \n\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t"
     },
     {
-      "value": "CVE-2026-0257",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "eport on the Qilin group exploiting the CVE-2026-0257 vulnerability in Palo Alto Networks fir"
-    },
-    {
-      "value": "CVE-2026-15409",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "ly exploited by ransomware groups: \n \n  CVE-2026-15409 / CVE-2026-15410  in SonicWall SMA1000 "
-    },
-    {
-      "value": "CVE-2026-15410",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "ansomware groups: \n \n  CVE-2026-15409 / CVE-2026-15410  in SonicWall SMA1000 remote access gat"
-    },
-    {
-      "value": "CVE-2026-45659",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "linked  this activity to INC Ransom. \n  CVE-2026-45659  in Microsoft SharePoint Server allowed"
-    },
-    {
-      "value": "CVE-2025-60710",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "er to achieve remote code execution. \n  CVE-2025-60710  in Microsoft Windows allowed attackers"
-    },
-    {
-      "value": "CVE-2026-59310",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "kers to escalate privileges locally. \n  CVE-2026-59310  in VMware vCenter enabled unauthentica"
-    },
-    {
-      "value": "CVE-2025-14733",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "authenticated remote code execution. \n  CVE-2025-14733  in WatchGuard Firebox also enabled una"
-    },
-    {
-      "value": "CVE-2026-63077",
-      "type": "cve",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "article_url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "article_date": "Tue, 10 Nov 2026 08:00:37 +0000",
-      "context": "authenticated remote code execution. \n  CVE-2026-63077  in JetBrains TeamCity allowed OS comma"
-    },
-    {
       "value": "d94f75a70b5cabaf786ac57177ed841732e62bdcc9a29e06e5b41d9be567bcfa",
       "type": "sha256",
       "source_name": "Microsoft MSTIC",
@@ -3570,6 +3660,42 @@
       "context": " it mid-use.      \n\n\n\n A closer look at CVE-2026-64563 \n\n\n\n  CVE-2026-64563  is a one-line sta"
     },
     {
+      "value": "58e503cc2e6aacc6bdba54f40a7edebf7a5362bef0a9039769baaba8c472c4db",
+      "type": "sha256",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "cked \r\n \r\n\r\n Files from the infection: \r\n\r\n SHA-256 hash:   58e503cc2e6aacc6bdba54f40a7edebf7a5362bef0a9039769baaba8c472"
+    },
+    {
+      "value": "8b5026d841aa93758ec3cb55c276f84d3ec1cf459810e0d9aa5624e2776f2fcd",
+      "type": "sha256",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "t installs DownTheDRAIN infostealer \r\n \r\n\r\n SHA-256 hash:   8b5026d841aa93758ec3cb55c276f84d3ec1cf459810e0d9aa5624e2776f"
+    },
+    {
+      "value": "c34cc30cb1cff5c47d77e62a3ba63e9a183989ec1ccdf7929beb1bcae0d41f23",
+      "type": "sha256",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "retrieved by the above shell script \r\n \r\n\r\n SHA-256 hash:   c34cc30cb1cff5c47d77e62a3ba63e9a183989ec1ccdf7929beb1bcae0d4"
+    },
+    {
+      "value": "45.150.32.130",
+      "type": "ip",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "ASCII text, with very long lines \r\n\t File location:  http://45.150.32.130/37339606cba4522a?force=1  \r\n\t File description"
+    },
+    {
       "value": "CVE-2026-102895",
       "type": "cve",
       "source_name": "SANS ISC",
@@ -3593,7 +3719,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-13T02:26:42.828706+00:00",
+      "article_date": "2026-11-13T10:38:07.941159+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -3602,7 +3728,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-13T02:26:43.965978+00:00",
+      "article_date": "2026-11-13T10:38:09.218869+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -3611,7 +3737,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-13T02:26:43.965978+00:00",
+      "article_date": "2026-11-13T10:38:09.218869+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -3620,7 +3746,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-13T02:26:43.965978+00:00",
+      "article_date": "2026-11-13T10:38:09.218869+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -3629,7 +3755,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-13T02:26:43.965978+00:00",
+      "article_date": "2026-11-13T10:38:09.218869+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -3638,7 +3764,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-13T02:26:43.965978+00:00",
+      "article_date": "2026-11-13T10:38:09.218869+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -3647,7 +3773,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-13T02:26:43.965978+00:00",
+      "article_date": "2026-11-13T10:38:09.218869+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -3656,7 +3782,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-13T02:26:44.549454+00:00",
+      "article_date": "2026-11-13T10:38:09.849293+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -3665,7 +3791,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-13T02:26:44.549454+00:00",
+      "article_date": "2026-11-13T10:38:09.849293+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -3674,7 +3800,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-13T02:26:44.549454+00:00",
+      "article_date": "2026-11-13T10:38:09.849293+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     }
   ],
@@ -4232,24 +4358,25 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 156,
-    "total": 361,
+    "total_extracted": 170,
+    "total": 375,
     "by_type": {
-      "ip": 218,
-      "cve": 118,
-      "sha256": 16,
-      "md5": 9
+      "ip": 223,
+      "cve": 121,
+      "sha256": 21,
+      "md5": 9,
+      "sha1": 1
     },
     "by_source": {
       "Cisco Talos": 119,
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Kaspersky Securelist": 15,
+      "Kaspersky Securelist": 25,
       "Unit 42 (GitHub)": 10,
       "Microsoft MSTIC": 6,
+      "SANS ISC": 6,
       "Feodo Tracker": 5,
-      "Unit 42": 4,
-      "SANS ISC": 2
+      "Unit 42": 4
     }
   },
   "errors": [
