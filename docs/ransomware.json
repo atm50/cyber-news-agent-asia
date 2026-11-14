@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-11-14T14:49:09.636953+00:00",
+  "last_updated_utc": "2026-11-14T19:45:37.654114+00:00",
   "victims": [
+    {
+      "victim": "Momentum Telecom",
+      "group": "EndZone",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-11-14T12:25:18.758864+00:00",
+      "attack_date": "2026-11-14T12:25:17.593205+00:00",
+      "website": "",
+      "description": "Revenue: $221.7 million\n\nMomentum is a telecommunications company founded in 2001 that provides cloud-based communication solutions for businesses, specializing in cloud voice services, managed networks, SD-WAN solutions, and Microsoft Teams Phone integration. We gained access to a diagnostic and pr",
+      "claim_url": "https://www.ransomware.live/id/TW9tZW50dW0gVGVsZWNvbUBFbmRab25l",
+      "monitored": false
+    },
+    {
+      "victim": "Absolute Bail Bonds",
+      "group": "EndZone",
+      "country": "United States",
+      "sector": "Financial Services",
+      "discovered": "2026-11-14T12:24:57.389262+00:00",
+      "attack_date": "2026-11-14T12:24:56.175704+00:00",
+      "website": "",
+      "description": "Revenue: $15.1 million\n\nAbsolute Bail Bonds is a surety bail bond agency that has provided 24/7 pretrial release services across California since 1987. Founded in Lancaster and headquartered in Los Angeles, the company operates statewide through a network of local branch offices and licensed bail ag",
+      "claim_url": "https://www.ransomware.live/id/QWJzb2x1dGUgQmFpbCBCb25kc0BFbmRab25l",
+      "monitored": true
+    },
     {
       "victim": "I****** A*****",
       "group": "netrunner",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Madison Honda, located in Madison, New Jersey, offers a wide selection of new and used vehicles, as well as flexible financing options.They are negligent when it comes to their own security and that of their customers, which is why we disclose non-public personal information (NPI) and personally ide",
       "claim_url": "http://madisonhonda.ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/",
-      "monitored": true
-    },
-    {
-      "victim": "Custom Floors Unlimited",
-      "group": "interlock",
-      "country": "United States",
-      "sector": "Retail & E-Commerce",
-      "discovered": "2026-11-10T07:12:27.967752+00:00",
-      "attack_date": "2026-11-10T07:12:15.200465+00:00",
-      "website": "",
-      "description": "Custom Floors Unlimited designs and installs high-quality, custom-made solid wood flooring. They specialize in creating unique designs. However, they do not specialize in ensuring their own security or the security of their customers' data. Therefore, we provide you with confidential HR/payroll docu",
-      "claim_url": "http://customfloorsunlimited.ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/",
-      "monitored": true
-    },
-    {
-      "victim": "Meadows Valley School District",
-      "group": "interlock",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-11-10T07:11:55.473973+00:00",
-      "attack_date": "2026-11-10T07:11:10.217943+00:00",
-      "website": "",
-      "description": "The Meadows Valley School District strives to prepare all students for life's demands, adventures, and challenges. While the district offers educational services designed to foster student growth and development, its negligence in security has exposed its staff and students to the compromise of pers",
-      "claim_url": "http://meadowsvalleyschooldistrict.ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/",
       "monitored": true
     }
   ],
@@ -3738,12 +3738,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 66,
-    "unique_groups": 28,
+    "monitored_victims": 65,
+    "unique_groups": 29,
     "unique_countries": 33,
     "by_country": {
-      "United States": 38,
-      "Unknown": 12,
+      "United States": 37,
+      "Unknown": 13,
       "Canada": 7,
       "Germany": 4,
       "United Kingdom": 3,
@@ -3782,14 +3782,15 @@
       "play": 6,
       "akira": 6,
       "Booba Project": 6,
-      "interlock": 5,
       "incransom": 4,
+      "interlock": 3,
       "Aoqin": 3,
       "Panzer": 3,
       "Dark Project": 3,
       "N0n": 3,
       "Vexy Ransomware": 3,
       "qilin": 3,
+      "EndZone": 2,
       "everest": 2,
       "bravox": 2,
       "Doommageddon": 2,
@@ -3810,16 +3811,16 @@
       "Not Found": 17,
       "Professional Services": 14,
       "Manufacturing": 13,
-      "Technology": 11,
+      "Technology": 12,
       "Healthcare": 11,
-      "Retail & E-Commerce": 7,
       "Other": 6,
+      "Retail & E-Commerce": 6,
       "Government & Defense": 6,
       "Transportation": 5,
-      "Education": 5,
+      "Education": 4,
+      "Financial Services": 2,
       "Hospitality": 2,
-      "Energy & Utilities": 2,
-      "Financial Services": 1
+      "Energy & Utilities": 2
     }
   },
   "errors": []
