@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-14T07:24:41.823647+00:00",
+  "last_updated_utc": "2026-11-14T14:49:09.636953+00:00",
   "victims": [
     {
       "victim": "I****** A*****",
@@ -12,6 +12,18 @@
       "description": "",
       "claim_url": "https://www.ransomware.live/id/SSoqKioqKiBBKioqKipAbmV0cnVubmVy",
       "monitored": false
+    },
+    {
+      "victim": "Grundbaulabor Trier GmbH",
+      "group": "everest",
+      "country": "Germany",
+      "sector": "Manufacturing",
+      "discovered": "2026-11-14T03:32:50.190997+00:00",
+      "attack_date": "2026-11-14T00:42:18.757321+00:00",
+      "website": "",
+      "description": "[AI generated] N/A\n\nI don't have verified, reliable information about a specific company called \"Grundbaulabor Trier GmbH.\" While the name suggests a geotechnical or soil mechanics testing laboratory (Grundbau relates to foundation engineering) based in Trier, Germany, I cannot confirm details about",
+      "claim_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/grundbaulabor-trier-gmbh",
+      "monitored": true
     },
     {
       "victim": "K&A Industries",
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "The Meadows Valley School District strives to prepare all students for life's demands, adventures, and challenges. While the district offers educational services designed to foster student growth and development, its negligence in security has exposed its staff and students to the compromise of pers",
       "claim_url": "http://meadowsvalleyschooldistrict.ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/",
-      "monitored": true
-    },
-    {
-      "victim": "Ridgway High School",
-      "group": "interlock",
-      "country": "United States",
-      "sector": "Education",
-      "discovered": "2026-11-10T07:10:49.930738+00:00",
-      "attack_date": "2026-11-10T07:10:36.632155+00:00",
-      "website": "",
-      "description": "Ridgeway R-2 School District states its commitment to providing a safe and inclusive learning environment for students, however, their failure to secure your data and their failure to address this issue resulted in a breach of student and employee personal data (Social Security numbers, medical and ",
-      "claim_url": "http://ridgwayhighschool.ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/",
       "monitored": true
     }
   ],
@@ -3742,10 +3742,10 @@
     "unique_groups": 28,
     "unique_countries": 33,
     "by_country": {
-      "United States": 39,
+      "United States": 38,
       "Unknown": 12,
       "Canada": 7,
-      "Germany": 3,
+      "Germany": 4,
       "United Kingdom": 3,
       "Saudi Arabia": 3,
       "Mexico": 3,
@@ -3779,10 +3779,10 @@
     "by_group": {
       "thegentlemen": 22,
       "Curious Worm": 12,
-      "interlock": 6,
       "play": 6,
       "akira": 6,
       "Booba Project": 6,
+      "interlock": 5,
       "incransom": 4,
       "Aoqin": 3,
       "Panzer": 3,
@@ -3790,13 +3790,13 @@
       "N0n": 3,
       "Vexy Ransomware": 3,
       "qilin": 3,
+      "everest": 2,
       "bravox": 2,
       "Doommageddon": 2,
       "krybit": 2,
       "medusalocker": 2,
       "SilentRansomGroup": 2,
       "netrunner": 1,
-      "everest": 1,
       "Wallstreet": 1,
       "emperador": 1,
       "safepay": 1,
@@ -3809,14 +3809,14 @@
     "by_sector": {
       "Not Found": 17,
       "Professional Services": 14,
-      "Manufacturing": 12,
+      "Manufacturing": 13,
       "Technology": 11,
       "Healthcare": 11,
       "Retail & E-Commerce": 7,
       "Other": 6,
       "Government & Defense": 6,
-      "Education": 6,
       "Transportation": 5,
+      "Education": 5,
       "Hospitality": 2,
       "Energy & Utilities": 2,
       "Financial Services": 1
