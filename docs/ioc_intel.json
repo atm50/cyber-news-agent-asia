@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-15T05:04:38.995379+00:00",
+  "last_updated_utc": "2026-11-15T13:31:29.868267+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -3786,12 +3786,66 @@
       "context": " Hidden file identified as HackTool:Linux/GsNetcat.A!MTB    12450bafc7a4398040e1ad3a16dbf4dbc79b6a8f83ef306c4f0f73f59886"
     },
     {
+      "value": "58e503cc2e6aacc6bdba54f40a7edebf7a5362bef0a9039769baaba8c472c4db",
+      "type": "sha256",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "cked \r\n \r\n\r\n Files from the infection: \r\n\r\n SHA-256 hash:   58e503cc2e6aacc6bdba54f40a7edebf7a5362bef0a9039769baaba8c472"
+    },
+    {
+      "value": "8b5026d841aa93758ec3cb55c276f84d3ec1cf459810e0d9aa5624e2776f2fcd",
+      "type": "sha256",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "t installs DownTheDRAIN infostealer \r\n \r\n\r\n SHA-256 hash:   8b5026d841aa93758ec3cb55c276f84d3ec1cf459810e0d9aa5624e2776f"
+    },
+    {
+      "value": "c34cc30cb1cff5c47d77e62a3ba63e9a183989ec1ccdf7929beb1bcae0d41f23",
+      "type": "sha256",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "retrieved by the above shell script \r\n \r\n\r\n SHA-256 hash:   c34cc30cb1cff5c47d77e62a3ba63e9a183989ec1ccdf7929beb1bcae0d4"
+    },
+    {
+      "value": "45.150.32.130",
+      "type": "ip",
+      "source_name": "SANS ISC",
+      "article_title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33518",
+      "article_date": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "context": "ASCII text, with very long lines \r\n\t File location:  http://45.150.32.130/37339606cba4522a?force=1  \r\n\t File description"
+    },
+    {
+      "value": "CVE-2026-102895",
+      "type": "cve",
+      "source_name": "SANS ISC",
+      "article_title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33514",
+      "article_date": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "context": "pts for GPUStack Authentication Bypass (CVE-2026-102895) \n     \n     \n     \n     \n     \n     \n "
+    },
+    {
+      "value": "144.91.73.103",
+      "type": "ip",
+      "source_name": "SANS ISC",
+      "article_title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33514",
+      "article_date": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "context": "\r\n The IP address we see as the origin of these requests is 144.91.73.103. In the last couple of days, we have seen this"
+    },
+    {
       "value": "c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28b855",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-15T05:04:36.567787+00:00",
+      "article_date": "2026-11-15T13:31:27.610883+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -3800,7 +3854,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-15T05:04:37.864787+00:00",
+      "article_date": "2026-11-15T13:31:28.776346+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -3809,7 +3863,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-15T05:04:37.864787+00:00",
+      "article_date": "2026-11-15T13:31:28.776346+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -3818,7 +3872,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-15T05:04:37.864787+00:00",
+      "article_date": "2026-11-15T13:31:28.776346+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -3827,7 +3881,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-15T05:04:37.864787+00:00",
+      "article_date": "2026-11-15T13:31:28.776346+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -3836,7 +3890,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-15T05:04:37.864787+00:00",
+      "article_date": "2026-11-15T13:31:28.776346+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -3845,7 +3899,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-15T05:04:37.864787+00:00",
+      "article_date": "2026-11-15T13:31:28.776346+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     },
     {
@@ -3854,7 +3908,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-15T05:04:38.493306+00:00",
+      "article_date": "2026-11-15T13:31:29.365632+00:00",
       "context": "X AND SUB2API:\n\n- The server returning Basic realm=\"ARTEX\" (31.40.205.155) also runs a Sub2API (\"Subscription to API Con"
     },
     {
@@ -3863,7 +3917,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-15T05:04:38.493306+00:00",
+      "article_date": "2026-11-15T13:31:29.365632+00:00",
       "context": "yz host a related, multi-tenant AI/LLM gateway surface\n  -- 103.100.158.103 has hosted a lanmao666.com subdomain\n  -- Su"
     },
     {
@@ -3872,7 +3926,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-30-activity-using-ARTEX-agentic-AI.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt",
-      "article_date": "2026-11-15T05:04:38.493306+00:00",
+      "article_date": "2026-11-15T13:31:29.365632+00:00",
       "context": " and OAuth probing; has hosted a lanmao666.com subdomain)\n- 152.233.51.12 (Monitor only - source of probing and the unau"
     }
   ],
@@ -4430,12 +4484,12 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 178,
-    "total": 383,
+    "total_extracted": 184,
+    "total": 389,
     "by_type": {
-      "ip": 223,
-      "cve": 120,
-      "sha256": 30,
+      "ip": 225,
+      "cve": 121,
+      "sha256": 33,
       "md5": 6,
       "sha1": 4
     },
@@ -4446,6 +4500,7 @@
       "Kaspersky Securelist": 25,
       "Microsoft MSTIC": 25,
       "Unit 42 (GitHub)": 10,
+      "SANS ISC": 6,
       "Feodo Tracker": 5,
       "Unit 42": 4
     }
@@ -4457,7 +4512,6 @@
     "[c2tracker/Sliver C2]: HTTP Error 404: Not Found",
     "[c2tracker/Metasploit C2]: HTTP Error 404: Not Found",
     "[c2tracker/Brute Ratel C4]: HTTP Error 404: Not Found",
-    "[blog_rss/SANS ISC]: syntax error: line 1, column 0",
     "[blog_rss/Google TAG]: HTTP Error 404: Not Found",
     "[blog_rss/FortiGuard]: HTTP Error 404: Not Found"
   ]
