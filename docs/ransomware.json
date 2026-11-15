@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-15T13:31:31.320300+00:00",
+  "last_updated_utc": "2026-11-15T19:35:12.204330+00:00",
   "victims": [
     {
       "victim": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id)",
@@ -239,6 +239,18 @@
       "website": "",
       "description": "A copy of the workforce management system of a Chinese information technology services company, including personnel records for 725 employees with national identity numbers, names, dates of birth, phone numbers and addresses, attendance punch history of more than 200,000 records, WeChat check-in his",
       "claim_url": "http://pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion/dl/62",
+      "monitored": true
+    },
+    {
+      "victim": "pah.com.my",
+      "group": "lockbit5",
+      "country": "Malaysia",
+      "sector": "Healthcare",
+      "discovered": "2026-11-15T15:03:34.762752+00:00",
+      "attack_date": "2026-11-14T20:52:00+00:00",
+      "website": "",
+      "description": "Penang Adventist Hospital (PAH), established in 1924 by American missionary Dr. J. Earl Gardner, is...",
+      "claim_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/7f78966167ac4698ca19d21c295259c9",
       "monitored": true
     },
     {
@@ -1187,18 +1199,6 @@
       "website": "",
       "description": "groupe-alternance.com Groupe Alternance is a French private education group founded in 2008 in Paris, offering work-study (alternance) programs across 5 schools with 10,000 plus students, 300 plus staff and 1,200 plus partner companies. Its model lets students earn a salary while their employer pays",
       "claim_url": "http://tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion/#GroupeAlternance",
-      "monitored": true
-    },
-    {
-      "victim": "Leware Construction Company ofFlorida",
-      "group": "akira",
-      "country": "United States",
-      "sector": "Manufacturing",
-      "discovered": "2026-11-11T13:42:18.353064+00:00",
-      "attack_date": "2026-11-11T00:00:00+00:00",
-      "website": "",
-      "description": "Leware Construction Company is a Florida bridge contractor specializing in major bridge constru\nction: intermediate bridges, prestressed piling, prestressed beams, pile driving, sheet piling \ninstallation, heavy civil bridge work, marine construction, repair/rehabilitation, and deck ove\nrlays.\n\nWe w",
-      "claim_url": "https://www.ransomware.live/id/TGV3YXJlIENvbnN0cnVjdGlvbiBDb21wYW55IG9mRmxvcmlkYUBha2lyYQ==",
       "monitored": true
     }
   ],
@@ -3739,15 +3739,15 @@
   "stats": {
     "total_victims": 100,
     "monitored_victims": 61,
-    "unique_groups": 27,
+    "unique_groups": 28,
     "unique_countries": 37,
     "by_country": {
-      "United States": 32,
+      "United States": 31,
       "Unknown": 15,
       "Canada": 6,
+      "Malaysia": 4,
       "HK": 3,
       "Germany": 3,
-      "Malaysia": 3,
       "Saudi Arabia": 3,
       "China": 2,
       "Spain": 2,
@@ -3784,12 +3784,12 @@
       "thegentlemen": 22,
       "PixelLeaks": 20,
       "Curious Worm": 12,
-      "akira": 4,
       "qilin": 3,
       "play": 3,
       "Aoqin": 3,
       "incransom": 3,
       "N0n": 3,
+      "akira": 3,
       "Vexy Ransomware": 3,
       "Barracuda": 2,
       "netrunner": 2,
@@ -3798,6 +3798,7 @@
       "interlock": 2,
       "Panzer": 2,
       "Doommageddon": 2,
+      "lockbit5": 1,
       "Scarlettgroup": 1,
       "Wallstreet": 1,
       "bravox": 1,
@@ -3812,9 +3813,9 @@
     "by_sector": {
       "Technology": 17,
       "Not Found": 16,
-      "Manufacturing": 13,
+      "Manufacturing": 12,
       "Professional Services": 11,
-      "Healthcare": 9,
+      "Healthcare": 10,
       "Financial Services": 7,
       "Government & Defense": 6,
       "Other": 5,
