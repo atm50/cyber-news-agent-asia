@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-19T16:21:28.690643+00:00",
+  "last_updated_utc": "2026-11-19T23:26:15.851327+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -105,6 +105,28 @@
       "first_seen": ""
     },
     {
+      "value": "101.33.81.189",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "101.47.134.75",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "101.47.152.216",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -193,6 +215,17 @@
       "first_seen": ""
     },
     {
+      "value": "102.220.45.186",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "103.102.46.200",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -216,6 +249,17 @@
     },
     {
       "value": "103.143.239.193",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "103.144.106.72",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -435,6 +479,17 @@
       "first_seen": ""
     },
     {
+      "value": "104.248.239.44",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "104.253.134.203",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -447,17 +502,6 @@
     },
     {
       "value": "106.52.185.206",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "107.150.123.48",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -689,17 +733,6 @@
     },
     {
       "value": "116.110.158.0",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "116.110.159.141",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -1129,39 +1162,6 @@
     },
     {
       "value": "121.155.247.19",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "121.233.49.174",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "121.242.112.205",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "121.242.232.216",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -2319,6 +2319,105 @@
       "context": " and hosted an attack egress and staging node in the U.S. ( 82.29.129.54 , AS142036, Hosteons Pte. Ltd.). Figure 1 below"
     },
     {
+      "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": " files from Talos telemetry over the past week      SHA256: 9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffc"
+    },
+    {
+      "value": "f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "xe  Detection Name: W32.9F1F11A708-100.SBX.TG       SHA256: f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81"
+    },
+    {
+      "value": "7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "f85.js  Detection Name: W32.F4B1F888F2-95.SBX.TG    SHA256: 7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d"
+    },
+    {
+      "value": "73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": ".exe  Detection Name: W32.7FC50B69B5-95.SBX.TG    SHA256:   73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea"
+    },
+    {
+      "value": "985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9",
+      "type": "sha256",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "uto++.exe  Detection Name: HackTool:WZTeam-tpd    SHA256:   985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db3"
+    },
+    {
+      "value": "2915b3f8b703eb744fc54c81f4a9c67f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "93e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507   MD5: 2915b3f8b703eb744fc54c81f4a9c67f  Talos Rep:   https://talos"
+    },
+    {
+      "value": "95a6a4b638cfdfbe3afc883d593a1f87",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "aa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85   MD5: 95a6a4b638cfdfbe3afc883d593a1f87  Talos Rep:   https://talos"
+    },
+    {
+      "value": "cca616647db9370c88998ae25da6997f",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "fdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f   MD5: cca616647db9370c88998ae25da6997f  Talos Rep:   https://talos"
+    },
+    {
+      "value": "0cf0271c3564881fce95f44c649bd745",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "60418c2271b863c567e40e842adbab3c57023cb72de590ea377d   MD5: 0cf0271c3564881fce95f44c649bd745  Talos Rep:   https://talos"
+    },
+    {
+      "value": "485055033bcddfde56325c0d2feea4f2",
+      "type": "md5",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "18c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9   MD5: 485055033bcddfde56325c0d2feea4f2  Talos Rep:   https://talos"
+    },
+    {
+      "value": "CVE-2026-114938",
+      "type": "cve",
+      "source_name": "Cisco Talos",
+      "article_title": "The internet needs a nap (and you do, too)",
+      "article_url": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "article_date": "Thu, 19 Nov 2026 19:00:00 GMT",
+      "context": "cking the disclosure of \"Java4Shell\"   (CVE-2026-114938), a critical vulnerability in OpenJDK w"
+    },
+    {
       "value": "41.216.188.11",
       "type": "ip",
       "source_name": "Cisco Talos",
@@ -2326,24 +2425,6 @@
       "article_url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/",
       "article_date": "Wed, 18 Nov 2026 11:00:00 GMT",
       "context": "tor hosted the malicious files on a server with IP address “41.216.188.11”, running a Flask-based file delivery service "
-    },
-    {
-      "value": "CVE-2026-114938",
-      "type": "cve",
-      "source_name": "Cisco Talos",
-      "article_title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
-      "article_url": "https://blog.talosintelligence.com/java4shell/",
-      "article_date": "Wed, 18 Nov 2026 01:53:03 GMT",
-      "context": " \n \n\n \n     CVE-2026-114938: Critical vulnerability in OpenJDK Java"
-    },
-    {
-      "value": "CVE-2026-20127",
-      "type": "cve",
-      "source_name": "Cisco Talos",
-      "article_title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
-      "article_url": "https://blog.talosintelligence.com/java4shell/",
-      "article_date": "Wed, 18 Nov 2026 01:53:03 GMT",
-      "context": "highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability"
     },
     {
       "value": "f4bb8c7e15d8b98d535eb20b09176b3d",
@@ -2720,7 +2801,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-19T16:21:25.717516+00:00",
+      "article_date": "2026-11-19T23:26:13.120545+00:00",
       "context": "ec().\n\nINDICATORS:\n\nSHA-256 hash of the side-loaded DLL:\n\n- 7453f86a9b36a0067b37cf00627ae6195b9eeee9e64a58653a80069eae7b"
     },
     {
@@ -2729,7 +2810,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-19T16:21:25.717516+00:00",
+      "article_date": "2026-11-19T23:26:13.120545+00:00",
       "context": "bd6fa (krpt.dll)\n\nSHA-256 hash of the decrypted payload:\n\n- 91ca4a96289fae34fb441a41d836e9a61ba8d2cfe6a12a8d345c521a4dde"
     },
     {
@@ -2738,7 +2819,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-19T16:21:25.717516+00:00",
+      "article_date": "2026-11-19T23:26:13.120545+00:00",
       "context": "exexo.com and communicating with the resolved IP address at 185.139.214.102.\n  -- This infrastructure is attributed to P"
     },
     {
@@ -2747,7 +2828,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-19T16:21:26.931548+00:00",
+      "article_date": "2026-11-19T23:26:14.249122+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -2756,7 +2837,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-19T16:21:28.185840+00:00",
+      "article_date": "2026-11-19T23:26:15.345510+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -2765,7 +2846,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-19T16:21:28.185840+00:00",
+      "article_date": "2026-11-19T23:26:15.345510+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -2774,7 +2855,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-19T16:21:28.185840+00:00",
+      "article_date": "2026-11-19T23:26:15.345510+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -2783,7 +2864,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-19T16:21:28.185840+00:00",
+      "article_date": "2026-11-19T23:26:15.345510+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -2792,7 +2873,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-19T16:21:28.185840+00:00",
+      "article_date": "2026-11-19T23:26:15.345510+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -2801,7 +2882,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-19T16:21:28.185840+00:00",
+      "article_date": "2026-11-19T23:26:15.345510+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     }
   ],
@@ -3359,22 +3440,22 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 59,
-    "total": 264,
+    "total_extracted": 68,
+    "total": 273,
     "by_type": {
       "ip": 233,
-      "md5": 23,
-      "sha256": 5,
-      "cve": 3
+      "md5": 28,
+      "sha256": 10,
+      "cve": 2
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
       "Kaspersky Securelist": 39,
+      "Cisco Talos": 12,
       "Unit 42 (GitHub)": 10,
       "Feodo Tracker": 5,
       "Unit 42": 5,
-      "Cisco Talos": 3,
       "Microsoft MSTIC": 1,
       "SANS ISC": 1
     }
