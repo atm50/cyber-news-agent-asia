@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-18T23:17:56.644571+00:00",
+  "last_updated_utc": "2026-11-19T06:10:24.554128+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -1216,6 +1216,17 @@
       "first_seen": ""
     },
     {
+      "value": "1.71.91.53",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "1.224.163.125",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1293,6 +1304,17 @@
       "first_seen": ""
     },
     {
+      "value": "2.57.17.37",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "2.57.17.38",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1305,6 +1327,17 @@
     },
     {
       "value": "2.57.17.55",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.58",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1382,6 +1415,17 @@
     },
     {
       "value": "2.57.17.110",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.114",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1546,6 +1590,17 @@
       "first_seen": ""
     },
     {
+      "value": "2.57.17.196",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "2.57.17.198",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1580,6 +1635,17 @@
     },
     {
       "value": "2.57.17.224",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.226",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -2195,73 +2261,7 @@
       "first_seen": ""
     },
     {
-      "value": "5.252.83.89",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "5.252.83.93",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "5.252.83.98",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "5.252.83.103",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "5.252.83.111",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "5.252.83.119",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "5.252.83.120",
+      "value": "5.252.83.82",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -2706,12 +2706,21 @@
       "context": "pxyk/themelist0.html    URL  Observed destination path.     162.120.17.69:8080  IP and port  Observed host for individua"
     },
     {
+      "value": "CVE-2026-109618",
+      "type": "cve",
+      "source_name": "SANS ISC",
+      "article_title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI &#x5b;Guest Diary&#x5d;, (Wed, Nov 18th)",
+      "article_url": "https://isc.sans.edu/diary/rss/33534",
+      "article_date": "Thu, 19 Nov 2026 01:53:48 GMT",
+      "context": "ST that matches the shape of PHP2Shell (CVE-2026-109618) [ 3 ]. \r\n \r\n\r\n Instead of a document f"
+    },
+    {
       "value": "7453f86a9b36a0067b37cf00627ae6195b9eeee9e64a58653a80069eae7bd6fa",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-18T23:17:53.534800+00:00",
+      "article_date": "2026-11-19T06:10:21.579067+00:00",
       "context": "ec().\n\nINDICATORS:\n\nSHA-256 hash of the side-loaded DLL:\n\n- 7453f86a9b36a0067b37cf00627ae6195b9eeee9e64a58653a80069eae7b"
     },
     {
@@ -2720,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-18T23:17:53.534800+00:00",
+      "article_date": "2026-11-19T06:10:21.579067+00:00",
       "context": "bd6fa (krpt.dll)\n\nSHA-256 hash of the decrypted payload:\n\n- 91ca4a96289fae34fb441a41d836e9a61ba8d2cfe6a12a8d345c521a4dde"
     },
     {
@@ -2729,7 +2738,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-18T23:17:53.534800+00:00",
+      "article_date": "2026-11-19T06:10:21.579067+00:00",
       "context": "exexo.com and communicating with the resolved IP address at 185.139.214.102.\n  -- This infrastructure is attributed to P"
     },
     {
@@ -2738,7 +2747,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-18T23:17:54.834917+00:00",
+      "article_date": "2026-11-19T06:10:22.815745+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     },
     {
@@ -2747,7 +2756,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-18T23:17:56.138738+00:00",
+      "article_date": "2026-11-19T06:10:24.045916+00:00",
       "context": "ogle.com/view/antibot172881\n\nEXAMPLES OF SHA-256 HASHES:\n\n- 253d24c32887aa47244e2a14573dd54a2e458d9d5746a0e9eac4acbd2166"
     },
     {
@@ -2756,7 +2765,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-18T23:17:56.138738+00:00",
+      "article_date": "2026-11-19T06:10:24.045916+00:00",
       "context": "NGS:\n\n- We pivoted on the Romulus Loader C2 panel hosted at 151.240.151.223\n  -- The results revealed the site hosted se"
     },
     {
@@ -2765,7 +2774,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-18T23:17:56.138738+00:00",
+      "article_date": "2026-11-19T06:10:24.045916+00:00",
       "context": "execute malicious shellcode\n- The IP address at 2549127012 (151.240.151.100)is another Romulus Loader webpage\n\nINDICATOR"
     },
     {
@@ -2774,7 +2783,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-18T23:17:56.138738+00:00",
+      "article_date": "2026-11-19T06:10:24.045916+00:00",
       "context": "- Note: None of these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n"
     },
     {
@@ -2783,7 +2792,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-18T23:17:56.138738+00:00",
+      "article_date": "2026-11-19T06:10:24.045916+00:00",
       "context": " these IP addresses are currently active:\n\n- 2.27.248.127\n- 23.94.145.88\n- 23.94.145.115\n- 23.94.145.201\n- 23.94.145.224"
     },
     {
@@ -2792,7 +2801,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-31-Romulus-Loader-spread-via-ClickFix-technique.txt",
-      "article_date": "2026-11-18T23:17:56.138738+00:00",
+      "article_date": "2026-11-19T06:10:24.045916+00:00",
       "context": "24.118\n- 96.62.224.81\n- 151.240.151.223\n- 167.148.201.191\n- 167.148.201.224\n\nEXAMPLE OF URLS FROM ONE OF THE LOGIN PANEL"
     }
   ],
@@ -3350,13 +3359,13 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 58,
-    "total": 263,
+    "total_extracted": 59,
+    "total": 264,
     "by_type": {
       "ip": 233,
       "md5": 23,
       "sha256": 5,
-      "cve": 2
+      "cve": 3
     },
     "by_source": {
       "Emerging Threats": 100,
@@ -3366,7 +3375,8 @@
       "Feodo Tracker": 5,
       "Unit 42": 5,
       "Cisco Talos": 3,
-      "Microsoft MSTIC": 1
+      "Microsoft MSTIC": 1,
+      "SANS ISC": 1
     }
   },
   "errors": [
