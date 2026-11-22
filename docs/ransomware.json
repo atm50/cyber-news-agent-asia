@@ -1,6 +1,30 @@
 {
-  "last_updated_utc": "2026-11-22T15:59:16.458331+00:00",
+  "last_updated_utc": "2026-11-22T21:40:47.319184+00:00",
   "victims": [
+    {
+      "victim": "EconSys",
+      "group": "direwolf",
+      "country": "",
+      "sector": "Technology",
+      "discovered": "2026-11-22T15:07:43.161292+00:00",
+      "attack_date": "2026-11-22T14:52:13.134000+00:00",
+      "website": "",
+      "description": "Business Services",
+      "claim_url": "http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/api/public/articles/144",
+      "monitored": false
+    },
+    {
+      "victim": "Samsung Group: 1TB Data Breach from Ransomware Attack",
+      "group": "HYFLOCK",
+      "country": "South Korea",
+      "sector": "Technology",
+      "discovered": "2026-11-22T13:52:25.496056+00:00",
+      "attack_date": "2026-11-22T13:41:49+00:00",
+      "website": "",
+      "description": "Right now, our team is reviewing your security team’s report on defenses against ransomware attacks. However, it appears you haven’t adequately protected yourselves. We gained access through the initial entry point and spent two days inside, where we obtained ESX administrator privileges. After some",
+      "claim_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1795354909505240233_iHoVbG9s",
+      "monitored": true
+    },
     {
       "victim": "Law Offices of Cynthia A. de Petris",
       "group": "rhysida",
@@ -1175,30 +1199,6 @@
       "website": "",
       "description": "Contracts and Commercial Relationships — 7,105 unique files (18.78 GB): signed contracts, customer and supplier agreements, agreements with ENI, service contracts, and agency agreements.\r\nFinance and Accounting — 28,562 files (1.91 GB): invoices, payments, tax filings, balance sheets, commissions, r",
       "claim_url": "https://www.ransomware.live/id/ZW5pLml0QGluY3JhbnNvbQ==",
-      "monitored": false
-    },
-    {
-      "victim": "www.leadersaluminium.ae",
-      "group": "krybit",
-      "country": "United Arab Emirates",
-      "sector": "Manufacturing",
-      "discovered": "2026-11-19T01:57:18.197956+00:00",
-      "attack_date": "2026-11-19T01:57:00.606455+00:00",
-      "website": "",
-      "description": "Leaders Aluminium & Glass Industries LLC is a UAE fabricator, manufacturer, and contractor of aluminium and glazing prod...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/eef9344d249b9ff4f07e3b151aa2b2d73355265127c30b30a3e2cd73078628c7/",
-      "monitored": false
-    },
-    {
-      "victim": "alumil.com",
-      "group": "krybit",
-      "country": "GR",
-      "sector": "Manufacturing",
-      "discovered": "2026-11-19T00:50:25.526338+00:00",
-      "attack_date": "2026-11-19T00:50:09.192861+00:00",
-      "website": "",
-      "description": "ALUMIL S.A. (Alumil Aluminium Industry S.A.) is a Greek manufacturer of architectural aluminium systems. The Milonas fam...",
-      "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/fdd6fdee34768ced31ffdd177e2b0a30867bbcabeea8a84c418d7550a52fbfa9/",
       "monitored": false
     }
   ],
@@ -3774,12 +3774,12 @@
   ],
   "stats": {
     "total_victims": 100,
-    "monitored_victims": 58,
-    "unique_groups": 28,
-    "unique_countries": 34,
+    "monitored_victims": 59,
+    "unique_groups": 29,
+    "unique_countries": 33,
     "by_country": {
       "United States": 41,
-      "Unknown": 13,
+      "Unknown": 14,
       "Spain": 3,
       "Canada": 3,
       "Italy": 3,
@@ -3791,6 +3791,7 @@
       "France": 2,
       "Japan": 2,
       "CO": 2,
+      "South Korea": 1,
       "DO": 1,
       "MF": 1,
       "CL": 1,
@@ -3809,27 +3810,25 @@
       "PA": 1,
       "Vietnam": 1,
       "Pakistan": 1,
-      "Russia": 1,
-      "United Arab Emirates": 1,
-      "GR": 1
+      "Russia": 1
     },
     "by_group": {
       "SoulGroup": 27,
       "everest": 10,
       "safepay": 9,
       "rhysida": 6,
+      "HYFLOCK": 5,
       "PixelLeaks": 5,
-      "HYFLOCK": 4,
       "spacebears": 4,
       "incransom": 3,
       "SilentRansomGroup": 3,
       "Whitearmor": 3,
       "Handsome Boy Hacking Club": 3,
-      "krybit": 3,
       "medusalocker": 2,
       "Barracuda": 2,
       "Inception": 2,
       "aurora": 2,
+      "direwolf": 1,
       "EndZone": 1,
       "qilin": 1,
       "lockbit5": 1,
@@ -3841,14 +3840,15 @@
       "akira": 1,
       "Deadlock": 1,
       "fulcrumsec": 1,
-      "crypto24": 1
+      "crypto24": 1,
+      "krybit": 1
     },
     "by_sector": {
       "Healthcare": 20,
+      "Technology": 15,
       "Professional Services": 14,
-      "Technology": 13,
       "Other": 12,
-      "Manufacturing": 11,
+      "Manufacturing": 9,
       "Not Found": 5,
       "Financial Services": 4,
       "Retail & E-Commerce": 4,
