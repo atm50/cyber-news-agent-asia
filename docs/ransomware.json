@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-22T21:40:47.319184+00:00",
+  "last_updated_utc": "2026-11-23T02:19:04.152763+00:00",
   "victims": [
     {
       "victim": "EconSys",
@@ -71,6 +71,18 @@
       "website": "",
       "description": "O&M University of the Dominican Republic (udoym.edu.do) is an institution of higher education in the Dominican Republic founded in 1966. The following is an overview of key information from the website: Campus Locations (Recintos) The university has multiple campuses and colleges throughout the Domi",
       "claim_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1795330829178412509_ZiAuJXHm",
+      "monitored": false
+    },
+    {
+      "victim": "Viapan Group",
+      "group": "qilin",
+      "country": "HU",
+      "sector": "Other",
+      "discovered": "2026-11-22T19:36:08.022823+00:00",
+      "attack_date": "2026-11-22T00:00:00+00:00",
+      "website": "",
+      "description": "N/A",
+      "claim_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=df657794-7b5e-4842-8cb5-060200451e12",
       "monitored": false
     },
     {
@@ -1188,18 +1200,6 @@
       "description": "Master Mind Consultant Company Limited is a private Thai company headquartered in Bangkok. It operates in hotels and mot...",
       "claim_url": "http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/7159bcb51418253e63758ce3bfc6fe27efb04c5123aec9ba64839474d742dffe/",
       "monitored": true
-    },
-    {
-      "victim": "eni.it",
-      "group": "incransom",
-      "country": "Italy",
-      "sector": "Energy & Utilities",
-      "discovered": "2026-11-20T04:42:22.567715+00:00",
-      "attack_date": "2026-11-19T03:38:00+00:00",
-      "website": "",
-      "description": "Contracts and Commercial Relationships — 7,105 unique files (18.78 GB): signed contracts, customer and supplier agreements, agreements with ENI, service contracts, and agency agreements.\r\nFinance and Accounting — 28,562 files (1.91 GB): invoices, payments, tax filings, balance sheets, commissions, r",
-      "claim_url": "https://www.ransomware.live/id/ZW5pLml0QGluY3JhbnNvbQ==",
-      "monitored": false
     }
   ],
   "groups": [
@@ -3776,13 +3776,12 @@
     "total_victims": 100,
     "monitored_victims": 59,
     "unique_groups": 29,
-    "unique_countries": 33,
+    "unique_countries": 34,
     "by_country": {
       "United States": 41,
       "Unknown": 14,
       "Spain": 3,
       "Canada": 3,
-      "Italy": 3,
       "Philippines": 2,
       "Taiwan": 2,
       "Singapore": 2,
@@ -3791,8 +3790,10 @@
       "France": 2,
       "Japan": 2,
       "CO": 2,
+      "Italy": 2,
       "South Korea": 1,
       "DO": 1,
+      "HU": 1,
       "MF": 1,
       "CL": 1,
       "EC": 1,
@@ -3820,17 +3821,17 @@
       "HYFLOCK": 5,
       "PixelLeaks": 5,
       "spacebears": 4,
-      "incransom": 3,
       "SilentRansomGroup": 3,
       "Whitearmor": 3,
       "Handsome Boy Hacking Club": 3,
+      "qilin": 2,
       "medusalocker": 2,
+      "incransom": 2,
       "Barracuda": 2,
       "Inception": 2,
       "aurora": 2,
       "direwolf": 1,
       "EndZone": 1,
-      "qilin": 1,
       "lockbit5": 1,
       "osiris": 1,
       "Eclipse": 1,
@@ -3847,15 +3848,15 @@
       "Healthcare": 20,
       "Technology": 15,
       "Professional Services": 14,
-      "Other": 12,
+      "Other": 13,
       "Manufacturing": 9,
       "Not Found": 5,
       "Financial Services": 4,
       "Retail & E-Commerce": 4,
       "Hospitality": 4,
-      "Energy & Utilities": 4,
       "Government & Defense": 4,
       "Education": 3,
+      "Energy & Utilities": 3,
       "Transportation": 2
     }
   },
