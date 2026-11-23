@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-23T02:19:02.467525+00:00",
+  "last_updated_utc": "2026-11-23T11:53:41.572586+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2436,6 +2436,15 @@
       "context": "tor hosted the malicious files on a server with IP address “41.216.188.11”, running a Flask-based file delivery service "
     },
     {
+      "value": "CVE-2025-55182",
+      "type": "cve",
+      "source_name": "Kaspersky Securelist",
+      "article_title": "Black Friday, red flags: too-good-to-be-true deals hiding real threats",
+      "article_url": "https://securelist.com/black-friday-threat-report-2026/122061/",
+      "article_date": "Mon, 23 Nov 2026 10:00:43 +0000",
+      "context": " \n\t\t \n\t\t\t\n\t\t\t\n\t\t\t  It didn’t take long: CVE-2025-55182 is now under active exploitation  \t\t \n\t"
+    },
+    {
       "value": "f4bb8c7e15d8b98d535eb20b09176b3d",
       "type": "md5",
       "source_name": "Kaspersky Securelist",
@@ -2688,111 +2697,12 @@
       "context": "om  \n Proxy C2 server \n  104.194.154.28  \n 216.73.158.72  \n 122.147.252.16  \n 103.106.230.33  \n 123.58.205.105  \n 223.16"
     },
     {
-      "value": "e63ec733393e4e7e3424cbff918003a3",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "MD5 32151547d912488ac5242731057170a3)    Type 2 Loader (MD5 e63ec733393e4e7e3424cbff918003a3)      Backdoors    GitDoor "
-    },
-    {
-      "value": "552f0a9cc5fc3755721fa49be05e8035",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "733393e4e7e3424cbff918003a3)      Backdoors    GitDoor (MD5 552f0a9cc5fc3755721fa49be05e8035)    Command processing    C"
-    },
-    {
-      "value": "74b025084026d8d9a64661bf995d835b",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "vered two separate instances of the MeshCentral Agent (MD5: 74b025084026d8d9a64661bf995d835b), which were launched insid"
-    },
-    {
-      "value": "8b78ef5609d942036e93721d75bd1f29",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "mate binaries: the OpenJDK platform binary (javaw.exe, MD5: 8b78ef5609d942036e93721d75bd1f29), Sandboxie Start (start.ex"
-    },
-    {
-      "value": "be739a7036dc8e2ee8608fba13c8c3a4",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "09d942036e93721d75bd1f29), Sandboxie Start (start.exe, MD5: be739a7036dc8e2ee8608fba13c8c3a4), a Python application (pyt"
-    },
-    {
-      "value": "84802caf2579cfe7a38f079a64a3cd22",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "ee8608fba13c8c3a4), a Python application (pythonw.exe, MD5: 84802caf2579cfe7a38f079a64a3cd22), and the Sysinternals Scre"
-    },
-    {
-      "value": "d955d03104f988582cbd2967177693d3",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "nd the Sysinternals Screen Magnifier tool (zoomit.exe, MD5: d955d03104f988582cbd2967177693d3), which the attackers start"
-    },
-    {
-      "value": "3896d44bc6d517291c60ee3f70543a31",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "170a3) \n The loader jli.dll reads the file config.ini (MD5: 3896d44bc6d517291c60ee3f70543a31) located next to it using t"
-    },
-    {
-      "value": "b930fb3ab14fe45b378d5acfa6e0a763",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "esolution. It reads an encrypted blob from config.ini (MD5: b930fb3ab14fe45b378d5acfa6e0a763), which decrypts to bootstr"
-    },
-    {
-      "value": "6a54f8008ee659b6923abf5dba2b2cc1",
-      "type": "md5",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "se checks, it reads an encrypted blob from config.ini (MD5: 6a54f8008ee659b6923abf5dba2b2cc1) located in the module’s di"
-    },
-    {
-      "value": "27.102.66.162",
-      "type": "ip",
-      "source_name": "Kaspersky Securelist",
-      "article_title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-      "article_url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
-      "article_date": "Tue, 17 Nov 2026 08:00:37 +0000",
-      "context": "ral Agent was hard‑coded to reach a remote server at  wss://27.102.66.162:443/agent.ashx . Once the C2 session was estab"
-    },
-    {
       "value": "5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-23T02:18:59.597019+00:00",
+      "article_date": "2026-11-23T11:53:38.511142+00:00",
       "context": "s&y=Guest\n\nFile hash (FleetDeck Agent installer):\n\n- SHA256 5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca"
     },
     {
@@ -2801,7 +2711,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-23T02:18:59.597019+00:00",
+      "article_date": "2026-11-23T11:53:38.511142+00:00",
       "context": "bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3eb58bdc5b7ddd6bd58e4effc; \n  -- 4,391,192 by"
     },
     {
@@ -2810,7 +2720,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-23T02:18:59.597019+00:00",
+      "article_date": "2026-11-23T11:53:38.511142+00:00",
       "context": "52392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3e"
     },
     {
@@ -2819,7 +2729,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-23T02:19:00.182132+00:00",
+      "article_date": "2026-11-23T11:53:39.136572+00:00",
       "context": "ec().\n\nINDICATORS:\n\nSHA-256 hash of the side-loaded DLL:\n\n- 7453f86a9b36a0067b37cf00627ae6195b9eeee9e64a58653a80069eae7b"
     },
     {
@@ -2828,7 +2738,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-23T02:19:00.182132+00:00",
+      "article_date": "2026-11-23T11:53:39.136572+00:00",
       "context": "bd6fa (krpt.dll)\n\nSHA-256 hash of the decrypted payload:\n\n- 91ca4a96289fae34fb441a41d836e9a61ba8d2cfe6a12a8d345c521a4dde"
     },
     {
@@ -2837,7 +2747,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-23T02:19:00.182132+00:00",
+      "article_date": "2026-11-23T11:53:39.136572+00:00",
       "context": "exexo.com and communicating with the resolved IP address at 185.139.214.102.\n  -- This infrastructure is attributed to P"
     },
     {
@@ -2846,7 +2756,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-23T02:19:01.357319+00:00",
+      "article_date": "2026-11-23T11:53:40.417554+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     }
   ],
@@ -3404,19 +3314,19 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 64,
-    "total": 269,
+    "total_extracted": 54,
+    "total": 259,
     "by_type": {
-      "ip": 227,
-      "md5": 29,
+      "ip": 226,
+      "md5": 19,
       "sha256": 11,
-      "cve": 1,
+      "cve": 2,
       "sha1": 1
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
-      "Kaspersky Securelist": 39,
+      "Kaspersky Securelist": 29,
       "Cisco Talos": 12,
       "Unit 42 (GitHub)": 7,
       "Unit 42": 6,
