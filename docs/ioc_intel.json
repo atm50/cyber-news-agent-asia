@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-24T08:45:09.843033+00:00",
+  "last_updated_utc": "2026-11-24T19:59:07.853523+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2274,6 +2274,60 @@
   ],
   "extracted_iocs": [
     {
+      "value": "CVE-2026-31431",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
+      "context": "ing example is the  Copy Fail  exploit (CVE-2026-31431), a Linux kernel vulnerability that app"
+    },
+    {
+      "value": "CVE-2024-1086",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
+      "context": "ailed, the agent fetched a pre-compiled CVE-2024-1086  privilege escalation exploit . Only af"
+    },
+    {
+      "value": "204.194.54.240",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
+      "context": "re payloads and web shells. In one campaign, the C2 server  204.194.54.240  appeared in both PowerShell download cradles"
+    },
+    {
+      "value": "150.242.254.199",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
+      "context": "  Cyber Threat Alliance . \n   Indicators of Compromise \n \n  150.242.254.199  — Reverse shell target \n  204.194.54.240  —"
+    },
+    {
+      "value": "206.123.152.217",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
+      "context": "shell target \n  204.194.54.240  — C2 and payload staging \n  206.123.152.217  — Reverse shell C2 \n  38.253.224.12  — GSoc"
+    },
+    {
+      "value": "38.253.224.12",
+      "type": "ip",
+      "source_name": "Unit 42",
+      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
+      "context": "d payload staging \n  206.123.152.217  — Reverse shell C2 \n  38.253.224.12  — GSocket and SSH tunnel relay \n  webhook.sit"
+    },
+    {
       "value": "930898e8b65e9cf4e2595ac4092042a707cca8922751e723ad8b86260655154a",
       "type": "sha256",
       "source_name": "Unit 42",
@@ -2299,33 +2353,6 @@
       "article_url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
       "article_date": "Fri, 20 Nov 2026 22:00:25 +0000",
       "context": " Addresses \n \n  31.42.184.213  (hosted  oskeysetup.com ) \n  193.149.176.62  (accessed compromised accounts) \n \n Fully Qu"
-    },
-    {
-      "value": "2281e754f70e11298db1a0a7c1b527cf2b5eec2056d4c73a46ed572ab873dc6e",
-      "type": "sha256",
-      "source_name": "Unit 42",
-      "article_title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-      "article_url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
-      "article_date": "Mon, 16 Nov 2026 23:00:55 +0000",
-      "context": " \n   SHA256 Hashes \n PerfectPioneer RAT –  RatAAkk-tt  \n \n  2281e754f70e11298db1a0a7c1b527cf2b5eec2056d4c73a46ed572ab873"
-    },
-    {
-      "value": "27.254.164.212",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-      "article_url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
-      "article_date": "Mon, 16 Nov 2026 23:00:55 +0000",
-      "context": "mains  \n \n  www.sacofficegov.com  \n \n    IP Addresses  \n \n  27.254.164.212  \n  27.254.164.209  \n \n   Additional Resource"
-    },
-    {
-      "value": "27.254.164.209",
-      "type": "ip",
-      "source_name": "Unit 42",
-      "article_title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-      "article_url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
-      "article_date": "Mon, 16 Nov 2026 23:00:55 +0000",
-      "context": "officegov.com  \n \n    IP Addresses  \n \n  27.254.164.212  \n  27.254.164.209  \n \n   Additional Resources \n \n  Inside Ink D"
     },
     {
       "value": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
@@ -2792,7 +2819,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-24T08:45:06.402575+00:00",
+      "article_date": "2026-11-24T19:59:05.617081+00:00",
       "context": "s&y=Guest\n\nFile hash (FleetDeck Agent installer):\n\n- SHA256 5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca"
     },
     {
@@ -2801,7 +2828,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-24T08:45:06.402575+00:00",
+      "article_date": "2026-11-24T19:59:05.617081+00:00",
       "context": "bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3eb58bdc5b7ddd6bd58e4effc; \n  -- 4,391,192 by"
     },
     {
@@ -2810,7 +2837,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-24T08:45:06.402575+00:00",
+      "article_date": "2026-11-24T19:59:05.617081+00:00",
       "context": "52392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3e"
     },
     {
@@ -2819,7 +2846,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-24T08:45:07.036623+00:00",
+      "article_date": "2026-11-24T19:59:06.218080+00:00",
       "context": "ec().\n\nINDICATORS:\n\nSHA-256 hash of the side-loaded DLL:\n\n- 7453f86a9b36a0067b37cf00627ae6195b9eeee9e64a58653a80069eae7b"
     },
     {
@@ -2828,7 +2855,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-24T08:45:07.036623+00:00",
+      "article_date": "2026-11-24T19:59:06.218080+00:00",
       "context": "bd6fa (krpt.dll)\n\nSHA-256 hash of the decrypted payload:\n\n- 91ca4a96289fae34fb441a41d836e9a61ba8d2cfe6a12a8d345c521a4dde"
     },
     {
@@ -2837,7 +2864,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-24T08:45:07.036623+00:00",
+      "article_date": "2026-11-24T19:59:06.218080+00:00",
       "context": "exexo.com and communicating with the resolved IP address at 185.139.214.102.\n  -- This infrastructure is attributed to P"
     },
     {
@@ -2846,11 +2873,44 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-24T08:45:09.341811+00:00",
+      "article_date": "2026-11-24T19:59:07.352297+00:00",
       "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     }
   ],
   "cisa_kev": [
+    {
+      "cve_id": "CVE-2026-132224",
+      "vendor": "Optimizely",
+      "product": "Web Experimentation",
+      "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-131914",
+      "vendor": "Idunno",
+      "product": "AntiCsrf",
+      "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2026-132165",
+      "vendor": "Drupal",
+      "product": "Core",
+      "name": "Drupal Core Remote Code Execution Vulnerability",
+      "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "known_ransomware": "Unknown"
+    },
     {
       "cve_id": "CVE-2026-133968",
       "vendor": "Project MONAI",
@@ -3367,50 +3427,17 @@
       "due_date": "2026-10-18",
       "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-105134",
-      "vendor": "Ahsay",
-      "product": "AhsayCBS",
-      "name": "Ahsay AhsayCBS Command Injection Vulnerability",
-      "description": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.",
-      "date_added": "2026-10-14",
-      "due_date": "2026-10-17",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-76519",
-      "vendor": "Cisco",
-      "product": "Secure Email Gateway",
-      "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-      "description": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
-      "date_added": "2026-10-14",
-      "due_date": "2026-10-17",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
-    },
-    {
-      "cve_id": "CVE-2026-105133",
-      "vendor": "Ahsay",
-      "product": "AhsayCBS",
-      "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "description": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
-      "date_added": "2026-10-14",
-      "due_date": "2026-10-17",
-      "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "known_ransomware": "Unknown"
     }
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 64,
-    "total": 269,
+    "total_extracted": 67,
+    "total": 272,
     "by_type": {
-      "ip": 236,
+      "ip": 238,
       "md5": 19,
-      "sha256": 11,
-      "cve": 2,
+      "sha256": 10,
+      "cve": 4,
       "sha1": 1
     },
     "by_source": {
@@ -3419,8 +3446,8 @@
       "Kaspersky Securelist": 29,
       "Cisco Talos": 12,
       "SANS ISC": 10,
+      "Unit 42": 9,
       "Unit 42 (GitHub)": 7,
-      "Unit 42": 6,
       "Feodo Tracker": 5
     }
   },
