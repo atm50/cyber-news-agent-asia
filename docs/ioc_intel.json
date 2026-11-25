@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-24T19:59:07.853523+00:00",
+  "last_updated_utc": "2026-11-25T03:29:14.901563+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -183,6 +183,17 @@
     },
     {
       "value": "101.96.193.145",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "102.220.160.67",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -380,17 +391,6 @@
       "first_seen": ""
     },
     {
-      "value": "103.67.152.201",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
       "value": "103.90.224.22",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -523,17 +523,6 @@
       "first_seen": ""
     },
     {
-      "value": "108.28.86.172",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
       "value": "108.46.229.102",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -612,6 +601,17 @@
     },
     {
       "value": "113.200.238.158",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "113.98.254.50",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -843,6 +843,17 @@
     },
     {
       "value": "116.99.172.160",
+      "type": "ip",
+      "threat": "Compromised/Malicious",
+      "source": "Emerging Threats",
+      "source_url": "https://rules.emergingthreats.net",
+      "tags": [
+        "compromised"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "116.99.172.3",
       "type": "ip",
       "threat": "Compromised/Malicious",
       "source": "Emerging Threats",
@@ -1128,17 +1139,6 @@
       "first_seen": ""
     },
     {
-      "value": "121.242.232.216",
-      "type": "ip",
-      "threat": "Compromised/Malicious",
-      "source": "Emerging Threats",
-      "source_url": "https://rules.emergingthreats.net",
-      "tags": [
-        "compromised"
-      ],
-      "first_seen": ""
-    },
-    {
       "value": "123.139.38.70",
       "type": "ip",
       "threat": "Compromised/Malicious",
@@ -1238,7 +1238,29 @@
       "first_seen": ""
     },
     {
+      "value": "2.57.17.84",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "2.57.17.104",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.129",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1261,6 +1283,17 @@
     },
     {
       "value": "2.57.17.143",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.144",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1327,6 +1360,28 @@
     },
     {
       "value": "2.57.17.210",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.215",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "2.57.17.234",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1524,6 +1579,17 @@
       "first_seen": ""
     },
     {
+      "value": "4.148.240.217",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "4.150.187.10",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1579,6 +1645,28 @@
       "first_seen": ""
     },
     {
+      "value": "5.122.143.244",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.181.2.135",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.187.38.30",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1601,6 +1689,28 @@
       "first_seen": ""
     },
     {
+      "value": "5.202.44.235",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.30",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.226.140.31",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1612,7 +1722,40 @@
       "first_seen": ""
     },
     {
+      "value": "5.226.140.32",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.226.140.35",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.38",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.226.140.58",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1689,6 +1832,17 @@
       "first_seen": ""
     },
     {
+      "value": "5.252.83.148",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.252.83.165",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1722,6 +1876,17 @@
       "first_seen": ""
     },
     {
+      "value": "5.252.83.188",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "5.252.83.190",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -1734,6 +1899,17 @@
     },
     {
       "value": "5.252.83.219",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
+      "value": "5.252.83.232",
       "type": "ip",
       "threat": "Artillery Banlist",
       "source": "Binary Defense",
@@ -1898,6 +2074,17 @@
       "first_seen": ""
     },
     {
+      "value": "9.234.42.5",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "12.252.41.230",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -2041,6 +2228,17 @@
       "first_seen": ""
     },
     {
+      "value": "16.146.32.127",
+      "type": "ip",
+      "threat": "Artillery Banlist",
+      "source": "Binary Defense",
+      "source_url": "https://www.binarydefense.com",
+      "tags": [
+        "blocked"
+      ],
+      "first_seen": ""
+    },
+    {
       "value": "18.116.101.220",
       "type": "ip",
       "threat": "Artillery Banlist",
@@ -2072,215 +2270,116 @@
         "blocked"
       ],
       "first_seen": ""
-    },
-    {
-      "value": "18.246.226.237",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.14.93.253",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.14.94.17",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.14.94.48",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.15.166.16",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.29.57.70",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.40.213.118",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.40.218.159",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.42.88.159",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.46.243.2",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.46.254.53",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.51.218.132",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.55.25.240",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.64.98.23",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.64.98.159",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.65.144.98",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.65.145.206",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
-    },
-    {
-      "value": "20.65.170.203",
-      "type": "ip",
-      "threat": "Artillery Banlist",
-      "source": "Binary Defense",
-      "source_url": "https://www.binarydefense.com",
-      "tags": [
-        "blocked"
-      ],
-      "first_seen": ""
     }
   ],
   "extracted_iocs": [
     {
+      "value": "CVE-2026-123633",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "  \n \n\n\t \n\t NGINX HTTP/2 Use-After-Free: CVE-2026-123633 \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t \n\t "
+    },
+    {
+      "value": "CVE-2026-123634",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "ection bug tracked as CVE-2026-123633.  CVE-2026-123634  is a separate DNS resolver vulnerabili"
+    },
+    {
+      "value": "CVE-2026-109618",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated November 19) "
+    },
+    {
+      "value": "CVE-2026-109619",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "ulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated November 19) \n                "
+    },
+    {
+      "value": "CVE-2026-0257",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": " Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) \n                 "
+    },
+    {
+      "value": "CVE-2026-88771",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "      Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wil"
+    },
+    {
+      "value": "CVE-2026-88772",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": " NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated Septembe"
+    },
+    {
+      "value": "CVE-2025-40947",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "\t\t Command injection \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t"
+    },
+    {
+      "value": "CVE-2025-40948",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "\t\t\t\t\t CVE-2025-40947 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2025-40948 \n\t\t\t\t                   \n              "
+    },
+    {
+      "value": "CVE-2026-0300",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "       \n                   \n\t\t\t\t \n\t\t\t\t\t CVE-2026-0300 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t EarthWorm \n\t\t\t\t \n\t\t\t"
+    },
+    {
       "value": "CVE-2026-31431",
       "type": "cve",
       "source_name": "Unit 42",
-      "article_title": "Recent Trends and Tactics of Agentic AI Attacks",
-      "article_url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
-      "article_date": "Tue, 24 Nov 2026 15:00:19 +0000",
-      "context": "ing example is the  Copy Fail  exploit (CVE-2026-31431), a Linux kernel vulnerability that app"
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "\t\t \n\t\t\t\t\t Containers \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t CVE-2026-31431 \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t Kubernetes \n\t\t\t\t    "
+    },
+    {
+      "value": "CVE-2023-33538",
+      "type": "cve",
+      "source_name": "Unit 42",
+      "article_title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "article_url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "article_date": "Tue, 24 Nov 2026 23:00:14 +0000",
+      "context": "eep Dive Into Attempted Exploitation of CVE-2023-33538 \n                   \n                  "
     },
     {
       "value": "CVE-2024-1086",
@@ -2814,12 +2913,30 @@
       "context": "160.32.147 \r\n[10] https://www.virustotal.com/gui/ip-address/109.160.32.150 \r\n\r\n ----------- \r\nGuy Bruneau  IPSS Inc.  \r\n"
     },
     {
+      "value": "91aca0a9f9bcfac07da4d0e56fba9573c26e89fc418dde1a57051fd56bfb4d43",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-11-24-ClickFix-campaign-for-ACR-Stealer.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-24-ClickFix-campaign-for-ACR-Stealer.txt",
+      "article_date": "2026-11-25T03:29:11.484624+00:00",
+      "context": "tion algorithm (DGA).\r\n\nINDICATORS:\r\n\r\nSHA-256 hashes:\r\n\r\n- 91aca0a9f9bcfac07da4d0e56fba9573c26e89fc418dde1a57051fd56bfb"
+    },
+    {
+      "value": "45e1792d302e729ad59e37382eedfffd44bd69ca625c396015ac3471391990af",
+      "type": "sha256",
+      "source_name": "Unit 42 (GitHub)",
+      "article_title": "2026-11-23-OAuth-Misuse.txt",
+      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-23-OAuth-Misuse.txt",
+      "article_date": "2026-11-25T03:29:12.106248+00:00",
+      "context": "cfIUBgrds3u/index.php\n\nSHA-256 hash for malicious file: \n\n- 45e1792d302e729ad59e37382eedfffd44bd69ca625c396015ac34713919"
+    },
+    {
       "value": "5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b",
       "type": "sha256",
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-24T19:59:05.617081+00:00",
+      "article_date": "2026-11-25T03:29:13.577257+00:00",
       "context": "s&y=Guest\n\nFile hash (FleetDeck Agent installer):\n\n- SHA256 5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca"
     },
     {
@@ -2828,7 +2945,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-24T19:59:05.617081+00:00",
+      "article_date": "2026-11-25T03:29:13.577257+00:00",
       "context": "bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3eb58bdc5b7ddd6bd58e4effc; \n  -- 4,391,192 by"
     },
     {
@@ -2837,7 +2954,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-24T19:59:05.617081+00:00",
+      "article_date": "2026-11-25T03:29:13.577257+00:00",
       "context": "52392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3e"
     },
     {
@@ -2846,7 +2963,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-24T19:59:06.218080+00:00",
+      "article_date": "2026-11-25T03:29:14.399558+00:00",
       "context": "ec().\n\nINDICATORS:\n\nSHA-256 hash of the side-loaded DLL:\n\n- 7453f86a9b36a0067b37cf00627ae6195b9eeee9e64a58653a80069eae7b"
     },
     {
@@ -2855,7 +2972,7 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-24T19:59:06.218080+00:00",
+      "article_date": "2026-11-25T03:29:14.399558+00:00",
       "context": "bd6fa (krpt.dll)\n\nSHA-256 hash of the decrypted payload:\n\n- 91ca4a96289fae34fb441a41d836e9a61ba8d2cfe6a12a8d345c521a4dde"
     },
     {
@@ -2864,17 +2981,8 @@
       "source_name": "Unit 42 (GitHub)",
       "article_title": "2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
       "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-16-DLL-side-loading-for-PureLogs-PureRAT.txt",
-      "article_date": "2026-11-24T19:59:06.218080+00:00",
+      "article_date": "2026-11-25T03:29:14.399558+00:00",
       "context": "exexo.com and communicating with the resolved IP address at 185.139.214.102.\n  -- This infrastructure is attributed to P"
-    },
-    {
-      "value": "c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28b855",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-05-Site-impersonating-RODEcaster-distributes-Santa-Stealer.txt",
-      "article_date": "2026-11-24T19:59:07.352297+00:00",
-      "context": "d and Control / Exfiltration Proxy)\n\n- SHA-256 Hashes:\n  -- c6077b57eb197b6d4fcc4f04693985378f8a4d990cc4e81777bf16420a28"
     }
   ],
   "cisa_kev": [
@@ -3431,23 +3539,23 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 67,
-    "total": 272,
+    "total_extracted": 79,
+    "total": 284,
     "by_type": {
       "ip": 238,
       "md5": 19,
-      "sha256": 10,
-      "cve": 4,
+      "cve": 15,
+      "sha256": 11,
       "sha1": 1
     },
     "by_source": {
       "Emerging Threats": 100,
       "Binary Defense": 100,
       "Kaspersky Securelist": 29,
+      "Unit 42": 20,
       "Cisco Talos": 12,
       "SANS ISC": 10,
-      "Unit 42": 9,
-      "Unit 42 (GitHub)": 7,
+      "Unit 42 (GitHub)": 8,
       "Feodo Tracker": 5
     }
   },
@@ -3459,6 +3567,6 @@
     "[c2tracker/Metasploit C2]: HTTP Error 404: Not Found",
     "[c2tracker/Brute Ratel C4]: HTTP Error 404: Not Found",
     "[blog_rss/Google TAG]: HTTP Error 404: Not Found",
-    "[blog_rss/FortiGuard]: HTTP Error 404: Not Found"
+    "[blog_rss/FortiGuard]: <urlopen error [Errno 104] Connection reset by peer>"
   ]
 }
