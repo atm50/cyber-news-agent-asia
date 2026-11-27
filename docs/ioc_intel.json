@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-27T06:59:43.580824+00:00",
+  "last_updated_utc": "2026-11-27T17:24:21.404134+00:00",
   "structured_iocs": [
     {
       "value": "162.243.103.246",
@@ -2650,51 +2650,6 @@
       "article_url": "https://isc.sans.edu/diary/rss/33550",
       "article_date": "Tue, 24 Nov 2026 02:32:00 GMT",
       "context": "160.32.147 \r\n[10] https://www.virustotal.com/gui/ip-address/109.160.32.150 \r\n\r\n ----------- \r\nGuy Bruneau  IPSS Inc.  \r\n"
-    },
-    {
-      "value": "91aca0a9f9bcfac07da4d0e56fba9573c26e89fc418dde1a57051fd56bfb4d43",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-11-24-ClickFix-campaign-for-ACR-Stealer.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-24-ClickFix-campaign-for-ACR-Stealer.txt",
-      "article_date": "2026-11-27T06:59:41.382173+00:00",
-      "context": "ion algorithm (DGA).\r\n\r\nINDICATORS:\r\n\r\nSHA-256 hashes:\r\n\r\n- 91aca0a9f9bcfac07da4d0e56fba9573c26e89fc418dde1a57051fd56bfb"
-    },
-    {
-      "value": "45e1792d302e729ad59e37382eedfffd44bd69ca625c396015ac3471391990af",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-11-23-OAuth-Misuse.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-23-OAuth-Misuse.txt",
-      "article_date": "2026-11-27T06:59:41.951579+00:00",
-      "context": "cfIUBgrds3u/index.php\n\nSHA-256 hash for malicious file: \n\n- 45e1792d302e729ad59e37382eedfffd44bd69ca625c396015ac34713919"
-    },
-    {
-      "value": "5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b",
-      "type": "sha256",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-27T06:59:43.078139+00:00",
-      "context": "s&y=Guest\n\nFile hash (FleetDeck Agent installer):\n\n- SHA256 5393b2ec35dfe452392a60688b941796fddcb14c9b5df2a0db6b726f1bca"
-    },
-    {
-      "value": "f80fb987c4f894e3eb58bdc5b7ddd6bd58e4effc",
-      "type": "sha1",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-27T06:59:43.078139+00:00",
-      "context": "bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3eb58bdc5b7ddd6bd58e4effc; \n  -- 4,391,192 by"
-    },
-    {
-      "value": "3735499b797eee6ceaeb07d1e04baf00",
-      "type": "md5",
-      "source_name": "Unit 42 (GitHub)",
-      "article_title": "2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_url": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-11-20-RRM-packages-disguised-as-PDF-reader-software.txt",
-      "article_date": "2026-11-27T06:59:43.078139+00:00",
-      "context": "52392a60688b941796fddcb14c9b5df2a0db6b726f1bca074b\n  -- MD5 3735499b797eee6ceaeb07d1e04baf00\n  -- SHA1 f80fb987c4f894e3e"
     }
   ],
   "cisa_kev": [
@@ -3251,14 +3206,13 @@
   ],
   "stats": {
     "total_structured": 205,
-    "total_extracted": 47,
-    "total": 252,
+    "total_extracted": 42,
+    "total": 247,
     "by_type": {
       "ip": 220,
       "cve": 14,
-      "md5": 9,
-      "sha256": 8,
-      "sha1": 1
+      "md5": 8,
+      "sha256": 5
     },
     "by_source": {
       "Emerging Threats": 100,
@@ -3267,8 +3221,7 @@
       "Cisco Talos": 10,
       "SANS ISC": 10,
       "Feodo Tracker": 5,
-      "Kaspersky Securelist": 5,
-      "Unit 42 (GitHub)": 5
+      "Kaspersky Securelist": 5
     }
   },
   "errors": [
@@ -3279,6 +3232,7 @@
     "[c2tracker/Metasploit C2]: HTTP Error 404: Not Found",
     "[c2tracker/Brute Ratel C4]: HTTP Error 404: Not Found",
     "[blog_rss/Google TAG]: HTTP Error 404: Not Found",
-    "[blog_rss/FortiGuard]: HTTP Error 404: Not Found"
+    "[blog_rss/FortiGuard]: HTTP Error 404: Not Found",
+    "[unit42_github]: HTTP Error 403: rate limit exceeded"
   ]
 }
